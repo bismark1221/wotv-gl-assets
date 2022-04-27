@@ -1,0 +1,2192 @@
+{
+  "infos": [
+    {
+      "key": "BUFF_Buff",
+      "value": " ↑"
+    },
+    {
+      "key": "BUFF_Debuff",
+      "value": " ↓"
+    },
+    {
+      "key": "BUFF_Resist",
+      "value": "Rés "
+    },
+    {
+      "key": "BUFF_Release",
+      "value": " dissipé(e)"
+    },
+    {
+      "key": "BUFF_ReleaseBuff",
+      "value": "Dissipe les bonus"
+    },
+    {
+      "key": "BUFF_ReleaseDebuff",
+      "value": "Dissipe les malus"
+    },
+    {
+      "key": "BUFF_Invalid",
+      "value": "Annule "
+    },
+    {
+      "key": "BUFF_Unknown",
+      "value": "Inconnu"
+    },
+    {
+      "key": "BUFF_Hp",
+      "value": "PV max"
+    },
+    {
+      "key": "BUFF_Mp",
+      "value": "PT max"
+    },
+    {
+      "key": "BUFF_Ap",
+      "value": "PA max"
+    },
+    {
+      "key": "BUFF_Ct",
+      "value": "CT"
+    },
+    {
+      "key": "BUFF_Atk",
+      "value": "ATT"
+    },
+    {
+      "key": "BUFF_Def",
+      "value": "DEF"
+    },
+    {
+      "key": "BUFF_Mag",
+      "value": "MAGIE"
+    },
+    {
+      "key": "BUFF_Mnd",
+      "value": "PSY"
+    },
+    {
+      "key": "BUFF_Dex",
+      "value": "DEX"
+    },
+    {
+      "key": "BUFF_Spd",
+      "value": "AGI"
+    },
+    {
+      "key": "BUFF_Luk",
+      "value": "Chance"
+    },
+    {
+      "key": "BUFF_Mov",
+      "value": "Déplacement"
+    },
+    {
+      "key": "BUFF_Jmp",
+      "value": "Saut"
+    },
+    {
+      "key": "BUFF_ElemNone",
+      "value": "Attaque non-élémentaire"
+    },
+    {
+      "key": "BUFF_ElemFire",
+      "value": "Attaque de feu"
+    },
+    {
+      "key": "BUFF_ElemIce",
+      "value": "Attaque de glace"
+    },
+    {
+      "key": "BUFF_ElemWind",
+      "value": "Attaque de vent"
+    },
+    {
+      "key": "BUFF_ElemEarth",
+      "value": "Attaque de terre"
+    },
+    {
+      "key": "BUFF_ElemThunder",
+      "value": "Attaque de foudre"
+    },
+    {
+      "key": "BUFF_ElemWater",
+      "value": "Attaque d'eau"
+    },
+    {
+      "key": "BUFF_ElemShine",
+      "value": "Attaque de lumière"
+    },
+    {
+      "key": "BUFF_ElemDark",
+      "value": "Attaque d'ombre"
+    },
+    {
+      "key": "BUFF_ElemAll",
+      "value": "Attaque tous éléments"
+    },
+    {
+      "key": "GL_BUFF_ElemNoneResist",
+      "value": "Rés aux attaques non-élémentaires"
+    },
+    {
+      "key": "GL_BUFF_ElemFireResist",
+      "value": "Rés aux attaques de feu"
+    },
+    {
+      "key": "GL_BUFF_ElemIceResist",
+      "value": "Rés aux attaques de glace"
+    },
+    {
+      "key": "GL_BUFF_ElemWindResist",
+      "value": "Rés aux attaques de vent"
+    },
+    {
+      "key": "GL_BUFF_ElemEarthResist",
+      "value": "Rés aux attaques de terre"
+    },
+    {
+      "key": "GL_BUFF_ElemThunderResist",
+      "value": "Rés aux attaques de foudre"
+    },
+    {
+      "key": "GL_BUFF_ElemWaterResist",
+      "value": "Rés aux attaques d'eau"
+    },
+    {
+      "key": "GL_BUFF_ElemShineResist",
+      "value": "Rés aux attaques de lumière"
+    },
+    {
+      "key": "GL_BUFF_ElemDarkResist",
+      "value": "Rés aux attaques d'ombre"
+    },
+    {
+      "key": "GL_BUFF_ElemAllResist",
+      "value": "Rés aux attaques tous éléments"
+    },
+    {
+      "key": "BUFF_AttackSlash",
+      "value": "Attaque tranchante"
+    },
+    {
+      "key": "BUFF_AttackPierce",
+      "value": "Attaque perçante"
+    },
+    {
+      "key": "BUFF_AttackBlow",
+      "value": "Attaque contondante"
+    },
+    {
+      "key": "BUFF_AttackShot",
+      "value": "Attaque projectile"
+    },
+    {
+      "key": "BUFF_AttackMagic",
+      "value": "Attaque magique"
+    },
+    {
+      "key": "BUFF_AttackAll",
+      "value": "Toutes les attaques"
+    },
+    {
+      "key": "BUFF_CondHealHp",
+      "value": "Récup"
+    },
+    {
+      "key": "BUFF_CondHealMp",
+      "value": "Recharge"
+    },
+    {
+      "key": "BUFF_CondHealAp",
+      "value": "Restauration auto des PA"
+    },
+    {
+      "key": "BUFF_CondAbsorbHp",
+      "value": "Aspire-PV"
+    },
+    {
+      "key": "BUFF_CondPoison",
+      "value": "Poison"
+    },
+    {
+      "key": "BUFF_CondBlinded",
+      "value": "Cécité"
+    },
+    {
+      "key": "BUFF_CondSleep",
+      "value": "Sommeil"
+    },
+    {
+      "key": "BUFF_CondMute",
+      "value": "Silence"
+    },
+    {
+      "key": "BUFF_CondParalysis",
+      "value": "Paralysie"
+    },
+    {
+      "key": "BUFF_CondConfusion",
+      "value": "Confusion"
+    },
+    {
+      "key": "BUFF_CondCharm",
+      "value": "Charme"
+    },
+    {
+      "key": "BUFF_CondPetrification",
+      "value": "Pétrification"
+    },
+    {
+      "key": "BUFF_CondFrozen",
+      "value": "Gelure"
+    },
+    {
+      "key": "BUFF_CondFrog",
+      "value": "Crapaud"
+    },
+    {
+      "key": "BUFF_CondChicken",
+      "value": "Poule mouillée"
+    },
+    {
+      "key": "BUFF_CondHaste",
+      "value": "Booster"
+    },
+    {
+      "key": "BUFF_CondSlow",
+      "value": "Lenteur"
+    },
+    {
+      "key": "BUFF_CondStop",
+      "value": "Stop"
+    },
+    {
+      "key": "BUFF_CondStun",
+      "value": "Étourdissement"
+    },
+    {
+      "key": "BUFF_CondDontMove",
+      "value": "Immobilisation"
+    },
+    {
+      "key": "BUFF_CondDontAction",
+      "value": "Incapacité"
+    },
+    {
+      "key": "BUFF_CondBerserk",
+      "value": "Berserk"
+    },
+    {
+      "key": "BUFF_CondDoom",
+      "value": "Peine de mort"
+    },
+    {
+      "key": "BUFF_CondRaise",
+      "value": "Vie"
+    },
+    {
+      "key": "BUFF_CondReraise",
+      "value": "Auréole"
+    },
+    {
+      "key": "BUFF_CondProtect",
+      "value": "Bouclier"
+    },
+    {
+      "key": "BUFF_CondShell",
+      "value": "Barrière"
+    },
+    {
+      "key": "BUFF_CondReflec",
+      "value": "Boomerang"
+    },
+    {
+      "key": "BUFF_CondFaith",
+      "value": "Foi"
+    },
+    {
+      "key": "BUFF_CondInnocen",
+      "value": "Innocence"
+    },
+    {
+      "key": "BUFF_CondLevitate",
+      "value": "Apesanteur"
+    },
+    {
+      "key": "BUFF_CondDeath",
+      "value": "Mort instantanée"
+    },
+    {
+      "key": "BUFF_CondQuick",
+      "value": "Accélération"
+    },
+    {
+      "key": "BUFF_CondGuts",
+      "value": "Hardiesse"
+    },
+    {
+      "key": "BUFF_CondPhyPerfectAvoid",
+      "value": "Esquive physique parfaite"
+    },
+    {
+      "key": "BUFF_CondMagPerfectAvoid",
+      "value": "Esquive magique parfaite"
+    },
+    {
+      "key": "BUFF_CondPerfectHit",
+      "value": "Coup garanti"
+    },
+    {
+      "key": "BUFF_CondPerfectCritical",
+      "value": "Critique"
+    },
+    {
+      "key": "BUFF_CondKillerElementDamage",
+      "value": "Dégâts à élémentaire spécifique"
+    },
+    {
+      "key": "BUFF_CondKillerSpeciesDamage",
+      "value": "Dégâts à espèce spécifique"
+    },
+    {
+      "key": "BUFF_CondKillerBirthDamage",
+      "value": "Dégâts à royaume spécifique"
+    },
+    {
+      "key": "BUFF_CondKillerTagDamage",
+      "value": "Dégâts à type spécifique"
+    },
+    {
+      "key": "BUFF_CondKillerSexDamage",
+      "value": "Dégâts à genre spécifique"
+    },
+    {
+      "key": "BUFF_CondPetrifiedStare",
+      "value": "Ankylose"
+    },
+    {
+      "key": "BUFF_CondEnchant",
+      "value": "Enchanter"
+    },
+    {
+      "key": "BUFF_CondChangeCt",
+      "value": "Changement de la jauge de CT"
+    },
+    {
+      "key": "BUFF_CondAllEsuna",
+      "value": "Guérison"
+    },
+    {
+      "key": "BUFF_CondAllDespell",
+      "value": "Dissipation"
+    },
+    {
+      "key": "BUFF_CondAllStrenResist",
+      "value": " Tous "
+    },
+    {
+      "key": "BUFF_CondReplaceSkill",
+      "value": "Changement d'aptitude"
+    },
+    {
+      "key": "BUFF_CondBarrageSlash",
+      "value": "Utilisation répétitive de la même attaque tranchante"
+    },
+    {
+      "key": "BUFF_CondBarragePierce",
+      "value": "Utilisation répétitive de la même attaque perçante"
+    },
+    {
+      "key": "BUFF_CondBarrageBlow",
+      "value": "Utilisation répétitive de la même attaque contondante"
+    },
+    {
+      "key": "BUFF_CondBarrageShot",
+      "value": "Utilisation répétitive de la même attaque projectile"
+    },
+    {
+      "key": "BUFF_CondBarrageMagic",
+      "value": "Utilisation répétitive de la même attaque magique"
+    },
+    {
+      "key": "BUFF_CondEnchantSkill",
+      "value": "Enchanter"
+    },
+    {
+      "key": "BUFF_OtherInitAp",
+      "value": "PA initiaux"
+    },
+    {
+      "key": "BUFF_OtherEffectRange",
+      "value": "Portée d'effet"
+    },
+    {
+      "key": "BUFF_OtherEffectScope",
+      "value": "Zone d'effet"
+    },
+    {
+      "key": "BUFF_OtherEffectHeight",
+      "value": "Hauteur d'effet"
+    },
+    {
+      "key": "BUFF_OtherHit",
+      "value": "Précision"
+    },
+    {
+      "key": "BUFF_OtherAvoid",
+      "value": "Esquive"
+    },
+    {
+      "key": "BUFF_OtherCrtRate",
+      "value": "Dégâts critiques"
+    },
+    {
+      "key": "BUFF_OtherCrtHit",
+      "value": "Taux de coups critiques"
+    },
+    {
+      "key": "BUFF_OtherCrtAvoid",
+      "value": "Esquive critique"
+    },
+    {
+      "key": "BUFF_OtherKillerElement",
+      "value": "Élémentophage"
+    },
+    {
+      "key": "BUFF_OtherKillerSpecies",
+      "value": "Tue-espèces"
+    },
+    {
+      "key": "BUFF_OtherKillerSex",
+      "value": "Tue-genre"
+    },
+    {
+      "key": "BUFF_OtherHate",
+      "value": "Haine"
+    },
+    {
+      "key": "BUFF_OtherBrave",
+      "value": "Bravoure"
+    },
+    {
+      "key": "BUFF_OtherFaith",
+      "value": "Foi"
+    },
+    {
+      "key": "BUFF_OtherDebuffResist",
+      "value": "Rés à tous les malus"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistHp",
+      "value": "Rés aux malus de PV"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistAtk",
+      "value": "Rés aux malus d'ATT"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistDef",
+      "value": "Rés aux malus de DEF"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistMag",
+      "value": "Rés aux malus de MAGIE"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistMnd",
+      "value": "Rés aux malus de PSY"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistDex",
+      "value": "Rés aux malus de DEX"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistSpd",
+      "value": "Rés aux malus d'AGI"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistLuk",
+      "value": "Rés aux malus de Chance"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistSlash",
+      "value": "Rés aux malus tranchants"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistPierce",
+      "value": "Rés aux malus perçants"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistBlow",
+      "value": "Rés aux malus contondants"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistShot",
+      "value": "Rés aux malus projectiles"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistMagic",
+      "value": "Rés aux malus magiques"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistHit",
+      "value": "Rés aux malus de Précision"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistAvoid",
+      "value": "Rés aux malus d'Esquive"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistBrave",
+      "value": "Rés aux malus de Bravoure"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistFaith",
+      "value": "Rés aux malus de Foi"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistFireR",
+      "value": "Rés aux malus de feu"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistIceR",
+      "value": "Rés aux malus de glace"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistWindR",
+      "value": "Rés aux malus de vent"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistEarthR",
+      "value": "Rés aux malus de terre"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistThunderR",
+      "value": "Rés aux malus de foudre"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistWaterR",
+      "value": "Rés aux malus d'eau"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistShineR",
+      "value": "Rés aux malus de lumière"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistDarkR",
+      "value": "Rés aux malus d'ombre"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistSlashR",
+      "value": "Rés aux malus de la Rés aux attaques tranchantes"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistPierceR",
+      "value": "Rés aux malus de la Rés aux attaques perçantes"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistBlowR",
+      "value": "Rés aux malus de la Rés aux attaques contondantes"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistShotR",
+      "value": "Rés aux malus de la Rés aux attaques projectiles"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistMagicR",
+      "value": "Rés aux malus de la Rés magique"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistAttackR",
+      "value": "Rés aux malus de la Rés à toutes les attaques"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistElementR",
+      "value": "Rés aux malus à tous les éléments"
+    },
+    {
+      "key": "BUFF_OtherBuffTurn",
+      "value": "Prolongement des tours des bonus"
+    },
+    {
+      "key": "BUFF_OtherDebuffTurn",
+      "value": "Prolongement des tours de malus"
+    },
+    {
+      "key": "BUFF_OtherOneAttackResist",
+      "value": "Rés aux attaques à cible unique"
+    },
+    {
+      "key": "BUFF_OtherRangeAttackResist",
+      "value": "Rés aux attaques de zone"
+    },
+    {
+      "key": "BUFF_OtherDamageMax",
+      "value": "Dégâts max"
+    },
+    {
+      "key": "BUFF_OtherCastTime",
+      "value": "Délai d'activation des aptitudes de non-attaque"
+    },
+    {
+      "key": "BUFF_OtherAttackCastTime",
+      "value": "Délai d'activation des aptitudes d'attaque"
+    },
+    {
+      "key": "BUFF_OtherApGain",
+      "value": "PA acquis"
+    },
+    {
+      "key": "BUFF_OtherSpGain",
+      "value": "Augmente la jauge d'invocation"
+    },
+    {
+      "key": "BUFF_OtherBraveBonus",
+      "value": "Bonus de Bravoure"
+    },
+    {
+      "key": "BUFF_OtherFaithBonus",
+      "value": "Bonus de Foi"
+    },
+    {
+      "key": "BUFF_OtherJpGain",
+      "value": "PJ acquis"
+    },
+    {
+      "key": "BUFF_OtherPosDefIgnore",
+      "value": "Taux de perforation de la DEF"
+    },
+    {
+      "key": "BUFF_OtherNegDefIgnore",
+      "value": "Ignore la DEF négative"
+    },
+    {
+      "key": "BUFF_OtherApCostCut",
+      "value": "Taux du coût en PA"
+    },
+    {
+      "key": "BUFF_OtherTpDmgAvoid",
+      "value": "Taux d'esquive d'attaque de PT"
+    },
+    {
+      "key": "BUFF_OtherApDmgAvoid",
+      "value": "Taux d'esquive d'attaque de PA"
+    },
+    {
+      "key": "BUFF_OtherPosMndIgnore",
+      "value": "Taux de perforation de la PSY"
+    },
+    {
+      "key": "BUFF_OtherNegMndIgnore",
+      "value": "Ignore la PSY négative"
+    },
+    {
+      "key": "BUFF_OtherPosSlashIgnore",
+      "value": "Taux de perforation de la Rés aux attaques tranchantes"
+    },
+    {
+      "key": "BUFF_OtherNegSlashIgnore",
+      "value": "Ignore la Rés att tranchantes négative"
+    },
+    {
+      "key": "BUFF_OtherPosPierceIgnore",
+      "value": "Taux de perforation de la Rés aux attaques perçantes"
+    },
+    {
+      "key": "BUFF_OtherNegPierceIgnore",
+      "value": "Ignore la Rés att perçantes négative"
+    },
+    {
+      "key": "BUFF_OtherPosBlowIgnore",
+      "value": "Taux de perforation de la Rés aux attaques contondante"
+    },
+    {
+      "key": "BUFF_OtherNegBlowIgnore",
+      "value": "Ignore la Rés att contondantes négative"
+    },
+    {
+      "key": "BUFF_OtherPosShotIgnore",
+      "value": "Taux de perforation de la résistance aux attaques projectiles"
+    },
+    {
+      "key": "BUFF_OtherNegShotIgnore",
+      "value": "Ignore la Rés att projectiles négative"
+    },
+    {
+      "key": "BUFF_OtherPosMagicIgnore",
+      "value": "Taux de perforation de la Rés aux attaques magiques"
+    },
+    {
+      "key": "BUFF_OtherNegMagicIgnore",
+      "value": "Ignore la Rés magique négative"
+    },
+    {
+      "key": "BUFF_OtherPosFireIgnore",
+      "value": "Taux de perforation de la Rés aux attaques de feu"
+    },
+    {
+      "key": "BUFF_OtherNegFireIgnore",
+      "value": "Ignore la Rés feu négative"
+    },
+    {
+      "key": "BUFF_OtherPosIceIgnore",
+      "value": "Taux de perforation de la Rés aux attaques de glace"
+    },
+    {
+      "key": "BUFF_OtherNegIceIgnore",
+      "value": "Ignore la Rés glace négative"
+    },
+    {
+      "key": "BUFF_OtherPosWindIgnore",
+      "value": "Taux de perforation de la Rés aux attaques de vent"
+    },
+    {
+      "key": "BUFF_OtherNegWindIgnore",
+      "value": "Ignore la Rés vent négative"
+    },
+    {
+      "key": "BUFF_OtherPosEarthIgnore",
+      "value": "Taux de perforation de la Rés aux attaques de terre"
+    },
+    {
+      "key": "BUFF_OtherNegEarthIgnore",
+      "value": "Ignore la Rés terre négative"
+    },
+    {
+      "key": "BUFF_OtherPosThunderIgnore",
+      "value": "Taux de perforation de la Rés aux attaques de foudre"
+    },
+    {
+      "key": "BUFF_OtherNegThunderIgnore",
+      "value": "Ignore la Rés foudre négative"
+    },
+    {
+      "key": "BUFF_OtherPosWaterIgnore",
+      "value": "Taux de perforation de la Rés aux attaques d'eau"
+    },
+    {
+      "key": "BUFF_OtherNegWaterIgnore",
+      "value": "Ignore la Rés eau négative"
+    },
+    {
+      "key": "BUFF_OtherPosShineIgnore",
+      "value": "Taux de perforation de la Rés aux attaques de lumière"
+    },
+    {
+      "key": "BUFF_OtherNegShineIgnore",
+      "value": "Ignore la Rés lumière négative"
+    },
+    {
+      "key": "BUFF_OtherPosDarkIgnore",
+      "value": "Taux de perforation de la Rés aux attaques d'ombre"
+    },
+    {
+      "key": "BUFF_OtherNegDarkIgnore",
+      "value": "Ignore la Rés ombre négative"
+    },
+    {
+      "key": "BUFF_OtherHealPow",
+      "value": "Compétences de soin"
+    },
+    {
+      "key": "BUFF_OtherIgnReactResist",
+      "value": "Rés à Annulation d'aptitude de réaction"
+    },
+    {
+      "key": "BUFF_OtherIgnReact",
+      "value": "Taux d'activation d'aptitude de réaction ↓"
+    },
+    {
+      "key": "BUFF_UnitTagFloating",
+      "value": "Aérien"
+    },
+    {
+      "key": "BUFF_UnitTagIgnoreGround",
+      "value": "Ignore le terrain"
+    },
+    {
+      "key": "BUFF_KillerElementFire",
+      "value": "Pyrophage"
+    },
+    {
+      "key": "BUFF_KillerElementIce",
+      "value": "Cryophage"
+    },
+    {
+      "key": "BUFF_KillerElementWind",
+      "value": "Éophage"
+    },
+    {
+      "key": "BUFF_KillerElementEarth",
+      "value": "Terraphage"
+    },
+    {
+      "key": "BUFF_KillerElementThunder",
+      "value": "Foudrophage"
+    },
+    {
+      "key": "BUFF_KillerElementWater",
+      "value": "Hydrophage"
+    },
+    {
+      "key": "BUFF_KillerElementShine",
+      "value": "Luminophage"
+    },
+    {
+      "key": "BUFF_KillerElementDark",
+      "value": "Noctophage"
+    },
+    {
+      "key": "BUFF_KillerElementDamageFire",
+      "value": "Dégâts fixes de feu"
+    },
+    {
+      "key": "BUFF_KillerElementDamageIce",
+      "value": "Dégâts fixes de glace"
+    },
+    {
+      "key": "BUFF_KillerElementDamageWind",
+      "value": "Dégâts fixes de vent"
+    },
+    {
+      "key": "BUFF_KillerElementDamageEarth",
+      "value": "Dégâts fixes de terre"
+    },
+    {
+      "key": "BUFF_KillerElementDamageThunder",
+      "value": "Dégâts fixes de foudre"
+    },
+    {
+      "key": "BUFF_KillerElementDamageWater",
+      "value": "Dégâts fixes d'eau"
+    },
+    {
+      "key": "BUFF_KillerElementDamageShine",
+      "value": "Dégâts fixes de lumière"
+    },
+    {
+      "key": "BUFF_KillerElementDamageDark",
+      "value": "Dégâts fixes d'ombre"
+    },
+    {
+      "key": "BUFF_KillerSpeciesHuman",
+      "value": "Anthropophage"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPHuman",
+      "value": "Anthropophage conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMHuman",
+      "value": "Anthropophage conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesNetherBeast",
+      "value": "Tue-chimères"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPNetherBeast",
+      "value": "Tue-chimères conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMNetherBeast",
+      "value": "Tue-chimères conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesBeast",
+      "value": "Tue-bêtes"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPBeast",
+      "value": "Tue-bêtes conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMBeast",
+      "value": "Tue-bêtes conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDemon",
+      "value": "Tue-démons"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPDemon",
+      "value": "Tue-démons conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMDemon",
+      "value": "Tue-démons conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDragon",
+      "value": "Tue-dragons"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPDragon",
+      "value": "Tue-dragons conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMDragon",
+      "value": "Tue-dragons conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPlane",
+      "value": "Tue-végétaux"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPPlane",
+      "value": "Tue-végétaux conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMPlane",
+      "value": "Tue-végétaux conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesBird",
+      "value": "Tue-oiseaux"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPBird",
+      "value": "Tue-oiseaux conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMBird",
+      "value": "Tue-oiseaux conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesInsect",
+      "value": "Tue-insectes"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPInsect",
+      "value": "Tue-insectes conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMInsect",
+      "value": "Tue-insectes conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesAquatic",
+      "value": "Tue-aquatiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPAquatic",
+      "value": "Tue-aquatiques conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMAquatic",
+      "value": "Tue-aquatiques conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMachine",
+      "value": "Tue-machines"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPMachine",
+      "value": "Tue-machines conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMMachine",
+      "value": "Tue-machines conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesSpirit",
+      "value": "Tue-esprits"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPSpirit",
+      "value": "Tue-esprits conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMSpirit",
+      "value": "Tue-esprits conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesUndead",
+      "value": "Tue-faucheurs"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPUndead",
+      "value": "Tue-faucheurs conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMUndead",
+      "value": "Tue-faucheurs conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesStone",
+      "value": "Tue-pierres"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPStone",
+      "value": "Tue-pierre conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMStone",
+      "value": "Tue-pierre conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMetal",
+      "value": "Tue-métaux"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPMetal",
+      "value": "Tue-métaux conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMMetal",
+      "value": "Tue-métaux conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMagCreature",
+      "value": "Tue-créatures magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPMagCreature",
+      "value": "Tue-créatures magiques conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMMagCreature",
+      "value": "Tue-créatures magiques conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageHuman",
+      "value": "Dégâts fixes aux humains"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageNetherBeast",
+      "value": "Dégâts fixes aux chimères"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageBeast",
+      "value": "Dégâts fixes aux bêtes"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageDemon",
+      "value": "Dégâts fixes aux démons"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageDragon",
+      "value": "Dégâts fixes aux dragons"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamagePlane",
+      "value": "Dégâts fixes aux végétaux"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageBird",
+      "value": "Dégâts fixes aux oiseaux"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageInsect",
+      "value": "Dégâts fixes aux insectes"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageAquatic",
+      "value": "Dégâts fixes aux aquatiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageMachine",
+      "value": "Dégâts fixes aux machines"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageSpirit",
+      "value": "Dégâts fixes aux esprits"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageUndead",
+      "value": "Dégâts fixes aux faucheurs"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageStone",
+      "value": "Dégâts fixes aux pierres"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageMetal",
+      "value": "Dégâts fixes aux métaux"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageMagCreature",
+      "value": "Dégâts fixes aux créatures magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthUnknown",
+      "value": "Tue-royaume inconnu"
+    },
+    {
+      "key": "BUFF_KillerBirthLeonis",
+      "value": "Tue-Leonis"
+    },
+    {
+      "key": "BUFF_KillerBirthHourn",
+      "value": "Tue-Hourne"
+    },
+    {
+      "key": "BUFF_KillerBirthFenice",
+      "value": "Tue-Fennes"
+    },
+    {
+      "key": "BUFF_KillerBirthWezett",
+      "value": "Tue-Wezett"
+    },
+    {
+      "key": "BUFF_KillerBirthCrystalFaith",
+      "value": "Tue-Église du Cristal"
+    },
+    {
+      "key": "BUFF_KillerBirthAllyare",
+      "value": "Tue-Ariale"
+    },
+    {
+      "key": "BUFF_KillerBirthRundall",
+      "value": "Tue-Rundall"
+    },
+    {
+      "key": "BUFF_KillerBirthCyga",
+      "value": "Tue-Saiga"
+    },
+    {
+      "key": "BUFF_KillerBirthGuren",
+      "value": "Tue-Rubeus"
+    },
+    {
+      "key": "BUFF_KillerBirthOwis",
+      "value": "Tue-Ovis"
+    },
+    {
+      "key": "BUFF_KillerBirthHyndra",
+      "value": "Tue-Heindler"
+    },
+    {
+      "key": "BUFF_KillerBirthFFBE",
+      "value": "Tue-FFBE"
+    },
+    {
+      "key": "BUFF_KillerBirthFF1",
+      "value": "Tue-FFI"
+    },
+    {
+      "key": "BUFF_KillerBirthFF2",
+      "value": "Tue-FFII"
+    },
+    {
+      "key": "BUFF_KillerBirthFF3",
+      "value": "Tue-FFIII"
+    },
+    {
+      "key": "BUFF_KillerBirthFF4",
+      "value": "Tue-FFIV"
+    },
+    {
+      "key": "BUFF_KillerBirthFF5",
+      "value": "Tue-FFV"
+    },
+    {
+      "key": "BUFF_KillerBirthFF6",
+      "value": "Tue-FFVI"
+    },
+    {
+      "key": "BUFF_KillerBirthFF7",
+      "value": "Tue-FFVII"
+    },
+    {
+      "key": "BUFF_KillerBirthFF8",
+      "value": "Tue-FFVIII"
+    },
+    {
+      "key": "BUFF_KillerBirthFF9",
+      "value": "Tue-FFIX"
+    },
+    {
+      "key": "BUFF_KillerBirthFF10",
+      "value": "Tue-FFX"
+    },
+    {
+      "key": "BUFF_KillerBirthFF11",
+      "value": "Tue-FFXI"
+    },
+    {
+      "key": "BUFF_KillerBirthFF12",
+      "value": "Tue-FFXII"
+    },
+    {
+      "key": "BUFF_KillerBirthFF13",
+      "value": "Tue-FFXIII"
+    },
+    {
+      "key": "BUFF_KillerBirthFF14",
+      "value": "Tue-FFXIV"
+    },
+    {
+      "key": "BUFF_KillerBirthFF15",
+      "value": "Tue-FFXV"
+    },
+    {
+      "key": "BUFF_KillerBirthFFT",
+      "value": "Tue-FFT"
+    },
+    {
+      "key": "BUFF_KillerBirthGoga",
+      "value": "Tue-Gouga"
+    },
+    {
+      "key": "BUFF_KillerBirthNieRAutomata",
+      "value": "Tue-NieR"
+    },
+    {
+      "key": "BUFF_KillerBirthLykeros",
+      "value": "Tue-Lykeros"
+    },
+    {
+      "key": "BUFF_KillerBirthTombRaider",
+      "value": "Tue-Tomb Raider"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageUnknown",
+      "value": "Dégâts fixes sur royaume inconnu"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageLeonis",
+      "value": "Dégâts fixes sur Leonis"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageHourn",
+      "value": "Dégâts fixes sur Hourne"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFenice",
+      "value": "Dégâts fixes sur Fennes"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageWezett",
+      "value": "Dégâts fixes sur Wezett"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageCrystalFaith",
+      "value": "Dégâts fixes sur l'Église du Cristal"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageAllyare",
+      "value": "Dégâts fixes sur Ariale"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageRundall",
+      "value": "Dégâts fixes sur Rundall"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageCyga",
+      "value": "Dégâts fixes sur Saiga"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageGuren",
+      "value": "Dégâts fixes sur Rubeus"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageOwis",
+      "value": "Dégâts fixes sur Ovis"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageHyndra",
+      "value": "Dégâts fixes sur Heindler"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFFBE",
+      "value": "Dégâts fixes sur FFBE"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF1",
+      "value": "Dégâts fixes sur FFI"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF2",
+      "value": "Dégâts fixes sur FFII"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF3",
+      "value": "Dégâts fixes sur FFIII"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF4",
+      "value": "Dégâts fixes sur FFIV"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF5",
+      "value": "Dégâts fixes sur FFV"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF6",
+      "value": "Dégâts fixes sur FFVI"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF7",
+      "value": "Dégâts fixes sur FFVII"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF8",
+      "value": "Dégâts fixes sur FFVIII"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF9",
+      "value": "Dégâts fixes sur FFIX"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF10",
+      "value": "Dégâts fixes sur FFX"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF11",
+      "value": "Dégâts fixes sur FFXI"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF12",
+      "value": "Dégâts fixes sur FFXII"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF13",
+      "value": "Dégâts fixes sur FFXIII"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF14",
+      "value": "Dégâts fixes sur FFXIV"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFF15",
+      "value": "Dégâts fixes sur FFXV"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFFT",
+      "value": "Dégâts fixes sur FFT"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageGoga",
+      "value": "Dégâts fixes sur Gouga"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageNieRAutomata",
+      "value": "Dégâts fixes à NieR"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageLykeros",
+      "value": "Dégâts fixes sur Lykeros"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageTombRaider",
+      "value": "Dégâts fixes sur Tomb Raider"
+    },
+    {
+      "key": "BUFF_KillerUnitTagFloating",
+      "value": "Tue-aériens"
+    },
+    {
+      "key": "BUFF_KillerUnitTagIgnoreGround",
+      "value": "Tue-Ignore le terrain"
+    },
+    {
+      "key": "BUFF_KillerUnitTagDamageFloating",
+      "value": "Dégâts fixes sur Aérien"
+    },
+    {
+      "key": "BUFF_KillerUnitTagDamageIgnoreGround",
+      "value": "Dégâts fixes sur Ignore le terrain"
+    },
+    {
+      "key": "BUFF_KillerSexMale",
+      "value": "Tue-Mars"
+    },
+    {
+      "key": "BUFF_KillerSexFemale",
+      "value": "Tue-Vénus"
+    },
+    {
+      "key": "BUFF_KillerSexUnknown",
+      "value": "Tue-Mercure"
+    },
+    {
+      "key": "BUFF_KillerSexPMale",
+      "value": "Tue-Mars physique"
+    },
+    {
+      "key": "BUFF_KillerSexPFemale",
+      "value": "Tue-Vénus physique"
+    },
+    {
+      "key": "BUFF_KillerSexPUnknown",
+      "value": "Tue-Mercure physique"
+    },
+    {
+      "key": "BUFF_KillerSexMMale",
+      "value": "Tue-Mars magique"
+    },
+    {
+      "key": "BUFF_KillerSexMFemale",
+      "value": "Tue-Vénus magique"
+    },
+    {
+      "key": "BUFF_KillerSexMUnknown",
+      "value": "Tue-Mercure magique"
+    },
+    {
+      "key": "BUFF_KillerSexDamageMale",
+      "value": "Dégâts fixes sur Mars"
+    },
+    {
+      "key": "BUFF_KillerSexDamageFemale",
+      "value": "Dégâts fixes sur Vénus"
+    },
+    {
+      "key": "BUFF_KillerSexDamageUnknown",
+      "value": "Dégâts fixes sur Mercure"
+    },
+    {
+      "key": "BUFF_ExeShieldTarget1",
+      "value": "Magique et physique : "
+    },
+    {
+      "key": "BUFF_ExeShieldTarget2",
+      "value": "Physique : "
+    },
+    {
+      "key": "BUFF_ExeShieldTarget3",
+      "value": "Magique : "
+    },
+    {
+      "key": "BUFF_ExeShield1",
+      "value": "DEF"
+    },
+    {
+      "key": "BUFF_ExeShield2",
+      "value": "Bouclier ({0} PV)"
+    },
+    {
+      "key": "BUFF_ExeShield3",
+      "value": "Bouclier ({0} fois)"
+    },
+    {
+      "key": "BUFF_ExeShield4",
+      "value": "Bouclier ({0} fois ou {1} PV)"
+    },
+    {
+      "key": "BUFF_ExeShield5",
+      "value": "Bouclier ({0} tour(s))"
+    },
+    {
+      "key": "BUFF_ExeShield6",
+      "value": "Bouclier ({0} fois ou {1} PV)"
+    },
+    {
+      "key": "BUFF_ExeReflec1",
+      "value": "Boomerang ({0} tour(s))"
+    },
+    {
+      "key": "BUFF_ExeReflec2",
+      "value": "Boomerang ({0} fois)"
+    },
+    {
+      "key": "BUFF_ExeReflec3",
+      "value": "Boomerang ({0} tour(s) et {1} fois)"
+    },
+    {
+      "key": "BUFF_CastTimeBuff",
+      "value": " Réduction "
+    },
+    {
+      "key": "BUFF_CastTimeDebuff",
+      "value": " Prolongation "
+    },
+    {
+      "key": "BUFFHEAL_Hp",
+      "value": "Restaure-PV"
+    },
+    {
+      "key": "BUFFHEAL_Mp",
+      "value": "Restaure-PT"
+    },
+    {
+      "key": "BUFFHEAL_Ap",
+      "value": "Restaure-PA"
+    },
+    {
+      "key": "BUFF_Sp",
+      "value": "Jauge d'invocation"
+    },
+    {
+      "key": "BUFF_CondMafuken",
+      "value": "Effet de lame égide"
+    },
+    {
+      "key": "BUFF_CondEnchantAutoDmg",
+      "value": "Auto-Enchantement"
+    },
+    {
+      "key": "BUFF_OtherStopReactRate",
+      "value": "Taux de blocage de réaction"
+    },
+    {
+      "key": "BUFF_OtherAvoidSlash",
+      "value": "Taux d'esquive d'attaque tranchante"
+    },
+    {
+      "key": "BUFF_OtherAvoidPierce",
+      "value": "Taux d'esquive d'attaque perçante"
+    },
+    {
+      "key": "BUFF_OtherAvoidBlow",
+      "value": "Taux d'esquive d'attaque contondante"
+    },
+    {
+      "key": "BUFF_OtherAvoidShot",
+      "value": "Taux d'esquive d'attaque projectile"
+    },
+    {
+      "key": "BUFF_OtherAvoidMagic",
+      "value": "Taux d'esquive d'attaque magique"
+    },
+    {
+      "key": "BUFF_KillerElementPFire",
+      "value": "Pyrophage conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerElementMFire",
+      "value": "Pyrophage conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerElementPIce",
+      "value": "Cryophage conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerElementMIce",
+      "value": "Cryophage conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerElementPWind",
+      "value": "Éophage conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerElementMWind",
+      "value": "Éophage conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerElementPEarth",
+      "value": "Terraphage conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerElementMEarth",
+      "value": "Terraphage conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerElementPThunder",
+      "value": "Foudrophage conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerElementMThunder",
+      "value": "Foudrophage conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerElementPWater",
+      "value": "Hydrophage conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerElementMWater",
+      "value": "Hydrophage conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerElementPShine",
+      "value": "Luminophage conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerElementMShine",
+      "value": "Luminophage conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerElementPDark",
+      "value": "Noctophage conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerElementMDark",
+      "value": "Noctophage conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesCognition",
+      "value": "Tue-Capacité cognitive"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPCognition",
+      "value": "Tue-Capacité cognitive conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMCognition",
+      "value": "Tue-Capacité cognitive conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageCognition",
+      "value": "Dégâts fixes sur Capacité cognitive"
+    },
+    {
+      "key": "BUFF_KillerBirthPUnknown",
+      "value": "Tue-royaume inconnu conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMUnknown",
+      "value": "Tue-royaume inconnu conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPLeonis",
+      "value": "Tue-Leonis conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMLeonis",
+      "value": "Tue-Leonis conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPHourn",
+      "value": "Tue-Hourne conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMHourn",
+      "value": "Tue-Hourne conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFenice",
+      "value": "Tue-Fennes conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFenice",
+      "value": "Tue-Fennes conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPWezett",
+      "value": "Tue-Wezett conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMWezett",
+      "value": "Tue-Wezett conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPCrystalFaith",
+      "value": "Tue-Église du Cristal conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMCrystalFaith",
+      "value": "Tue-Église du Cristal conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPAllyare",
+      "value": "Tue-Ariale conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMAllyare",
+      "value": "Tue-Ariale conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPRundall",
+      "value": "Tue-Rundall conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMRundall",
+      "value": "Tue-Rundall conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPCyga",
+      "value": "Tue-Saiga conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMCyga",
+      "value": "Tue-Saiga conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPGuren",
+      "value": "Tue-Rubeus conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMGuren",
+      "value": "Tue-Rubeus conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPOwis",
+      "value": "Tue-Ovis conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMOwis",
+      "value": "Tue-Ovis conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPHyndra",
+      "value": "Tue-Heindler conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMHyndra",
+      "value": "Tue-Heindler conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFFBE",
+      "value": "Tue-FFBE conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFFBE",
+      "value": "Tue-FFBE conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF1",
+      "value": "Tue-FFI conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF1",
+      "value": "Tue-FFI conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF2",
+      "value": "Tue-FFII conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF2",
+      "value": "Tue-FFII conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF3",
+      "value": "Tue-FFIII conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF3",
+      "value": "Tue-FFIII conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF4",
+      "value": "Tue-FFIV conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF4",
+      "value": "Tue-FFIV conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF5",
+      "value": "Tue-FFV conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF5",
+      "value": "Tue-FFV conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF6",
+      "value": "Tue-FFVI conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF6",
+      "value": "Tue-FFVI conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF7",
+      "value": "Tue-FFVII conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF7",
+      "value": "Tue-FFVII conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF8",
+      "value": "Tue-FFVIII conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF8",
+      "value": "Tue-FFVIII conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF9",
+      "value": "Tue-FFIX conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF9",
+      "value": "Tue-FFIX conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF10",
+      "value": "Tue-FFX conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF10",
+      "value": "Tue-FFX conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF11",
+      "value": "Tue-FFXI conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF11",
+      "value": "Tue-FFXI conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF12",
+      "value": "Tue-FFXII conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF12",
+      "value": "Tue-FFXII conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF13",
+      "value": "Tue-FFXIII conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF13",
+      "value": "Tue-FFXIII conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF14",
+      "value": "Tue-FFXIV conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF14",
+      "value": "Tue-FFXIV conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFF15",
+      "value": "Tue-FFXV conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFF15",
+      "value": "Tue-FFXV conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPFFT",
+      "value": "Tue-FFT conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFFT",
+      "value": "Tue-FFT conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPGoga",
+      "value": "Tue-Gouga conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMGoga",
+      "value": "Tue-Gouga conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPNieRAutomata",
+      "value": "Tue-NieR conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMNieRAutomata",
+      "value": "Tue-NieR conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPLykeros",
+      "value": "Tue-Lykeros conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMLykeros",
+      "value": "Tue-Lykeros conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthPTombRaider",
+      "value": "Tue-Tomb Raider conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMTombRaider",
+      "value": "Tue-Tomb Raider conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthFarplane",
+      "value": "Tue Au-delà"
+    },
+    {
+      "key": "BUFF_KillerBirthPFarplane",
+      "value": "Tue Au-delà conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMFarplane",
+      "value": "Tue Au-delà conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthP5R",
+      "value": "Tue-Persona 5 Royal"
+    },
+    {
+      "key": "BUFF_KillerBirthPP5R",
+      "value": "Tue-Persona 5 Royal conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMP5R",
+      "value": "Tue-Persona 5 Royal conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageFarplane",
+      "value": "Dégâts fixes sur Au-delà"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageP5R",
+      "value": "Dégâts fixes sur Persona 5 Royal"
+    },
+    {
+      "key": "BUFF_KillerUnitTagPFloating",
+      "value": "Tue-aériens conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerUnitTagMFloating",
+      "value": "Tue-aériens conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerUnitTagPIgnoreGround",
+      "value": "Tue-Ignore le terrain conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerUnitTagMIgnoreGround",
+      "value": "Tue-Ignore le terrain conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_ResistBirthUnknown",
+      "value": "Rés. royaume inconnu"
+    },
+    {
+      "key": "BUFF_ResistBirthLeonis",
+      "value": "Rés. Leonis"
+    },
+    {
+      "key": "BUFF_ResistBirthHourn",
+      "value": "Rés. Hourne"
+    },
+    {
+      "key": "BUFF_ResistBirthFenice",
+      "value": "Rés. Fennes"
+    },
+    {
+      "key": "BUFF_ResistBirthWezett",
+      "value": "Rés. Wezett"
+    },
+    {
+      "key": "BUFF_ResistBirthCrystalFaith",
+      "value": "Rés. Église du Cristal"
+    },
+    {
+      "key": "BUFF_ResistBirthAllyare",
+      "value": "Rés. Ariale"
+    },
+    {
+      "key": "BUFF_ResistBirthRundall",
+      "value": "Rés. Rundall"
+    },
+    {
+      "key": "BUFF_ResistBirthCyga",
+      "value": "Rés. Saiga"
+    },
+    {
+      "key": "BUFF_ResistBirthGuren",
+      "value": "Rés. Rubeus"
+    },
+    {
+      "key": "BUFF_ResistBirthOwis",
+      "value": "Rés. Ovis"
+    },
+    {
+      "key": "BUFF_ResistBirthHyndra",
+      "value": "Rés. Heindler"
+    },
+    {
+      "key": "BUFF_ResistBirthFFBE",
+      "value": "Rés. FFBE"
+    },
+    {
+      "key": "BUFF_ResistBirthFF1",
+      "value": "Rés. FFI"
+    },
+    {
+      "key": "BUFF_ResistBirthFF2",
+      "value": "Rés. FFII"
+    },
+    {
+      "key": "BUFF_ResistBirthFF3",
+      "value": "Rés. FFIII"
+    },
+    {
+      "key": "BUFF_ResistBirthFF4",
+      "value": "Rés. FFIV"
+    },
+    {
+      "key": "BUFF_ResistBirthFF5",
+      "value": "Rés. FFV"
+    },
+    {
+      "key": "BUFF_ResistBirthFF6",
+      "value": "Rés. FFVI"
+    },
+    {
+      "key": "BUFF_ResistBirthFF7",
+      "value": "Rés. FFVII"
+    },
+    {
+      "key": "BUFF_ResistBirthFF8",
+      "value": "Rés. FFVIII"
+    },
+    {
+      "key": "BUFF_ResistBirthFF9",
+      "value": "Rés. FFX"
+    },
+    {
+      "key": "BUFF_ResistBirthFF10",
+      "value": "Rés. FFX"
+    },
+    {
+      "key": "BUFF_ResistBirthFF11",
+      "value": "Rés. FFXI"
+    },
+    {
+      "key": "BUFF_ResistBirthFF12",
+      "value": "Rés. FFXII"
+    },
+    {
+      "key": "BUFF_ResistBirthFF13",
+      "value": "Rés. FFXIII"
+    },
+    {
+      "key": "BUFF_ResistBirthFF14",
+      "value": "Rés. FFXIV"
+    },
+    {
+      "key": "BUFF_ResistBirthFF15",
+      "value": "Rés. FFXV"
+    },
+    {
+      "key": "BUFF_ResistBirthFFT",
+      "value": "Rés. FFT"
+    },
+    {
+      "key": "BUFF_ResistBirthGoga",
+      "value": "Rés. Gouga"
+    },
+    {
+      "key": "BUFF_ResistBirthNieRAutomata",
+      "value": "Rés. NieR"
+    },
+    {
+      "key": "BUFF_ResistBirthLykeros",
+      "value": "Rés. Lykeros"
+    },
+    {
+      "key": "BUFF_ResistBirthTombRaider",
+      "value": "Rés. Tomb Raider"
+    },
+    {
+      "key": "BUFF_ResistBirthFarplane",
+      "value": "Rés Au-delà"
+    },
+    {
+      "key": "BUFF_ResistBirthP5R",
+      "value": "Rés à Persona 5 Royal"
+    },
+    {
+      "key": "BUFF_ResistSpeciesHuman",
+      "value": "Rés. humains"
+    },
+    {
+      "key": "BUFF_ResistSpeciesNetherBeast",
+      "value": "Rés. chimères"
+    },
+    {
+      "key": "BUFF_ResistSpeciesBeast",
+      "value": "Rés. bêtes"
+    },
+    {
+      "key": "BUFF_ResistSpeciesDemon",
+      "value": "Rés. démons"
+    },
+    {
+      "key": "BUFF_ResistSpeciesDragon",
+      "value": "Rés. dragons"
+    },
+    {
+      "key": "BUFF_ResistSpeciesPlane",
+      "value": "Rés. végétaux"
+    },
+    {
+      "key": "BUFF_ResistSpeciesBird",
+      "value": "Rés. oiseaux"
+    },
+    {
+      "key": "BUFF_ResistSpeciesInsect",
+      "value": "Rés. insectes"
+    },
+    {
+      "key": "BUFF_ResistSpeciesAquatic",
+      "value": "Rés. aquatiques"
+    },
+    {
+      "key": "BUFF_ResistSpeciesMachine",
+      "value": "Rés. machines"
+    },
+    {
+      "key": "BUFF_ResistSpeciesSpirit",
+      "value": "Rés. esprits"
+    },
+    {
+      "key": "BUFF_ResistSpeciesUndead",
+      "value": "Rés. faucheurs"
+    },
+    {
+      "key": "BUFF_ResistSpeciesStone",
+      "value": "Rés. pierres"
+    },
+    {
+      "key": "BUFF_ResistSpeciesMetal",
+      "value": "Rés. métaux"
+    },
+    {
+      "key": "BUFF_ResistSpeciesMagCreature",
+      "value": "Rés. créatures magiques"
+    },
+    {
+      "key": "BUFF_ResistSpeciesCognition",
+      "value": "Rés à Capacité cognitive"
+    },
+    {
+      "key": "BUFF_ExeMafuken1",
+      "value": "Effet de lame égide ({0} tour(s))"
+    },
+    {
+      "key": "BUFF_ExeMafuken2",
+      "value": "Effet de lame égide ({0} fois)"
+    },
+    {
+      "key": "BUFF_ExeMafuken3",
+      "value": "Effet de lame égide ({0} tour(s) et {1} fois)"
+    },
+    {
+      "key": "BUFF_DamageHitCnt",
+      "value": "(Dégâts subis : {0} fois)"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageLionis",
+      "value": "Dégâts fixes sur Leonis"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistFire",
+      "value": "Rés aux malus de feu"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistIce",
+      "value": "Rés aux malus de glace"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistWind",
+      "value": "Rés aux malus de vent"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistEarth",
+      "value": "Rés aux malus de terre"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistThunder",
+      "value": "Rés aux malus de foudre"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistWater",
+      "value": "Rés aux malus d'eau"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistShine",
+      "value": "Rés aux malus de lumière"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistDark",
+      "value": "Rés aux malus d'ombre"
+    }
+  ]
+}
