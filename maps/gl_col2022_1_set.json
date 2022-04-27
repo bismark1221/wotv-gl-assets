@@ -7,7 +7,7 @@
   },
   "party": [
     {
-      "name": "id:1",
+      "name": "",
       "x": 12,
       "y": 8,
       "dir": 2,
@@ -47,7 +47,7 @@
       }
     },
     {
-      "name": "id:2",
+      "name": "",
       "x": 11,
       "y": 11,
       "dir": 3,
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "id:3",
+      "name": "",
       "x": 8,
       "y": 12,
       "dir": 3,
@@ -127,7 +127,7 @@
       }
     },
     {
-      "name": "id:4",
+      "name": "",
       "x": 12,
       "y": 9,
       "dir": 2,
@@ -167,7 +167,7 @@
       }
     },
     {
-      "name": "id:5",
+      "name": "",
       "x": 12,
       "y": 12,
       "dir": 2,
@@ -207,7 +207,7 @@
       }
     },
     {
-      "name": "id:6",
+      "name": "",
       "x": 9,
       "y": 12,
       "dir": 3,
@@ -701,7 +701,7 @@
       "nottar": 0,
       "fixdir": 0,
       "drop": "",
-      "crystal": "CRYSTAL_00",
+      "crystal": "",
       "steal": "",
       "stealValue": 100,
       "nrmSkl": {
@@ -1614,7 +1614,7 @@
       "nottar": 0,
       "fixdir": 0,
       "drop": "",
-      "crystal": "CRYSTAL_00",
+      "crystal": "",
       "steal": "",
       "stealValue": 100,
       "nrmSkl": {
@@ -2541,7 +2541,7 @@
       "nottar": 0,
       "fixdir": 0,
       "drop": "",
-      "crystal": "CRYSTAL_00",
+      "crystal": "",
       "steal": "",
       "stealValue": 100,
       "nrmSkl": {
@@ -3458,31 +3458,5 @@
     ]
   },
   "gcond": [],
-  "drop_table_list": [
-    {
-      "type": 1,
-      "iname": "CRYSTAL_00",
-      "num": 1,
-      "drop_list": [
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 50
-        },
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 50
-        }
-      ]
-    }
-  ]
+  "drop_table_list": []
 }
