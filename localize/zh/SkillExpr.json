@@ -5837,11 +5837,23 @@
       "value": "3回合內以自身為中心提升範圍內己方隊員的命中率&提升自身斬擊攻擊耐性貫通率3回合"
     },
     {
+      "key": "SK_LW_AXD_M_3_SUB",
+      "value": "3回合內以自身為中心提升範圍內己方隊員的命中率&提升自身斬擊攻擊耐性貫通率3回合"
+    },
+    {
       "key": "SK_LW_AXD_S_1_INIT",
       "value": "對目標造成傷害（小）&一定機率施加減速，使其積蓄CT速度降低3回合"
     },
     {
+      "key": "SK_LW_AXD_S_1",
+      "value": "對目標造成傷害（小）&一定機率施加減速，使其積蓄CT速度降低3回合"
+    },
+    {
       "key": "SK_LW_AXD_S_2_INIT",
+      "value": "以自身為中心，提升範圍內己方隊員的攻擊、精神3回合"
+    },
+    {
+      "key": "SK_LW_AXD_S_2",
       "value": "以自身為中心，提升範圍內己方隊員的攻擊、精神3回合"
     },
     {
@@ -6351,6 +6363,26 @@
     {
       "key": "SK_LW_ASTR_P_2",
       "value": "提升HP上限、斬擊攻擊耐性"
+    },
+    {
+      "key": "SK_LW_EC_ASTR_A_01",
+      "value": "破壞減輕物理傷害的屏障後對目標連續造成2次傷害（大）"
+    },
+    {
+      "key": "SK_LW_EC_ASTR_C_01",
+      "value": "將「不屈不撓」強化成「不屈不撓·改」。使用次數+1"
+    },
+    {
+      "key": "SK_LW_EC_ASTR_C_01B",
+      "value": "自身受到致死傷害時，可以存活1次&賦予追加效果「若為毅力狀態時，提升防禦貫通率&降低消耗AP」"
+    },
+    {
+      "key": "SK_LW_EC_ASTR_C_02",
+      "value": "將「黑暗潰擊」強化成「交叉潰擊」。使用次數+1"
+    },
+    {
+      "key": "SK_LW_EC_ASTR_C_02B",
+      "value": "降低範圍內目標的防禦3回合後造成傷害（中）"
     },
     {
       "key": "SK_LW_IBRA_ATK",
@@ -8151,6 +8183,38 @@
     {
       "key": "SK_SNAK_R_01_TW",
       "value": "受到傷害時，一定機率對目標施加麻痹，使其3回合內難以行動"
+    },
+    {
+      "key": "SK_WORM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_WORM_M_1",
+      "value": "一定機率對範圍內目標施加失明，使其3回合內攻擊難以命中"
+    },
+    {
+      "key": "SK_WORM_M_2",
+      "value": "以自身為中心，對範圍內敵方造成傷害（中）&對浮游無效"
+    },
+    {
+      "key": "SK_WORM_M_3",
+      "value": "對範圍內敵方造成傷害（特大）"
+    },
+    {
+      "key": "SK_WRAT_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_WRAT_M_1",
+      "value": "對目標造成傷害（小）&高機率施加中毒3回合"
+    },
+    {
+      "key": "SK_WRAT_S_1",
+      "value": "提升自身命中3回合"
+    },
+    {
+      "key": "SK_WRAT_R_1",
+      "value": "受到傷害時，一定機率進行反擊&一定機率施加中毒3回合"
     },
     {
       "key": "SK_IFRT_ATK",
@@ -12997,6 +13061,10 @@
       "value": "己方光屬性兵員HP上限+10%、光屬性能力攻擊+15，自身攻擊+15%、閃避率+5"
     },
     {
+      "key": "SK_MA_LW_ASTR",
+      "value": "己方水屬性兵員HP上限+10%、水屬性能力攻擊+15，自身HP上限+10%、範圍攻擊耐性+10"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "斬擊攻擊力+2"
     },
@@ -14211,6 +14279,10 @@
     {
       "key": "SK_ACC_PRS5_VOLT_1",
       "value": "恢復自身AP&使自身不易受到敵方攻擊"
+    },
+    {
+      "key": "SK_ACC_LW_ASTR_1",
+      "value": "以自身為中心提升範圍內己方隊員的勇氣&提升攻擊、敏捷3回合"
     },
     {
       "key": "SK_GL_TOMB_LARA_1",
@@ -17586,6 +17658,78 @@
     },
     {
       "key": "SK_GL_VC_LW_CHEL_P4MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_P_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PAW_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PMAX_4",
       "value": ""
     },
     {

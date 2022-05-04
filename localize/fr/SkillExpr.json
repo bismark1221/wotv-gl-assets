@@ -5837,11 +5837,23 @@
       "value": "Augmente le taux de précision des alliés dans la zone autour du lanceur pendant 3 tours, et augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_LW_AXD_M_3_SUB",
+      "value": "Augmente le taux de précision des alliés dans la zone autour du lanceur pendant 3 tours, et augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_LW_AXD_S_1_INIT",
       "value": "Inflige des dégâts (S) à la cible, et confère une chance d'infliger Lenteur pendant 3 tours."
     },
     {
+      "key": "SK_LW_AXD_S_1",
+      "value": "Inflige des dégâts (S) à la cible, et confère une chance d'infliger Lenteur pendant 3 tours."
+    },
+    {
       "key": "SK_LW_AXD_S_2_INIT",
+      "value": "Augmente l'ATT et la PSY des alliés dans la zone autour du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_AXD_S_2",
       "value": "Augmente l'ATT et la PSY des alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
@@ -6322,7 +6334,7 @@
     },
     {
       "key": "SK_LW_ASTR_M_3",
-      "value": "Augmente la résistance aux attaques tranchantes et les PV max des alliés dans la zone autour du lanceur pendant 3 tours, restaure la différence et accorde l'absorption d'une partie des dégâts infligés aux PV au lanceur pendant 3 tours."
+      "value": "Augmente la résistance aux attaques tranchantes et les PV max des alliés dans la zone autour du lanceur pendant 3 tours, restaure la différence et accorde l'absorption d'une partie des dégâts infligés aux PV du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_ASTR_S_1",
@@ -6351,6 +6363,26 @@
     {
       "key": "SK_LW_ASTR_P_2",
       "value": "Augmente les PV max et la résistance aux attaques tranchantes."
+    },
+    {
+      "key": "SK_LW_EC_ASTR_A_01",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L) en 2 coups."
+    },
+    {
+      "key": "SK_LW_EC_ASTR_C_01",
+      "value": "Améliore Insurmontable en Insurmontable +. Augmente le nombre d'utilisations d'aptitude de 1."
+    },
+    {
+      "key": "SK_LW_EC_ASTR_C_01B",
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et accorde des effets additionnels : augmente le taux de perforation de la DEF et réduit la consommation de PA pendant l'effet de Hardiesse."
+    },
+    {
+      "key": "SK_LW_EC_ASTR_C_02",
+      "value": "Améliore Attaque en croix en Destruction en croix. Augmente le nombre d'utilisations d'aptitude de 1."
+    },
+    {
+      "key": "SK_LW_EC_ASTR_C_02B",
+      "value": "Réduit la DEF des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M)."
     },
     {
       "key": "SK_LW_IBRA_ATK",
@@ -8151,6 +8183,38 @@
     {
       "key": "SK_SNAK_R_01_TW",
       "value": "Confère une chance d'infliger Paralysie à la cible pendant 3 tours lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_WORM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_WORM_M_1",
+      "value": "Confère une chance d'infliger Cécité aux unités dans la zone ciblée pendant 3 tours."
+    },
+    {
+      "key": "SK_WORM_M_2",
+      "value": "Inflige des dégâts (M) aux ennemis dans la zone autour du lanceur (les cibles avec le statut Apesanteur ne seront pas atteintes)."
+    },
+    {
+      "key": "SK_WORM_M_3",
+      "value": "Inflige des dégâts (XL) aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_WRAT_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_WRAT_M_1",
+      "value": "Inflige des dégâts (S) à la cible, et confère une chance élevée d'infliger Poison pendant 3 tours."
+    },
+    {
+      "key": "SK_WRAT_S_1",
+      "value": "Augmente la Précision du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_WRAT_R_1",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis et confère une chance d'infliger Poison pendant 3 tours."
     },
     {
       "key": "SK_IFRT_ATK",
@@ -12997,6 +13061,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, et augmente l'ATT du lanceur de 15 % et son taux d'esquive de 5."
     },
     {
+      "key": "SK_MA_LW_ASTR",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente les PV max du lanceur de 10 % et sa résistance aux attaques de zone de 10."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Attaque tranchante +2"
     },
@@ -14211,6 +14279,10 @@
     {
       "key": "SK_ACC_PRS5_VOLT_1",
       "value": "Restaure les PA du lanceur et réduit les chances d'être pris pour cible."
+    },
+    {
+      "key": "SK_ACC_LW_ASTR_1",
+      "value": "Augmente la Bravoure des alliés dans la zone autour du lanceur et augmente l'ATT et l'AGI pendant 3 tours."
     },
     {
       "key": "SK_GL_TOMB_LARA_1",
@@ -17586,6 +17658,78 @@
     },
     {
       "key": "SK_GL_VC_LW_CHEL_P4MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV1_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_P_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PAW_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_PRS5_MV1_PMAX_4",
       "value": ""
     },
     {
