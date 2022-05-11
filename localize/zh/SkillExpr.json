@@ -11225,6 +11225,10 @@
       "value": "對範圍內目標造成受魔力高低影響的傷害（中）&3回合內降低精神&一定機率施加狂暴，使其攻擊力提升卻無法進行操作3回合"
     },
     {
+      "key": "SK_LW_EC_TIM_A_04",
+      "value": "解除範圍內目標的物防護、魔防護後，對其造成受魔力高低影響的傷害（中）"
+    },
+    {
       "key": "SK_LW_EC_TIM_C_05",
       "value": "將「隕石」強化成「隕石【狂星】」。提升自身精神貫通率3回合後，對目標造成受魔力高低影響的無屬性傷害（大）"
     },
@@ -11239,6 +11243,22 @@
     {
       "key": "SK_LW_EC_TIM_C_06B",
       "value": "大幅縮短發動能力時間&提升狂暴發動率"
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_07",
+      "value": "將「隕石」強化成「隕石【解復】」。射程強化。解除目標所有強化效果後，對其造成受魔力高低影響的無屬性傷害（大）"
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_07B",
+      "value": "解除目標所有強化效果後，對其造成受魔力高低影響的無屬性傷害（大）"
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_08",
+      "value": "將「減速反擊」強化成「減速反擊改」。射程強化&減速效果強化"
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_08B",
+      "value": "受到傷害時，一定機率對目標施加減速，使其積蓄CT速度降低3回合"
     },
     {
       "key": "SK_LW_EC_ARC_A_01",
@@ -11785,6 +11805,10 @@
       "value": "提升自身魔力3回合後，對範圍內目標造成受魔力高低影響的傷害（中）（最多可疊加3次）"
     },
     {
+      "key": "SK_LW_EC_PSI_A_02",
+      "value": "提升自身精神貫通率3回合後，對目標造成受魔力高低影響的傷害（大）"
+    },
+    {
       "key": "SK_LW_EC_PSI_C_01",
       "value": "將「雙氣膨擊」強化成「雙氣膨擊·改」。射程強化&降低消耗AP"
     },
@@ -11799,6 +11823,22 @@
     {
       "key": "SK_LW_EC_PSI_C_02B",
       "value": "對目標造成受魔力高低影響的傷害（中）"
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_03",
+      "value": "將「瘴氣術」強化成「全瘴氣術」。展開屏障減輕自身所受傷害（3次）"
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_03B",
+      "value": "展開屏障減輕自身所受傷害（3次）"
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_04",
+      "value": "將「流氣擴放」強化成「流氣覺解」。提升HP上限、魔力"
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_04B",
+      "value": "提升HP上限、魔力"
     },
     {
       "key": "SK_LW_EC_THI_A_01",
@@ -12421,6 +12461,10 @@
       "value": "TP上限+10%、敏捷+10%"
     },
     {
+      "key": "SK_MA_LW_MACR_2",
+      "value": "己方光屬性兵員HP上限+10%、光屬性能力攻擊+15，自身TP上限+10%、魔力+30%、敏捷+10%、仇恨降低-3、強化「聖光雙擊」。提升全攻擊類型耐性強化。對目標連續造成2次受魔力高低影響的傷害（大）&必中&大幅提升自身全攻擊類型耐性3回合"
+    },
+    {
       "key": "SK_MA_FF14_TNCR",
       "value": "HP上限+10%、斬擊攻擊力+10"
     },
@@ -12541,6 +12585,10 @@
       "value": "魔力+20%、全攻擊類型耐性+10"
     },
     {
+      "key": "SK_MA_LW_MURM_2",
+      "value": "HP+800、魔力+20%、魔法攻擊力+10、全攻擊類型耐性+10"
+    },
+    {
       "key": "SK_MA_LW_PHBE",
       "value": "敏捷+20%、移動+1"
     },
@@ -12577,6 +12625,10 @@
       "value": "射擊攻擊力+15"
     },
     {
+      "key": "SK_MA_LW_FDRC_2",
+      "value": "己方雷屬性兵員HP上限+10%、雷屬性能力攻擊+15，自身射擊攻擊力+15、防禦貫通率+10、消耗AP-30%"
+    },
+    {
       "key": "SK_MA_LW_SDLX",
       "value": "攻擊+25%、閃避率+15"
     },
@@ -12611,6 +12663,10 @@
     {
       "key": "SK_MA_LW_P_ETRE",
       "value": "移動+1、跳躍+1、閃避率+10"
+    },
+    {
+      "key": "SK_MA_LW_P_ETRE_2",
+      "value": "己方土屬性兵員HP上限+10%、止移耐性+25，自身移動+1、跳躍+1、閃避率+30"
     },
     {
       "key": "SK_MA_FFT_RAMZ",
@@ -17301,6 +17357,114 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_NEWYEAR2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TREL_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TREL_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TREL_P2MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_IBRA_GS",
       "value": ""
     },
@@ -17854,6 +18018,34 @@
     },
     {
       "key": "SK_VC_LW_IBUKI_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_PAW",
       "value": ""
     },
     {
@@ -23850,6 +24042,26 @@
     },
     {
       "key": "SK_LW_ACC_037_5",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_1",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_2",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_3",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_4",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_5",
       "value": ""
     },
     {

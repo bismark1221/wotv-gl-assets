@@ -11225,6 +11225,10 @@
       "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit la PSY pendant 3 tours et confère une chance d'infliger Berserk pendant 3 tours."
     },
     {
+      "key": "SK_LW_EC_TIM_A_04",
+      "value": "Dissipe Bouclier et Barrière des unités dans la zone ciblée, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur."
+    },
+    {
       "key": "SK_LW_EC_TIM_C_05",
       "value": "Améliore Météore en Météore [Étoile indomptable]. Augmente le taux de perforation de la PSY du lanceur pendant 3 tours, puis inflige des dégâts non-élémentaires (L) qui dépendent de la MAGIE du lanceur à la cible."
     },
@@ -11239,6 +11243,22 @@
     {
       "key": "SK_LW_EC_TIM_C_06B",
       "value": "Réduit considérablement le délai d'activation et augmente le taux d'activation de Berserk."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_07",
+      "value": "Améliore Météore en Météore [Abrogation]. Améliore la portée. Dissipe tous les bonus de la cible, puis inflige des dégâts non-élémentaires (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_07B",
+      "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts non-élémentaires (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_08",
+      "value": "Améliore Contre lent en Contre lent +. Améliore la portée et l'effet de Lenteur."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_08B",
+      "value": "Confère une chance d'infliger Lenteur à la cible pendant 3 tours lorsque des dégâts sont subis."
     },
     {
       "key": "SK_LW_EC_ARC_A_01",
@@ -11785,6 +11805,10 @@
       "value": "Augmente la MAGIE du lanceur pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée (cumulable jusqu'à 3 fois)."
     },
     {
+      "key": "SK_LW_EC_PSI_A_02",
+      "value": "Augmente le taux de perforation de la PSY du lanceur pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible."
+    },
+    {
       "key": "SK_LW_EC_PSI_C_01",
       "value": "Améliore Rupture de Chi double en Rupture de Chi double +. Améliore la portée et réduit la consommation de PA."
     },
@@ -11799,6 +11823,22 @@
     {
       "key": "SK_LW_EC_PSI_C_02B",
       "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_03",
+      "value": "Améliore Barrière de Chi en Barrière de Chi imposante. Érige une barrière autour du lanceur qui réduit les dégâts (3 fois)."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_03B",
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois)."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_04",
+      "value": "Améliore Amplification de Chi en Éveil de Chi. Augmente les PV max et la MAGIE."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_04B",
+      "value": "Augmente les PV max et la MAGIE."
     },
     {
       "key": "SK_LW_EC_THI_A_01",
@@ -12421,6 +12461,10 @@
       "value": "PT max +10 %, AGI +10 %"
     },
     {
+      "key": "SK_MA_LW_MACR_2",
+      "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente les PT max du lanceur de 10 %, la MAGIE de 30 % et l'AGI de 10 %, et réduit la Haine de 3. Améliore Lumière éclatante : améliore les bonus de résistance à tous les types d'attaques. Inflige des dégâts (L) en 2 coups qui dépendent de la MAGIE du lanceur à la cible avec Coup garanti, et augmente considérablement la résistance à toutes les attaques du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_MA_FF14_TNCR",
       "value": "PV max +10 %, attaque tranchante +10"
     },
@@ -12541,6 +12585,10 @@
       "value": "MAGIE +20 %, résistance à toutes les attaques +10"
     },
     {
+      "key": "SK_MA_LW_MURM_2",
+      "value": "PV +800, MAGIE +20 %, Attaque magique +10, Résistance à toutes les attaques +10"
+    },
+    {
       "key": "SK_MA_LW_PHBE",
       "value": "AGI +20 %, Déplacement +1"
     },
@@ -12577,6 +12625,10 @@
       "value": "Attaque projectile +15"
     },
     {
+      "key": "SK_MA_LW_FDRC_2",
+      "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente les attaques projectiles du lanceur de 15, le taux de perforation de la DEF de 10, et réduit la consommation de PA de 30 %."
+    },
+    {
       "key": "SK_MA_LW_SDLX",
       "value": "ATT +25 %, taux d'esquive +15"
     },
@@ -12611,6 +12663,10 @@
     {
       "key": "SK_MA_LW_P_ETRE",
       "value": "Déplacement +1, Saut +1, taux d'esquive +10"
+    },
+    {
+      "key": "SK_MA_LW_P_ETRE_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Immobilisation de 25 pour les unités alliées de terre, augmente le Déplacement du lanceur de 1, son Saut de 1 et le taux d'esquive de 30."
     },
     {
       "key": "SK_MA_FFT_RAMZ",
@@ -17301,6 +17357,114 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_NEWYEAR2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TREL_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TREL_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TREL_P2MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_IBRA_GS",
       "value": ""
     },
@@ -17854,6 +18018,34 @@
     },
     {
       "key": "SK_VC_LW_IBUKI_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_PAW",
       "value": ""
     },
     {
@@ -23850,6 +24042,26 @@
     },
     {
       "key": "SK_LW_ACC_037_5",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_1",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_2",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_3",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_4",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_5",
       "value": ""
     },
     {

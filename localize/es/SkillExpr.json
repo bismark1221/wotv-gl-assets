@@ -590,7 +590,7 @@
     },
     {
       "key": "SK_LW_SAM_S_1",
-      "value": "Aumenta el ATQ y la probabilidad de crítico del usuario durante 3 turnos."
+      "value": "Aumenta el ATQ y la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_SAM_M_2",
@@ -798,7 +798,7 @@
     },
     {
       "key": "SK_LW_LAN_M_4",
-      "value": "Inflige daño penetrante al objetivo y aumenta la probabilidad de crítico del usuario durante 3 turnos."
+      "value": "Inflige daño penetrante al objetivo y aumenta la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_LAN_S_4",
@@ -814,7 +814,7 @@
     },
     {
       "key": "SK_LW_LAN_S_2_INIT",
-      "value": "Aumenta el ATQ y la probabilidad de crítico del usuario durante 3 turnos."
+      "value": "Aumenta el ATQ y la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_LAN_M_3_INIT",
@@ -838,11 +838,11 @@
     },
     {
       "key": "SK_LW_LAN_P_1",
-      "value": "Aumenta la probabilidad de crítico."
+      "value": "Aumenta la tasa de crítico."
     },
     {
       "key": "SK_LW_LAN_M_4_SUB",
-      "value": "Inflige daño penetrante al objetivo y aumenta la probabilidad de crítico del usuario durante 3 turnos."
+      "value": "Inflige daño penetrante al objetivo y aumenta la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_LAN_S_4_SUB",
@@ -858,7 +858,7 @@
     },
     {
       "key": "SK_LW_LAN_S_2",
-      "value": "Aumenta el ATQ y la probabilidad de crítico del usuario durante 3 turnos."
+      "value": "Aumenta el ATQ y la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_LAN_M_3",
@@ -1042,7 +1042,7 @@
     },
     {
       "key": "SK_LW_GUN_S_2",
-      "value": "Aumenta la probabilidad de crítico de los aliados de alrededor durante 3 turnos."
+      "value": "Aumenta la tasa de crítico de los aliados de alrededor durante 3 turnos."
     },
     {
       "key": "SK_LW_GUN_R_1",
@@ -7242,7 +7242,7 @@
     },
     {
       "key": "SK_LW_RAB_S_3",
-      "value": "Aumenta el movimiento en 1 y la probabilidad de crítico del usuario durante 3 turnos."
+      "value": "Aumenta el movimiento en 1 y la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_RAB_S_4",
@@ -7258,7 +7258,7 @@
     },
     {
       "key": "SK_LW_RAB_P_2",
-      "value": "Aumenta la probabilidad de crítico y el daño crítico."
+      "value": "Aumenta la tasa de crítico y el daño crítico."
     },
     {
       "key": "SK_LW_EC_RAB_A_01",
@@ -10302,7 +10302,7 @@
     },
     {
       "key": "SK_SMN_ODIN",
-      "value": "Invoca a Odín: inflige daño no elemental (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta la probabilidad de crítico de los aliados)."
+      "value": "Invoca a Odín: inflige daño no elemental (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta la tasa de crítico de los aliados)."
     },
     {
       "key": "SK_SMN_IGNT",
@@ -11225,6 +11225,10 @@
       "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance, reduce su ESP durante 3 turnos y probabilidad de infligirles locura durante 3 turnos."
     },
     {
+      "key": "SK_LW_EC_TIM_A_04",
+      "value": "Elimina coraza y escudo a los objetivos al alcance y les inflige daño (medio) en función de la MAG del usuario."
+    },
+    {
       "key": "SK_LW_EC_TIM_C_05",
       "value": "Mejora «Meteo» a «Meteo [sideral]»: aumenta la tasa de penetración de ESP del usuario durante 3 turnos e inflige daño no elemental (mucho) en función de la MAG del usuario al objetivo."
     },
@@ -11239,6 +11243,22 @@
     {
       "key": "SK_LW_EC_TIM_C_06B",
       "value": "Reduce considerablemente el tiempo de activación y aumenta la tasa de activación de locura."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_07",
+      "value": "Mejora «Meteo» a «Meteo [deshacedor]»: aumenta el alcance. Elimina todas las mejoras del objetivo y le inflige daño no elemental (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_07B",
+      "value": "Elimina todas las mejoras del objetivo y le inflige daño no elemental (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_08",
+      "value": "Mejora «Contrafreno» a «Contrafreno+»: aumenta el alcance y mejora el efecto de freno."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_08B",
+      "value": "Probabilidad de infligir freno al objetivo durante 3 turnos al recibir daño."
     },
     {
       "key": "SK_LW_EC_ARC_A_01",
@@ -11785,6 +11805,10 @@
       "value": "Aumenta la MAG del usuario durante 3 turnos, e inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance (acumulable hasta 3 veces)."
     },
     {
+      "key": "SK_LW_EC_PSI_A_02",
+      "value": "Aumenta la tasa de penetración de ESP del usuario durante 3 turnos e inflige daño (mucho) en función de la MAG del usuario al objetivo."
+    },
+    {
       "key": "SK_LW_EC_PSI_C_01",
       "value": "Mejora «Ruptura de chi gemelo» a «Ruptura de chi gemelo+»: aumenta el alcance y reduce el consumo de PA."
     },
@@ -11799,6 +11823,22 @@
     {
       "key": "SK_LW_EC_PSI_C_02B",
       "value": "Daño (medio) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_03",
+      "value": "Mejora «Barrera de chi» a «Barrera de chi completa»: otorga una barrera al usuario que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_03B",
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_04",
+      "value": "Mejora «Expansión del flujo del chi» a «Liberación del flujo del chi»: aumenta la VIT máx. y la MAG."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_04B",
+      "value": "Aumenta la VIT máx. y la MAG."
     },
     {
       "key": "SK_LW_EC_THI_A_01",
@@ -12366,7 +12406,7 @@
     },
     {
       "key": "SK_MA_LW_ROBB",
-      "value": "Probabilidad de crítico +10, tasa de evasión +5"
+      "value": "Tasa de crítico +10, tasa de evasión +5"
     },
     {
       "key": "SK_MA_LW_ROBB_2",
@@ -12419,6 +12459,10 @@
     {
       "key": "SK_MA_LW_MACR",
       "value": "PT máx. +10 %, AGI +10 %"
+    },
+    {
+      "key": "SK_MA_LW_MACR_2",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: PT máx. +10 %, MAG +30 %, AGI +10 %, odio -3, mejora Doblepuño radiante: mayor aumento de res. todos los tipos de ataque. Inflige daño (mucho) 2 veces al objetivo en función de la MAG del usuario con golpe garantizado y aumenta considerablemente la res. todos los tipos de ataque del usuario durante 3 turnos."
     },
     {
       "key": "SK_MA_FF14_TNCR",
@@ -12490,7 +12534,7 @@
     },
     {
       "key": "SK_MA_LW_SZRT",
-      "value": "DES +15 %, probabilidad de crítico +35"
+      "value": "DES +15 %, tasa de crítico +35"
     },
     {
       "key": "SK_MA_LW_FINA",
@@ -12541,6 +12585,10 @@
       "value": "MAG +20 %, res. todos los tipos de ataque +10"
     },
     {
+      "key": "SK_MA_LW_MURM_2",
+      "value": "VIT +800, MAG +20 %, ataque mágico +10, res. todos los tipos de ataque +10"
+    },
+    {
       "key": "SK_MA_LW_PHBE",
       "value": "AGI +20 %, movimiento +1"
     },
@@ -12577,6 +12625,10 @@
       "value": "Ataque a distancia +15"
     },
     {
+      "key": "SK_MA_LW_FDRC_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: ataque a distancia +15, tasa de penetración de DEF +10, consumo de PA -30 %"
+    },
+    {
       "key": "SK_MA_LW_SDLX",
       "value": "ATQ +25 %, tasa de evasión +15"
     },
@@ -12590,7 +12642,7 @@
     },
     {
       "key": "SK_MA_LW_P_RAMD_01",
-      "value": "Probabilidad de crítico +10, ATQ +10 %"
+      "value": "Tasa de crítico +10, ATQ +10 %"
     },
     {
       "key": "SK_GL_MA_LW_P_RAMD_01_2",
@@ -12611,6 +12663,10 @@
     {
       "key": "SK_MA_LW_P_ETRE",
       "value": "Movimiento +1, salto +1, tasa de evasión +10"
+    },
+    {
+      "key": "SK_MA_LW_P_ETRE_2",
+      "value": "Aliados de tierra +10 %, res. inmóvil +25; usuario: movimiento +1, salto +1, tasa de evasión +30"
     },
     {
       "key": "SK_MA_FFT_RAMZ",
@@ -12634,7 +12690,7 @@
     },
     {
       "key": "SK_MA_LW_DRND",
-      "value": "VIT máx. +25 %, probabilidad de crítico +15"
+      "value": "VIT máx. +25 %, tasa de crítico +15"
     },
     {
       "key": "SK_MA_LW_P_LUCA",
@@ -17301,6 +17357,114 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_NEWYEAR2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_NEWYEAR2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_NEWYEAR2_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TREL_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TREL_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TREL_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TREL_P2MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_IBRA_GS",
       "value": ""
     },
@@ -17854,6 +18018,34 @@
     },
     {
       "key": "SK_VC_LW_IBUKI_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_PRS5_MV2_PAW",
       "value": ""
     },
     {
@@ -23850,6 +24042,26 @@
     },
     {
       "key": "SK_LW_ACC_037_5",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_1",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_2",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_3",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_4",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_ACC_002_5",
       "value": ""
     },
     {
