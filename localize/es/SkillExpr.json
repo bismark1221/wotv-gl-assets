@@ -5765,6 +5765,10 @@
       "value": "Aumenta el ataque de fuego de un aliado durante 3 turnos y aumenta su res. reducciones, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
     {
+      "key": "SK_LW_SCR_THUN_S_2_INIT",
+      "value": "Aumenta el ataque de rayo de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LW_SCR_S_3",
       "value": "Aumenta la res. ataque de zona y la res. ataque de corte del usuario durante 3 turnos."
     },
@@ -5805,6 +5809,10 @@
       "value": "Aumenta la tasa de perforación de ESP y la tasa de perforación de res. ataque mágico del usuario, e inflige daño no elemental (muchísimo) en función de la MAG del usuario al objetivo."
     },
     {
+      "key": "SK_LW_EC_SCR_A_02",
+      "value": "Otorga una barrera a un aliado excepto el usuario que reduce el daño físico (3 veces) y reduce la probabilidad de que el usuario sea atacado."
+    },
+    {
       "key": "SK_LW_EC_SCR_C_01",
       "value": "Mejora «Ley de la regeneración» a «Ley de la regeneración expandida»: aumenta el alcance y la altura de alcance. Recupera VIT de un aliado (medio) y aumenta su ATQ, MAG y AGI durante 3 turnos."
     },
@@ -5819,6 +5827,22 @@
     {
       "key": "SK_LW_EC_SCR_C_02B",
       "value": "Aumenta considerablemente el ataque de fuego de un aliado durante 3 turnos y aumenta su res. reducciones, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_03",
+      "value": "Mejora «Lección de rayo» a «Lección de rayo estable»: aumenta el alcance. Ataque de rayo de un aliado, su res. reducciones y su res. ataque de unidad durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_03B",
+      "value": "Aumenta el ataque de rayo de un aliado, su res. reducciones y su res. ataque de unidad durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_04",
+      "value": "Mejora «Sabiduría de devoto» a «Sabiduría estable»: aumenta la DEF, el ESP y la res. ataque de zona y reduce el ataque mágico."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_04B",
+      "value": "Aumenta la DEF, el ESP y la res. ataque de zona y reduce el ataque mágico."
     },
     {
       "key": "SK_LW_AXD_ATK",
@@ -10281,6 +10305,10 @@
       "value": "Inflige daño (mucho) 3 veces al objetivo con alta probabilidad de crítico."
     },
     {
+      "key": "SK_LB_LW_RSNC",
+      "value": "Recupera VIT de los aliados al alcance (mucho), elimina todas sus reducciones y aumenta su ATQ y MAG durante 3 turnos."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -13121,6 +13149,10 @@
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: VIT máx. +10 %, res. ataque de zona +10"
     },
     {
+      "key": "SK_MA_LW_RSNC",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: potencia de curación +10, MAG +10 %"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -13171,6 +13203,58 @@
     {
       "key": "SK_LW_SLASH_5_UR",
       "value": "Ataque de corte +20"
+    },
+    {
+      "key": "SK_LW_HEALPW_1",
+      "value": "Potencia de curación +2"
+    },
+    {
+      "key": "SK_LW_HEALPW_2",
+      "value": "Potencia de curación +3"
+    },
+    {
+      "key": "SK_LW_HEALPW_3",
+      "value": "Potencia de curación +5"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_N",
+      "value": "Potencia de curación +6"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_N",
+      "value": "Potencia de curación +10"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_R",
+      "value": "Potencia de curación +6"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_R",
+      "value": "Potencia de curación +12"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_SR",
+      "value": "Potencia de curación +7"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_SR",
+      "value": "Potencia de curación +13"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_SSR",
+      "value": "Potencia de curación +8"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_SSR",
+      "value": "Potencia de curación +15"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_UR",
+      "value": "Potencia de curación +10"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_UR",
+      "value": "Potencia de curación +20"
     },
     {
       "key": "SK_LW_AVOID_1",
@@ -14671,6 +14755,10 @@
     {
       "key": "SK_ROD_LW_RVAL_1_1",
       "value": ""
+    },
+    {
+      "key": "SK_CLT_LW_RSNC_1",
+      "value": "Aumenta la res. todos los tipos de ataque de los aliados de alrededor durante 3 turnos."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -23491,6 +23579,26 @@
     {
       "key": "SK_LW_ROD_013_5",
       "value": "Habilidad pasiva exclusiva de Gargas"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_1",
+      "value": "Habilidad pasiva exclusiva de Lucius"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_2",
+      "value": "Habilidad pasiva exclusiva de Lucius"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_3",
+      "value": "Habilidad pasiva exclusiva de Lucius"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_4",
+      "value": "Habilidad pasiva exclusiva de Lucius"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_5",
+      "value": "Habilidad pasiva exclusiva de Lucius"
     },
     {
       "key": "SK_LW_FF6_ACC_003_1",

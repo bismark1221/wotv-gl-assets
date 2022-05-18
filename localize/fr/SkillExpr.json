@@ -5765,6 +5765,10 @@
       "value": "Augmente les attaques de feu et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_LW_SCR_THUN_S_2_INIT",
+      "value": "Augmente les attaques de foudre et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_LW_SCR_S_3",
       "value": "Augmente la résistance aux attaques de zone et la résistance aux attaques tranchantes du lanceur pendant 3 tours."
     },
@@ -5805,6 +5809,10 @@
       "value": "Augmente le taux de perforation de la PSY et le taux de perforation de la résistance aux attaques magiques du lanceur, puis inflige des dégâts non-élémentaires (XL) qui dépendent de la MAGIE du lanceur à la cible."
     },
     {
+      "key": "SK_LW_EC_SCR_A_02",
+      "value": "Érige une barrière autour d'un allié sauf le lanceur qui réduit les dégâts physiques (3 fois) et réduit les chances du lanceur d'être pris pour cible."
+    },
+    {
       "key": "SK_LW_EC_SCR_C_01",
       "value": "Améliore Loi de l'invigoration en Grande loi de l'invigoration. Améliore la portée et la hauteur de la portée. Restaure les PV (M) d'une unité alliée, et augmente l'ATT, la MAGIE et l'AGI pendant 3 tours"
     },
@@ -5819,6 +5827,22 @@
     {
       "key": "SK_LW_EC_SCR_C_02B",
       "value": "Augmente considérablement les attaques de feu d'une unité alliée pendant 3 tours, augmente la résistance aux malus et réduit le délai d'activation du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_03",
+      "value": "Améliore Enseignements de la foudre en Enseignements des éclairs. Améliore la portée. Augmente les attaques de foudre, la résistance aux malus et la résistance aux attaques à cible unique de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_03B",
+      "value": "Augmente les attaques de foudre, la résistance aux malus et la résistance aux attaques à cible unique de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_04",
+      "value": "Améliore Intuition du dévot en Intuition métaphysique. Augmente la DEF, la PSY, la résistance aux attaques de zone et réduit l'attaque magique."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_04B",
+      "value": "Augmente la DEF, la PSY, la résistance aux attaques de zone et réduit l'attaque magique."
     },
     {
       "key": "SK_LW_AXD_ATK",
@@ -10281,6 +10305,10 @@
       "value": "Inflige des dégâts (L) en 3 coups à la cible avec une chance élevée d'infliger un coup critique."
     },
     {
+      "key": "SK_LB_LW_RSNC",
+      "value": "Restaure les PV (L) des alliés dans la zone ciblée et dissipe tous les malus, et augmente l'ATT et la MAGIE pendant 3 tours."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoque Ifrit, inflige des dégâts de feu (MAX) aux unités dans la zone ciblée et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés et réduit considérablement la résistance au feu des ennemis)."
     },
@@ -13121,6 +13149,10 @@
       "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente les PV max du lanceur de 10 % et sa résistance aux attaques de zone de 10."
     },
     {
+      "key": "SK_MA_LW_RSNC",
+      "value": "Augmente les PV max de 10 % et les attaques de foudre de +15 pour les unités alliées de foudre, augmente les compétences de soin du lanceur de 10 et sa MAGIE de +10 %."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Attaque tranchante +2"
     },
@@ -13171,6 +13203,58 @@
     {
       "key": "SK_LW_SLASH_5_UR",
       "value": "Attaque tranchante +20"
+    },
+    {
+      "key": "SK_LW_HEALPW_1",
+      "value": "Compétences de soin +2"
+    },
+    {
+      "key": "SK_LW_HEALPW_2",
+      "value": "Compétences de soin +3"
+    },
+    {
+      "key": "SK_LW_HEALPW_3",
+      "value": "Compétences de soin +5"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_N",
+      "value": "Compétences de soin +6"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_N",
+      "value": "Compétences de soin +10"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_R",
+      "value": "Compétences de soin +6"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_R",
+      "value": "Compétences de soin +12"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_SR",
+      "value": "Compétences de soin +7"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_SR",
+      "value": "Compétences de soin +13"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_SSR",
+      "value": "Compétences de soin +8"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_SSR",
+      "value": "Compétences de soin +15"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_UR",
+      "value": "Compétences de soin +10"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_UR",
+      "value": "Compétences de soin +20"
     },
     {
       "key": "SK_LW_AVOID_1",
@@ -14671,6 +14755,10 @@
     {
       "key": "SK_ROD_LW_RVAL_1_1",
       "value": ""
+    },
+    {
+      "key": "SK_CLT_LW_RSNC_1",
+      "value": "Augmente la résistance à toutes les attaques des alliés dans la zone ciblée pendant 3 tours."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -23491,6 +23579,26 @@
     {
       "key": "SK_LW_ROD_013_5",
       "value": "Aptitude passive spécifique à Gargas"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_1",
+      "value": "Aptitude passive spécifique à Lucio"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_2",
+      "value": "Aptitude passive spécifique à Lucio"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_3",
+      "value": "Aptitude passive spécifique à Lucio"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_4",
+      "value": "Aptitude passive spécifique à Lucio"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_5",
+      "value": "Aptitude passive spécifique à Lucio"
     },
     {
       "key": "SK_LW_FF6_ACC_003_1",

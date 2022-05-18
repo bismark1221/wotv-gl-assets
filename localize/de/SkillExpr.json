@@ -5765,6 +5765,10 @@
       "value": "Erhöht 3 Runden lang Feuerangriff sowie Bereichangriffsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene AZ."
     },
     {
+      "key": "SK_LW_SCR_THUN_S_2_INIT",
+      "value": "Erhöht 3 Runden lang Blitzangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
+    },
+    {
       "key": "SK_LW_SCR_S_3",
       "value": "Erhöht 3 Runden lang eigene Bereichangriffsresistenz und Schlitzresistenz."
     },
@@ -5805,6 +5809,10 @@
       "value": "Erhöht eigene PSY-Durchbohrrate sowie Magieangriffsresistenz-Durchbohrrate und fügt anschließend Ziel MAG-abhängigen nichtelementaren Schaden (XL) zu."
     },
     {
+      "key": "SK_LW_EC_SCR_A_02",
+      "value": "Beschwört eine Barriere um einen Verbündeten (mit Ausnahme des Wirkenden) herauf, die 3-mal physischen Schaden reduziert, und senkt Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden."
+    },
+    {
       "key": "SK_LW_EC_SCR_C_01",
       "value": "Verstärkt Gesetz der Kräftigung zu Großes Gesetz der Kräftigung. Erhöht Reichweite und Reichweitenhöhe. Heilt LP (M) eines Verbündeten und erhöht 3 Runden lang ANG, MAG und AGI."
     },
@@ -5819,6 +5827,22 @@
     {
       "key": "SK_LW_EC_SCR_C_02B",
       "value": "Erhöht den Feuerangriff eines Verbündeten 3 Runden lang erheblich, erhöht Schwächungsresistenz und senkt 3 Runden lang Aktivierungszeit."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_03",
+      "value": "Verstärkt Lehren des Blitzes zu Lehren des Starkblitzes. Erhöht Reichweite. Erhöht Blitzangriff, Schwächungsresistenz und Einzelangriffsresistenz verbündeter Einheiten für 3 Runden und reduziert eigene Aktivierungszeit für 3 Runden."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_03B",
+      "value": "Erhöht 3 Runden lang Blitzangriff, Schwächungsresistenz sowie Einzelangriffsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_04",
+      "value": "Verstärkt Mildherzige Intuition zu Metaphysische Intuition. Erhöht ABW, PSY, Bereichangriffsresistenz und senkt Magie-ANG."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_04B",
+      "value": "Erhöht ABW, PSY, Bereichangriffsresistenz und senkt Magieangriff."
     },
     {
       "key": "SK_LW_AXD_ATK",
@@ -10281,6 +10305,10 @@
       "value": "Fügt dem Ziel 3-mal hintereinander Schaden (L) zu, mit hoher Wahrscheinlichkeit auf kritische Treffer."
     },
     {
+      "key": "SK_LB_LW_RSNC",
+      "value": "Heilt LP (L) von Verbündeten in Reichweite, entfernt alle Schwächungen und erhöht 3 Runden lang ANG und MAG."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Ruft Ifrit, fügt Zielen in Reichweite Feuerschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Feuerresistenz-Senkung für Gegner)."
     },
@@ -13121,6 +13149,10 @@
       "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigenes LP-Maximum +10 % und Bereichangriffsresistenz +10"
     },
     {
+      "key": "SK_MA_LW_RSNC",
+      "value": "LP-Maximum +10 % und Blitzangriff +15 für verbündete Blitzeinheiten, eigene Heilkraft +10 und MAG +10 %"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -13171,6 +13203,58 @@
     {
       "key": "SK_LW_SLASH_5_UR",
       "value": "Schlitz-ANG +20"
+    },
+    {
+      "key": "SK_LW_HEALPW_1",
+      "value": "Heilkraft +2"
+    },
+    {
+      "key": "SK_LW_HEALPW_2",
+      "value": "Heilkraft +3"
+    },
+    {
+      "key": "SK_LW_HEALPW_3",
+      "value": "Heilkraft +5"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_N",
+      "value": "Heilkraft +6"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_N",
+      "value": "Heilkraft +10"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_R",
+      "value": "Heilkraft +6"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_R",
+      "value": "Heilkraft +12"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_SR",
+      "value": "Heilkraft +7"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_SR",
+      "value": "Heilkraft +13"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_SSR",
+      "value": "Heilkraft +8"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_SSR",
+      "value": "Heilkraft +15"
+    },
+    {
+      "key": "SK_LW_HEALPW_4_UR",
+      "value": "Heilkraft +10"
+    },
+    {
+      "key": "SK_LW_HEALPW_5_UR",
+      "value": "Heilkraft +20"
     },
     {
       "key": "SK_LW_AVOID_1",
@@ -14671,6 +14755,10 @@
     {
       "key": "SK_ROD_LW_RVAL_1_1",
       "value": ""
+    },
+    {
+      "key": "SK_CLT_LW_RSNC_1",
+      "value": "Erhöht 3 Runden lang alle Angriffsresistenzen von Verbündeten in Reichweite."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -23491,6 +23579,26 @@
     {
       "key": "SK_LW_ROD_013_5",
       "value": "Passive Fähigkeit (nur Garkas)"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_1",
+      "value": "Passive Fähigkeit (nur Lucio)"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_2",
+      "value": "Passive Fähigkeit (nur Lucio)"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_3",
+      "value": "Passive Fähigkeit (nur Lucio)"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_4",
+      "value": "Passive Fähigkeit (nur Lucio)"
+    },
+    {
+      "key": "SK_SWO_LW_LCIO_5",
+      "value": "Passive Fähigkeit (nur Lucio)"
     },
     {
       "key": "SK_LW_FF6_ACC_003_1",
