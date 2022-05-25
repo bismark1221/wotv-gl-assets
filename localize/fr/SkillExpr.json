@@ -3941,6 +3941,26 @@
       "value": "Augmente l'AGI, et augmente la puissance et le taux de perforation de la PSY de Rébellion."
     },
     {
+      "key": "SK_LW_EC_SAKR_A_01",
+      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour de la cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_SAKR_C_01",
+      "value": "Améliore Lumière de l'éclair en Lumière de l'éclair rapide. Réduit la résistance à la foudre et à la lumière des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de foudre (M) qui dépendent de la MAGIE du lanceur et augmente l'AGI du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SAKR_C_01B",
+      "value": "Réduit la résistance à la foudre et à la lumière des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de foudre (M) qui dépendent de la MAGIE du lanceur et augmente l'AGI du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SAKR_C_02",
+      "value": "Améliore Foudre florissante en Éclair final rapide. Augmente l'AGI, le taux de perforation de la résistance aux attaques magiques et augmente la puissance de Rébellion et le taux de perforation de la PSY."
+    },
+    {
+      "key": "SK_LW_EC_SAKR_C_02B",
+      "value": "Augmente l'AGI, le taux de perforation de la résistance aux attaques magiques et augmente la puissance de Rébellion et le taux de perforation de la PSY."
+    },
+    {
       "key": "SK_LW_MMC_ATK",
       "value": ""
     },
@@ -4109,6 +4129,10 @@
       "value": "Inflige des dégâts (M) aux unités dans la zone ciblée (les cibles avec le statut Apesanteur ne seront pas atteintes) qui augmentent en puissance en fonction du nombre de fois que des dégâts ont été subis par le lanceur (jusqu'à 3 fois)."
     },
     {
+      "key": "SK_LW_EC_BEA_A_03",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (M) et augmente considérablement la DEF du lanceur pendant 1 tour."
+    },
+    {
       "key": "SK_LW_EC_BEA_C_03",
       "value": "Améliore Posture de fer en Posture du poing d'acier. Augmente les PV max du lanceur pendant 3 tours et restaure la différence, augmente la DEF et accorde un effet qui détruit les barrières qui protègent des dégâts physiques à Frappe furieuse/Poings maléfiques."
     },
@@ -4131,6 +4155,22 @@
     {
       "key": "SK_LW_EC_BEA_C_04B",
       "value": "Réduit la DEF de la cible, puis lui inflige des dégâts (L) qui augmentent en puissance en fonction du nombre de fois que des dégâts ont été subis par le lanceur (jusqu'à 5 fois)."
+    },
+    {
+      "key": "SK_LW_EC_BEA_C_05",
+      "value": "Améliore Purificateur de démons en Infaillible purificateur de démons. Atteint sa puissance maximum après avoir subi des dégâts 2 fois. Réduit la DEF de la cible pendant 3 tours, puis lui inflige des dégâts (L) qui augmentent en puissance en fonction du nombre de fois que des dégâts ont été subis par le lanceur (jusqu'à 2 fois) avec Coup garanti."
+    },
+    {
+      "key": "SK_LW_EC_BEA_C_05B",
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis lui inflige des dégâts (L) qui augmentent en puissance en fonction du nombre de fois que des dégâts ont été subis par le lanceur (jusqu'à 2 fois) avec Coup garanti."
+    },
+    {
+      "key": "SK_LW_EC_BEA_C_06",
+      "value": "Améliore Âme guerrière en Âme guerrière : résistante. Augmente les PV max, l'ATT, la résistance aux attaques perçantes et la résistance aux attaques projectiles."
+    },
+    {
+      "key": "SK_LW_EC_BEA_C_06B",
+      "value": "Augmente les PV max, l'ATT, la résistance aux attaques perçantes et la résistance aux attaques projectiles."
     },
     {
       "key": "SK_LW_PSI_ATK",
@@ -8978,7 +9018,7 @@
     },
     {
       "key": "SK_BAHM_M_06",
-      "value": "Augmente la résistance aux attaques magiques du lanceur pendant 1 tours et augmente l'AGI."
+      "value": "Augmente la résistance aux attaques magiques du lanceur pendant 1 tour et augmente l'AGI."
     },
     {
       "key": "SK_BAHM_M_07",
@@ -9395,6 +9435,90 @@
     {
       "key": "SK_ADAM_R_1",
       "value": "Confère une chance de pouvoir complètement se défendre contre toutes les attaques."
+    },
+    {
+      "key": "SK_PRS5_KMSD_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_01",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée et réduit l'ATT et la MAGIE."
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_02",
+      "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (M)."
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_03",
+      "value": "Augmente l'ATT du lanceur pendant 3 tours, et érige une barrière qui réduit les dégâts (3 fois) autour du lanceur."
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_04",
+      "value": "Restaure un pourcentage des PV du lanceur (25 % à 50 %)."
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_05",
+      "value": "Réduit la résistance aux attaques de zone des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L)."
+    },
+    {
+      "key": "SK_PRS5_KMSD_R_01",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_PRS5_KNSR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_01",
+      "value": "Dissipe Hardiesse, Auréole, Barrière et Bouclier, puis inflige des dégâts (M) à la cible."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_02",
+      "value": "Augmente la DEF/la PSY (S) du lanceur pendant 3 tours, et invoque des soutiens (paramétré dans le Map Builder)."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_03",
+      "value": "Augmente l'ATT et la MAGIE des alliés dans la zone ciblée de façon permanente et réduit la consommation de PA (cumulable jusqu'à 2 fois)."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_04",
+      "value": "Confère une chance d'infliger Sommeil aux cibles dans la zone."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_05",
+      "value": "Réduit la DEF et la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L)."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_06",
+      "value": "Inflige des dégâts (XS) aux unités dans la zone ciblée, dissipe les bonus du lanceur, et réduit la DEF et la PSY."
+    },
+    {
+      "key": "SK_PRS5_KNSR_R_01",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis et réduit considérablement le taux d'activation de l'aptitude de réaction pendant 3 tours."
+    },
+    {
+      "key": "SK_PRS5_NIJM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_NIJM_M_01",
+      "value": "Inflige des dégâts (M) à la cible, et confère une chance d'infliger Peine de mort et Étourdissement."
+    },
+    {
+      "key": "SK_PRS5_NIJM_M_02",
+      "value": "Accorde Auréole au lanceur et accorde Barrière, Bouclier, Récup pendant 5 tours."
+    },
+    {
+      "key": "SK_PRS5_NIJM_M_03",
+      "value": "Inflige des dégâts (M) en 4 coups à la cible et Perforation."
+    },
+    {
+      "key": "SK_PRS5_NIJM_M_04",
+      "value": "Réduit la résistance tous éléments des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L)."
+    },
+    {
+      "key": "SK_PRS5_NIJM_R_01",
+      "value": "Confère une chance de réduire la résistance aux attaques tranchantes des unités dans la zone ciblée pendant 3 tours quand des dégâts sont subis, puis inflige des dégâts (S)."
     },
     {
       "key": "SK_MRGE_ATK",
@@ -9922,7 +10046,7 @@
     },
     {
       "key": "SK_LB_LW_AYKA_B",
-      "value": "Restaure les PV (XL) des alliés dans la zone ciblée, dissipe Stop et augmente la résistance stop pendant 3 tours."
+      "value": "Restaure les PV (L) des alliés dans la zone ciblée, dissipe Stop et augmente la résistance à Stop pendant 3 tours."
     },
     {
       "key": "SK_LB_LW_GLMS",
@@ -12477,6 +12601,10 @@
       "value": "PV max +10 %, Rés stop +20"
     },
     {
+      "key": "SK_MA_LW_AYKA_2",
+      "value": "Augmente les PV max de 10 % et les attaques de vent de +15 pour les unités alliées de vent, augmente les PV max du lanceur de 10 %, la résistance aux attaques de zone de 20, la résistance à Stop de 20, et le nombre d'utilisations de l'aptitude Grâce angélique de 1"
+    },
+    {
       "key": "SK_MA_LW_GLMS",
       "value": "Attaque tranchante +10, AGI +10 %"
     },
@@ -12511,6 +12639,10 @@
     {
       "key": "SK_MA_LW_RAMD",
       "value": "PT max +30 %, Attaque perçante +20"
+    },
+    {
+      "key": "SK_MA_LW_RAMD_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Paralysie de 25 pour les unités alliées d'eau, augmente les PT max du lanceur de 30 %, son ATT de +30 %, son Attaque perçante de 20 et augmente les chances d'infliger Paralysie."
     },
     {
       "key": "SK_MA_LW_OOOO",
@@ -12637,6 +12769,10 @@
       "value": "Délai d'activation -75 %, Tue-végétaux +50"
     },
     {
+      "key": "SK_MA_LW_MICE_2",
+      "value": "AGI +10, Délai d'activation -80 %, Tue-végétaux +50"
+    },
+    {
       "key": "SK_MA_LW_MIIA",
       "value": "Modification de l'acquisition de PA +100 %, Tue-esprits +50"
     },
@@ -12679,6 +12815,10 @@
     {
       "key": "SK_MA_LW_P_NASR",
       "value": "PV max +25 %"
+    },
+    {
+      "key": "SK_MA_LW_P_NASR_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Berserk +25 pour les unités alliées de glace, augmente les PV max du lanceur de 25 %, sa DEF de 10 et la Haine de 5."
     },
     {
       "key": "SK_MA_LW_P_MACR_01",
@@ -17550,6 +17690,54 @@
     },
     {
       "key": "SK_GL_VC_LW_TREL_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_THLA_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_THLA_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_THLA_P2MAX",
       "value": ""
     },
     {
@@ -23973,90 +24161,6 @@
       "value": "Aucun dégâts et confère une chance d'infliger Confusion pendant 3 tours."
     },
     {
-      "key": "SK_PRS5_KMSD_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_01",
-      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée et réduit l'ATT et la MAGIE."
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_02",
-      "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (M)."
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_03",
-      "value": "Augmente l'ATT du lanceur pendant 3 tours, et érige une barrière qui réduit les dégâts (3 fois) autour du lanceur."
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_04",
-      "value": "Restaure un pourcentage des PV du lanceur (25 % à 50 %)."
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_05",
-      "value": "Réduit la résistance aux attaques de zone des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L)."
-    },
-    {
-      "key": "SK_PRS5_KMSD_R_01",
-      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis."
-    },
-    {
-      "key": "SK_PRS5_KNSR_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_01",
-      "value": "Dissipe Hardiesse, Auréole, Barrière et Bouclier, puis inflige des dégâts (M) à la cible."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_02",
-      "value": "Augmente la DEF/la PSY (S) du lanceur pendant 3 tours, et invoque des soutiens (paramétré dans le Map Builder)."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_03",
-      "value": "Augmente l'ATT et la MAGIE des alliés dans la zone ciblée de façon permanente et réduit la consommation de PA (cumulable jusqu'à 2 fois)."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_04",
-      "value": "Confère une chance d'infliger Sommeil aux cibles dans la zone."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_05",
-      "value": "Réduit la DEF et la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L)."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_06",
-      "value": "Inflige des dégâts (XS) aux unités dans la zone ciblée, dissipe les bonus du lanceur, et réduit la DEF et la PSY."
-    },
-    {
-      "key": "SK_PRS5_KNSR_R_01",
-      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis et réduit considérablement le taux d'activation de l'aptitude de réaction pendant 3 tours."
-    },
-    {
-      "key": "SK_PRS5_NIJM_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_PRS5_NIJM_M_01",
-      "value": "Inflige des dégâts (M) à la cible, et confère une chance d'infliger Peine de mort et Étourdissement."
-    },
-    {
-      "key": "SK_PRS5_NIJM_M_02",
-      "value": "Accorde Auréole au lanceur et accorde Barrière, Bouclier, Récup pendant 5 tours."
-    },
-    {
-      "key": "SK_PRS5_NIJM_M_03",
-      "value": "Inflige des dégâts (M) en 4 coups à la cible et Perforation."
-    },
-    {
-      "key": "SK_PRS5_NIJM_M_04",
-      "value": "Réduit la résistance tous éléments des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L)."
-    },
-    {
-      "key": "SK_PRS5_NIJM_R_01",
-      "value": "Confère une chance de réduire la résistance aux attaques tranchantes des unités dans la zone ciblée pendant 3 tours quand des dégâts sont subis, puis inflige des dégâts (S)."
-    },
-    {
       "key": "SK_LW_CLT_019_1",
       "value": ""
     },
@@ -24171,6 +24275,26 @@
     {
       "key": "SK_PRS5_ACC_002_5",
       "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_062_1",
+      "value": "Aptitude passive spécifique à Velne"
+    },
+    {
+      "key": "SK_LW_ACC_062_2",
+      "value": "Aptitude passive spécifique à Velne"
+    },
+    {
+      "key": "SK_LW_ACC_062_3",
+      "value": "Aptitude passive spécifique à Velne"
+    },
+    {
+      "key": "SK_LW_ACC_062_4",
+      "value": "Aptitude passive spécifique à Velne"
+    },
+    {
+      "key": "SK_LW_ACC_062_5",
+      "value": "Aptitude passive spécifique à Velne"
     },
     {
       "key": "SK_LW_WHM_M_4_BR",

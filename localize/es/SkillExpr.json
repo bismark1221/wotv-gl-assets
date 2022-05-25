@@ -3941,6 +3941,26 @@
       "value": "Aumenta la AGI, y aumenta la potencia y la tasa de penetración de ESP de Rebeldía."
     },
     {
+      "key": "SK_LW_EC_SAKR_A_01",
+      "value": "Elimina cualquier barrera que reduzca el daño mágico del objetivo, e inflige daño (mucho) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_LW_EC_SAKR_C_01",
+      "value": "Mejora «Luz atronadora» a «Luz atronadora veloz»: reduce la res. rayo y luz de los objetivos al alcance durante 3 turnos, les inflige daño de rayo (medio) en función de la MAG del usuario y aumenta la AGI del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SAKR_C_01B",
+      "value": "Reduce la res. rayo y luz de los objetivos al alcance durante 3 turnos, les inflige daño de rayo (medio) en función de la MAG del usuario y aumenta la AGI del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SAKR_C_02",
+      "value": "Mejora «Rayo en flor» a «Rayo en flor veloz»: aumenta la AGI y la tasa de penetración de res. ataque mágico, y aumenta la potencia de Rebeldía y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_LW_EC_SAKR_C_02B",
+      "value": "Aumenta la AGI y la tasa de penetración de res. ataque mágico, y aumenta la potencia de Rebeldía y la tasa de penetración de ESP."
+    },
+    {
       "key": "SK_LW_MMC_ATK",
       "value": ""
     },
@@ -4109,6 +4129,10 @@
       "value": "Inflige daño (medio) a los objetivos al alcance (no afecta a objetivos en estado lévita) y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 3 veces)."
     },
     {
+      "key": "SK_LW_EC_BEA_A_03",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño (medio) y aumenta considerablemente la DEF del usuario durante un turno."
+    },
+    {
       "key": "SK_LW_EC_BEA_C_03",
       "value": "Mejora «Postura corporal férrea» a «Postura acerada»: aumenta la VIT máx. del usuario durante 3 turnos, recupera la cantidad de VIT aumentada, aumenta la DEF y añade el efecto de eliminar barreras físicas a «Golpe vacilante» y «Paliza vil»."
     },
@@ -4131,6 +4155,22 @@
     {
       "key": "SK_LW_EC_BEA_C_04B",
       "value": "Reduce la DEF del objetivo, le inflige daño (mucho) y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 5 veces)."
+    },
+    {
+      "key": "SK_LW_EC_BEA_C_05",
+      "value": "Mejora «Exorcismo» a «Exorcismo certero»: alcanza su máxima potencia tras recibir daño 2 veces. Reduce la DEF del objetivo durante 3 turnos, le inflige daño (mucho) con golpe garantizado y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 2 veces)."
+    },
+    {
+      "key": "SK_LW_EC_BEA_C_05B",
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (mucho) con golpe garantizado y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 2 veces)."
+    },
+    {
+      "key": "SK_LW_EC_BEA_C_06",
+      "value": "Mejora «Espíritu de guerrero» a «Espíritu de guerrero robusto»: aumenta la VIT máx., el ATQ, la res. ataque de perforación y la res. ataque a distancia."
+    },
+    {
+      "key": "SK_LW_EC_BEA_C_06B",
+      "value": "Aumenta la VIT máx., la DEF, la res. ataque de perforación y la res. ataque a distancia."
     },
     {
       "key": "SK_LW_PSI_ATK",
@@ -9397,6 +9437,90 @@
       "value": "Probabilidad de protegerse completamente de todos los ataques."
     },
     {
+      "key": "SK_PRS5_KMSD_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_01",
+      "value": "Inflige daño (medio) a los objetivos al alcance y reduce su ATQ y MAG."
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_02",
+      "value": "Elimina todas las mejoras del objetivo y le inflige daño (medio)."
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_03",
+      "value": "Aumenta el ATQ del usuario durante 3 turnos y le otorga una barrera que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_04",
+      "value": "Recupera un porcentaje de VIT del usuario (del 25 % al 50 %)."
+    },
+    {
+      "key": "SK_PRS5_KMSD_M_05",
+      "value": "Reduce la res. ataque de zona de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_PRS5_KMSD_R_01",
+      "value": "Probabilidad de realizar un contraataque al recibir daño."
+    },
+    {
+      "key": "SK_PRS5_KNSR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_01",
+      "value": "Elimina agallas, autolázaro, escudo y coraza al objetivo y le inflige daño (medio)."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_02",
+      "value": "Aumenta la DEF y el ESP del usuario (poco) durante 3 turnos e invoca refuerzos (configurado en el creador de mapas)."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_03",
+      "value": "Aumenta el ATQ y la MAG de los aliados al alcance permanentemente y reduce el consumo de PA (acumulable hasta 2 veces)."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_04",
+      "value": "Probabilidad de infligir sueño a los objetivos al alcance."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_05",
+      "value": "Reduce la DEF y la ESP de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_PRS5_KNSR_M_06",
+      "value": "Inflige daño (mínimo) a los objetivos al alcance, anula las mejoras del usuario y reduce su DEF y ESP."
+    },
+    {
+      "key": "SK_PRS5_KNSR_R_01",
+      "value": "Probabilidad de realizar un contraataque al recibir daño y reduce considerablemente la tasa de activación de la habilidad de reacción durante 3 turnos."
+    },
+    {
+      "key": "SK_PRS5_NIJM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PRS5_NIJM_M_01",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle condena y aturdimiento."
+    },
+    {
+      "key": "SK_PRS5_NIJM_M_02",
+      "value": "Otorga autolázaro al usuario y le otorga escudo, coraza y revitalia durante 5 turnos."
+    },
+    {
+      "key": "SK_PRS5_NIJM_M_03",
+      "value": "Inflige daño penetrante (medio) 4 veces al objetivo."
+    },
+    {
+      "key": "SK_PRS5_NIJM_M_04",
+      "value": "Reduce la res. todos los elementos de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_PRS5_NIJM_R_01",
+      "value": "Probabilidad de reducir la res. corte de los objetivos al alcance durante 3 turnos al recibir daño, y les inflige daño (poco)."
+    },
+    {
       "key": "SK_MRGE_ATK",
       "value": "Inflige daño (poco) al objetivo."
     },
@@ -9922,7 +10046,7 @@
     },
     {
       "key": "SK_LB_LW_AYKA_B",
-      "value": "Recupera VIT de los aliados al alcance (muchísimo), elimina paro y aumenta la res. paro durante 3 turnos."
+      "value": "Recupera VIT de los aliados al alcance (mucho), elimina paro y aumenta la res. paro durante 3 turnos."
     },
     {
       "key": "SK_LB_LW_GLMS",
@@ -12477,6 +12601,10 @@
       "value": "VIT máx. +10 %, res. paro +20"
     },
     {
+      "key": "SK_MA_LW_AYKA_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: VIT máx. +10 %, res. ataque de zona +20, res. paro +20, n.º de usos de Gracia angelical +1"
+    },
+    {
       "key": "SK_MA_LW_GLMS",
       "value": "Ataque de corte +10, AGI +10 %"
     },
@@ -12511,6 +12639,10 @@
     {
       "key": "SK_MA_LW_RAMD",
       "value": "PT máx. +30 %, ataque de perforación +20"
+    },
+    {
+      "key": "SK_MA_LW_RAMD_2",
+      "value": "Aliados de agua: VIT máx. +10 %, res. parálisis +25; usuario: PT máx. +30 %, ATQ +30 %, ataque de perforación +20, tasa de activación de parálisis +20"
     },
     {
       "key": "SK_MA_LW_OOOO",
@@ -12637,6 +12769,10 @@
       "value": "Tiempo de activación -75 %, Mataplantoides +50"
     },
     {
+      "key": "SK_MA_LW_MICE_2",
+      "value": "AGI +10, tiempo de activación -80 %, Mataplantoides +50"
+    },
+    {
       "key": "SK_MA_LW_MIIA",
       "value": "Modificador de PA adquiridos +100 %, Mataespíritus +50"
     },
@@ -12679,6 +12815,10 @@
     {
       "key": "SK_MA_LW_P_NASR",
       "value": "VIT máx. +25 %"
+    },
+    {
+      "key": "SK_MA_LW_P_NASR_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, res. locura +25; usuario: VIT máx. +25 %, DEF +10, odio +5"
     },
     {
       "key": "SK_MA_LW_P_MACR_01",
@@ -17550,6 +17690,54 @@
     },
     {
       "key": "SK_GL_VC_LW_TREL_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_THLA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_THLA_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_THLA_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_THLA_P2MAX",
       "value": ""
     },
     {
@@ -23973,90 +24161,6 @@
       "value": "Probabilidad de infligir confusión durante 3 turnos (sin infligir daño)."
     },
     {
-      "key": "SK_PRS5_KMSD_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_01",
-      "value": "Inflige daño (medio) a los objetivos al alcance y reduce su ATQ y MAG."
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_02",
-      "value": "Elimina todas las mejoras del objetivo y le inflige daño (medio)."
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_03",
-      "value": "Aumenta el ATQ del usuario durante 3 turnos y le otorga una barrera que reduce el daño (3 veces)."
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_04",
-      "value": "Recupera un porcentaje de VIT del usuario (del 25 % al 50 %)."
-    },
-    {
-      "key": "SK_PRS5_KMSD_M_05",
-      "value": "Reduce la res. ataque de zona de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
-    },
-    {
-      "key": "SK_PRS5_KMSD_R_01",
-      "value": "Probabilidad de realizar un contraataque al recibir daño."
-    },
-    {
-      "key": "SK_PRS5_KNSR_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_01",
-      "value": "Elimina agallas, autolázaro, escudo y coraza al objetivo y le inflige daño (medio)."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_02",
-      "value": "Aumenta la DEF y el ESP del usuario (poco) durante 3 turnos e invoca refuerzos (configurado en el creador de mapas)."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_03",
-      "value": "Aumenta el ATQ y la MAG de los aliados al alcance permanentemente y reduce el consumo de PA (acumulable hasta 2 veces)."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_04",
-      "value": "Probabilidad de infligir sueño a los objetivos al alcance."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_05",
-      "value": "Reduce la DEF y la ESP de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
-    },
-    {
-      "key": "SK_PRS5_KNSR_M_06",
-      "value": "Inflige daño (mínimo) a los objetivos al alcance, anula las mejoras del usuario y reduce su DEF y ESP."
-    },
-    {
-      "key": "SK_PRS5_KNSR_R_01",
-      "value": "Probabilidad de realizar un contraataque al recibir daño y reduce considerablemente la tasa de activación de la habilidad de reacción durante 3 turnos."
-    },
-    {
-      "key": "SK_PRS5_NIJM_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_PRS5_NIJM_M_01",
-      "value": "Daño (medio) al objetivo y probabilidad de infligirle condena y aturdimiento."
-    },
-    {
-      "key": "SK_PRS5_NIJM_M_02",
-      "value": "Otorga autolázaro al usuario y le otorga escudo, coraza y revitalia durante 5 turnos."
-    },
-    {
-      "key": "SK_PRS5_NIJM_M_03",
-      "value": "Inflige daño penetrante (medio) 4 veces al objetivo."
-    },
-    {
-      "key": "SK_PRS5_NIJM_M_04",
-      "value": "Reduce la res. todos los elementos de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
-    },
-    {
-      "key": "SK_PRS5_NIJM_R_01",
-      "value": "Probabilidad de reducir la res. corte de los objetivos al alcance durante 3 turnos al recibir daño, y les inflige daño (poco)."
-    },
-    {
       "key": "SK_LW_CLT_019_1",
       "value": ""
     },
@@ -24171,6 +24275,26 @@
     {
       "key": "SK_PRS5_ACC_002_5",
       "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_062_1",
+      "value": "Habilidad pasiva exclusiva de Velne"
+    },
+    {
+      "key": "SK_LW_ACC_062_2",
+      "value": "Habilidad pasiva exclusiva de Velne"
+    },
+    {
+      "key": "SK_LW_ACC_062_3",
+      "value": "Habilidad pasiva exclusiva de Velne"
+    },
+    {
+      "key": "SK_LW_ACC_062_4",
+      "value": "Habilidad pasiva exclusiva de Velne"
+    },
+    {
+      "key": "SK_LW_ACC_062_5",
+      "value": "Habilidad pasiva exclusiva de Velne"
     },
     {
       "key": "SK_LW_WHM_M_4_BR",
