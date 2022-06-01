@@ -7145,6 +7145,74 @@
       "value": "Inflige daño (medio) a los objetivos al alcance, reduce sus PA al asestar un crítico y recupera PA del usuario."
     },
     {
+      "key": "SK_LW_RYER_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RYER_M_1",
+      "value": "Inflige daño (medio) a los objetivos al alcance y elimina todas sus mejoras."
+    },
+    {
+      "key": "SK_LW_RYER_M_2",
+      "value": "Reduce la DEF de los objetivos al alcance durante 3 turnos, y luego les inflige daño (medio) con mucha precisión."
+    },
+    {
+      "key": "SK_LW_RYER_M_3",
+      "value": "El usuario sobrevive a daño letal una vez."
+    },
+    {
+      "key": "SK_LW_RYER_S_1",
+      "value": "Daño (poco) al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RYER_S_2",
+      "value": "Aumenta la tasa de bloqueo de habilidad de reacción de los aliados de alrededor durante 3 turnos y recupera un porcentaje fijo de VIT (mucho) cuando esta cae por debajo del 20 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_LW_RYER_S_2_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RYER_S_3",
+      "value": "Inflige daño (medio) al objetivo y reduce su res. ataque de corte durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RYER_S_4",
+      "value": "Daño (medio) a los objetivos al alcance y probabilidad de infligirles confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RYER_R_1",
+      "value": "Probabilidad de realizar un contraataque al recibir daño y aumenta el daño según la cantidad de VIT que haya perdido el usuario."
+    },
+    {
+      "key": "SK_LW_RYER_P_1",
+      "value": "Aumenta la tasa de precisión y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_RYER_P_2",
+      "value": "Aumenta la res. ataque de corte y la res. ataque a distancia."
+    },
+    {
+      "key": "SK_LW_EC_RYER_A_01",
+      "value": "Elimina Coraza del objetivo, le inflige daño (mucho) y reduce considerablemente su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_RYER_C_01",
+      "value": "Mejora «Entrenamiento de Lili» a «Entrenamiento avanzado de Lili»: aumenta la tasa de bloqueo de habilidad de reacción y la res. ataque de corte de los aliados de alrededor durante 3 turnos, recupera PA del usuario y recupera un porcentaje fijo de VIT (mucho) cuando esta cae por debajo del 20 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_LW_EC_RYER_C_01B",
+      "value": "Aumenta la tasa de bloqueo de habilidad de reacción y la res. ataque de corte de los aliados de alrededor durante 3 turnos, recupera PA del usuario y recupera un porcentaje fijo de VIT (mucho) cuando esta cae por debajo del 20 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_LW_EC_RYER_C_02",
+      "value": "Mejora «Orgullo de jovencita» a «Orgullo de jovencita adorable»: n.º de usos de habilidad +1. El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta la res. ataque de zona mientras agallas esté activo."
+    },
+    {
+      "key": "SK_LW_EC_RYER_C_02B",
+      "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta la res. ataque de zona mientras agallas esté activo."
+    },
+    {
       "key": "SK_TOMB_LARA_ATK",
       "value": ""
     },
@@ -10433,6 +10501,10 @@
       "value": "Recupera VIT de los aliados al alcance (mucho), elimina todas sus reducciones y aumenta su ATQ y MAG durante 3 turnos."
     },
     {
+      "key": "SK_LB_LW_RYER_02",
+      "value": "Aumenta la tasa de penetración de DEF del usuario, y luego inflige daño (mucho) a los objetivos al alcance y probabilidad de infligirles ceguera durante 3 turnos, y efecto adicional: reduce la res. ataque de corte de objetivos cegados."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -13293,6 +13365,10 @@
       "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: potencia de curación +10, MAG +10 %"
     },
     {
+      "key": "SK_MA_LW_RYER_02",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: ATQ +15 %, suerte +15 %"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -14899,6 +14975,10 @@
     {
       "key": "SK_CLT_LW_RSNC_1",
       "value": "Aumenta la res. todos los tipos de ataque de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_CLT_LW_RYER_02_1",
+      "value": "Aumenta la AGI de los aliados de alrededor durante 3 turnos."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -22009,6 +22089,18 @@
       "value": "Recupera VIT de los aliados de alrededor (poco)."
     },
     {
+      "key": "SK_GMK_ARROW_1",
+      "value": "Inflige daño a los objetivos al alcance."
+    },
+    {
+      "key": "SK_GMK_BOMB_1",
+      "value": "Inflige daño a los objetivos al alcance."
+    },
+    {
+      "key": "SK_GMK_SLEEP_2",
+      "value": "Inflige sueño a los objetivos al alcance."
+    },
+    {
       "key": "SK_LW_WAR_P_2",
       "value": "No se puede usar"
     },
@@ -23806,6 +23898,34 @@
     },
     {
       "key": "SK_LW_FF6_ACC_003_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_1_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_5_S",
       "value": ""
     },
     {

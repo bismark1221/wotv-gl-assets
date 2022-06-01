@@ -6322,11 +6322,11 @@
     },
     {
       "key": "SK_LW_LLN_M_1",
-      "value": "Fügt dem Ziel Schaden (M) zu, senkt 3 Runden lang Heilkraft erheblich bei kritischem Treffer und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
+      "value": "Fügt dem Ziel Schaden (M) zu, senkt 3 Runden lang Heilkraft bei kritischem Treffer erheblich und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
     },
     {
       "key": "SK_LW_LLN_M_1B",
-      "value": "Fügt dem Ziel Schaden (M) zu, senkt 3 Runden lang Heilkraft erheblich bei kritischem Treffer und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
+      "value": "Fügt dem Ziel Schaden (M) zu, senkt 3 Runden lang Heilkraft bei kritischem Treffer erheblich und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
     },
     {
       "key": "SK_LW_LLN_M_2",
@@ -6334,7 +6334,7 @@
     },
     {
       "key": "SK_LW_LLN_M_3",
-      "value": "Zerstört physischen Schaden verringernde Barrieren und fügt dem Ziel anschließend Schaden (M) und Durchschlag zu."
+      "value": "Zerstört physischen Schaden verringernde Barrieren vom Ziel und fügt anschließend Schaden (M) und Durchschlag zu."
     },
     {
       "key": "SK_LW_LLN_S_1_INIT",
@@ -7143,6 +7143,74 @@
     {
       "key": "SK_PRS5_EC_VOLT_C_02B",
       "value": "Fügt Zielen in Reichweite Schaden (M) zu, senkt bei kritischem Treffer AP und heilt eigene AP."
+    },
+    {
+      "key": "SK_LW_RYER_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RYER_M_1",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und entfernt alle Stärkungen."
+    },
+    {
+      "key": "SK_LW_RYER_M_2",
+      "value": "Senkt 3 Runden lang ABW von Zielen in Reichweite und fügt anschließend mit hoher Präzision Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_RYER_M_3",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben."
+    },
+    {
+      "key": "SK_LW_RYER_S_1",
+      "value": "Fügt dem Ziel Schaden (S) zu und gewährt geringe Chance auf Wirken von 3 Runden andauernder Lähmung."
+    },
+    {
+      "key": "SK_LW_RYER_S_2",
+      "value": "Erhöht 3 Runden lang Reaktionsblockrate aller Verbündeten im Bereich um den Wirkenden und heilt festgelegten Anteil der eigenen LP (L), wenn LP beim Erleiden von Schaden unter 20 % sinken (einmal)."
+    },
+    {
+      "key": "SK_LW_RYER_S_2_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RYER_S_3",
+      "value": "Fügt dem Ziel Schaden (M) zu und senkt 3 Runden lang Schlitzresistenz."
+    },
+    {
+      "key": "SK_LW_RYER_S_4",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Konfus."
+    },
+    {
+      "key": "SK_LW_RYER_R_1",
+      "value": "Gewährt Chance auf Konter beim Erleiden von Schaden und erhöht Schaden abhängig vom eigenen LP-Verlust."
+    },
+    {
+      "key": "SK_LW_RYER_P_1",
+      "value": "Erhöht Präzision und ABW-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_RYER_P_2",
+      "value": "Erhöht Schlitz- und Geschossresistenz."
+    },
+    {
+      "key": "SK_LW_EC_RYER_A_01",
+      "value": "Entfernt Protes vom Ziel und fügt ihm anschließend Schaden (L) zu und senkt 3 Runden lang Heilkraft erheblich."
+    },
+    {
+      "key": "SK_LW_EC_RYER_C_01",
+      "value": "Verstärkt Lillis taktische Tipps zu Lillis taktisches Training. Erhöht 3 Runden lang Reaktionsblockrate und Schlitzresistenz-Durchbohrrate aller Verbündeten im Bereich um den Wirkenden, heilt eigene AP und heilt festgelegten Anteil der eigenen LP (L), wenn LP beim Erleiden von Schaden unter 20 % sinken (einmal)."
+    },
+    {
+      "key": "SK_LW_EC_RYER_C_01B",
+      "value": "Erhöht 3 Runden lang Reaktionsblockrate und Schlitzresistenz-Durchbohrrate aller Verbündeten im Bereich um den Wirkenden, heilt eigene AP und heilt festgelegten Anteil der eigenen LP (L), wenn LP beim Erleiden von Schaden unter 20 % sinken (einmal)."
+    },
+    {
+      "key": "SK_LW_EC_RYER_C_02",
+      "value": "Verstärkt Reine Herzen sterben nie zu Reine Herzen sterben nie und nimmer. Fähigkeiteneinsätze +1. Ermöglicht dem Wirkendem, einmal einen tödlichen Treffer zu überleben. Zusätzlicher Effekt: Erhöht Bereichangriffsresistenz, während Mumm aktiv ist."
+    },
+    {
+      "key": "SK_LW_EC_RYER_C_02B",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben. Zusätzlicher Effekt: Erhöht Bereichangriffsresistenz, während Mumm aktiv ist."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -10433,6 +10501,10 @@
       "value": "Heilt LP (L) von Verbündeten in Reichweite, entfernt alle Schwächungen und erhöht 3 Runden lang ANG und MAG."
     },
     {
+      "key": "SK_LB_LW_RYER_02",
+      "value": "Erhöht eigene ABW-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Blind. Zusätzlicher Effekt: Senkt Schlitzresistenz, während Blind aktiv ist."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Ruft Ifrit, fügt Zielen in Reichweite Feuerschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Feuerresistenz-Senkung für Gegner)."
     },
@@ -13293,6 +13365,10 @@
       "value": "LP-Maximum +10 % und Blitzangriff +15 für verbündete Blitzeinheiten, eigene Heilkraft +10 und MAG +10 %"
     },
     {
+      "key": "SK_MA_LW_RYER_02",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigener ANG +10 %, GLK +15 %"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -14899,6 +14975,10 @@
     {
       "key": "SK_CLT_LW_RSNC_1",
       "value": "Erhöht 3 Runden lang alle Angriffsresistenzen von Verbündeten in Reichweite."
+    },
+    {
+      "key": "SK_CLT_LW_RYER_02_1",
+      "value": "Erhöht 3 Runden lang AGI von Verbündeten in Reichweite."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -22009,6 +22089,18 @@
       "value": "Heilt LP von Verbündeten im Bereich um Wirkenden (S)."
     },
     {
+      "key": "SK_GMK_ARROW_1",
+      "value": "Fügt Zielen in Reichweite Schaden zu."
+    },
+    {
+      "key": "SK_GMK_BOMB_1",
+      "value": "Fügt Zielen in Reichweite Schaden zu."
+    },
+    {
+      "key": "SK_GMK_SLEEP_2",
+      "value": "Wirkt Schlaf auf Ziele in Reichweite."
+    },
+    {
       "key": "SK_LW_WAR_P_2",
       "value": "Kann nicht verwendet werden."
     },
@@ -23806,6 +23898,34 @@
     },
     {
       "key": "SK_LW_FF6_ACC_003_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_1_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_007_5_S",
       "value": ""
     },
     {
