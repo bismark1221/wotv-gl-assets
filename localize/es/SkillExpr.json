@@ -5957,6 +5957,26 @@
       "value": "Aumenta el ATQ, el ESP y la res. ataque mágico de los aliados de alrededor durante 3 turnos."
     },
     {
+      "key": "SK_LW_AXD_EN_A_02",
+      "value": "Elimina Coraza, Escudo y Síntesis del objetivo y le inflige daño (medio)."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_03",
+      "value": "Mejora «Rompeescudos tortuoso» a «Rompeescudos evanescente»: reduce el coste de PA. Reduce la res. ataque de zona de los objetivos al alcance, elimina cualquier barrera que reduzca su daño físico y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_03B",
+      "value": "Reduce la res. ataque de zona de los objetivos al alcance, elimina cualquier barrera que reduzca su daño físico y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_04",
+      "value": "Mejora «Instintos naturales» a «Impulsos naturales»: aumenta la tasa de precisión, la tasa de penetración de DEF y la tasa de penetración de res. ataque de corte."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_04B",
+      "value": "Aumenta la tasa de precisión, la tasa de penetración de DEF y la tasa de penetración de res. ataque de corte."
+    },
+    {
       "key": "SK_FF15_ARNA_ATK",
       "value": ""
     },
@@ -7943,6 +7963,22 @@
     {
       "key": "SK_SHGN_M_03",
       "value": "Otorga una barrera al usuario que reduce el daño mágico (3 veces)."
+    },
+    {
+      "key": "SK_HLDV_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_HLDV_M_01",
+      "value": "Reduce la DEF del objetivo durante 3 turnos tras desplazarse a la casilla objetivo y le inflige daño (poco)."
+    },
+    {
+      "key": "SK_HLDV_M_02",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
+    },
+    {
+      "key": "SK_HLDV_M_03",
+      "value": "Inflige daño (medio) a los objetivos al alcance y reduce su AGI durante 3 turnos."
     },
     {
       "key": "SK_ICGM_ATK",
@@ -10009,6 +10045,30 @@
       "value": "Probabilidad de realizar un contraataque tras eliminar aumentos al recibir daño."
     },
     {
+      "key": "SK_ANIM_ATK",
+      "value": "Inflige daño en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_ANIM_M_01",
+      "value": "Daño de oscuridad (poco) en función de la MAG del usuario al objetivo y probabilidad de infligirle muerte."
+    },
+    {
+      "key": "SK_ANIM_M_02",
+      "value": "Inflige daño de oscuridad (medio) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_ANIM_M_03",
+      "value": "Aumenta la MAG y la tasa de penetración de res. ataque mágico del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_ANIM_M_04",
+      "value": "Elimina autolázaro de los objetivos al alcance, les inflige daño no elemental (medio) en función de la MAG del usuario, probabilidad de infligirles veneno durante 3 turnos y reduce considerablemente la DEF y el ESP de objetivos envenenados."
+    },
+    {
+      "key": "SK_ANIM_M_05",
+      "value": "Daño de oscuridad (muchísimo) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles silencio durante 3 turnos."
+    },
+    {
       "key": "SK_AGON_M_01_R",
       "value": "Inflige daño (poco) a los objetivos al alcance."
     },
@@ -10711,6 +10771,10 @@
     {
       "key": "SK_SMN_ODIN_01",
       "value": "Invoca a Odín oscuro: daño no elemental (mucho) a los objetivos al alcance, probabilidad de infligirles veneno durante 3 turnos, y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados)."
+    },
+    {
+      "key": "SK_SMN_ANIM",
+      "value": "Invoca a Ánima: daño de oscuridad (muchísimo) en función de la MAG del usuario a los objetivos al alcance, probabilidad de infligirles silencio durante 3 turnos, y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de oscuridad, y reduce considerablemente la res. oscuridad de los enemigos)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -12741,6 +12805,10 @@
       "value": "VIT máx. +15 %, modificador de PA adquiridos +30 %, PA iniciales +10"
     },
     {
+      "key": "SK_MA_LW_CLEY_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, res. embrujo +25; usuario: VIT máx. +15 %, alcance +2, modificador de adquisición de PA +30 %, PA iniciales +10, aumenta la tasa de activación de congelación"
+    },
+    {
       "key": "SK_MA_LW_KADI",
       "value": "PT máx. +40 %, MAG +15 %"
     },
@@ -12807,6 +12875,10 @@
     {
       "key": "SK_MA_LW_SEVR",
       "value": "Res. todos los tipos de ataque +25"
+    },
+    {
+      "key": "SK_MA_LW_SEVR_2",
+      "value": "MAG +30 %, tiempo de activación de habilidades ofensivas -50 %, res. todos los tipos de ataque +25"
     },
     {
       "key": "SK_MA_LW_VADM",
@@ -12923,6 +12995,10 @@
     {
       "key": "SK_MA_LW_P_WHIS",
       "value": "Ataque de corte +5, res. todos los tipos de ataque +5"
+    },
+    {
+      "key": "SK_MA_LW_P_WHIS_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: ataque de corte +5, res. todos los tipos de ataque +5, res. reducciones de res. todos los tipos de ataque +100, odio +5"
     },
     {
       "key": "SK_MA_LW_P_KTON",
@@ -13367,6 +13443,10 @@
     {
       "key": "SK_MA_LW_RYER_02",
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: ATQ +15 %, suerte +15 %"
+    },
+    {
+      "key": "SK_MA_LW_SERL",
+      "value": "Aliados de viento: VIT máx. +10 %, res. confusión +25: usuario: VIT máx. +20 %, ataque de corte +10"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -14061,6 +14141,14 @@
       "value": ""
     },
     {
+      "key": "SK_LW_RNG_010_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_010_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_ACC_040_1",
       "value": ""
     },
@@ -14401,6 +14489,10 @@
       "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima)."
     },
     {
+      "key": "SK_ACC_LW_RIRY_01_ARENA",
+      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima)."
+    },
+    {
       "key": "SK_ACC_LW_RYER_01_1_1",
       "value": "Aumenta considerablemente la MAG del usuario durante 3 turnos, aumenta la tasa de precisión y reduce la DEF y el ESP."
     },
@@ -14701,6 +14793,10 @@
       "value": ""
     },
     {
+      "key": "SK_AXE_LW_SERL_1",
+      "value": ""
+    },
+    {
       "key": "SK_ACC_LW_RARD_1_1",
       "value": "Aumenta la tasa de precisión del usuario durante 3 turnos y el movimiento en 1."
     },
@@ -14770,6 +14866,10 @@
     },
     {
       "key": "SK_CLT_LW_THLA_01_1_1",
+      "value": "Consume VIT del usuario para evadir todos los ataques mágicos durante un turno."
+    },
+    {
+      "key": "SK_CLT_LW_THLA_01_ARENA",
       "value": "Consume VIT del usuario para evadir todos los ataques mágicos durante un turno."
     },
     {
@@ -17818,6 +17918,54 @@
     },
     {
       "key": "SK_GL_VC_LW_THLA_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ANIM_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ANIM_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ANIM_P2MAX",
       "value": ""
     },
     {
@@ -22025,6 +22173,14 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_BSK_1-100_U",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_BSK_1-100_D",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "Ataque provisional de mecanismo"
     },
@@ -24423,6 +24579,50 @@
     {
       "key": "SK_CLT_LW_HWLT_ARENA",
       "value": "Consume VIT del usuario para evadir todos los ataques físicos durante un turno."
+    },
+    {
+      "key": "SK_GHUL_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_GHUL_M_01",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
+    },
+    {
+      "key": "SK_GHUL_M_02",
+      "value": "Daño (poco) al objetivo tras desplazarse a la casilla objetivo y probabilidad de infligirle veneno durante 3 turnos."
+    },
+    {
+      "key": "SK_GHUL_M_03",
+      "value": "Reduce considerablemente ATQ, MAG, DEF y ESP del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_GHUL_M_04",
+      "value": "Otorga AutoLázaro al objetivo: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima)."
+    },
+    {
+      "key": "SK_GHUL_R_01",
+      "value": "Probabilidad de realizar un contraataque al recibir daño y absorbe el daño infligido."
+    },
+    {
+      "key": "SK_MPOT_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_MPOT_M_01",
+      "value": "Absorbe PT del objetivo."
+    },
+    {
+      "key": "SK_MPOT_M_02",
+      "value": "Recupera PA (poco) de los objetivos al alcance."
+    },
+    {
+      "key": "SK_MPOT_M_03",
+      "value": "Reduce el ATQ y la MAG de los objetivos al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_MPOT_R_01",
+      "value": "Probabilidad de recuperar PA del objetivo al recibir daño."
     }
   ]
 }

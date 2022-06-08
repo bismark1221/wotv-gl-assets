@@ -5957,6 +5957,26 @@
       "value": "Augmente l'ATT, la PSY et la résistance aux attaques magiques des alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_LW_AXD_EN_A_02",
+      "value": "Dissipe Bouclier, Barrière et Lame égide de la cible, puis inflige des dégâts (M)."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_03",
+      "value": "Améliore Tourbillon brise-bouclier en Tranche-brume. Réduit la consommation de PA. Réduit la résistance aux attaques de zone des unités dans la zone ciblée et détruit toute barrière réduisant les dégâts physiques érigée autour des cibles, puis inflige des dégâts (L)."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_03B",
+      "value": "Réduit la consommation de PA. Réduit la résistance aux attaques de zone des unités dans la zone ciblée et détruit toute barrière réduisant les dégâts physiques érigée autour des cibles, puis inflige des dégâts (L)."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_04",
+      "value": "Améliore Instinct naturel en Impétuosité naturelle. Augmente le taux de précision, le taux de perforation de la DEF et le taux de perforation de la résistance aux attaques tranchantes."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_04B",
+      "value": "Augmente le taux de précision, le taux de perforation de la DEF et le taux de perforation de la résistance aux attaques tranchantes."
+    },
+    {
       "key": "SK_FF15_ARNA_ATK",
       "value": ""
     },
@@ -7943,6 +7963,22 @@
     {
       "key": "SK_SHGN_M_03",
       "value": "Érige une barrière autour du lanceur qui réduit les dégâts magiques (3 fois)."
+    },
+    {
+      "key": "SK_HLDV_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_HLDV_M_01",
+      "value": "Après déplacement jusqu'à la case ciblée, réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (S)."
+    },
+    {
+      "key": "SK_HLDV_M_02",
+      "value": "Inflige des dégâts (M) à la cible et confère une chance d'infliger Paralysie pendant 3 tours."
+    },
+    {
+      "key": "SK_HLDV_M_03",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, et réduit l'AGI pendant 3 tours."
     },
     {
       "key": "SK_ICGM_ATK",
@@ -10009,6 +10045,30 @@
       "value": "Confère une chance de contre-attaquer après avoir dissipé tous les effets bonus lorsque des dégâts sont subis."
     },
     {
+      "key": "SK_ANIM_ATK",
+      "value": "Inflige des dégâts qui dépendent de la MAGIE du lanceur à la cible."
+    },
+    {
+      "key": "SK_ANIM_M_01",
+      "value": "Inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance d'infliger Mort instantanée."
+    },
+    {
+      "key": "SK_ANIM_M_02",
+      "value": "Inflige des dégâts d'ombre (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_ANIM_M_03",
+      "value": "Augmente la MAGIE et le taux de perforation de la résistance aux attaques magiques du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_ANIM_M_04",
+      "value": "Dissipe Auréole des unités dans la zone ciblée, puis inflige des dégâts non-élémentaires (M) qui dépendent de la MAGIE du lanceur, confère une chance d'infliger Poison pendant 3 tours, et réduit considérablement la DEF et la PSY pendant l'effet Poison."
+    },
+    {
+      "key": "SK_ANIM_M_05",
+      "value": "Inflige des dégâts d'ombre (XL) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Silence pendant 3 tours."
+    },
+    {
       "key": "SK_AGON_M_01_R",
       "value": "Inflige des dégâts (S) aux unités dans la zone ciblée."
     },
@@ -10711,6 +10771,10 @@
     {
       "key": "SK_SMN_ODIN_01",
       "value": "Invoque Odin obscur, inflige des dégâts non-élémentaires (L) aux unités dans la zone ciblée, confère une chance d'infliger Poison pendant 3 tours, et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés)."
+    },
+    {
+      "key": "SK_SMN_ANIM",
+      "value": "Invoque Anima, inflige des dégâts d'ombre (XL) aux unités dans la zone ciblée qui dépendent de la MAGIE du lanceur, confère une chance d'infliger Silence pendant 3 tours, et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités d'ombre, et réduit considérablement la résistance à l'ombre des ennemis)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -12741,6 +12805,10 @@
       "value": "PV max +15 %, modification de l'acquisition de PA +30 %, PA initiaux +10"
     },
     {
+      "key": "SK_MA_LW_CLEY_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Charme de +25 pour les unités alliées de glace, augmente les PV max du lanceur de 15 %, la portée de 2, la modification de l'acquisition des PA de 10, ses PA initiaux de 30 % et augmente les chances d'infliger Gelure."
+    },
+    {
       "key": "SK_MA_LW_KADI",
       "value": "PT max +40 %, MAGIE +15 %"
     },
@@ -12807,6 +12875,10 @@
     {
       "key": "SK_MA_LW_SEVR",
       "value": "Résistance à toutes les attaques +25"
+    },
+    {
+      "key": "SK_MA_LW_SEVR_2",
+      "value": "Augmente la MAGIE de 30 %, réduit le délai d'activation des aptitudes d'attaque de 50 % et la résistance à toutes les attaques +25"
     },
     {
       "key": "SK_MA_LW_VADM",
@@ -12923,6 +12995,10 @@
     {
       "key": "SK_MA_LW_P_WHIS",
       "value": "Attaque tranchante +5, résistance à toutes les attaques +5"
+    },
+    {
+      "key": "SK_MA_LW_P_WHIS_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, et augmente les attaques tranchantes du lanceur de 5, sa résistance à toutes les attaques de 5, augmente sa résistance aux malus de la résistance à toutes les attaques de 100 et la Haine de 5."
     },
     {
       "key": "SK_MA_LW_P_KTON",
@@ -13367,6 +13443,10 @@
     {
       "key": "SK_MA_LW_RYER_02",
       "value": "Augmente les PV max de +10 % et les attaques d'ombre de +15 pour les unités alliées d'ombre, augmente l'ATT du lanceur de +15 % et sa Chance de +15 %."
+    },
+    {
+      "key": "SK_MA_LW_SERL",
+      "value": "Augmente les PV max de 10 % et la résistance à Confusion de 25 pour les unités alliées de vent, augmente les PV max du lanceur de 20 % et ses attaques tranchantes de 10."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -14061,6 +14141,14 @@
       "value": ""
     },
     {
+      "key": "SK_LW_RNG_010_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_010_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_ACC_040_1",
       "value": ""
     },
@@ -14401,6 +14489,10 @@
       "value": "Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS))"
     },
     {
+      "key": "SK_ACC_LW_RIRY_01_ARENA",
+      "value": "Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS))"
+    },
+    {
       "key": "SK_ACC_LW_RYER_01_1_1",
       "value": "Augmente considérablement la MAGIE du lanceur pendant 3 tours, augmente le taux de précision et réduit la DEF et la PSY."
     },
@@ -14701,6 +14793,10 @@
       "value": ""
     },
     {
+      "key": "SK_AXE_LW_SERL_1",
+      "value": ""
+    },
+    {
       "key": "SK_ACC_LW_RARD_1_1",
       "value": "Augmente le taux de précision du lanceur pendant 3 tours et Déplacement +1."
     },
@@ -14770,6 +14866,10 @@
     },
     {
       "key": "SK_CLT_LW_THLA_01_1_1",
+      "value": "Consomme les PV du lanceur pour esquiver toutes les attaques magiques pendant 1 tour."
+    },
+    {
+      "key": "SK_CLT_LW_THLA_01_ARENA",
       "value": "Consomme les PV du lanceur pour esquiver toutes les attaques magiques pendant 1 tour."
     },
     {
@@ -17818,6 +17918,54 @@
     },
     {
       "key": "SK_GL_VC_LW_THLA_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANIM_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ANIM_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ANIM_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ANIM_P2MAX",
       "value": ""
     },
     {
@@ -22025,6 +22173,14 @@
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
+      "key": "SK_BTL_BSK_1-100_U",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
+      "key": "SK_BTL_BSK_1-100_D",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "Attaque mécanique provisoire"
     },
@@ -24423,6 +24579,50 @@
     {
       "key": "SK_CLT_LW_HWLT_ARENA",
       "value": "Consomme les PV du lanceur pour esquiver toutes les attaques physiques pendant 1 tour."
+    },
+    {
+      "key": "SK_GHUL_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_GHUL_M_01",
+      "value": "Inflige des dégâts (M) à la cible et confère une chance d'infliger Paralysie pendant 3 tours."
+    },
+    {
+      "key": "SK_GHUL_M_02",
+      "value": "Après déplacement jusqu'à la case ciblée, inflige des dégâts (S) à la cible, et confère une chance d'infliger Poison pendant 3 tours."
+    },
+    {
+      "key": "SK_GHUL_M_03",
+      "value": "Réduit considérablement l'ATT, la MAGIE, la DEF et la PSY de la cible pendant 3 tours."
+    },
+    {
+      "key": "SK_GHUL_M_04",
+      "value": "Accorde Auréole à la cible, lui permettant d'être ranimée automatiquement une fois par combat (récupération de PV (XS))."
+    },
+    {
+      "key": "SK_GHUL_R_01",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis et absorbe les dégâts infligés."
+    },
+    {
+      "key": "SK_MPOT_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_MPOT_M_01",
+      "value": "Absorbe les PT de la cible."
+    },
+    {
+      "key": "SK_MPOT_M_02",
+      "value": "Restaure les PA (S) des unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_MPOT_M_03",
+      "value": "Réduit l'ATT et la MAGIE des unités dans la zone ciblée pendant 3 tours."
+    },
+    {
+      "key": "SK_MPOT_R_01",
+      "value": "Confère une chance de restaurer les PA de la cible lorsque des dégâts sont subis."
     }
   ]
 }
