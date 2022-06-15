@@ -1937,6 +1937,26 @@
       "value": "Alcance +1 y aumenta la MAG."
     },
     {
+      "key": "SK_LW_EC_FINA_A_01",
+      "value": "Inflige daño de luz (medio) en función de la MAG del usuario a los objetivos al alcance y reduce su tasa de precisión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_FINA_C_01",
+      "value": "Mejora «Cura+++» a «Curación superior»: aumenta el alcance. Recupera VIT de los aliados al alcance (medio) y les elimina veneno, congelación, ceguera, sueño, silencio, parálisis, confusión, piedra, petrificación gradual, rana, inmóvil, inútil, locura y aturdimiento."
+    },
+    {
+      "key": "SK_LW_EC_FINA_C_01B",
+      "value": "Recupera VIT de los aliados al alcance (medio) y les elimina veneno, congelación, ceguera, sueño, silencio, parálisis, confusión, piedra, petrificación gradual, rana, inmóvil, inútil, locura y aturdimiento."
+    },
+    {
+      "key": "SK_LW_EC_FINA_C_02",
+      "value": "Mejora «Disparo inocente» a «Disparo sagrado»: aumenta el alcance en +1 y aumenta la MAG y la potencia de curación."
+    },
+    {
+      "key": "SK_LW_EC_FINA_C_02B",
+      "value": "Aumenta el alcance en +1 y aumenta la MAG y la potencia de curación."
+    },
+    {
       "key": "SK_LW_YSTL_ATK",
       "value": ""
     },
@@ -2353,6 +2373,74 @@
       "value": "Inflige daño (mucho) 2 veces al objetivo."
     },
     {
+      "key": "SK_LW_ASS_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ASS_M_4",
+      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (mucho)."
+    },
+    {
+      "key": "SK_LW_ASS_M_3",
+      "value": "Inflige daño (medio) a los objetivos de alrededor."
+    },
+    {
+      "key": "SK_LW_ASS_S_4",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle condena."
+    },
+    {
+      "key": "SK_LW_ASS_S_1_INIT",
+      "value": "Daño (poco) al objetivo y probabilidad de infligirle veneno durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ASS_M_1_INIT",
+      "value": "Daño (medio) al objetivo y probabilidad de robarle un objeto."
+    },
+    {
+      "key": "SK_LW_ASS_S_2",
+      "value": "Probabilidad de infligir parálisis al objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ASS_M_2",
+      "value": "Inflige daño (medio) al objetivo y reduce considerablemente su DEF antes de infligirle daño al atacarle por detrás."
+    },
+    {
+      "key": "SK_LW_ASS_S_3",
+      "value": "Absorbe PA del objetivo."
+    },
+    {
+      "key": "SK_LW_ASS_R_1",
+      "value": "Probabilidad de aumentar la evasión del usuario durante 3 turnos al recibir daño (acumulable hasta 3 veces), y aumenta el TC (poco)."
+    },
+    {
+      "key": "SK_LW_ASS_P_1",
+      "value": "Aumenta la tasa de evasión."
+    },
+    {
+      "key": "SK_LW_ASS_P_2",
+      "value": "Aumenta los PA adquiridos."
+    },
+    {
+      "key": "SK_LW_ASS_M_4_SUB",
+      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (mucho)."
+    },
+    {
+      "key": "SK_LW_ASS_M_3_SUB",
+      "value": "Inflige daño (medio) a los objetivos de alrededor."
+    },
+    {
+      "key": "SK_LW_ASS_S_4_SUB",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle condena."
+    },
+    {
+      "key": "SK_LW_ASS_S_1",
+      "value": "Daño (poco) al objetivo y probabilidad de infligirle veneno durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ASS_M_1",
+      "value": "Daño (medio) al objetivo y probabilidad de robarle un objeto."
+    },
+    {
       "key": "SK_LW_RAIN_ATK",
       "value": ""
     },
@@ -2419,74 +2507,6 @@
     {
       "key": "SK_LW_EC_RAIN_C_02B",
       "value": "Aumenta el ESP y la res. ataque de zona."
-    },
-    {
-      "key": "SK_LW_ASS_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_LW_ASS_M_4",
-      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (mucho)."
-    },
-    {
-      "key": "SK_LW_ASS_M_3",
-      "value": "Inflige daño (medio) a los objetivos de alrededor."
-    },
-    {
-      "key": "SK_LW_ASS_S_4",
-      "value": "Daño (medio) al objetivo y probabilidad de infligirle condena."
-    },
-    {
-      "key": "SK_LW_ASS_S_1_INIT",
-      "value": "Daño (poco) al objetivo y probabilidad de infligirle veneno durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_ASS_M_1_INIT",
-      "value": "Daño (medio) al objetivo y probabilidad de robarle un objeto."
-    },
-    {
-      "key": "SK_LW_ASS_S_2",
-      "value": "Probabilidad de infligir parálisis al objetivo durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_ASS_M_2",
-      "value": "Inflige daño (medio) al objetivo y reduce considerablemente su DEF antes de infligirle daño al atacarle por detrás."
-    },
-    {
-      "key": "SK_LW_ASS_S_3",
-      "value": "Absorbe PA del objetivo."
-    },
-    {
-      "key": "SK_LW_ASS_R_1",
-      "value": "Probabilidad de aumentar la evasión del usuario durante 3 turnos al recibir daño (acumulable hasta 3 veces), y aumenta el TC (poco)."
-    },
-    {
-      "key": "SK_LW_ASS_P_1",
-      "value": "Aumenta la tasa de evasión."
-    },
-    {
-      "key": "SK_LW_ASS_M_4_SUB",
-      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (mucho)."
-    },
-    {
-      "key": "SK_LW_ASS_M_3_SUB",
-      "value": "Inflige daño (medio) a los objetivos de alrededor."
-    },
-    {
-      "key": "SK_LW_ASS_S_4_SUB",
-      "value": "Daño (medio) al objetivo y probabilidad de infligirle condena."
-    },
-    {
-      "key": "SK_LW_ASS_S_1",
-      "value": "Daño (poco) al objetivo y probabilidad de infligirle veneno durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_ASS_M_1",
-      "value": "Daño (medio) al objetivo y probabilidad de robarle un objeto."
-    },
-    {
-      "key": "SK_LW_ASS_P_2",
-      "value": "Aumenta los PA adquiridos."
     },
     {
       "key": "SK_FF1_WROL_ATK",
@@ -3377,12 +3397,36 @@
       "value": "Daño (medio) en función de la MAG del usuario al objetivo y otorga Mataflotantes."
     },
     {
+      "key": "SK_LW_MKN_FIRE_S_1_INIT",
+      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario al objetivo y otorga Comegélidos."
+    },
+    {
+      "key": "SK_LW_MKN_ICE_S_1_INIT",
+      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario al objetivo y otorga Comeaéreos."
+    },
+    {
       "key": "SK_LW_MKN_WIND_S_1_INIT",
       "value": "Inflige daño de viento (poco) en función de la MAG del usuario al objetivo y otorga Cometerrestres."
     },
     {
       "key": "SK_LW_MKN_SOIL_S_1_INIT",
       "value": "Inflige daño de tierra (poco) en función de la MAG del usuario al objetivo y otorga Comeeléctricos."
+    },
+    {
+      "key": "SK_LW_MKN_THUN_S_1_INIT",
+      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario al objetivo y otorga Comeacuáticos."
+    },
+    {
+      "key": "SK_LW_MKN_WATR_S_1_INIT",
+      "value": "Inflige daño de agua (poco) en función de la MAG del usuario al objetivo y otorga Comeígneos."
+    },
+    {
+      "key": "SK_LW_MKN_SHIN_S_1_INIT",
+      "value": "Inflige daño de luz (poco) en función de la MAG del usuario al objetivo y otorga Comeoscuros."
+    },
+    {
+      "key": "SK_LW_MKN_DARK_S_1_INIT",
+      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario al objetivo y otorga Comesacros."
     },
     {
       "key": "SK_LW_MKN_S_3_INIT",
@@ -3393,8 +3437,12 @@
       "value": "Consume VIT del usuario y aumenta su MAG durante 3 turnos."
     },
     {
-      "key": "SK_LW_MKN_S_3",
-      "value": "Daño (mínimo) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno, y aumenta la tasa de penetración de res. corte."
+      "key": "SK_LW_MKN_FIRE_S_4",
+      "value": "Reduce la res. fuego durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MKN_ICE_S_4",
+      "value": "Reduce la res. hielo del objetivo durante 3 turnos."
     },
     {
       "key": "SK_LW_MKN_WIND_S_4",
@@ -3403,14 +3451,6 @@
     {
       "key": "SK_LW_MKN_SOIL_S_4",
       "value": "Reduce la res. tierra del objetivo durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_MKN_FIRE_S_4",
-      "value": "Reduce la res. fuego durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_MKN_ICE_S_4",
-      "value": "Reduce la res. hielo del objetivo durante 3 turnos."
     },
     {
       "key": "SK_LW_MKN_THUN_S_4",
@@ -3467,30 +3507,6 @@
     {
       "key": "SK_LW_MKN_P_2",
       "value": "Aumenta la tasa de penetración de ESP y la precisión."
-    },
-    {
-      "key": "SK_LW_MKN_FIRE_S_1_INIT",
-      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario al objetivo y otorga Comegélidos."
-    },
-    {
-      "key": "SK_LW_MKN_ICE_S_1_INIT",
-      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario al objetivo y otorga Comeaéreos."
-    },
-    {
-      "key": "SK_LW_MKN_THUN_S_1_INIT",
-      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario al objetivo y otorga Comeacuáticos."
-    },
-    {
-      "key": "SK_LW_MKN_WATR_S_1_INIT",
-      "value": "Inflige daño de agua (poco) en función de la MAG del usuario al objetivo y otorga Comeígneos."
-    },
-    {
-      "key": "SK_LW_MKN_SHIN_S_1_INIT",
-      "value": "Inflige daño de luz (poco) en función de la MAG del usuario al objetivo y otorga Comeoscuros."
-    },
-    {
-      "key": "SK_LW_MKN_DARK_S_1_INIT",
-      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario al objetivo y otorga Comesacros."
     },
     {
       "key": "SK_LW_MKN_FIRE_M_1_SUB",
@@ -3563,6 +3579,10 @@
     {
       "key": "SK_LW_MKN_DARK_S_1",
       "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario al objetivo y otorga Comesacros."
+    },
+    {
+      "key": "SK_LW_MKN_S_3",
+      "value": "Daño (mínimo) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno, y aumenta la tasa de penetración de res. corte."
     },
     {
       "key": "SK_FF4_CECL_ATK",
@@ -4813,6 +4833,26 @@
       "value": "Aumenta considerablemente la MAG y reduce el ESP."
     },
     {
+      "key": "SK_LW_EC_WIZ_A_01",
+      "value": "Inflige daño no elemental (medio) en función de la MAG del usuario con golpe garantizado al objetivo."
+    },
+    {
+      "key": "SK_LW_EC_WIZ_C_01_DARK",
+      "value": "Mejora «Maleficio de bruja» a «Maleficio de la Rosa Negra»: aumenta la altura de zona. Reduce el ESP de los objetivos al alcance durante 3 turnos, y les inflige daño de oscuridad (medio) en función de la MAG del usuario y reduce sus PA."
+    },
+    {
+      "key": "SK_LW_EC_WIZ_C_01_DARK_B",
+      "value": "Reduce el ESP de los objetivos al alcance durante 3 turnos, y les inflige daño de oscuridad (medio) en función de la MAG del usuario y reduce sus PA."
+    },
+    {
+      "key": "SK_LW_EC_WIZ_C_02",
+      "value": "Mejora «Maestría de bruja» a «Maestría oscura de bruja»: aumenta considerablemente la MAG y reduce el ESP y el tiempo de activación."
+    },
+    {
+      "key": "SK_LW_EC_WIZ_C_02B",
+      "value": "Aumenta considerablemente la MAG y reduce el ESP y el tiempo de activación."
+    },
+    {
       "key": "SK_LW_ZZAN_ATK",
       "value": ""
     },
@@ -5935,6 +5975,10 @@
     {
       "key": "SK_LW_AXD_P_1",
       "value": "Aumenta la tasa de precisión y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_AXD_M_1_SUB",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo e inflige daño (mucho) a los objetivos al alcance."
     },
     {
       "key": "SK_LW_AXD_EN_A_01",
@@ -7231,6 +7275,70 @@
     {
       "key": "SK_LW_EC_RYER_C_02B",
       "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta la res. ataque de zona mientras agallas esté activo."
+    },
+    {
+      "key": "SK_LW_BNI_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BNI_M_1",
+      "value": "Daño (mucho) al objetivo, probabilidad de infligirle veneno durante 3 turnos y mayor probabilidad cuantas menos veces se haya recibido daño."
+    },
+    {
+      "key": "SK_LW_BNI_M_2",
+      "value": "Daño (medio) 3 veces a los objetivos al alcance y probabilidad de infligirles ceguera durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_BNI_M_3",
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI hasta que reciba daño."
+    },
+    {
+      "key": "SK_LW_BNI_S_1_INIT",
+      "value": "Inflige daño (medio) al objetivo."
+    },
+    {
+      "key": "SK_LW_BNI_S_2_INIT",
+      "value": "Reduce la probabilidad de que el usuario sea atacado y aumenta la evasión de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_BNI_S_3",
+      "value": "Inflige daño (poco) a los objetivos de alrededor y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_BNI_S_4",
+      "value": "Reduce la AGI y la tasa de precisión del objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_BNI_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño."
+    },
+    {
+      "key": "SK_LW_BNI_P_1",
+      "value": "Movimiento +1 y reduce el odio."
+    },
+    {
+      "key": "SK_LW_BNI_P_2",
+      "value": "Aumenta la tasa de evasión y los PA adquiridos."
+    },
+    {
+      "key": "SK_LW_EC_BNI_A_01",
+      "value": "Daño (mucho) al objetivo, probabilidad de infligirle inmóvil durante 3 turnos y efecto adicional: reduce la res. ataque de unidad en estado inmóvil."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_01",
+      "value": "Mejora «Espionaje doble» a «Maestría de espía»: aumenta la tasa de evasión, los PA adquiridos y la tasa de evasión de ataque de corte y ataque a distancia."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_01B",
+      "value": "Aumenta la tasa de evasión, los PA adquiridos y la tasa de evasión de ataque de corte y ataque a distancia."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_02",
+      "value": "Mejora «Danza sombría» a «Movilidad sombría»: otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI y su tasa de penetración de res. ataque de corte hasta que reciba daño 2 veces."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_02B",
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI y su tasa de penetración de res. ataque de corte hasta que reciba daño 2 veces."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -10245,16 +10353,16 @@
       "value": "Daño (mucho) a los objetivos de alrededor y probabilidad de infligirles embrujo durante 3 turnos."
     },
     {
+      "key": "SK_LB_LW_VNLA",
+      "value": "Daño (mucho) 3 veces al objetivo y probabilidad de infligirle veneno durante 3 turnos."
+    },
+    {
       "key": "SK_LB_LW_RAIN",
       "value": "Reduce la res. fuego del objetivo durante 3 turnos y le inflige daño (mucho) 2 veces en función de la MAG del usuario."
     },
     {
       "key": "SK_LB_LW_FRVA",
       "value": "Inflige daño (mucho) a los objetivos al alcance en función de la MAG del usuario y reduce el consumo de PA durante 3 turnos."
-    },
-    {
-      "key": "SK_LB_LW_VNLA",
-      "value": "Daño (mucho) 3 veces al objetivo y probabilidad de infligirle veneno durante 3 turnos."
     },
     {
       "key": "SK_LB_FF1_WROL",
@@ -10563,6 +10671,10 @@
     {
       "key": "SK_LB_LW_RYER_02",
       "value": "Aumenta la tasa de penetración de DEF del usuario, y luego inflige daño (mucho) a los objetivos al alcance y probabilidad de infligirles ceguera durante 3 turnos, y efecto adicional: reduce la res. ataque de corte de objetivos cegados."
+    },
+    {
+      "key": "SK_LB_LW_IRDL_01",
+      "value": "Inflige daño (mucho) a los objetivos al alcance, reduce su TC a la mitad y aumenta el TC del usuario (poco)."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -11949,26 +12061,6 @@
       "value": "Alcance +2, aumenta la tasa de crítico y reduce reduce la tasa de evasión."
     },
     {
-      "key": "SK_LW_EC_WIZ_A_01",
-      "value": "Inflige daño no elemental (medio) en función de la MAG del usuario con golpe garantizado al objetivo."
-    },
-    {
-      "key": "SK_LW_EC_WIZ_C_01_DARK",
-      "value": "Mejora «Maleficio de bruja» a «Maleficio de la Rosa Negra»: aumenta la altura de zona. Reduce el ESP de los objetivos al alcance durante 3 turnos, y les inflige daño de oscuridad (medio) en función de la MAG del usuario y reduce sus PA."
-    },
-    {
-      "key": "SK_LW_EC_WIZ_C_01_DARK_B",
-      "value": "Reduce el ESP de los objetivos al alcance durante 3 turnos, y les inflige daño de oscuridad (medio) en función de la MAG del usuario y reduce sus PA."
-    },
-    {
-      "key": "SK_LW_EC_WIZ_C_02",
-      "value": "Mejora «Maestría de bruja» a «Maestría oscura de bruja»: aumenta considerablemente la MAG y reduce el ESP y el tiempo de activación."
-    },
-    {
-      "key": "SK_LW_EC_WIZ_C_02B",
-      "value": "Aumenta considerablemente la MAG y reduce el ESP y el tiempo de activación."
-    },
-    {
       "key": "SK_LW_EC_NIN_A_02_DARK",
       "value": "Daño de oscuridad (medio) al objetivo y probabilidad de infligirle ceguera durante 3 turnos."
     },
@@ -12467,26 +12559,6 @@
     {
       "key": "SK_LW_EC_GRM_C_06B",
       "value": "Mayor duración de los aumentos y las reducciones del usuario durante un turno y reduce considerablemente el tiempo de activación."
-    },
-    {
-      "key": "SK_LW_EC_FINA_A_01",
-      "value": "Inflige daño de luz (medio) en función de la MAG del usuario a los objetivos al alcance y reduce su tasa de precisión durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_EC_FINA_C_01",
-      "value": "Mejora «Cura+++» a «Curación superior»: aumenta el alcance. Recupera VIT de los aliados al alcance (medio) y les elimina veneno, congelación, ceguera, sueño, silencio, parálisis, confusión, piedra, petrificación gradual, rana, inmóvil, inútil, locura y aturdimiento."
-    },
-    {
-      "key": "SK_LW_EC_FINA_C_01B",
-      "value": "Recupera VIT de los aliados al alcance (medio) y les elimina veneno, congelación, ceguera, sueño, silencio, parálisis, confusión, piedra, petrificación gradual, rana, inmóvil, inútil, locura y aturdimiento."
-    },
-    {
-      "key": "SK_LW_EC_FINA_C_02",
-      "value": "Mejora «Disparo inocente» a «Disparo sagrado»: aumenta el alcance en +1 y aumenta la MAG y la potencia de curación."
-    },
-    {
-      "key": "SK_LW_EC_FINA_C_02B",
-      "value": "Aumenta el alcance en +1 y aumenta la MAG y la potencia de curación."
     },
     {
       "key": "SK_LW_EC_MST_A_01",
@@ -13249,6 +13321,10 @@
       "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de penetración de ESP +25"
     },
     {
+      "key": "SK_MA_LW_THLA_01_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de penetración de ESP +35, MAG +15 %, tasa de bloqueo de habilidad de reacción +30"
+    },
+    {
       "key": "SK_MA_LW_CMLO",
       "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: ESP +10"
     },
@@ -13446,7 +13522,11 @@
     },
     {
       "key": "SK_MA_LW_SERL",
-      "value": "Aliados de viento: VIT máx. +10 %, res. confusión +25: usuario: VIT máx. +20 %, ataque de corte +10"
+      "value": "Aliados de viento: VIT máx. +10 %, res. confusión +25; usuario: VIT máx. +20 %, ataque de corte +10"
+    },
+    {
+      "key": "SK_MA_LW_IRDL_01",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: ATQ +15 %, consumo de PA -10 %"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -15079,6 +15159,10 @@
     {
       "key": "SK_CLT_LW_RYER_02_1",
       "value": "Aumenta la AGI de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_LW_IRDL_01_1",
+      "value": "Aumenta la res. ataque de unidad del usuario durante 3 turnos y aumenta su movimiento y salto en 1."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -24142,6 +24226,26 @@
     },
     {
       "key": "SK_PRS5_SWO_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_NKN_004_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_NKN_004_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_NKN_004_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_NKN_004_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_NKN_004_1_5",
       "value": ""
     },
     {

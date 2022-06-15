@@ -36,7 +36,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:2",
@@ -68,7 +76,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:3",
@@ -100,7 +116,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:4",
@@ -132,7 +156,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:5",
@@ -164,7 +196,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:6",
@@ -196,7 +236,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "",
@@ -228,7 +276,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "",
@@ -260,7 +316,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     }
   ],
   "enemy": [
@@ -295,6 +359,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 1,
       "iname": "UN_FF10_E_DFDZ",
       "side": 1,
@@ -371,7 +443,9 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -404,6 +478,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 2,
       "iname": "UN_FF10_E_DFDZ",
       "side": 1,
@@ -480,7 +562,9 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -513,6 +597,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 3,
       "iname": "UN_LW_E_ELEM",
       "side": 1,
@@ -589,7 +681,9 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -622,6 +716,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 4,
       "iname": "UN_LW_E_ELEM",
       "side": 1,
@@ -698,7 +800,9 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -731,6 +835,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 5,
       "iname": "UN_LW_E_ELEM",
       "side": 1,
@@ -807,7 +919,9 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": ""
     }
   ],
   "arena": [],
@@ -854,7 +968,7 @@
       },
       "mapEv": {
         "type": 3,
-        "typeval": "string=1;unittag=DMNW",
+        "typeval": "string=1;unittag=DMNW;local=",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -959,7 +1073,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FF10_1",
+            "iname": "IT_EC_FF10_1_R",
             "num": 20,
             "secret": 0
           },
@@ -968,7 +1082,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FF10_1",
+            "iname": "IT_EC_FF10_1_R",
             "num": 22,
             "secret": 0
           },
@@ -977,7 +1091,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FF10_1",
+            "iname": "IT_EC_FF10_1_R",
             "num": 25,
             "secret": 0
           },
@@ -1010,5 +1124,6 @@
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

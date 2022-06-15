@@ -523,7 +523,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -725,7 +726,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -927,7 +929,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "W1",
@@ -1080,7 +1083,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "W2",
@@ -1233,7 +1237,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1376,7 +1381,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "T1",
@@ -1509,7 +1515,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "T2",
@@ -1642,7 +1649,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "T2",
@@ -1775,7 +1783,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     }
   ],
   "arena": [],
@@ -1904,6 +1913,24 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_LW_GLMS_4",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 30
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BNI_3",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 30
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BNI_4",
             "num": 1,
             "secret": 0
           },
@@ -2069,9 +2096,10 @@
             "num": 0,
             "secret": 0
           },
-          "weight": 3115
+          "weight": 3055
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

@@ -414,7 +414,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "A",
@@ -502,7 +503,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "B",
@@ -595,7 +597,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "B",
@@ -688,7 +691,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -791,7 +795,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -894,7 +899,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1002,7 +1008,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     }
   ],
   "arena": [],
@@ -1149,6 +1156,15 @@
         },
         {
           "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BNI_3",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 74
+        },
+        {
+          "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
@@ -1199,7 +1215,7 @@
             "num": 0,
             "secret": 0
           },
-          "weight": 2296
+          "weight": 2222
         }
       ]
     },
@@ -1228,5 +1244,6 @@
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }
