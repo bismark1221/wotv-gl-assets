@@ -2109,6 +2109,10 @@
       "value": "Daño (poco) con efecto penetrante al objetivo y probabilidad de infligirle inmóvil durante 3 turnos."
     },
     {
+      "key": "SK_LW_VIK_S_1_DRND",
+      "value": "Daño (medio) al objetivo, le inflige daño penetrante y probabilidad de infligirle inmóvil durante 3 turnos."
+    },
+    {
       "key": "SK_LW_VIK_S_2_INIT",
       "value": "Aumenta el ATQ y la DEF del usuario durante 3 turnos y reduce su tasa de evasión."
     },
@@ -10485,6 +10489,10 @@
       "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos e inflige daño no elemental (mucho) a los objetivos al alcance."
     },
     {
+      "key": "SK_LB_FF10_ARON_B",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño no elemental (mucho) a los objetivos al alcance y otorga una barrera al usuario que reduce el daño (3 veces). "
+    },
+    {
       "key": "SK_LB_NIER_N2TB",
       "value": "Aumenta la tasa de penetración de res. corte del usuario durante 3 turnos e inflige daño (mucho) al objetivo."
     },
@@ -10887,6 +10895,10 @@
     {
       "key": "SK_SMN_ANIM",
       "value": "Invoca a Ánima: daño de oscuridad (muchísimo) en función de la MAG del usuario a los objetivos al alcance, probabilidad de infligirles silencio durante 3 turnos, y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de oscuridad, y reduce considerablemente la res. oscuridad de los enemigos)."
+    },
+    {
+      "key": "SK_SMN_FF10_VLFR",
+      "value": "Invoca a Valefor: inflige daño de luz (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de luz, y reduce considerablemente la res. luz de los enemigos)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -12873,6 +12885,10 @@
       "value": "Res. ataque mágico +15, tasa de evasión +15"
     },
     {
+      "key": "SK_MA_LW_VSTR_2",
+      "value": "Aliados de luz: VIT máx. +10 %, res. inmóvil +25; usuario: res. ataque mágico +15, tasa de evasión +25, tasa de penetración de DEF +20"
+    },
+    {
       "key": "SK_MA_LW_CLEY",
       "value": "VIT máx. +15 %, modificador de PA adquiridos +30 %, PA iniciales +10"
     },
@@ -12907,6 +12923,10 @@
     {
       "key": "SK_MA_LW_SZRT",
       "value": "DES +15 %, tasa de crítico +35"
+    },
+    {
+      "key": "SK_MA_LW_SZRT_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, res. inútil +25; usuario: ATQ +30 %, DES +15 %, tasa de crítico +35, mayor probabilidad de activación de paro"
     },
     {
       "key": "SK_MA_LW_FINA",
@@ -13079,6 +13099,10 @@
     {
       "key": "SK_MA_LW_DRND",
       "value": "VIT máx. +25 %, tasa de crítico +15"
+    },
+    {
+      "key": "SK_MA_LW_DRND_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, res. locura +25; usuario: VIT máx. +45 %, tasa de crítico +15, tasa de penetración de DEF +20, mejora «Romperrodillas»: alcance +2, altura de alcance +1 y mayor probabilidad de activación de inmóvil. Daño penetrante (medio) al objetivo y probabilidad de infligirle inmóvil durante 3 turnos. "
     },
     {
       "key": "SK_MA_LW_P_LUCA",
@@ -13285,12 +13309,24 @@
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: tasa de penetración de DEF +20"
     },
     {
+      "key": "SK_MA_FF10_TIDU_2",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: tasa de penetración de DEF +20, tasa de penetración de res. ataque de corte +30, res. ataque de corte y a distancia +10"
+    },
+    {
       "key": "SK_MA_FF10_YUNA",
       "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: res. ataque de zona +10"
     },
     {
+      "key": "SK_MA_FF10_YUNA_2",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: res. ataque de zona +10, ataque de luz +15, tiempo de activación <nobr>-20</nobr> %"
+    },
+    {
       "key": "SK_MA_FF10_ARON",
       "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: ESP +10"
+    },
+    {
+      "key": "SK_MA_FF10_ARON_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: ESP +10, tasa de penetración de res. ataque de corte +30, mejora «Tornado»: aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño no elemental (mucho) a los objetivos al alcance y otorga una barrera al usuario que reduce el daño (3 veces)."
     },
     {
       "key": "SK_MA_NIER_N2TB",
@@ -18050,6 +18086,54 @@
     },
     {
       "key": "SK_GL_VC_LW_ANIM_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF10_VLFR_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF10_VLFR_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF10_VLFR_P2MAX",
       "value": ""
     },
     {
@@ -24249,6 +24333,78 @@
       "value": ""
     },
     {
+      "key": "SK_LW_PLUS6_1_1",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_1_2",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_1_3",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_1_4",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_2",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_3",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_4",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_5",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_6",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_7",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_8",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_9",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_11",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_12",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_13",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_14",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_15",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -24727,6 +24883,22 @@
     {
       "key": "SK_MPOT_R_01",
       "value": "Probabilidad de recuperar PA del objetivo al recibir daño."
+    },
+    {
+      "key": "SK_WYVN_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_WYVN_M_01",
+      "value": "Inflige daño (medio) al objetivo y reduce su ataque de corte durante 3 turnos."
+    },
+    {
+      "key": "SK_WYVN_M_02",
+      "value": "Probabilidad de infligir veneno a los objetivos al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_WYVN_M_03",
+      "value": "Inflige daño (mucho) a los objetivos al alcance."
     }
   ]
 }

@@ -2109,6 +2109,10 @@
       "value": "Inflige des dégâts (S) à la cible, avec Perforation et confère une chance d'infliger Immobilisation pendant 3 tours."
     },
     {
+      "key": "SK_LW_VIK_S_1_DRND",
+      "value": "Inflige des dégâts (M) à la cible, Perforation, et confère une chance d'infliger Immobilisation pendant 3 tours."
+    },
+    {
       "key": "SK_LW_VIK_S_2_INIT",
       "value": "Augmente l'ATT et la DEF du lanceur pendant 3 tours et réduit le taux d'esquive."
     },
@@ -10485,6 +10489,10 @@
       "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts non-élémentaires (L) aux unités dans la zone ciblée."
     },
     {
+      "key": "SK_LB_FF10_ARON_B",
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts non-élémentaires (L) aux unités dans la zone ciblée et érige une barrière autour du lanceur qui réduit les dégâts (3 fois). "
+    },
+    {
       "key": "SK_LB_NIER_N2TB",
       "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (L) à la cible."
     },
@@ -10887,6 +10895,10 @@
     {
       "key": "SK_SMN_ANIM",
       "value": "Invoque Anima, inflige des dégâts d'ombre (XL) aux unités dans la zone ciblée qui dépendent de la MAGIE du lanceur, confère une chance d'infliger Silence pendant 3 tours, et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités d'ombre, et réduit considérablement la résistance à l'ombre des ennemis)."
+    },
+    {
+      "key": "SK_SMN_FF10_VLFR",
+      "value": "Invoque Valefore, inflige des dégâts de lumière (MAX) aux unités dans la zone ciblée et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités de lumière et réduit considérablement la résistance à la lumière des ennemis)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -12873,6 +12885,10 @@
       "value": "Résistance aux attaques magiques +15, taux d'esquive +15"
     },
     {
+      "key": "SK_MA_LW_VSTR_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Immobilisation de +25 pour les unités de lumière alliées, augmente la résistance aux attaques magiques du lanceur de 15, son taux d'esquive de 25 et son taux de perforation de la DEF de 20."
+    },
+    {
       "key": "SK_MA_LW_CLEY",
       "value": "PV max +15 %, modification de l'acquisition de PA +30 %, PA initiaux +10"
     },
@@ -12907,6 +12923,10 @@
     {
       "key": "SK_MA_LW_SZRT",
       "value": "DEX +15 %, taux de coup critique +35"
+    },
+    {
+      "key": "SK_MA_LW_SZRT_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Incapacité de +25 pour les unités alliées de foudre, augmente l'ATT du lanceur de 30 %, sa DEX de 15 %, le taux de coup critique de 35 et augmente le taux d'activation de Stop."
     },
     {
       "key": "SK_MA_LW_FINA",
@@ -13079,6 +13099,10 @@
     {
       "key": "SK_MA_LW_DRND",
       "value": "PV max +25 %, taux de coup critique +15"
+    },
+    {
+      "key": "SK_MA_LW_DRND_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Berserk de 25 pour les unités alliées de terre, augmente les PV max du lanceur de 45 %, le taux de coup critique de 15, le taux de perforation de la DEF de 20 et améliore Brise-rotule : [Portée +2, Hauteur de la portée +1] augmente le taux d'activation d'Immobilisation. Inflige des dégâts (M) à la cible, Perforation, et confère une chance d'infliger Immobilisation pendant 3 tours. "
     },
     {
       "key": "SK_MA_LW_P_LUCA",
@@ -13285,12 +13309,24 @@
       "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente le taux de perforation de la DEF du lanceur de 20."
     },
     {
+      "key": "SK_MA_FF10_TIDU_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente le taux de perforation de la DEF du lanceur de 20, le taux de perforation de la résistance aux attaques tranchantes de 30 et sa résistance aux attaques tranchantes et projectiles de 10."
+    },
+    {
       "key": "SK_MA_FF10_YUNA",
       "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente la résistance aux attaques de zone du lanceur de 10."
     },
     {
+      "key": "SK_MA_FF10_YUNA_2",
+      "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente la résistance aux attaques de zone du lanceur de 10, ses attaques de lumière de 15 et réduit le délai d'activation de 20 %."
+    },
+    {
       "key": "SK_MA_FF10_ARON",
       "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente la PSY du lanceur de 10."
+    },
+    {
+      "key": "SK_MA_FF10_ARON_2",
+      "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente la PSY du lanceur de 10, le taux de perforation de la résistance aux attaques tranchantes de 30 et améliore Tornade : augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts non-élémentaires (L) aux unités dans la zone ciblée et érige une barrière autour du lanceur qui réduit les dégâts (3 fois)."
     },
     {
       "key": "SK_MA_NIER_N2TB",
@@ -18050,6 +18086,54 @@
     },
     {
       "key": "SK_GL_VC_LW_ANIM_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF10_VLFR_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF10_VLFR_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF10_VLFR_P2MAX",
       "value": ""
     },
     {
@@ -24249,6 +24333,78 @@
       "value": ""
     },
     {
+      "key": "SK_LW_PLUS6_1_1",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_1_2",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_1_3",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_1_4",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_2",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_3",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_4",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_5",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_6",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_7",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_8",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_9",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_10",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_11",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_12",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_13",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_14",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_15",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -24727,6 +24883,22 @@
     {
       "key": "SK_MPOT_R_01",
       "value": "Confère une chance de restaurer les PA de la cible lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_WYVN_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_WYVN_M_01",
+      "value": "Inflige des dégâts (M) à la cible et réduit les attaques tranchantes pendant 3 tours."
+    },
+    {
+      "key": "SK_WYVN_M_02",
+      "value": "Confère une chance d'infliger Poison aux unités dans la zone ciblée pendant 3 tours."
+    },
+    {
+      "key": "SK_WYVN_M_03",
+      "value": "Inflige des dégâts (L) aux unités dans la zone ciblée."
     }
   ]
 }

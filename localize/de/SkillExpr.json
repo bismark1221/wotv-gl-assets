@@ -2109,6 +2109,10 @@
       "value": "Fügt dem Ziel Schaden (S) zu, durchbohrt und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
     },
     {
+      "key": "SK_LW_VIK_S_1_DRND",
+      "value": "Fügt Ziel Schaden (M) zu, Durchbohren und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
+    },
+    {
       "key": "SK_LW_VIK_S_2_INIT",
       "value": "Erhöht 3 Runden lang eigenen ANG und ABW und senkt Ausweichrate."
     },
@@ -10485,6 +10489,10 @@
       "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate und fügt Zielen in Reichweite anschließend nichtelementaren Schaden (L) zu."
     },
     {
+      "key": "SK_LB_FF10_ARON_B",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt Zielen in Reichweite anschließend nichtelementaren Schaden (L) zu und beschwört eine den Wirkenden umgebende Barriere herauf, die 3-mal Schaden reduziert. "
+    },
+    {
       "key": "SK_LB_NIER_N2TB",
       "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate und fügt dem Ziel anschließend Schaden (L) zu."
     },
@@ -10887,6 +10895,10 @@
     {
       "key": "SK_SMN_ANIM",
       "value": "Ruft Anima, fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (XL) zu, gewährt Chance auf Wirken von 3 Runden andauernder Stille und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit stärkerem Effekt für Dunkeleinheiten, erhebliche Dunkelresistenz-Senkung für Gegner)."
+    },
+    {
+      "key": "SK_SMN_FF10_VLFR",
+      "value": "Ruft Valfaris, fügt Zielen in Reichweite Lichtschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Lichtesistenz-Senkung für Gegner)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -12873,6 +12885,10 @@
       "value": "Magieangriffsresistenz +15, Ausweichrate +15"
     },
     {
+      "key": "SK_MA_LW_VSTR_2",
+      "value": "LP-Maximum +10 % und Lähmungsresistenz +25 für verbündete Lichteinheiten, eigene Magieangriffsresistenz +15, Ausweichrate +25 und ABW-Durchbohrrate +20."
+    },
+    {
       "key": "SK_MA_LW_CLEY",
       "value": "LP-Maximum +15 %, Modifikator für AP-Erlangung +30 %, Anfangs-AP +10"
     },
@@ -12907,6 +12923,10 @@
     {
       "key": "SK_MA_LW_SZRT",
       "value": "GES +15 %, kritische Trefferrate +35"
+    },
+    {
+      "key": "SK_MA_LW_SZRT_2",
+      "value": "LP-Maximum +10 % und Ausschaltenresistenz +25 für verbündete Blitzeinheiten, eigener ANG +30 %, GES +15 %, Kritische Trefferrate +35 und erhöht Aktivierungsgeschwindigkeit für Stopp."
     },
     {
       "key": "SK_MA_LW_FINA",
@@ -13079,6 +13099,10 @@
     {
       "key": "SK_MA_LW_DRND",
       "value": "LP-Maximum +25 %, kritische Trefferrate +15"
+    },
+    {
+      "key": "SK_MA_LW_DRND_2",
+      "value": "LP-Maximum +10 % und Berserkerresistenz +25 für verbündete Erdeinheiten, eigenes LP-Maximum +45 %, Kritische Trefferrate +15, ABW-Durchbohrrate +20 und verstärkt Kniebrecher. Reichweite +2, Reichweitenhöhe +1 und erhöht Aktivierungsgeschwindigkeit für Immobilisierung. Fügt Ziel Schaden (M) zu, Durchbohren und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung. "
     },
     {
       "key": "SK_MA_LW_P_LUCA",
@@ -13285,12 +13309,24 @@
       "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene ABW-Durchbohrrate +20"
     },
     {
+      "key": "SK_MA_FF10_TIDU_2",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene ABW-Durchbohrrate +20, Schlitzresistenz-Durchbohrrate +30 und Schlitzangriff-/<br>Geschossresistenz +10."
+    },
+    {
       "key": "SK_MA_FF10_YUNA",
       "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, Bereichangriffsresistenz +10"
     },
     {
+      "key": "SK_MA_FF10_YUNA_2",
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene Bereichangriffsresistenz +10, Lichtangriff +15, Aktivierungszeit -20 %."
+    },
+    {
       "key": "SK_MA_FF10_ARON",
       "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene PSY +10"
+    },
+    {
+      "key": "SK_MA_FF10_ARON_2",
+      "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene PSY +10, Schlitzresistenz-Durchbohrrate +30 und verstärkt Tornado. Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt Zielen in Reichweite anschließend nichtelementaren Schaden (L) zu und beschwört eine den Wirkenden umgebende Barriere herauf, die 3-mal Schaden reduziert."
     },
     {
       "key": "SK_MA_NIER_N2TB",
@@ -18050,6 +18086,54 @@
     },
     {
       "key": "SK_GL_VC_LW_ANIM_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF10_VLFR_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF10_VLFR_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF10_VLFR_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF10_VLFR_P2MAX",
       "value": ""
     },
     {
@@ -24249,6 +24333,78 @@
       "value": ""
     },
     {
+      "key": "SK_LW_PLUS6_1_1",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_1_2",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_1_3",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_1_4",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_2",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_3",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_4",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_5",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_6",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_7",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_8",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_9",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_10",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_11",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_12",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_13",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_14",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_15",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -24727,6 +24883,22 @@
     {
       "key": "SK_MPOT_R_01",
       "value": "Gewährt Chance auf Heilung der AP des Ziels bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_WYVN_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_WYVN_M_01",
+      "value": "Fügt dem Ziel Schaden (M) zu und senkt 3 Runden lang Schlitzangriff."
+    },
+    {
+      "key": "SK_WYVN_M_02",
+      "value": "Gewährt Chance auf Wirken von 3 Runden andauerndem Gift auf Ziele in Reichweite."
+    },
+    {
+      "key": "SK_WYVN_M_03",
+      "value": "Fügt Zielen in Reichweite Schaden (L) zu."
     }
   ]
 }
