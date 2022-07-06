@@ -5853,6 +5853,10 @@
       "value": "Augmente les attaques de foudre et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_LW_SCR_WIND_S_2_INIT",
+      "value": "Augmente les attaques de vent et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_LW_SCR_S_3",
       "value": "Augmente la résistance aux attaques de zone et la résistance aux attaques tranchantes du lanceur pendant 3 tours."
     },
@@ -5875,6 +5879,10 @@
     {
       "key": "SK_LW_SCR_THUN_S_2",
       "value": "Augmente les attaques de foudre et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SCR_WIND_S_2",
+      "value": "Augmente les attaques de vent et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_SCR_M_1_SUB",
@@ -7343,6 +7351,70 @@
     {
       "key": "SK_LW_EC_BNI_C_02B",
       "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois) et augmente l'AGI et le taux de perforation de la résistance aux attaques tranchantes jusqu'à ce que le lanceur subisse des dégâts 2 fois."
+    },
+    {
+      "key": "SK_LW_SDLE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SDLE_M_1",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible, Perforation et confère une chance d'infliger Confusion pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SDLE_M_2",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit la jauge de CT (M) et réduit l'AGI pendant 1 tour."
+    },
+    {
+      "key": "SK_LW_SDLE_M_3",
+      "value": "Augmente la résistance tous éléments des alliés dans la zone autour du lanceur, accorde un effet de dissipation d'effets de statut (restauration auto de PA et effet de dégâts additionnels) aux attaques touchant leur cible pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SDLE_S_1",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes."
+    },
+    {
+      "key": "SK_LW_SDLE_S_2",
+      "value": "Augmente l'ATT et la MAGIE des alliés dans la zone autour du lanceur pendant 3 tours, et augmente la résistance aux attaques de zone des unités de vent pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SDLE_S_3",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible et réduit considérablement la résistance au vent pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SDLE_S_4",
+      "value": "Augmente le Déplacement et le Saut du lanceur de 1 pendant 3 tours et réduit considérablement le délai d'activation de ses aptitudes d'attaque pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SDLE_R_1",
+      "value": "Confère une chance de dissiper tous les bonus d'un ennemi lorsque des dégâts sont subis, puis Contre-attaque."
+    },
+    {
+      "key": "SK_LW_SDLE_P_1",
+      "value": "Augmente l'AGI et réduit considérablement le délai d'activation des aptitudes d'attaque."
+    },
+    {
+      "key": "SK_LW_SDLE_P_2",
+      "value": "Augmente les PA max et les PT max."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_A_01",
+      "value": "Accorde Auréole à un allié sauf le lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS)) et augmente les chances d'être pris pour cible."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_01",
+      "value": "Améliore Sacrement sacré en Sacrement divin. Aucun délai d'activation. Augmente la résistance tous éléments des alliés dans la zone autour du lanceur, accorde un effet de dissipation d'effets de statut (restauration auto de PA et effet de dégâts additionnels) aux attaques touchant leur cible pendant 3 tours et augmente le taux de perforation de la PSY du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_01B",
+      "value": "Augmente la résistance tous éléments des alliés dans la zone autour du lanceur, accorde un effet de dissipation d'effets de statut (restauration auto de PA et effet de dégâts additionnels) aux attaques pendant 3 tours et augmente le taux de perforation de la PSY du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_02",
+      "value": "Améliore Prosélytisme en Endoctrinement. Réduit la résistance aux attaques projectiles de la cible pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible, Perforation, confère une chance d'infliger Confusion pendant 3 tours et accorde un effet additionnel : réduit considérablement les PA acquis pendant l'effet de Confusion."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_02B",
+      "value": "Améliore Prosélytisme en Endoctrinement. Réduit la résistance aux attaques projectiles de la cible pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible, Perforation, confère une chance d'infliger Confusion pendant 3 tours et accorde un effet additionnel : réduit considérablement les PA acquis pendant l'effet de Confusion."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -10713,6 +10785,10 @@
       "value": "Inflige des dégâts (L) aux unités dans la zone ciblée, réduit de moitié la jauge de CT et augmente la jauge de CT du lanceur (S)."
     },
     {
+      "key": "SK_LB_LW_SDLE",
+      "value": "Augmente le taux de perforation de la résistance aux attaques magiques du lanceur, puis inflige des dégâts (L) à la cible qui dépendent de la MAGIE du lanceur, confère une chance d'infliger Charme pendant 3 tours et accorde un effet additionnel : augmente l'ATT et la MAGIE pendant l'effet de Charme."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoque Ifrit, inflige des dégâts de feu (MAX) aux unités dans la zone ciblée et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés et réduit considérablement la résistance au feu des ennemis)."
     },
@@ -13593,6 +13669,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de feu de +15 pour les unités alliées de feu, augmente l'ATT du lanceur de 15 % et la consommation de PA de 10 %."
     },
     {
+      "key": "SK_MA_LW_SDLE",
+      "value": "Augmente les PV max de +10 % et les attaques de vent de +15 pour les unités alliées de vent, augmente la résistance aux attaques de zone du lanceur de 10 et le taux de perforation de la PSY de 10."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Attaque tranchante +2"
     },
@@ -15227,6 +15307,10 @@
     {
       "key": "SK_ACC_LW_IRDL_01_1",
       "value": "Augmente la résistance aux attaques à cible unique du lanceur pendant 3 tours et augmente le Déplacement et le Saut de 1."
+    },
+    {
+      "key": "SK_ACC_LW_SDLE_1",
+      "value": "Ajoute un effet de réduction des compétences de soin pendant 3 tours aux coups critiques d'un allié pendant 3 tours."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",

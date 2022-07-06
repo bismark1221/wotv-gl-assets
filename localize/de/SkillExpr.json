@@ -5853,6 +5853,10 @@
       "value": "Erhöht 3 Runden lang Blitzangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
     },
     {
+      "key": "SK_LW_SCR_WIND_S_2_INIT",
+      "value": "Erhöht 3 Runden lang Windangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
+    },
+    {
       "key": "SK_LW_SCR_S_3",
       "value": "Erhöht 3 Runden lang eigene Bereichangriffsresistenz und Schlitzresistenz."
     },
@@ -5875,6 +5879,10 @@
     {
       "key": "SK_LW_SCR_THUN_S_2",
       "value": "Erhöht 3 Runden lang Blitzangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
+    },
+    {
+      "key": "SK_LW_SCR_WIND_S_2",
+      "value": "Erhöht 3 Runden lang Windangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
     },
     {
       "key": "SK_LW_SCR_M_1_SUB",
@@ -7343,6 +7351,70 @@
     {
       "key": "SK_LW_EC_BNI_C_02B",
       "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert, und erhöht solange AGI und Schlitzresistenz-Durchbohrrate bis 2 Mal Schaden erlitten wurde."
+    },
+    {
+      "key": "SK_LW_SDLE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SDLE_M_1",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (M) zu, Durchbohren und gewährt Chance auf Wirken von 3 Runden andauerndem Konfus."
+    },
+    {
+      "key": "SK_LW_SDLE_M_2",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu, senkt AZ (M) und senkt 1 Runde lang AGI."
+    },
+    {
+      "key": "SK_LW_SDLE_M_3",
+      "value": "Erhöht alle Elementarresistenzen von Verbündeten im Bereich um Wirkenden und gewährt 3 Runden lang Entfernen von Statuseffekten (automatische AP-Wiederherstellung/Zusätzliche Schadenseffekte) bei Angriffen."
+    },
+    {
+      "key": "SK_LW_SDLE_S_1",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu und bricht Fähigkeitenaktivierung ab."
+    },
+    {
+      "key": "SK_LW_SDLE_S_2",
+      "value": "Erhöht 3 Runden lang ANG/MAG von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang Bereichangriffsresistenz für Windeinheiten."
+    },
+    {
+      "key": "SK_LW_SDLE_S_3",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu und senkt 3 Runden lang Windresistenz erheblich."
+    },
+    {
+      "key": "SK_LW_SDLE_S_4",
+      "value": "Erhöht 3 Runden lang eigene Bewegung/Sprung um 1 und senkt 3 Runden lang eigene Aktivierungszeit für Angriffsfähigkeiten erheblich."
+    },
+    {
+      "key": "SK_LW_SDLE_R_1",
+      "value": "Gewährt Chance auf Entfernen aller Stärkungen vom Gegner bei Erleiden von Schaden, kontert anschließend."
+    },
+    {
+      "key": "SK_LW_SDLE_P_1",
+      "value": "Erhöht AGI und senkt Aktivierungszeit für Angriffsfähigkeiten erheblich."
+    },
+    {
+      "key": "SK_LW_SDLE_P_2",
+      "value": "Erhöht AP-/TP-Maximum."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_A_01",
+      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf einen Verbündeten (den Wirkenden ausgenommen) und erhöht Chance, selbst Ziel von Angriffen zu werden."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_01",
+      "value": "Verstärkt Heilige Predigt zu Göttliches Sakrament. Keine Aktivierungszeit. Erhöht alle Elementarresistenzen von Verbündeten im Bereich um Wirkenden, gewährt 3 Runden lang Entfernen von Statuseffekten (automatische AP-Wiederherstellung/Zusätzliche Schadenseffekte) bei Angriffen und erhöht eigene PSY-Durchbohrrate für 3 Runden."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_01B",
+      "value": "Erhöht alle Elementarresistenzen von Verbündeten im Bereich um Wirkenden, gewährt 3 Runden lang Entfernen von Statuseffekten (automatische AP-Wiederherstellung/Zusätzliche Schadenseffekte) bei Angriffen und erhöht eigene PSY-Durchbohrrate für 3 Runden."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_02",
+      "value": "Verstärkt Missionierung zu Indoktrinierung. Senkt Geschossresistenz des Ziels für 3 Runden, fügt anschließend MAG-abhängigen Schaden (M) zu, Durchbohren, gewährt Chance auf Wirken von 3 Runden andauerndem Konfus und zusätzlicher Effekt: senkt erlangte AP während Konfus erheblich."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_02B",
+      "value": "Senkt Geschossresistenz des Ziels für 3 Runden, fügt anschließend MAG-abhängigen Schaden (M) zu, Durchbohren, gewährt Chance auf Wirken von 3 Runden andauerndem Konfus und zusätzlicher Effekt: senkt erlangte AP während Konfus erheblich."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -10713,6 +10785,10 @@
       "value": "Fügt Zielen in Reichweite Schaden (L) zu, halbiert AZ und erhöht eigene AZ (S)."
     },
     {
+      "key": "SK_LB_LW_SDLE",
+      "value": "Erhöht eigene Magieangriffsresistenz-Durchbohrrate, fügt dem Ziel anschließend MAG-abhängigen Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Betörung und zusätzlicher Effekt: erhöht ANG/MAG während Betörung."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Ruft Ifrit, fügt Zielen in Reichweite Feuerschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Feuerresistenz-Senkung für Gegner)."
     },
@@ -13593,6 +13669,10 @@
       "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigener ANG +15 %/AP-Verbrauch -10 %"
     },
     {
+      "key": "SK_MA_LW_SDLE",
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene Bereichangriffsresistenz +10 und PSY-Durchbohrrate +10"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -15227,6 +15307,10 @@
     {
       "key": "SK_ACC_LW_IRDL_01_1",
       "value": "Erhöht 3 Runden lang eigene Einzelangriffsresistenz und erhöht Bewegung/Sprung um 1."
+    },
+    {
+      "key": "SK_ACC_LW_SDLE_1",
+      "value": "Verleiht kritischen Treffern von Verbündeten 3 Runden lang Heilkraft reduziert für 3 Runden."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",

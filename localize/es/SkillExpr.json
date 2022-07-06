@@ -5853,6 +5853,10 @@
       "value": "Aumenta el ataque de rayo de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
     {
+      "key": "SK_LW_SCR_WIND_S_2_INIT",
+      "value": "Aumenta el ataque de viento de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LW_SCR_S_3",
       "value": "Aumenta la res. ataque de zona y la res. ataque de corte del usuario durante 3 turnos."
     },
@@ -5875,6 +5879,10 @@
     {
       "key": "SK_LW_SCR_THUN_S_2",
       "value": "Aumenta el ataque de rayo de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SCR_WIND_S_2",
+      "value": "Aumenta el ataque de viento de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_SCR_M_1_SUB",
@@ -7343,6 +7351,70 @@
     {
       "key": "SK_LW_EC_BNI_C_02B",
       "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI y su tasa de penetración de res. ataque de corte hasta que reciba daño 2 veces."
+    },
+    {
+      "key": "SK_LW_SDLE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SDLE_M_1",
+      "value": "Daño penetrante (medio) en función de la MAG del usuario al objetivo y probabilidad de infligirle confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SDLE_M_2",
+      "value": "Inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance, reduce su TC y reduce su AGI durante un turno."
+    },
+    {
+      "key": "SK_LW_SDLE_M_3",
+      "value": "Aumenta la res. todos los elementos de los aliados de alrededor y otorga eliminación de estados (recuperación automática de PA y efectos de daño adicionales) a los ataques durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SDLE_S_1",
+      "value": "Inflige daño (poco) en función de la MAG del usuario al objetivo y cancela la activación de habilidades."
+    },
+    {
+      "key": "SK_LW_SDLE_S_2",
+      "value": "Aumenta el ATQ y la MAG de los aliados de alrededor durante 3 turnos y aumenta la res. ataque de zona de las unidades de viento durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SDLE_S_3",
+      "value": "Inflige daño (poco) en función de la MAG del usuario al objetivo y reduce considerablemente su res. viento durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SDLE_S_4",
+      "value": "Aumenta el movimiento y el salto del usuario en 1 durante 3 turnos y reduce considerablemente el tiempo de activación de sus habilidades ofensivas durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SDLE_R_1",
+      "value": "Probabilidad de eliminar todas las mejoras del enemigo al recibir daño, y luego contraataca."
+    },
+    {
+      "key": "SK_LW_SDLE_P_1",
+      "value": "Aumenta la AGI y reduce considerablemente el tiempo de activación de habilidades ofensivas."
+    },
+    {
+      "key": "SK_LW_SDLE_P_2",
+      "value": "Aumenta los PA y PT máx."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_A_01",
+      "value": "Otorga autolázaro a un aliado excepto usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), y aumenta la probabilidad de ser atacado."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_01",
+      "value": "Mejora «Sermón de liberación» a «Homilía de liberación»: elimina el tiempo de activación. Aumenta la res. todos los elementos de los aliados de alrededor, otorga eliminación de estados (recuperación automática de PA y efectos de daño adicionales) a los ataques durante 3 turnos y aumenta la tasa de penetración de ESP del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_01B",
+      "value": "Aumenta la res. todos los elementos de los aliados de alrededor, otorga eliminación de estados (recuperación automática de PA y efectos de daño adicionales) a los ataques durante 3 turnos y aumenta la tasa de penetración de ESP del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_02",
+      "value": "Mejora «Proselitismo» a «Adoctrinamiento»: reduce la res. ataque a distancia del objetivo durante 3 turnos, le inflige daño penetrante (medio) en función de la MAG del usuario, probabilidad de infligirle confusión durante 3 turnos, y efecto adicional: reduce considerablemente los PA adquiridos en estado confusión."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_C_02B",
+      "value": "Reduce la res. ataque a distancia del objetivo durante 3 turnos, le inflige daño penetrante (medio) en función de la MAG del usuario, probabilidad de infligirle confusión durante 3 turnos, y efecto adicional: reduce considerablemente los PA adquiridos en estado confusión."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -10713,6 +10785,10 @@
       "value": "Inflige daño (mucho) a los objetivos al alcance, reduce su TC a la mitad y aumenta el TC del usuario (poco)."
     },
     {
+      "key": "SK_LB_LW_SDLE",
+      "value": "Aumenta la tasa de penetración de res. ataque mágico del usuario einflige daño (mucho) en función de su MAG al objetivo, probabilidad de infligirle embrujo durante 3 turnos, y efecto adicional: aumenta el ATQ y la MAG en estado embrujo."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -13593,6 +13669,10 @@
       "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: ATQ +15 %, consumo de PA -10 %"
     },
     {
+      "key": "SK_MA_LW_SDLE",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: res. ataque de zona +10, tasa de penetración de ESP +10"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -15227,6 +15307,10 @@
     {
       "key": "SK_ACC_LW_IRDL_01_1",
       "value": "Aumenta la res. ataque de unidad del usuario durante 3 turnos y aumenta su movimiento y salto en 1."
+    },
+    {
+      "key": "SK_ACC_LW_SDLE_1",
+      "value": "Los ataques de un aliado reducen la potencia de curación durante 3 turnos al asestar un crítico durante 3 turnos."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
