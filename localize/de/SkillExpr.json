@@ -9661,12 +9661,20 @@
       "value": "Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von Konfus."
     },
     {
+      "key": "SK_YNLS_M_1_GRA",
+      "value": "Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von Konfus."
+    },
+    {
       "key": "SK_YNLS_M_2",
-      "value": "Zerstört Barrieren, fügt Zielen in Reichweite anschließend 3-mal hintereinander Schaden (M) zu und senkt Heilkraft."
+      "value": "Zerstört Barrieren, fügt Zielen in Reichweite anschließend 3 Mal hintereinander Schaden (M) zu und senkt Heilkraft."
     },
     {
       "key": "SK_YNLS_M_2_PQ",
-      "value": "Zerstört Barrieren, fügt Zielen in Reichweite anschließend 3-mal hintereinander Schaden (M) zu und senkt Heilkraft."
+      "value": "Zerstört Barrieren, fügt Zielen in Reichweite anschließend 3 Mal hintereinander Schaden (M) zu und senkt Heilkraft."
+    },
+    {
+      "key": "SK_YNLS_M_2_GRA",
+      "value": "Zerstört Barrieren, fügt Zielen in Reichweite anschließend 3 Mal hintereinander Schaden (M) zu und senkt Heilkraft."
     },
     {
       "key": "SK_YNLS_M_3_RA",
@@ -12377,6 +12385,26 @@
       "value": "Erhöht erlangte AP, ABW und PSY."
     },
     {
+      "key": "SK_LW_EC_THI_A_02",
+      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Schlaf."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_03",
+      "value": "Verstärkt Herzensdieb zu Herzensspieler. Erhöht Reichweitenhöhe."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_03B",
+      "value": "Gewährt Chance auf Wirken von 3 Runden andauernder Betörung."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_04",
+      "value": "Verstärkt Beutelschneiderkenntnisse zu Meister des Beutelschneidens. Bewegung +1, erhöht AGI und senkt Hass."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_04B",
+      "value": "Bewegung +1, erhöht AGI und senkt Hass."
+    },
+    {
       "key": "SK_LW_EC_VIK_A_02",
       "value": "Senkt 3 Runden lang ABW von Zielen in Reichweite und fügt anschließend Schaden (M) zu."
     },
@@ -13009,6 +13037,10 @@
       "value": "Kritischer Schaden +40 %, AGI +10 %"
     },
     {
+      "key": "SK_MA_LW_MRLK_2",
+      "value": "LP-Maximum +10 % und Schlafresistenz +25 für verbündete Blitzeinheiten, eigener Kritischer Schaden +40 %, AGI +10 %, LP-Maximum +20 % und Kritische Trefferrate +20."
+    },
+    {
       "key": "SK_MA_LW_MGRT",
       "value": "TP-Maximum +15 %, Magie-ANG +30"
     },
@@ -13047,6 +13079,10 @@
     {
       "key": "SK_MA_LW_RYER",
       "value": "MAG +20 %, Lichtfresser +25 %"
+    },
+    {
+      "key": "SK_MA_LW_RYER_2",
+      "value": "MAG +20 %, Lichtfresser +25 und Einzelangriffsresistenz +20"
     },
     {
       "key": "SK_MA_LW_SCIA",
@@ -13199,6 +13235,10 @@
     {
       "key": "SK_MA_LW_P_KTON",
       "value": "Ausweichrate +15"
+    },
+    {
+      "key": "SK_MA_LW_P_KTON_2",
+      "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigene Ausweichrate +15, AP-Verbrauch -20 % und ermöglicht Wirkendem, einen tödlichen Treffer zu überleben, wenn LP 70 % oder höher sind"
     },
     {
       "key": "SK_MA_LW_DRND",
@@ -13443,6 +13483,10 @@
     {
       "key": "SK_MA_LW_MONT_01",
       "value": "LP-Maximum +15 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene Bereichangriffsresistenz +15"
+    },
+    {
+      "key": "SK_MA_LW_MONT_01_2",
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene Bereichangriffsresistenz +15, LP-Maximum +10 % und alle Elementarresistenzen + 10."
     },
     {
       "key": "SK_MA_LW_RYEL",
@@ -18246,6 +18290,66 @@
     },
     {
       "key": "SK_GL_VC_FF10_VLFR_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3MAX",
       "value": ""
     },
     {

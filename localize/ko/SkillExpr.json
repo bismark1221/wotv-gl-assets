@@ -9661,11 +9661,19 @@
       "value": "범위 내 대상에게 피해(대)+일정 확률로 혼란 효과"
     },
     {
+      "key": "SK_YNLS_M_1_GRA",
+      "value": "범위 내 대상에게 피해(대)+일정 확률로 혼란 효과"
+    },
+    {
       "key": "SK_YNLS_M_2",
       "value": "보호막 파괴+범위 내 대상에게 3연속 피해(중)+치유력 감소"
     },
     {
       "key": "SK_YNLS_M_2_PQ",
+      "value": "보호막 파괴+범위 내 대상에게 3연속 피해(중)+치유력 감소"
+    },
+    {
+      "key": "SK_YNLS_M_2_GRA",
       "value": "보호막 파괴+범위 내 대상에게 3연속 피해(중)+치유력 감소"
     },
     {
@@ -12377,6 +12385,26 @@
       "value": "획득 AP/방어력/정신력 증가"
     },
     {
+      "key": "SK_LW_EC_THI_A_02",
+      "value": "자신을 중심으로 범위 내 대상에게 피해(중)+일정 확률로 수면(3턴 동안 모든 행동 불가) 효과"
+    },
+    {
+      "key": "SK_LW_EC_THI_C_03",
+      "value": " '하트 훔치기'를 '하트 농락'으로 강화+사정거리 고저 차이 강화"
+    },
+    {
+      "key": "SK_LW_EC_THI_C_03B",
+      "value": "대상에게 일정 확률로 매료(3턴 동안 조작 불가/대상의 아군 공격) 효과"
+    },
+    {
+      "key": "SK_LW_EC_THI_C_04",
+      "value": " '도적의 마음가짐'을 '도적의 비법'으로 강화+이동력 1 증가+민첩성 증가+헤이트 감소"
+    },
+    {
+      "key": "SK_LW_EC_THI_C_04B",
+      "value": "이동력 1 증가+민첩성 증가+헤이트 감소"
+    },
+    {
       "key": "SK_LW_EC_VIK_A_02",
       "value": "3턴 동안 범위 내 대상의 방어력 감소+피해(중)"
     },
@@ -13009,6 +13037,10 @@
       "value": "크리티컬 피해량+40%, 민첩성+10%"
     },
     {
+      "key": "SK_MA_LW_MRLK_2",
+      "value": "번개속성 아군 유닛의 최대 HP+10%/수면 저항력+25, 자신의 크리티컬 피해량+40%/민첩성+10%/최대 HP+20%/크리티컬 발생률+20"
+    },
+    {
       "key": "SK_MA_LW_MGRT",
       "value": "최대 TP+15%, 마법 공격력+30"
     },
@@ -13047,6 +13079,10 @@
     {
       "key": "SK_MA_LW_RYER",
       "value": "마력+20%, 빛속성 킬러+25"
+    },
+    {
+      "key": "SK_MA_LW_RYER_2",
+      "value": "마력+20%/빛속성 킬러+25/단일 공격 저항력+20"
     },
     {
       "key": "SK_MA_LW_SCIA",
@@ -13199,6 +13235,10 @@
     {
       "key": "SK_MA_LW_P_KTON",
       "value": "회피율+15"
+    },
+    {
+      "key": "SK_MA_LW_P_KTON_2",
+      "value": "땅속성 아군 유닛의 최대 HP+10%/땅속성 어빌리티 공격력+15, 자신의 회피율+15/소비 AP-20%/HP가 70% 이상일 때 자신의 전투불능 방지"
     },
     {
       "key": "SK_MA_LW_DRND",
@@ -13443,6 +13483,10 @@
     {
       "key": "SK_MA_LW_MONT_01",
       "value": "불속성 아군 유닛의 최대 HP+10%/불속성 어빌리티 공격력+15, 자신의 범위 공격 저항력+15"
+    },
+    {
+      "key": "SK_MA_LW_MONT_01_2",
+      "value": "불속성 아군 유닛의 최대 HP+10%/불속성 어빌리티 공격력+15, 자신의 범위 공격 저항력+15/최대 HP+10%/모든 속성 저항력+10"
     },
     {
       "key": "SK_MA_LW_RYEL",
@@ -18246,6 +18290,66 @@
     },
     {
       "key": "SK_GL_VC_FF10_VLFR_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3MAX",
       "value": ""
     },
     {

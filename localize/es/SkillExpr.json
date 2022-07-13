@@ -9661,11 +9661,19 @@
       "value": "Daño (mucho) a los objetivos al alcance y probabilidad de infligirles confusión."
     },
     {
+      "key": "SK_YNLS_M_1_GRA",
+      "value": "Daño (mucho) a los objetivos al alcance y probabilidad de infligirles confusión."
+    },
+    {
       "key": "SK_YNLS_M_2",
       "value": "Elimina las barreras de los objetivos al alcance, les inflige daño (medio) 3 veces y reduce su potencia de curación."
     },
     {
       "key": "SK_YNLS_M_2_PQ",
+      "value": "Elimina las barreras de los objetivos al alcance, les inflige daño (medio) 3 veces y reduce su potencia de curación."
+    },
+    {
+      "key": "SK_YNLS_M_2_GRA",
       "value": "Elimina las barreras de los objetivos al alcance, les inflige daño (medio) 3 veces y reduce su potencia de curación."
     },
     {
@@ -10786,7 +10794,7 @@
     },
     {
       "key": "SK_LB_LW_SDLE",
-      "value": "Aumenta la tasa de penetración de res. ataque mágico del usuario einflige daño (mucho) en función de su MAG al objetivo, probabilidad de infligirle embrujo durante 3 turnos, y efecto adicional: aumenta el ATQ y la MAG en estado embrujo."
+      "value": "Aumenta la tasa de penetración de res. ataque mágico del usuario e inflige daño (mucho) en función de su MAG al objetivo, probabilidad de infligirle embrujo durante 3 turnos, y efecto adicional: aumenta el ATQ y la MAG en estado embrujo."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -12377,6 +12385,26 @@
       "value": "Aumenta los PA adquiridos, la DEF y el ESP."
     },
     {
+      "key": "SK_LW_EC_THI_A_02",
+      "value": "Daño (medio) a los objetivos de alrededor y probabilidad de infligirles sueño durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_03",
+      "value": "Mejora «Robacorazones» a «Corazón dominado»: aumenta la altura de alcance."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_03B",
+      "value": "Probabilidad de infligir embrujo al objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_04",
+      "value": "Mejora «Sabiduría del ladrón» a «Maestría de ladrón»: movimiento +1 y aumenta la AGI, y reduce el odio."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_04B",
+      "value": "Movimiento +1 y aumenta la AGI y reduce el odio."
+    },
+    {
       "key": "SK_LW_EC_VIK_A_02",
       "value": "Reduce la DEF de los objetivos al alcance durante 3 turnos, y luego les inflige daño (medio)."
     },
@@ -13009,6 +13037,10 @@
       "value": "Daño crítico +40 %, AGI +10 %"
     },
     {
+      "key": "SK_MA_LW_MRLK_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, res. sueño +25; usuario: daño crítico +40 %, AGI +10 %, VIT máx. +20 %, tasa de crítico +20"
+    },
+    {
       "key": "SK_MA_LW_MGRT",
       "value": "PT máx. +15 %, ataque mágico +30"
     },
@@ -13047,6 +13079,10 @@
     {
       "key": "SK_MA_LW_RYER",
       "value": "MAG +20 %, Comesacros +25"
+    },
+    {
+      "key": "SK_MA_LW_RYER_2",
+      "value": "MAG +20 %, Comesacros +25, res. ataque de unidad +20"
     },
     {
       "key": "SK_MA_LW_SCIA",
@@ -13199,6 +13235,10 @@
     {
       "key": "SK_MA_LW_P_KTON",
       "value": "Tasa de evasión +15"
+    },
+    {
+      "key": "SK_MA_LW_P_KTON_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: tasa de evasión +15, consumo de PA -20 %, sobrevive a daño letal cuando su VIT está al 70 % o más"
     },
     {
       "key": "SK_MA_LW_DRND",
@@ -13443,6 +13483,10 @@
     {
       "key": "SK_MA_LW_MONT_01",
       "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. ataque de zona +15"
+    },
+    {
+      "key": "SK_MA_LW_MONT_01_2",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. ataque de zona +15, VIT máx. +10 %, res. todos los elementos +10"
     },
     {
       "key": "SK_MA_LW_RYEL",
@@ -18246,6 +18290,66 @@
     },
     {
       "key": "SK_GL_VC_FF10_VLFR_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3MAX",
       "value": ""
     },
     {

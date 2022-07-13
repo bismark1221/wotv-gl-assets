@@ -9661,12 +9661,20 @@
       "value": "Inflige des dégâts (L) aux unités dans la zone ciblée et confère une chance d'infliger Confusion."
     },
     {
+      "key": "SK_YNLS_M_1_GRA",
+      "value": "Inflige des dégâts (L) aux unités dans la zone ciblée et confère une chance d'infliger Confusion."
+    },
+    {
       "key": "SK_YNLS_M_2",
       "value": "Détruit les barrières érigées, puis inflige des dégâts (M) en 3 coups aux unités dans la zone ciblée et réduit les compétences de soin."
     },
     {
       "key": "SK_YNLS_M_2_PQ",
       "value": "Détruit les barrières érigées, puis inflige des dégâts (M) en 3 coups aux unités dans la zone ciblée et réduit les compétences de soin."
+    },
+    {
+      "key": "SK_YNLS_M_2_GRA",
+      "value": "Détruit toute barrière réduisant les dégâts érigée autour des unités dans la zone ciblée, puis inflige des dégâts (M) en 3 coups et réduit les compétences de soin."
     },
     {
       "key": "SK_YNLS_M_3_RA",
@@ -12377,6 +12385,26 @@
       "value": "Augmente les PA acquis, la DEF et la PSY."
     },
     {
+      "key": "SK_LW_EC_THI_A_02",
+      "value": "Inflige des dégâts (M) aux cibles dans la zone autour du lanceur et confère une chance d'infliger Sommeil à la cible pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_03",
+      "value": "Améliore Vol cœur en Cœur instrumentalisé. Améliore la hauteur de la portée."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_03B",
+      "value": "Confère une chance d'infliger Charme à la cible pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_04",
+      "value": "Améliore Voie du voleur en Voleur professionnel. Déplacement +1, augmente l'AGI et réduit la Haine."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_04B",
+      "value": "Déplacement +1, augmente l'AGI et réduit la Haine."
+    },
+    {
       "key": "SK_LW_EC_VIK_A_02",
       "value": "Réduit la DEF des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M)."
     },
@@ -13009,6 +13037,10 @@
       "value": "Dégâts critiques +40 %, AGI +10 %"
     },
     {
+      "key": "SK_MA_LW_MRLK_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Sommeil de 25 pour les unités alliées de foudre, augmente les dégâts critiques du lanceur de 40 %, son AGI de 10 %, ses PV max de 20 % et le taux de coup critique de 20."
+    },
+    {
       "key": "SK_MA_LW_MGRT",
       "value": "PT max +15 %, attaque magique +30"
     },
@@ -13047,6 +13079,10 @@
     {
       "key": "SK_MA_LW_RYER",
       "value": "MAGIE +20 %, Luminophage +25"
+    },
+    {
+      "key": "SK_MA_LW_RYER_2",
+      "value": "Augmente la MAGIE de 20 %, Luminophage de 25 et la résistance aux attaques à cible unique de 20."
     },
     {
       "key": "SK_MA_LW_SCIA",
@@ -13199,6 +13235,10 @@
     {
       "key": "SK_MA_LW_P_KTON",
       "value": "Taux d'esquive +15"
+    },
+    {
+      "key": "SK_MA_LW_P_KTON_2",
+      "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente le taux d'esquive du lanceur de 15, réduit sa consommation de PA de 20 % et lui permet de survivre à des dégâts mortels si ses PV sont au-dessus de 70 %"
     },
     {
       "key": "SK_MA_LW_DRND",
@@ -13443,6 +13483,10 @@
     {
       "key": "SK_MA_LW_MONT_01",
       "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la résistance aux attaques de zone du lanceur de 15."
+    },
+    {
+      "key": "SK_MA_LW_MONT_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques de feu de +15 pour les unités alliées de feu, augmente la résistance aux attaques de zone du lanceur de +15, ses PV max de 10 % et sa résistance tous éléments de 10."
     },
     {
       "key": "SK_MA_LW_RYEL",
@@ -18246,6 +18290,66 @@
     },
     {
       "key": "SK_GL_VC_FF10_VLFR_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLMS_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLMS_P3MAX",
       "value": ""
     },
     {
