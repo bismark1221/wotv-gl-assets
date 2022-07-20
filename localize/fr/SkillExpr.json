@@ -6441,6 +6441,30 @@
       "value": "Annule Confusion/Étourdissement et améliore la portée de Javelot entravant."
     },
     {
+      "key": "SK_LW_LLN_S_1",
+      "value": "Inflige des dégâts (S) à la cible, réduit l'ATT et l'AGI pendant 3 tours et Perforation."
+    },
+    {
+      "key": "SK_LW_LLN_S_2",
+      "value": "Augmente l'ATT des alliés dans la zone autour du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_LLN_M_1_SUB",
+      "value": "Inflige des dégâts (M) à la cible, réduit considérablement les compétences de soin pendant 3 tours en cas de Coup critique et confère une chance d'infliger Immobilisation pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_LLN_M_1_SUBB",
+      "value": "Inflige des dégâts (M) à la cible, réduit considérablement les compétences de soin pendant 3 tours en cas de Coup critique et confère une chance d'infliger Immobilisation pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_LLN_M_2_SUB",
+      "value": "Augmente la résistance aux attaques projectiles et le taux de précision des alliés dans la zone autour du lanceur pendant 3 tours et augmente les attaques perçantes du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_LLN_M_3_SUB",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (M) et Perforation."
+    },
+    {
       "key": "SK_LW_EC_LLN_A_01",
       "value": "Réduit la DEF des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M)."
     },
@@ -7337,6 +7361,10 @@
       "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Immobilisation pendant 3 tours et accorde un effet additionnel : réduit la résistance aux attaques à cible unique pendant l'effet d'Immobilisation."
     },
     {
+      "key": "SK_LW_EC_BNI_A_02",
+      "value": "Augmente considérablement le taux de perforation de la DEF du lanceur, puis inflige des dégâts (XS) en 3 coups à la cible, et restaure les PA du lanceur en cas de Coup critique."
+    },
+    {
       "key": "SK_LW_EC_BNI_C_01",
       "value": "Améliore Double secret en Maîtrise secrète. Augmente le taux d'esquive, les PA acquis et le taux d'esquive d'attaque projectile et d'attaque tranchante."
     },
@@ -7351,6 +7379,42 @@
     {
       "key": "SK_LW_EC_BNI_C_02B",
       "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois) et augmente l'AGI et le taux de perforation de la résistance aux attaques tranchantes jusqu'à ce que le lanceur subisse des dégâts 2 fois."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_03",
+      "value": "Améliore Trinité aveuglante en Trinité d'aveuglement destructeur. Détruit toutes les barrières réduisant les dégâts érigées autour des unités dans la zone ciblée, puis inflige des dégâts (M) en 3 coups, confère une chance d'infliger Cécité pendant 3 tours et réduit l'AGI."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_03B",
+      "value": "Détruit toutes les barrières réduisant les dégâts érigées autour des unités dans la zone ciblée, puis inflige des dégâts (M) en 3 coups, confère une chance d'infliger Cécité pendant 3 tours et réduit l'AGI."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_04",
+      "value": "Améliore Subterfuge en Subterfuge dissuasif. Réduit les chances du lanceur d'être pris pour cible, augmente le taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours, augmente le taux d'esquive d'attaques tranchantes pendant 3 tours et confère un effet de dissipation de Hardiesse aux attaques pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_04B",
+      "value": "Réduit les chances du lanceur d'être pris pour cible, augmente le taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours, augmente le taux d'esquive d'attaques tranchantes pendant 3 tours et confère un effet de dissipation de Hardiesse aux attaques pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_DAC_EN_A_01",
+      "value": "Dissipe Barrière et Bouclier des unités dans la zone ciblée, puis inflige des dégâts (L)."
+    },
+    {
+      "key": "SK_LW_EC_DAC_C_01",
+      "value": "Améliore Flèche perce-armure en Flèche perce-blindage. Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M)."
+    },
+    {
+      "key": "SK_LW_EC_DAC_C_01B",
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M)."
+    },
+    {
+      "key": "SK_LW_EC_DAC_C_02",
+      "value": "Améliore Œil du chasseur en Œil de lynx du chasseur. Portée +2 et augmente les attaques projectiles."
+    },
+    {
+      "key": "SK_LW_EC_DAC_C_02B",
+      "value": "Portée +2 et augmente les attaques projectiles."
     },
     {
       "key": "SK_LW_SDLE_ATK",
@@ -7415,6 +7479,50 @@
     {
       "key": "SK_LW_EC_SDLE_C_02B",
       "value": "Améliore Prosélytisme en Endoctrinement. Réduit la résistance aux attaques projectiles de la cible pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible, Perforation, confère une chance d'infliger Confusion pendant 3 tours et accorde un effet additionnel : réduit considérablement les PA acquis pendant l'effet de Confusion."
+    },
+    {
+      "key": "SK_LW_DAC_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAC_M_1",
+      "value": "Inflige des dégâts (M) à la cible et réduit la DEF pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_DAC_M_2",
+      "value": "Inflige des dégâts (M) en 3 coups à la cible, et réduit les PA en cas de Coup critique."
+    },
+    {
+      "key": "SK_LW_DAC_M_3",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, et réduit la jauge de CT (S)."
+    },
+    {
+      "key": "SK_LW_DAC_S_1_INIT",
+      "value": "Inflige des dégâts (S) à la cible et confère une chance d'infliger Berserk pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_DAC_S_2_INIT",
+      "value": "Augmente l'AGI des alliés dans la zone autour du lanceur pendant 3 tours et augmente l'ATT du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_DAC_S_3",
+      "value": "Augmente considérablement le taux de précision du lanceur pendant 3 tours et Portée +1."
+    },
+    {
+      "key": "SK_LW_DAC_S_4",
+      "value": "Augmente le taux de perforation de la DEF et le taux de perforation de la résistance aux attaques projectiles du lanceur, puis inflige des dégâts (M) à la cible."
+    },
+    {
+      "key": "SK_LW_DAC_ICE_R_1",
+      "value": "Confère une chance de réduire préventivement la résistance aux attaques projectiles et la résistance à la glace de la cible pendant 3 tours lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_LW_DAC_P_1",
+      "value": "Portée +1"
+    },
+    {
+      "key": "SK_LW_DAC_P_2",
+      "value": "Augmente les PA initiaux."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -10797,6 +10905,10 @@
       "value": "Augmente le taux de perforation de la résistance aux attaques magiques du lanceur, puis inflige des dégâts (L) à la cible qui dépendent de la MAGIE du lanceur, confère une chance d'infliger Charme pendant 3 tours et accorde un effet additionnel : augmente l'ATT et la MAGIE pendant l'effet de Charme."
     },
     {
+      "key": "SK_LB_LW_IREZ",
+      "value": "Réduit la résistance à la glace de la cible pendant 3 tours, puis inflige des dégâts (L), et réduit le Déplacement de 1 pendant 3 tours."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoque Ifrit, inflige des dégâts de feu (MAX) aux unités dans la zone ciblée et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés et réduit considérablement la résistance au feu des ennemis)."
     },
@@ -13717,6 +13829,14 @@
       "value": "Augmente les PV max de +10 % et les attaques de vent de +15 pour les unités alliées de vent, augmente la résistance aux attaques de zone du lanceur de 10 et le taux de perforation de la PSY de 10."
     },
     {
+      "key": "SK_MA_LW_IREZ",
+      "value": "Augmente les PV max de 10 % et les attaques de glace de +15 pour les unités alliées de glace, augmente le taux de perforation de la résistance aux attaques projectiles du lanceur de +20, et réduit son délai d'activation des aptitudes d'attaque de -10 %"
+    },
+    {
+      "key": "SK_MA_LW_RNEL",
+      "value": "Augmente les PV max de +10 % et la résistance à Cécité de +25 pour les unités alliées d'ombre, augmente l'ATT du lanceur de +10 % et sa résistance aux attaques à cible unique de +15"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Attaque tranchante +2"
     },
@@ -15125,6 +15245,10 @@
       "value": ""
     },
     {
+      "key": "SK_NKN_LW_RNEL_1_1",
+      "value": ""
+    },
+    {
       "key": "SK_ACC_LW_HLNA_01_1",
       "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et augmente l'AGI pendant 3 tours."
     },
@@ -15355,6 +15479,10 @@
     {
       "key": "SK_ACC_LW_SDLE_1",
       "value": "Ajoute un effet de réduction des compétences de soin pendant 3 tours aux coups critiques d'un allié pendant 3 tours."
+    },
+    {
+      "key": "SK_CLT_LW_IREZ_1",
+      "value": "Accorde un effet de restauration des PA lors d'un coup critique pendant 3 tours."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -24658,6 +24786,34 @@
     },
     {
       "key": "SK_LW_BOW_014_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_1_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_5_S",
       "value": ""
     },
     {

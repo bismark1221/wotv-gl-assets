@@ -6441,6 +6441,30 @@
       "value": "Annulliert Konfus sowie Betäubung und erhöht die Reichweite von Jagdspeer."
     },
     {
+      "key": "SK_LW_LLN_S_1",
+      "value": "Fügt dem Ziel Schaden (S) zu, senkt 3 Runden lang ANG/AGI und durchbohrt."
+    },
+    {
+      "key": "SK_LW_LLN_S_2",
+      "value": "Erhöht 3 Runden lang ANG von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_LW_LLN_M_1_SUB",
+      "value": "Fügt dem Ziel Schaden (M) zu, senkt 3 Runden lang Heilkraft bei kritischem Treffer erheblich und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
+    },
+    {
+      "key": "SK_LW_LLN_M_1_SUBB",
+      "value": "Fügt dem Ziel Schaden (M) zu, senkt 3 Runden lang Heilkraft bei kritischem Treffer erheblich und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
+    },
+    {
+      "key": "SK_LW_LLN_M_2_SUB",
+      "value": "Erhöht 3 Runden lang Geschossresistenz und Präzision von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigenen Durchbohr-ANG."
+    },
+    {
+      "key": "SK_LW_LLN_M_3_SUB",
+      "value": "Zerstört physischen Schaden verringernde Barrieren vom Ziel und fügt anschließend Schaden (M) und Durchschlag zu."
+    },
+    {
       "key": "SK_LW_EC_LLN_A_01",
       "value": "Senkt 3 Runden lang ABW von Zielen in Reichweite und fügt anschließend Schaden (M) zu."
     },
@@ -7337,6 +7361,10 @@
       "value": "Fügt dem Ziel Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung und Zusatzeffekt: Senkung der Einzelangriffsresistenz während Immobilisierung."
     },
     {
+      "key": "SK_LW_EC_BNI_A_02",
+      "value": "Erhöht eigene ABW-Durchbohrrate erheblich, fügt anschließend 3 Mal hintereinander Schaden (minimal) zu und heilt eigene AP bei kritischem Treffer."
+    },
+    {
       "key": "SK_LW_EC_BNI_C_01",
       "value": "Verstärkt Beidhändigkeit eines Geheimagenten zu Meisterschaft eines Geheimagenten. Erhöht Ausweichrate, erlangte AP, Schlitzen und Geschossangriff-Ausweichrate."
     },
@@ -7351,6 +7379,42 @@
     {
       "key": "SK_LW_EC_BNI_C_02B",
       "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert, und erhöht solange AGI und Schlitzresistenz-Durchbohrrate bis 2 Mal Schaden erlitten wurde."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_03",
+      "value": "Verstärkt Blendende Dreieinigkeit zu Düstere Dreieinigkeit. Zerstört alle schadensverringernden Barrieren von Zielen in Reichweite, fügt anschließend 3 Mal hintereinander Schaden (M) zu, Chance auf Wirken von 3 Runden andauerndem Blind und senkt AGI."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_03B",
+      "value": "Zerstört alle schadensverringernden Barrieren von Zielen in Reichweite, fügt anschließend 3 Mal hintereinander Schaden (M) zu, Chance auf Wirken von 3 Runden andauerndem Blind und senkt AGI."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_04",
+      "value": "Verstärkt Täuschung zu Abschreckende Täuschung. Senkt Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden, erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden, erhöht eigene Schlitzangriff-Ausweichrate für 3 Runden und gewährt Entfernen von Statuseffekten (Mumm-Effekt) bei Angriff für 3 Runden."
+    },
+    {
+      "key": "SK_LW_EC_BNI_C_04B",
+      "value": "Senkt Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden, erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden, erhöht eigene Schlitzangriff-Ausweichrate für 3 Runden und gewährt Entfernen von Statuseffekten (Mumm-Effekt) bei Angriff für 3 Runden."
+    },
+    {
+      "key": "SK_LW_DAC_EN_A_01",
+      "value": "Entfernt Protes und Vallum von Zielen in Reichweite und fügt anschließend Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_EC_DAC_C_01",
+      "value": "Verstärkt Rüstungsdurchdringender Pfeil zu Großer rüstungsdurchdringender Pfeil. Senkt 3 Runden lang ABW des Ziels und fügt anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_EC_DAC_C_01B",
+      "value": "Senkt 3 Runden lang ABW des Ziels und fügt anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_EC_DAC_C_02",
+      "value": "Verstärkt Auge des Jägers zu Sechster Sinn des Jägers. Reichweite +2 und erhöht Geschossangriff."
+    },
+    {
+      "key": "SK_LW_EC_DAC_C_02B",
+      "value": "Reichweite +2 und erhöht Geschossangriff."
     },
     {
       "key": "SK_LW_SDLE_ATK",
@@ -7415,6 +7479,50 @@
     {
       "key": "SK_LW_EC_SDLE_C_02B",
       "value": "Senkt Geschossresistenz des Ziels für 3 Runden, fügt anschließend MAG-abhängigen Schaden (M) zu, Durchbohren, gewährt Chance auf Wirken von 3 Runden andauerndem Konfus und zusätzlicher Effekt: senkt erlangte AP während Konfus erheblich."
+    },
+    {
+      "key": "SK_LW_DAC_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAC_M_1",
+      "value": "Fügt dem Ziel Schaden (M) zu und senkt 3 Runden lang ABW."
+    },
+    {
+      "key": "SK_LW_DAC_M_2",
+      "value": "Fügt dem Ziel 3 Mal hintereinander Schaden (M) zu und reduziert AP bei kritischem Treffer."
+    },
+    {
+      "key": "SK_LW_DAC_M_3",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und senkt AZ (S)."
+    },
+    {
+      "key": "SK_LW_DAC_S_1_INIT",
+      "value": "Fügt dem Ziel Schaden (S) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Berserker."
+    },
+    {
+      "key": "SK_LW_DAC_S_2_INIT",
+      "value": "Erhöht 3 Runden lang AGI von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigenen ANG."
+    },
+    {
+      "key": "SK_LW_DAC_S_3",
+      "value": "Erhöht 3 Runden lang eigene Präzision erheblich und Reichweite +1."
+    },
+    {
+      "key": "SK_LW_DAC_S_4",
+      "value": "Erhöht eigene ABW-Durchbohrrate und Geschossresistenz-Durchbohrrate, und fügt dem Ziel anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_DAC_ICE_R_1",
+      "value": "Gewährt bei Erleiden von Schaden Chance, präventiv Geschossresistenz und Eisresistenz des Ziels für 3 Runden zu senken."
+    },
+    {
+      "key": "SK_LW_DAC_P_1",
+      "value": "Reichweite +1"
+    },
+    {
+      "key": "SK_LW_DAC_P_2",
+      "value": "Erhöht Anfangs-AP."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -10797,6 +10905,10 @@
       "value": "Erhöht eigene Magieangriffsresistenz-Durchbohrrate, fügt dem Ziel anschließend MAG-abhängigen Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Betörung und zusätzlicher Effekt: erhöht ANG/MAG während Betörung."
     },
     {
+      "key": "SK_LB_LW_IREZ",
+      "value": "Senkt 3 Runden lang Eisresistenz des Ziels, fügt anschließend Schaden (L) zu und senkt Bewegung um 1 für 3 Runden."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Ruft Ifrit, fügt Zielen in Reichweite Feuerschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Feuerresistenz-Senkung für Gegner)."
     },
@@ -13717,6 +13829,14 @@
       "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene Bereichangriffsresistenz +10 und PSY-Durchbohrrate +10"
     },
     {
+      "key": "SK_MA_LW_IREZ",
+      "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene Geschossresistenz-Durchbohrrate +20, Aktivierungszeit für Angriffsfähigkeiten -10 %"
+    },
+    {
+      "key": "SK_MA_LW_RNEL",
+      "value": "LP-Maximum +10 % und Blindresistenz +25 für verbündete Dunkeleinheiten, eigener ANG +10 %, Einzelangriffsresistenz +15"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -15125,6 +15245,10 @@
       "value": ""
     },
     {
+      "key": "SK_NKN_LW_RNEL_1_1",
+      "value": ""
+    },
+    {
       "key": "SK_ACC_LW_HLNA_01_1",
       "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3-mal Schaden reduziert, und erhöht 3 Runden lang AGI."
     },
@@ -15355,6 +15479,10 @@
     {
       "key": "SK_ACC_LW_SDLE_1",
       "value": "Verleiht kritischen Treffern von Verbündeten 3 Runden lang Heilkraft reduziert für 3 Runden."
+    },
+    {
+      "key": "SK_CLT_LW_IREZ_1",
+      "value": "Gewährt AP-Heilung bei kritischem Treffer für 3 Runden."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -24658,6 +24786,34 @@
     },
     {
       "key": "SK_LW_BOW_014_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_1_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_016_5_S",
       "value": ""
     },
     {

@@ -474,7 +474,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -622,7 +623,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -770,7 +772,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -913,7 +916,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}"
+      "status": "{\"list\":[{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1056,7 +1060,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}"
+      "status": "{\"list\":[{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1199,7 +1204,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}"
+      "status": "{\"list\":[{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1342,7 +1348,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}"
+      "status": "{\"list\":[{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1490,7 +1497,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":151,\"value\":10},{\"type\":155,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":151,\"value\":10},{\"type\":155,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1638,7 +1646,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":151,\"value\":10},{\"type\":155,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":151,\"value\":10},{\"type\":155,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1799,7 +1808,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":155,\"value\":10},{\"type\":153,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":155,\"value\":10},{\"type\":153,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1960,7 +1970,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":155,\"value\":10},{\"type\":153,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":155,\"value\":10},{\"type\":153,\"value\":-10}]}",
+      "groupId": ""
     }
   ],
   "arena": [],
@@ -2696,6 +2707,24 @@
         },
         {
           "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_DAC_2",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_DAC_3",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
@@ -2836,9 +2865,10 @@
             "num": 0,
             "secret": 0
           },
-          "weight": 4075
+          "weight": 4023
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }
