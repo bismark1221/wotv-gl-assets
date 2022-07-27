@@ -1621,6 +1621,10 @@
       "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu und bricht Fähigkeitenaktivierung ab."
     },
     {
+      "key": "SK_LW_RDM_S_3_SIRM",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu und bricht Fähigkeitenaktivierung ab."
+    },
+    {
       "key": "SK_LW_RDM_S_4",
       "value": "Verkürzt 3 Runden lang Aktivierungszeit eines Verbündeten erheblich."
     },
@@ -4733,6 +4737,10 @@
       "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu und absorbiert einen Teil des verursachten Schadens."
     },
     {
+      "key": "SK_LW_LIB_M_3_RYEL",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und absorbiert Teil des verursachten Schaden."
+    },
+    {
       "key": "SK_LW_LIB_S_1_INIT",
       "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu."
     },
@@ -6714,7 +6722,7 @@
     },
     {
       "key": "SK_LW_LNAN_P_1",
-      "value": "Erhöht PSY/SPR-Durchbohrrate."
+      "value": "Erhöht PSY und PSY-Durchbohrrate."
     },
     {
       "key": "SK_LW_LNAN_P_2",
@@ -7834,7 +7842,7 @@
     },
     {
       "key": "SK_IFRT_M_03_01_100_U",
-      "value": "[Verbessert] Erhöht 1 Runde lang Stärke der eigenen Feuerfähigkeiten."
+      "value": "[Verstärkt] Erhöht 1 Runde lang Stärke der eigenen Feuerfähigkeiten."
     },
     {
       "key": "SK_LW_TU_WAR_M_4",
@@ -13389,8 +13397,16 @@
       "value": "ANG +10 %, Ausweichrate +10 %"
     },
     {
+      "key": "SK_MA_LW_VNLA_2",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigener ANG +10 %, Schlitzangriff +15, Ausweichrate +15"
+    },
+    {
       "key": "SK_MA_LW_DRIO",
       "value": "ABW/PSY +10"
+    },
+    {
+      "key": "SK_MA_LW_DRIO_2",
+      "value": "LP-Maximum +10 % und Erfrierungsresistenz +25 für verbündete Windeinheiten, eigene ABW/PSY +10, Bereichangriffsresistenz +15, Hass +5 und AGI +20 % in den ersten 3 Runden nach Kampfbeginn."
     },
     {
       "key": "SK_MA_LW_TREL",
@@ -13546,7 +13562,7 @@
     },
     {
       "key": "SK_MA_LW_GRGS",
-      "value": "LP-Maximum +5 % und Windangriff +15 für verbündete Windeinheiten, eigene Aktivierungszeit =20 % und Bereichangriffsresistenz +5"
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene Aktivierungszeit -20 % und Bereichangriffsresistenz +5"
     },
     {
       "key": "SK_MA_FF7_CLUD",
@@ -13554,7 +13570,7 @@
     },
     {
       "key": "SK_MA_FF7_TIFA",
-      "value": "LP-Maximum +5 % und Windangriff +15 für verbündete Windeinheiten, eigene ABW-Durchbohrrate +15 und ABW +5"
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene ABW-Durchbohrrate +15 und ABW +5"
     },
     {
       "key": "SK_MA_LW_CRIS",
@@ -13605,8 +13621,16 @@
       "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigene Schlitz-/Geschossresistenz +10"
     },
     {
+      "key": "SK_MA_LW_RYEL_2",
+      "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigene Schlitz-/Geschossresistenz +20, verstärkt Prinzip der Stoßminderung: Entfernt Aktivierungszeit nur während des Kampfes. Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und absorbiert Teil des verursachten Schaden."
+    },
+    {
       "key": "SK_MA_LW_SIRM",
       "value": "LP-Maximum +10 % und Blitzangriff +10 für verbündete Blitzeinheiten, eigene AGI +10 % und PSY +10"
+    },
+    {
+      "key": "SK_MA_LW_SIRM_2",
+      "value": "LP-Maximum +10 % und Blitzangriff +10 für verbündete Blitzeinheiten, eigene AGI +10 %, PSY +10, Magie-ANG +15, Reichweite von Störstoß +1"
     },
     {
       "key": "SK_MA_LW_HLNA_01",
@@ -13685,6 +13709,10 @@
       "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene Geschossresistenz-Durchbohrrate +15 und Ausweichrate +5."
     },
     {
+      "key": "SK_MA_TOMB_LARA_2",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene Geschossresistenz-Durchbohrrate +15, Kritischer Schaden +25 % und Ausweichrate +15."
+    },
+    {
       "key": "SK_MA_LW_SLEN",
       "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene MAG +10 % und AGI +10 %"
     },
@@ -13698,7 +13726,7 @@
     },
     {
       "key": "SK_MA_LW_VLUC",
-      "value": "LP-Maximum +15 % sowie Windangriff +15 für verbündete Windeinheiten, eigene PSY +5 und LP +15% ."
+      "value": "LP-Maximum +10 % sowie Windangriff +15 für verbündete Windeinheiten, eigene PSY +5 und LP +15% ."
     },
     {
       "key": "SK_MA_LW_FDRC_01",
@@ -13959,6 +13987,26 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "Ausweichrate +8"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_1",
+      "value": "MAG +8"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_2",
+      "value": "MAG +10"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_3",
+      "value": "MAG +15"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_4_UR",
+      "value": "MAG +20"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_5_UR",
+      "value": "MAG +30"
     },
     {
       "key": "SK_LW_PIERCEMAGIC_1",
@@ -15139,6 +15187,10 @@
     {
       "key": "SK_GL_TOMB_LARA_5",
       "value": "Kritische Trefferrate +15, Kritischer Schaden +20"
+    },
+    {
+      "key": "SK_GL_TOMB_LARA_6",
+      "value": ""
     },
     {
       "key": "SK_TOMB_NTLA_ATK",
@@ -18481,6 +18533,66 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_FRUIT_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_IBRA_GS",
       "value": ""
     },
@@ -19502,7 +19614,7 @@
     },
     {
       "key": "SK_VC_LW_HALL_PVA",
-      "value": "Senkt 3 Runden lang Ausweichrate des Ziels und fügt anschließend 3-mal hintereinander Schaden (M) zu."
+      "value": "Senkt 3 Runden lang Ausweichrate des Ziels und fügt anschließend 3 Mal hintereinander Schaden (M) zu."
     },
     {
       "key": "SK_VC_LW_HALL2_P",
@@ -22693,6 +22805,10 @@
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
     {
+      "key": "SK_BTL_CHARM_U_PA",
+      "value": "Fähigkeit zur Auftragsausbalancierung"
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "Angriff (vorläufig)"
     },
@@ -24549,6 +24665,26 @@
       "value": "Passive Fähigkeit (nur Lucio)"
     },
     {
+      "key": "SK_LW_ROD_028_1",
+      "value": "Passive Fähigkeit (nur Minwu)"
+    },
+    {
+      "key": "SK_LW_ROD_028_2",
+      "value": "Passive Fähigkeit (nur Minwu)"
+    },
+    {
+      "key": "SK_LW_ROD_028_3",
+      "value": "Passive Fähigkeit (nur Minwu)"
+    },
+    {
+      "key": "SK_LW_ROD_028_4",
+      "value": "Passive Fähigkeit (nur Minwu)"
+    },
+    {
+      "key": "SK_LW_ROD_028_5",
+      "value": "Passive Fähigkeit (nur Minwu)"
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -24674,6 +24810,10 @@
     },
     {
       "key": "SK_LW_NKN_004_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_CR_SPD_DWN_1",
       "value": ""
     },
     {
@@ -25110,6 +25250,30 @@
     },
     {
       "key": "SK_LW_ACC_048_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_5",
       "value": ""
     },
     {

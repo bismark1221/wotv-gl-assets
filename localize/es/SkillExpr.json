@@ -1621,6 +1621,10 @@
       "value": "Inflige daño (mucho) en función de la MAG del usuario al objetivo y cancela la activación de habilidades."
     },
     {
+      "key": "SK_LW_RDM_S_3_SIRM",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario al objetivo y cancela la activación de habilidades."
+    },
+    {
       "key": "SK_LW_RDM_S_4",
       "value": "Reduce considerablemente el tiempo de activación de un aliado durante 3 turnos."
     },
@@ -4322,7 +4326,7 @@
     },
     {
       "key": "SK_FF10_TIDU_M_3",
-      "value": "Daño (medio) al objetivo y probabilidad de infligirle freno durante 3 turnos al asestar un golpe crítico."
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle freno durante 3 turnos al asestar un crítico."
     },
     {
       "key": "SK_FF10_EC_TIDU_A_01",
@@ -4346,7 +4350,7 @@
     },
     {
       "key": "SK_FF10_TIDU_S_3",
-      "value": "Daño (medio) al objetivo y probabilidad de infligirle sueño durante 3 turnos al asestar un golpe crítico."
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle sueño durante 3 turnos al asestar un crítico."
     },
     {
       "key": "SK_FF10_TIDU_S_4",
@@ -4731,6 +4735,10 @@
     {
       "key": "SK_LW_LIB_M_3",
       "value": "Inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_LIB_M_3_RYEL",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_LIB_S_1_INIT",
@@ -5154,7 +5162,7 @@
     },
     {
       "key": "SK_FF7_CLUD_S_3",
-      "value": "Daño (medio) al objetivo y probabilidad de infligirle aturdimiento durante 1 turno al asestar un golpe crítico."
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle aturdimiento durante un turno al asestar un crítico."
     },
     {
       "key": "SK_FF7_CLUD_S_4",
@@ -9598,11 +9606,11 @@
     },
     {
       "key": "SK_LW_E_VIK_M_1",
-      "value": "Inflige daño (medio) al objetivo y aumenta la potencia al conseguir un golpe crítico."
+      "value": "Inflige daño (medio) al objetivo y aumenta la potencia al asestar un crítico."
     },
     {
       "key": "SK_LW_E_VIK_M_3",
-      "value": "Inflige daño (medio) con tasa de precisión baja a los objetivos de alrededor y aumenta considerablemente la potencia al conseguir un golpe crítico."
+      "value": "Inflige daño (medio) con poca precisión a los objetivos de alrededor y aumenta considerablemente la potencia al asestar un crítico."
     },
     {
       "key": "SK_LW_E_VIK_M_4",
@@ -11518,7 +11526,7 @@
     },
     {
       "key": "SK_LW_EC_HUN_A_05",
-      "value": "Aumenta el daño crítico del usuario, inflige daño (mucho) al objetivo y aumenta el alcance del usuario en 2 durante un turno al asestar un golpe crítico."
+      "value": "Aumenta el daño crítico del usuario, inflige daño (mucho) al objetivo y aumenta el alcance del usuario en 2 durante un turno al asestar un crítico."
     },
     {
       "key": "SK_LW_EC_HUN_C_09",
@@ -13389,8 +13397,16 @@
       "value": "ATQ +10 %, tasa de evasión +10"
     },
     {
+      "key": "SK_MA_LW_VNLA_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: ATQ +10 %, ataque de corte +15, tasa de evasión +15"
+    },
+    {
       "key": "SK_MA_LW_DRIO",
       "value": "DEF/ESP +10"
+    },
+    {
+      "key": "SK_MA_LW_DRIO_2",
+      "value": "Aliados de viento: VIT máx. +10 %, res. congelación +25; usuario: DEF y ESP +10, res. ataque de zona +15, odio +5, AGI +20 % durante 3 turnos al inicio del combate"
     },
     {
       "key": "SK_MA_LW_TREL",
@@ -13605,8 +13621,16 @@
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: res. corte y res. proyectiles +10"
     },
     {
+      "key": "SK_MA_LW_RYEL_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: res. ataque de corte y a distancia +20, mejora «Ley de la ósmosis»: elimina el tiempo de lanzamiento durante la batalla. Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance y absorbe una parte del daño infligido."
+    },
+    {
       "key": "SK_MA_LW_SIRM",
       "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +10; usuario: AGI +10 %, ESP +10"
+    },
+    {
+      "key": "SK_MA_LW_SIRM_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +10; usuario: AGI +10 %, ESP +10, ataque mágico +15, alcance de Empuje obstructor +1"
     },
     {
       "key": "SK_MA_LW_HLNA_01",
@@ -13683,6 +13707,10 @@
     {
       "key": "SK_MA_TOMB_LARA",
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: tasa de penetración de res. ataque a distancia +15, tasa de evasión +5"
+    },
+    {
+      "key": "SK_MA_TOMB_LARA_2",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: tasa de penetración de res. ataque a distancia +15, daño crítico +15, tasa de evasión +15"
     },
     {
       "key": "SK_MA_LW_SLEN",
@@ -13961,6 +13989,26 @@
       "value": "Tasa de evasión +8"
     },
     {
+      "key": "SK_LW_MAGICPOW_1",
+      "value": "MAG +8"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_2",
+      "value": "MAG +10"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_3",
+      "value": "MAG +15"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_4_UR",
+      "value": "MAG +20"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_5_UR",
+      "value": "MAG +30"
+    },
+    {
       "key": "SK_LW_PIERCEMAGIC_1",
       "value": "Tasa de penetración de res. ataque mágico +1"
     },
@@ -14130,23 +14178,23 @@
     },
     {
       "key": "SK_LW_HPLIM_1",
-      "value": "Aumenta la VIT máx. un 2 % durante 3 turnos después de que la batalla comience."
+      "value": "Aumenta la VIT máx. un 2 % durante 3 turnos al inicio del combate."
     },
     {
       "key": "SK_LW_HPLIM_2",
-      "value": "Aumenta la VIT máx. un 3 % durante 3 turnos después de que la batalla comience."
+      "value": "Aumenta la VIT máx. un 3 % durante 3 turnos al inicio del combate."
     },
     {
       "key": "SK_LW_HPLIM_3",
-      "value": "Aumenta la VIT máx. un 5 % durante 3 turnos después de que la batalla comience."
+      "value": "Aumenta la VIT máx. un 5 % durante 3 turnos al inicio del combate."
     },
     {
       "key": "SK_LW_HPLIM_4",
-      "value": "Aumenta la VIT máx. un 8 % durante 3 turnos después de que la batalla comience."
+      "value": "Aumenta la VIT máx. un 8 % durante 3 turnos al inicio del combate."
     },
     {
       "key": "SK_LW_HPLIM_5",
-      "value": "Aumenta la VIT máx. un 15 % durante 3 turnos después de que la batalla comience."
+      "value": "Aumenta la VIT máx. un 15 % durante 3 turnos al inicio del combate."
     },
     {
       "key": "SK_LW_SWO_003_1",
@@ -15139,6 +15187,10 @@
     {
       "key": "SK_GL_TOMB_LARA_5",
       "value": "Tasa de crítico +15, daño crítico +20"
+    },
+    {
+      "key": "SK_GL_TOMB_LARA_6",
+      "value": ""
     },
     {
       "key": "SK_TOMB_NTLA_ATK",
@@ -18478,6 +18530,66 @@
     },
     {
       "key": "SK_GL_VC_LW_GLMS_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3MAX",
       "value": ""
     },
     {
@@ -22693,6 +22805,10 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_CHARM_U_PA",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "Ataque provisional de mecanismo"
     },
@@ -24549,6 +24665,26 @@
       "value": "Habilidad pasiva exclusiva de Lucius"
     },
     {
+      "key": "SK_LW_ROD_028_1",
+      "value": "Habilidad pasiva exclusiva de Minwu"
+    },
+    {
+      "key": "SK_LW_ROD_028_2",
+      "value": "Habilidad pasiva exclusiva de Minwu"
+    },
+    {
+      "key": "SK_LW_ROD_028_3",
+      "value": "Habilidad pasiva exclusiva de Minwu"
+    },
+    {
+      "key": "SK_LW_ROD_028_4",
+      "value": "Habilidad pasiva exclusiva de Minwu"
+    },
+    {
+      "key": "SK_LW_ROD_028_5",
+      "value": "Habilidad pasiva exclusiva de Minwu"
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -24674,6 +24810,10 @@
     },
     {
       "key": "SK_LW_NKN_004_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_CR_SPD_DWN_1",
       "value": ""
     },
     {
@@ -25110,6 +25250,30 @@
     },
     {
       "key": "SK_LW_ACC_048_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_5",
       "value": ""
     },
     {

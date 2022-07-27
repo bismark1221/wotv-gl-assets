@@ -339,7 +339,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":156,\"value\":-10},{\"type\":253,\"value\":-20}]}"
+      "status": "{\"list\":[{\"type\":156,\"value\":-10},{\"type\":253,\"value\":-20}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -432,7 +433,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":253,\"value\":-20},{\"type\":156,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":253,\"value\":-20},{\"type\":156,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -535,7 +537,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":253,\"value\":-20},{\"type\":156,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":253,\"value\":-20},{\"type\":156,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -638,7 +641,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":156,\"value\":-10},{\"type\":253,\"value\":-20}]}"
+      "status": "{\"list\":[{\"type\":156,\"value\":-10},{\"type\":253,\"value\":-20}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -741,7 +745,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":253,\"value\":-20},{\"type\":254,\"value\":-10},{\"type\":156,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":253,\"value\":-20},{\"type\":254,\"value\":-10},{\"type\":156,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -844,7 +849,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":156,\"value\":-10},{\"type\":253,\"value\":-20},{\"type\":254,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":156,\"value\":-10},{\"type\":253,\"value\":-20},{\"type\":254,\"value\":-10}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -952,7 +958,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":252,\"value\":-5},{\"type\":253,\"value\":-15},{\"type\":156,\"value\":-5},{\"type\":158,\"value\":-5}]}"
+      "status": "{\"list\":[{\"type\":252,\"value\":-5},{\"type\":253,\"value\":-15},{\"type\":156,\"value\":-5},{\"type\":158,\"value\":-5}]}",
+      "groupId": ""
     }
   ],
   "arena": [],
@@ -1080,7 +1087,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_TOMB_1",
+            "iname": "IT_EC_TOMB_1_R",
             "num": 20,
             "secret": 0
           },
@@ -1089,7 +1096,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_TOMB_1",
+            "iname": "IT_EC_TOMB_1_R",
             "num": 22,
             "secret": 0
           },
@@ -1098,7 +1105,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_TOMB_1",
+            "iname": "IT_EC_TOMB_1_R",
             "num": 25,
             "secret": 0
           },
@@ -1131,5 +1138,6 @@
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

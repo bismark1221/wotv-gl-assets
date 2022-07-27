@@ -1621,6 +1621,10 @@
       "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes."
     },
     {
+      "key": "SK_LW_RDM_S_3_SIRM",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes."
+    },
+    {
       "key": "SK_LW_RDM_S_4",
       "value": "Réduit considérablement le délai d'activation des alliés pendant 3 tours."
     },
@@ -4731,6 +4735,10 @@
     {
       "key": "SK_LW_LIB_M_3",
       "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et absorbe une partie des dégâts infligés."
+    },
+    {
+      "key": "SK_LW_LIB_M_3_RYEL",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et absorbe une partie des dégâts infligés."
     },
     {
       "key": "SK_LW_LIB_S_1_INIT",
@@ -13389,8 +13397,16 @@
       "value": "ATT +10 %, taux d'esquive +10"
     },
     {
+      "key": "SK_MA_LW_VNLA_2",
+      "value": "Augmente les PV max de +10 % et les attaques d'ombre de +15 pour les unités alliées d'ombre, augmente l'ATT du lanceur de +10 %, ses attaques tranchantes de +15 et son taux d'esquive de +15"
+    },
+    {
       "key": "SK_MA_LW_DRIO",
       "value": "DEF et PSY +10"
+    },
+    {
+      "key": "SK_MA_LW_DRIO_2",
+      "value": "Augmente les PV max de +10 % et la résistance à Gelure de +25 pour les unités alliées de vent, augmente la DEF et la PSY du lanceur de +10, sa résistance aux attaques de zone de +15, sa Haine de +5, et son AGI de +20 % pendant les 3 premiers tours du combat"
     },
     {
       "key": "SK_MA_LW_TREL",
@@ -13605,8 +13621,16 @@
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente la résistance du lanceur aux attaques tranchantes et projectiles de 10."
     },
     {
+      "key": "SK_MA_LW_RYEL_2",
+      "value": "Augmente les PV max de +10 % et les attaques de terre de +15 pour les unités alliées de terre, augmente la résistance aux attaques tranchantes et projectiles du lanceur de +20 et améliore Loi de la géoabsorption : Retire le temps de lancement uniquement pendant le combat, inflige des dégâts (L) aux unités dans la zone ciblée qui dépendent de la MAGIE du lanceur et absorbe une partie des dégâts infligés"
+    },
+    {
       "key": "SK_MA_LW_SIRM",
       "value": "Augmente les PV max de 10 % et les attaques de foudre de 10 pour les unités alliées de foudre, augmente l'AGI du lanceur de 10 % et sa PSY de 10."
+    },
+    {
+      "key": "SK_MA_LW_SIRM_2",
+      "value": "Augmente les PV max de +10 % et les attaques de foudre de +10 pour les unités alliées de foudre, augmente l'AGI du lanceur de 10 %, sa PSY de 10 et ses attaques magiques de +15, et augmente la portée d'Élan enrayé de +1"
     },
     {
       "key": "SK_MA_LW_HLNA_01",
@@ -13683,6 +13707,10 @@
     {
       "key": "SK_MA_TOMB_LARA",
       "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente le taux de perforation de la résistance aux attaques projectiles de 15 pour le lanceur et son taux d'esquive de 5."
+    },
+    {
+      "key": "SK_MA_TOMB_LARA_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente le taux de perforation de la résistance aux attaques projectiles du lanceur de 15, ses dégâts critiques de 25 % et son taux d'esquive de 15."
     },
     {
       "key": "SK_MA_LW_SLEN",
@@ -13959,6 +13987,26 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "Taux d'esquive +8"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_1",
+      "value": "MAGIE +8"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_2",
+      "value": "MAGIE +10"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_3",
+      "value": "MAGIE +15"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_4_UR",
+      "value": "MAGIE +20"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_5_UR",
+      "value": "MAGIE +30"
     },
     {
       "key": "SK_LW_PIERCEMAGIC_1",
@@ -15139,6 +15187,10 @@
     {
       "key": "SK_GL_TOMB_LARA_5",
       "value": "Taux de coup critique +15, Dégâts critiques +20"
+    },
+    {
+      "key": "SK_GL_TOMB_LARA_6",
+      "value": ""
     },
     {
       "key": "SK_TOMB_NTLA_ATK",
@@ -18478,6 +18530,66 @@
     },
     {
       "key": "SK_GL_VC_LW_GLMS_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3MAX",
       "value": ""
     },
     {
@@ -22693,6 +22805,10 @@
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
+      "key": "SK_BTL_CHARM_U_PA",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "Attaque mécanique provisoire"
     },
@@ -24549,6 +24665,26 @@
       "value": "Aptitude passive spécifique à Lucio"
     },
     {
+      "key": "SK_LW_ROD_028_1",
+      "value": "Aptitude passive spécifique à Minnwu"
+    },
+    {
+      "key": "SK_LW_ROD_028_2",
+      "value": "Aptitude passive spécifique à Minnwu"
+    },
+    {
+      "key": "SK_LW_ROD_028_3",
+      "value": "Aptitude passive spécifique à Minnwu"
+    },
+    {
+      "key": "SK_LW_ROD_028_4",
+      "value": "Aptitude passive spécifique à Minnwu"
+    },
+    {
+      "key": "SK_LW_ROD_028_5",
+      "value": "Aptitude passive spécifique à Minnwu"
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -24674,6 +24810,10 @@
     },
     {
       "key": "SK_LW_NKN_004_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_CR_SPD_DWN_1",
       "value": ""
     },
     {
@@ -25110,6 +25250,30 @@
     },
     {
       "key": "SK_LW_ACC_048_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_5",
       "value": ""
     },
     {

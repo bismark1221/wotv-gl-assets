@@ -1621,6 +1621,10 @@
       "value": "對目標造成受魔力高低影響的傷害（大）&打斷目標發動能力"
     },
     {
+      "key": "SK_LW_RDM_S_3_SIRM",
+      "value": "對目標造成受魔力高低影響的傷害（大）&打斷目標發動能力"
+    },
+    {
       "key": "SK_LW_RDM_S_4",
       "value": "3回合內大幅縮短己方隊員發動能力的時間"
     },
@@ -4731,6 +4735,10 @@
     {
       "key": "SK_LW_LIB_M_3",
       "value": "對範圍內目標造成受魔力高低影響的傷害（中）&吸收所造成的部分傷害"
+    },
+    {
+      "key": "SK_LW_LIB_M_3_RYEL",
+      "value": "對範圍內目標造成受魔力高低影響的傷害（大）&吸收所造成的部分傷害"
     },
     {
       "key": "SK_LW_LIB_S_1_INIT",
@@ -13389,8 +13397,16 @@
       "value": "攻擊+10%、閃避率+10"
     },
     {
+      "key": "SK_MA_LW_VNLA_2",
+      "value": "己方暗屬性兵員HP上限+10%、暗屬性能力攻擊+15，自身攻擊+10%、斬擊攻擊力+15、閃避率+15"
+    },
+    {
       "key": "SK_MA_LW_DRIO",
       "value": "防禦、精神+10"
+    },
+    {
+      "key": "SK_MA_LW_DRIO_2",
+      "value": "己方風屬性兵員HP上限+10%、凍傷耐性+25，自身防禦、精神+10、範圍攻擊耐性+15、提升仇恨+5、戰鬥開始後3回合敏捷+20%"
     },
     {
       "key": "SK_MA_LW_TREL",
@@ -13605,8 +13621,16 @@
       "value": "己方土屬性兵員HP上限+10%、土屬性能力攻擊+15，自身斬擊、射擊攻擊耐性+10"
     },
     {
+      "key": "SK_MA_LW_RYEL_2",
+      "value": "己方土屬性兵員HP上限+10%、土屬性能力攻擊+15，自身斬擊、射擊攻擊耐性+20、強化「落岩吸之法」。僅於戰鬥中不需詠唱即可使用。對範圍內目標造成受魔力高低影響的傷害（大）&吸收所造成的部分傷害"
+    },
+    {
       "key": "SK_MA_LW_SIRM",
       "value": "己方雷屬性兵員HP上限+10%、雷屬性能力攻擊+10，自身敏捷+10、精神+10"
+    },
+    {
+      "key": "SK_MA_LW_SIRM_2",
+      "value": "己方雷屬性兵員HP上限+10%、雷屬性能力攻擊+10，自身敏捷+10%、精神+10、魔法攻擊力+15、「斷念衝擊」的射程+1"
     },
     {
       "key": "SK_MA_LW_HLNA_01",
@@ -13683,6 +13707,10 @@
     {
       "key": "SK_MA_TOMB_LARA",
       "value": "己方水屬性兵員HP上限+10%、水屬性能力攻擊+15，自身射擊攻擊耐性貫通率+15、閃避率+5"
+    },
+    {
+      "key": "SK_MA_TOMB_LARA_2",
+      "value": "己方水屬性兵員HP上限+10%、水屬性能力攻擊+15，自身射擊攻擊耐性貫通率+15、暴擊傷害+25%、閃避率+15"
     },
     {
       "key": "SK_MA_LW_SLEN",
@@ -13959,6 +13987,26 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "閃避率+8"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_1",
+      "value": "魔力+8"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_2",
+      "value": "魔力+10"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_3",
+      "value": "魔力+15"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_4_UR",
+      "value": "魔力+20"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_5_UR",
+      "value": "魔力+30"
     },
     {
       "key": "SK_LW_PIERCEMAGIC_1",
@@ -15139,6 +15187,10 @@
     {
       "key": "SK_GL_TOMB_LARA_5",
       "value": "暴擊率+15、暴擊傷害+20"
+    },
+    {
+      "key": "SK_GL_TOMB_LARA_6",
+      "value": ""
     },
     {
       "key": "SK_TOMB_NTLA_ATK",
@@ -18478,6 +18530,66 @@
     },
     {
       "key": "SK_GL_VC_LW_GLMS_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3MAX",
       "value": ""
     },
     {
@@ -22693,6 +22805,10 @@
       "value": "任務調整用技能"
     },
     {
+      "key": "SK_BTL_CHARM_U_PA",
+      "value": "任務調整用技能"
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "機關假定攻擊"
     },
@@ -24549,6 +24665,26 @@
       "value": "露西奧專用被動能力"
     },
     {
+      "key": "SK_LW_ROD_028_1",
+      "value": "敏舞專用被動能力"
+    },
+    {
+      "key": "SK_LW_ROD_028_2",
+      "value": "敏舞專用被動能力"
+    },
+    {
+      "key": "SK_LW_ROD_028_3",
+      "value": "敏舞專用被動能力"
+    },
+    {
+      "key": "SK_LW_ROD_028_4",
+      "value": "敏舞專用被動能力"
+    },
+    {
+      "key": "SK_LW_ROD_028_5",
+      "value": "敏舞專用被動能力"
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -24674,6 +24810,10 @@
     },
     {
       "key": "SK_LW_NKN_004_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_CR_SPD_DWN_1",
       "value": ""
     },
     {
@@ -25110,6 +25250,30 @@
     },
     {
       "key": "SK_LW_ACC_048_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_5",
       "value": ""
     },
     {

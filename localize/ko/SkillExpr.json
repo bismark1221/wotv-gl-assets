@@ -1621,6 +1621,10 @@
       "value": "대상에게 마력 의존 피해(대)+어빌리티 발동 취소 효과"
     },
     {
+      "key": "SK_LW_RDM_S_3_SIRM",
+      "value": "대상에게 마력 의존 피해(대)+어빌리티 발동 취소 효과"
+    },
+    {
       "key": "SK_LW_RDM_S_4",
       "value": "3턴 동안 아군의 어빌리티 발동 시간 대폭 단축"
     },
@@ -4731,6 +4735,10 @@
     {
       "key": "SK_LW_LIB_M_3",
       "value": "범위 내 대상에게 마력 의존 피해(중)+준 피해량 일부 흡수"
+    },
+    {
+      "key": "SK_LW_LIB_M_3_RYEL",
+      "value": "범위 내 대상에게 마력 의존 피해(대)+준 피해량 일부 흡수"
     },
     {
       "key": "SK_LW_LIB_S_1_INIT",
@@ -13389,8 +13397,16 @@
       "value": "공격력+10%, 회피율+10"
     },
     {
+      "key": "SK_MA_LW_VNLA_2",
+      "value": "어둠속성 아군 유닛의 최대 HP+10%/어둠속성 어빌리티 공격력+15, 자신의 공격력+10%/베기 공격력+15/회피율+15"
+    },
+    {
       "key": "SK_MA_LW_DRIO",
       "value": "방어력/정신력+10"
+    },
+    {
+      "key": "SK_MA_LW_DRIO_2",
+      "value": "바람속성 아군 유닛의 최대 HP+10%/동상 저항력+25, 자신의 방어력/정신력+10/범위 공격 저항력+15/헤이트 증가+5/전투 시작 후 3턴 동안 민첩성+20％"
     },
     {
       "key": "SK_MA_LW_TREL",
@@ -13605,8 +13621,16 @@
       "value": "땅속성 아군 유닛의 최대 HP+10%/땅속성 어빌리티 공격력+15, 자신의 베기/사격 저항력+10"
     },
     {
+      "key": "SK_MA_LW_RYEL_2",
+      "value": "땅속성 아군 유닛의 최대 HP+10%/땅속성 어빌리티 공격력+15, 자신의 베기/사격 저항력+20/'낙암흡의 법' 강화+전투 중에 한해 시전 시간 없이 사용 전환 가능+범위 내 대상에게 마력 의존 피해(대)+준 피해량 일부 흡수"
+    },
+    {
       "key": "SK_MA_LW_SIRM",
       "value": "번개속성 아군 유닛의 최대 HP+10%/번개속성 어빌리티 공격력+10, 자신의 민첩성+10%/정신력+10"
+    },
+    {
+      "key": "SK_MA_LW_SIRM_2",
+      "value": "번개속성 아군 유닛의 최대 HP+10%/번개속성 어빌리티 공격력+10, 자신의 민첩성+10%/정신력+10/마법 공격력+15/'재밍 드러스트'의 사정거리 1 증가"
     },
     {
       "key": "SK_MA_LW_HLNA_01",
@@ -13683,6 +13707,10 @@
     {
       "key": "SK_MA_TOMB_LARA",
       "value": "물속성 아군 유닛의 최대 HP+10%/물속성 어빌리티 공격력+15, 자신의 사격 저항력 관통률+15/회피율+5"
+    },
+    {
+      "key": "SK_MA_TOMB_LARA_2",
+      "value": "물속성 아군 유닛의 최대 HP+10%/물속성 어빌리티 공격력+15/자신의 사격 저항력 관통률+15/크리티컬 피해량+25%/회피율+15"
     },
     {
       "key": "SK_MA_LW_SLEN",
@@ -13959,6 +13987,26 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "회피율+8"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_1",
+      "value": "마력+8"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_2",
+      "value": "마력+10"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_3",
+      "value": "마력+15"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_4_UR",
+      "value": "마력+20"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_5_UR",
+      "value": "마력+30"
     },
     {
       "key": "SK_LW_PIERCEMAGIC_1",
@@ -15139,6 +15187,10 @@
     {
       "key": "SK_GL_TOMB_LARA_5",
       "value": "크리티컬 발생률+15, 크리티컬 발생률+20"
+    },
+    {
+      "key": "SK_GL_TOMB_LARA_6",
+      "value": ""
     },
     {
       "key": "SK_TOMB_NTLA_ATK",
@@ -18478,6 +18530,66 @@
     },
     {
       "key": "SK_GL_VC_LW_GLMS_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FRUIT_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FRUIT_P3MAX",
       "value": ""
     },
     {
@@ -22693,6 +22805,10 @@
       "value": "퀘스트 조정용 스킬"
     },
     {
+      "key": "SK_BTL_CHARM_U_PA",
+      "value": "퀘스트 조정용 스킬"
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "기믹 임시 공격"
     },
@@ -24549,6 +24665,26 @@
       "value": "루시오 전용 패시브"
     },
     {
+      "key": "SK_LW_ROD_028_1",
+      "value": "밍우 전용 패시브"
+    },
+    {
+      "key": "SK_LW_ROD_028_2",
+      "value": "밍우 전용 패시브"
+    },
+    {
+      "key": "SK_LW_ROD_028_3",
+      "value": "밍우 전용 패시브"
+    },
+    {
+      "key": "SK_LW_ROD_028_4",
+      "value": "밍우 전용 패시브"
+    },
+    {
+      "key": "SK_LW_ROD_028_5",
+      "value": "밍우 전용 패시브"
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -24674,6 +24810,10 @@
     },
     {
       "key": "SK_LW_NKN_004_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_CR_SPD_DWN_1",
       "value": ""
     },
     {
@@ -25110,6 +25250,30 @@
     },
     {
       "key": "SK_LW_ACC_048_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_049_5",
       "value": ""
     },
     {
