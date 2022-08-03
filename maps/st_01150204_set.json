@@ -454,7 +454,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":2900},{\"type\":4,\"value\":290}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":2900},{\"type\":4,\"value\":290}]}",
+      "groupId": ""
     },
     {
       "name": "b",
@@ -582,7 +583,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":2900},{\"type\":4,\"value\":290}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":2900},{\"type\":4,\"value\":290}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -710,7 +712,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":2900},{\"type\":4,\"value\":290}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":2900},{\"type\":4,\"value\":290}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -848,7 +851,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":2700}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":2700}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -986,7 +990,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1119,7 +1124,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":4,\"value\":300},{\"type\":1,\"value\":2850},{\"type\":3,\"value\":120},{\"type\":8,\"value\":260},{\"type\":10,\"value\":260},{\"type\":9,\"value\":60},{\"type\":6,\"value\":300}]}"
+      "status": "{\"list\":[{\"type\":4,\"value\":300},{\"type\":1,\"value\":2850},{\"type\":3,\"value\":120},{\"type\":8,\"value\":260},{\"type\":10,\"value\":260},{\"type\":9,\"value\":60},{\"type\":6,\"value\":300}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1252,7 +1258,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":4,\"value\":300},{\"type\":1,\"value\":2850},{\"type\":3,\"value\":120},{\"type\":8,\"value\":260},{\"type\":10,\"value\":260},{\"type\":9,\"value\":60},{\"type\":6,\"value\":300}]}"
+      "status": "{\"list\":[{\"type\":4,\"value\":300},{\"type\":1,\"value\":2850},{\"type\":3,\"value\":120},{\"type\":8,\"value\":260},{\"type\":10,\"value\":260},{\"type\":9,\"value\":60},{\"type\":6,\"value\":300}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1393,7 +1400,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":3700},{\"type\":4,\"value\":330}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":3700},{\"type\":4,\"value\":330}]}",
+      "groupId": ""
     },
     {
       "name": "",
@@ -1534,7 +1542,8 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":3700},{\"type\":4,\"value\":330}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":3700},{\"type\":4,\"value\":330}]}",
+      "groupId": ""
     }
   ],
   "arena": [],
@@ -1688,6 +1697,24 @@
         },
         {
           "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_FINA_01_3",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 30
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_FINA_01_4",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 30
+        },
+        {
+          "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
@@ -1810,9 +1837,10 @@
             "num": 0,
             "secret": 0
           },
-          "weight": 3115
+          "weight": 3055
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

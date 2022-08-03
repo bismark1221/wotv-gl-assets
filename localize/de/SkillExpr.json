@@ -1022,7 +1022,7 @@
     },
     {
       "key": "SK_LW_GUN_S_4",
-      "value": "Fügt dem Ziel 2-mal hintereinander Schaden (M) zu."
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (M) zu."
     },
     {
       "key": "SK_LW_GUN_M_1_INIT",
@@ -1066,7 +1066,7 @@
     },
     {
       "key": "SK_LW_GUN_S_4_SUB",
-      "value": "Fügt dem Ziel 2-mal hintereinander Schaden (M) zu."
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (M) zu."
     },
     {
       "key": "SK_LW_GUN_M_1",
@@ -5865,6 +5865,10 @@
       "value": "Erhöht 3 Runden lang Windangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
     },
     {
+      "key": "SK_LW_SCR_DARK_S_2_INIT",
+      "value": "Erhöht 3 Runden lang Dunkelangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
+    },
+    {
       "key": "SK_LW_SCR_S_3",
       "value": "Erhöht 3 Runden lang eigene Bereichangriffsresistenz und Schlitzresistenz."
     },
@@ -5891,6 +5895,10 @@
     {
       "key": "SK_LW_SCR_WIND_S_2",
       "value": "Erhöht 3 Runden lang Windangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
+    },
+    {
+      "key": "SK_LW_SCR_DARK_S_2",
+      "value": "Erhöht 3 Runden lang Dunkelangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
     },
     {
       "key": "SK_LW_SCR_M_1_SUB",
@@ -5982,7 +5990,7 @@
     },
     {
       "key": "SK_LW_AXD_S_3",
-      "value": "Fügt dem Ziel 2-mal hintereinander Schaden (M) zu."
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (M) zu."
     },
     {
       "key": "SK_LW_AXD_S_4",
@@ -6491,6 +6499,26 @@
     {
       "key": "SK_LW_EC_LLN_C_02B",
       "value": "Erhöht Kritische Trefferrate/Kritischen Schaden/ABW-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_EC_LLN_A_02",
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend Schaden (M) zu und entfernt Hast."
+    },
+    {
+      "key": "SK_LW_EC_LLN_C_03",
+      "value": "Verstärkt Geschickte Melodie zu Pfeilschild-Melodie. Verbessert Geschossresistenz-Stärkung. Erhöht 3 Runden lang Geschossresistenz und Präzision von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigenen Durchbohr-ANG erheblich."
+    },
+    {
+      "key": "SK_LW_EC_LLN_C_03B",
+      "value": "Erhöht 3 Runden lang Geschossresistenz und Präzision von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigenen Durchbohr-ANG erheblich."
+    },
+    {
+      "key": "SK_LW_EC_LLN_C_04",
+      "value": "Verstärkt Kenntnisse des Trickreichen Pikeniers zu Herrlichkeit des Trickreichen Pikeniers. Erhöht Kritische Trefferrate, ABW-Durchbohrrate und Geschossresistenz."
+    },
+    {
+      "key": "SK_LW_EC_LLN_C_04B",
+      "value": "Erhöht Kritische Trefferrate, ABW-Durchbohrrate und Geschossresistenz."
     },
     {
       "key": "SK_LW_ASTR_ATK",
@@ -7531,6 +7559,66 @@
     {
       "key": "SK_LW_DAC_P_2",
       "value": "Erhöht Anfangs-AP."
+    },
+    {
+      "key": "SK_LW_FINA_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FINA_01_M_1",
+      "value": "Entfernt Runik-Schwertklinge vom Ziel, senkt Einzelangriffsresistenz des Ziels für für 3 Runden und fügt anschließend MAG-abhängigen Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_FINA_01_M_2",
+      "value": "Erhöht 3 Runden lang MAG, PSY, Licht- und Dunkelresistenz von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigene PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_FINA_01_M_3",
+      "value": "Fügt Zielen in Reichweite 2 Mal hintereinander MAG-abhängigen Schaden (M) zu und gewährt Chance auf Wirken von Stopp."
+    },
+    {
+      "key": "SK_LW_FINA_01_S_1",
+      "value": "Fügt dem Ziel MAG-abhängigen nichtelementaren Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_FINA_01_S_2",
+      "value": "Erhöht 3 Runden lang eigenen Magie-ANG und annulliert Konfus, Berserker und Betäubung."
+    },
+    {
+      "key": "SK_LW_FINA_01_S_3",
+      "value": "Gewährt Chance auf Wirken von Lähmung/Stein auf Ziel."
+    },
+    {
+      "key": "SK_LW_FINA_01_S_4",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (M) zu."
+    },
+    {
+      "key": "SK_LW_FINA_01_R_1",
+      "value": "Gewährt Chance auf Präventivschlag bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_LW_FINA_01_P_1",
+      "value": "Erhöht PSY und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_A_01",
+      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst und erhöht 3 Runden lang Bereichangriffsresistenz erheblich wenn LP 70 % oder höher sind."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_C_01",
+      "value": "Verstärkt Zauberkugel zu Zauberhieb. Erhöht Reichweitenhöhe. Entfernt Runik-Schwertklinge vom Ziel, senkt Einzelangriffsresistenz des Ziels für 3 Runden und fügt anschließend MAG-abhängigen Schaden (M) mit hoher Präzision zu."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_C_01B",
+      "value": "Entfernt Runik-Schwertklinge vom Ziel, senkt Einzelangriffsresistenz des Ziels für für 3 Runden und fügt anschließend MAG-abhängigen Schaden (M) mit hoher Präzision zu."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_C_02",
+      "value": "Verstärkt Teuflisches Talent zu Dämonische Geheimnisse. Verbessert PSY-Stärkung. Erhöht AGI, PSY und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_C_02B",
+      "value": "Erhöht AGI, PSY und PSY-Durchbohrrate."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -9530,7 +9618,7 @@
     },
     {
       "key": "SK_CORL_M_03",
-      "value": "Fügt dem Ziel 2-mal hintereinander Schaden (M) zu."
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (M) zu."
     },
     {
       "key": "SK_CBCL_ATK",
@@ -9750,7 +9838,7 @@
     },
     {
       "key": "SK_DFDZ_M_1",
-      "value": "Fügt dem Ziel 2-mal hintereinander Schaden (M) zu."
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (M) zu."
     },
     {
       "key": "SK_DFDZ_M_2",
@@ -9862,7 +9950,7 @@
     },
     {
       "key": "SK_ADAM_M_4",
-      "value": "Fügt dem Ziel 2-mal hintereinander Schaden (M) zu."
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (M) zu."
     },
     {
       "key": "SK_ADAM_M_5",
@@ -10915,6 +11003,10 @@
     {
       "key": "SK_LB_LW_IREZ",
       "value": "Senkt 3 Runden lang Eisresistenz des Ziels, fügt anschließend Schaden (L) zu und senkt Bewegung um 1 für 3 Runden."
+    },
+    {
+      "key": "SK_LB_LW_FINA_01",
+      "value": "Fügt dem Ziel 4 Mal hintereinander MAG-abhängigen Schaden (L) zu und entfernt alle Stärkung des Ziels."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -13865,6 +13957,14 @@
       "value": "LP-Maximum +10 % und Blindresistenz +25 für verbündete Dunkeleinheiten, eigener ANG +10 %, Einzelangriffsresistenz +15"
     },
     {
+      "key": "SK_MA_LW_MCRD",
+      "value": "LP-Maximum +10 % und Immobilisierungsresistenz +25 für verbündete Eiseinheiten, eigener AP-Verbrauch -15 %, Kritischer Schaden +25 %"
+    },
+    {
+      "key": "SK_MA_LW_FINA_01",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene MAG +10 % und Magieangriffsresistenz-Durchbohrrate +20"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -15045,6 +15145,10 @@
       "value": "Erhöht 3 Runden lang Lichtresistenz sowie Dunkelresistenz von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigenen Schlitz-ANG."
     },
     {
+      "key": "SK_ACC_LW_FINA_01_1",
+      "value": "Erhöht 3 Runden lang eigene Magieangriffsresistenz-Durchbohrrate und senkt Aktivierungszeit erheblich."
+    },
+    {
       "key": "SK_SPE_LW_VERN_1_1",
       "value": ""
     },
@@ -15298,6 +15402,10 @@
     },
     {
       "key": "SK_NKN_LW_RNEL_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_SPE_LW_MCRD_1_1",
       "value": ""
     },
     {
@@ -24889,6 +24997,10 @@
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {
+      "key": "SK_LW_PLUS6_HIT_10",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -24954,6 +25066,34 @@
     },
     {
       "key": "SK_LW_BOW_016_5_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_1_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_5_S",
       "value": ""
     },
     {

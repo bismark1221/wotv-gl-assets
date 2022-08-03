@@ -5865,6 +5865,10 @@
       "value": "Aumenta el ataque de viento de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
     {
+      "key": "SK_LW_SCR_DARK_S_2_INIT",
+      "value": "Aumenta el ataque de oscuridad de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LW_SCR_S_3",
       "value": "Aumenta la res. ataque de zona y la res. ataque de corte del usuario durante 3 turnos."
     },
@@ -5891,6 +5895,10 @@
     {
       "key": "SK_LW_SCR_WIND_S_2",
       "value": "Aumenta el ataque de viento de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SCR_DARK_S_2",
+      "value": "Aumenta el ataque de oscuridad de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_SCR_M_1_SUB",
@@ -6491,6 +6499,26 @@
     {
       "key": "SK_LW_EC_LLN_C_02B",
       "value": "Aumenta la tasa de crítico, el daño crítico y la tasa de penetración de DEF del usuario."
+    },
+    {
+      "key": "SK_LW_EC_LLN_A_02",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos y les inflige daño (medio) y elimina prisa."
+    },
+    {
+      "key": "SK_LW_EC_LLN_C_03",
+      "value": "Mejora «Melodía maestra» a «Melodía antiflechas»: mayor aumento de res. ataque a distancia. Aumenta la res. ataque a distancia y la tasa de precisión de los aliados de alrededor durante 3 turnos y aumenta considerablemente el ataque de perforación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_LLN_C_03B",
+      "value": "Aumenta la res. ataque a distancia y la tasa de precisión de los aliados de alrededor durante 3 turnos y aumenta considerablemente el ataque de perforación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_LLN_C_04",
+      "value": "Mejora «Sabiduría de lanza taimada» a «Especial de lanza taimada»: aumenta la tasa de crítico, la tasa de penetración de DEF y la res. ataque a distancia."
+    },
+    {
+      "key": "SK_LW_EC_LLN_C_04B",
+      "value": "Aumenta la tasa de crítico, la tasa de penetración de DEF y la res. ataque a distancia."
     },
     {
       "key": "SK_LW_ASTR_ATK",
@@ -7531,6 +7559,66 @@
     {
       "key": "SK_LW_DAC_P_2",
       "value": "Aumenta los PA iniciales."
+    },
+    {
+      "key": "SK_LW_FINA_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FINA_01_M_1",
+      "value": "Elimina Síntesis del objetivo y reduce la res. ataque de unidad del objetivo durante 3 turnos y le inflige daño (medio) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_FINA_01_M_2",
+      "value": "Aumenta la MAG, el ESP y la res. luz y oscuridad de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de ESP del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_FINA_01_M_3",
+      "value": "Daño (medio) 2 veces en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles paro durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_FINA_01_S_1",
+      "value": "Inflige daño no elemental (medio) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_LW_FINA_01_S_2",
+      "value": "Aumenta el ataque mágico del usuario durante 3 turnos y anula confusión, locura y aturdimiento."
+    },
+    {
+      "key": "SK_LW_FINA_01_S_3",
+      "value": "Probabilidad de infligir parálisis y piedra al objetivo."
+    },
+    {
+      "key": "SK_LW_FINA_01_S_4",
+      "value": "Inflige daño de oscuridad (medio) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_LW_FINA_01_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño."
+    },
+    {
+      "key": "SK_LW_FINA_01_P_1",
+      "value": "Aumenta el ESP y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_A_01",
+      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima) y aumenta considerablemente su res. ataque de zona cuando su VIT está por encima del 70 % durante los 3 turnos siguientes."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_C_01",
+      "value": "Mejora «Esfera de hechicería» a «Golpe de hechicería»: elimina Síntesis del objetivo y reduce la res. ataque de unidad del objetivo durante 3 turnos y le inflige daño (medio) con mucha precisión en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_C_01B",
+      "value": "Elimina Síntesis del objetivo y reduce la res. ataque de unidad del objetivo durante 3 turnos y le inflige daño (medio) con mucha precisión en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_C_02",
+      "value": "Mejora «Naturaleza demoniaca» a «Esoterismo demoniaco»: mayor aumento de ESP. Aumenta la AGI, el ESP y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_LW_EC_FINA_01_C_02B",
+      "value": "Aumenta la AGI, el ESP y la tasa de penetración de ESP."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -10917,6 +11005,10 @@
       "value": "Reduce la res. hielo del objetivo durante 3 turnos, le inflige daño (mucho) y reduce su movimiento en 1 durante 3 turnos."
     },
     {
+      "key": "SK_LB_LW_FINA_01",
+      "value": "Inflige daño (mucho) 4 veces en función de la MAG del usuario al objetivo y elimina todas las mejoras del objetivo."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -13710,7 +13802,7 @@
     },
     {
       "key": "SK_MA_TOMB_LARA_2",
-      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: tasa de penetración de res. ataque a distancia +15, daño crítico +15, tasa de evasión +15"
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: tasa de penetración de res. ataque a distancia +15, daño crítico +25 %, tasa de evasión +15"
     },
     {
       "key": "SK_MA_LW_SLEN",
@@ -13863,6 +13955,14 @@
     {
       "key": "SK_MA_LW_RNEL",
       "value": "Aliados de oscuridad: VIT máx. +10 %, res. ceguera +25; usuario: ATQ +10 %, res. ataque de unidad +15"
+    },
+    {
+      "key": "SK_MA_LW_MCRD",
+      "value": "Aliados de hielo: VIT máx. +10 %, res. inmóvil +25; usuario: consumo de PA -15 %, daño crítico +25 %"
+    },
+    {
+      "key": "SK_MA_LW_FINA_01",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: MAG +10 %, tasa de penetración de res. ataque mágico +20"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -15045,6 +15145,10 @@
       "value": "Aumenta la res. luz y oscuridad de los aliados de alrededor durante 3 turnos y aumenta el ataque de corte del usuario durante 3 turnos."
     },
     {
+      "key": "SK_ACC_LW_FINA_01_1",
+      "value": "Aumenta la tasa de penetración de res. ataque mágico del usuario durante 3 turnos y reduce considerablemente el tiempo de activación."
+    },
+    {
       "key": "SK_SPE_LW_VERN_1_1",
       "value": ""
     },
@@ -15298,6 +15402,10 @@
     },
     {
       "key": "SK_NKN_LW_RNEL_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_SPE_LW_MCRD_1_1",
       "value": ""
     },
     {
@@ -24889,6 +24997,10 @@
       "value": "Habilidad específica de equipo +6"
     },
     {
+      "key": "SK_LW_PLUS6_HIT_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -24954,6 +25066,34 @@
     },
     {
       "key": "SK_LW_BOW_016_5_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_1_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_027_5_S",
       "value": ""
     },
     {
