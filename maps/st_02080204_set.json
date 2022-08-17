@@ -410,7 +410,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4062},{\"type\":2,\"value\":160},{\"type\":3,\"value\":165},{\"type\":4,\"value\":333},{\"type\":6,\"value\":60},{\"type\":5,\"value\":20},{\"type\":9,\"value\":63},{\"type\":8,\"value\":289},{\"type\":10,\"value\":280},{\"type\":157,\"value\":-10},{\"type\":250,\"value\":10},{\"type\":252,\"value\":10}]}",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -494,7 +495,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4062},{\"type\":2,\"value\":160},{\"type\":3,\"value\":165},{\"type\":4,\"value\":333},{\"type\":6,\"value\":60},{\"type\":5,\"value\":20},{\"type\":9,\"value\":63},{\"type\":8,\"value\":289},{\"type\":10,\"value\":280},{\"type\":157,\"value\":-10},{\"type\":250,\"value\":10},{\"type\":252,\"value\":10}]}",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -588,7 +590,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3829},{\"type\":2,\"value\":140},{\"type\":3,\"value\":170},{\"type\":4,\"value\":344},{\"type\":6,\"value\":75},{\"type\":5,\"value\":10},{\"type\":9,\"value\":65},{\"type\":8,\"value\":293},{\"type\":10,\"value\":284},{\"type\":157,\"value\":-10},{\"type\":254,\"value\":20}]}",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -682,7 +685,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3829},{\"type\":2,\"value\":140},{\"type\":3,\"value\":170},{\"type\":4,\"value\":344},{\"type\":6,\"value\":75},{\"type\":5,\"value\":10},{\"type\":9,\"value\":65},{\"type\":8,\"value\":293},{\"type\":10,\"value\":284},{\"type\":157,\"value\":-10},{\"type\":254,\"value\":20}]}",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -776,7 +780,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3310},{\"type\":2,\"value\":160},{\"type\":3,\"value\":183},{\"type\":4,\"value\":350},{\"type\":6,\"value\":80},{\"type\":9,\"value\":62},{\"type\":8,\"value\":292},{\"type\":10,\"value\":271},{\"type\":7,\"value\":10},{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -870,7 +875,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3310},{\"type\":2,\"value\":160},{\"type\":3,\"value\":183},{\"type\":4,\"value\":350},{\"type\":6,\"value\":80},{\"type\":9,\"value\":62},{\"type\":8,\"value\":292},{\"type\":10,\"value\":271},{\"type\":7,\"value\":10},{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     }
   ],
   "arena": [],
@@ -999,6 +1005,24 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_JEDN_3",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 43
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_JEDN_01_2",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 43
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_JEDN_01_3",
             "num": 1,
             "secret": 0
           },
@@ -1137,7 +1161,7 @@
             "num": 0,
             "secret": 0
           },
-          "weight": 1800
+          "weight": 1714
         }
       ]
     }
