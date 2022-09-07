@@ -7629,6 +7629,74 @@
       "value": "Aumenta la AGI, el ESP y la tasa de penetración de ESP."
     },
     {
+      "key": "SK_LW_MACR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_M_1",
+      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance, y les inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_MACR_M_2",
+      "value": "Aumenta la tasa de penetración de ESP del usuario, inflige daño (medio) con mucha precisión en función de la MAG del usuario al objetivo y rellena una parte de la barra de invocación."
+    },
+    {
+      "key": "SK_LW_MACR_M_3",
+      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), aumenta el TC del usuario (poco) tras revivir y reduce considerablemente el tiempo de activación de habilidades ofensivas durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MACR_M_3_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_M_3_C",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_S_1",
+      "value": "Reduce el ESP del objetivo durante 3 turnos y le inflige daño (poco) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_MACR_S_2",
+      "value": "Otorga Coraza los aliados de alrededor durante 3 turnos y aumenta considerablemente el ataque mágico del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MACR_S_3",
+      "value": "Recupera VIT de un aliado (medio) y aumenta su res. todos los elementos durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MACR_S_4",
+      "value": "Probabilidad de infligir paro a los objetivos al alcance."
+    },
+    {
+      "key": "SK_LW_MACR_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño."
+    },
+    {
+      "key": "SK_LW_MACR_P_1",
+      "value": "Aumenta la tasa de precisión y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_LW_EC_MACR_A_01",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_01",
+      "value": "Mejora «Voluntad de acero» a «Alma de Hourne»: n.º de usos de la habilidad +1"
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_01B",
+      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), aumenta el TC del usuario (poco) tras revivir y reduce considerablemente el tiempo de activación de habilidades ofensivas durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_02",
+      "value": "Mejora ·«Sabiduría de loba plateada» a «Tributo de loba plateada»: aumenta la tasa de precisión, la tasa de penetración de ESP y la tasa de bloqueo de reacción."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_02B",
+      "value": "Aumenta la tasa de precisión, la tasa de penetración de ESP y la tasa de bloqueo de reacción."
+    },
+    {
       "key": "SK_LW_JEDN_01_ATK",
       "value": ""
     },
@@ -11085,6 +11153,10 @@
       "value": "Inflige daño (mucho) 4 veces en función de la MAG del usuario al objetivo y elimina todas las mejoras del objetivo."
     },
     {
+      "key": "SK_LB_LW_MACR_02",
+      "value": "Reduce la res. tierra de los objetivos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
       "key": "SK_LB_LW_JEDN_01",
       "value": "Daño (mucho) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles freno durante 3 turnos."
     },
@@ -14097,6 +14169,10 @@
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: MAG +10 %, tasa de penetración de res. ataque mágico +20"
     },
     {
+      "key": "SK_MA_LW_MACR_02",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: res. ataque de zona +10, tasa de bloqueo de reacción +20"
+    },
+    {
       "key": "SK_MA_LW_JEDN_01",
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de res. ataque a distancia +20, ataque a distancia +5"
     },
@@ -14303,6 +14379,26 @@
     {
       "key": "SK_LW_PIERCEMDEF_5",
       "value": "Tasa de penetración de ESP +20"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_1",
+      "value": "Tasa de penetración de res. ataque mágico +2"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_2",
+      "value": "Tasa de penetración de res. ataque mágico +3"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_3",
+      "value": "Tasa de penetración de res. ataque mágico +5"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_4",
+      "value": "Tasa de penetración de res. ataque mágico +10"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_5",
+      "value": "Tasa de penetración de res. ataque mágico +20"
     },
     {
       "key": "SK_LW_PIERCESLA_1",
@@ -15323,6 +15419,10 @@
     {
       "key": "SK_ACC_LW_FINA_01_1",
       "value": "Aumenta la tasa de penetración de res. ataque mágico del usuario durante 3 turnos y reduce considerablemente el tiempo de activación."
+    },
+    {
+      "key": "SK_CLT_LW_MACR_02_1",
+      "value": "Aumenta la DEF y la res. proyectiles de los aliados de alrededor durante 3 turnos."
     },
     {
       "key": "SK_ACC_LW_JEDN_01_1",

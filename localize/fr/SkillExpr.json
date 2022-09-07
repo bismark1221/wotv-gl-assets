@@ -7629,6 +7629,74 @@
       "value": "Augmente l'AGI, la PSY et le taux de perforation de la PSY."
     },
     {
+      "key": "SK_LW_MACR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_M_1",
+      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_MACR_M_2",
+      "value": "Augmente le taux de perforation de la PSY du lanceur, puis inflige des dégâts (M) d'une grande précision qui dépendent de la MAGIE du lanceur à la cible, et remplit une portion de la jauge d'invocation."
+    },
+    {
+      "key": "SK_LW_MACR_M_3",
+      "value": "Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS)) et augmente la jauge de CT (S) après avoir été ranimé via Auréole, et réduit considérablement le délai d'activation des aptitudes d'attaque pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_MACR_M_3_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_M_3_C",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_S_1",
+      "value": "Réduit la PSY de la cible pendant 3 tours, puis inflige des dégâts (S) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_MACR_S_2",
+      "value": "Accorde Bouclier aux unités alliées dans la zone autour du lanceur pendant 3 tours, et augmente considérablement l'attaque magique du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_MACR_S_3",
+      "value": "Restaure les PV (M) d'une unité alliée, et augmente la résistance tous éléments pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_MACR_S_4",
+      "value": "Confère une chance d'infliger Stop aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_LW_MACR_R_1",
+      "value": "Confère une chance d'effectuer une Frappe préventive lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_LW_MACR_P_1",
+      "value": "Augmente le taux de précision et le taux de perforation de la DEF."
+    },
+    {
+      "key": "SK_LW_EC_MACR_A_01",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et absorbe une partie des dégâts infligés."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_01",
+      "value": "Améliore Détermination d'acier en Esprit de Hourne. Augmente le nombre d'utilisations d'aptitude de 1."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_01B",
+      "value": "Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS)) et augmente la jauge de CT (S) après avoir été ranimé via Auréole, et réduit considérablement le délai d'activation des aptitudes d'attaque pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_02",
+      "value": "Améliore Vision du Loup d'argent en Hommage du Loup d'argent. Augmente le taux de précision, le taux de perforation de la PSY et le taux de blocage de réaction."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_02B",
+      "value": "Augmente le taux de précision, le taux de perforation de la PSY et le taux de blocage de réaction."
+    },
+    {
       "key": "SK_LW_JEDN_01_ATK",
       "value": ""
     },
@@ -11085,6 +11153,10 @@
       "value": "Inflige des dégâts (L) en 4 coups qui dépendent de la MAGIE du lanceur à la cible et dissipe tous les bonus."
     },
     {
+      "key": "SK_LB_LW_MACR_02",
+      "value": "Réduit la résistance à la terre des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
       "key": "SK_LB_LW_JEDN_01",
       "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Lenteur pendant 3 tours."
     },
@@ -14097,6 +14169,10 @@
       "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente la MAGIE du lanceur de 10 % et le taux de perforation de la résistance aux attaques magiques de 20."
     },
     {
+      "key": "SK_MA_LW_MACR_02",
+      "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente la résistance aux attaques de zone du lanceur de 10 et le taux de blocage de réaction de 20"
+    },
+    {
       "key": "SK_MA_LW_JEDN_01",
       "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente le taux de perforation de la résistance aux attaques projectiles du lanceur de 20 et augmente ses attaques projectiles de 5."
     },
@@ -14303,6 +14379,26 @@
     {
       "key": "SK_LW_PIERCEMDEF_5",
       "value": "Taux de perforation de la PSY +20"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_1",
+      "value": "Taux de perforation de la résistance aux attaques magiques +2"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_2",
+      "value": "Taux de perforation de la résistance aux attaques magiques +3"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_3",
+      "value": "Taux de perforation de la résistance aux attaques magiques +5"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_4",
+      "value": "Taux de perforation de la résistance aux attaques magiques +10"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_5",
+      "value": "Taux de perforation de la résistance aux attaques magiques +20"
     },
     {
       "key": "SK_LW_PIERCESLA_1",
@@ -15323,6 +15419,10 @@
     {
       "key": "SK_ACC_LW_FINA_01_1",
       "value": "Augmente le taux de perforation de la résistance aux attaques magiques du lanceur pendant 3 tours et réduit considérablement le délai d'activation des aptitudes."
+    },
+    {
+      "key": "SK_CLT_LW_MACR_02_1",
+      "value": "Augmente la DEF et la résistance aux attaques projectiles des alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
       "key": "SK_ACC_LW_JEDN_01_1",

@@ -7629,6 +7629,74 @@
       "value": "Erhöht AGI, PSY und PSY-Durchbohrrate."
     },
     {
+      "key": "SK_LW_MACR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_M_1",
+      "value": "Zerstört magischen Schaden verringernde Barrieren von Zielen in Reichweite und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_MACR_M_2",
+      "value": "Erhöht eigene PSY-Durchbohrrate, fügt dem Ziel anschließend MAG-abhängigen Schaden (M) mit hoher Präzision zu und füllt einen Teil der Anrufungsleiste."
+    },
+    {
+      "key": "SK_LW_MACR_M_3",
+      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst, erhöht eigene AZ (S) nach Wiederbelebung durch Schutzengel und senkt Aktivierungszeit für Angriffsfähigkeiten für 3 Runden erheblich."
+    },
+    {
+      "key": "SK_LW_MACR_M_3_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_M_3_C",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_S_1",
+      "value": "Senkt 3 Runden lang PSY des Ziels und fügt anschließend MAG-abhängigen Schaden (S) zu."
+    },
+    {
+      "key": "SK_LW_MACR_S_2",
+      "value": "Gewährt Verbündeten im Bereich um Wirkenden Protes und erhöht 3 Runden lang eigenen Magie-ANG erheblich."
+    },
+    {
+      "key": "SK_LW_MACR_S_3",
+      "value": "Heilt LP (M) eines Verbündeten und erhöht 3 Runden lang alle Elementarresistenzen."
+    },
+    {
+      "key": "SK_LW_MACR_S_4",
+      "value": "Gewährt Chance auf Wirken von Stopp auf Zielen in Reichweite."
+    },
+    {
+      "key": "SK_LW_MACR_R_1",
+      "value": "Gewährt Chance auf Präventivschlag bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_LW_MACR_P_1",
+      "value": "Erhöht Präzision und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_EC_MACR_A_01",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und absorbiert Teil des verursachten Schaden."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_01",
+      "value": "Verstärkt Stählerne Entschlossenheit zu Seele von Hourne. Fähigkeiteneinsätze +1"
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_01B",
+      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst, erhöht eigene AZ (S) nach Wiederbelebung durch Schutzengel und senkt Aktivierungszeit für Angriffsfähigkeiten für 3 Runden erheblich."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_02",
+      "value": "Verstärkt Einsicht des Silbernen Wolfs zu Ehrung des Silbernen Wolfs. Erhöht Präzision, PSY-Durchbohrrate und Reaktionsblockrate."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_02B",
+      "value": "Erhöht Präzision, PSY-Durchbohrrate und Reaktionsblockrate."
+    },
+    {
       "key": "SK_LW_JEDN_01_ATK",
       "value": ""
     },
@@ -11085,6 +11153,10 @@
       "value": "Fügt dem Ziel 4 Mal hintereinander MAG-abhängigen Schaden (L) zu und entfernt alle Stärkung des Ziels."
     },
     {
+      "key": "SK_LB_LW_MACR_02",
+      "value": "Senkt 3 Runden lang Erdresistenz von Zielen in Reichweite und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
       "key": "SK_LB_LW_JEDN_01",
       "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
     },
@@ -14097,6 +14169,10 @@
       "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene MAG +10 % und Magieangriffsresistenz-Durchbohrrate +20"
     },
     {
+      "key": "SK_MA_LW_MACR_02",
+      "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigene Bereichangriffsresistenz +10 und Reaktionsblockrate +20"
+    },
+    {
       "key": "SK_MA_LW_JEDN_01",
       "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene Geschossresistenz-Durchbohrrate +20, Geschossangriff +5"
     },
@@ -14303,6 +14379,26 @@
     {
       "key": "SK_LW_PIERCEMDEF_5",
       "value": "PSY-Durchbohrrate +20"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_1",
+      "value": "Magieangriffsresistenz-Durchbohrrate +2"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_2",
+      "value": "Magieangriffsresistenz-Durchbohrrate +3"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_3",
+      "value": "Magieangriffsresistenz-Durchbohrrate +5"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_4",
+      "value": "Magieangriffsresistenz-Durchbohrrate +10"
+    },
+    {
+      "key": "SK_LW_PIERCEMAG_5",
+      "value": "Magieangriffsresistenz-Durchbohrrate +20"
     },
     {
       "key": "SK_LW_PIERCESLA_1",
@@ -15323,6 +15419,10 @@
     {
       "key": "SK_ACC_LW_FINA_01_1",
       "value": "Erhöht 3 Runden lang eigene Magieangriffsresistenz-Durchbohrrate und senkt Aktivierungszeit erheblich."
+    },
+    {
+      "key": "SK_CLT_LW_MACR_02_1",
+      "value": "Erhöht 3 Runden lang ABW und Geschossresistenz von Verbündeten im Bereich um Wirkenden."
     },
     {
       "key": "SK_ACC_LW_JEDN_01_1",
