@@ -5021,6 +5021,10 @@
       "value": "Aumenta la probabilidad de que el usuario sea atacado y aumenta su res. reducciones de DEF y ESP durante 3 turnos (acumulable hasta 2 veces)."
     },
     {
+      "key": "SK_LW_CRLT_S_1_B",
+      "value": "Aumenta la probabilidad de que el usuario sea atacado y aumenta considerablemente su res. reducciones de DEF, ESP y todos los elementos durante 3 turnos."
+    },
+    {
       "key": "SK_LW_CRLT_S_2",
       "value": "Daño (poco) al objetivo y probabilidad de infligirle aturdimiento durante un turno."
     },
@@ -5421,6 +5425,10 @@
       "value": "Inflige daño (mucho) en función de la MAG del usuario al objetivo e inflige daño adicional a objetivos con recuperación automática de PA, locura o sueño."
     },
     {
+      "key": "SK_LW_GRSR_01_M_2_B",
+      "value": "Elimina cualquier barrera que reduzca el daño mágico del objetivo y le inflige daño (mucho) en función de la MAG del usuario, e inflige daño adicional a objetivos con recuperación automática de PA, locura o sueño."
+    },
+    {
       "key": "SK_LW_GRSR_01_M_3",
       "value": "Aumenta la tasa de penetración de ESP del usuario e inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance."
     },
@@ -5471,6 +5479,10 @@
     {
       "key": "SK_LW_EC_GRSR_01_C_02B",
       "value": "Inflige daño (mucho) en función de la MAG del usuario al objetivo e inflige daño adicional a objetivos con recuperación automática de PA, prisa, locura o sueño."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_01_C_02B_B",
+      "value": "Elimina cualquier barrera que reduzca el daño mágico del objetivo y le inflige daño (mucho) en función de la MAG del usuario, e inflige daño adicional a objetivos con recuperación automática de PA, prisa, locura o sueño."
     },
     {
       "key": "SK_LW_JEDN_ATK",
@@ -10633,6 +10645,30 @@
       "value": "Daño de oscuridad (muchísimo) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles silencio durante 3 turnos."
     },
     {
+      "key": "SK_SRTN_ATK",
+      "value": "Inflige daño al objetivo."
+    },
+    {
+      "key": "SK_SRTN_M_01",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles parálisis durante 3 turnos."
+    },
+    {
+      "key": "SK_SRTN_M_02",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles ceguera durante 3 turnos."
+    },
+    {
+      "key": "SK_SRTN_M_03",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle freno durante 3 turnos."
+    },
+    {
+      "key": "SK_SRTN_M_04",
+      "value": "Inflige daño (máximo) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_SRTN_R_01",
+      "value": "Probabilidad de realizar un contraataque al recibir un ataque físico, absorbe el daño infligido por el contraataque en forma de VIT y recupera PA del usuario."
+    },
+    {
       "key": "SK_AGON_M_01_R",
       "value": "Inflige daño (poco) a los objetivos al alcance."
     },
@@ -10791,6 +10827,10 @@
     {
       "key": "SK_LB_LW_RAMD_01",
       "value": "Reduce la res. corte de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_LB_LW_RAMD_01_B",
+      "value": "Reduce la res. ataque de corte de los objetivos al alcance durante 3 turnos, les inflige daño (mucho) y otorga una barrera al usuario que niega por completo el daño (1 vez)."
     },
     {
       "key": "SK_LB_LW_MACR_01",
@@ -11375,6 +11415,10 @@
     {
       "key": "SK_SMN_FF10_VLFR",
       "value": "Invoca a Valefor: inflige daño de luz (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de luz, y reduce considerablemente la res. luz de los enemigos)."
+    },
+    {
+      "key": "SK_SMN_SRTN",
+      "value": "Invoca a Sheratan: inflige daño de tierra (máximo) en función de la MAG del usuario a los enemigos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de tierra, y reduce considerablemente la res. tierra de los enemigos)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -13381,6 +13425,10 @@
       "value": "DES +15 %, daño crítico +15 %, alcance +1"
     },
     {
+      "key": "SK_MA_LW_RIRY_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, res. ceguera +25; usuario: DES +15 %, daño crítico +15 %, alcance +1, tasa de penetración de DEF +20, consumo de PA -25 %"
+    },
+    {
       "key": "SK_MA_LW_VSTR",
       "value": "Res. ataque mágico +15, tasa de evasión +15"
     },
@@ -13497,6 +13545,10 @@
       "value": "Tasa de evasión +15, res. ataque mágico y ataque de perforación +30"
     },
     {
+      "key": "SK_MA_LW_VADM_2",
+      "value": "Tasa de evasión +25, res. ataque mágico y ataque de perforación +50"
+    },
+    {
       "key": "SK_MA_LW_MURM",
       "value": "MAG +20 %, res. todos los tipos de ataque +10"
     },
@@ -13565,8 +13617,8 @@
       "value": "Tasa de crítico +10, ATQ +10 %"
     },
     {
-      "key": "SK_GL_MA_LW_P_RAMD_01_2",
-      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: tasa de crítico +10, ATQ +20 %"
+      "key": "SK_MA_LW_P_RAMD_01_2",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: tasa de crítico +10, ATQ +20 %, tasa de penetración de DEF +40, mejora Juicio de la noche sagrada: menor coste de PA. Reduce la res. ataque de corte de los objetivos al alcance durante 3 turnos, les inflige daño (mucho) y otorga una barrera al usuario que niega por completo el daño (1 vez)."
     },
     {
       "key": "SK_MA_LW_P_NASR",
@@ -13581,8 +13633,8 @@
       "value": "Res. hielo +10 %, AGI +10 %"
     },
     {
-      "key": "SK_GL_MA_LW_P_MACR_01_2",
-      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. hielo +10, AGI +10 %, tasa de penetración de DEF +10"
+      "key": "SK_MA_LW_P_MACR_01_2",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: tasa de penetración de DEF +30, res. ataque de corte y res. ataque mágico +10, res. hielo +10, AGI +10 %"
     },
     {
       "key": "SK_MA_LW_P_ETRE",
@@ -13733,6 +13785,10 @@
       "value": "Tasa de penetración de DEF +20, ataque de corte +10"
     },
     {
+      "key": "SK_MA_LW_STRN_01_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: VIT máx.+20 %, tasa de penetración de DEF +20, tasa de penetración de res. corte +20, ataque de corte +10, otorga una barrera que niega por completo el daño al inicio del combate (una vez)"
+    },
+    {
       "key": "SK_MA_LW_LSWL",
       "value": "Ataque de corte +5, tasa de precisión +15"
     },
@@ -13825,8 +13881,16 @@
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +20 %"
     },
     {
+      "key": "SK_MA_LW_VNLA_01_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +40 %, tasa de bloqueo de habilidad de reacción +40"
+    },
+    {
       "key": "SK_MA_LW_VKTR_01",
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: consumo de PA -20 %"
+    },
+    {
+      "key": "SK_MA_LW_VKTR_01_2",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: consumo de PA -35 %, tasa de precisión +25"
     },
     {
       "key": "SK_MA_LW_GABL",
@@ -13913,6 +13977,10 @@
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: tasa de penetración de res. ataque mágico +20, MAG +10 %"
     },
     {
+      "key": "SK_MA_LW_HLNA_01_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: tasa de penetración de res. ataque mágico +20, MAG +10 %, tiempo de activación -20 %, tasa de penetración de ESP +15"
+    },
+    {
       "key": "SK_MA_LW_THLA_01",
       "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de penetración de ESP +25"
     },
@@ -13947,6 +14015,10 @@
     {
       "key": "SK_MA_LW_CRLT",
       "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: ESP +10, VIT +5 %"
+    },
+    {
+      "key": "SK_MA_LW_CRLT_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: VIT máx. +25 %, ESP +10, odio +5, mejora «Muro de captación»: aumenta la probabilidad de que el usuario sea atacado y aumenta considerablemente su res. reducciones de DEF, ESP y todos los elementos durante 3 turnos."
     },
     {
       "key": "SK_MA_LW_VLRC",
@@ -13999,6 +14071,10 @@
     {
       "key": "SK_MA_LW_GRSR_01",
       "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. ataque de zona +10, tiempo de activación -20 %"
+    },
+    {
+      "key": "SK_MA_LW_GRSR_01_2",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: MAG +20 %, res. ataque de zona +20, tiempo de activación -20 %, mejora «Colmillos hirientes»: elimina cualquier barrera que reduzca el daño mágico del objetivo y le inflige daño (mucho) en función de la MAG del usuario, e inflige daño adicional a objetivos con recuperación automática de PA, locura o sueño."
     },
     {
       "key": "SK_MA_TOMB_LARA",
@@ -14581,6 +14657,14 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SPE_005_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_005_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_AF_ICE_PA_1",
       "value": ""
     },
@@ -14914,6 +14998,14 @@
     },
     {
       "key": "SK_LW_RNG_010_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_011_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_011_5",
       "value": ""
     },
     {
@@ -19038,6 +19130,54 @@
     },
     {
       "key": "SK_GL_VC_LW_FINA_01_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SRTN_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SRTN_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SRTN_P2MAX",
       "value": ""
     },
     {
@@ -25553,7 +25693,15 @@
       "value": "Habilidad específica de equipo +6"
     },
     {
+      "key": "SK_LW_PLUS6_19",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
       "key": "SK_LW_PLUS6_HIT_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_HP_10",
       "value": "Habilidad específica de equipo +6"
     },
     {

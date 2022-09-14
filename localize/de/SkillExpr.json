@@ -5021,6 +5021,10 @@
       "value": "Erhöht Wahrscheinlichkeit, selbst Ziel von Angriffen zu werden, und erhöht 3 Runden lang ABW-Schwächungsresistenz und PSY-Schwächungsresistenz (bis zu 2-mal stapelbar)."
     },
     {
+      "key": "SK_LW_CRLT_S_1_B",
+      "value": "Erhöht Wahrscheinlichkeit, selbst Ziel von Angriffen zu werden, und erhöht 3 Runden lang ABW-Schwächungsresistenz, PSY-Schwächungsresistenz und Schwächungsresistenz aller Elementarresistenzen erheblich."
+    },
+    {
       "key": "SK_LW_CRLT_S_2",
       "value": "Fügt dem Ziel Schaden (S) zu und gewährt Chance auf Wirken von 1 Runde andauernder Betäubung."
     },
@@ -5421,6 +5425,10 @@
       "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu, mit höherem Schaden bei Zielen mit automatischer AP-Heilung, im Berserker-Status oder im Schlaf-Status."
     },
     {
+      "key": "SK_LW_GRSR_01_M_2_B",
+      "value": "Zerstört magischen Schaden verringernde Barrieren und fügt dem Ziel anschließend MAG-abhängigen Schaden (L) zu, mit höherem Schaden bei Zielen mit automatischer AP-Heilung, im Berserker-Status oder im Schlaf-Status."
+    },
+    {
       "key": "SK_LW_GRSR_01_M_3",
       "value": "Erhöht eigene PSY-Durchbohrrate und fügt anschließend Zielen in Reichweite MAG-abhängigen Schaden (L) zu."
     },
@@ -5471,6 +5479,10 @@
     {
       "key": "SK_LW_EC_GRSR_01_C_02B",
       "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu, mit höherem Schaden bei Zielen mit automatischer AP-Heilung, im Berserker-Status, Hast-Status oder im Schlaf-Status."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_01_C_02B_B",
+      "value": "Zerstört magischen Schaden verringernde Barrieren des Ziels und fügt dem Ziel anschließend MAG-abhängigen Schaden (L) zu, mit höherem Schaden bei Zielen mit automatischer AP-Heilung, im Berserker-Status, Hast-Status oder im Schlaf-Status."
     },
     {
       "key": "SK_LW_JEDN_ATK",
@@ -10633,6 +10645,30 @@
       "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (XL) zu und gewährt Chance auf Wirken von 3 Runden andauernder Stille."
     },
     {
+      "key": "SK_SRTN_ATK",
+      "value": "Fügt dem Ziel Schaden zu."
+    },
+    {
+      "key": "SK_SRTN_M_01",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauernder Lähmung."
+    },
+    {
+      "key": "SK_SRTN_M_02",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Blind."
+    },
+    {
+      "key": "SK_SRTN_M_03",
+      "value": "Fügt dem Ziel Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+    },
+    {
+      "key": "SK_SRTN_M_04",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (maximal) zu."
+    },
+    {
+      "key": "SK_SRTN_R_01",
+      "value": "Gewährt bei Erleiden von physischem Schaden Chance auf Konter, absorbiert verursachten Schaden, senkt AP und heilt eigene AP."
+    },
+    {
       "key": "SK_AGON_M_01_R",
       "value": "Fügt Zielen in Reichweite Schaden (S) zu."
     },
@@ -10791,6 +10827,10 @@
     {
       "key": "SK_LB_LW_RAMD_01",
       "value": "Senkt 3 Runden lang Schlitzresistenz von Zielen in Reichweite und fügt anschließend Schaden (L) zu."
+    },
+    {
+      "key": "SK_LB_LW_RAMD_01_B",
+      "value": "Senkt 3 Runden lang Schlitzresistenz von Zielen in Reichweite, fügt anschließend Schaden (L) zu und beschwört eine den Wirkenden umgebende Barriere herauf, die 1-mal jeglichen Schaden abwehrt."
     },
     {
       "key": "SK_LB_LW_MACR_01",
@@ -11375,6 +11415,10 @@
     {
       "key": "SK_SMN_FF10_VLFR",
       "value": "Ruft Valfaris, fügt Zielen in Reichweite Lichtschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Lichtesistenz-Senkung für Gegner)."
+    },
+    {
+      "key": "SK_SMN_SRTN",
+      "value": "Ruft Sheratan, fügt Feinden in Reichweite MAG-abhängigen Erdschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit erhöhtem Effekt für Erdeinheiten, erhebliche Erdresistenz-Senkung für Gegner)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -13381,6 +13425,10 @@
       "value": "GES +15 %, kritischer Schaden +15 %, Reichweite +1"
     },
     {
+      "key": "SK_MA_LW_RIRY_2",
+      "value": "LP-Maximum +10 % und Blindresistenz +25 für verbündete Dunkeleinheiten, eigene GES +15 %, Kritischer Schaden +15 %, Reichweite +1, ABW-Durchbohrrate +20 und AP-Verbrauch -25 %"
+    },
+    {
       "key": "SK_MA_LW_VSTR",
       "value": "Magieangriffsresistenz +15, Ausweichrate +15"
     },
@@ -13497,6 +13545,10 @@
       "value": "Ausweichrate +15, Durchbohr-/Magieangriffsresistenz +30"
     },
     {
+      "key": "SK_MA_LW_VADM_2",
+      "value": "Ausweichrate +25, Durchbohr-/Magieangriffsresistenz +50"
+    },
+    {
       "key": "SK_MA_LW_MURM",
       "value": "MAG +20 %, alle Angriffsresistenzen +10"
     },
@@ -13565,8 +13617,8 @@
       "value": "Kritische Trefferrate +10, ANG +10 %"
     },
     {
-      "key": "SK_GL_MA_LW_P_RAMD_01_2",
-      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene kritische Trefferrate +10 und ANG +20 %"
+      "key": "SK_MA_LW_P_RAMD_01_2",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene Kritische Trefferrate +10, ANG +20 % und ABW-Durchbohrrate +40. Verstärkt Richtspruch der Heiligen Nacht. Reduziert AP-Verbrauch. Senkt 3 Runden lang Schlitzresistenz von Zielen in Reichweite, fügt anschließend Schaden (L) zu und beschwört eine den Wirkenden umgebende Barriere herauf, die 1 Mal jeglichen Schaden abwehrt."
     },
     {
       "key": "SK_MA_LW_P_NASR",
@@ -13581,8 +13633,8 @@
       "value": "Eisresistenz +10 %, AGI +10 %"
     },
     {
-      "key": "SK_GL_MA_LW_P_MACR_01_2",
-      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene Eisresistenz +10, AGI +10 % und ABW-Durchbohrrate +10"
+      "key": "SK_MA_LW_P_MACR_01_2",
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene ABW-Durchbohrrate +30, Schlitz- und Magieangriffsresistenz +10, Eisresistenz +10, AGI +10 %"
     },
     {
       "key": "SK_MA_LW_P_ETRE",
@@ -13733,6 +13785,10 @@
       "value": "ABW-Durchbohrrate +20, Schlitz-ANG +10"
     },
     {
+      "key": "SK_MA_LW_STRN_01_2",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigenes LP-Maximum +20 %, ABW-Durchbohrrate +20, Schlitzresistenz-Durchbohrrate +20, Schlitzangriff +10 und beschwört am Anfang des Kampfes eine Barriere herauf, die einmal erhaltenen Schaden komplett negiert."
+    },
+    {
       "key": "SK_MA_LW_LSWL",
       "value": "Schlitz-ANG +5, Präzision +15"
     },
@@ -13825,8 +13881,16 @@
       "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigener ANG +20 %"
     },
     {
+      "key": "SK_MA_LW_VNLA_01_2",
+      "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigener ANG +40 % und Reaktionsblockrate +40"
+    },
+    {
       "key": "SK_MA_LW_VKTR_01",
       "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigener AP-Verbrauch -20 %"
+    },
+    {
+      "key": "SK_MA_LW_VKTR_01_2",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigener AP-Verbrauch -35 % und Präzision +25"
     },
     {
       "key": "SK_MA_LW_GABL",
@@ -13886,7 +13950,7 @@
     },
     {
       "key": "SK_MA_LW_MONT_01",
-      "value": "LP-Maximum +15 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene Bereichangriffsresistenz +15"
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene Bereichangriffsresistenz +15"
     },
     {
       "key": "SK_MA_LW_MONT_01_2",
@@ -13911,6 +13975,10 @@
     {
       "key": "SK_MA_LW_HLNA_01",
       "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene Magieangriffsresistenz-Durchbohrrate +20 und MAG +10 %"
+    },
+    {
+      "key": "SK_MA_LW_HLNA_01_2",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene Magieangriffsresistenz-Durchbohrrate +20, MAG +10 %, Aktivierungszeit -20 %, PSY-Durchbohrrate +15"
     },
     {
       "key": "SK_MA_LW_THLA_01",
@@ -13949,6 +14017,10 @@
       "value": "LP-Maximum +10 % und Blitzangriff +15 für verbündete Blitzeinheiten, eigene PSY +10 und LP +5 %"
     },
     {
+      "key": "SK_MA_LW_CRLT_2",
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigenes LP-Maximum<br>+25 %, PSY +10, Hass +5, Verstärkt Fesselnde Mauer. Erhöht 3 Runden lang ABW-Schwächungsresistenz, PSY-Schwächungsresistenz und Schwächungsresistenz aller Elementarresistenzen erheblich."
+    },
+    {
       "key": "SK_MA_LW_VLRC",
       "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene ABW-Durchbohrrate +25"
     },
@@ -13970,7 +14042,7 @@
     },
     {
       "key": "SK_MA_LW_QILF_01",
-      "value": "LP-Maximum +5 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene PSY +10 und ANG +5 %"
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene PSY +10 und ANG +5 %"
     },
     {
       "key": "SK_MA_LW_QILF_01_2",
@@ -14001,6 +14073,10 @@
       "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene Bereichangriffsresistenz +10 und Aktivierungszeit -20 %"
     },
     {
+      "key": "SK_MA_LW_GRSR_01_2",
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene MAG + 20 %, Bereichangriffsresistenz +20, Aktivierungszeit -20 % und verstärkt Wundbeißen. Zerstört magischen Schaden verringernde Barrieren des Ziels, fügt dem Ziel anschließend MAG-abhängigen Schaden (L) zu, mit höherem Schaden bei Zielen mit automatischer AP-Heilung, im Berserker-Status oder im Schlaf-Status."
+    },
+    {
       "key": "SK_MA_TOMB_LARA",
       "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene Geschossresistenz-Durchbohrrate +15 und Ausweichrate +5."
     },
@@ -14022,7 +14098,7 @@
     },
     {
       "key": "SK_MA_LW_VLUC",
-      "value": "LP-Maximum +15 % und Windangriff +15 für verbündete Windeinheiten, eigene PSY +5 und LP-Maximum +15 %"
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene PSY +5 und LP-Maximum +15 %"
     },
     {
       "key": "SK_MA_LW_FDRC_01",
@@ -14581,6 +14657,14 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SPE_005_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_005_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_AF_ICE_PA_1",
       "value": ""
     },
@@ -14914,6 +14998,14 @@
     },
     {
       "key": "SK_LW_RNG_010_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_011_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_011_5",
       "value": ""
     },
     {
@@ -19038,6 +19130,54 @@
     },
     {
       "key": "SK_GL_VC_LW_FINA_01_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SRTN_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SRTN_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SRTN_P2MAX",
       "value": ""
     },
     {
@@ -25553,7 +25693,15 @@
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {
+      "key": "SK_LW_PLUS6_19",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
       "key": "SK_LW_PLUS6_HIT_10",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_HP_10",
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {

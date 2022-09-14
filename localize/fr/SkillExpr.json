@@ -5021,6 +5021,10 @@
       "value": "Augmente les chances du lanceur d'être pris pour cible, et augmente la résistance aux malus de DEF et la résistance aux malus de PSY pendant 3 tours (cumulable jusqu'à 2 fois)."
     },
     {
+      "key": "SK_LW_CRLT_S_1_B",
+      "value": "Augmente les chances du lanceur d'être pris pour cible, et augmente considérablement la résistance aux malus de DEF, la résistance aux malus de PSY et la résistance aux malus de résistance tous éléments pendant 3 tours."
+    },
+    {
       "key": "SK_LW_CRLT_S_2",
       "value": "Inflige des dégâts (S) à la cible et confère une chance d'infliger Étourdissement pendant 1 tour."
     },
@@ -5421,6 +5425,10 @@
       "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible. Les dégâts sont accrus si les cibles sont sous l'effet de la restauration automatique de PA, Berserk ou Sommeil."
     },
     {
+      "key": "SK_LW_GRSR_01_M_2_B",
+      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour de la cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur. Les dégâts sont accrus si les cibles sont sous l'effet de restauration automatique de PA, Berserk ou Sommeil."
+    },
+    {
       "key": "SK_LW_GRSR_01_M_3",
       "value": "Augmente le taux de perforation de la PSY du lanceur, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
     },
@@ -5471,6 +5479,10 @@
     {
       "key": "SK_LW_EC_GRSR_01_C_02B",
       "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible. Les dégâts sont accrus si les cibles sont sous l'effet de la restauration automatique de PA, Booster, Berserk ou Sommeil."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_01_C_02B_B",
+      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour de la cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur. Les dégâts sont accrus si les cibles sont sous l'effet de restauration automatique de PA, Booster, Berserk ou Sommeil."
     },
     {
       "key": "SK_LW_JEDN_ATK",
@@ -7674,7 +7686,7 @@
     },
     {
       "key": "SK_LW_MACR_P_1",
-      "value": "Augmente le taux de précision et le taux de perforation de la DEF."
+      "value": "Augmente le taux de précision et le taux de perforation de la PSY."
     },
     {
       "key": "SK_LW_EC_MACR_A_01",
@@ -10633,6 +10645,30 @@
       "value": "Inflige des dégâts d'ombre (XL) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Silence pendant 3 tours."
     },
     {
+      "key": "SK_SRTN_ATK",
+      "value": "Inflige des dégâts à la cible."
+    },
+    {
+      "key": "SK_SRTN_M_01",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Paralysie pendant 3 tours."
+    },
+    {
+      "key": "SK_SRTN_M_02",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Cécité pendant 3 tours."
+    },
+    {
+      "key": "SK_SRTN_M_03",
+      "value": "Inflige des dégâts (M) à la cible et confère une chance d'infliger Lenteur pendant 3 tours."
+    },
+    {
+      "key": "SK_SRTN_M_04",
+      "value": "Inflige des dégâts (MAX) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_SRTN_R_01",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts physiques sont subis, absorbe les dégâts infligés, réduit les PA et restaure les PA du lanceur."
+    },
+    {
       "key": "SK_AGON_M_01_R",
       "value": "Inflige des dégâts (S) aux unités dans la zone ciblée."
     },
@@ -10791,6 +10827,10 @@
     {
       "key": "SK_LB_LW_RAMD_01",
       "value": "Réduit la résistance aux attaques tranchantes des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L)."
+    },
+    {
+      "key": "SK_LB_LW_RAMD_01_B",
+      "value": "Réduit la résistance aux attaques tranchantes des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L), et érige une barrière autour du lanceur qui annule complètement les dégâts (1 fois)."
     },
     {
       "key": "SK_LB_LW_MACR_01",
@@ -11375,6 +11415,10 @@
     {
       "key": "SK_SMN_FF10_VLFR",
       "value": "Invoque Valefore, inflige des dégâts de lumière (MAX) aux unités dans la zone ciblée et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités de lumière et réduit considérablement la résistance à la lumière des ennemis)."
+    },
+    {
+      "key": "SK_SMN_SRTN",
+      "value": "Invoque Sheratan, inflige des dégâts de terre (MAX) qui dépendent de la MAGIE du lanceur aux ennemis dans la zone ciblée et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités de terre et réduit considérablement la résistance à la terre des ennemis)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -13381,6 +13425,10 @@
       "value": "DEX +15 %, dégâts critiques +15 %, portée +1"
     },
     {
+      "key": "SK_MA_LW_RIRY_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Cécité de 25 pour les unités alliées d'ombre, augmente la DEX du lanceur de 15 %, les dégâts critiques de 15 %, la portée de 1 et le taux de perforation de la DEF de 20, et réduit la consommation de PA de 25 %."
+    },
+    {
       "key": "SK_MA_LW_VSTR",
       "value": "Résistance aux attaques magiques +15, taux d'esquive +15"
     },
@@ -13497,6 +13545,10 @@
       "value": "Taux d'esquive +15, résistance aux attaques perçantes et magiques +30"
     },
     {
+      "key": "SK_MA_LW_VADM_2",
+      "value": "Augmente le taux d'esquive de 25, et la résistance aux attaques perçantes et magiques de 50."
+    },
+    {
       "key": "SK_MA_LW_MURM",
       "value": "MAGIE +20 %, résistance à toutes les attaques +10"
     },
@@ -13565,8 +13617,8 @@
       "value": "Taux de coup critique +10, ATT +10 %"
     },
     {
-      "key": "SK_GL_MA_LW_P_RAMD_01_2",
-      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente le taux de coup critique de 10 pour le lanceur et l'ATT de 20 %."
+      "key": "SK_MA_LW_P_RAMD_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente le taux de coup critique du lanceur de 10, l'ATT de 20 % et le taux de perforation de la DEF de 40. Améliore Jugement de la nuit hivernale : réduit la consommation de PA, réduit la résistance aux attaques tranchantes des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L), et érige une barrière autour du lanceur qui annule complètement les dégâts (1 fois)."
     },
     {
       "key": "SK_MA_LW_P_NASR",
@@ -13581,8 +13633,8 @@
       "value": "Résistance à la glace +10, AGI +10 %"
     },
     {
-      "key": "SK_GL_MA_LW_P_MACR_01_2",
-      "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la résistance à la glace de 10 pour le lanceur, l'AGI de 10 % et le taux de perforation de la DEF de 10."
+      "key": "SK_MA_LW_P_MACR_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente le taux de perforation de la DEF du lanceur de 30, augmente la résistance aux attaques magiques et aux attaques tranchantes de 10, la résistance à la glace de 10 et l'AGI de 10 %."
     },
     {
       "key": "SK_MA_LW_P_ETRE",
@@ -13733,6 +13785,10 @@
       "value": "Taux de perforation de la DEF +20, attaque tranchante +10"
     },
     {
+      "key": "SK_MA_LW_STRN_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente les PV max du lanceur de 20 %, son taux de perforation de la DEF de 20, son taux de performation de la résistance aux attaques tranchantes de 20, augmente ses attaques tranchantes de 10, érige une barrière qui annule complètement les dégâts au début du combat (1 fois)."
+    },
+    {
       "key": "SK_MA_LW_LSWL",
       "value": "Attaque tranchante +5, taux de précision +15"
     },
@@ -13825,8 +13881,16 @@
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, et augmente l'ATT du lanceur de 20 %."
     },
     {
+      "key": "SK_MA_LW_VNLA_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, et augmente l'ATT du lanceur de 40 % et son taux de blocage de réaction de 40."
+    },
+    {
       "key": "SK_MA_LW_VKTR_01",
       "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, et réduit la consommation de PA du lanceur de 20 %."
+    },
+    {
+      "key": "SK_MA_LW_VKTR_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, réduit la consommation de PA du lanceur de 35 % et augmente le taux de précision de 25."
     },
     {
       "key": "SK_MA_LW_GABL",
@@ -13913,6 +13977,10 @@
       "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente le taux de perforation de la résistance aux attaques magiques du lanceur de 20, et augmente la MAGIE de 10 %."
     },
     {
+      "key": "SK_MA_LW_HLNA_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente le taux de perforation de la résistance aux attaques magiques du lanceur de 20, la MAGIE de 10 % et le taux de perforation de la PSY de 15, et réduit le délai d'activation de 20 %."
+    },
+    {
       "key": "SK_MA_LW_THLA_01",
       "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente le taux de perforation de la PSY du lanceur de 25."
     },
@@ -13947,6 +14015,10 @@
     {
       "key": "SK_MA_LW_CRLT",
       "value": "Augmente les PV max de 10 % et les attaques de foudre de +15 pour les unités alliées de foudre, augmente la PSY du lanceur de 10 et les PV de +5 %."
+    },
+    {
+      "key": "SK_MA_LW_CRLT_2",
+      "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente les PV max du lanceur de 25 %, la PSY de 10 et la Haine de 5, et améliore Mur de provocation : augmente les chances du lanceur d'être pris pour cible et augmente considérablement la résistance aux malus de DEF, la résistance aux malus de PSY et la résistance aux malus de résistance tous éléments pendant 3 tours."
     },
     {
       "key": "SK_MA_LW_VLRC",
@@ -13999,6 +14071,10 @@
     {
       "key": "SK_MA_LW_GRSR_01",
       "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la résistance aux attaques de zone du lanceur de 10 et réduit son délai d'activation de 20 %."
+    },
+    {
+      "key": "SK_MA_LW_GRSR_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la MAGIE du lanceur de 20 %, sa résistance aux attaques de zone de 20, réduit son délai d'activation de 20 % et améliore Crocs aiguisés : détruit toute barrière réduisant les dégâts magiques érigée autour de la cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur, et les dégâts sont accrus si les cibles sont sous l'effet de restauration automatique de PA, Berserk ou Sommeil."
     },
     {
       "key": "SK_MA_TOMB_LARA",
@@ -14581,6 +14657,14 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SPE_005_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_005_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_AF_ICE_PA_1",
       "value": ""
     },
@@ -14914,6 +14998,14 @@
     },
     {
       "key": "SK_LW_RNG_010_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_011_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_011_5",
       "value": ""
     },
     {
@@ -19038,6 +19130,54 @@
     },
     {
       "key": "SK_GL_VC_LW_FINA_01_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SRTN_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SRTN_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SRTN_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SRTN_P2MAX",
       "value": ""
     },
     {
@@ -25553,7 +25693,15 @@
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
+      "key": "SK_LW_PLUS6_19",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
       "key": "SK_LW_PLUS6_HIT_10",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_HP_10",
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
