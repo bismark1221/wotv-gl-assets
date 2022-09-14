@@ -95384,6 +95384,27 @@
       ]
     },
     {
+      "iname": "SK_GL_MA_LW_P_RAMD_01_2",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_GL_MA_LW_RAMD_01_2"
+      ],
+      "s_buffs": [
+        "BUFF_GL_MA_LW_RAMD_01_S"
+      ],
+      "replace": [
+        {
+          "skill_base": "SK_LB_LW_RAMD_01",
+          "skill_after": "SK_LB_LW_RAMD_01_B"
+        }
+      ]
+    },
+    {
       "iname": "SK_MA_LW_P_NASR",
       "slot": 7,
       "cap": 1,
@@ -95435,6 +95456,21 @@
       ],
       "s_buffs": [
         "BUFF_MA_LW_P_MACR_01_2_S"
+      ]
+    },
+    {
+      "iname": "SK_GL_MA_LW_P_MACR_01_2",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_GL_MA_LW_MA_01_2"
+      ],
+      "s_buffs": [
+        "BUFF_GL_MA_LW_MA_01_S"
       ]
     },
     {
