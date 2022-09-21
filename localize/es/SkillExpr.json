@@ -7641,74 +7641,6 @@
       "value": "Aumenta la AGI, el ESP y la tasa de penetración de ESP."
     },
     {
-      "key": "SK_LW_MACR_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_LW_MACR_M_1",
-      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance, y les inflige daño (mucho) en función de la MAG del usuario."
-    },
-    {
-      "key": "SK_LW_MACR_M_2",
-      "value": "Aumenta la tasa de penetración de ESP del usuario, inflige daño (medio) con mucha precisión en función de la MAG del usuario al objetivo y rellena una parte de la barra de invocación."
-    },
-    {
-      "key": "SK_LW_MACR_M_3",
-      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), aumenta el TC del usuario (poco) tras revivir y reduce considerablemente el tiempo de activación de habilidades ofensivas durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_MACR_M_3_B",
-      "value": ""
-    },
-    {
-      "key": "SK_LW_MACR_M_3_C",
-      "value": ""
-    },
-    {
-      "key": "SK_LW_MACR_S_1",
-      "value": "Reduce el ESP del objetivo durante 3 turnos y le inflige daño (poco) en función de la MAG del usuario."
-    },
-    {
-      "key": "SK_LW_MACR_S_2",
-      "value": "Otorga Coraza los aliados de alrededor durante 3 turnos y aumenta considerablemente el ataque mágico del usuario durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_MACR_S_3",
-      "value": "Recupera VIT de un aliado (medio) y aumenta su res. todos los elementos durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_MACR_S_4",
-      "value": "Probabilidad de infligir paro a los objetivos al alcance."
-    },
-    {
-      "key": "SK_LW_MACR_R_1",
-      "value": "Probabilidad de realizar un golpe preventivo al recibir daño."
-    },
-    {
-      "key": "SK_LW_MACR_P_1",
-      "value": "Aumenta la tasa de precisión y la tasa de penetración de ESP."
-    },
-    {
-      "key": "SK_LW_EC_MACR_A_01",
-      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance y absorbe una parte del daño infligido."
-    },
-    {
-      "key": "SK_LW_EC_MACR_C_01",
-      "value": "Mejora «Voluntad de acero» a «Alma de Hourne»: n.º de usos de la habilidad +1"
-    },
-    {
-      "key": "SK_LW_EC_MACR_C_01B",
-      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), aumenta el TC del usuario (poco) tras revivir y reduce considerablemente el tiempo de activación de habilidades ofensivas durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_EC_MACR_C_02",
-      "value": "Mejora ·«Sabiduría de loba plateada» a «Tributo de loba plateada»: aumenta la tasa de precisión, la tasa de penetración de ESP y la tasa de bloqueo de reacción."
-    },
-    {
-      "key": "SK_LW_EC_MACR_C_02B",
-      "value": "Aumenta la tasa de precisión, la tasa de penetración de ESP y la tasa de bloqueo de reacción."
-    },
-    {
       "key": "SK_LW_JEDN_01_ATK",
       "value": ""
     },
@@ -7771,6 +7703,270 @@
     {
       "key": "SK_LW_EC_JEDN_01_C_02B",
       "value": "Inflige daño (mucho) en función de la MAG del usuario al objetivo con golpe garantizado y elimina todas sus mejoras."
+    },
+    {
+      "key": "SK_LW_MACR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_M_1",
+      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance, y les inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_MACR_M_2",
+      "value": "Aumenta la tasa de penetración de ESP del usuario, inflige daño (medio) con mucha precisión en función de la MAG del usuario al objetivo y rellena una parte de la barra de invocación."
+    },
+    {
+      "key": "SK_LW_MACR_M_3",
+      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), aumenta el TC del usuario (poco) tras revivir y reduce considerablemente el tiempo de activación de habilidades ofensivas durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MACR_M_3_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_M_3_C",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MACR_S_1",
+      "value": "Reduce el ESP del objetivo durante 3 turnos y le inflige daño (poco) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_MACR_S_2",
+      "value": "Otorga Coraza a los aliados de alrededor durante 3 turnos y aumenta considerablemente el ataque mágico del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MACR_S_3",
+      "value": "Recupera VIT de un aliado (medio) y aumenta su res. todos los elementos durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MACR_S_4",
+      "value": "Probabilidad de infligir paro a los objetivos al alcance."
+    },
+    {
+      "key": "SK_LW_MACR_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño."
+    },
+    {
+      "key": "SK_LW_MACR_P_1",
+      "value": "Aumenta la tasa de precisión y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_LW_EC_MACR_A_01",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_01",
+      "value": "Mejora «Voluntad de acero» a «Alma de Hourne»: n.º de usos de la habilidad +1"
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_01B",
+      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), aumenta el TC del usuario (poco) tras revivir y reduce considerablemente el tiempo de activación de habilidades ofensivas durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_02",
+      "value": "Mejora ·«Sabiduría de loba plateada» a «Tributo de loba plateada»: aumenta la tasa de precisión, la tasa de penetración de ESP y la tasa de bloqueo de reacción."
+    },
+    {
+      "key": "SK_LW_EC_MACR_C_02B",
+      "value": "Aumenta la tasa de precisión, la tasa de penetración de ESP y la tasa de bloqueo de reacción."
+    },
+    {
+      "key": "SK_FF13_LTNG_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_LTNG_M_1",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, y le inflige daño (medio)."
+    },
+    {
+      "key": "SK_FF13_LTNG_M_2",
+      "value": "Inflige daño (mucho) a los objetivos al alcance y recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_FF13_LTNG_M_2_AD",
+      "value": "Recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_FF13_LTNG_M_3",
+      "value": "Aumenta la AGI y la tasa de precisión de los aliados de alrededor durante 3 turnos y recupera PA del usuario."
+    },
+    {
+      "key": "SK_FF13_LTNG_S_1",
+      "value": "Reduce la res. ataque de corte del objetivo durante 3 turnos, y luego le inflige daño (poco)."
+    },
+    {
+      "key": "SK_FF13_LTNG_S_2",
+      "value": "Aumenta la res. ataque de corte y la res. ataque a distancia del usuario durante 3 turnos y activa un efecto adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos)."
+    },
+    {
+      "key": "SK_FF13_LTNG_S_3",
+      "value": "Inflige daño no elemental (mínimo) al objetivo."
+    },
+    {
+      "key": "SK_FF13_LTNG_S_4",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle inútil durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_LTNG_S_5",
+      "value": "Inflige daño (medio) a los objetivos al alcance y reduce su ATQ y MAG durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_LTNG_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño y recupera PA del usuario."
+    },
+    {
+      "key": "SK_FF13_LTNG_P_1",
+      "value": "Aumenta la AGI y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_FF13_LTNG_EN_A_01",
+      "value": "Daño (mucho) al objetivo y probabilidad de infligirle freno durante 3 turnos al asestar un crítico."
+    },
+    {
+      "key": "SK_FF13_EC_LTNG_C_01",
+      "value": "Mejora «Remate Aspir» a «Remate Aspir II»: menor consumo de PA. Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) a los objetivos al alcance y recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_FF13_EC_LTNG_C_01B",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) a los objetivos al alcance y recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_FF13_EC_LTNG_C_02",
+      "value": "Mejora «Lista para perseguir» a «Lista para perseguir II»: aumenta la res. ataque de corte y la res. ataque a distancia del usuario durante 3 turnos, activa un efecto adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos) y otorga una barrera al usuario que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_FF13_EC_LTNG_C_02B",
+      "value": "Aumenta la res. ataque de corte y la res. ataque a distancia del usuario durante 3 turnos, activa un efecto adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos) y otorga una barrera al usuario que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_FF13_HOPE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_HOPE_M_1",
+      "value": "Daño no elemental (mucho) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles aturdimiento durante un turno (no afecta a objetivos en estado lévita)."
+    },
+    {
+      "key": "SK_FF13_HOPE_M_2",
+      "value": "Aumenta el daño físico de los aliados al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_HOPE_M_3",
+      "value": "Reduce la res. ataque de zona de los objetivos al alcance durante 3 turnos y les inflige daño (medio) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_FF13_HOPE_S_1",
+      "value": "Aumenta la MAG del usuario durante 3 turnos e inflige daño (poco) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_FF13_HOPE_S_2",
+      "value": "Reduce la probabilidad de que el usuario sea atacado y aumenta la res. ataque de corte y mágico de los aliados al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_HOPE_S_3",
+      "value": "Probabilidad de infligir paro a los objetivos al alcance."
+    },
+    {
+      "key": "SK_FF13_HOPE_S_4",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos y les inflige daño no elemental (medio) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_FF13_HOPE_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño y reduce considerablemente la tasa de crítico durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_HOPE_P_1",
+      "value": "Aumenta el ESP y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_FF13_HOPE_P_2",
+      "value": "Reduce considerablemente el tiempo de activación cuando la VIT está al 80 % o más."
+    },
+    {
+      "key": "SK_FF13_HOPE_EN_A_01",
+      "value": "Aumenta el ataque de luz de los aliados al alcance durante 3 turnos y aumenta la res. ataque de zona del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_EC_HOPE_C_01",
+      "value": "Mejora «La roca» a «La roca II»: mayor aumento de res. ataque de corte y mágico."
+    },
+    {
+      "key": "SK_FF13_EC_HOPE_C_01B",
+      "value": "Reduce la probabilidad de que el usuario sea atacado y aumenta la res. ataque de corte y mágico de los aliados al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_EC_HOPE_C_02",
+      "value": "Mejora «Inspiración física» a «Inspiración física II»: aumenta en 1 el n.º de usos y elimina el tiempo de activación."
+    },
+    {
+      "key": "SK_FF13_EC_HOPE_C_02B",
+      "value": "Aumenta el daño físico de los aliados al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_SNOW_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SNOW_M_1",
+      "value": "Elimina todas las mejoras del objetivo y le inflige daño (mucho)."
+    },
+    {
+      "key": "SK_FF13_SNOW_M_2",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos e inflige daño (medio) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_FF13_SNOW_M_3",
+      "value": "El usuario sobrevive a daño letal una vez."
+    },
+    {
+      "key": "SK_FF13_SNOW_S_1",
+      "value": "Inflige daño (poco) al objetivo y otorga Comeaéreos."
+    },
+    {
+      "key": "SK_FF13_SNOW_S_2",
+      "value": "Aumenta la DEF y el ESP del usuario durante 3 turnos y aumenta considerablemente su res. reducciones de DEF."
+    },
+    {
+      "key": "SK_FF13_SNOW_S_3",
+      "value": "Inflige daño (medio) 2 veces al objetivo."
+    },
+    {
+      "key": "SK_FF13_SNOW_S_4",
+      "value": "Inflige daño (medio) al objetivo y reduce su res. ataque de unidad durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_SNOW_R_1",
+      "value": "Probabilidad de realizar un contraataque al recibir daño y aumenta el daño según la cantidad de VIT que haya perdido el usuario."
+    },
+    {
+      "key": "SK_FF13_SNOW_P_1",
+      "value": "Aumenta la VIT máx. y la DEF."
+    },
+    {
+      "key": "SK_FF13_SNOW_EN_A_01",
+      "value": "Recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 20 % al recibir daño (una vez) y aumenta su ataque de golpe y su res. ataque de zona durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_SNOW_EN_A_01_B",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_EC_SNOW_C_01",
+      "value": "Mejora «Apisonadora» a «Apisonadora II»: elimina todas las mejoras del objetivo y le inflige daño (mucho) con golpe garantizado."
+    },
+    {
+      "key": "SK_FF13_EC_SNOW_C_01B",
+      "value": "Elimina todas las mejoras del objetivo y le inflige daño (mucho) con golpe garantizado."
+    },
+    {
+      "key": "SK_FF13_EC_SNOW_C_02",
+      "value": "Mejora «Honor de héroe» a «Destino de héroe»: aumenta la VIT máx., la DEF y el odio."
+    },
+    {
+      "key": "SK_FF13_EC_SNOW_C_02B",
+      "value": "Aumenta VIT máx., DEF y odio."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -10201,6 +10397,114 @@
       "value": "Probabilidad de reducir la res. corte de los objetivos al alcance durante 3 turnos al recibir daño, y les inflige daño (poco)."
     },
     {
+      "key": "SK_USMG_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_USMG_M_01",
+      "value": ""
+    },
+    {
+      "key": "SK_USMG_M_02",
+      "value": ""
+    },
+    {
+      "key": "SK_USMG_M_03",
+      "value": ""
+    },
+    {
+      "key": "SK_USMG_M_04",
+      "value": ""
+    },
+    {
+      "key": "SK_FALC_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FALC_M_01",
+      "value": ""
+    },
+    {
+      "key": "SK_FALC_M_02",
+      "value": ""
+    },
+    {
+      "key": "SK_FALC_M_03",
+      "value": "Inflige daño (medio) 2 veces al objetivo."
+    },
+    {
+      "key": "SK_CPPF_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_CPPF_M_1",
+      "value": ""
+    },
+    {
+      "key": "SK_CPPF_M_2",
+      "value": ""
+    },
+    {
+      "key": "SK_CPPF_M_3",
+      "value": ""
+    },
+    {
+      "key": "SK_CPPF_M_4",
+      "value": ""
+    },
+    {
+      "key": "SK_CPPF_R_1",
+      "value": ""
+    },
+    {
+      "key": "SK_GSRC_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_GSRC_M_1",
+      "value": ""
+    },
+    {
+      "key": "SK_GSRC_M_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GSRC_M_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GSRC_M_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GSRC_M_4_GRA",
+      "value": "Elimina todas las mejoras de los objetivos al alcance y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_FANG_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FANG_M_1",
+      "value": "Daño penetrante (poco) al objetivo y probabilidad de infligirle freno durante 3 turnos."
+    },
+    {
+      "key": "SK_FANG_M_2",
+      "value": "Inflige daño (medio) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_FANG_M_3",
+      "value": "Reduce la DEF de los objetivos al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_FANG_M_4",
+      "value": "Aumenta el límite de daño del usuario e inflige daño (mucho) al objetivo, y si el combo es de al menos 5, este se romperá pero su efecto aumentará."
+    },
+    {
+      "key": "SK_FANG_R_1",
+      "value": "Probabilidad de realizar un contraataque penetrante al recibir daño."
+    },
+    {
       "key": "SK_MRGE_ATK",
       "value": "Inflige daño (poco) al objetivo."
     },
@@ -11193,12 +11497,24 @@
       "value": "Inflige daño (mucho) 4 veces en función de la MAG del usuario al objetivo y elimina todas las mejoras del objetivo."
     },
     {
+      "key": "SK_LB_LW_JEDN_01",
+      "value": "Daño (mucho) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles freno durante 3 turnos."
+    },
+    {
       "key": "SK_LB_LW_MACR_02",
       "value": "Reduce la res. tierra de los objetivos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
-      "key": "SK_LB_LW_JEDN_01",
-      "value": "Daño (mucho) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles freno durante 3 turnos."
+      "key": "SK_LB_FF13_LTNG",
+      "value": "Aumenta la tasa de penetración de res. corte del usuario durante 3 turnos, inflige daño (mucho) al objetivo 3 veces y reduce su res. rayo durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_FF13_HOPE",
+      "value": "Aumenta la MAG del usuario durante 3 turnos e inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance 3 veces."
+    },
+    {
+      "key": "SK_LB_FF13_SNOW",
+      "value": "Daño (mucho) a los objetivos al alcance y probabilidad de infligirles aturdimiento durante un turno (no afecta a objetivos en estado lévita)."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -11526,11 +11842,11 @@
     },
     {
       "key": "SK_LW_EC_LAN_C_02",
-      "value": "Mejora «Corte de vacío» a «Perforavacío»: aumenta la tasa de penetración de res. perforación del usuario, inflige daño penetrante (mucho) a los objetivos al alcance y aumenta la tasa de crítico del usuario durante 3 turnos."
+      "value": "Mejora «Corte de vacío» a «Perforavacío»: aumenta la tasa de penetración de res. perforación del usuario, inflige daño penetrante (mucho) a los enemigos al alcance y aumenta la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_LAN_C_02B",
-      "value": "Aumenta la tasa de penetración de res. perforación del usuario, inflige daño penetrante (mucho) a los objetivos al alcance y aumenta la tasa de crítico del usuario durante 3 turnos."
+      "value": "Aumenta la tasa de penetración de res. perforación del usuario, inflige daño penetrante (mucho) a los enemigos al alcance y aumenta la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_LAN_A_02",
@@ -14253,12 +14569,24 @@
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: MAG +10 %, tasa de penetración de res. ataque mágico +20"
     },
     {
+      "key": "SK_MA_LW_JEDN_01",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de res. ataque a distancia +20, ataque a distancia +5"
+    },
+    {
       "key": "SK_MA_LW_MACR_02",
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: res. ataque de zona +10, tasa de bloqueo de reacción +20"
     },
     {
-      "key": "SK_MA_LW_JEDN_01",
-      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de res. ataque a distancia +20, ataque a distancia +5"
+      "key": "SK_MA_FF13_LTNG",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: consumo de PA -15 %, ataque de rayo +5"
+    },
+    {
+      "key": "SK_MA_FF13_HOPE",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: MAG +5 %, res. ataque de zona +10"
+    },
+    {
+      "key": "SK_MA_FF13_SNOW",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: VIT máx. +5 %, odio +5"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -14594,23 +14922,43 @@
     },
     {
       "key": "SK_LW_HPLIM_1",
-      "value": "Aumenta la VIT máx. un 2 % durante 3 turnos al inicio del combate."
+      "value": "Aumenta la VIT máx. un 2 % durante 3 turnos desde el inicio del combate."
     },
     {
       "key": "SK_LW_HPLIM_2",
-      "value": "Aumenta la VIT máx. un 3 % durante 3 turnos al inicio del combate."
+      "value": "Aumenta la VIT máx. un 3 % durante 3 turnos desde el inicio del combate."
     },
     {
       "key": "SK_LW_HPLIM_3",
-      "value": "Aumenta la VIT máx. un 5 % durante 3 turnos al inicio del combate."
+      "value": "Aumenta la VIT máx. un 5 % durante 3 turnos desde el inicio del combate."
     },
     {
       "key": "SK_LW_HPLIM_4",
-      "value": "Aumenta la VIT máx. un 8 % durante 3 turnos al inicio del combate."
+      "value": "Aumenta la VIT máx. un 8 % durante 3 turnos desde el inicio del combate."
     },
     {
       "key": "SK_LW_HPLIM_5",
-      "value": "Aumenta la VIT máx. un 15 % durante 3 turnos al inicio del combate."
+      "value": "Aumenta la VIT máx. un 15 % durante 3 turnos desde el inicio del combate."
+    },
+    {
+      "key": "SK_LW_DFRANGE_1",
+      "value": "Res. ataque de zona +1 durante 3 turnos desde el inicio del combate."
+    },
+    {
+      "key": "SK_LW_DFRANGE_2",
+      "value": "Res. ataque de zona +2 durante 3 turnos desde el inicio del combate."
+    },
+    {
+      "key": "SK_LW_DFRANGE_3",
+      "value": "Res. ataque de zona +3 durante 3 turnos desde el inicio del combate."
+    },
+    {
+      "key": "SK_LW_DFRANGE_4",
+      "value": "Res. ataque de zona +5 durante 3 turnos desde el inicio del combate."
+    },
+    {
+      "key": "SK_LW_DFRANGE_5",
+      "value": "Res. ataque de zona +10 durante 3 turnos desde el inicio del combate."
     },
     {
       "key": "SK_LW_SWO_003_1",
@@ -15521,12 +15869,24 @@
       "value": "Aumenta la tasa de penetración de res. ataque mágico del usuario durante 3 turnos y reduce considerablemente el tiempo de activación."
     },
     {
+      "key": "SK_ACC_LW_JEDN_01_1",
+      "value": "Aumenta la MAG y la tasa de penetración de res. ataque a distancia de los aliados de alrededor durante 3 turnos."
+    },
+    {
       "key": "SK_CLT_LW_MACR_02_1",
       "value": "Aumenta la DEF y la res. proyectiles de los aliados de alrededor durante 3 turnos."
     },
     {
-      "key": "SK_ACC_LW_JEDN_01_1",
-      "value": "Aumenta la MAG y la tasa de penetración de res. ataque a distancia de los aliados de alrededor durante 3 turnos."
+      "key": "SK_CLT_FF13_LTNG_1",
+      "value": "Aumenta el ATQ y el ataque de rayo de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_CLT_FF13_HOPE_1",
+      "value": "Aumenta el ATQ y la MAG de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_FF13_SNOW_1",
+      "value": "Aumenta la precisión y el ataque de hielo del usuario y los aliados durante 3 turnos."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -25614,6 +25974,66 @@
     },
     {
       "key": "SK_LW_CR_SPD_DWN_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_000_1_S",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_000_5_S",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_LTNG_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_LTNG_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_LTNG_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_LTNG_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_LTNG_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_SWO_LTNG_5_B",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_UNI_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_UNI_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_UNI_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_UNI_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_UNI_000_5",
       "value": ""
     },
     {
