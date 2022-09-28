@@ -1,7 +1,9 @@
 {
   "info": {
     "angle_override": true,
-    "angle": 230
+    "angle": 230,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
@@ -34,7 +36,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:2",
@@ -66,7 +76,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:3",
@@ -98,7 +116,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:4",
@@ -130,7 +156,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:5",
@@ -162,7 +196,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "id:6",
@@ -194,7 +236,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "",
@@ -226,7 +276,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     },
     {
       "name": "",
@@ -258,7 +316,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
     }
   ],
   "enemy": [
@@ -293,18 +359,26 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 2,
       "iname": "UN_GM_PLACED",
-      "side": 1,
+      "side": 2,
       "dead": 0,
-      "lv": 1,
+      "lv": 0,
       "rare": 0,
       "awake": 1,
       "rank": 0,
       "elem": 0,
       "search": 0,
       "ctrl": 0,
-      "nottar": 1,
+      "nottar": 2,
       "fixdir": 0,
       "drop": "",
       "crystal": "",
@@ -321,7 +395,12 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": "GMCKswit_00"
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "GMCKswit_00",
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -354,6 +433,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 4,
       "iname": "UN_FFT_E_GFGR",
       "side": 1,
@@ -473,7 +560,12 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -506,6 +598,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 5,
       "iname": "UN_LW_E_TH_00_HUN",
       "side": 1,
@@ -560,7 +660,12 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -593,6 +698,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 6,
       "iname": "UN_LW_E_TH_00_KNT",
       "side": 1,
@@ -657,7 +770,12 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -690,6 +808,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 7,
       "iname": "UN_LW_E_TH_00_KNT",
       "side": 1,
@@ -754,7 +880,12 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -787,6 +918,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 8,
       "iname": "UN_LW_E_TH_00_KNT",
       "side": 1,
@@ -851,7 +990,12 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -884,6 +1028,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 9,
       "iname": "UN_LW_E_TH_00_HUN",
       "side": 1,
@@ -938,7 +1090,12 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -971,6 +1128,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
       "enemy_id": 10,
       "iname": "UN_LW_E_00_BLM",
       "side": 1,
@@ -1030,7 +1195,12 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     }
   ],
   "arena": [],
@@ -1077,11 +1247,12 @@
       },
       "mapEv": {
         "type": 1,
-        "typeval": "string={\"Datas\":[{\"Type\":10,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":true,\"ParamJson\":\"{\\\"m_Tags\\\":[\\\"SWT\\\"]}\"},{\"Type\":6,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MoveType\\\":1,\\\"m_CameraPosName\\\":\\\"camera_position\\\",\\\"m_CameraLookAtName\\\":\\\"camera_target\\\",\\\"m_AnmCurve\\\":{\\\"serializedVersion\\\":\\\"2\\\",\\\"m_Curve\\\":[{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":0.0,\\\"value\\\":0.0,\\\"inSlope\\\":1.0,\\\"outSlope\\\":1.0,\\\"tangentMode\\\":34,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.0,\\\"outWeight\\\":0.0},{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":1.0,\\\"value\\\":1.0,\\\"inSlope\\\":1.0,\\\"outSlope\\\":1.0,\\\"tangentMode\\\":34,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.0,\\\"outWeight\\\":0.0}],\\\"m_PreInfinity\\\":2,\\\"m_PostInfinity\\\":2,\\\"m_RotationOrder\\\":4},\\\"m_AnmCurveTime\\\":0.800000011920929}\"},{\"Type\":1,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_ObjectName\\\":\\\"gimmick\\\",\\\"m_AnmName\\\":\\\"gate_open\\\"}\"},{\"Type\":11,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_LerpTime\\\":0.800000011920929}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"FFT0_lng_001_A_1_gateopen\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0}",
+        "typeval": "string={\"Datas\":[{\"Type\":10,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":true,\"ParamJson\":\"{\\\"m_Tags\\\":[\\\"SWT\\\"]}\"},{\"Type\":6,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MoveType\\\":1,\\\"m_CameraPosName\\\":\\\"camera_position\\\",\\\"m_CameraLookAtName\\\":\\\"camera_target\\\",\\\"m_AnmCurve\\\":{\\\"serializedVersion\\\":\\\"2\\\",\\\"m_Curve\\\":[{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":0.0,\\\"value\\\":0.0,\\\"inSlope\\\":1.0,\\\"outSlope\\\":1.0,\\\"tangentMode\\\":34,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.0,\\\"outWeight\\\":0.0},{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":1.0,\\\"value\\\":1.0,\\\"inSlope\\\":1.0,\\\"outSlope\\\":1.0,\\\"tangentMode\\\":34,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.0,\\\"outWeight\\\":0.0}],\\\"m_PreInfinity\\\":2,\\\"m_PostInfinity\\\":2,\\\"m_RotationOrder\\\":4},\\\"m_AnmCurveTime\\\":0.800000011920929}\"},{\"Type\":1,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_ObjectName\\\":\\\"gimmick\\\",\\\"m_AnmName\\\":\\\"gate_open\\\"}\"},{\"Type\":11,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_LerpTime\\\":0.800000011920929}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"FFT0_lng_001_A_1_gateopen\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0};local=",
         "isUnitNoAct": false
       },
       "invokeMax": 1,
-      "deadTags": []
+      "deadTags": [],
+      "dropitem": false
     }
   ],
   "drop_table_list": [
@@ -1118,7 +1289,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FFT_3",
+            "iname": "IT_EC_FFT_5",
             "num": 20,
             "secret": 0
           },
@@ -1127,7 +1298,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FFT_3",
+            "iname": "IT_EC_FFT_5",
             "num": 21,
             "secret": 0
           },
@@ -1136,7 +1307,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FFT_3",
+            "iname": "IT_EC_FFT_5",
             "num": 22,
             "secret": 0
           },
@@ -1243,5 +1414,6 @@
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }
