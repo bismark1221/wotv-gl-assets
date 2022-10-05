@@ -455,7 +455,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -584,7 +585,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -713,7 +715,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -842,7 +845,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -971,7 +975,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -1095,7 +1100,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -1224,7 +1230,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -1348,7 +1355,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -1421,7 +1429,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     }
   ],
   "arena": [],
@@ -2073,12 +2082,21 @@
         },
         {
           "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_GRSR_02_4",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 110
+        },
+        {
+          "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
             "secret": 0
           },
-          "weight": 850
+          "weight": 740
         }
       ]
     },
@@ -2341,6 +2359,15 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_RYER_4",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_GRSR_02_4",
             "num": 2,
             "secret": 0
           },

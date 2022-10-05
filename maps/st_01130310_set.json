@@ -55,7 +55,7 @@
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
-      "brave": 40,
+      "brave": 10,
       "faith": 0,
       "fvoff": 0,
       "disphpg": 0,
@@ -66,7 +66,7 @@
       "ai": {
         "iname": "AI_PLAYER_LW_STRN",
         "wait_e": 0,
-        "search": 10,
+        "search": 15,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -91,7 +91,7 @@
       "iname": "UN_LW_E_STRN_01_TO",
       "side": 1,
       "dead": 0,
-      "lv": 94,
+      "lv": 40,
       "rare": 0,
       "awake": 6,
       "rank": 5,
@@ -111,98 +111,18 @@
       },
       "skills": [
         {
-          "iname": "SK_MA_LW_STRN_01",
-          "rank": 1,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LB_LW_STRN_01",
-          "rank": 18,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LW_STRN_P_1",
-          "rank": 18,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LW_SAM_P_1",
-          "rank": 18,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LW_STRN_M_1",
-          "rank": 18,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LW_STRN_M_2",
-          "rank": 18,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LW_STRN_M_3",
-          "rank": 18,
-          "rate": 100
-        },
-        {
           "iname": "SK_LW_STRN_S_1",
-          "rank": 18,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LW_STRN_S_2",
-          "rank": 18,
+          "rank": 10,
           "rate": 100
         },
         {
           "iname": "SK_LW_STRN_S_3",
-          "rank": 18,
+          "rank": 10,
           "rate": 100
         },
         {
-          "iname": "SK_LW_STRN_S_4",
-          "rank": 18,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 39,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MP_1-999_U",
-          "rank": 70,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_AP_1-999_U",
-          "rank": 70,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 27,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 150,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 150,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 180,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 4,
+          "iname": "SK_BTL_HIT_1_999_U",
+          "rank": 30,
           "rate": 100
         }
       ],
@@ -213,7 +133,10 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":9,\"value\":41},{\"type\":250,\"value\":0},{\"type\":1,\"value\":2299},{\"type\":4,\"value\":176},{\"type\":5,\"value\":5}]}",
+      "groupId": "",
+      "infUnit": false
     }
   ],
   "arena": [],
@@ -270,5 +193,6 @@
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

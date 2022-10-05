@@ -424,7 +424,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "E3",
@@ -522,7 +524,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -615,7 +619,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -708,7 +714,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -801,7 +809,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -931,7 +941,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "E2",
@@ -1029,7 +1041,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     }
   ],
   "arena": [],
@@ -1070,7 +1084,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_ALL_3",
-            "num": 2,
+            "num": 4,
             "secret": 0
           },
           "weight": 740
@@ -1078,20 +1092,65 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_MACE_03",
-            "num": 1,
+            "iname": "IT_JB_MM_BLM_3",
+            "num": 2,
             "secret": 0
           },
-          "weight": 1450
+          "weight": 74
         },
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_JSWORD_03",
-            "num": 1,
+            "iname": "IT_JB_MM_LAN_3",
+            "num": 2,
             "secret": 0
           },
-          "weight": 1450
+          "weight": 74
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_CAL_3",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 74
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_MKN_3",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 74
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_CRLT_3",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 74
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LNAN_3",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 74
+        },
+        {
+          "drop_data": {
+            "type": -1,
+            "iname": "",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 0
         },
         {
           "drop_data": {
@@ -1110,87 +1169,6 @@
             "secret": 0
           },
           "weight": 720
-        },
-        {
-          "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 0
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_BLM_3",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 74
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_LAN_3",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 74
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_CAL_3",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 74
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_MKN_3",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 74
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_LW_CRLT_3",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 74
-        },
-        {
-          "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 0
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_EM_THUNDER_3",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 1450
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_IM_DRAGON_3",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 310
         },
         {
           "drop_data": {
@@ -1217,25 +1195,52 @@
             "num": 0,
             "secret": 0
           },
-          "weight": 2222
+          "weight": 0
         },
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_MM_SLEN_3",
-            "num": 1,
+            "iname": "IT_JB_MACE_03",
+            "num": 2,
             "secret": 0
           },
-          "weight": 74
+          "weight": 1450
         },
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_MM_LNAN_3",
-            "num": 1,
+            "iname": "IT_JB_JSWORD_03",
+            "num": 2,
             "secret": 0
           },
-          "weight": 74
+          "weight": 1450
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_EM_THUNDER_3",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 1450
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_IM_DRAGON_3",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 310
+        },
+        {
+          "drop_data": {
+            "type": -1,
+            "iname": "",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 2296
         }
       ]
     },
@@ -1264,5 +1269,6 @@
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

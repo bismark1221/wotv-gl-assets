@@ -405,7 +405,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "e2a",
@@ -494,7 +495,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "e3a",
@@ -583,7 +585,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "MNK",
@@ -662,7 +665,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -741,7 +745,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -814,7 +819,8 @@
       "shield": false,
       "referenceGObjName": "",
       "status": "",
-      "groupId": ""
+      "groupId": "",
+      "infUnit": false
     }
   ],
   "arena": [],
@@ -855,7 +861,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_ALL",
-            "num": 2,
+            "num": 4,
             "secret": 0
           },
           "weight": 860
@@ -864,7 +870,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_SSWORD_01",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 1890
@@ -873,7 +879,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_LSWORD_01",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 1890
@@ -882,7 +888,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_EM_WATER_1",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 1800
@@ -891,16 +897,25 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_IM_DRAGON_1",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 400
         },
         {
           "drop_data": {
+            "type": -1,
+            "iname": "",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 0
+        },
+        {
+          "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_SAM",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 210
@@ -909,16 +924,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_GRM",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 210
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_MMC",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 210
@@ -927,7 +933,16 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_VIK",
-            "num": 1,
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 210
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_MMC",
+            "num": 2,
             "secret": 0
           },
           "weight": 210
@@ -936,7 +951,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_OBRN",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 210
@@ -945,10 +960,19 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_SDLE",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 210
+        },
+        {
+          "drop_data": {
+            "type": -1,
+            "iname": "",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 0
         },
         {
           "drop_data": {
@@ -976,15 +1000,6 @@
             "secret": 0
           },
           "weight": 800
-        },
-        {
-          "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 0
         }
       ]
     },

@@ -6597,6 +6597,10 @@
       "value": "Annulliert Konfus sowie Betäubung und erhöht die Reichweite von Jagdspeer."
     },
     {
+      "key": "SK_LW_LLN_P_2_SUB",
+      "value": "Annulliert Konfus und Betäubung."
+    },
+    {
       "key": "SK_LW_LLN_S_1",
       "value": "Fügt dem Ziel Schaden (S) zu, senkt 3 Runden lang ANG/AGI und durchbohrt."
     },
@@ -8087,6 +8091,66 @@
     {
       "key": "SK_FF13_EC_SNOW_C_02B",
       "value": "Erhöht LP-Maximum, ABW und Hass."
+    },
+    {
+      "key": "SK_LW_GRSR_02_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GRSR_02_M_1",
+      "value": "Senkt 3 Runden lang Windresistenz des Ziels, fügt anschließend 2 Mal hintereinander Schaden (M) zu und Durchbohren."
+    },
+    {
+      "key": "SK_LW_GRSR_02_M_2",
+      "value": "Entfernt Mumm von Zielen in Reichweite und fügt anschließend 3 Mal hintereinander Schaden (M) mit hoher Präzision zu."
+    },
+    {
+      "key": "SK_LW_GRSR_02_M_3",
+      "value": "Wirkt 3 Runden lang AP-Heilung bei kritischem Treffer auf Verbündete im Bereich um Wirkenden und beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert."
+    },
+    {
+      "key": "SK_LW_GRSR_02_S_1",
+      "value": "Fügt dem Ziel Schaden (S) zu und entfernt alle Stärkungen."
+    },
+    {
+      "key": "SK_LW_GRSR_02_S_2",
+      "value": "Erhöht 3 Runden lang eigenen ANG, Schlitzresistenz und Magieangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_GRSR_02_S_3",
+      "value": "Erhöht 3 Runden lang eigene Bewegung um 1 und reduziert AP-Verbrauch."
+    },
+    {
+      "key": "SK_LW_GRSR_02_S_4",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+    },
+    {
+      "key": "SK_LW_GRSR_02_R_1",
+      "value": "Gewährt Chance, allen Angriffen auszuweichen."
+    },
+    {
+      "key": "SK_LW_GRSR_02_P_1",
+      "value": "Erhöht Bereichangriffsresistenz und ABW-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_GRSR_02_EN_A_01",
+      "value": "Enfernt Schutzengel vom Ziel, fügt ihm anschließend Schaden (M) zu und Durchbohren."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_02_C_01",
+      "value": "Verstärkt Standfestigkeit des Ochsen zu Ehrung des Ochsen. Verbessert Bereichangriffsresistenz-Stärkungen. Erhöht Bereichangriffsresistenz, ABW-Durchbohrrate und Präzision."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_02_C_01B",
+      "value": "Erhöht Bereichangriffsresistenz, ABW-Durchbohrrate und Präzision."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_02_C_02",
+      "value": "Verstärkt Azurseele zu Seele von Wezette. Verbessert Schadensreduktion von Barrieren. Erhöht 3 Runden lang Präzision von Verbündeten im Bereich um Wirkenden, gewährt 3 Runden lang AP-Heilung bei kritischem Treffer und beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_02_C_02B",
+      "value": "Erhöht 3 Runden lang Präzision von Verbündeten im Bereich um Wirkenden, gewährt 3 Runden lang AP-Heilung bei kritischem Treffer und beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert."
     },
     {
       "key": "SK_TOMB_LARA_ATK",
@@ -11661,6 +11725,10 @@
       "value": "Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von 1 Runde andauernder Betäubung (wirkt nicht auf Ziele mit Levitas)."
     },
     {
+      "key": "SK_LB_LW_GRSR_02",
+      "value": "Fügt Zielen in Reichweite Schaden (L) zu und Elementarketteneffekt bleibt bei Aktion des Ziels bestehen (1 Runde)."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Ruft Ifrit, fügt Zielen in Reichweite Feuerschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Feuerresistenz-Senkung für Gegner)."
     },
@@ -14765,6 +14833,10 @@
       "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigenes LP-Maximum +5 % und Hass +5"
     },
     {
+      "key": "SK_MA_LW_GRSR_02",
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigener Durchbohr-ANG +15 und Kritische Trefferrate +20"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -16083,6 +16155,10 @@
     {
       "key": "SK_ACC_FF13_SNOW_1",
       "value": "Erhöht 3 Runden lang Präzision und Eisangriff von sich selbst und Verbündeten."
+    },
+    {
+      "key": "SK_CLT_LW_GRSR_02_1",
+      "value": "Wirkt 3 Runden lang Protes auf Verbündete im Bereich um Wirkenden."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -26430,6 +26506,22 @@
     },
     {
       "key": "SK_FF13_UNI_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_022_1_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_022_5_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_022_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_022_5",
       "value": ""
     },
     {

@@ -429,7 +429,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -537,7 +539,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -645,7 +649,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "e1a",
@@ -753,7 +759,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "e1b",
@@ -861,7 +869,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -964,7 +974,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     }
   ],
   "arena": [],
@@ -1005,7 +1017,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_ALL_3",
-            "num": 2,
+            "num": 4,
             "secret": 0
           },
           "weight": 850
@@ -1014,7 +1026,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_JSWORD_03",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 1700
@@ -1023,7 +1035,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_SSWORD_03",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 1700
@@ -1059,7 +1071,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_RDM_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -1068,7 +1080,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_LAN_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -1077,7 +1089,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_VIK_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -1086,7 +1098,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_ARC_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -1095,7 +1107,16 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_LW_CRLT_3",
-            "num": 1,
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 85
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LLN_3",
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -1113,7 +1134,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_EM_ICE_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 1700
@@ -1122,7 +1143,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_IM_ANGEL_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 350
@@ -1144,15 +1165,6 @@
             "secret": 0
           },
           "weight": 1360
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_LLN_3",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 85
         }
       ]
     },
@@ -1181,5 +1193,6 @@
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

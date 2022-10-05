@@ -9,7 +9,7 @@
     {
       "name": "id:1",
       "x": 5,
-      "y": 9,
+      "y": 8,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -24,7 +24,7 @@
       "ai": {
         "iname": "",
         "wait_e": 0,
-        "search": 0,
+        "search": 3,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -48,8 +48,8 @@
     },
     {
       "name": "id:2",
-      "x": 5,
-      "y": 10,
+      "x": 4,
+      "y": 8,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -64,7 +64,7 @@
       "ai": {
         "iname": "",
         "wait_e": 0,
-        "search": 0,
+        "search": 3,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -88,8 +88,8 @@
     },
     {
       "name": "id:3",
-      "x": 4,
-      "y": 9,
+      "x": 3,
+      "y": 8,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -104,7 +104,7 @@
       "ai": {
         "iname": "",
         "wait_e": 0,
-        "search": 0,
+        "search": 3,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -128,8 +128,8 @@
     },
     {
       "name": "id:4",
-      "x": 3,
-      "y": 10,
+      "x": 5,
+      "y": 9,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -144,7 +144,7 @@
       "ai": {
         "iname": "",
         "wait_e": 0,
-        "search": 0,
+        "search": 3,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -184,47 +184,7 @@
       "ai": {
         "iname": "",
         "wait_e": 0,
-        "search": 0,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "wait_m": 0,
-      "parent": "",
-      "part": {
-        "body": "",
-        "id": "",
-        "gauge": {
-          "x": 0,
-          "y": 0
-        }
-      }
-    },
-    {
-      "name": "id:6",
-      "x": 5,
-      "y": 8,
-      "dir": 3,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 0,
-      "faith": 0,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "",
-        "wait_e": 0,
-        "search": 0,
+        "search": 3,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -249,7 +209,47 @@
     {
       "name": "",
       "x": 4,
-      "y": 10,
+      "y": 9,
+      "dir": 3,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    {
+      "name": "",
+      "x": 5,
+      "y": 7,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -289,7 +289,7 @@
     {
       "name": "",
       "x": 4,
-      "y": 8,
+      "y": 7,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -424,7 +424,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -517,7 +519,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -605,7 +609,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "e3b",
@@ -703,7 +709,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "e3c",
@@ -801,7 +809,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -889,7 +899,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     }
   ],
   "arena": [],
@@ -930,7 +942,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_ALL_3",
-            "num": 2,
+            "num": 4,
             "secret": 0
           },
           "weight": 850
@@ -939,7 +951,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_SPEAR_03",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 1700
@@ -948,7 +960,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_BOW_03",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 1700
@@ -975,7 +987,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_RDM_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -984,7 +996,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_IM_ANGEL_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 350
@@ -993,7 +1005,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_SAM_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -1002,7 +1014,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_EM_WATER_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 1700
@@ -1029,7 +1041,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_VIK_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -1038,7 +1050,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_BEA_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -1047,7 +1059,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_SCR_3",
-            "num": 1,
+            "num": 2,
             "secret": 0
           },
           "weight": 85
@@ -1079,5 +1091,6 @@
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }
