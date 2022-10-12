@@ -3377,6 +3377,10 @@
       "value": "Erhöht 3 Runden lang eigenen Durchbohr-ANG und ABW-Durchbohrrate."
     },
     {
+      "key": "SK_LW_GRSR_S_2_B",
+      "value": "Erhöht 5 Runden lang eigenen Durchbohr-ANG und ABW-Durchbohrrate und gewährt 5 Runden lang Protes."
+    },
+    {
       "key": "SK_LW_GRSR_S_3",
       "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu."
     },
@@ -3411,6 +3415,10 @@
     {
       "key": "SK_LW_EC_GRSR_C_02B",
       "value": "Erhöht 3 Runden lang eigenen Durchbohr-ANG, eigene ABW-Durchbohrrate, Bereichangriffsresistenz und Magieangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_C_02B_B",
+      "value": "Erhöht 5 Runden lang eigenen Durchbohr-ANG, eigene ABW-Durchbohrrate, Bereichangriffsresistenz und Magieangriffsresistenz und gewährt 5 Runden lang Protes."
     },
     {
       "key": "SK_LW_LSWL_ATK",
@@ -9589,6 +9597,30 @@
       "value": "Fügt Feinden im Zielbereich magischen Windschaden (L) zu."
     },
     {
+      "key": "SK_TSLP_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_TSLP_01_M_01",
+      "value": "Fügt dem Ziel MAG-abhängigen Windschaden (M) zu."
+    },
+    {
+      "key": "SK_TSLP_01_M_02",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (M) zu und senkt 3 Runden lang PSY."
+    },
+    {
+      "key": "SK_TSLP_01_M_03",
+      "value": "Erhöht 3 Runden lang eigene MAG, ABW und PSY und beschwört eine den Wirkenden umgebende Barriere herauf, die 5.000 - 10.000 Schaden reduziert."
+    },
+    {
+      "key": "SK_TSLP_01_M_04",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (maximal) zu."
+    },
+    {
+      "key": "SK_TSLP_01_M_05",
+      "value": "Senkt Windresistenz von Zielen in Reichweite und fügt anschließend MAG-abhängigen Windschaden (L) zu."
+    },
+    {
       "key": "SK_OCHU_ATK",
       "value": ""
     },
@@ -11947,6 +11979,10 @@
     {
       "key": "SK_SMN_SRTN",
       "value": "Ruft Sheratan, fügt Feinden in Reichweite MAG-abhängigen Erdschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit erhöhtem Effekt für Erdeinheiten, erhebliche Erdresistenz-Senkung für Gegner)."
+    },
+    {
+      "key": "SK_SMN_TSLP_01",
+      "value": "Ruft Dunkel-Tetrasylphid, senkt Windresistenz von Zielen in Reichweite, fügt anschließend MAG-abhängigen Windschaden (L) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit stärkerem Effekt für Windeinheiten, erhebliche Windresistenz-Senkung für Gegner)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -14321,6 +14357,10 @@
       "value": "Ausweichrate +10, AP-Verbrauch -20 %"
     },
     {
+      "key": "SK_MA_LW_LVES_2",
+      "value": "LP-Maximum +10 % und Berserkerresistenz +25 für verbündete Blitzeinheiten, eigenes LP-Maximum +20 %, Einzelangriffsresistenz +10, Ausweichrate +10 und AP-Verbrauch -20 %"
+    },
+    {
       "key": "SK_MA_FFT_AGRA",
       "value": "Einzelangriffsresistenz +15"
     },
@@ -14367,6 +14407,10 @@
     {
       "key": "SK_MA_LW_GRSR",
       "value": "ANG +20 %, Schlitzresistenz +10"
+    },
+    {
+      "key": "SK_MA_LW_GRSR_2",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigener ANG +40 %, Schlitzresistenz +30 und verstärkt Scharfsinn der Walküre. Erhöht 5 Runden lang eigenen Durchbohr-ANG und ABW-Durchbohrrate und gewährt 5 Runden lang Protes."
     },
     {
       "key": "SK_MA_LW_RRIR",
@@ -14439,6 +14483,10 @@
     {
       "key": "SK_MA_LW_RARD",
       "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene  ABW-Durchbohrrate +20"
+    },
+    {
+      "key": "SK_MA_LW_RARD_2",
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene ABW-Durchbohrrate +40, Durchbohren, Geschossresistenz +15, Feuerangriff +20 und Reaktionsblockrate +40, wenn LP 80 % oder weniger betragen."
     },
     {
       "key": "SK_MA_LW_ELSI",
@@ -15207,6 +15255,26 @@
     {
       "key": "SK_LW_DFRANGE_5",
       "value": "Ab Kampfbeginn 3 Runden lang Bereichangriffsresistenz +10"
+    },
+    {
+      "key": "SK_LW_DF_DARK_1",
+      "value": "Dunkelresistenz +1"
+    },
+    {
+      "key": "SK_LW_DF_DARK_2",
+      "value": "Dunkelresistenz +2"
+    },
+    {
+      "key": "SK_LW_DF_DARK_3",
+      "value": "Dunkelresistenz +3"
+    },
+    {
+      "key": "SK_LW_DF_DARK_4",
+      "value": "Dunkelresistenz +5"
+    },
+    {
+      "key": "SK_LW_DF_DARK_5",
+      "value": "Dunkelresistenz +10"
     },
     {
       "key": "SK_LW_SWO_003_1",
@@ -19974,6 +20042,54 @@
     },
     {
       "key": "SK_GL_VC_FF13_MV3_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TSLP_01_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TSLP_01_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TSLP_01_P2MAX",
       "value": ""
     },
     {
@@ -26522,6 +26638,26 @@
     },
     {
       "key": "SK_LW_SPE_022_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_5",
       "value": ""
     },
     {

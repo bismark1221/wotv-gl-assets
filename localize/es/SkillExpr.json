@@ -3377,6 +3377,10 @@
       "value": "Aumenta el ataque de perforación y la tasa de penetración de DEF del usuario durante 3 turnos."
     },
     {
+      "key": "SK_LW_GRSR_S_2_B",
+      "value": "Aumenta el ataque de perforación la tasa de penetración de DEF del usuario y le otorga coraza durante 5 turnos."
+    },
+    {
       "key": "SK_LW_GRSR_S_3",
       "value": "Inflige daño (medio) a los objetivos de alrededor."
     },
@@ -3411,6 +3415,10 @@
     {
       "key": "SK_LW_EC_GRSR_C_02B",
       "value": "Aumenta el ataque de perforación, la tasa de penetración de DEF, la res. ataque de zona y la res. ataque mágico del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_C_02B_B",
+      "value": "Aumenta el ataque de perforación, la tasa de penetración de DEF, la res. ataque de zona y la res. ataque mágico del usuario y le otorga coraza durante 5 turnos."
     },
     {
       "key": "SK_LW_LSWL_ATK",
@@ -9589,6 +9597,30 @@
       "value": "Inflige daño mágico de viento (mucho) a los enemigos de la zona objetivo."
     },
     {
+      "key": "SK_TSLP_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_TSLP_01_M_01",
+      "value": "Daño de viento (medio) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_TSLP_01_M_02",
+      "value": "Daño de viento (medio) en función de la MAG del usuario a los objetivos y reduce su ESP durante 3 turnos."
+    },
+    {
+      "key": "SK_TSLP_01_M_03",
+      "value": "Aumenta MAG, DEF y ESP del usuario durante 3 turnos y le otorga una barrera que reduce el daño (5000 - 10 000 puntos de VIT)."
+    },
+    {
+      "key": "SK_TSLP_01_M_04",
+      "value": "Inflige daño de viento (máximo) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_TSLP_01_M_05",
+      "value": "Reduce la res. viento de los objetivos al alcance y les inflige daño de viento (mucho) en función de la MAG del usuario."
+    },
+    {
       "key": "SK_OCHU_ATK",
       "value": ""
     },
@@ -11947,6 +11979,10 @@
     {
       "key": "SK_SMN_SRTN",
       "value": "Invoca a Sheratan: inflige daño de tierra (máximo) en función de la MAG del usuario a los enemigos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de tierra, y reduce considerablemente la res. tierra de los enemigos)."
+    },
+    {
+      "key": "SK_SMN_TSLP_01",
+      "value": "Invoca a Tetra Sílfide oscura: reduce la res. viento a los objetivos al alcance y les inflige daño de viento (mucho) en función de la MAG del usuario y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de viento, y reduce considerablemente la res. viento de los enemigos)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -14321,6 +14357,10 @@
       "value": "Tasa de evasión +10, consumo de PA -20 %"
     },
     {
+      "key": "SK_MA_LW_LVES_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, res. locura +25; usuario: VIT máx. +20 %, res. ataque de unidad +10, tasa de evasión +10, consumo de PA -20%"
+    },
+    {
       "key": "SK_MA_FFT_AGRA",
       "value": "Res. ataque de unidad +15"
     },
@@ -14367,6 +14407,10 @@
     {
       "key": "SK_MA_LW_GRSR",
       "value": "ATQ +20 %, res. corte +10"
+    },
+    {
+      "key": "SK_MA_LW_GRSR_2",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: VIT máx. +40 %, res. corte +30, mejora «Agudeza de doncella guerrera»: aumenta el ataque de perforación y la tasa de penetración de DEF del usuario y le otorga otorga coraza durante 5 turnos."
     },
     {
       "key": "SK_MA_LW_RRIR",
@@ -14439,6 +14483,10 @@
     {
       "key": "SK_MA_LW_RARD",
       "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: tasa de penetración de DEF +20"
+    },
+    {
+      "key": "SK_MA_LW_RARD_2",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: tasa de penetración de DEF +40, res. ataque de perforación y res. ataque a distancia +15, ataque de fuego +20 y tasa de bloqueo de reacción +40 cuando la VIT está por debajo del 80 %"
     },
     {
       "key": "SK_MA_LW_ELSI",
@@ -15207,6 +15255,26 @@
     {
       "key": "SK_LW_DFRANGE_5",
       "value": "Res. ataque de zona +10 durante 3 turnos desde el inicio del combate."
+    },
+    {
+      "key": "SK_LW_DF_DARK_1",
+      "value": "Res. oscuridad +1"
+    },
+    {
+      "key": "SK_LW_DF_DARK_2",
+      "value": "Res. oscuridad +2"
+    },
+    {
+      "key": "SK_LW_DF_DARK_3",
+      "value": "Res. oscuridad +3"
+    },
+    {
+      "key": "SK_LW_DF_DARK_4",
+      "value": "Res. oscuridad +5"
+    },
+    {
+      "key": "SK_LW_DF_DARK_5",
+      "value": "Res. oscuridad +10"
     },
     {
       "key": "SK_LW_SWO_003_1",
@@ -19974,6 +20042,54 @@
     },
     {
       "key": "SK_GL_VC_FF13_MV3_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TSLP_01_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TSLP_01_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TSLP_01_P2MAX",
       "value": ""
     },
     {
@@ -26522,6 +26638,26 @@
     },
     {
       "key": "SK_LW_SPE_022_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACCE_002_5",
       "value": ""
     },
     {
