@@ -1,84 +1,169 @@
 {
-  "infos": [
+  "items": [
     {
-      "key": "TAIL_PLAIN_NAME",
-      "value": "平原"
+      "iname": "TAIL_PLAIN",
+      "cost": 1,
+      "ecosttag": [
+        1,
+        2
+      ],
+      "ecost": 1,
+      "ibuftag": [
+        1
+      ],
+      "buf": "BUFF_GEO_PLAIN",
+      "color": [
+        196,
+        196,
+        196
+      ]
     },
     {
-      "key": "TAIL_PLAIN_EXPR",
-      "value": "平原的說明文"
+      "iname": "TAIL_GRASS",
+      "cost": 2,
+      "ecosttag": [
+        1,
+        2
+      ],
+      "ecost": 1,
+      "ibuftag": [
+        1
+      ],
+      "buf": "BUFF_GEO_GRASS",
+      "color": [
+        0,
+        255,
+        0
+      ]
     },
     {
-      "key": "TAIL_GRASS_NAME",
-      "value": "草原"
+      "iname": "TAIL_STONE",
+      "cost": 1,
+      "ecosttag": [
+        1,
+        2
+      ],
+      "ecost": 1,
+      "ibuftag": [
+        1
+      ],
+      "color": [
+        128,
+        128,
+        128
+      ]
     },
     {
-      "key": "TAIL_GRASS_EXPR",
-      "value": "草原的說明文"
+      "iname": "TAIL_SAND",
+      "cost": 2,
+      "ecosttag": [
+        1,
+        2
+      ],
+      "ecost": 1,
+      "ibuftag": [
+        1
+      ],
+      "color": [
+        128,
+        128,
+        0
+      ]
     },
     {
-      "key": "TAIL_STONE_NAME",
-      "value": "石板"
+      "iname": "TAIL_WATER",
+      "cost": 2,
+      "ecosttag": [
+        1,
+        2
+      ],
+      "ecost": 1,
+      "ibuftag": [
+        1
+      ],
+      "color": [
+        0,
+        0,
+        255
+      ]
     },
     {
-      "key": "TAIL_STONE_EXPR",
-      "value": "石板的說明文"
+      "iname": "TAIL_IRD0",
+      "cost": 1,
+      "ecosttag": [
+        1,
+        2
+      ],
+      "ecost": 1,
+      "ibuftag": [
+        1
+      ],
+      "buf": "BUFF_GEO_IRD0",
+      "color": [
+        0,
+        128,
+        255
+      ]
     },
     {
-      "key": "TAIL_SAND_NAME",
-      "value": "沙漠"
+      "iname": "TAIL_MAGMA",
+      "cost": 98,
+      "ecosttag": [
+        1,
+        2
+      ],
+      "ecost": 97,
+      "ibuftag": [
+        1
+      ],
+      "color": [
+        255,
+        0,
+        0
+      ]
     },
     {
-      "key": "TAIL_SAND_EXPR",
-      "value": "沙漠的說明文"
+      "iname": "TAIL_SWORD",
+      "cost": 98,
+      "ecosttag": [
+        1,
+        2
+      ],
+      "ecost": 97,
+      "ibuftag": [
+        1
+      ],
+      "color": [
+        0,
+        128,
+        255
+      ]
     },
     {
-      "key": "TAIL_WATER_NAME",
-      "value": "水面"
+      "iname": "TAIL_ONESTEP",
+      "cost": 97,
+      "ecosttag": [
+        1,
+        2
+      ],
+      "ecost": 1,
+      "ibuftag": [
+        1
+      ],
+      "color": [
+        0,
+        128,
+        128
+      ]
     },
     {
-      "key": "TAIL_WATER_EXPR",
-      "value": "水面的說明文"
-    },
-    {
-      "key": "TAIL_MAGMA_NAME",
-      "value": "熔岩"
-    },
-    {
-      "key": "TAIL_MAGMA_EXPR",
-      "value": "熔岩的說明文"
-    },
-    {
-      "key": "TAIL_KEEP_OUT_NAME",
-      "value": "禁止進入"
-    },
-    {
-      "key": "TAIL_KEEP_OUT_EXPR",
-      "value": "禁止進入的說明文"
-    },
-    {
-      "key": "TAIL_SWORD_NAME",
-      "value": "劍山"
-    },
-    {
-      "key": "TAIL_SWORD_EXPR",
-      "value": "劍山的說明文"
-    },
-    {
-      "key": "TAIL_ONESTEP_NAME",
-      "value": "1步步"
-    },
-    {
-      "key": "TAIL_ONESTEP_EXPR",
-      "value": "1步步的說明文"
-    },
-    {
-      "key": "TAIL_IRD0_NAME",
-      "value": "照射裝置"
-    },
-    {
-      "key": "TAIL_IRD0_EXPR",
-      "value": "照射裝置的說明文"
+      "iname": "TAIL_KEEP_OUT",
+      "cost": 99,
+      "color": [
+        0,
+        0,
+        0
+      ]
     }
   ]
 }

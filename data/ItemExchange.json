@@ -1,116 +1,89 @@
 {
-  "infos": [
+  "items": [
     {
-      "key": "TALK_001",
-      "value": "Here, you can take your hard-earned items and exchange them for those of other colors or designs."
+      "iname": "EX_AW_VBALL",
+      "icon": "IT_AW_VBALL_UR",
+      "rate_iname": "EX_RATE_VBALL"
     },
     {
-      "key": "TALK_002",
-      "value": "Utilize your excess items to acquire those you currently lack."
+      "iname": "EX_UN_AW",
+      "icon": "IT_UN_AW_FIRE",
+      "rate_iname": "EX_RATE_UN_AW"
     },
     {
-      "key": "TALK_003",
-      "value": "No doubt this will come of use to you when you are just shy of inventory and time is of the essence."
+      "iname": "EX_PI_COM",
+      "icon": "IT_PI_COM_FIRE",
+      "rate_iname": "EX_RATE_PI_COM"
     },
     {
-      "key": "TALK_004",
-      "value": "First, select the item you wish to obtain."
+      "iname": "EX_UN_AW_2_6",
+      "icon": "IT_UN_AW_FIRE_R6",
+      "rate_iname": "EX_RATE_AW_2_6"
     },
     {
-      "key": "TALK_005",
-      "value": "Where you make this selection will depend on the rarity of the item you want and the item you currently possess, so take note."
+      "iname": "EX_JB_ELM",
+      "icon": "IT_JB_EM_FIRE_5",
+      "rate_iname": "EX_RATE_JB_ELM"
     },
     {
-      "key": "TALK_006",
-      "value": "Next, select the item you wish to use for the exchange and complete the transaction."
+      "iname": "EX_JB_IM_A",
+      "icon": "IT_JB_IM_ANGEL_5",
+      "rate_iname": "EX_RATE_JB_IM_A"
     },
     {
-      "key": "TALK_007",
-      "value": "As you can see, the basic operations are no different from Material Exchange."
+      "iname": "EX_JB_IM_D",
+      "icon": "IT_JB_IM_DRAGON_5",
+      "rate_iname": "EX_RATE_JB_IM_D"
     },
     {
-      "key": "TALK_008",
-      "value": "However, the exchange of items related to your Job Lv. can be done directly from the Unit Details screen. Let us try that method as well."
+      "iname": "EX_JB_MM_ALL",
+      "icon": "IT_JB_MM_ALL_5",
+      "rate_iname": "EX_RATE_MM_ALL"
     },
     {
-      "key": "DIALOG_001_T",
-      "value": "• Exchange Shop •"
+      "iname": "EX_JB_WEAPON",
+      "icon": "IT_JB_SWORD_05",
+      "rate_iname": "EX_RATE_JB_WPN"
     },
     {
-      "key": "DIALOG_001_M",
-      "value": "Select the item you want and choose Upward Exchange, Downward Exchange, or Equivalent Exchange to trade at the corresponding rate."
+      "iname": "EX_AF_AW",
+      "icon": "IT_AF_AW_SWORD",
+      "rate_iname": "EX_RATE_AF_AW"
     },
     {
-      "key": "DIALOG_002_T",
-      "value": "• Reverse Lookup •"
+      "iname": "EX_AF_SUP",
+      "icon": "IT_AF_SUP_HP",
+      "rate_iname": "EX_RATE_AF_SUP"
     },
     {
-      "key": "DIALOG_002_M",
-      "value": "You can also perform Item Exchange from the Menu by accessing Units > Job Enhancing Materials."
+      "iname": "EX_AF_RESET",
+      "icon": "IT_AF_RESET",
+      "rate_iname": "EX_RATE_AF_RESET"
     },
     {
-      "key": "DIALOG_003_T",
-      "value": "• Upward Exchange •"
+      "iname": "EX_AW_MTPI",
+      "icon": "IT_AW_MTPI_I_UR",
+      "rate_iname": "EX_RATE_AW_MTPI"
     },
     {
-      "key": "DIALOG_003_M",
-      "value": "• Upward Exchange •<br>Trade for items of higher rarity, such as using Azure Vision Spheres to obtain Rainbow Vision Spheres."
+      "iname": "EX_AF_EXP",
+      "icon": "IT_AF_EXP_03",
+      "rate_iname": "EX_RATE_AF_EXP"
     },
     {
-      "key": "DIALOG_004_T",
-      "value": "• Downward Exchange •"
+      "iname": "EX_AF_PT",
+      "icon": "IT_AF_PT_ATK",
+      "rate_iname": "EX_RATE_AF_PT"
     },
     {
-      "key": "DIALOG_004_M",
-      "value": "• Downward Exchange •<br>Trade for items of lower rarity, such as using Silver Vision Sphere to obtain Copper Vision Sphere."
+      "iname": "EX_TICKET",
+      "icon": "IT_TICKET_STORY",
+      "rate_iname": "EX_RATE_TICKET"
     },
     {
-      "key": "DIALOG_005_T",
-      "value": "• Equivalent Exchange •"
-    },
-    {
-      "key": "DIALOG_005_M",
-      "value": "• Equivalent Exchange •<br>Trade for items of the same rarity that belong to different elements, such as using Fire Alcrysts to obtain Water Alcrysts."
-    },
-    {
-      "key": "DIALOG_006_T",
-      "value": "• Job Enhancement •"
-    },
-    {
-      "key": "DIALOG_006_M",
-      "value": "Trading Job-enhancing materials can be done directly from the Unit Details screen as well."
-    },
-    {
-      "key": "DIALOG_007_T",
-      "value": "• Gauge •"
-    },
-    {
-      "key": "DIALOG_007_M",
-      "value": "Slide the bar left or right to change the number of items you wish to exchange."
-    },
-    {
-      "key": "DIALOG_008_T",
-      "value": "• Exchange Details •"
-    },
-    {
-      "key": "DIALOG_008_M",
-      "value": "The original items depicted on the left will be exchanged for the new items depicted on the right."
-    },
-    {
-      "key": "SKIP_TITLE",
-      "value": "• Item Exchange •"
-    },
-    {
-      "key": "SKIP_MSG",
-      "value": "Proceed to a tutorial on Item Exchange?"
-    },
-    {
-      "key": "SKIP_YES",
-      "value": "Yes"
-    },
-    {
-      "key": "SKIP_NO",
-      "value": "No"
+      "iname": "EX_JB_JBEX",
+      "icon": "IT_JBEX_SWORD",
+      "rate_iname": "EX_RATE_JB_JBEX"
     }
   ]
 }
