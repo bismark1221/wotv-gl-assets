@@ -2814,7 +2814,7 @@
     },
     {
       "key": "SK_FFT_EC_AGRA_A_01",
-      "value": "Elimina coraza del objetivo y cualquier barrera que reduzca el daño físico, y le inflige daño (medio)."
+      "value": "Elimina coraza del objetivo y destruye cualquier barrera que reduzca el daño físico, y le inflige daño (medio)."
     },
     {
       "key": "SK_FFT_EC_AGRA_C_01",
@@ -8161,6 +8161,78 @@
       "value": "Aumenta la tasa de precisión a los aliados de alrededor durante 3 turnos, otorga recuperación de PA al asestar crítico durante 3 turnos y otorga una barrera al usuario que reduce el daño (3 veces)."
     },
     {
+      "key": "SK_LW_MHA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MHA_M_1",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance, reduce su tasa de penetración de DEF durante 3 turnos y aumenta el TC del usuario (poco) al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_LW_MHA_M_1_AD",
+      "value": "Aumenta el TC al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_LW_MHA_M_2",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance y les inflige daño (medio) en función de la MAG del usuario con golpe garantizado."
+    },
+    {
+      "key": "SK_LW_MHA_M_3",
+      "value": "Aumenta la DEF de los aliados de alrededor durante 3 turnos y otorga una barrera al usuario que niega una cierta cantidad de daño físico."
+    },
+    {
+      "key": "SK_LW_MHA_S_1_INIT",
+      "value": "Inflige daño (poco) en función de la MAG del usuario al objetivo y reduce su ATQ y MAG durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MHA_S_2_INIT",
+      "value": "Otorga reducción de PA a los ataques con éxito del usuario durante 3 turnos, le otorga Coraza y efecto adicional: aumenta su res. reducciones de DEF mientras el efecto de Coraza esté activo."
+    },
+    {
+      "key": "SK_LW_MHA_S_3",
+      "value": "Recupera VIT de los aliados de alrededor (medio)."
+    },
+    {
+      "key": "SK_LW_MHA_S_4",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MHA_R_1",
+      "value": "Probabilidad de reducir la probabilidad de que el usuario sea atacado al recibir daño y aumenta su res. ataque de zona durante un turno."
+    },
+    {
+      "key": "SK_LW_MHA_P_1",
+      "value": "Aumenta la tasa de penetración de ESP y la DEF."
+    },
+    {
+      "key": "SK_LW_MHA_P_2",
+      "value": "Aumenta la VIT máx. y la MAG."
+    },
+    {
+      "key": "SK_LW_MHA_EN_A_01",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo, le inflige daño (muchísimo) en función de la MAG del usuario con golpe garantizado y probabilidad de infligirle rana durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_MHA_C_01",
+      "value": "Mejora «Final rápido» a «Final inesperado»: elimina el tiempo de activación. Daño (medio) en función de la MAG del usuario a los objetivos al alcance, reduce su tasa de penetración de DEF durante 3 turnos y aumenta el TC del usuario (poco) al dejar KO al enemigo (hasta 3 enemigos)."
+    },
+    {
+      "key": "SK_LW_EC_MHA_C_01B",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance, reduce su tasa de penetración de DEF durante 3 turnos y aumenta el TC del usuario (poco) al dejar KO al enemigo (hasta 3 enemigos)."
+    },
+    {
+      "key": "SK_LW_EC_MHA_C_01B_AD",
+      "value": "Aumenta el TC al dejar KO al enemigo (hasta 3 enemigos)."
+    },
+    {
+      "key": "SK_LW_EC_MHA_C_02",
+      "value": "Mejora «Hechizo protector» a «Hechizo fortificador»: Aumenta la DEF y la res. ataque de zona de los aliados de alrededor durante 3 turnos y otorga una barrera al usuario que niega una cierta cantidad de daño físico."
+    },
+    {
+      "key": "SK_LW_EC_MHA_C_02B",
+      "value": "Aumenta la DEF y la res. ataque de zona de los aliados de alrededor durante 3 turnos y otorga una barrera al usuario que niega una cierta cantidad de daño físico."
+    },
+    {
       "key": "SK_TOMB_LARA_ATK",
       "value": ""
     },
@@ -8359,6 +8431,26 @@
     {
       "key": "SK_LW_EC_RAB_C_02B",
       "value": "Aumenta el ATQ, la tasa de penetración de DEF y la tasa de evasión."
+    },
+    {
+      "key": "SK_LW_EC_RAB_A_02",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos e inflige daño (medio) 3 veces a los objetivos al alcance."
+    },
+    {
+      "key": "SK_LW_EC_RAB_C_03",
+      "value": "Mejora «Ráfaga a presión» a «Ruptura a presión»: elimina coraza del objetivo y destruye cualquier barrera que reduzca el daño físico, reduce su DEF durante 3 turnos y le inflige daño (medio) 2 veces."
+    },
+    {
+      "key": "SK_LW_EC_RAB_C_03B",
+      "value": "Elimina coraza del objetivo y destruye cualquier barrera que reduzca el daño físico, reduce su DEF durante 3 turnos y le inflige daño (medio) 2 veces."
+    },
+    {
+      "key": "SK_LW_EC_RAB_C_04",
+      "value": "Mejora «Juego de pies defensivo» a «Juego de pies fortalecedor»: aumenta la DEF y el ESP del usuario hasta recibir daño 2 veces, y aumenta la tasa de evasión y la res. ataque de unidad del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_RAB_C_04B",
+      "value": "Aumenta la DEF y el ESP del usuario hasta recibir daño 2 veces, y aumenta la tasa de evasión y la res. ataque de unidad del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_CAL_A_01",
@@ -10686,7 +10778,7 @@
     },
     {
       "key": "SK_CPPF_R_1",
-      "value": ""
+      "value": "Probabilidad de realizar un contraataque al recibir daño."
     },
     {
       "key": "SK_GSRC_ATK",
@@ -11690,7 +11782,7 @@
     },
     {
       "key": "SK_LB_LW_ASTR",
-      "value": "Activa un efecto adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo)) sin afectar a los combos), reduce la res. ataque de corte del objetivo durante 3 turnos y le inflige daño (mucho)."
+      "value": "Activa un efecto adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos), reduce la res. ataque de corte del objetivo durante 3 turnos y le inflige daño (mucho)."
     },
     {
       "key": "SK_LB_LW_ASTR_AD",
@@ -11759,6 +11851,18 @@
     {
       "key": "SK_LB_LW_GRSR_02",
       "value": "Inflige daño (mucho) a los objetivos al alcance y el combo elemental se mantiene durante un turno aunque el objetivo realice una acción."
+    },
+    {
+      "key": "SK_LB_LW_SHNC",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos y le inflige daño (mucho) 3 veces."
+    },
+    {
+      "key": "SK_LB_LW_LUCA_01",
+      "value": "Activa un efecto adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) en función de la MAG del usuario sin afectar a los combos), inflige daño (mucho) al objetivo en función de la MAG del usuario con mucha precisión y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LB_LW_LUCA_01_AD",
+      "value": "Inflige daño no elemental (mínimo) en función de la MAG del usuario al objetivo."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -13317,6 +13421,26 @@
       "value": "Aumenta la VIT máx. y la MAG."
     },
     {
+      "key": "SK_LW_EC_PSI_A_03",
+      "value": "Elimina todas las mejoras al objetivo, y le inflige daño (medio) 2 veces en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_05",
+      "value": "Mejora «Explosión detonante» a «Detonación explosiva»: inflige daño (medio) con golpe garantizado en función de la MAG del usuario a los objetivos y reduce su res. ataque a distancia y mágico durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_05B",
+      "value": "Inflige daño (medio) con golpe garantizado en función de la MAG del usuario a los objetivos y reduce su res. ataque a distancia y mágico durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_06",
+      "value": "Mejora «Hipervitalidad» a «Hipereficiencia»: desde el inicio del combate durante 5 turnos, aumenta considerablemente la MAG y la DES y aumenta la AGI y la res. ataque a distancia."
+    },
+    {
+      "key": "SK_LW_EC_PSI_C_06B",
+      "value": "Desde el inicio del combate durante 5 turnos, aumenta considerablemente la MAG y la DES y aumenta la AGI y la res. ataque a distancia."
+    },
+    {
       "key": "SK_LW_EC_THI_A_01",
       "value": "Inflige daño (mucho) al objetivo y aumenta el TC del usuario (poco)."
     },
@@ -14421,8 +14545,16 @@
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de evasión +10"
     },
     {
+      "key": "SK_MA_LW_RYER_01_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de evasión +10, MAG +20 %, tasa de penetración de ESP +20"
+    },
+    {
       "key": "SK_MA_LW_RIRY_01",
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: tasa de penetración de res. corte +20"
+    },
+    {
+      "key": "SK_MA_LW_RIRY_01_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: tasa de penetración de res. corte +20, VIT máx. +10 %, MAG +15 %, DEF +15, con 70 % de VIT o menos: consumo de PA -20 %"
     },
     {
       "key": "SK_MA_LW_HWLT",
@@ -14721,6 +14853,10 @@
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +15 %, tasa de evasión +5"
     },
     {
+      "key": "SK_MA_LW_FDRC_01_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +15 %, tasa de evasión +5, tasa de penetración de res. ataque de corte +20, potencia de curación +15; con 70 % de VIT o más: res. ataque de unidad +40"
+    },
+    {
       "key": "SK_MA_LW_LMIG",
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: tasa de evasión +10"
     },
@@ -14883,6 +15019,18 @@
     {
       "key": "SK_MA_LW_GRSR_02",
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: ataque de perforación +15, tasa de crítico +20"
+    },
+    {
+      "key": "SK_MA_LW_SHNC",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: ATQ +5 %, res. ataque de zona +10"
+    },
+    {
+      "key": "SK_MA_LW_LBRK",
+      "value": "Aliados de fuego: VIT máx. +10 %, res. freno +25; usuario: Comegélidos +20, consumo de PA -20 %"
+    },
+    {
+      "key": "SK_MA_LW_LUCA_01",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: VIT máx. +5 %, res. ataque de zona +10"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -16229,6 +16377,14 @@
       "value": "Otorga coraza a los aliados de alrededor durante 3 turnos."
     },
     {
+      "key": "SK_CLT_LW_SHNC_1",
+      "value": "Aumenta el ATQ y la suerte de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_CLT_LW_LUCA_01",
+      "value": "Aumenta el daño límite de los aliados de alrededor durante 3 turnos."
+    },
+    {
       "key": "SK_SPE_LW_VERN_1_1",
       "value": ""
     },
@@ -16486,6 +16642,10 @@
     },
     {
       "key": "SK_SPE_LW_MCRD_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_GRO_LW_LBRK_1",
       "value": ""
     },
     {
@@ -26765,6 +26925,10 @@
       "value": "Habilidad específica de equipo +6"
     },
     {
+      "key": "SK_LW_PLUS6_HEALP_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -26881,6 +27045,10 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SWO_025_6",
+      "value": ""
+    },
+    {
       "key": "SK_LW_SPE_018_1",
       "value": "Habilidad pasiva exclusiva de Camilo"
     },
@@ -26919,6 +27087,14 @@
     {
       "key": "SK_LW_HLM_009_5",
       "value": "Habilidad pasiva exclusiva de Muraga"
+    },
+    {
+      "key": "SK_LW_SWO_035_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_035_5",
+      "value": ""
     },
     {
       "key": "SK_SCOC_ATK",
