@@ -1305,6 +1305,10 @@
       "value": "Confère une chance de guérir la cible de K.O. et de restaurer les PV entièrement."
     },
     {
+      "key": "SK_LW_WHM_S_4_3_NAIA",
+      "value": "Confère une chance de guérir la cible de K.O. et de restaurer les PV entièrement."
+    },
+    {
       "key": "SK_LW_WHM_S_1_INIT",
       "value": "Restaure les PV (S) de la cible."
     },
@@ -14205,6 +14209,10 @@
       "value": "MAGIE +40 %, Délai d'activation -25 %"
     },
     {
+      "key": "SK_MA_LW_NAIA_2",
+      "value": "Augmente la MAGIE de 40 %, réduit le délai d'activation de 25 %, augmente la résistance aux attaques de zone de 15, réduit la Haine de 3, augmente le nombre d'utilisations d'aptitude de 1 pour Vie Max et augmente le taux de réussite."
+    },
+    {
       "key": "SK_MA_LW_SRJS",
       "value": "AGI +20 %, Chance +10 %"
     },
@@ -14291,6 +14299,10 @@
     {
       "key": "SK_MA_LW_SDLX",
       "value": "ATT +25 %, taux d'esquive +15"
+    },
+    {
+      "key": "SK_MA_LW_SDLX_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Berserk de 25 pour les unités alliées d'ombre, augmente la résistance aux attaques de zone du lanceur de 40 (se dissipe après avoir subi 1 fois des dégâts), augmente son ATT de 25 %, son taux d'esquive de 15 et son taux de perforation de la DEF de 30."
     },
     {
       "key": "SK_MA_LW_YERM",
@@ -14753,8 +14765,16 @@
       "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente le taux de perforation de la résistance aux attaques magiques du lanceur de 15, et augmente la résistance aux attaques magiques de 10."
     },
     {
+      "key": "SK_MA_LW_MORE_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente les attaques magiques du lanceur de 15, son taux de perforation de la résistance aux attaques magiques de 15, sa résistance aux attaques magiques de 10 et réduit sa consommation de PA de 20 %."
+    },
+    {
       "key": "SK_MA_LW_CWEL",
       "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente les attaques projectiles du lanceur de 10."
+    },
+    {
+      "key": "SK_MA_LW_CWEL_2",
+      "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente les attaques projectiles du lanceur de 25 et son taux de perforation de la résistance aux attaques projectiles 20."
     },
     {
       "key": "SK_MA_LW_MURG",
@@ -15155,6 +15175,26 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "Taux d'esquive +8"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_1",
+      "value": "Esquive critique +2"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_2",
+      "value": "Esquive critique +3"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_3",
+      "value": "Esquive critique +5"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_4",
+      "value": "Esquive critique +10"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_5",
+      "value": "Esquive critique +20"
     },
     {
       "key": "SK_LW_MAGICPOW_1",
@@ -17422,6 +17462,246 @@
     },
     {
       "key": "SK_VC_LW_MIRROR_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CACT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CACT_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CACT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ARMN_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ARMN_01_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ARMN_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZUUU_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZUUU_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZUUU_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_OGRE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_OGRE_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_OGRE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BOMB_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BOMB_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BOMB_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BYLO_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BYLO_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BYLO_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RART_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RART_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RART_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RYER_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RYER_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RYER_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RIRY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RIRY_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RIRY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CRYSTAL_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CRYSTAL_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CRYSTAL_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_DYNVERK_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_DYNVERK_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_DYNVERK_GSMAX",
       "value": ""
     },
     {
@@ -20251,6 +20531,118 @@
     {
       "key": "SK_GL_VC_LW_TSLP_01_P2MAX",
       "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_PVA",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur en 3 coups à la cible, et réduit la résistance aux attaques à cible unique pendant 3 tours."
     },
     {
       "key": "SK_VC_LW_JEDN_01_GS",
@@ -24281,6 +24673,10 @@
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
+      "key": "SK_BTL_SATK_1-999_U",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
       "key": "SK_BTL_PKILLER_MAN_1-100_U",
       "value": "Compétence de rééquilibrage de la quête"
     },
@@ -26929,6 +27325,14 @@
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
+      "key": "SK_LW_PLUS6_DARKKR_20",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_CRTAV_20",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -27089,11 +27493,91 @@
       "value": "Aptitude passive spécifique à Muraga"
     },
     {
+      "key": "SK_LW_SPE_018_1_1",
+      "value": "Aptitude passive spécifique à Camillo"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_2",
+      "value": "Aptitude passive spécifique à Camillo"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_3",
+      "value": "Aptitude passive spécifique à Camillo"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_4",
+      "value": "Aptitude passive spécifique à Camillo"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_5",
+      "value": "Aptitude passive spécifique à Camillo"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_1",
+      "value": "Aptitude passive spécifique à Muraga"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_2",
+      "value": "Aptitude passive spécifique à Muraga"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_3",
+      "value": "Aptitude passive spécifique à Muraga"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_4",
+      "value": "Aptitude passive spécifique à Muraga"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_5",
+      "value": "Aptitude passive spécifique à Muraga"
+    },
+    {
       "key": "SK_LW_SWO_035_1",
       "value": ""
     },
     {
       "key": "SK_LW_SWO_035_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_5",
       "value": ""
     },
     {
@@ -27525,6 +28009,10 @@
       "value": "Accorde Auréole à la cible, lui permettant d'être ranimée automatiquement une fois par combat (récupération de PV (XS))."
     },
     {
+      "key": "SK_GHUL_M_04_B",
+      "value": "Accorde Auréole à la cible, lui permettant d'être ranimée automatiquement une fois par combat (récupération de PV (M))."
+    },
+    {
       "key": "SK_GHUL_R_01",
       "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis et absorbe les dégâts infligés."
     },
@@ -27555,6 +28043,10 @@
     {
       "key": "SK_WYVN_M_01",
       "value": "Inflige des dégâts (M) à la cible et réduit les attaques tranchantes pendant 3 tours."
+    },
+    {
+      "key": "SK_WYVN_M_01_GR",
+      "value": "Inflige des dégâts (M) à la cible."
     },
     {
       "key": "SK_WYVN_M_02",

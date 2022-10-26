@@ -1305,6 +1305,10 @@
       "value": "Probabilidad de revivir a un objetivo y recuperar toda su VIT."
     },
     {
+      "key": "SK_LW_WHM_S_4_3_NAIA",
+      "value": "Probabilidad de revivir a un objetivo y recuperar toda su VIT."
+    },
+    {
       "key": "SK_LW_WHM_S_1_INIT",
       "value": "Recupera VIT del objetivo (poco)."
     },
@@ -14205,6 +14209,10 @@
       "value": "MAG +40 %, tiempo de activación -25 %"
     },
     {
+      "key": "SK_MA_LW_NAIA_2",
+      "value": "MAG +40 %, tiempo de activación -25 %, res. ataque de zona +15, odio -3, n.º de usos de «Lázaro+» +1 y aumenta su probabilidad de éxito."
+    },
+    {
       "key": "SK_MA_LW_SRJS",
       "value": "AGI +20 %, suerte +10 %"
     },
@@ -14291,6 +14299,10 @@
     {
       "key": "SK_MA_LW_SDLX",
       "value": "ATQ +25 %, tasa de evasión +15"
+    },
+    {
+      "key": "SK_MA_LW_SDLX_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, res. locura +25; usuario: res. ataque de zona +40 (se elimina tras recibir daño una vez), ATQ +25 %, tasa de evasión +15, tasa de penetración de DEF +30"
     },
     {
       "key": "SK_MA_LW_YERM",
@@ -14753,8 +14765,16 @@
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: tasa de penetración de res. ataque mágico +15, res. ataque mágico +10"
     },
     {
+      "key": "SK_MA_LW_MORE_2",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: ataque mágico +15, tasa de penetración de res. ataque mágico +15, res. ataque mágico +10, consumo de PA -20 %"
+    },
+    {
       "key": "SK_MA_LW_CWEL",
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: ataque a distancia +10"
+    },
+    {
+      "key": "SK_MA_LW_CWEL_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: ataque a distancia +25, tasa de penetración de res. ataque a distancia +20"
     },
     {
       "key": "SK_MA_LW_MURG",
@@ -15155,6 +15175,26 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "Tasa de evasión +8"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_1",
+      "value": "Evasión de crítico +2"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_2",
+      "value": "Evasión de crítico +3"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_3",
+      "value": "Evasión de crítico +5"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_4",
+      "value": "Evasión de crítico +10"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_5",
+      "value": "Evasión de crítico +20"
     },
     {
       "key": "SK_LW_MAGICPOW_1",
@@ -17422,6 +17462,246 @@
     },
     {
       "key": "SK_VC_LW_MIRROR_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CACT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CACT_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CACT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ARMN_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ARMN_01_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ARMN_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZUUU_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZUUU_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZUUU_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_OGRE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_OGRE_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_OGRE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BOMB_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BOMB_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BOMB_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BYLO_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BYLO_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BYLO_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RART_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RART_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RART_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RYER_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RYER_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RYER_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RIRY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RIRY_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RIRY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CRYSTAL_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CRYSTAL_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CRYSTAL_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_DYNVERK_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_DYNVERK_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_DYNVERK_GSMAX",
       "value": ""
     },
     {
@@ -20251,6 +20531,118 @@
     {
       "key": "SK_GL_VC_LW_TSLP_01_P2MAX",
       "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_PVA",
+      "value": "Inflige daño (medio) en función de la MAG del usuario al objetivo 3 veces y reduce su res. ataque de unidad durante 3 turnos."
     },
     {
       "key": "SK_VC_LW_JEDN_01_GS",
@@ -24281,6 +24673,10 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_SATK_1-999_U",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_BTL_PKILLER_MAN_1-100_U",
       "value": "Técnica para equilibrar misiones."
     },
@@ -26929,6 +27325,14 @@
       "value": "Habilidad específica de equipo +6"
     },
     {
+      "key": "SK_LW_PLUS6_DARKKR_20",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_CRTAV_20",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -27089,11 +27493,91 @@
       "value": "Habilidad pasiva exclusiva de Muraga"
     },
     {
+      "key": "SK_LW_SPE_018_1_1",
+      "value": "Habilidad pasiva exclusiva de Camilo"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_2",
+      "value": "Habilidad pasiva exclusiva de Camilo"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_3",
+      "value": "Habilidad pasiva exclusiva de Camilo"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_4",
+      "value": "Habilidad pasiva exclusiva de Camilo"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_5",
+      "value": "Habilidad pasiva exclusiva de Camilo"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_1",
+      "value": "Habilidad pasiva exclusiva de Muraga"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_2",
+      "value": "Habilidad pasiva exclusiva de Muraga"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_3",
+      "value": "Habilidad pasiva exclusiva de Muraga"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_4",
+      "value": "Habilidad pasiva exclusiva de Muraga"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_5",
+      "value": "Habilidad pasiva exclusiva de Muraga"
+    },
+    {
       "key": "SK_LW_SWO_035_1",
       "value": ""
     },
     {
       "key": "SK_LW_SWO_035_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_5",
       "value": ""
     },
     {
@@ -27525,6 +28009,10 @@
       "value": "Otorga AutoLázaro al objetivo: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima)."
     },
     {
+      "key": "SK_GHUL_M_04_B",
+      "value": "Otorga AutoLázaro al objetivo: revive a la unidad automáticamente una vez por combate (recuperación de VIT: medio)."
+    },
+    {
       "key": "SK_GHUL_R_01",
       "value": "Probabilidad de realizar un contraataque al recibir daño y absorbe el daño infligido."
     },
@@ -27555,6 +28043,10 @@
     {
       "key": "SK_WYVN_M_01",
       "value": "Inflige daño (medio) al objetivo y reduce su ataque de corte durante 3 turnos."
+    },
+    {
+      "key": "SK_WYVN_M_01_GR",
+      "value": "Inflige daño (medio) al objetivo."
     },
     {
       "key": "SK_WYVN_M_02",

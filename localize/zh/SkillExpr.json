@@ -1305,6 +1305,10 @@
       "value": "一定機率使目標從無法戰鬥狀態中復活&HP全恢復"
     },
     {
+      "key": "SK_LW_WHM_S_4_3_NAIA",
+      "value": "一定機率使目標從無法戰鬥狀態中復活&HP全恢復"
+    },
+    {
       "key": "SK_LW_WHM_S_1_INIT",
       "value": "恢復目標的HP（小）"
     },
@@ -14205,6 +14209,10 @@
       "value": "魔力+40%、發動能力時間-25%"
     },
     {
+      "key": "SK_MA_LW_NAIA_2",
+      "value": "魔力+40%、發動能力時間-25%、範圍攻擊耐性+15、降低仇恨-3、「大復活」使用次數+1&強化成功率"
+    },
+    {
       "key": "SK_MA_LW_SRJS",
       "value": "敏捷+20%、運氣+10%"
     },
@@ -14291,6 +14299,10 @@
     {
       "key": "SK_MA_LW_SDLX",
       "value": "攻擊+25%、閃避率+15"
+    },
+    {
+      "key": "SK_MA_LW_SDLX_2",
+      "value": "己方暗屬性兵員HP上限+10%、狂暴耐性+25，自身範圍攻擊耐性+40（受到傷害1次即解除）、攻擊+25%、閃避率+15、防禦貫通率+30"
     },
     {
       "key": "SK_MA_LW_YERM",
@@ -14753,8 +14765,16 @@
       "value": "己方水屬性兵員HP上限+10%、水屬性能力攻擊+15，自身魔法攻擊耐性貫通率+15、魔法攻擊耐性+10"
     },
     {
+      "key": "SK_MA_LW_MORE_2",
+      "value": "己方水屬性兵員HP上限+10%、水屬性能力攻擊+15，自身魔法攻擊力+15、魔法攻擊耐性貫通率+15、魔法攻擊耐性+10、消耗AP-20%"
+    },
+    {
       "key": "SK_MA_LW_CWEL",
       "value": "己方風屬性兵員HP上限+10%、風屬性能力攻擊+15，自身射擊攻擊力+10"
+    },
+    {
+      "key": "SK_MA_LW_CWEL_2",
+      "value": "己方風屬性兵員HP上限+10%、風屬性能力攻擊+15，自身射擊攻擊力+25、射擊攻擊耐性貫通率+20"
     },
     {
       "key": "SK_MA_LW_MURG",
@@ -15155,6 +15175,26 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "閃避率+8"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_1",
+      "value": "暴擊閃避+2"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_2",
+      "value": "暴擊閃避+3"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_3",
+      "value": "暴擊閃避+5"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_4",
+      "value": "暴擊閃避+10"
+    },
+    {
+      "key": "SK_LW_CRIAVOI_5",
+      "value": "暴擊閃避+20"
     },
     {
       "key": "SK_LW_MAGICPOW_1",
@@ -17422,6 +17462,246 @@
     },
     {
       "key": "SK_VC_LW_MIRROR_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CACT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CACT_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CACT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ARMN_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ARMN_01_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ARMN_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZUUU_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZUUU_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZUUU_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_OGRE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_OGRE_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_OGRE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BOMB_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BOMB_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BOMB_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BYLO_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BYLO_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_BYLO_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RART_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RART_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RART_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RYER_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RYER_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RYER_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RIRY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RIRY_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RIRY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CRYSTAL_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CRYSTAL_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CRYSTAL_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEONIS2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HOURN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FENICE2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_WEZETT2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_DYNVERK_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_DYNVERK_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_DYNVERK_GSMAX",
       "value": ""
     },
     {
@@ -20251,6 +20531,118 @@
     {
       "key": "SK_GL_VC_LW_TSLP_01_P2MAX",
       "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_JEDN2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_JEDN2_P3MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL3_PVA",
+      "value": "對目標連續造成3次受魔力高低影響的傷害（中）&降低單體攻擊耐性3回合"
     },
     {
       "key": "SK_VC_LW_JEDN_01_GS",
@@ -24281,6 +24673,10 @@
       "value": "任務調整用技能"
     },
     {
+      "key": "SK_BTL_SATK_1-999_U",
+      "value": "任務調整用技能"
+    },
+    {
       "key": "SK_BTL_PKILLER_MAN_1-100_U",
       "value": "任務調整用技能"
     },
@@ -26929,6 +27325,14 @@
       "value": "武具+6用"
     },
     {
+      "key": "SK_LW_PLUS6_DARKKR_20",
+      "value": "武具+6用"
+    },
+    {
+      "key": "SK_LW_PLUS6_CRTAV_20",
+      "value": "武具+6用"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -27089,11 +27493,91 @@
       "value": "穆拉加專用被動能力"
     },
     {
+      "key": "SK_LW_SPE_018_1_1",
+      "value": "卡米洛專用被動能力"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_2",
+      "value": "卡米洛專用被動能力"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_3",
+      "value": "卡米洛專用被動能力"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_4",
+      "value": "卡米洛專用被動能力"
+    },
+    {
+      "key": "SK_LW_SPE_018_1_5",
+      "value": "卡米洛專用被動能力"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_1",
+      "value": "穆拉加專用被動能力"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_2",
+      "value": "穆拉加專用被動能力"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_3",
+      "value": "穆拉加專用被動能力"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_4",
+      "value": "穆拉加專用被動能力"
+    },
+    {
+      "key": "SK_LW_HLM_009_1_5",
+      "value": "穆拉加專用被動能力"
+    },
+    {
       "key": "SK_LW_SWO_035_1",
       "value": ""
     },
     {
       "key": "SK_LW_SWO_035_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_074_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOK_010_5",
       "value": ""
     },
     {
@@ -27525,6 +28009,10 @@
       "value": "當對方陷入無法戰鬥狀態時，可自動從無法戰鬥狀態中復活1次的重生效果（HP恢復（極小））"
     },
     {
+      "key": "SK_GHUL_M_04_B",
+      "value": "當對方陷入無法戰鬥狀態時，可自動從無法戰鬥狀態中復活1次的重生效果（HP恢復（中））"
+    },
+    {
       "key": "SK_GHUL_R_01",
       "value": "受到傷害時，一定機率進行反擊&吸收所造成的傷害"
     },
@@ -27555,6 +28043,10 @@
     {
       "key": "SK_WYVN_M_01",
       "value": "對目標造成傷害（中）&降低斬擊攻擊力3回合"
+    },
+    {
+      "key": "SK_WYVN_M_01_GR",
+      "value": "對目標造成傷害（中）"
     },
     {
       "key": "SK_WYVN_M_02",
