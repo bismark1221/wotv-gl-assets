@@ -3425,6 +3425,70 @@
       "value": "Aumenta el ataque de perforación, la tasa de penetración de DEF, la res. ataque de zona y la res. ataque mágico del usuario y le otorga coraza durante 5 turnos."
     },
     {
+      "key": "SK_LW_ALIA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ALIA_M_1",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (medio) a los objetivos al alcance y probabilidad de infligirles congelación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ALIA_M_2",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo y le inflige daño (medio) 3 veces."
+    },
+    {
+      "key": "SK_LW_ALIA_M_3",
+      "value": "Aumenta el ataque de hielo de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de res. ataque a distancia del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ALIA_S_1",
+      "value": "Elimina autolázaro del objetivo y le inflige daño (poco)."
+    },
+    {
+      "key": "SK_LW_ALIA_S_2",
+      "value": "Aumenta el TC del usuario (medio) y aumenta su ataque a distancia durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ALIA_S_3",
+      "value": "Inflige daño (medio) al objetivo y reduce su ATQ y AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ALIA_S_4",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle embrujo durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ALIA_R_1",
+      "value": "Probabilidad de evadir ataques físicos y aumenta el ATQ del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ALIA_P_1",
+      "value": "Alcance +1 y aumenta la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_ALIA_P_2",
+      "value": "Aumenta el ataque a distancia y los PA adquiridos, y reduce el movimiento en 1."
+    },
+    {
+      "key": "SK_LW_ALIA_EN_A_01",
+      "value": "Elimina coraza del objetivo, le inflige daño penetrante (medio) y reduce su res. ataque a distancia durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_ALIA_C_01",
+      "value": "Mejora «Puntería dracónica» a «Puntería ciervodragón»: alcance +2 y aumenta la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_EC_ALIA_C_01B",
+      "value": "Alcance +2 y aumenta la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_EC_ALIA_C_02",
+      "value": "Mejora «Marcha de la princesa dragón» a «Marcha de la princesa ciervodragón»: reduce el consumo de PA del usuario, alcance +1 hasta recibir daño 2 veces, aumenta el ataque de hielo de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de res. ataque a distancia del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_ALIA_C_02B",
+      "value": "Reduce el consumo de PA del usuario, alcance +1 hasta recibir daño 2 veces, aumenta el ataque de hielo de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de res. ataque a distancia del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LW_LSWL_ATK",
       "value": ""
     },
@@ -11869,6 +11933,10 @@
       "value": "Inflige daño no elemental (mínimo) en función de la MAG del usuario al objetivo."
     },
     {
+      "key": "SK_LB_LW_ALIA",
+      "value": "Daño (mucho) 2 veces al objetivo, probabilidad de infligirle inmóvil durante 3 turnos y efecto adicional: reduce la res. hielo en estado inmóvil."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -15053,6 +15121,10 @@
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: VIT máx. +5 %, res. ataque de zona +10"
     },
     {
+      "key": "SK_MA_LW_ALIA",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de bloqueo de reacción +30, mayor probabilidad de activación de congelación"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -16423,6 +16495,10 @@
     {
       "key": "SK_CLT_LW_LUCA_01",
       "value": "Aumenta el daño límite de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_LW_ALIA_1",
+      "value": "Aumenta el ATQ de los aliados de alrededor durante 3 turnos y anula embrujo, paro y locura."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -20629,15 +20705,15 @@
       "value": ""
     },
     {
-      "key": "SK_VC_LW_HALL3_P2",
+      "key": "SK_GL_VC_LW_HALL3_P2",
       "value": ""
     },
     {
-      "key": "SK_VC_LW_HALL3_P2AW",
+      "key": "SK_GL_VC_LW_HALL3_P2AW",
       "value": ""
     },
     {
-      "key": "SK_VC_LW_HALL3_P2MAX",
+      "key": "SK_GL_VC_LW_HALL3_P2MAX",
       "value": ""
     },
     {
@@ -27558,6 +27634,26 @@
     },
     {
       "key": "SK_LW_ACC_074_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_004_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_004_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_004_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_004_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_004_5",
       "value": ""
     },
     {
