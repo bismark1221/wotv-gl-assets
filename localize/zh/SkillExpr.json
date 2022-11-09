@@ -5877,6 +5877,10 @@
       "value": "以自身為中心，提升範圍內己方隊員的暴擊閃避率、範圍攻擊耐性3回合"
     },
     {
+      "key": "SK_LW_OBRN_S_2_B",
+      "value": "3回合內以自身為中心提升範圍內己方隊員的暴擊閃避率、範圍攻擊耐性&提升自身防禦貫通率3回合"
+    },
+    {
       "key": "SK_LW_OBRN_S_3",
       "value": "對範圍內目標造成傷害（中）&降低土屬性耐性3回合"
     },
@@ -11513,6 +11517,10 @@
       "value": "對目標連續造成2次傷害（特大）&高機率施加3回合狀態效果（止移、止動）"
     },
     {
+      "key": "SK_LB_LW_LUCA_B_1",
+      "value": "提升自身射擊攻擊耐性貫通率3回合後，對目標連續造成2次傷害（大）&一定機率施加3回合狀態效果（止移、止動）"
+    },
+    {
       "key": "SK_LB_LW_YERM",
       "value": "對目標造成傷害（大）&降低其單體攻擊耐性3回合&提升自身單體攻擊耐性"
     },
@@ -14470,7 +14478,11 @@
     },
     {
       "key": "SK_MA_LW_P_LUCA",
-      "value": "攻擊+10%、土屬性特效+15%"
+      "value": "攻擊+10%、對土屬性特效+15"
+    },
+    {
+      "key": "SK_MA_LW_LUCA_2",
+      "value": "己方風屬性兵員HP上限+10%、風屬性能力攻擊+15，自身攻擊+20%、對土屬性特效+15、範圍攻擊耐性+10、強化「殘虐之舞」。提升止移、止動發動率。提升自身射擊攻擊耐性貫通率3回合後，對目標連續造成2次傷害（大）&一定機率施加3回合狀態效果（止移、止動）"
     },
     {
       "key": "SK_MA_LW_P_ADLD",
@@ -14705,6 +14717,10 @@
       "value": "己方光屬性兵員HP上限+10%、光屬性能力攻擊+10，自身魔力+20%、命中率+15"
     },
     {
+      "key": "SK_MA_LW_ELSI_2",
+      "value": "己方光屬性兵員HP上限+10%、光屬性能力攻擊+10，自身魔力+40%、命中率+15、降低仇恨-3、發動能力時間-20%"
+    },
+    {
       "key": "SK_MA_LW_VNLA_01",
       "value": "己方土屬性兵員HP上限+10%、土屬性能力攻擊+15，自身攻擊+20%"
     },
@@ -14933,6 +14949,10 @@
       "value": "己方光屬性兵員HP上限+10%、光屬性能力攻擊+15，自身消耗AP-20%、射擊攻擊耐性+10"
     },
     {
+      "key": "SK_MA_LW_JEDN_2",
+      "value": "己方光屬性兵員HP上限+10%、光屬性能力攻擊+15，自身射擊攻擊耐性貫通率+40（受到傷害2次即解除）、消耗AP-20%、射擊攻擊耐性+10、魔力+20%、反應能力阻止率+40"
+    },
+    {
       "key": "SK_MA_LW_VLUC",
       "value": "己方風屬性兵員HP上限+10%、風屬性能力攻擊+15，自身精神+5、HP上限+15%"
     },
@@ -14951,6 +14971,10 @@
     {
       "key": "SK_MA_LW_OBRN",
       "value": "己方土屬性兵員HP上限+10%、土屬性能力攻擊+15，自身HP上限+10%、單體攻擊耐性+10"
+    },
+    {
+      "key": "SK_MA_LW_OBRN_2",
+      "value": "己方土屬性兵員HP上限+10%、土屬性能力攻擊+15，自身HP上限+20%、單體攻擊耐性+10、消耗AP-30%、強化「紫龍守護」。3回合內以自身為中心提升範圍內己方隊員的暴擊閃避率、範圍攻擊耐性&提升自身防禦貫通率3回合"
     },
     {
       "key": "SK_MA_LW_FALM",
@@ -20669,6 +20693,90 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_ALIA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PMAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_HALL3_GS",
       "value": ""
     },
@@ -21486,6 +21594,34 @@
     },
     {
       "key": "SK_VC_LW_ADLD2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_PAW",
       "value": ""
     },
     {
@@ -26873,6 +27009,10 @@
       "value": ""
     },
     {
+      "key": "SK_GMK_ATK_CAPT_01",
+      "value": "機關（其他效果 止移）"
+    },
+    {
       "key": "SK_GMK_ATK_POISON",
       "value": ""
     },
@@ -27406,6 +27546,22 @@
     },
     {
       "key": "SK_LW_PLUS6_CRTAV_20",
+      "value": "武具+6用"
+    },
+    {
+      "key": "SK_LW_PLUS6_CRT_15",
+      "value": "武具+6用"
+    },
+    {
+      "key": "SK_LW_PLUS6_DEX_20",
+      "value": "武具+6用"
+    },
+    {
+      "key": "SK_LW_PLUS6_REACTSTP_20",
+      "value": "武具+6用"
+    },
+    {
+      "key": "SK_LW_PLUS6_SHOT_25",
       "value": "武具+6用"
     },
     {

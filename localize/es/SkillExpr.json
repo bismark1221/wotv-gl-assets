@@ -5877,6 +5877,10 @@
       "value": "Aumenta la tasa de evasión de crítico y la res. ataque de zona de los aliados de alrededor durante 3 turnos."
     },
     {
+      "key": "SK_LW_OBRN_S_2_B",
+      "value": "Aumenta la tasa de evasión de crítico y la res. ataque de zona de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LW_OBRN_S_3",
       "value": "Inflige daño (medio) a los objetivos al alcance y reduce su res. tierra durante 3 turnos."
     },
@@ -10334,7 +10338,7 @@
     },
     {
       "key": "SK_PNIX_M_05",
-      "value": "Aumenta permanentemente todas las resistencias elementales excepto a agua, la resistencia a reducciones y la potencia de curación del usuario, y le otorga autolázaro."
+      "value": "Aumenta de forma permanente todas las resistencias elementales excepto a agua, la resistencia a reducciones y la potencia de curación del usuario, y le otorga autolázaro."
     },
     {
       "key": "SK_PNIX_M_06",
@@ -10342,7 +10346,7 @@
     },
     {
       "key": "SK_PNIX_M_05_PT",
-      "value": "Aumenta permanentemente la potencia de curación del usuario y le otorga autolázaro."
+      "value": "Aumenta de forma permanente la potencia de curación del usuario y le otorga autolázaro."
     },
     {
       "key": "SK_CORL_ATK",
@@ -10746,7 +10750,7 @@
     },
     {
       "key": "SK_PRS5_KNSR_M_03",
-      "value": "Aumenta el ATQ y la MAG de los aliados al alcance permanentemente y reduce el consumo de PA (acumulable hasta 2 veces)."
+      "value": "Aumenta el ATQ y la MAG de los aliados al alcance de forma permanente y reduce el consumo de PA (acumulable hasta 2 veces)."
     },
     {
       "key": "SK_PRS5_KNSR_M_04",
@@ -11511,6 +11515,10 @@
     {
       "key": "SK_LB_LW_LUCA_B",
       "value": "Daño (muchísimo) 2 veces al objetivo y probabilidad alta de infligirle estados alterados (inútil, inmóvil) durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_LUCA_B_1",
+      "value": "Aumenta la tasa de penetración de res. ataque a distancia del usuario durante 3 turnos, inflige daño (mucho) 2 veces al objetivo y probabilidad de infligirle estados alterados (inútil, inmóvil) durante 3 turnos."
     },
     {
       "key": "SK_LB_LW_YERM",
@@ -13746,11 +13754,11 @@
     },
     {
       "key": "SK_LW_EC_ARC_C_04",
-      "value": "Mejora «Antimagia zonal» a «Ráfaga antimagia»: reduce el consumo de PA. Inflige daño (mucho) con alta precisión a los objetivos al alcance y elimina todas sus mejoras."
+      "value": "Mejora «Antimagia zonal» a «Ráfaga antimagia»: reduce el consumo de PA. Inflige daño (mucho) con mucha precisión a los objetivos al alcance y elimina todas sus mejoras."
     },
     {
       "key": "SK_LW_EC_ARC_C_04B",
-      "value": "Inflige daño (mucho) con alta precisión a los objetivos al alcance y elimina todas sus mejoras."
+      "value": "Inflige daño (mucho) con mucha precisión a los objetivos al alcance y elimina todas sus mejoras."
     },
     {
       "key": "SK_LW_EC_MNK_A_03",
@@ -14470,7 +14478,11 @@
     },
     {
       "key": "SK_MA_LW_P_LUCA",
-      "value": "ATQ +10 %, Cometerrestres +15 %"
+      "value": "ATQ +10 %, Cometerrestres +15"
+    },
+    {
+      "key": "SK_MA_LW_LUCA_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: ATQ +20 %, Cometerrestres +15, res. ataque de zona +10, mejora «Baile sádico»: mayor probabilidad de activación de inmóvil e inútil. Aumenta la tasa de penetración de res. ataque a distancia del usuario durante 3 turnos, inflige daño (mucho) 2 veces al objetivo y probabilidad de infligirle estados alterados (inútil, inmóvil) durante 3 turnos."
     },
     {
       "key": "SK_MA_LW_P_ADLD",
@@ -14705,6 +14717,10 @@
       "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +10; usuario: MAG +20 %, tasa de precisión +15"
     },
     {
+      "key": "SK_MA_LW_ELSI_2",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +10; usuario: MAG +40 %, tasa de precisión +15, odio -3, tiempo de activación -20 %"
+    },
+    {
       "key": "SK_MA_LW_VNLA_01",
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +20 %"
     },
@@ -14933,6 +14949,10 @@
       "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: consumo de PA -20 %, res. proyectiles +10"
     },
     {
+      "key": "SK_MA_LW_JEDN_2",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: tasa de penetración de res. ataque a distancia +40 (se elimina al recibir daño 2 veces), consumo de PA -20 %, res. ataque a distancia +10, MAG +20 %, tasa de bloqueo de reacción +40"
+    },
+    {
       "key": "SK_MA_LW_VLUC",
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: ESP +5, VIT máx. +15 %"
     },
@@ -14951,6 +14971,10 @@
     {
       "key": "SK_MA_LW_OBRN",
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: VIT máx. +10 %, res. ataque de unidad +10"
+    },
+    {
+      "key": "SK_MA_LW_OBRN_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: VIT máx. +20 %, res. ataque de unidad +10, consumo de PA -30 %, mejora «Providencia dracónica»: aumenta la tasa de evasión de crítico y la res. ataque de zona de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
     },
     {
       "key": "SK_MA_LW_FALM",
@@ -20669,6 +20693,90 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_ALIA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PMAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_HALL3_GS",
       "value": ""
     },
@@ -21486,6 +21594,34 @@
     },
     {
       "key": "SK_VC_LW_ADLD2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_PAW",
       "value": ""
     },
     {
@@ -26873,6 +27009,10 @@
       "value": ""
     },
     {
+      "key": "SK_GMK_ATK_CAPT_01",
+      "value": "Mecanismo (efecto aparte: inmóvil)"
+    },
+    {
       "key": "SK_GMK_ATK_POISON",
       "value": ""
     },
@@ -27406,6 +27546,22 @@
     },
     {
       "key": "SK_LW_PLUS6_CRTAV_20",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_CRT_15",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_DEX_20",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_REACTSTP_20",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_SHOT_25",
       "value": "Habilidad específica de equipo +6"
     },
     {

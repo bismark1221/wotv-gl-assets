@@ -602,7 +602,7 @@
     },
     {
       "key": "SK_LW_SAM_R_1",
-      "value": "Gewährt Chance auf 3 Runden andauernde Erhöhung der eigenen Ausweichrate bei Erleiden von Schaden (bis zu 3-mal stapelbar)."
+      "value": "Gewährt Chance auf 3 Runden andauernde Erhöhung der eigenen Ausweichrate bei Erleiden von Schaden (bis zu 3 Mal stapelbar)."
     },
     {
       "key": "SK_LW_SAM_P_1",
@@ -5877,6 +5877,10 @@
       "value": "Erhöht 3 Runden lang Kritische Ausweichrate und Bereichangriffsresistenz von Verbündeten im Bereich um Wirkenden."
     },
     {
+      "key": "SK_LW_OBRN_S_2_B",
+      "value": "Erhöht 3 Runden lang Kritische Ausweichrate und Bereichangriffsresistenz von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigene ABW-Durchbohrrate."
+    },
+    {
       "key": "SK_LW_OBRN_S_3",
       "value": "Fügt Zielen in Reichweite Schaden (M) zu und senkt 3 Runden lang Erdresistenz."
     },
@@ -8386,7 +8390,7 @@
     },
     {
       "key": "SK_LW_SLEN_S_3",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (S) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Immobilisierung."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (S) zu und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
     },
     {
       "key": "SK_LW_SLEN_S_4",
@@ -11186,7 +11190,7 @@
     },
     {
       "key": "SK_WHDG_M_02",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Immobilisierung."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
     },
     {
       "key": "SK_WHDG_M_03",
@@ -11511,6 +11515,10 @@
     {
       "key": "SK_LB_LW_LUCA_B",
       "value": "Fügt dem Ziel 2-mal hintereinander Schaden (XL) zu und gewährt hohe Chance auf Wirken von 3 Runden andauernden Zustandsveränderungen (Immobilisierung, Ausschalten)."
+    },
+    {
+      "key": "SK_LB_LW_LUCA_B_1",
+      "value": "Erhöht 3 Runden lang eigene Geschossresistenz-Durchbohrrate, fügt dem Ziel anschließend 2 Mal hintereinander Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauernden Zustandsveränderungen (Immobilisierung, Ausschalten)."
     },
     {
       "key": "SK_LB_LW_YERM",
@@ -14470,7 +14478,11 @@
     },
     {
       "key": "SK_MA_LW_P_LUCA",
-      "value": "ANG +10 %, Erdfresser +15 %"
+      "value": "ANG +10 %, Erdfresser +15"
+    },
+    {
+      "key": "SK_MA_LW_LUCA_2",
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigener ANG +20 %, Erdfresser +15, Bereichangriffsresistenz +10. Verstärkt Sadistischer Tanz. Erhöht Aktivierungsgeschwindigkeit für Immobilisierung und Ausschalten. Erhöht 3 Runden lang eigene Geschossresistenz-Durchbohrrate, fügt dem Ziel anschließend 2 Mal hintereinander Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauernden Zustandsveränderungen (Immobilisierung, Ausschalten)."
     },
     {
       "key": "SK_MA_LW_P_ADLD",
@@ -14705,6 +14717,10 @@
       "value": "LP-Maximum +10 % und Lichtangriff +10 für verbündete Lichteinheiten, eigene MAG +20 % und Präzision +15"
     },
     {
+      "key": "SK_MA_LW_ELSI_2",
+      "value": "LP-Maximum +10 % und Lichtangriff +10 für verbündete Lichteinheiten, eigene MAG<br>+40 %, Präzision +15, Hass -3 und Aktivierungszeit -20 %"
+    },
+    {
       "key": "SK_MA_LW_VNLA_01",
       "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigener ANG +20 %"
     },
@@ -14933,6 +14949,10 @@
       "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigener AP-Verbrauch -20 % und Geschossresistenz +10"
     },
     {
+      "key": "SK_MA_LW_JEDN_2",
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene Geschossresistenz-Durchbohrrate +40 (wird aufgehoben, wenn 2 Mal Schaden erlitten wurde), AP-Verbrauch -20 %, Geschossresistenz +10, MAG +20 % und Reaktionsblockrate +40"
+    },
+    {
       "key": "SK_MA_LW_VLUC",
       "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene PSY +5 und LP-Maximum +15 %"
     },
@@ -14951,6 +14971,10 @@
     {
       "key": "SK_MA_LW_OBRN",
       "value": "LP-Maximum +10 % sowie Erdangriff +15 für verbündete Erdeinheiten, eigenes LP-Maximum +10 % und Einzelangriffsresistenz +10."
+    },
+    {
+      "key": "SK_MA_LW_OBRN_2",
+      "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigenes LP-Maximum +20 %, Einzelangriffsresistenz +10, AP-Verbrauch -30 % und verstärkt Voraussicht des lila Drachen. Erhöht 3 Runden lang Kritische Ausweichrate und Bereichangriffsresistenz von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigene ABW-Durchbohrrate."
     },
     {
       "key": "SK_MA_LW_FALM",
@@ -20669,6 +20693,90 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_ALIA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PMAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_HALL3_GS",
       "value": ""
     },
@@ -21486,6 +21594,34 @@
     },
     {
       "key": "SK_VC_LW_ADLD2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_PAW",
       "value": ""
     },
     {
@@ -26873,6 +27009,10 @@
       "value": ""
     },
     {
+      "key": "SK_GMK_ATK_CAPT_01",
+      "value": "Gimmick-Angriff (separater Effekt: Immobilisierung)"
+    },
+    {
       "key": "SK_GMK_ATK_POISON",
       "value": ""
     },
@@ -27406,6 +27546,22 @@
     },
     {
       "key": "SK_LW_PLUS6_CRTAV_20",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_CRT_15",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_DEX_20",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_REACTSTP_20",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_SHOT_25",
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {

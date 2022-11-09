@@ -5877,6 +5877,10 @@
       "value": "3턴 동안 자신을 중심으로 범위 내 아군의 크리티컬 회피율/범위 공격 저항력 증가"
     },
     {
+      "key": "SK_LW_OBRN_S_2_B",
+      "value": "3턴 동안 자신을 중심으로 범위 내 아군의 크리티컬 회피율/범위 공격 저항력 증가+3턴 동안 자신의 방어 관통률 증가"
+    },
+    {
       "key": "SK_LW_OBRN_S_3",
       "value": "범위 내 대상에게 피해(중)+3턴 동안 땅속성 저항력 감소"
     },
@@ -11513,6 +11517,10 @@
       "value": "대상에게 2연속 피해(특대)+고확률로 3턴 동안 돈무브/돈액트 효과"
     },
     {
+      "key": "SK_LB_LW_LUCA_B_1",
+      "value": "3턴 동안 자신의 사격 저항력 관통률 증가+대상에게 2연속 피해(대)+일정 확률로 3턴 동안 돈무브/돈액트 효과"
+    },
+    {
       "key": "SK_LB_LW_YERM",
       "value": "대상에게 피해(대)+3턴 동안 단일 공격 저항력 감소+자신의 단일 공격 저항력 증가"
     },
@@ -14470,7 +14478,11 @@
     },
     {
       "key": "SK_MA_LW_P_LUCA",
-      "value": "공격+10%, 땅속성 킬러+15%"
+      "value": "공격력+10%, 땅속성 킬러+15"
+    },
+    {
+      "key": "SK_MA_LW_LUCA_2",
+      "value": "바람속성 아군 유닛의 최대 HP+10%/바람속성 어빌리티 공격력+15, 자신의 공격력+20%/땅속성 킬러+15/범위 공격 저항력+10/'새디스틱 댄스' 강화+돈무브/돈액트 발동률 증가+3턴 동안 자신의 사격 저항력 관통률 증가+대상에게 2연속 피해(대)+일정 확률로 3턴 동안 돈무브/돈액트 효과"
     },
     {
       "key": "SK_MA_LW_P_ADLD",
@@ -14705,6 +14717,10 @@
       "value": "빛속성 아군 유닛의 최대 HP+10%/빛속성 어빌리티 공격력+10, 자신의 마력+20%/명중률+15"
     },
     {
+      "key": "SK_MA_LW_ELSI_2",
+      "value": "빛속성 아군 유닛의 최대 HP+10%/빛속성 어빌리티 공격력+10, 자신의 마력+40%/명중률+15/헤이트 감소-3/어빌리티 발동 시간-20%"
+    },
+    {
       "key": "SK_MA_LW_VNLA_01",
       "value": "땅속성 아군 유닛의 최대 HP+10%/땅속성 어빌리티 공격력+15, 자신의 공격력+20%"
     },
@@ -14933,6 +14949,10 @@
       "value": "빛속성 아군 유닛의 최대 HP+10%/빛속성 어빌리티 공격력+15, 자신의 소비 AP-20%, 사격 저항력+10"
     },
     {
+      "key": "SK_MA_LW_JEDN_2",
+      "value": "빛속성 아군 유닛의 최대 HP+10%/빛속성 어빌리티 공격력+15, 자신의 사격 저항력 관통률+40(피해를 2회 받으면 해제)/소비 AP-20%/사격 저항력+10/마력+20%/리액션 저지율+40"
+    },
+    {
       "key": "SK_MA_LW_VLUC",
       "value": "바람속성 아군 유닛의 최대 HP+10%/바람속성 어빌리티 공격력+15, 자신의 정신력+5/최대 HP+15%"
     },
@@ -14951,6 +14971,10 @@
     {
       "key": "SK_MA_LW_OBRN",
       "value": "땅속성 아군 유닛의 최대 HP+10%/땅속성 어빌리티 공격력+15, 자신의 최대 HP+10%/단일 공격 저항력+10"
+    },
+    {
+      "key": "SK_MA_LW_OBRN_2",
+      "value": "땅속성 아군 유닛의 최대 HP+10%/땅속성 어빌리티 공격력+15, 자신의 최대 HP+20%/단일 공격 저항력+10/소비 AP-30%/'자룡의 수호' 강화+3턴 동안 자신을 중심으로 범위 내 아군의 크리티컬 회피율/범위 공격 저항력 증가+3턴 동안 자신의 방어 관통률 증가"
     },
     {
       "key": "SK_MA_LW_FALM",
@@ -20669,6 +20693,90 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_ALIA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PMAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_HALL3_GS",
       "value": ""
     },
@@ -21486,6 +21594,34 @@
     },
     {
       "key": "SK_VC_LW_ADLD2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_PAW",
       "value": ""
     },
     {
@@ -26873,6 +27009,10 @@
       "value": ""
     },
     {
+      "key": "SK_GMK_ATK_CAPT_01",
+      "value": "기믹(돈무브 별도 이펙트)"
+    },
+    {
       "key": "SK_GMK_ATK_POISON",
       "value": ""
     },
@@ -27406,6 +27546,22 @@
     },
     {
       "key": "SK_LW_PLUS6_CRTAV_20",
+      "value": "장비+6용"
+    },
+    {
+      "key": "SK_LW_PLUS6_CRT_15",
+      "value": "장비+6용"
+    },
+    {
+      "key": "SK_LW_PLUS6_DEX_20",
+      "value": "장비+6용"
+    },
+    {
+      "key": "SK_LW_PLUS6_REACTSTP_20",
+      "value": "장비+6용"
+    },
+    {
+      "key": "SK_LW_PLUS6_SHOT_25",
       "value": "장비+6용"
     },
     {

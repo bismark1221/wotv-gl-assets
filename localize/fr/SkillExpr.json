@@ -5877,6 +5877,10 @@
       "value": "Augmente le taux d'esquive critique et la résistance aux attaques de zone unique des alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_LW_OBRN_S_2_B",
+      "value": "Augmente le taux d'esquive critique et la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de perforation de la DEF du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_LW_OBRN_S_3",
       "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, et réduit la résistance à la terre pendant 3 tours."
     },
@@ -11513,6 +11517,10 @@
       "value": "Inflige des dégâts (XL) en 2 coups à la cible et confère une chance élevée d'infliger des altérations d'état (Immobilisation et Incapacité) pendant 3 tours."
     },
     {
+      "key": "SK_LB_LW_LUCA_B_1",
+      "value": "Augmente le taux de perforation de la résistance aux attaques projectiles du lanceur pendant 3 tours, puis inflige des dégâts (L) en 2 coups à la cible, et confère une chance d'infliger les altérations d'état (Immobilisation/Incapacité) pendant 3 tours."
+    },
+    {
       "key": "SK_LB_LW_YERM",
       "value": "Inflige des dégâts (L) à la cible, réduit sa résistance aux attaques à cible unique pendant 3 tours et augmente celle du lanceur."
     },
@@ -14470,7 +14478,11 @@
     },
     {
       "key": "SK_MA_LW_P_LUCA",
-      "value": "ATT +10 %, Terraphage +15 %"
+      "value": "Augmente l'ATT de 10 % et l'effet Terraphage de 15."
+    },
+    {
+      "key": "SK_MA_LW_LUCA_2",
+      "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente l'ATT du lanceur de 20 %, Terraphage de 15, sa résistance aux attaques de zone de 10 et améliore Danse sadique : augmente le taux d'activation de Immobilisation et Incapacité. Augmente le taux de perforation de la résistance aux attaques projectiles du lanceur pendant 3 tours, puis inflige des dégâts (L) en 2 coups à la cible, et confère une chance d'infliger les altérations d'état (Immobilisation/Incapacité) pendant 3 tours"
     },
     {
       "key": "SK_MA_LW_P_ADLD",
@@ -14705,6 +14717,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de lumière de 10 pour les unités alliées de lumière, augmente la MAGIE du lanceur de 20 % et son taux de précision de 15."
     },
     {
+      "key": "SK_MA_LW_ELSI_2",
+      "value": "Augmente les PV max de 10 % et les attaques de lumière de 10 pour les unités alliées de lumière, augmente la MAGIE du lanceur de 40 %, augmente son taux de précision de 15, réduit sa Haine de 3 et son délai d'activation de 20 %."
+    },
+    {
       "key": "SK_MA_LW_VNLA_01",
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, et augmente l'ATT du lanceur de 20 %."
     },
@@ -14933,6 +14949,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, réduit la consommation de PA du lanceur de 20 % et augmente sa résistance aux attaques projectiles de 10."
     },
     {
+      "key": "SK_MA_LW_JEDN_2",
+      "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente le taux de perforation de la résistance aux attaques projectiles du lanceur de 40 (se dissipe après avoir subi 2 fois des dégâts), réduit la consommation de PA de 20 %, augmente la résistance aux attaques projectiles de 10, la MAGIE de 20 % et le taux de blocage de réaction de 40"
+    },
+    {
       "key": "SK_MA_LW_VLUC",
       "value": "Augmente les PV max de 10 % et les attaques de vent de +15 pour les unités alliées de vent, augmente la PSY du lanceur de 5 et ses PV max de +15 %."
     },
@@ -14951,6 +14971,10 @@
     {
       "key": "SK_MA_LW_OBRN",
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente les PV max du lanceur de 10 % et sa résistance aux attaques à cible unique de 10."
+    },
+    {
+      "key": "SK_MA_LW_OBRN_2",
+      "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente les PV max du lanceur de 20 %, la résistance aux attaques à cible unique de 10, réduit la consommation de PA de 30 % et améliore Providence du dragon améthyste : augmente le taux d'esquive critique et la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de perforation de la DEF du lanceur pendant 3 tours."
     },
     {
       "key": "SK_MA_LW_FALM",
@@ -20669,6 +20693,90 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_ALIA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLORY_PMAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_HALL3_GS",
       "value": ""
     },
@@ -21486,6 +21594,34 @@
     },
     {
       "key": "SK_VC_LW_ADLD2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ZZAN2_PAW",
       "value": ""
     },
     {
@@ -26873,6 +27009,10 @@
       "value": ""
     },
     {
+      "key": "SK_GMK_ATK_CAPT_01",
+      "value": "Gimmick (effet séparé : Immobilisation)"
+    },
+    {
       "key": "SK_GMK_ATK_POISON",
       "value": ""
     },
@@ -27406,6 +27546,22 @@
     },
     {
       "key": "SK_LW_PLUS6_CRTAV_20",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_CRT_15",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_DEX_20",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_REACTSTP_20",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_SHOT_25",
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
