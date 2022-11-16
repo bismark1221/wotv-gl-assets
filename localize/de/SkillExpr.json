@@ -3489,6 +3489,70 @@
       "value": "Senkt eigenen AP-Verbrauch, Reichweite +1 bis 2 Mal Schaden erlitten wurde, erhöht 3 Runden lang Eisangriff von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigene Geschossresistenz-Durchbohrrate."
     },
     {
+      "key": "SK_LW_BFI_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BFI_M_1",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate und fügt Zielen in Reichweite anschließend Schaden (M) zu, mit höherem Schaden bei Zielen mit ABW-Erhöhung oder automatischer AP-Wiederherstellung (ausgenommen Ziele mit Levitas-Status)."
+    },
+    {
+      "key": "SK_LW_BFI_M_2",
+      "value": "Gewährt Verbündeten im Bereich um Wirkenden bei Angriff Entfernen von Mumm-Effekt (wird vor dem Angriff aktiviert) für 3 Runden und erhöht eigene Präzision für 3 Runden."
+    },
+    {
+      "key": "SK_LW_BFI_M_3",
+      "value": "Senkt nach Bewegung auf Zielfeld Aktivierungschance von Reaktionsfähigkeiten des Ziels erheblich und fügt anschließend 3 Mal hintereinander Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_BFI_S_1_INIT",
+      "value": "Fügt dem Ziel Schaden (S) zu und senkt 3 Runden lang AGI."
+    },
+    {
+      "key": "SK_LW_BFI_S_2_INIT",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, und heilt eigene AP."
+    },
+    {
+      "key": "SK_LW_BFI_S_3",
+      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu und senkt AP."
+    },
+    {
+      "key": "SK_LW_BFI_S_4",
+      "value": "Erhöht 3 Runden lang eigenen ANG erheblich und senkt PSY."
+    },
+    {
+      "key": "SK_LW_BFI_R_1",
+      "value": "Gewährt Chance, physischen Angriffen auszuweichen."
+    },
+    {
+      "key": "SK_LW_BFI_P_1",
+      "value": "Erhöht ANG und ABW-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_BFI_P_2",
+      "value": "Bewegung +1 und erhöht AGI."
+    },
+    {
+      "key": "SK_LW_BFI_EN_A_01",
+      "value": "Zerstört physischen Schaden verringernde Barrieren und fügt Zielen in Reichweite anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_01",
+      "value": "Verstärkt Himmelsstich zu Himmelsschlitzer. Erhöht 3 Runden lang eigene ABW-Durchbohrrate und fügt Zielen in Reichweite anschließend Schaden (M) zu, mit höherem Schaden bei Zielen mit ABW-Erhöhung, automatischer AP-Wiederherstellung oder Hast (ausgenommen Ziele mit Levitas-Status)."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_01B",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate und fügt Zielen in Reichweite anschließend Schaden (M) zu, mit höherem Schaden bei Zielen mit ABW-Erhöhung, automatischer AP-Wiederherstellung oder Hast (ausgenommen Ziele mit Levitas-Status)."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_02",
+      "value": "Verstärkt Unnachgiebige Haltung zu Dogmatische Haltung. Fähigkeiteneinsätze +1 und erhöhte AP-Heilung."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_02B",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, und heilt eigene AP."
+    },
+    {
       "key": "SK_LW_LSWL_ATK",
       "value": ""
     },
@@ -11945,6 +12009,10 @@
       "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung und zusätzlicher Effekt: Senkung der Eisresistenz während Immobilisierung."
     },
     {
+      "key": "SK_LB_LW_URAL",
+      "value": "Entfernt alle Stärkungen vom Ziel, fügt anschließend Schaden (L) zu und wirkt 3 Runden andauernde automatische AP-Wiederherstellung (S) auf sich selbst."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Ruft Ifrit, fügt Zielen in Reichweite Feuerschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Feuerresistenz-Senkung für Gegner)."
     },
@@ -14042,7 +14110,7 @@
     },
     {
       "key": "SK_US_SPDPOTION",
-      "value": "Erhöht erhöht 3 Runden lang AGI des Ziels."
+      "value": "Erhöht erhöht 3 Runden lang AGI eines Verbündeten."
     },
     {
       "key": "SK_US_DEXPOTION",
@@ -15147,6 +15215,10 @@
     {
       "key": "SK_MA_LW_ALIA",
       "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene Reaktionsblockrate +30, Erhöhung der Aktivierungsgeschwindigkeit für Erfrierung"
+    },
+    {
+      "key": "SK_MA_LW_URAL",
+      "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigene Schlitzresistenz +10, eigene Geschossresistenz +15"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -16523,6 +16595,10 @@
     {
       "key": "SK_ACC_LW_ALIA_1",
       "value": "Erhöht 3 Runden lang ANG von Verbündeten im Bereich um Wirkenden und annulliert Betörung/Stopp/Berserker."
+    },
+    {
+      "key": "SK_CLT_LW_URAL_1",
+      "value": "Lässt Wirkenden 3 Runden lang einen Teil des von Verbündeten im Bereich um Wirkenden erlittenen LP-Schadens absorbieren."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -20777,6 +20853,42 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_ADSN_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_PMAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_HALL3_GS",
       "value": ""
     },
@@ -20827,6 +20939,54 @@
     {
       "key": "SK_VC_LW_HALL3_PVA",
       "value": "Fügt dem Ziel 3 Mal hintereinander MAG-abhängigen Schaden (M) zu und senkt 3 Runden lang Einzelangriffsresistenz."
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FDRC_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FDRC_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FDRC_P2MAX",
+      "value": ""
     },
     {
       "key": "SK_VC_LW_JEDN_01_GS",
@@ -27810,6 +27970,30 @@
     },
     {
       "key": "SK_LW_GUN_004_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_5_B",
       "value": ""
     },
     {

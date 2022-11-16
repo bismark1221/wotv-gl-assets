@@ -3489,6 +3489,70 @@
       "value": "Réduit la consommation de PA du lanceur et augmente la Portée de 1 jusqu'à ce que le lanceur subisse des dégâts 2 fois, augmente les attaques de glace des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de perforation de la résistance aux attaques projectiles du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_LW_BFI_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BFI_M_1",
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (M) aux unités dans la zone ciblée et les dégâts sont accrus si les cibles sont sous l'effet d'un bonus de DEF ou d'une Restauration auto de PA (les cibles avec le statut Apesanteur ne seront pas atteintes)."
+    },
+    {
+      "key": "SK_LW_BFI_M_2",
+      "value": "Accorde un effet de dissipation d'Hardiesse (s'active avant une attaque) aux attaques des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de précision du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_BFI_M_3",
+      "value": "Après déplacement jusqu'à la case ciblée, réduit considérablement le taux d'activation de l'aptitude de réaction de la cible, puis inflige des dégâts (M) en 3 coups."
+    },
+    {
+      "key": "SK_LW_BFI_S_1_INIT",
+      "value": "Inflige des dégâts (S) à la cible et réduit l'AGI pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_BFI_S_2_INIT",
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et de restaurer les PA."
+    },
+    {
+      "key": "SK_LW_BFI_S_3",
+      "value": "Inflige des dégâts (M) aux cibles dans la zone autour du lanceur et réduit les PA."
+    },
+    {
+      "key": "SK_LW_BFI_S_4",
+      "value": "Augmente considérablement l'ATT du lanceur pendant 3 tours et réduit la PSY."
+    },
+    {
+      "key": "SK_LW_BFI_R_1",
+      "value": "Confère une chance d'esquiver des attaques physiques."
+    },
+    {
+      "key": "SK_LW_BFI_P_1",
+      "value": "Augmente l'ATT et le taux de perforation de la DEF."
+    },
+    {
+      "key": "SK_LW_BFI_P_2",
+      "value": "Déplacement +1 et augmente l'AGI."
+    },
+    {
+      "key": "SK_LW_BFI_EN_A_01",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (M) aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_01",
+      "value": "Améliore Perce-nuage en Déchirure des cieux. Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (M) aux unités dans la zone ciblée et les dégâts sont accrus si les cibles sont sous l'effet d'un bonus de DEF, d'une Restauration auto de PA ou Booster (les cibles avec le statut Apesanteur ne seront pas atteintes)."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_01B",
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (M) aux unités dans la zone ciblée et les dégâts sont accrus si les cibles sont sous l'effet d'un bonus de DEF, d'une Restauration auto de PA ou Booster (les cibles avec le statut Apesanteur ne seront pas atteintes)."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_02",
+      "value": "Améliore Posture inflexible en Posture indocile. Augmente le nombre d'utilisations d'aptitude de 1 et augmente la quantité de PA restaurée."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_02B",
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et de restaurer les PA du lanceur."
+    },
+    {
       "key": "SK_LW_LSWL_ATK",
       "value": ""
     },
@@ -11945,6 +12009,10 @@
       "value": "Inflige des dégâts (L) en 2 coups à la cible, confère une chance d'infliger Immobilisation pendant 3 tours et accorde un effet additionnel : réduit la résistance à la glace pendant l'effet d'Immobilisation."
     },
     {
+      "key": "SK_LB_LW_URAL",
+      "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (L) et accorde une Restauration auto de PA (S) pour le lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoque Ifrit, inflige des dégâts de feu (MAX) aux unités dans la zone ciblée et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés et réduit considérablement la résistance au feu des ennemis)."
     },
@@ -15149,6 +15217,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente le taux de blocage de réaction du lanceur de 30 et son taux d'activation de Gelure."
     },
     {
+      "key": "SK_MA_LW_URAL",
+      "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, et augmente la résistance aux attaques tranchantes du lanceur de 10 et sa résistance aux attaques projectiles de 15."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Attaque tranchante +2"
     },
@@ -16523,6 +16595,10 @@
     {
       "key": "SK_ACC_LW_ALIA_1",
       "value": "Augmente l'ATT des alliés dans la zone autour du lanceur pendant 3 tours et annule Charme, Stop et Berserk."
+    },
+    {
+      "key": "SK_CLT_LW_URAL_1",
+      "value": "Accorde un effet d'absorption d'une partie des dégâts infligés aux PV du lanceur aux alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -20777,6 +20853,42 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_ADSN_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_PMAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_HALL3_GS",
       "value": ""
     },
@@ -20827,6 +20939,54 @@
     {
       "key": "SK_VC_LW_HALL3_PVA",
       "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur en 3 coups à la cible, et réduit la résistance aux attaques à cible unique pendant 3 tours."
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FDRC_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FDRC_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FDRC_P2MAX",
+      "value": ""
     },
     {
       "key": "SK_VC_LW_JEDN_01_GS",
@@ -27810,6 +27970,30 @@
     },
     {
       "key": "SK_LW_GUN_004_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_5_B",
       "value": ""
     },
     {

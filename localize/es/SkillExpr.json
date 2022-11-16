@@ -3489,6 +3489,70 @@
       "value": "Reduce el consumo de PA del usuario, alcance +1 hasta recibir daño 2 veces, aumenta el ataque de hielo de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de res. ataque a distancia del usuario durante 3 turnos."
     },
     {
+      "key": "SK_LW_BFI_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BFI_M_1",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (medio) a los objetivos al alcance y daño adicional a objetivos con aumento de DEF o recuperación automática de PA (no afecta a objetivos en estado lévita)."
+    },
+    {
+      "key": "SK_LW_BFI_M_2",
+      "value": "Otorga eliminación de agallas (se activa antes de atacar) a los ataques de los aliados de alrededor durante 3 turnos y aumenta la tasa de precisión del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_BFI_M_3",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo tras desplazarse a la casilla objetivo y le inflige daño (medio) 3 veces."
+    },
+    {
+      "key": "SK_LW_BFI_S_1_INIT",
+      "value": "Inflige daño (poco) al objetivo y reduce su AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_BFI_S_2_INIT",
+      "value": "El usuario sobrevive a daño letal una vez y recupera PA."
+    },
+    {
+      "key": "SK_LW_BFI_S_3",
+      "value": "Inflige daño (medio) a los objetivos de alrededor y reduce sus PA."
+    },
+    {
+      "key": "SK_LW_BFI_S_4",
+      "value": "Aumenta considerablemente el ATQ del usuario durante 3 turnos y reduce su ESP."
+    },
+    {
+      "key": "SK_LW_BFI_R_1",
+      "value": "Probabilidad de evadir ataques físicos."
+    },
+    {
+      "key": "SK_LW_BFI_P_1",
+      "value": "Aumenta el ATQ y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_BFI_P_2",
+      "value": "Movimiento +1 y aumenta la AGI."
+    },
+    {
+      "key": "SK_LW_BFI_EN_A_01",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, e inflige daño (medio) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_01",
+      "value": "Mejora «Perforacielos» a «Desgarracielos»: aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (medio) a los objetivos al alcance y daño adicional a objetivos con aumento de DEF, recuperación automática de PA o prisa (no afecta a objetivos en estado lévita)."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_01B",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (medio) a los objetivos al alcance y daño adicional a objetivos con aumento de DEF, recuperación automática de PA o prisa (no afecta a objetivos en estado lévita)."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_02",
+      "value": "Mejora «Postura sólida» a «Postura inamovible»: n.º de usos de la habilidad +1 y mayor recuperación de PA."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_02B",
+      "value": "El usuario sobrevive a daño letal una vez y recupera PA."
+    },
+    {
       "key": "SK_LW_LSWL_ATK",
       "value": ""
     },
@@ -11945,6 +12009,10 @@
       "value": "Daño (mucho) 2 veces al objetivo, probabilidad de infligirle inmóvil durante 3 turnos y efecto adicional: reduce la res. hielo en estado inmóvil."
     },
     {
+      "key": "SK_LB_LW_URAL",
+      "value": "Elimina todas las mejoras del objetivo, le inflige daño (mucho) y otorga recuperación automática de PA al usuario (poco) durante 3 turnos."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -15149,6 +15217,10 @@
       "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de bloqueo de reacción +30, mayor probabilidad de activación de congelación"
     },
     {
+      "key": "SK_MA_LW_URAL",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: res. ataque de corte +10, res. ataque a distancia +15"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -16523,6 +16595,10 @@
     {
       "key": "SK_ACC_LW_ALIA_1",
       "value": "Aumenta el ATQ de los aliados de alrededor durante 3 turnos y anula embrujo, paro y locura."
+    },
+    {
+      "key": "SK_CLT_LW_URAL_1",
+      "value": "Otorga absorción de una parte del daño de VIT infligido a los aliados de alrededor durante 3 turnos."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -20777,6 +20853,42 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_ADSN_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_PMAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_HALL3_GS",
       "value": ""
     },
@@ -20827,6 +20939,54 @@
     {
       "key": "SK_VC_LW_HALL3_PVA",
       "value": "Inflige daño (medio) en función de la MAG del usuario al objetivo 3 veces y reduce su res. ataque de unidad durante 3 turnos."
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FDRC_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FDRC_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FDRC_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FDRC_P2MAX",
+      "value": ""
     },
     {
       "key": "SK_VC_LW_JEDN_01_GS",
@@ -27810,6 +27970,30 @@
     },
     {
       "key": "SK_LW_GUN_004_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_5_B",
       "value": ""
     },
     {
