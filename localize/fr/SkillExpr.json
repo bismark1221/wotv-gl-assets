@@ -1629,6 +1629,10 @@
       "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes."
     },
     {
+      "key": "SK_LW_RDM_S_3_B",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes avec Coup garanti."
+    },
+    {
       "key": "SK_LW_RDM_S_4",
       "value": "Réduit considérablement le délai d'activation des alliés pendant 3 tours."
     },
@@ -3551,6 +3555,66 @@
     {
       "key": "SK_LW_EC_BFI_C_02B",
       "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et de restaurer les PA du lanceur."
+    },
+    {
+      "key": "SK_LW_SLVE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SLVE_M_1",
+      "value": "Dissipe Auréole des unités dans la zone ciblée, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur, et confère une chance d'infliger Lenteur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SLVE_M_2",
+      "value": "Dissipe tous les malus du lanceur, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible."
+    },
+    {
+      "key": "SK_LW_SLVE_M_3",
+      "value": "Augmente la DEF et la PSY des alliés dans la zone ciblée pendant 3 tours, et augmente considérablement la résistance aux malus de DEF et la résistance aux malus de PSY."
+    },
+    {
+      "key": "SK_LW_SLVE_S_1",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible."
+    },
+    {
+      "key": "SK_LW_SLVE_S_2",
+      "value": "Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS)) et accorde un effet additionnel : accorde Barrière pendant l'effet d'Auréole."
+    },
+    {
+      "key": "SK_LW_SLVE_S_3",
+      "value": "Augmente la MAGIE du lanceur pendant 3 tours, puis restaure les PV (M) des alliés dans la zone ciblée."
+    },
+    {
+      "key": "SK_LW_SLVE_S_4",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SLVE_R_1",
+      "value": "Restaure les PV (XS) des alliés dans la zone autour du lanceur lorsque des dégâts sont subis par une attaque physique."
+    },
+    {
+      "key": "SK_LW_SLVE_P_1",
+      "value": "Augmente la MAGIE et le taux de perforation de la résistance aux attaques tranchantes."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_A_01",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit le taux de perforation de la DEF pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_C_01",
+      "value": "Améliore Je te protège ! en Je vous protégerai tous !. Améliore la portée. Dissipe tous les malus du lanceur et dissipe tous les bonus d'une cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_C_01B",
+      "value": "Dissipe tous les malus du lanceur et dissipe tous les bonus d'une cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_C_02",
+      "value": "Améliore Protection de Marianne en Bénédiction de Marianne. Augmente la MAGIE, le taux de perforation de la résistance aux attaques tranchantes, la DEF et la PSY."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_C_02B",
+      "value": "Augmente la MAGIE, le taux de perforation de la résistance aux attaques tranchantes, la DEF et la PSY."
     },
     {
       "key": "SK_LW_LSWL_ATK",
@@ -11642,7 +11706,11 @@
     },
     {
       "key": "SK_LB_LW_QILF",
-      "value": "Réduit la résistance magique de la cible pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+      "value": "Réduit la résistance aux attaques magiques de la cible pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LB_LW_QILF_B",
+      "value": "Dissipe Auréole de la cible et réduit la résistance aux attaques magiques pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LB_LW_ORDR",
@@ -12011,6 +12079,10 @@
     {
       "key": "SK_LB_LW_URAL",
       "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (L) et accorde une Restauration auto de PA (S) pour le lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_SLVE",
+      "value": "Restaure les PV (L) des alliés dans la zone ciblée, érige une barrière qui réduit les dégâts (1 fois) et accorde une Restauration auto de PA (S) pour le lanceur pendant 3 tours."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -13281,6 +13353,10 @@
       "value": "Dissipe tous les bonus de la cible, puis lui inflige des dégâts (XL) qui dépendent de la MAGIE du lanceur et annule l'activation des aptitudes."
     },
     {
+      "key": "SK_LW_EC_RDM_C_07B_B",
+      "value": "Dissipe tous les bonus de la cible, puis lui inflige des dégâts (XL) qui dépendent de la MAGIE du lanceur et annule l'activation des aptitudes avec Coup garanti."
+    },
+    {
       "key": "SK_LW_EC_RDM_C_08",
       "value": "Améliore Protection du mage en Rempart de mage. Augmente la résistance aux attaques tranchantes et magiques, et augmente considérablement la résistance aux malus de la résistance aux attaques tranchantes et magiques."
     },
@@ -14177,6 +14253,10 @@
       "value": "ATT +15 %, MAGIE +15 %, DEF +5"
     },
     {
+      "key": "SK_MA_LW_MRND_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente l'ATT du lanceur de 15 %, sa MAGIE de 15 %, son taux de perforation de la PSY de 25, sa DEF de 20 et améliore Élan enrayé : Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes avec Coup garanti."
+    },
+    {
       "key": "SK_MA_LW_AILN",
       "value": "PT max +10 %, Attaque perçante +10"
     },
@@ -14297,6 +14377,10 @@
       "value": "PT max +15 %, attaque magique +30"
     },
     {
+      "key": "SK_MA_LW_MGRT_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Immobilisation de 25 des unités alliées de feu, augmente les PT max du lanceur de 15 %, ses attaques magiques de 30, son AGI de 10 % et réduit le délai d'activation de 50 %."
+    },
+    {
       "key": "SK_MA_LW_PRAY",
       "value": "MAGIE +20 %, résistance à toutes les attaques +10"
     },
@@ -14347,6 +14431,10 @@
     {
       "key": "SK_MA_LW_VRID",
       "value": "PT max +45 %, modification de l'acquisition de PA +30 %"
+    },
+    {
+      "key": "SK_MA_LW_VRID_2",
+      "value": "Augmente les PT max 45 %, augmente la modification de l'acquisition de PA de 30 % et augmente la résistance aux attaques de zone de 20."
     },
     {
       "key": "SK_MA_LW_NAIA",
@@ -14619,6 +14707,10 @@
     {
       "key": "SK_MA_LW_QILF",
       "value": "PV max +20 %, Délai d'activation -20 %"
+    },
+    {
+      "key": "SK_MA_LW_QILF_2",
+      "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente les PV max du lanceur de 30 %, réduit le délai d'activation de ses aptitudes de 20 %, augmente son AGI de 10 %, sa résistance aux attaques tranchantes et magiques de 15 et améliore Collectionneuse de bâtons (Augmente le nombre d'utilisations d'aptitude de 1) : Dissipe Auréole de la cible et réduit la résistance aux attaques magiques pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_MA_LW_SIMR",
@@ -15219,6 +15311,10 @@
     {
       "key": "SK_MA_LW_URAL",
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, et augmente la résistance aux attaques tranchantes du lanceur de 10 et sa résistance aux attaques projectiles de 15."
+    },
+    {
+      "key": "SK_MA_LW_SLVE",
+      "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente la résistance aux attaques de zone du lanceur de 10, et réduit le délai d'activation des aptitudes de non-attaque de 40 %."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -16598,7 +16694,11 @@
     },
     {
       "key": "SK_CLT_LW_URAL_1",
-      "value": "Accorde un effet d'absorption d'une partie des dégâts infligés aux PV du lanceur aux alliés dans la zone autour du lanceur pendant 3 tours."
+      "value": "Accorde un effet d'absorption d'une partie des dégâts infligés aux PV des alliés dans la zone autour du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_ACC_LW_SLVE_1",
+      "value": "Augmente la MAGIE des alliés dans la zone autour du lanceur pendant 3 tours et réduit les chances du lanceur d'être pris pour cible."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -21142,6 +21242,54 @@
     },
     {
       "key": "SK_VC_LW_ZZAN_01_P_2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_P_2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_P_2MAX",
       "value": ""
     },
     {
@@ -27534,6 +27682,10 @@
     },
     {
       "key": "SK_FF13_SWO_LTNG_5_B",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_LW_SWO_039",
       "value": ""
     },
     {

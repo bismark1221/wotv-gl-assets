@@ -1629,6 +1629,10 @@
       "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu und bricht Fähigkeitenaktivierung ab."
     },
     {
+      "key": "SK_LW_RDM_S_3_B",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu, bricht Fähigkeitenaktivierung ab und garantiert Treffer."
+    },
+    {
       "key": "SK_LW_RDM_S_4",
       "value": "Verkürzt 3 Runden lang Aktivierungszeit eines Verbündeten erheblich."
     },
@@ -3551,6 +3555,66 @@
     {
       "key": "SK_LW_EC_BFI_C_02B",
       "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, und heilt eigene AP."
+    },
+    {
+      "key": "SK_LW_SLVE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SLVE_M_1",
+      "value": "Entfernt Schutzengel von Zielen in Reichweite, fügt MAG-abhängigen Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+    },
+    {
+      "key": "SK_LW_SLVE_M_2",
+      "value": "Entfernt alle Schwächungen von sich selbst und fügt dem Ziel dann MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_SLVE_M_3",
+      "value": "Erhöht 3 Runden lang ABW und PSY von Verbündeten in Reichweite und erhöht ABW-Schwächungsresistenz und PSY-Schwächungsresistenz erheblich."
+    },
+    {
+      "key": "SK_LW_SLVE_S_1",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu."
+    },
+    {
+      "key": "SK_LW_SLVE_S_2",
+      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst und zusätzlicher Effekt: Wirkt Vallum während Schutzengel aktiv ist."
+    },
+    {
+      "key": "SK_LW_SLVE_S_3",
+      "value": "Erhöht 3 Runden lang eigene MAG und stellt anschließend LP (M) von Verbündeten in Reichweite wieder her."
+    },
+    {
+      "key": "SK_LW_SLVE_S_4",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu und senkt 3 Runden lang Heilkraft."
+    },
+    {
+      "key": "SK_LW_SLVE_R_1",
+      "value": "Stellt bei Erleiden von Schaden durch physischen Angriff LP (minimal) von Verbündeten im Bereich um Wirkenden wieder her."
+    },
+    {
+      "key": "SK_LW_SLVE_P_1",
+      "value": "Erhöht MAG und Schlitzresistenz-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_A_01",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und reduziert 3 Runden lang ABW-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_C_01",
+      "value": "Verstärkt Ich gebe Rückendeckung! zu Ich werde alle beschützen!. Erhöht Reichweite. Entfernt alle Schwächungen von sich selbst, entfernt alle Stärkungen vom Ziel und fügt diesem anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_C_01B",
+      "value": "Entfernt alle Schwächungen von sich selbst, entfernt alle Stärkungen vom Ziel und fügt diesem anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_C_02",
+      "value": "Verstärkt Marians Schutz zu Marians Segen. Erhöht MAG, Schlitzresistenz-Durchbohrrate, ABW und PSY."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_C_02B",
+      "value": "Erhöht MAG, Schlitzresistenz-Durchbohrrate, ABW und PSY."
     },
     {
       "key": "SK_LW_LSWL_ATK",
@@ -11645,6 +11709,10 @@
       "value": "Senkt 3 Runden lang Magieresistenz des Ziels und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
+      "key": "SK_LB_LW_QILF_B",
+      "value": "Entfernt Schutzengel vom Ziel, senkt 3 Runden lang Magieangriffsresistenz und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
       "key": "SK_LB_LW_ORDR",
       "value": "Senkt 3 Runden lang ABW des Ziels und fügt anschließend Schaden (L) zu."
     },
@@ -12011,6 +12079,10 @@
     {
       "key": "SK_LB_LW_URAL",
       "value": "Entfernt alle Stärkungen vom Ziel, fügt anschließend Schaden (L) zu und wirkt 3 Runden andauernde automatische AP-Wiederherstellung (S) auf sich selbst."
+    },
+    {
+      "key": "SK_LB_LW_SLVE",
+      "value": "Stellt LP (L) von Verbündeten in Reichweite wieder her, beschwört eine Barriere herauf, die Schaden reduziert (1 Mal) und wirkt 3 Runden andauernde automatische AP-Wiederherstellung (S) auf sich selbst."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -13281,6 +13353,10 @@
       "value": "Entfernt alle Stärkungen vom Ziel, fügt anschließend Ziel MAG-abhängigen nichtelementaren Schaden (XL) zu und bricht Fähigkeitenaktivierung ab."
     },
     {
+      "key": "SK_LW_EC_RDM_C_07B_B",
+      "value": "Entfernt alle Stärkungen vom Ziel, fügt anschließend Ziel MAG-abhängigen Schaden (XL) zu, bricht Fähigkeitenaktivierung ab und garantiert Treffer."
+    },
+    {
       "key": "SK_LW_EC_RDM_C_08",
       "value": "Verstärkt Schutz des Magiers zu Bollwerk des Magiers. Erhöht Schlitz- sowie Magieangriffsresistenz und erhöht die Schwächungsresistenz von Schlitz- sowie Magieangriffsresistenz erheblich."
     },
@@ -14177,6 +14253,10 @@
       "value": "ANG +15 %, MAG +15 %, ABW +5"
     },
     {
+      "key": "SK_MA_LW_MRND_2",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigener ANG +15 %, MAG +15 %, PSY-Durchbohrrate +25, ABW +20. Verstärkt Störstoß. Fügt dem Ziel MAG-abhängigen Schaden (L) zu, bricht Fähigkeitenaktivierung ab und garantiert Treffer."
+    },
+    {
       "key": "SK_MA_LW_AILN",
       "value": "TP-Maximum +10 %, Durchbohr-ANG +10"
     },
@@ -14297,6 +14377,10 @@
       "value": "TP-Maximum +15 %, Magie-ANG +30"
     },
     {
+      "key": "SK_MA_LW_MGRT_2",
+      "value": "LP-Maximum +10 % und Immobilisierungsresistenz +25 für verbündete Feuereinheiten, eigenes TP-Maximum +15 %, Magieangriff +30, AGI +10 % und Aktivierungszeit -50 %"
+    },
+    {
       "key": "SK_MA_LW_PRAY",
       "value": "MAG +20 %, alle Angriffsresistenzen +10"
     },
@@ -14347,6 +14431,10 @@
     {
       "key": "SK_MA_LW_VRID",
       "value": "TP-Maximum +45 %, Modifikator für AP-Erlangung +30 %"
+    },
+    {
+      "key": "SK_MA_LW_VRID_2",
+      "value": "TP-Maximum +45 %, Modifikator für AP-Erlangung +30 %, Bereichangriffsresistenz +20"
     },
     {
       "key": "SK_MA_LW_NAIA",
@@ -14619,6 +14707,10 @@
     {
       "key": "SK_MA_LW_QILF",
       "value": "LP-Maximum +20 %, Aktivierungszeit -20 %"
+    },
+    {
+      "key": "SK_MA_LW_QILF_2",
+      "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigenes LP-Maximum +30 %, Fähigkeitenaktivierung -20 %, AGI +10 %, Schlitz-/Magieangriffsresistenz +15. Verstärkt Stabarrangement. Fähigkeiteneinsätze +1. Entfernt Schutzengel vom Ziel, senkt Magieangriffsresistenz für 3 Runden und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
       "key": "SK_MA_LW_SIMR",
@@ -15219,6 +15311,10 @@
     {
       "key": "SK_MA_LW_URAL",
       "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigene Schlitzresistenz +10, eigene Geschossresistenz +15"
+    },
+    {
+      "key": "SK_MA_LW_SLVE",
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene Bereichangriffsresistenz +10 und Aktivierungszeit von Nichtangriffsfähigkeiten -40 %."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -16599,6 +16695,10 @@
     {
       "key": "SK_CLT_LW_URAL_1",
       "value": "Lässt Wirkenden 3 Runden lang einen Teil des von Verbündeten im Bereich um Wirkenden erlittenen LP-Schadens absorbieren."
+    },
+    {
+      "key": "SK_ACC_LW_SLVE_1",
+      "value": "Erhöht 3 Runden lang MAG von Verbündeten im Bereich um Wirkenden und senkt Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -21142,6 +21242,54 @@
     },
     {
       "key": "SK_VC_LW_ZZAN_01_P_2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_P_2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLVE_P_2MAX",
       "value": ""
     },
     {
@@ -27534,6 +27682,10 @@
     },
     {
       "key": "SK_FF13_SWO_LTNG_5_B",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_LW_SWO_039",
       "value": ""
     },
     {
