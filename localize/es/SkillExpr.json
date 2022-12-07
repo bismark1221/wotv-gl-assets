@@ -1526,7 +1526,7 @@
     },
     {
       "key": "SK_LW_GRM_R_1",
-      "value": "Probabilidad de eliminar todos los aumentos del objetivo al recibir daño."
+      "value": "Probabilidad de eliminar todos los aumentos del enemigo al recibir daño."
     },
     {
       "key": "SK_LW_GRM_P_1",
@@ -3537,6 +3537,70 @@
       "value": "Movimiento +1 y aumenta la AGI."
     },
     {
+      "key": "SK_LW_HLNA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_HLNA_M_1",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles paro."
+    },
+    {
+      "key": "SK_LW_HLNA_M_2",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario con golpe garantizado al objetivo."
+    },
+    {
+      "key": "SK_LW_HLNA_M_3",
+      "value": "Aumenta el ATQ y la MAG de los aliados de alrededor durante 3 turnos y otorga consumo de PT al usuario durante 3 turnos para aumentar la potencia de sus habilidades ofensivas."
+    },
+    {
+      "key": "SK_LW_HLNA_S_1",
+      "value": "Inflige daño (poco) en función de la MAG del usuario al objetivo y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_LW_HLNA_S_2",
+      "value": "Recupera VIT (medio) y PT (poco) del usuario."
+    },
+    {
+      "key": "SK_LW_HLNA_S_3",
+      "value": "Aumenta la tasa de penetración de res. ataque mágico y la tasa de penetración de res. rayo del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_HLNA_S_4",
+      "value": "Inflige daño (medio) en función de la MAG del usuario al objetivo y reduce su res. ataque mágico durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_HLNA_R_1",
+      "value": "Probabilidad de realizar un contraataque al recibir daño."
+    },
+    {
+      "key": "SK_LW_HLNA_P_1",
+      "value": "Aumenta considerablemente la MAG y reduce la VIT máx."
+    },
+    {
+      "key": "SK_LW_HLNA_P_2",
+      "value": "Aumenta la AGI y el ESP."
+    },
+    {
+      "key": "SK_LW_HLNA_EN_A_01",
+      "value": "Inflige daño (medio) en función de la MAG del usuario con golpe garantizado a los objetivos al alcance y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_C_01",
+      "value": "Mejora «Impacto oceánico» a «Impacto submarino»: n.º de usos de la habilidad +1. Inflige daño (mucho) en función de la MAG del usuario con golpe garantizado al objetivo y reduce su tasa de evasión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_C_01B",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario con golpe garantizado al objetivo y reduce su tasa de evasión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_C_02",
+      "value": "Mejora «Magia veraniega» a «Magia estival»: n.º de usos de la habilidad +1. Elimina agallas a los objetivos al alcance, les inflige daño (medio) en función de la MAG del usuario y probabilidad de infligirles paro."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_C_02B",
+      "value": "Elimina agallas a los objetivos al alcance, les inflige daño (medio) en función de la MAG del usuario y probabilidad de infligirles paro."
+    },
+    {
       "key": "SK_LW_BFI_EN_A_01",
       "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, e inflige daño (medio) a los objetivos al alcance."
     },
@@ -3590,7 +3654,7 @@
     },
     {
       "key": "SK_LW_SLVE_R_1",
-      "value": "Probabilidad de recuperar VIT (mínimo) de los aliados de alrededor al recibir daño de ataques físicos."
+      "value": "Probabilidad de recuperar VIT (mínimo) de los aliados de alrededor al recibir daño de ataques físicos."
     },
     {
       "key": "SK_LW_SLVE_P_1",
@@ -7974,7 +8038,7 @@
     },
     {
       "key": "SK_LW_FINA_01_M_3",
-      "value": "Daño (medio) 2 veces en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles paro durante 3 turnos."
+      "value": "Daño (medio) 2 veces en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles paro."
     },
     {
       "key": "SK_LW_FINA_01_S_1",
@@ -12129,6 +12193,10 @@
       "value": "Elimina todas las mejoras del objetivo, le inflige daño (mucho) y otorga recuperación automática de PA al usuario (poco) durante 3 turnos."
     },
     {
+      "key": "SK_LB_LW_HLNA_02",
+      "value": "Elimina Escudo de los objetivos al alcance, reduce su res. ataque de zona durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
       "key": "SK_LB_LW_SHLS",
       "value": "Elimina todas las mejoras de los objetivos al alcance, les inflige daño (mucho) y reduce la probabilidad de que el usuario sea atacado."
     },
@@ -15365,8 +15433,12 @@
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: res. ataque de corte +10, res. ataque a distancia +15"
     },
     {
+      "key": "SK_MA_LW_HLNA_02",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: MAG +10 %, tasa de penetración de res. ataque mágico +20"
+    },
+    {
       "key": "SK_MA_LW_SHLS",
-      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de res. ataque a distancia +10, consumo de PA -15 %"
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de res. ataque a distancia +10, consumo de PA <nobr>-15</nobr> %"
     },
     {
       "key": "SK_MA_LW_LSTE",
@@ -16775,6 +16847,10 @@
     {
       "key": "SK_CLT_LW_URAL_1",
       "value": "Otorga absorción de una parte del daño de VIT infligido a los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_LW_HLNA_02_1",
+      "value": "Otorga Comehombres al realizar ataque mágico a los aliados de alrededor durante 3 turnos."
     },
     {
       "key": "SK_ACC_LW_SHLS_1",

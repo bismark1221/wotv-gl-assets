@@ -1526,7 +1526,7 @@
     },
     {
       "key": "SK_LW_GRM_R_1",
-      "value": "Confère une chance de dissiper tous les bonus de l'ennemi lorsque des dégâts sont subis."
+      "value": "Confère une chance de dissiper tous les bonus d'un ennemi lorsque des dégâts sont subis."
     },
     {
       "key": "SK_LW_GRM_P_1",
@@ -3537,6 +3537,70 @@
       "value": "Déplacement +1 et augmente l'AGI."
     },
     {
+      "key": "SK_LW_HLNA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_HLNA_M_1",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Stop."
+    },
+    {
+      "key": "SK_LW_HLNA_M_2",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible avec Coup garanti."
+    },
+    {
+      "key": "SK_LW_HLNA_M_3",
+      "value": "Augmente l'ATT et la MAGIE des alliés dans la zone autour du lanceur pendant 3 tours et s'accorde un effet de consommation de PT pendant 3 tours (la consommation de PT augmente l'efficacité des aptitudes d'attaque)."
+    },
+    {
+      "key": "SK_LW_HLNA_S_1",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible et augmente les CT (S) du lanceur."
+    },
+    {
+      "key": "SK_LW_HLNA_S_2",
+      "value": "Restaure les PV (M) et les PT (S) du lanceur."
+    },
+    {
+      "key": "SK_LW_HLNA_S_3",
+      "value": "Augmente le taux de perforation de la résistance aux attaques magiques et taux de perforation de la résistance à la foudre du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_HLNA_S_4",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible et réduit la résistance aux attaques magiques pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_HLNA_R_1",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_LW_HLNA_P_1",
+      "value": "Augmente considérablement la MAGIE et réduit les PV max."
+    },
+    {
+      "key": "SK_LW_HLNA_P_2",
+      "value": "Augmente l'AGI et la PSY."
+    },
+    {
+      "key": "SK_LW_HLNA_EN_A_01",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée avec Coup garanti, et absorbe une partie des dégâts infligés."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_C_01",
+      "value": "Améliore Impact marin en Impact sous-marin. Augmente le nombre d'utilisations d'aptitude de 1. Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible avec Coup garanti et réduit le taux d'esquive pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_C_01B",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible avec Coup garanti et réduit le taux d'esquive pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_C_02",
+      "value": "Améliore Magie estivale en Magie d'août. Augmente le nombre d'utilisations d'aptitude de 1. Dissipe Hardiesse des unités dans la zone ciblée, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur et confère une chance d'infliger Stop."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_C_02B",
+      "value": "Dissipe Hardiesse des unités dans la zone ciblée, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur et confère une chance d'infliger Stop."
+    },
+    {
       "key": "SK_LW_BFI_EN_A_01",
       "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (M) aux unités dans la zone ciblée."
     },
@@ -3590,7 +3654,7 @@
     },
     {
       "key": "SK_LW_SLVE_R_1",
-      "value": "Confère une chance de restaurer les PV (XS) des alliés dans la zone autour du lanceur lorsque des dégâts sont subis par une attaque physique."
+      "value": "Confère une chance de restaurer les PV (XS) des alliés dans la zone autour du lanceur lorsque des dégâts sont subis par une attaque physique."
     },
     {
       "key": "SK_LW_SLVE_P_1",
@@ -12129,6 +12193,10 @@
       "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (L) et accorde une Restauration auto de PA (S) pour le lanceur pendant 3 tours."
     },
     {
+      "key": "SK_LB_LW_HLNA_02",
+      "value": "Dissipe Barrière des unités dans la zone ciblée et réduit la résistance aux attaques de zone pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
       "key": "SK_LB_LW_SHLS",
       "value": "Dissipe tous les bonus des unités dans la zone ciblée, puis inflige des dégâts (L), et réduit les chances d'être pris pour cible."
     },
@@ -15365,6 +15433,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, et augmente la résistance aux attaques tranchantes du lanceur de 10 et sa résistance aux attaques projectiles de 15."
     },
     {
+      "key": "SK_MA_LW_HLNA_02",
+      "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente la MAGIE du lanceur de 10 % et son taux de perforation de la résistance aux attaques magiques de 20."
+    },
+    {
       "key": "SK_MA_LW_SHLS",
       "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente le taux de perforation de la résistance aux attaques projectiles du lanceur de 10 et réduit sa consommation de PA de 15 %."
     },
@@ -16775,6 +16847,10 @@
     {
       "key": "SK_CLT_LW_URAL_1",
       "value": "Accorde un effet d'absorption d'une partie des dégâts infligés aux PV des alliés dans la zone autour du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_ACC_LW_HLNA_02_1",
+      "value": "Accorde Anthropophage aux attaques magiques des alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
       "key": "SK_ACC_LW_SHLS_1",
@@ -27994,7 +28070,7 @@
     },
     {
       "key": "SK_LW_PLUS6_REACTSTP_30",
-      "value": ""
+      "value": "Aptitude spécifique de l'équipement +6"
     },
     {
       "key": "SK_FF4_ROD_000_1",
