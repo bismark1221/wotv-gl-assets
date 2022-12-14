@@ -22,23 +22,23 @@
     },
     {
       "key": "SK_LW_WAR_M_1",
-      "value": "Inflige daño (medio) al objetivo y otorga Matabestias."
+      "value": "Inflige daño (medio) al objetivo y otorga Matabestias potenciado."
     },
     {
       "key": "SK_LW_WAR_M_4",
-      "value": "Inflige daño (mucho) al objetivo y otorga Comehombres."
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) al objetivo y otorga Comehombres."
     },
     {
       "key": "SK_LW_WAR_S_3",
-      "value": "Inflige daño (poco) al objetivo y cancela la activación de habilidades."
+      "value": "Inflige daño (medio) al objetivo, cancela la activación de habilidades y reduce su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_WAR_S_1_INIT",
-      "value": "Inflige daño (mínimo) al objetivo."
+      "value": "Inflige daño (mínimo) al objetivo y reduce su tasa de penetración de DEF durante 3 turnos."
     },
     {
       "key": "SK_LW_WAR_M_2_INIT",
-      "value": "Aumenta el ATQ del usuario durante 3 turnos."
+      "value": "Aumenta el ATQ y la res. ataque de unidad del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_WAR_S_2",
@@ -46,7 +46,7 @@
     },
     {
       "key": "SK_LW_WAR_M_3",
-      "value": "Recupera VIT de los aliados de alrededor (poco)."
+      "value": "Recupera un porcentaje fijo de la VIT de los aliados de alrededor (poco)."
     },
     {
       "key": "SK_LW_WAR_R_1",
@@ -62,27 +62,27 @@
     },
     {
       "key": "SK_LW_WAR_P_1_MONT",
-      "value": "Aumenta el ATQ."
+      "value": "Aumenta el ATQ y los PA iniciales."
     },
     {
       "key": "SK_LW_WAR_M_1_SUB",
-      "value": "Inflige daño (medio) al objetivo y otorga Matabestias."
+      "value": "Inflige daño (medio) al objetivo y otorga Matabestias potenciado."
     },
     {
       "key": "SK_LW_WAR_M_4_SUB",
-      "value": "Inflige daño (mucho) al objetivo y otorga Comehombres."
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) al objetivo y otorga Comehombres."
     },
     {
       "key": "SK_LW_WAR_S_3_SUB",
-      "value": "Inflige daño (poco) al objetivo y cancela la activación de habilidades."
+      "value": "Inflige daño (medio) al objetivo, cancela la activación de habilidades y reduce su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_WAR_S_1",
-      "value": "Inflige daño (mínimo) al objetivo."
+      "value": "Inflige daño (mínimo) al objetivo y reduce su tasa de penetración de DEF durante 3 turnos."
     },
     {
       "key": "SK_LW_WAR_M_2",
-      "value": "Aumenta el ATQ del usuario durante 3 turnos."
+      "value": "Aumenta el ATQ y la res. ataque de unidad del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_KNT_ATK",
@@ -570,19 +570,23 @@
     },
     {
       "key": "SK_LW_SAM_M_4",
-      "value": "Inflige daño penetrante (mucho) a los objetivos al alcance y otorga Matamáquinas y Matapétreos."
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño penetrante (mucho) a los objetivos al alcance y otorga Matamáquinas y Matapétreos."
     },
     {
       "key": "SK_LW_SAM_S_4",
-      "value": "Daño (medio) a los objetivos de alrededor y probabilidad de infligirles freno durante 3 turnos."
+      "value": "Inflige (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno durante 3 turnos."
     },
     {
       "key": "SK_LW_SAM_M_3",
-      "value": "Traslada al usuario a la casilla objetivo."
+      "value": "Aumenta el TC del usuario (medio) tras desplazarse a la casilla objetivo."
     },
     {
       "key": "SK_LW_SAM_M_1_INIT",
-      "value": "Inflige daño (poco) al objetivo."
+      "value": "Inflige daño (poco) al objetivo y recupera PA del usuario al dejar KO al enemigo."
+    },
+    {
+      "key": "SK_LW_SAM_M_1_AD",
+      "value": "Recupera PA del usuario al dejar KO al enemigo."
     },
     {
       "key": "SK_LW_SAM_S_3_INIT",
@@ -594,7 +598,7 @@
     },
     {
       "key": "SK_LW_SAM_M_2",
-      "value": "Aumenta la evasión de los aliados de alrededor durante 3 turnos."
+      "value": "Aumenta la tasa de evasión de los aliados de alrededor durante 3 turnos y aumenta la res. ataque de zona del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_SAM_S_2",
@@ -610,19 +614,19 @@
     },
     {
       "key": "SK_LW_SAM_M_4_SUB",
-      "value": "Inflige daño penetrante (mucho) a los objetivos al alcance y otorga Matamáquinas y Matapétreos."
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño penetrante (mucho) a los objetivos al alcance y otorga Matamáquinas y Matapétreos."
     },
     {
       "key": "SK_LW_SAM_S_4_SUB",
-      "value": "Daño (medio) a los objetivos de alrededor y probabilidad de infligirles freno durante 3 turnos."
+      "value": "Inflige (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno durante 3 turnos."
     },
     {
       "key": "SK_LW_SAM_M_3_SUB",
-      "value": "Traslada al usuario a la casilla objetivo."
+      "value": "Aumenta el TC del usuario (medio) tras desplazarse a la casilla objetivo."
     },
     {
       "key": "SK_LW_SAM_M_1",
-      "value": "Inflige daño (poco) al objetivo."
+      "value": "Inflige daño (poco) al objetivo y recupera PA del usuario al dejar KO al enemigo."
     },
     {
       "key": "SK_LW_SAM_S_3",
@@ -1438,7 +1442,7 @@
     },
     {
       "key": "SK_LW_GRM_M_4",
-      "value": "Inflige daño (poco) en función de la MAG del usuario a los objetivos al alcance y reduce su res. todos los elementos durante 3 turnos."
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance y reduce su res. todos los elementos durante 3 turnos."
     },
     {
       "key": "SK_LW_GRM_FIRE_M_3",
@@ -1514,11 +1518,11 @@
     },
     {
       "key": "SK_LW_GRM_S_1",
-      "value": "Reduce la DEF de los objetivos al alcance durante 3 turnos."
+      "value": "Reduce considerablemente la DEF de los objetivos al alcance durante 3 turnos."
     },
     {
       "key": "SK_LW_GRM_S_2",
-      "value": "Reduce el ESP de los objetivos al alcance durante 3 turnos."
+      "value": "Reduce considerablemente el ESP de los objetivos al alcance durante 3 turnos."
     },
     {
       "key": "SK_LW_GRM_M_1",
@@ -1538,7 +1542,7 @@
     },
     {
       "key": "SK_LW_GRM_M_4_SUB",
-      "value": "Inflige daño (poco) en función de la MAG del usuario a los objetivos al alcance y reduce su res. todos los elementos durante 3 turnos."
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance y reduce su res. todos los elementos durante 3 turnos."
     },
     {
       "key": "SK_LW_GRM_FIRE_M_3_SUB",
@@ -3753,44 +3757,44 @@
       "value": ""
     },
     {
-      "key": "SK_LW_MKN_WIND_M_1",
-      "value": "Inflige daño de viento (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Cometerrestres."
-    },
-    {
-      "key": "SK_LW_MKN_SOIL_M_1",
-      "value": "Inflige daño de tierra (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeeléctricos."
-    },
-    {
       "key": "SK_LW_MKN_FIRE_M_1",
-      "value": "Inflige daño de fuego (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comegélidos."
+      "value": "Inflige daño de fuego (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comegélidos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de hielo antes de atacar."
     },
     {
       "key": "SK_LW_MKN_ICE_M_1",
-      "value": "Inflige daño de hielo (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeaéreos."
+      "value": "Inflige daño de hielo (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeaéreos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de viento antes de atacar."
+    },
+    {
+      "key": "SK_LW_MKN_WIND_M_1",
+      "value": "Inflige daño de viento (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Cometerrestres y reduce considerablemente la evasión y la evasión de crítico de los objetivos de tierra antes de atacar."
+    },
+    {
+      "key": "SK_LW_MKN_SOIL_M_1",
+      "value": "Inflige daño de tierra (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeeléctricos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de rayo antes de atacar."
     },
     {
       "key": "SK_LW_MKN_THUN_M_1",
-      "value": "Inflige daño de rayo (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeacuáticos."
+      "value": "Inflige daño de rayo (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeacuáticos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de agua antes de atacar."
     },
     {
       "key": "SK_LW_MKN_WATR_M_1",
-      "value": "Inflige daño de agua (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeígneos."
+      "value": "Inflige daño de agua (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeígneos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de fuego antes de atacar."
     },
     {
       "key": "SK_LW_MKN_SHIN_M_1",
-      "value": "Inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeoscuros."
+      "value": "Inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeoscuros y reduce considerablemente la evasión y la evasión de crítico de los objetivos de oscuridad antes de atacar."
     },
     {
       "key": "SK_LW_MKN_DARK_M_1",
-      "value": "Inflige daño de oscuridad (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comesacros."
+      "value": "Inflige daño de oscuridad (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comesacros y reduce considerablemente la evasión y la evasión de crítico de los objetivos de luz antes de atacar."
     },
     {
       "key": "SK_LW_MKN_M_2",
-      "value": "Consume VIT del usuario para infligir daño (mucho) en función de la MAG del usuario a los objetivos al alcance."
+      "value": "Consume VIT del usuario para eliminar Escudo a los objetivos al alcance y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
       "key": "SK_LW_MKN_M_3",
-      "value": "Daño (medio) en función de la MAG del usuario al objetivo y otorga Mataflotantes."
+      "value": "Inflige daño (medio) en función de la MAG del usuario al objetivo y otorga Mataflotantes potenciado."
     },
     {
       "key": "SK_LW_MKN_FIRE_S_1_INIT",
@@ -3826,7 +3830,7 @@
     },
     {
       "key": "SK_LW_MKN_S_3_INIT",
-      "value": "Daño (mínimo) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno, y aumenta la tasa de penetración de res. corte."
+      "value": "Daño (mínimo) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno y aumenta su tasa de penetración de res. ataque de corte durante 3 turnos."
     },
     {
       "key": "SK_LW_MKN_S_2",
@@ -3906,43 +3910,43 @@
     },
     {
       "key": "SK_LW_MKN_FIRE_M_1_SUB",
-      "value": "Inflige daño de fuego (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comegélidos."
+      "value": "Inflige daño de fuego (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comegélidos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de hielo antes de atacar."
     },
     {
       "key": "SK_LW_MKN_ICE_M_1_SUB",
-      "value": "Inflige daño de hielo (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeaéreos."
+      "value": "Inflige daño de hielo (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeaéreos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de viento antes de atacar."
     },
     {
       "key": "SK_LW_MKN_WIND_M_1_SUB",
-      "value": "Inflige daño de viento (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Cometerrestres."
+      "value": "Inflige daño de viento (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Cometerrestres y reduce considerablemente la evasión y la evasión de crítico de los objetivos de tierra antes de atacar."
     },
     {
       "key": "SK_LW_MKN_SOIL_M_1_SUB",
-      "value": "Inflige daño de tierra (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeeléctricos."
+      "value": "Inflige daño de tierra (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeeléctricos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de rayo antes de atacar."
     },
     {
       "key": "SK_LW_MKN_THUN_M_1_SUB",
-      "value": "Inflige daño de rayo (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeacuáticos."
+      "value": "Inflige daño de rayo (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeacuáticos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de agua antes de atacar."
     },
     {
       "key": "SK_LW_MKN_WATR_M_1_SUB",
-      "value": "Inflige daño de agua (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeígneos."
+      "value": "Inflige daño de agua (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeígneos y reduce considerablemente la evasión y la evasión de crítico de los objetivos de fuego antes de atacar."
     },
     {
       "key": "SK_LW_MKN_SHIN_M_1_SUB",
-      "value": "Inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comeoscuros."
+      "value": "Inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comeoscuros y reduce considerablemente la evasión y la evasión de crítico de los objetivos de oscuridad antes de atacar."
     },
     {
       "key": "SK_LW_MKN_DARK_M_1_SUB",
-      "value": "Inflige daño de oscuridad (mucho) en función de la MAG del usuario a los objetivos al alcance y otorga Comesacros."
+      "value": "Inflige daño de oscuridad (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Comesacros y reduce considerablemente la evasión y la evasión de crítico de los objetivos de luz antes de atacar."
     },
     {
       "key": "SK_LW_MKN_M_2_SUB",
-      "value": "Consume VIT del usuario para infligir daño (mucho) en función de la MAG del usuario a los objetivos al alcance."
+      "value": "Consume VIT del usuario para eliminar Escudo a los objetivos al alcance y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
       "key": "SK_LW_MKN_M_3_SUB",
-      "value": "Daño (medio) en función de la MAG del usuario al objetivo y otorga Mataflotantes."
+      "value": "Inflige daño (medio) en función de la MAG del usuario al objetivo y otorga Mataflotantes potenciado."
     },
     {
       "key": "SK_LW_MKN_FIRE_S_1",
@@ -3978,7 +3982,7 @@
     },
     {
       "key": "SK_LW_MKN_S_3",
-      "value": "Daño (mínimo) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno, y aumenta la tasa de penetración de res. corte."
+      "value": "Daño (mínimo) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno y aumenta su tasa de penetración de res. ataque de corte durante 3 turnos."
     },
     {
       "key": "SK_FF4_CECL_ATK",
@@ -8725,6 +8729,10 @@
       "value": "Aumenta la tasa de crítico y el daño crítico."
     },
     {
+      "key": "SK_LW_RAB_M_1_SUB",
+      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (medio) 2 veces."
+    },
+    {
       "key": "SK_LW_EC_RAB_A_01",
       "value": "Aumenta la res. ataque de perforación y la res. ataque mágico del usuario durante 3 turnos."
     },
@@ -8822,15 +8830,15 @@
     },
     {
       "key": "SK_LW_EC_MKN_A_01",
-      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance, y les inflige daño mágico (medio) en función de la MAG del usuario."
+      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance, les inflige daño mágico (medio) en función de la MAG del usuario y otorga Coraza y Escudo al usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MKN_C_01",
-      "value": "Mejora «Corte peligro» a «Sello peligro»: reduce el consumo de VIT. Consume VIT del usuario para reducir considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
+      "value": "Mejora «Corte peligro» a «Sello peligro»: elimina Escudo a los objetivos al alcance, reduce considerablemente la tasa de activación de sus habilidades de reacción durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
       "key": "SK_LW_EC_MKN_C_01B",
-      "value": "Consume VIT del usuario para reducir considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
+      "value": "Elimina Escudo a los objetivos al alcance, reduce considerablemente la tasa de activación de sus habilidades de reacción durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
       "key": "SK_LW_EC_MKN_C_02",
@@ -8842,23 +8850,23 @@
     },
     {
       "key": "SK_LW_EC_MKN_A_02",
-      "value": "Aumenta la tasa de penetración de ESP del usuario e inflige daño (medio) 2 veces al objetivo."
+      "value": "Aumenta la tasa de penetración de ESP y el ataque de corte del usuario durante 3 turnos e inflige daño (mucho) 2 veces al objetivo."
     },
     {
       "key": "SK_LW_EC_MKN_C_03",
-      "value": "Mejora «Hoja Aero++» a «Hoja Aero++ [aumentador]»: aumenta el alcance. Inflige daño de viento (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Cometerrestres y reduce su bravura."
+      "value": "Mejora «Hoja Aero++» a «Sable Aero++»: aumenta el alcance. Inflige daño de viento (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Cometerrestres y reduce su bravura, y reduce considerablemente la evasión y la evasión de crítico de los objetivos de tierra antes de atacar."
     },
     {
       "key": "SK_LW_EC_MKN_C_03B",
-      "value": "Inflige daño de viento (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Cometerrestres y reduce su bravura."
+      "value": "Inflige daño de viento (mucho) en función de la MAG del usuario a los objetivos al alcance, otorga Cometerrestres y reduce su bravura, y reduce considerablemente la evasión y la evasión de crítico de los objetivos de tierra antes de atacar."
     },
     {
       "key": "SK_LW_EC_MKN_C_04",
-      "value": "Mejora «Evocación de drenaje» «Vigor de drenaje»: daño (poco) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno, y aumenta la tasa de penetración de res. corte."
+      "value": "Mejora «Evocación de drenaje» «Vigor de drenaje»: inflige daño (poco) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno y aumenta su tasa de penetración de res. ataque de corte durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MKN_C_04B",
-      "value": "Daño (poco) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno, y aumenta la tasa de penetración de res. corte."
+      "value": "Inflige daño (poco) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno y aumenta su tasa de penetración de res. ataque de corte durante 3 turnos."
     },
     {
       "key": "SK_LW_TU_BLM_ICE",
@@ -9827,6 +9835,26 @@
     {
       "key": "SK_RAMU_M_04",
       "value": "Inflige daño de rayo (mucho) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_RAMU_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_RAMU_01_M_01",
+      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario al objetivo y reduce su res. rayo durante 3 turnos."
+    },
+    {
+      "key": "SK_RAMU_01_M_02",
+      "value": "Inflige daño de rayo (medio) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_RAMU_01_M_03",
+      "value": "Daño de rayo (mucho) en función de la MAG del usuario a los objetivos de alrededor y probabilidad de infligirles aturdimiento durante un turno."
+    },
+    {
+      "key": "SK_RAMU_01_M_04",
+      "value": "Elimina Coraza y Escudo a los objetivos al alcance y les inflige daño (máximo) en función de la MAG del usuario."
     },
     {
       "key": "SK_GLEM_ATK",
@@ -11098,7 +11126,7 @@
     },
     {
       "key": "SK_GSRC_M_1",
-      "value": ""
+      "value": "Inflige daño (medio) al objetivo."
     },
     {
       "key": "SK_GSRC_M_2",
@@ -12429,6 +12457,10 @@
       "value": "Invoca a Tetra Sílfide oscura: reduce la res. viento a los objetivos al alcance y les inflige daño de viento (mucho) en función de la MAG del usuario y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de viento, y reduce considerablemente la res. viento de los enemigos)."
     },
     {
+      "key": "SK_SMN_RAMU_01",
+      "value": "Invoca a Lamú oscuro: elimina Coraza y Escudo de los objetivos al alcance, les inflige daño de rayo (máximo) en función de la MAG del usuario y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de rayo, y reduce considerablemente la res. rayo de los enemigos)."
+    },
+    {
       "key": "SK_UN_BD_EC_HP_200",
       "value": ""
     },
@@ -12466,31 +12498,31 @@
     },
     {
       "key": "SK_LW_EC_MONT_C_01",
-      "value": "Mejora «Hoja asesina» a «Hoja Drenaje asesina»: inflige daño (mucho) al objetivo y lo absorbe en forma de VIT, y otorga Comehombres."
+      "value": "Mejora «Hoja asesina» a «Hoja Drenaje asesina»: aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) al objetivo y lo absorbe en forma de VIT, y otorga Comehombres."
     },
     {
       "key": "SK_LW_EC_MONT_C_01B",
-      "value": "Inflige daño (mucho) al objetivo y lo absorbe en forma de VIT, y otorga Comehombres."
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) al objetivo y lo absorbe en forma de VIT, y otorga Comehombres."
     },
     {
       "key": "SK_LW_EC_MONT_C_02",
-      "value": "Mejora «Pedrada» a «Pedrada maestra»: aumenta el alcance. Aumenta la tasa de penetración de DEF del usuario, inflige daño (poco) con golpe garantizado al objetivo y reduce su movimiento en 1 durante 3 turnos."
+      "value": "Mejora «Pedrada» a «Pedrada maestra»: aumenta el alcance. Aumenta la tasa de penetración de DEF del usuario, inflige daño (poco) con golpe garantizado al objetivo, reduce su movimiento en 1 y reduce su tasa de penetración de DEF durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MONT_C_02B",
-      "value": "Aumenta la tasa de penetración de DEF del usuario, inflige daño (poco) con golpe garantizado al objetivo y reduce su movimiento en 1 durante 3 turnos."
+      "value": "Aumenta la tasa de penetración de DEF del usuario, inflige daño (poco) con golpe garantizado al objetivo, reduce su movimiento en 1 y reduce su tasa de penetración de DEF durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SAM_A_01",
-      "value": "Inflige daño (medio) con alta probabilidad de golpe crítico a los objetivos al alcance."
+      "value": "Elimina agallas a los objetivos al alcance y les inflige daño (medio) con alta probabilidad de crítico."
     },
     {
       "key": "SK_LW_EC_SAM_C_01",
-      "value": "Mejora «Kongou» a «Zantetsu Kongou»: elimina cualquier barrera que reduzca el daño físico del objetivo, inflige daño penetrante (mucho) a los objetivos al alcance y otorga Matamáquinas y Matapétreos."
+      "value": "Mejora «Kongou» a «Zantetsu kongou»: elimina cualquier barrera que reduzca el daño físico del objetivo, aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño penetrante (mucho) a los objetivos al alcance y otorga Matamáquinas y Matapétreos."
     },
     {
       "key": "SK_LW_EC_SAM_C_01B",
-      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, inflige daño penetrante (mucho) a los objetivos al alcance y otorga Matamáquinas y Matapétreos."
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño penetrante (mucho) a los objetivos al alcance y otorga Matamáquinas y Matapétreos."
     },
     {
       "key": "SK_LW_EC_SAM_C_02",
@@ -12506,19 +12538,19 @@
     },
     {
       "key": "SK_LW_EC_SAM_C_03",
-      "value": "Mejora «Ilusión» a «Ilusión sustitutiva»: aumenta la altura de zona. Aumenta la tasa de evasión de los aliados de alrededor durante 3 turnos y aumenta considerablemente la tasa de evasión del usuario durante 3 turnos."
+      "value": "Mejora «Ilusión» a «Ilusión sustitutiva»: aumenta la altura de zona. Aumenta la tasa de evasión de los aliados de alrededor durante 3 turnos, aumenta considerablemente la tasa de evasión del usuario durante 3 turnos y aumenta su res. ataque de zona durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SAM_C_03B",
-      "value": "Aumenta la tasa de evasión de los aliados de alrededor durante 3 turnos y aumenta considerablemente la tasa de evasión del usuario durante 3 turnos."
+      "value": "Aumenta la tasa de evasión de los aliados de alrededor durante 3 turnos, aumenta considerablemente la tasa de evasión del usuario durante 3 turnos y aumenta su res. ataque de zona durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SAM_C_04",
-      "value": "Mejora «Hien» a «Shinsoku hien»: aumenta el alcance. Inflige daño (poco) al objetivo y aumenta la AGI del usuario durante 3 turnos."
+      "value": "Mejora «Hien» a «Shinsoku hien»: aumenta el alcance. Inflige daño (poco) al objetivo, aumenta la AGI del usuario durante 3 turnos y le recupera PA al dejar KO al enemigo."
     },
     {
       "key": "SK_LW_EC_SAM_C_04B",
-      "value": "Inflige daño (poco) al objetivo y aumenta la AGI del usuario durante 3 turnos."
+      "value": "Inflige daño (poco) al objetivo, aumenta la AGI del usuario durante 3 turnos y le recupera PA al dejar KO al enemigo."
     },
     {
       "key": "SK_LW_EC_LAN_A_01",
@@ -12665,10 +12697,6 @@
       "value": "Inflige daño (medio) al objetivo y absorbe una parte del daño infligido."
     },
     {
-      "key": "SK_LW_EC_KNT_A_02",
-      "value": "Reduce la DEF y el ESP del objetivo durante 3 turnos y le inflige daño (mucho)."
-    },
-    {
       "key": "SK_LW_EC_KNT_C_01",
       "value": "Mejora «Sabiduría de caballero» a «Maestría incondicional»: aumenta VIT máx., DEF, ESP y la tasa de penetración de res. ataque de corte."
     },
@@ -12683,6 +12711,10 @@
     {
       "key": "SK_LW_EC_KNT_C_02B",
       "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (mucho) a los objetivos al alcance y reduce su ATQ, MAG y AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_KNT_A_02",
+      "value": "Reduce la DEF y el ESP del objetivo durante 3 turnos y le inflige daño (mucho)."
     },
     {
       "key": "SK_LW_EC_KNT_C_03",
@@ -12946,19 +12978,19 @@
     },
     {
       "key": "SK_LW_EC_WAR_C_01",
-      "value": "Mejora «Disciplina» a «Marcha del coloso»: aumenta el ATQ y otorga Comehombres a los aliados de alrededor durante 3 turnos."
+      "value": "Mejora «Disciplina» a «Marcha del coloso»: aumenta el ATQ de los aliados de alrededor y les otorga Comehombres durante 3 turnos, y aumenta la res. ataque de unidad del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_WAR_C_01B",
-      "value": "Aumenta el ATQ y otorga Comehombres a los aliados de alrededor durante 3 turnos."
+      "value": "Aumenta el ATQ de los aliados de alrededor y les otorga Comehombres durante 3 turnos, y aumenta la res. ataque de unidad del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_WAR_C_02",
-      "value": "Mejora «Hoja asesina» a «Hoja homicida»: inflige daño (máximo) al objetivo y otorga Comehombres."
+      "value": "Mejora «Hoja asesina» a «Hoja homicida»: aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (muchísimo) al objetivo y otorga Comehombres."
     },
     {
       "key": "SK_LW_EC_WAR_C_02B",
-      "value": "Inflige daño (máximo) al objetivo y otorga Comehombres."
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (muchísimo) al objetivo y otorga Comehombres."
     },
     {
       "key": "SK_LW_EC_BEA_A_01",
@@ -13246,11 +13278,11 @@
     },
     {
       "key": "SK_LW_EC_SAM_C_05",
-      "value": "Mejora «Oborozuki» a «Gensui oborozuki»: daño (medio) a los objetivos de alrededor y probabilidad de infligirles freno e inútil durante 3 turnos."
+      "value": "Mejora «Oborozuki» a «Gensui oborozuki»: mejora la zona de efecto y la altura de efecto. Inflige daño (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno e inútil durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SAM_C_05B",
-      "value": "Daño (medio) a los objetivos de alrededor y probabilidad de infligirles freno e inútil durante 3 turnos."
+      "value": "Inflige daño (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno e inútil durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SAM_C_06",
@@ -14118,11 +14150,11 @@
     },
     {
       "key": "SK_LW_EC_GRM_C_04",
-      "value": "Mejora «Aquiles» a «Aquiles [corrosivo]»: aumenta el alcance. Reduce la res. todos los elementos de los objetivos al alcance durante 3 turnos y les inflige daño (poco) en función de la MAG del usuario."
+      "value": "Mejora «Aquiles» a «Aquiles [corrosivo]»: aumenta el alcance. Reduce la res. todos los elementos de los objetivos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
       "key": "SK_LW_EC_GRM_C_04B",
-      "value": "Reduce la res. todos los elementos de los objetivos al alcance durante 3 turnos y les inflige daño (poco) en función de la MAG del usuario."
+      "value": "Reduce la res. todos los elementos de los objetivos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
       "key": "SK_LW_EC_GRM_A_03",
@@ -14933,6 +14965,10 @@
       "value": "Tasa de penetración de ESP +20, MAG +10 %"
     },
     {
+      "key": "SK_MA_LW_HWLT_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de ESP +20, MAG +30 %, consumo de PA <nobr>-20</nobr> %, con VIT al 70 % o más: res. ataque de zona +30"
+    },
+    {
       "key": "SK_MA_LW_SCAL",
       "value": "MAG +20 %, tiempo de activación -20 %"
     },
@@ -14943,6 +14979,10 @@
     {
       "key": "SK_MA_LW_CHEL",
       "value": "AGI +10 %, tiempo de activación -25 %"
+    },
+    {
+      "key": "SK_MA_LW_CHEL_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, res. aturdimiento +25; usuario: VIT máx. +30 %, AGI +10 %, tiempo de activación -25 %, con VIT al 70 % o más: DEF y ESP +15"
     },
     {
       "key": "SK_MA_FF4_CECL",
@@ -14963,6 +15003,10 @@
     {
       "key": "SK_MA_LW_TITU",
       "value": "Res. perforación y proyectiles +10, consumo de PA -25 %"
+    },
+    {
+      "key": "SK_MA_LW_TITU_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, res. congelación +25; usuario: VIT máx. +15 %, DEF +15, res. ataque de perforación y a distancia +10, consumo de PA -25 %, con VIT al 70 % o más: res. reducciones de res. todos los elementos +100"
     },
     {
       "key": "SK_MA_LW_DEAN",
@@ -15571,6 +15615,10 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "Tasa de evasión +8"
+    },
+    {
+      "key": "SK_LW_AVOID_5_UR_2",
+      "value": "Tasa de evasión +15"
     },
     {
       "key": "SK_LW_CRIAVOI_1",
@@ -16302,6 +16350,14 @@
     },
     {
       "key": "SK_LW_RNG_011_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_012_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_012_5",
       "value": ""
     },
     {
@@ -17149,8 +17205,20 @@
       "value": "Otorga coraza a los aliados de alrededor durante 3 turnos."
     },
     {
+      "key": "SK_ACC_LW_IRDL_01_ARENA",
+      "value": "Aumenta la res. ataque de unidad del usuario durante 3 turnos y aumenta su movimiento y salto en 1."
+    },
+    {
       "key": "SK_SHI_LW_CRLT_1_ARENA",
       "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y recupera PA."
+    },
+    {
+      "key": "SK_ACC_LW_JEDN_ARENA",
+      "value": "Otorga una barrera al usuario que niega una cierta cantidad de daño y aumenta el ataque a distancia durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_LW_MINU_ARENA",
+      "value": "Aumenta la VIT máx. de los aliados de alrededor durante 3 turnos, recupera la cantidad de VIT aumentada y anula confusión, aturdimiento e inútil."
     },
     {
       "key": "SK_ARM_LW_CMLO_1_1",
@@ -17175,6 +17243,10 @@
     {
       "key": "SK_ARM_LW_ROBB_ARENA",
       "value": "Aumenta el ataque de corte y el TC (medio) de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_LW_ORDR_ARENA",
+      "value": "Otorga recuperación automática de PA (poco) al usuario durante 3 turnos y aumenta su tasa de penetración de DEF."
     },
     {
       "key": "SK_HAT_LW_MDNA_ARENA",
@@ -21258,6 +21330,54 @@
     },
     {
       "key": "SK_GL_VC_LW_FDRC_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_PMAX_2",
       "value": ""
     },
     {
@@ -28069,7 +28189,15 @@
       "value": "Habilidad específica de equipo +6"
     },
     {
+      "key": "SK_LW_PLUS6_DEFPIERCE_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
       "key": "SK_LW_PLUS6_REACTSTP_30",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_DARK_10",
       "value": "Habilidad específica de equipo +6"
     },
     {

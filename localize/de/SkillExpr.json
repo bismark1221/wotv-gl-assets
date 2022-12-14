@@ -22,23 +22,23 @@
     },
     {
       "key": "SK_LW_WAR_M_1",
-      "value": "Fügt dem Ziel Schaden (M) zu und wirkt Bestientöter."
+      "value": "Fügt dem Ziel Schaden (M) zu und wirkt mächtigen Bestientöter."
     },
     {
       "key": "SK_LW_WAR_M_4",
-      "value": "Fügt dem Ziel Schaden (L) zu und wirkt Menschenfresser."
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (L) zu und wirkt Menschenfresser."
     },
     {
       "key": "SK_LW_WAR_S_3",
-      "value": "Fügt dem Ziel Schaden (S) zu und bricht Fähigkeitenaktivierung ab."
+      "value": "Fügt dem Ziel Schaden (M) zu, bricht Fähigkeitenaktivierung ab und senkt 3 Runden lang Heilkraft."
     },
     {
       "key": "SK_LW_WAR_S_1_INIT",
-      "value": "Fügt dem Ziel Schaden (minimal) zu."
+      "value": "Fügt dem Ziel Schaden (minimal) zu und senkt 3 Runden lang ABW-Durchbohrrate."
     },
     {
       "key": "SK_LW_WAR_M_2_INIT",
-      "value": "Erhöht 3 Runden lang eigenen ANG."
+      "value": "Erhöht 3 Runden lang eigenen ANG und Einzelangriffsresistenz."
     },
     {
       "key": "SK_LW_WAR_S_2",
@@ -46,7 +46,7 @@
     },
     {
       "key": "SK_LW_WAR_M_3",
-      "value": "Heilt LP von Verbündeten im Bereich um Wirkenden (S)."
+      "value": "Heilt einen festgelegten Anteil (S) der LP von Verbündeten im Bereich um Wirkenden."
     },
     {
       "key": "SK_LW_WAR_R_1",
@@ -62,27 +62,27 @@
     },
     {
       "key": "SK_LW_WAR_P_1_MONT",
-      "value": "Erhöht ANG."
+      "value": "Erhöht ANG und Anfangs-AP."
     },
     {
       "key": "SK_LW_WAR_M_1_SUB",
-      "value": "Fügt dem Ziel Schaden (M) zu und wirkt Bestientöter."
+      "value": "Fügt dem Ziel Schaden (M) zu und wirkt mächtigen Bestientöter."
     },
     {
       "key": "SK_LW_WAR_M_4_SUB",
-      "value": "Fügt dem Ziel Schaden (L) zu und wirkt Menschenfresser."
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (L) zu und wirkt Menschenfresser."
     },
     {
       "key": "SK_LW_WAR_S_3_SUB",
-      "value": "Fügt dem Ziel Schaden (S) zu und bricht Fähigkeitenaktivierung ab."
+      "value": "Fügt dem Ziel Schaden (M) zu, bricht Fähigkeitenaktivierung ab und senkt 3 Runden lang Heilkraft."
     },
     {
       "key": "SK_LW_WAR_S_1",
-      "value": "Fügt dem Ziel Schaden (minimal) zu."
+      "value": "Fügt dem Ziel Schaden (minimal) zu und senkt 3 Runden lang ABW-Durchbohrrate."
     },
     {
       "key": "SK_LW_WAR_M_2",
-      "value": "Erhöht 3 Runden lang eigenen ANG."
+      "value": "Erhöht 3 Runden lang eigenen ANG und Einzelangriffsresistenz."
     },
     {
       "key": "SK_LW_KNT_ATK",
@@ -434,11 +434,11 @@
     },
     {
       "key": "SK_LW_SWN_S_2",
-      "value": "Fügt dem Ziel von LP-Maximum des Wirkenden abhängigen Schaden (S) zu und absorbiert verursachten Schaden."
+      "value": "Fügt dem Ziel vom LP-Maximum des Wirkenden abhängigen Schaden (S) zu und absorbiert verursachten Schaden."
     },
     {
       "key": "SK_LW_SWN_S_2_ORDR",
-      "value": "Fügt dem Ziel von LP-Maximum des Wirkenden abhängigen Schaden (S) zu und absorbiert verursachten Schaden."
+      "value": "Fügt dem Ziel vom LP-Maximum des Wirkenden abhängigen Schaden (S) zu und absorbiert verursachten Schaden."
     },
     {
       "key": "SK_LW_SWN_S_3",
@@ -478,7 +478,7 @@
     },
     {
       "key": "SK_LW_SWN_S_2_SUB",
-      "value": "Fügt dem Ziel von LP-Maximum des Wirkenden abhängigen Schaden (S) zu und absorbiert verursachten Schaden."
+      "value": "Fügt dem Ziel vom LP-Maximum des Wirkenden abhängigen Schaden (S) zu und absorbiert verursachten Schaden."
     },
     {
       "key": "SK_LW_SWN_S_3_SUB",
@@ -570,19 +570,23 @@
     },
     {
       "key": "SK_LW_SAM_M_4",
-      "value": "Fügt Zielen in Reichweite Schaden (L) zu, durchbohrt und wirkt Technikfeind sowie Steinmetzler."
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (L) zu, durchbohrt und wirkt Technikfeind sowie Steinmetzler."
     },
     {
       "key": "SK_LW_SAM_S_4",
-      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu, senkt 3 Runden lang Heilkraft erheblich und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
     },
     {
       "key": "SK_LW_SAM_M_3",
-      "value": "Transportiert Wirkenden auf Zielfeld."
+      "value": "Erhöht nach Bewegung auf Zielfeld eigene AZ (M)."
     },
     {
       "key": "SK_LW_SAM_M_1_INIT",
-      "value": "Fügt dem Ziel Schaden (S) zu."
+      "value": "Fügt dem Ziel Schaden (S) zu und stellt bei Kampfunfähigkeit des Gegners eigene AP wieder her."
+    },
+    {
+      "key": "SK_LW_SAM_M_1_AD",
+      "value": "Stellt bei Kampfunfähigkeit des Gegners eigene AP wieder her."
     },
     {
       "key": "SK_LW_SAM_S_3_INIT",
@@ -594,7 +598,7 @@
     },
     {
       "key": "SK_LW_SAM_M_2",
-      "value": "Erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden."
+      "value": "Erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigene Bereichangriffsresistenz."
     },
     {
       "key": "SK_LW_SAM_S_2",
@@ -610,19 +614,19 @@
     },
     {
       "key": "SK_LW_SAM_M_4_SUB",
-      "value": "Fügt Zielen in Reichweite Schaden (L) zu, durchbohrt und wirkt Technikfeind sowie Steinmetzler."
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (L) zu, durchbohrt und wirkt Technikfeind sowie Steinmetzler."
     },
     {
       "key": "SK_LW_SAM_S_4_SUB",
-      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu, senkt 3 Runden lang Heilkraft erheblich und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
     },
     {
       "key": "SK_LW_SAM_M_3_SUB",
-      "value": "Transportiert Wirkenden auf Zielfeld."
+      "value": "Erhöht nach Bewegung auf Zielfeld eigene AZ (M)."
     },
     {
       "key": "SK_LW_SAM_M_1",
-      "value": "Fügt dem Ziel Schaden (S) zu."
+      "value": "Fügt dem Ziel Schaden (S) zu und stellt bei Kampfunfähigkeit des Gegners eigene AP wieder her."
     },
     {
       "key": "SK_LW_SAM_S_3",
@@ -1438,7 +1442,7 @@
     },
     {
       "key": "SK_LW_GRM_M_4",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (S) zu und senkt 3 Runden lang alle Elementarresistenzen."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und senkt 3 Runden lang alle Elementarresistenzen."
     },
     {
       "key": "SK_LW_GRM_FIRE_M_3",
@@ -1514,11 +1518,11 @@
     },
     {
       "key": "SK_LW_GRM_S_1",
-      "value": "Senkt 3 Runden lang ABW von Zielen in Reichweite."
+      "value": "Senkt 3 Runden lang ABW von Zielen in Reichweite erheblich."
     },
     {
       "key": "SK_LW_GRM_S_2",
-      "value": "Senkt 3 Runden lang PSY von Verbündeten in Reichweite."
+      "value": "Senkt 3 Runden lang PSY von Zielen in Reichweite erheblich."
     },
     {
       "key": "SK_LW_GRM_M_1",
@@ -1538,7 +1542,7 @@
     },
     {
       "key": "SK_LW_GRM_M_4_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (S) zu und senkt 3 Runden lang alle Elementarresistenzen."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und senkt 3 Runden lang alle Elementarresistenzen."
     },
     {
       "key": "SK_LW_GRM_FIRE_M_3_SUB",
@@ -3753,44 +3757,44 @@
       "value": ""
     },
     {
-      "key": "SK_LW_MKN_WIND_M_1",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (L) zu und wirkt Erdfresser."
-    },
-    {
-      "key": "SK_LW_MKN_SOIL_M_1",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Erdschaden (L) zu und wirkt Blitzfresser."
-    },
-    {
       "key": "SK_LW_MKN_FIRE_M_1",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (L) zu und wirkt Eisfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (L) zu, wirkt Eisfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Eiselement ist."
     },
     {
       "key": "SK_LW_MKN_ICE_M_1",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (L) zu und wirkt Windfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (L) zu, wirkt Windfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Windelement ist."
+    },
+    {
+      "key": "SK_LW_MKN_WIND_M_1",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (L) zu, wirkt Erdfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Erdelement ist."
+    },
+    {
+      "key": "SK_LW_MKN_SOIL_M_1",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Erdschaden (L) zu, wirkt Blitzfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Blitzelement ist."
     },
     {
       "key": "SK_LW_MKN_THUN_M_1",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (L) zu und wirkt Wasserfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (L) zu, wirkt Wasserfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Wasserelement ist."
     },
     {
       "key": "SK_LW_MKN_WATR_M_1",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Wasserschaden (L) zu und wirkt Feuerfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Wasserschaden (L) zu, wirkt Feuerfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Feuerelement ist."
     },
     {
       "key": "SK_LW_MKN_SHIN_M_1",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu und wirkt Dunkelfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu, wirkt Dunkelfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Dunkelelement ist."
     },
     {
       "key": "SK_LW_MKN_DARK_M_1",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (L) zu und wirkt Lichtfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (L) zu, wirkt Lichtfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Lichtelement ist."
     },
     {
       "key": "SK_LW_MKN_M_2",
-      "value": "Verbraucht eigene LP, um Zielen in Reichweite MAG-abhängigen Schaden (L) zuzufügen."
+      "value": "Verbraucht eigene LP, um Vallum von Zielen in Reichweite zu entfernen und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
       "key": "SK_LW_MKN_M_3",
-      "value": "Fügt dem Ziel MAG-abhängigen Schaden (M) zu und gewährt Chance auf Schwingenstutzer."
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (M) zu und gewährt Chance auf mächtigen Schwingenstutzer."
     },
     {
       "key": "SK_LW_MKN_FIRE_S_1_INIT",
@@ -3826,7 +3830,7 @@
     },
     {
       "key": "SK_LW_MKN_S_3_INIT",
-      "value": "Fügt dem Ziel MAG-abhängigen Schaden (minimal) zu, absorbiert verursachten Schaden, erhöht 1 Runde lang eigene MAG erheblich und erhöht eigene Schlitzresistenz-Durchbohrrate."
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (minimal) zu, absorbiert verursachten Schaden, erhöht 1 Runde lang eigene MAG erheblich und erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate."
     },
     {
       "key": "SK_LW_MKN_S_2",
@@ -3906,43 +3910,43 @@
     },
     {
       "key": "SK_LW_MKN_FIRE_M_1_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (L) zu und wirkt Eisfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (L) zu, wirkt Eisfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Eiselement ist."
     },
     {
       "key": "SK_LW_MKN_ICE_M_1_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (L) zu und wirkt Windfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (L) zu, wirkt Windfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Windelement ist."
     },
     {
       "key": "SK_LW_MKN_WIND_M_1_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (L) zu und wirkt Erdfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (L) zu, wirkt Erdfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Erdelement ist."
     },
     {
       "key": "SK_LW_MKN_SOIL_M_1_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Erdschaden (L) zu und wirkt Blitzfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Erdschaden (L) zu, wirkt Blitzfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Blitzelement ist."
     },
     {
       "key": "SK_LW_MKN_THUN_M_1_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (L) zu und wirkt Wasserfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (L) zu, wirkt Wasserfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Wasserelement ist."
     },
     {
       "key": "SK_LW_MKN_WATR_M_1_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Wasserschaden (L) zu und wirkt Feuerfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Wasserschaden (L) zu, wirkt Feuerfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Feuerelement ist."
     },
     {
       "key": "SK_LW_MKN_SHIN_M_1_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu und wirkt Dunkelfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu, wirkt Dunkelfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Dunkelelement ist."
     },
     {
       "key": "SK_LW_MKN_DARK_M_1_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (L) zu und wirkt Lichtfresser."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (L) zu, wirkt Lichtfresser und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Lichtelement ist."
     },
     {
       "key": "SK_LW_MKN_M_2_SUB",
-      "value": "Verbraucht eigene LP, um Zielen in Reichweite MAG-abhängigen Schaden (L) zuzufügen."
+      "value": "Verbraucht eigene LP, um Vallum von Zielen in Reichweite zu entfernen und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
       "key": "SK_LW_MKN_M_3_SUB",
-      "value": "Fügt dem Ziel MAG-abhängigen Schaden (M) zu und gewährt Chance auf Schwingenstutzer."
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (M) zu und gewährt Chance auf mächtigen Schwingenstutzer."
     },
     {
       "key": "SK_LW_MKN_FIRE_S_1",
@@ -3978,7 +3982,7 @@
     },
     {
       "key": "SK_LW_MKN_S_3",
-      "value": "Fügt dem Ziel MAG-abhängigen Schaden (minimal) zu, absorbiert verursachten Schaden, erhöht 1 Runde lang eigene MAG erheblich und erhöht eigene Schlitzresistenz-Durchbohrrate."
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (minimal) zu, absorbiert verursachten Schaden, erhöht 1 Runde lang eigene MAG erheblich und erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate."
     },
     {
       "key": "SK_FF4_CECL_ATK",
@@ -8725,6 +8729,10 @@
       "value": "Erhöht kritische Trefferrate und kritischen Schaden."
     },
     {
+      "key": "SK_LW_RAB_M_1_SUB",
+      "value": "Senkt 3 Runden lang ABW des Ziels und fügt anschließend 2-mal hintereinander Schaden (M) zu."
+    },
+    {
       "key": "SK_LW_EC_RAB_A_01",
       "value": "Erhöht 3 Runden lang eigene Durchbohr- und Magieangriffsresistenz."
     },
@@ -8822,15 +8830,15 @@
     },
     {
       "key": "SK_LW_EC_MKN_A_01",
-      "value": "Zerstört magischen Schaden verringernde Barrieren von Zielen in Reichweite und fügt anschließend MAG-abhängigen magischen Schaden (M) zu."
+      "value": "Zerstört magischen Schaden verringernde Barrieren von Zielen in Reichweite, fügt anschließend MAG-abhängigen magischen Schaden (M) zu und wirkt 3 Runden lang Statuseffekte (Protes/Regena) auf sich selbst."
     },
     {
       "key": "SK_LW_EC_MKN_C_01",
-      "value": "Verstärkt Risikoschlitzer zu Risikospalt. Reduziert LP-Verbrauch. Verbraucht eigene LP, um 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich zu senken und fügt anschließend MAG-abhängigen Schaden (L) zu."
+      "value": "Verstärkt Risikoschlitzer zu Risikobruch. Entfernt Vallum von Zielen in Reichweite, senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten erheblich und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
       "key": "SK_LW_EC_MKN_C_01B",
-      "value": "Verbraucht eigene LP, um 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich zu senken und fügt anschließend MAG-abhängigen Schaden (L) zu."
+      "value": "Entfernt Vallum von Zielen in Reichweite, senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten erheblich und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
       "key": "SK_LW_EC_MKN_C_02",
@@ -8842,23 +8850,23 @@
     },
     {
       "key": "SK_LW_EC_MKN_A_02",
-      "value": "Erhöht eigene PSY-Durchbohrrate und fügt dem Ziel anschließend 2-mal hintereinander Schaden (M) zu."
+      "value": "Erhöht 3 Runden lang eigene PSY-Durchbohrrate und Schlitzangriff und fügt dem Ziel anschließend 2 Mal hintereinander MAG-abhängigen Schaden (L) zu."
     },
     {
       "key": "SK_LW_EC_MKN_C_03",
-      "value": "Verstärkt Aeroga-Klinge zu Aeroga-Klinge [Augmenter]. Erhöht Reichweite. Fügt Zielen in Reichweite MAG-abhängigen Windschaden (L) zu, wirkt Erdfresser und senkt Courage."
+      "value": "Verstärkt Aeroga-Klinge zu Aeroga-Klinge [Augmenter]. Erhöht Reichweite. Fügt Zielen in Reichweite MAG-abhängigen Windschaden (L) zu, wirkt Erdfresser, senkt Courage und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Erdelement ist."
     },
     {
       "key": "SK_LW_EC_MKN_C_03B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (L) zu, wirkt Erdfresser und senkt Courage."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (L) zu, wirkt Erdfresser, senkt Courage und senkt vor dem Angriff Ausweichrate und Kritische Ausweichrate erheblich, wenn das Ziel Erdelement ist."
     },
     {
       "key": "SK_LW_EC_MKN_C_04",
-      "value": "Verstärkt Entzugsanrufung zu Osmotisches Rufen. Fügt dem Ziel MAG-abhängigen Schaden (S) zu, absorbiert verursachten Schaden, erhöht 1 Runde lang eigene MAG erheblich und erhöht eigene Schlitzresistenz-Durchbohrrate."
+      "value": "Verstärkt Entzugsanrufung zu Osmotisches Rufen. Fügt dem Ziel MAG-abhängigen Schaden (S) zu, absorbiert verursachten Schaden, erhöht 1 Runde lang eigene MAG erheblich und erhöht 3 Runden lang Schlitzresistenz-Durchbohrrate."
     },
     {
       "key": "SK_LW_EC_MKN_C_04B",
-      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu, absorbiert verursachten Schaden, erhöht 1 Runde lang eigene MAG erheblich und erhöht eigene Schlitzresistenz-Durchbohrrate."
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu, absorbiert verursachten Schaden, erhöht 1 Runde lang eigene MAG erheblich und erhöht 3 Runden lang Schlitzresistenz-Durchbohrrate."
     },
     {
       "key": "SK_LW_TU_BLM_ICE",
@@ -9827,6 +9835,26 @@
     {
       "key": "SK_RAMU_M_04",
       "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (L) zu."
+    },
+    {
+      "key": "SK_RAMU_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_RAMU_01_M_01",
+      "value": "Fügt dem Ziel MAG-abhängigen Blitzschaden (S) zu und senkt 3 Runden lang Blitzresistenz."
+    },
+    {
+      "key": "SK_RAMU_01_M_02",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (M) zu."
+    },
+    {
+      "key": "SK_RAMU_01_M_03",
+      "value": "Fügt Zielen im Bereich um Wirkenden MAG-abhängigen Blitzschaden (L) zu und gewährt Chance auf Wirken von 1 Runde andauernder Betäubung."
+    },
+    {
+      "key": "SK_RAMU_01_M_04",
+      "value": "Entfernt Protes und Vallum und fügt anschließend Zielen in Reichweite MAG-abhängigen Blitzschaden (maximal) zu."
     },
     {
       "key": "SK_GLEM_ATK",
@@ -11098,7 +11126,7 @@
     },
     {
       "key": "SK_GSRC_M_1",
-      "value": ""
+      "value": "Fügt dem Ziel Schaden (M) zu."
     },
     {
       "key": "SK_GSRC_M_2",
@@ -11454,7 +11482,7 @@
     },
     {
       "key": "SK_EFKS_M_02",
-      "value": "Senkt ANG aller Gegner im Bereich um Wirkenden erheblich und senkt Erdresistenz."
+      "value": "Senkt ANG von Gegnern im Bereich um Wirkenden erheblich und senkt Erdresistenz."
     },
     {
       "key": "SK_EFKS_M_03",
@@ -12429,6 +12457,10 @@
       "value": "Ruft Dunkel-Tetrasylphid, senkt Windresistenz von Zielen in Reichweite, fügt anschließend MAG-abhängigen Windschaden (L) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit stärkerem Effekt für Windeinheiten, erhebliche Windresistenz-Senkung für Gegner)."
     },
     {
+      "key": "SK_SMN_RAMU_01",
+      "value": "Ruft Dunkel-Ramuh, entfernt Protes und Vallum von Zielen in Reichweite, fügt anschließend MAG-abhängigen Blitzschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit erhöhtem Effekt für Blitzeinheiten, erhebliche Blitzresistenz-Senkung für Gegner)."
+    },
+    {
       "key": "SK_UN_BD_EC_HP_200",
       "value": ""
     },
@@ -12466,31 +12498,31 @@
     },
     {
       "key": "SK_LW_EC_MONT_C_01",
-      "value": "Verstärkt Killerklinge zu Entzugs-Killerklinge. Fügt dem Ziel Schaden (L) zu, wirkt Menschenfresser und absorbiert verursachten Schaden."
+      "value": "Verstärkt Killerklinge zu Entzugs-Killerklinge. Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (L) zu, wirkt Menschenfresser und absorbiert verursachten Schaden."
     },
     {
       "key": "SK_LW_EC_MONT_C_01B",
-      "value": "Fügt dem Ziel Schaden (L) zu, wirkt Menschenfresser und absorbiert verursachten Schaden."
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (L) zu, wirkt Menschenfresser und absorbiert verursachten Schaden."
     },
     {
       "key": "SK_LW_EC_MONT_C_02",
-      "value": "Verstärkt Steinwurf zu Absoluter Steinwurf. Erhöht Reichweite. Erhöht eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (S) zu, garantiert Treffer und senkt 3 Runden lang Bewegung um 1."
+      "value": "Verstärkt Steinwurf zu Absoluter Steinwurf. Erhöht Reichweite. Erhöht eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (S) zu, garantiert Treffer und senkt 3 Runden lang Bewegung um 1 und ABW-Durchbohrrate."
     },
     {
       "key": "SK_LW_EC_MONT_C_02B",
-      "value": "Erhöht Reichweite. Erhöht eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (S) zu, garantiert Treffer und senkt 3 Runden lang Bewegung um 1."
+      "value": "Erhöht eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (S) zu, garantiert Treffer und senkt 3 Runden lang Bewegung um 1 und ABW-Durchbohrrate."
     },
     {
       "key": "SK_LW_EC_SAM_A_01",
-      "value": "Fügt Zielen in Reichweite Schaden (M) zu und hohe Wahrscheinlichkeit eines kritischen Treffers."
+      "value": "Entfernt Mumm von Zielen in Reichweite und fügt anschließend Schaden (M) zu mit hoher Wahrscheinlichkeit auf kritischen Treffer."
     },
     {
       "key": "SK_LW_EC_SAM_C_01",
-      "value": "Verstärkt Kongou zu Zantetsu Kongou. Zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend Schaden (L) zu, durchbohrt und wirkt Technikfeind sowie Steinmetzler."
+      "value": "Verstärkt Kongou zu Zantetsu Kongou. Zerstört physischen Schaden verringernde Barrieren, erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (L) zu, durchbohrt und wirkt Technikfeind sowie Steinmetzler."
     },
     {
       "key": "SK_LW_EC_SAM_C_01B",
-      "value": "Zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend Schaden (L) zu, durchbohrt und wirkt Technikfeind sowie Steinmetzler."
+      "value": "Zerstört physischen Schaden verringernde Barrieren, erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (L) zu, durchbohrt und wirkt Technikfeind sowie Steinmetzler."
     },
     {
       "key": "SK_LW_EC_SAM_C_02",
@@ -12506,19 +12538,19 @@
     },
     {
       "key": "SK_LW_EC_SAM_C_03",
-      "value": "Verstärkt Illusion zu Trugbildverwandlung. Erhöht Bereichshöhe. Erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden gewöhnlich und eigene Ausweichrate erheblich."
+      "value": "Verstärkt Illusion zu Trugbildverwandlung. Erhöht Bereichshöhe. Erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden, erhöht eigene Ausweichrate erheblich und erhöht 3 Runden lang eigene Bereichangriffsresistenz."
     },
     {
       "key": "SK_LW_EC_SAM_C_03B",
-      "value": "Erhöht Bereichshöhe. Erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden gewöhnlich und eigene Ausweichrate erheblich."
+      "value": "Erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden, erhöht eigene Ausweichrate 3 Runden lang erheblich, und erhöht 3 Runden lang eigene Bereichangriffsresistenz."
     },
     {
       "key": "SK_LW_EC_SAM_C_04",
-      "value": "Verstärkt Hien zu Shinsoku Hien. Fügt dem Ziel Schaden (S) zu und erhöht 3 Runden lang eigene AGI."
+      "value": "Verstärkt Hien zu Shinsoku Hien. Erhöht Reichweite. Fügt dem Ziel Schaden (S) zu, erhöht 3 Runden lang eigene AGI und stellt bei Kampfunfähigkeit des Gegners eigene AP wieder her."
     },
     {
       "key": "SK_LW_EC_SAM_C_04B",
-      "value": "Fügt dem Ziel Schaden (S) zu und erhöht 3 Runden lang eigene AGI."
+      "value": "Fügt dem Ziel Schaden (S) zu, erhöht 3 Runden lang eigene AGI und stellt bei Kampfunfähigkeit des Gegners eigene AP wieder her."
     },
     {
       "key": "SK_LW_EC_LAN_A_01",
@@ -12665,10 +12697,6 @@
       "value": "Fügt dem Ziel Schaden (M) zu und absorbiert einen Teil des verursachten Schadens."
     },
     {
-      "key": "SK_LW_EC_KNT_A_02",
-      "value": "Senkt 3 Runden lang ABW und PSY des Ziels und fügt anschließend Schaden (L) zu."
-    },
-    {
       "key": "SK_LW_EC_KNT_C_01",
       "value": "Verstärkt Ritterkenntnisse zu Meister der Vasallen. Erhöht LP-Maximum, ABW, PSY und Schlitzresistenz-Durchbohrrate."
     },
@@ -12683,6 +12711,10 @@
     {
       "key": "SK_LW_EC_KNT_C_02B",
       "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (L) zu und senkt 3 Runden lang ANG, MAG und AGI."
+    },
+    {
+      "key": "SK_LW_EC_KNT_A_02",
+      "value": "Senkt 3 Runden lang ABW und PSY des Ziels und fügt anschließend Schaden (L) zu."
     },
     {
       "key": "SK_LW_EC_KNT_C_03",
@@ -12946,19 +12978,19 @@
     },
     {
       "key": "SK_LW_EC_WAR_C_01",
-      "value": "Verstärkt Disziplin zu Vormarsch des Zerschmetterers. Wirkt 3 Runden lang Menschenfresser auf Verbündete im Bereich um Wirkenden und erhöht ihren ANG."
+      "value": "Verstärkt Disziplin zu Vormarsch des Zerschmetterers. Erhöht ANG von Verbündeten im Bereich um Wirkenden, wirkt 3 Runden lang Menschenfresser und erhöht 3 Runden lang eigene Einzelangriffsresistenz."
     },
     {
       "key": "SK_LW_EC_WAR_C_01B",
-      "value": "Wirkt 3 Runden lang Menschenfresser auf Verbündete im Bereich um Wirkenden und erhöht ihren ANG."
+      "value": "Erhöht ANG von Verbündeten im Bereich um Wirkenden, wirkt 3 Runden lang Menschenfresser und erhöht 3 Runden lang eigene Einzelangriffsresistenz."
     },
     {
       "key": "SK_LW_EC_WAR_C_02",
-      "value": "Verstärkt Killerklinge zu Mordklinge. Fügt dem Ziel Schaden (maximal) zu und wirkt Menschenfresser."
+      "value": "Verstärkt Killerklinge zu Mordklinge. Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (XL) zu und wirkt Menschenfresser."
     },
     {
       "key": "SK_LW_EC_WAR_C_02B",
-      "value": "Fügt dem Ziel Schaden (maximal) zu und wirkt Menschenfresser."
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt dem Ziel anschließend Schaden (XL) zu und wirkt Menschenfresser."
     },
     {
       "key": "SK_LW_EC_BEA_A_01",
@@ -13246,11 +13278,11 @@
     },
     {
       "key": "SK_LW_EC_SAM_C_05",
-      "value": "Verstärkt Oborozuki zu Gensui Oborozuki. Fügt Zielen im Bereich um Wirkenden Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauernden Zustandsveränderungen (Gemach/Ausschalten)."
+      "value": "Verstärkt Oborozuki zu Gensui Oborozuki. Erhöht Wirkungsbereich und Wirkungshöhe. Fügt Zielen im Bereich um Wirkenden Schaden (M) zu, senkt 3 Runden lang Heilkraft erheblich und gewährt Chance auf Wirken von 3 Runden andauernder Zustandsveränderung (Gemach/Ausschalten)."
     },
     {
       "key": "SK_LW_EC_SAM_C_05B",
-      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauernden Zustandsveränderungen (Gemach/Ausschalten)."
+      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu, senkt 3 Runden lang Heilkraft erheblich und gewährt Chance auf Wirken von 3 Runden andauernder Zustandsveränderung (Gemach/Ausschalten)."
     },
     {
       "key": "SK_LW_EC_SAM_C_06",
@@ -14118,11 +14150,11 @@
     },
     {
       "key": "SK_LW_EC_GRM_C_04",
-      "value": "Verstärkt Morbid zu Morbid [Erosion]. Erhöht Reichweite. Senkt 3 Runden lang alle Elementarresistenzen von Zielen in Reichweite und fügt anschließend MAG-abhängigen Schaden (S) zu."
+      "value": "Verstärkt Morbid zu Morbid [Erosion]. Erhöht Reichweite. Senkt 3 Runden lang alle Elementarresistenzen von Zielen in Reichweite und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
       "key": "SK_LW_EC_GRM_C_04B",
-      "value": "Senkt 3 Runden lang alle Elementarresistenzen von Zielen in Reichweite und fügt anschließend MAG-abhängigen Schaden (S) zu."
+      "value": "Senkt 3 Runden lang alle Elementarresistenzen von Zielen in Reichweite und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
       "key": "SK_LW_EC_GRM_A_03",
@@ -14933,6 +14965,10 @@
       "value": "PSY-Durchbohrrate +20, MAG +10 %"
     },
     {
+      "key": "SK_MA_LW_HWLT_2",
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene PSY-Durchbohrrate +20, MAG +30 %, AP-Verbrauch -20 % und Bereichangriffsresistenz +30, solange LP 70 % oder mehr betragen."
+    },
+    {
       "key": "SK_MA_LW_SCAL",
       "value": "MAG +20 %, Aktivierungszeit -20 %"
     },
@@ -14943,6 +14979,10 @@
     {
       "key": "SK_MA_LW_CHEL",
       "value": "AGI +10 %, Entfesselungszeit -25 %"
+    },
+    {
+      "key": "SK_MA_LW_CHEL_2",
+      "value": "LP-Maximum +10 % und Betäubungsresistenz +25 für verbündete Eiseinheiten, eigenes LP-Maximum +30 %, AGI +10 %, Aktivierungszeit -25 % und ABW und PSY +15, solange LP 70 % oder mehr betragen"
     },
     {
       "key": "SK_MA_FF4_CECL",
@@ -14963,6 +15003,10 @@
     {
       "key": "SK_MA_LW_TITU",
       "value": "Durchbohr-/Geschossresistenz +10, AP-Verbrauch -25 %"
+    },
+    {
+      "key": "SK_MA_LW_TITU_2",
+      "value": "LP-Maximum +10 % und Erfrierungsresistenz +25 für verbündete Dunkeleinheiten, eigenes LP-Maximum +15 %, ABW +15, Durchbohr- und Geschossresistenz +10, AP-Verbrauch -25 %, Schwächungsresistenz aller Elementarresistenzen +100, solange LP 70 % oder mehr"
     },
     {
       "key": "SK_MA_LW_DEAN",
@@ -15571,6 +15615,10 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "Ausweichrate +8"
+    },
+    {
+      "key": "SK_LW_AVOID_5_UR_2",
+      "value": "Ausweichrate +15"
     },
     {
       "key": "SK_LW_CRIAVOI_1",
@@ -16302,6 +16350,14 @@
     },
     {
       "key": "SK_LW_RNG_011_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_012_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_012_5",
       "value": ""
     },
     {
@@ -17149,8 +17205,20 @@
       "value": "Wirkt 3 Runden lang Protes auf Verbündete im Bereich um Wirkenden."
     },
     {
+      "key": "SK_ACC_LW_IRDL_01_ARENA",
+      "value": "Erhöht 3 Runden lang eigene Einzelangriffsresistenz und erhöht Bewegung/Sprung um 1."
+    },
+    {
       "key": "SK_SHI_LW_CRLT_1_ARENA",
       "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3-mal Schaden reduziert, und heilt AP."
+    },
+    {
+      "key": "SK_ACC_LW_JEDN_ARENA",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge Schaden abwehrt, und erhöht 3 Runden lang Geschoss-ANG."
+    },
+    {
+      "key": "SK_ACC_LW_MINU_ARENA",
+      "value": "Erhöht 3 Runden lang LP-Maximum von Verbündeten in Reichweite, heilt Erhöhungsbetrag der LP und annulliert Konfus, Betäubung und Ausschalten."
     },
     {
       "key": "SK_ARM_LW_CMLO_1_1",
@@ -17175,6 +17243,10 @@
     {
       "key": "SK_ARM_LW_ROBB_ARENA",
       "value": "Erhöht 3 Runden lang Schlitz-ANG und AZ (M) von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_ACC_LW_ORDR_ARENA",
+      "value": "Wirkt 3 Runden andauernde automatische AP-Wiederherstellung (S) auf sich selbst und erhöht ABW-Durchbohrrate."
     },
     {
       "key": "SK_HAT_LW_MDNA_ARENA",
@@ -21258,6 +21330,54 @@
     },
     {
       "key": "SK_GL_VC_LW_FDRC_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_PMAX_2",
       "value": ""
     },
     {
@@ -28069,7 +28189,15 @@
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {
+      "key": "SK_LW_PLUS6_DEFPIERCE_10",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
       "key": "SK_LW_PLUS6_REACTSTP_30",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_DARK_10",
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {

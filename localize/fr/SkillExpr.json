@@ -22,23 +22,23 @@
     },
     {
       "key": "SK_LW_WAR_M_1",
-      "value": "Inflige des dégâts (M) à la cible et accorde Tue-bêtes."
+      "value": "Inflige des dégâts (M) à la cible et accorde un effet Tue-bêtes augmenté."
     },
     {
       "key": "SK_LW_WAR_M_4",
-      "value": "Inflige des dégâts (L) à la cible et accorde Anthropophage."
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (L) à la cible et accorde Anthropophage."
     },
     {
       "key": "SK_LW_WAR_S_3",
-      "value": "Inflige des dégâts (S) à la cible et annule l'activation des aptitudes."
+      "value": "Inflige des dégâts (M) à la cible, annule l'activation des aptitudes et réduit les compétences de soin pendant 3 tours."
     },
     {
       "key": "SK_LW_WAR_S_1_INIT",
-      "value": "Inflige des dégâts (XS) à la cible."
+      "value": "Inflige des dégâts (XS) à la cible et réduit le taux de perforation de la DEF pendant 3 tours."
     },
     {
       "key": "SK_LW_WAR_M_2_INIT",
-      "value": "Augmente l'ATT du lanceur pendant 3 tours."
+      "value": "Augmente l’ATT et la résistance aux attaques à cible unique du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_WAR_S_2",
@@ -46,7 +46,7 @@
     },
     {
       "key": "SK_LW_WAR_M_3",
-      "value": "Restaure les PV (S) des alliés dans la zone autour du lanceur."
+      "value": "Restaure un certain pourcentage des PV (S) des alliés dans la zone autour du lanceur."
     },
     {
       "key": "SK_LW_WAR_R_1",
@@ -62,27 +62,27 @@
     },
     {
       "key": "SK_LW_WAR_P_1_MONT",
-      "value": "Augmente l'ATT."
+      "value": "Augmente l'ATT et les PA initiaux."
     },
     {
       "key": "SK_LW_WAR_M_1_SUB",
-      "value": "Inflige des dégâts (M) à la cible et accorde Tue-bêtes."
+      "value": "Inflige des dégâts (M) à la cible et accorde un effet Tue-bêtes augmenté."
     },
     {
       "key": "SK_LW_WAR_M_4_SUB",
-      "value": "Inflige des dégâts (L) à la cible et accorde Anthropophage."
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (L) à la cible et accorde Anthropophage."
     },
     {
       "key": "SK_LW_WAR_S_3_SUB",
-      "value": "Inflige des dégâts (S) à la cible et annule l'activation des aptitudes."
+      "value": "Inflige des dégâts (M) à la cible, annule l'activation des aptitudes et réduit les compétences de soin pendant 3 tours."
     },
     {
       "key": "SK_LW_WAR_S_1",
-      "value": "Inflige des dégâts (XS) à la cible."
+      "value": "Inflige des dégâts (XS) à la cible et réduit le taux de perforation de la DEF pendant 3 tours."
     },
     {
       "key": "SK_LW_WAR_M_2",
-      "value": "Augmente l'ATT du lanceur pendant 3 tours."
+      "value": "Augmente l’ATT et la résistance aux attaques à cible unique du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_KNT_ATK",
@@ -570,19 +570,23 @@
     },
     {
       "key": "SK_LW_SAM_M_4",
-      "value": "Inflige des dégâts (L) aux unités dans la zone ciblée, Perforation et accorde Tue-machines et Tue-pierres."
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (L) aux unités dans la zone ciblée, Perforation et accorde Tue-machines et Tue-pierre."
     },
     {
       "key": "SK_LW_SAM_S_4",
-      "value": "Inflige des dégâts (M) aux cibles dans la zone autour du lanceur et confère une chance d'infliger Lenteur pendant 3 tours."
+      "value": "Inflige des dégâts (M) aux unités dans la zone autour du lanceur, réduit considérablement les compétences de soin pendant 3 tours et confère une chance d'infliger Lenteur pendant 3 tours."
     },
     {
       "key": "SK_LW_SAM_M_3",
-      "value": "Déplace le lanceur jusqu'à la case ciblée."
+      "value": "Après déplacement jusqu'à la case ciblée, augmente les CT du lanceur (M)."
     },
     {
       "key": "SK_LW_SAM_M_1_INIT",
-      "value": "Inflige des dégâts (S) à la cible."
+      "value": "Inflige des dégâts (S) à la cible et restaure les PA du lanceur quand un ennemi est mis K.O."
+    },
+    {
+      "key": "SK_LW_SAM_M_1_AD",
+      "value": "Restaure les PA du lanceur quand un ennemi est mis K.O."
     },
     {
       "key": "SK_LW_SAM_S_3_INIT",
@@ -594,7 +598,7 @@
     },
     {
       "key": "SK_LW_SAM_M_2",
-      "value": "Augmente la taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours."
+      "value": "Augmente taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours et augmente la résistance aux attaques de zone du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_SAM_S_2",
@@ -610,19 +614,19 @@
     },
     {
       "key": "SK_LW_SAM_M_4_SUB",
-      "value": "Inflige des dégâts (L) aux unités dans la zone ciblée, Perforation et accorde Tue-machines et Tue-pierres."
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (L) aux unités dans la zone ciblée, Perforation et accorde Tue-machines et Tue-pierre."
     },
     {
       "key": "SK_LW_SAM_S_4_SUB",
-      "value": "Inflige des dégâts (M) aux cibles dans la zone autour du lanceur et confère une chance d'infliger Lenteur pendant 3 tours."
+      "value": "Inflige des dégâts (M) aux unités dans la zone autour du lanceur, réduit considérablement les compétences de soin pendant 3 tours et confère une chance d'infliger Lenteur pendant 3 tours."
     },
     {
       "key": "SK_LW_SAM_M_3_SUB",
-      "value": "Déplace le lanceur jusqu'à la case ciblée."
+      "value": "Après déplacement jusqu'à la case ciblée, augmente les CT du lanceur (M)."
     },
     {
       "key": "SK_LW_SAM_M_1",
-      "value": "Inflige des dégâts (S) à la cible."
+      "value": "Inflige des dégâts (S) à la cible et restaure les PA du lanceur quand un ennemi est mis K.O."
     },
     {
       "key": "SK_LW_SAM_S_3",
@@ -1438,7 +1442,7 @@
     },
     {
       "key": "SK_LW_GRM_M_4",
-      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et réduit la résistance tous éléments pendant 3 tours."
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et réduit la résistance tous éléments pendant 3 tours."
     },
     {
       "key": "SK_LW_GRM_FIRE_M_3",
@@ -1514,11 +1518,11 @@
     },
     {
       "key": "SK_LW_GRM_S_1",
-      "value": "Réduit la DEF des unités dans la zone ciblée pendant 3 tours."
+      "value": "Réduit considérablement la DEF des unités dans la zone ciblée pendant 3 tours."
     },
     {
       "key": "SK_LW_GRM_S_2",
-      "value": "Réduit la PSY des unités dans la zone ciblée pendant 3 tours."
+      "value": "Réduit considérablement la PSY des unités dans la zone ciblée pendant 3 tours."
     },
     {
       "key": "SK_LW_GRM_M_1",
@@ -1538,7 +1542,7 @@
     },
     {
       "key": "SK_LW_GRM_M_4_SUB",
-      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et réduit la résistance tous éléments pendant 3 tours."
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et réduit la résistance tous éléments pendant 3 tours."
     },
     {
       "key": "SK_LW_GRM_FIRE_M_3_SUB",
@@ -3753,44 +3757,44 @@
       "value": ""
     },
     {
-      "key": "SK_LW_MKN_WIND_M_1",
-      "value": "Inflige des dégâts de vent (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Terraphage."
-    },
-    {
-      "key": "SK_LW_MKN_SOIL_M_1",
-      "value": "Inflige des dégâts de terre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Foudrophage."
-    },
-    {
       "key": "SK_LW_MKN_FIRE_M_1",
-      "value": "Inflige des dégâts de feu (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Cryophage."
+      "value": "Inflige des dégâts de feu (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Cryophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément glace."
     },
     {
       "key": "SK_LW_MKN_ICE_M_1",
-      "value": "Inflige des dégâts de glace (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Éophage."
+      "value": "Inflige des dégâts de glace (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Éophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément vent."
+    },
+    {
+      "key": "SK_LW_MKN_WIND_M_1",
+      "value": "Inflige des dégâts de vent (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Terraphage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément terre."
+    },
+    {
+      "key": "SK_LW_MKN_SOIL_M_1",
+      "value": "Inflige des dégâts de terre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Foudrophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément foudre."
     },
     {
       "key": "SK_LW_MKN_THUN_M_1",
-      "value": "Inflige des dégâts de foudre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Hydrophage."
+      "value": "Inflige des dégâts de foudre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Hydrophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément eau."
     },
     {
       "key": "SK_LW_MKN_WATR_M_1",
-      "value": "Inflige des dégâts d'eau (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Pyrophage."
+      "value": "Inflige des dégâts d'eau (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Pyrophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément feu."
     },
     {
       "key": "SK_LW_MKN_SHIN_M_1",
-      "value": "Inflige des dégâts de lumière (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Noctophage."
+      "value": "Inflige des dégâts de lumière (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Noctophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément ombre."
     },
     {
       "key": "SK_LW_MKN_DARK_M_1",
-      "value": "Inflige des dégâts d'ombre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Luminophage."
+      "value": "Inflige des dégâts d'ombre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Luminophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément lumière."
     },
     {
       "key": "SK_LW_MKN_M_2",
-      "value": "Consomme les PV du lanceur pour infliger des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+      "value": "Consomme les PV du lanceur pour dissiper Barrière des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_MKN_M_3",
-      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible et Tue-aériens."
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible et accorde un effet Tue-aériens augmenté."
     },
     {
       "key": "SK_LW_MKN_FIRE_S_1_INIT",
@@ -3826,7 +3830,7 @@
     },
     {
       "key": "SK_LW_MKN_S_3_INIT",
-      "value": "Inflige des dégâts (XS) qui dépendent de la MAGIE du lanceur à la cible, absorbe les dégâts infligés, augmente considérablement la MAGIE du lanceur pendant 1 tour et augmente le taux de perforation de la résistance aux attaques tranchantes."
+      "value": "Inflige des dégâts (XS) qui dépendent de la MAGIE du lanceur à la cible, absorbe les dégâts infligés, augmente considérablement la MAGIE du lanceur pendant 1 tour et augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours."
     },
     {
       "key": "SK_LW_MKN_S_2",
@@ -3906,43 +3910,43 @@
     },
     {
       "key": "SK_LW_MKN_FIRE_M_1_SUB",
-      "value": "Inflige des dégâts de feu (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Cryophage."
+      "value": "Inflige des dégâts de feu (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Cryophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément glace."
     },
     {
       "key": "SK_LW_MKN_ICE_M_1_SUB",
-      "value": "Inflige des dégâts de glace (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Éophage."
+      "value": "Inflige des dégâts de glace (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Éophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément vent."
     },
     {
       "key": "SK_LW_MKN_WIND_M_1_SUB",
-      "value": "Inflige des dégâts de vent (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Terraphage."
+      "value": "Inflige des dégâts de vent (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Terraphage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément terre."
     },
     {
       "key": "SK_LW_MKN_SOIL_M_1_SUB",
-      "value": "Inflige des dégâts de terre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Foudrophage."
+      "value": "Inflige des dégâts de terre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Foudrophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément foudre."
     },
     {
       "key": "SK_LW_MKN_THUN_M_1_SUB",
-      "value": "Inflige des dégâts de foudre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Hydrophage."
+      "value": "Inflige des dégâts de foudre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Hydrophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément eau."
     },
     {
       "key": "SK_LW_MKN_WATR_M_1_SUB",
-      "value": "Inflige des dégâts d'eau (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Pyrophage."
+      "value": "Inflige des dégâts d'eau (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Pyrophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément feu."
     },
     {
       "key": "SK_LW_MKN_SHIN_M_1_SUB",
-      "value": "Inflige des dégâts de lumière (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Noctophage."
+      "value": "Inflige des dégâts de lumière (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Noctophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément ombre."
     },
     {
       "key": "SK_LW_MKN_DARK_M_1_SUB",
-      "value": "Inflige des dégâts d'ombre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Luminophage."
+      "value": "Inflige des dégâts d'ombre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Luminophage et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément lumière."
     },
     {
       "key": "SK_LW_MKN_M_2_SUB",
-      "value": "Consomme les PV du lanceur pour infliger des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+      "value": "Consomme les PV du lanceur pour dissiper Barrière des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_MKN_M_3_SUB",
-      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible et Tue-aériens."
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible et accorde un effet Tue-aériens augmenté."
     },
     {
       "key": "SK_LW_MKN_FIRE_S_1",
@@ -3978,7 +3982,7 @@
     },
     {
       "key": "SK_LW_MKN_S_3",
-      "value": "Inflige des dégâts (XS) qui dépendent de la MAGIE du lanceur à la cible, absorbe les dégâts infligés, augmente considérablement la MAGIE du lanceur pendant 1 tour et augmente le taux de perforation de la résistance aux attaques tranchantes."
+      "value": "Inflige des dégâts (XS) qui dépendent de la MAGIE du lanceur à la cible, absorbe les dégâts infligés, augmente considérablement la MAGIE du lanceur pendant 1 tour et augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours."
     },
     {
       "key": "SK_FF4_CECL_ATK",
@@ -8725,6 +8729,10 @@
       "value": "Augmente le taux de coup critique et les dégâts critiques."
     },
     {
+      "key": "SK_LW_RAB_M_1_SUB",
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups."
+    },
+    {
       "key": "SK_LW_EC_RAB_A_01",
       "value": "Augmente la résistance aux attaques perçantes et magiques du lanceur pendant 3 tours."
     },
@@ -8822,15 +8830,15 @@
     },
     {
       "key": "SK_LW_EC_MKN_A_01",
-      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour des unités dans la zone ciblée, puis inflige des dégâts magiques (M) qui dépendent de la MAGIE du lanceur."
+      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour des unités dans la zone ciblée, puis inflige des dégâts magiques (M) qui dépendent de la MAGIE du lanceur et accorde les effets de statut Bouclier et Récup au lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MKN_C_01",
-      "value": "Améliore Tranchant dangereux en Bouleversement critique. Réduit la consommation de PV. Consomme les PV du lanceur pour réduire considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+      "value": "Améliore Tranchant dangereux en Bouleversement critique. Dissipe Barrière des unités dans la zone ciblée et réduit considérablement le taux d'activation de l'aptitude de réaction pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_EC_MKN_C_01B",
-      "value": "Consomme les PV du lanceur pour réduire considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+      "value": "Dissipe Barrière des unités dans la zone ciblée et réduit considérablement le taux d'activation de l'aptitude de réaction pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_EC_MKN_C_02",
@@ -8842,23 +8850,23 @@
     },
     {
       "key": "SK_LW_EC_MKN_A_02",
-      "value": "Augmente le taux de perforation de la PSY du lanceur, puis inflige des dégâts (M) en 2 coups à la cible."
+      "value": "Augmente le taux de perforation de la PSY et les attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (L) en 2 coups qui dépendent de la MAGIE du lanceur à la cible."
     },
     {
       "key": "SK_LW_EC_MKN_C_03",
-      "value": "Améliore Lame Vent X en Lame Vent X [Amplificateur]. Améliore la portée. Inflige des dégâts de vent (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Terraphage, et réduit la Bravoure."
+      "value": "Améliore Sabre Vent X en Sabre Vent X [Amplificateur]. Améliore la portée. Inflige des dégâts de vent (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Terraphage, réduit la Bravoure et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément terre."
     },
     {
       "key": "SK_LW_EC_MKN_C_03B",
-      "value": "Inflige des dégâts de vent (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et accorde Terraphage, et réduit la Bravoure."
+      "value": "Inflige des dégâts de vent (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, accorde Terraphage, réduit la Bravoure et réduit considérablement l'Esquive et l'Esquive critique avant l'attaque si la cible est d'élément terre."
     },
     {
       "key": "SK_LW_EC_MKN_C_04",
-      "value": "Améliore Saignée rituelle en Invocation communicante. Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, absorbe les dégâts infligés, augmente considérablement la MAGIE du lanceur pendant 1 tour et augmente le taux de perforation de la résistance aux attaques tranchantes."
+      "value": "Améliore Saignée rituelle en Invocation communicante. Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, absorbe les dégâts infligés, augmente considérablement la MAGIE du lanceur pendant 1 tour et augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MKN_C_04B",
-      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, absorbe les dégâts infligés, augmente considérablement la MAGIE du lanceur pendant 1 tour et augmente le taux de perforation de la résistance aux attaques tranchantes."
+      "value": "Inflige des dégâts (XS) qui dépendent de la MAGIE du lanceur à la cible, absorbe les dégâts infligés, augmente considérablement la MAGIE du lanceur pendant 1 tour et augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours."
     },
     {
       "key": "SK_LW_TU_BLM_ICE",
@@ -9827,6 +9835,26 @@
     {
       "key": "SK_RAMU_M_04",
       "value": "Inflige des dégâts de foudre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_RAMU_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_RAMU_01_M_01",
+      "value": "Inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la résistance à la foudre pendant 3 tours."
+    },
+    {
+      "key": "SK_RAMU_01_M_02",
+      "value": "Inflige des dégâts de foudre (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_RAMU_01_M_03",
+      "value": "Inflige des dégâts de foudre (L) qui dépendent de la MAGIE du lanceur aux cibles dans la zone autour du lanceur, et confère une chance d'infliger Étourdissement pendant 1 tour."
+    },
+    {
+      "key": "SK_RAMU_01_M_04",
+      "value": "Dissipe Bouclier et Barrière, puis inflige des dégâts de foudre (MAX) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
     },
     {
       "key": "SK_GLEM_ATK",
@@ -11098,7 +11126,7 @@
     },
     {
       "key": "SK_GSRC_M_1",
-      "value": ""
+      "value": "Inflige des dégâts (M) à la cible."
     },
     {
       "key": "SK_GSRC_M_2",
@@ -12429,6 +12457,10 @@
       "value": "Invoque Tétra-Sylphides obscures, réduit la résistance au vent des unités dans la zone ciblée, puis inflige des dégâts de vent (L) qui dépendent de la MAGIE du lanceur et active des effets de carte temporaires (augmente l'ATT et la MAGIE des unités alliées, augmente les effets pour les unités de vent et réduit considérablement la résistance au vent des ennemis)."
     },
     {
+      "key": "SK_SMN_RAMU_01",
+      "value": "Invoque Ramuh obscur, dissipe Bouclier et Barrière des unités dans la zone ciblée, puis inflige des dégâts de foudre (MAX) qui dépendent de la MAGIE du lanceur et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités de foudre et réduit considérablement la résistance à la foudre des ennemis)."
+    },
+    {
       "key": "SK_UN_BD_EC_HP_200",
       "value": ""
     },
@@ -12466,31 +12498,31 @@
     },
     {
       "key": "SK_LW_EC_MONT_C_01",
-      "value": "Améliore Lame tueuse en Lame Saignée assassine. Inflige des dégâts (L) à la cible, accorde Anthropophage et absorbe les dégâts infligés."
+      "value": "Améliore Lame tueuse en Lame Saignée assassine. Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (L) à la cible, accorde Anthropophage et absorbe les dégâts infligés."
     },
     {
       "key": "SK_LW_EC_MONT_C_01B",
-      "value": "Inflige des dégâts (L) à la cible, accorde Anthropophage et absorbe les dégâts infligés."
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (L) à la cible, accorde Anthropophage et absorbe les dégâts infligés."
     },
     {
       "key": "SK_LW_EC_MONT_C_02",
-      "value": "Améliore Jet de pierre en Pro du jet de pierre. Améliore la portée. Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts (S) à la cible, coup garanti et réduit le déplacement de 1 pendant 3 tours."
+      "value": "Améliore Jet de pierre en Pro du jet de pierre. Améliore la portée. Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts (S) à la cible, coup garanti, réduit le Déplacement de 1 et réduit le taux de perforation de la DEF pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MONT_C_02B",
-      "value": "Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts (S) à la cible, coup garanti et réduit le déplacement de 1 pendant 3 tours."
+      "value": "Améliore la portée. Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts (S) à la cible, coup garanti, réduit le Déplacement de 1 et réduit le taux de perforation de la DEF pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SAM_A_01",
-      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée avec une chance élevée d'infliger un coup critique."
+      "value": "Dissipe Hardiesse des unités dans la zone ciblée, puis inflige des dégâts (M) avec une chance élevée d'infliger un coup critique."
     },
     {
       "key": "SK_LW_EC_SAM_C_01",
-      "value": "Améliore Kongô en Zantetsu Kongô. Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L) aux unités dans la zone ciblée, Perforation et accorde Tue-machine et Tue-pierre."
+      "value": "Améliore Kongô en Zantetsu Kongô. Détruit toute barrière réduisant les dégâts physiques, augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (L) aux unités dans la zone ciblée, Perforation et accorde Tue-machines et Tue-pierre."
     },
     {
       "key": "SK_LW_EC_SAM_C_01B",
-      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L) aux unités dans la zone ciblée, Perforation et accorde Tue-machines et Tue-pierres."
+      "value": "Détruit toute barrière réduisant les dégâts physiques, augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (L) aux unités dans la zone ciblée, Perforation et accorde Tue-machines et Tue-pierre."
     },
     {
       "key": "SK_LW_EC_SAM_C_02",
@@ -12506,19 +12538,19 @@
     },
     {
       "key": "SK_LW_EC_SAM_C_03",
-      "value": "Améliore Illusion en Illusion mouvante. Améliore la hauteur de zone. Augmente le taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours, et augmente considérablement le taux d'esquive du lanceur pendant 3 tours."
+      "value": "Améliore Illusion en Illusion mouvante. Améliore la hauteur de zone. Augmente le taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours, augmente considérablement le taux d'esquive du lanceur pendant 3 tours et augmente la résistance aux attaques de zone pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SAM_C_03B",
-      "value": "Augmente le taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours, et augmente considérablement le taux d'esquive du lanceur pendant 3 tours."
+      "value": "Augmente le taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours, augmente considérablement le taux d'esquive du lanceur pendant 3 tours et augmente la résistance aux attaques de zone pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SAM_C_04",
-      "value": "Améliore Hien en Shinsoku Hien. Améliore la portée. Inflige des dégâts (S) à la cible et augmente l'AGI du lanceur pendant 3 tours."
+      "value": "Améliore Hien en Shinsoku Hien. Améliore la portée. Inflige des dégâts (S) à la cible, augmente l'AGI du lanceur pendant 3 tours et restaure les PA du lanceur quand un ennemi est mis K.O."
     },
     {
       "key": "SK_LW_EC_SAM_C_04B",
-      "value": "Inflige des dégâts (S) à la cible et augmente l'AGI du lanceur pendant 3 tours."
+      "value": "Inflige des dégâts (S) à la cible, augmente l'AGI du lanceur pendant 3 tours et restaure les PA du lanceur quand un ennemi est mis K.O."
     },
     {
       "key": "SK_LW_EC_LAN_A_01",
@@ -12665,10 +12697,6 @@
       "value": "Inflige des dégâts (M) à la cible et absorbe une partie des dégâts infligés."
     },
     {
-      "key": "SK_LW_EC_KNT_A_02",
-      "value": "Réduit la DEF et la PSY de la cible pendant 3 tours, puis inflige des dégâts (L)."
-    },
-    {
       "key": "SK_LW_EC_KNT_C_01",
       "value": "Améliore Voie du chevalier en Maîtrise des partisans. Augmente les PV max, la DEF, la PSY et le taux de perforation de la résistance aux attaques tranchantes."
     },
@@ -12683,6 +12711,10 @@
     {
       "key": "SK_LW_EC_KNT_C_02B",
       "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (L) aux unités dans la zone ciblée et réduit l'ATT, la MAGIE et l'AGI pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_KNT_A_02",
+      "value": "Réduit la DEF et la PSY de la cible pendant 3 tours, puis inflige des dégâts (L)."
     },
     {
       "key": "SK_LW_EC_KNT_C_03",
@@ -12946,19 +12978,19 @@
     },
     {
       "key": "SK_LW_EC_WAR_C_01",
-      "value": "Améliore Discipline en La Marche destructrice. Augmente l'ATT et accorde Anthropophage à tous les alliés dans la zone autour du lanceur pendant 3 tours"
+      "value": "Améliore Discipline en La Marche destructrice. Augmente l'ATT des alliés dans la zone autour du lanceur, accorde Anthropophage pendant 3 tours et augmente la résistance aux attaques à cible unique du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_WAR_C_01B",
-      "value": "Augmente l'ATT et accorde Anthropophage aux unités dans la zone autour du lanceur pendant 3 tours."
+      "value": "Augmente l'ATT des alliés dans la zone autour du lanceur, accorde Anthropophage pendant 3 tours et augmente la résistance aux attaques à cible unique du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_WAR_C_02",
-      "value": "Améliore Lame tueuse en Lame meurtrière. Inflige des dégâts (MAX) à la cible et accorde Anthropophage."
+      "value": "Améliore Lame tueuse en Lame meurtrière. Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (XL) à la cible et accorde Anthropophage."
     },
     {
       "key": "SK_LW_EC_WAR_C_02B",
-      "value": "Inflige des dégâts (MAX) à la cible et accorde Anthropophage."
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (XL) à la cible et accorde Anthropophage."
     },
     {
       "key": "SK_LW_EC_BEA_A_01",
@@ -13246,11 +13278,11 @@
     },
     {
       "key": "SK_LW_EC_SAM_C_05",
-      "value": "Améliore Oborozuki en Gensui Oborozuki. Inflige des dégâts (M) aux cibles dans la zone autour du lanceur et confère une chance d'infliger des altérations d'état (Lenteur/Incapacité) pendant 3 tours."
+      "value": "Améliore Oborozuki en Gensui Oborozuki. Améliore la Zone d'effet et la Hauteur d'effet. Inflige des dégâts (M) aux cibles dans la zone autour du lanceur, réduit considérablement les compétences de soin pendant 3 tours et confère une chance d'infliger des altérations d'état (Lenteur/Incapacité) pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SAM_C_05B",
-      "value": "Inflige des dégâts (M) aux cibles dans la zone autour du lanceur et confère une chance d'infliger des altérations d'état (Lenteur/Incapacité) pendant 3 tours."
+      "value": "Inflige des dégâts (M) aux unités dans la zone autour du lanceur, réduit considérablement les compétences de soin pendant 3 tours et confère une chance d'infliger les altérations d'état Lenteur et Incapacité pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SAM_C_06",
@@ -14118,11 +14150,11 @@
     },
     {
       "key": "SK_LW_EC_GRM_C_04",
-      "value": "Améliore Vulnérabilité en Vulnérabilité [Érosion]. Améliore la portée. Réduit la résistance tous éléments des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (S) qui dépendent de la MAGIE du lanceur."
+      "value": "Améliore Vulnérabilité en Vulnérabilité [Érosion]. Améliore la portée. Réduit la résistance tous éléments des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_EC_GRM_C_04B",
-      "value": "Réduit la résistance tous éléments des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (S) qui dépendent de la MAGIE du lanceur."
+      "value": "Réduit la résistance tous éléments des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_EC_GRM_A_03",
@@ -14933,6 +14965,10 @@
       "value": "Taux de perforation de la PSY +20, MAGIE +10 %"
     },
     {
+      "key": "SK_MA_LW_HWLT_2",
+      "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente le taux de perforation de la PSY du lanceur de 20, sa MAGIE de 30 %, réduit sa consommation d'AP de 20 %, et quand ses PV sont au-dessus de 70 % : augmente la résistance aux attaques de zone de 30."
+    },
+    {
       "key": "SK_MA_LW_SCAL",
       "value": "MAGIE +20 %, Délai d'activation -20 %"
     },
@@ -14943,6 +14979,10 @@
     {
       "key": "SK_MA_LW_CHEL",
       "value": "AGI +10 %, Délai d'activation -25 %"
+    },
+    {
+      "key": "SK_MA_LW_CHEL_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Étourdissement de 25 pour les unités alliées de glace, augmente les PV max du lanceur de 30 %, son AGI de 10 %, réduit son délai d'activation de 25 %, et quand ses PV sont au-dessus de 70 % : augmente la DEF et la PSY de 15."
     },
     {
       "key": "SK_MA_FF4_CECL",
@@ -14963,6 +15003,10 @@
     {
       "key": "SK_MA_LW_TITU",
       "value": "Résistance aux attaques perçantes et projectiles +10, consommation de PA -25 %"
+    },
+    {
+      "key": "SK_MA_LW_TITU_2",
+      "value": "Augmente les PV max de 10 % et la résistance à gelure des unités alliées d'ombre, augmente les PV max du lanceur de 15 %, sa DEF de 15, sa résistance aux attaques perçantes et aux attaques projectiles de 10, réduit sa consommation de PA de 25 %, et quand ses PV sont au-dessus de 70 % : augmente la résistance aux malus de la résistance tous éléments de 100."
     },
     {
       "key": "SK_MA_LW_DEAN",
@@ -15571,6 +15615,10 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "Taux d'esquive +8"
+    },
+    {
+      "key": "SK_LW_AVOID_5_UR_2",
+      "value": "Augmente le taux d'esquive de 15."
     },
     {
       "key": "SK_LW_CRIAVOI_1",
@@ -16302,6 +16350,14 @@
     },
     {
       "key": "SK_LW_RNG_011_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_012_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_012_5",
       "value": ""
     },
     {
@@ -17149,8 +17205,20 @@
       "value": "Accorde Bouclier aux alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_ACC_LW_IRDL_01_ARENA",
+      "value": "Augmente la résistance aux attaques à cible unique du lanceur pendant 3 tours et augmente le Déplacement et le Saut de 1."
+    },
+    {
       "key": "SK_SHI_LW_CRLT_1_ARENA",
       "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et restaure les PA."
+    },
+    {
+      "key": "SK_ACC_LW_JEDN_ARENA",
+      "value": "Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts, et augmente les attaques projectiles pendant 3 tours."
+    },
+    {
+      "key": "SK_ACC_LW_MINU_ARENA",
+      "value": "Augmente les PV max des alliés dans la zone ciblée pendant 3 tours, restaure la quantité de PV augmentés et immunise contre Confusion, Étourdissement et Incapacité."
     },
     {
       "key": "SK_ARM_LW_CMLO_1_1",
@@ -17175,6 +17243,10 @@
     {
       "key": "SK_ARM_LW_ROBB_ARENA",
       "value": "Augmente les attaques tranchantes et augmente la jauge de CT (M) des alliés dans la zone autour du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_ACC_LW_ORDR_ARENA",
+      "value": "Accorde une restauration automatique de PA (S) pour le lanceur pendant 3 tours et augmente le taux de perforation de la DEF."
     },
     {
       "key": "SK_HAT_LW_MDNA_ARENA",
@@ -21258,6 +21330,54 @@
     },
     {
       "key": "SK_GL_VC_LW_FDRC_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_PMAX_2",
       "value": ""
     },
     {
@@ -28069,7 +28189,15 @@
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
+      "key": "SK_LW_PLUS6_DEFPIERCE_10",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
       "key": "SK_LW_PLUS6_REACTSTP_30",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_DARK_10",
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
