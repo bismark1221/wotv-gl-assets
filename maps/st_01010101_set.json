@@ -384,6 +384,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -474,6 +476,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -551,7 +555,7 @@
       "iname": "UN_GM_TREASURE",
       "side": 1,
       "dead": 0,
-      "lv": 1,
+      "lv": 0,
       "rare": 0,
       "awake": 1,
       "rank": 0,
@@ -564,6 +568,8 @@
       "crystal": "",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -622,6 +628,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALL",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1100
@@ -631,6 +638,7 @@
             "type": 0,
             "iname": "IT_JB_MM_WAR",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 200
@@ -640,6 +648,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_HEART_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 950
@@ -649,6 +658,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_LIQUID_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 950
@@ -658,6 +668,7 @@
             "type": 0,
             "iname": "IT_JB_SWORD_01",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1900
@@ -667,6 +678,7 @@
             "type": 0,
             "iname": "IT_JB_IM_ANGEL_1",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 300
@@ -676,6 +688,7 @@
             "type": 0,
             "iname": "IT_JB_BOW_01",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1900
@@ -685,15 +698,17 @@
             "type": 0,
             "iname": "IT_JB_EM_SOIL_1",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
-          "weight": 2100
+          "weight": 1900
         },
         {
           "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 0
@@ -703,6 +718,7 @@
             "type": 0,
             "iname": "IT_JB_MM_HUN",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 200
@@ -712,6 +728,7 @@
             "type": 0,
             "iname": "IT_JB_MM_LW_GRSR",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 200
@@ -721,6 +738,17 @@
             "type": 0,
             "iname": "IT_JB_MM_WIZ",
             "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 200
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_HSW",
+            "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 200
@@ -737,6 +765,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -746,6 +775,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50

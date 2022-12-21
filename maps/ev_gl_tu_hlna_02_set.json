@@ -234,7 +234,7 @@
       "block": 0,
       "ai": {
         "iname": "AI_ENEMY_ATK_LV1",
-        "wait_e": 0,
+        "wait_e": -1,
         "search": 15,
         "sensing": 0
       },
@@ -244,7 +244,15 @@
       "entry_cond": {
         "timing": 0,
         "expr": "",
-        "list": []
+        "list": [
+          {
+            "self": {
+              "type": 1,
+              "json": "{\"side\":1,\"tag\":\"C1\"}"
+            },
+            "childs": []
+          }
+        ]
       },
       "wait_m": 0,
       "parent": "",
@@ -314,7 +322,7 @@
       "block": 0,
       "ai": {
         "iname": "AI_ENEMY_ATK_LV1",
-        "wait_e": 0,
+        "wait_e": -1,
         "search": 15,
         "sensing": 0
       },
@@ -324,7 +332,15 @@
       "entry_cond": {
         "timing": 0,
         "expr": "",
-        "list": []
+        "list": [
+          {
+            "self": {
+              "type": 1,
+              "json": "{\"side\":1,\"tag\":\"C1\"}"
+            },
+            "childs": []
+          }
+        ]
       },
       "wait_m": 0,
       "parent": "",
@@ -394,7 +410,7 @@
       "block": 0,
       "ai": {
         "iname": "AI_ENEMY_ATK_LV1",
-        "wait_e": 0,
+        "wait_e": -1,
         "search": 15,
         "sensing": 0
       },
@@ -404,7 +420,15 @@
       "entry_cond": {
         "timing": 0,
         "expr": "",
-        "list": []
+        "list": [
+          {
+            "self": {
+              "type": 1,
+              "json": "{\"side\":1,\"tag\":\"C1\"}"
+            },
+            "childs": []
+          }
+        ]
       },
       "wait_m": 0,
       "parent": "",

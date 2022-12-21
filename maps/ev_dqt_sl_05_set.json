@@ -1,0 +1,593 @@
+{
+  "info": {
+    "angle_override": true,
+    "angle": 90,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
+  },
+  "party": [
+    {
+      "name": "id:1",
+      "x": 0,
+      "y": 5,
+      "dir": 0,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    }
+  ],
+  "enemy": [
+    {
+      "name": "",
+      "x": 10,
+      "y": 0,
+      "dir": 1,
+      "ct_calc": 0,
+      "ct_val": 800,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_ATK_LV5",
+        "wait_e": -1,
+        "search": 20,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": [
+          {
+            "self": {
+              "type": 3,
+              "json": "{\"side\":0,\"tag\":\"slim\"}"
+            },
+            "childs": []
+          }
+        ]
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "enemy_id": 9,
+      "iname": "UN_DQTC_E_SLIM_01",
+      "side": 0,
+      "dead": 2,
+      "lv": 30,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 3,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_EN_SLIM_01_M_01",
+          "rank": 5,
+          "rate": 100
+        },
+        {
+          "iname": "SK_EN_SLIM_01_M_02",
+          "rank": 10,
+          "rate": 100
+        },
+        {
+          "iname": "SK_EN_SLIM_01_M_03",
+          "rank": 5,
+          "rate": 100
+        },
+        {
+          "iname": "SK_EN_SLIM_01_R_01",
+          "rank": 5,
+          "rate": 100
+        },
+        {
+          "iname": "SK_EN_SLIM_P_1",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_HATE_1-100_U_PA",
+          "rank": 1,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_STR_BLOW_1_100_U",
+          "rank": 30,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":1,\"value\":320},{\"type\":152,\"value\":-10},{\"type\":154,\"value\":10},{\"type\":252,\"value\":-5},{\"type\":254,\"value\":10},{\"type\":253,\"value\":20},{\"type\":4,\"value\":111},{\"type\":11,\"value\":4}]}",
+      "groupId": "",
+      "infUnit": false
+    },
+    {
+      "name": "slim",
+      "x": 3,
+      "y": 2,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 300,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_ATK_LV5",
+        "wait_e": 0,
+        "search": 20,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "enemy_id": 10,
+      "iname": "UN_DQTC_E_SLIM_01",
+      "side": 1,
+      "dead": 2,
+      "lv": 30,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 3,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_EN_SLIM_01_M_02",
+          "rank": 5,
+          "rate": 100
+        },
+        {
+          "iname": "SK_EN_SLIM_01_M_03",
+          "rank": 5,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":152,\"value\":-10},{\"type\":154,\"value\":10},{\"type\":252,\"value\":-5},{\"type\":254,\"value\":10},{\"type\":253,\"value\":20},{\"type\":4,\"value\":111},{\"type\":11,\"value\":4},{\"type\":1,\"value\":320}]}",
+      "groupId": "",
+      "infUnit": false
+    },
+    {
+      "name": "",
+      "x": 11,
+      "y": 5,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_PLAYER_LW_ARC",
+        "wait_e": 0,
+        "search": 20,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "enemy_id": 11,
+      "iname": "UN_LW_E_SO_00_ARC",
+      "side": 1,
+      "dead": 0,
+      "lv": 30,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 4,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "CRYSTAL_00",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_LW_ARC_S_1_INIT",
+          "rank": 5,
+          "rate": 100
+        },
+        {
+          "iname": "SK_LW_ARC_S_2_INIT",
+          "rank": 5,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RANGE_1-20_U",
+          "rank": 2,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_FAP_1-999_U",
+          "rank": 20,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":2,\"value\":82},{\"type\":3,\"value\":87},{\"type\":4,\"value\":90},{\"type\":153,\"value\":-15},{\"type\":155,\"value\":10},{\"type\":252,\"value\":-15},{\"type\":254,\"value\":10},{\"type\":250,\"value\":0},{\"type\":1,\"value\":308},{\"type\":6,\"value\":26},{\"type\":8,\"value\":124},{\"type\":10,\"value\":122}]}",
+      "groupId": "",
+      "infUnit": false
+    },
+    {
+      "name": "",
+      "x": 4,
+      "y": 0,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_PLAYER_LW_PLD",
+        "wait_e": 0,
+        "search": 20,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "enemy_id": 12,
+      "iname": "UN_LW_E_SO_00_PLD",
+      "side": 1,
+      "dead": 0,
+      "lv": 30,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 7,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "CRYSTAL_00",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_LW_PLD_S_5_INIT",
+          "rank": 5,
+          "rate": 100
+        },
+        {
+          "iname": "SK_LW_PLD_S_2",
+          "rank": 5,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_HATE_1-100_U_PA",
+          "rank": 5,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":2,\"value\":80},{\"type\":3,\"value\":85},{\"type\":5,\"value\":15},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":-20},{\"type\":252,\"value\":15},{\"type\":1,\"value\":505}]}",
+      "groupId": "",
+      "infUnit": false
+    },
+    {
+      "name": "",
+      "x": 3,
+      "y": 9,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_PLAYER_LW_LAN",
+        "wait_e": 0,
+        "search": 20,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "enemy_id": 13,
+      "iname": "UN_LW_E_SO_00_LAN",
+      "side": 1,
+      "dead": 0,
+      "lv": 30,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 6,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "CRYSTAL_00",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_LW_LAN_M_2_INIT",
+          "rank": 5,
+          "rate": 100
+        },
+        {
+          "iname": "SK_LW_LAN_S_2_INIT",
+          "rank": 5,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":8,\"value\":127},{\"type\":2,\"value\":82},{\"type\":3,\"value\":87},{\"type\":254,\"value\":0},{\"type\":1,\"value\":443},{\"type\":4,\"value\":75},{\"type\":155,\"value\":-10},{\"type\":151,\"value\":10}]}",
+      "groupId": "",
+      "infUnit": false
+    }
+  ],
+  "arena": [],
+  "wcond": {
+    "timing": 0,
+    "expr": "",
+    "list": [
+      {
+        "self": {
+          "type": 1,
+          "json": "{\"side\":1,\"tag\":\"\"}"
+        },
+        "childs": []
+      }
+    ]
+  },
+  "lcond": {
+    "timing": 0,
+    "expr": "",
+    "list": [
+      {
+        "self": {
+          "type": 1,
+          "json": "{\"side\":0,\"tag\":\"\"}"
+        },
+        "childs": []
+      }
+    ]
+  },
+  "gcond": [],
+  "drop_table_list": [
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    }
+  ],
+  "enemy_group": []
+}
