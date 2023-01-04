@@ -1497,6 +1497,14 @@
       "value": " 연장 "
     },
     {
+      "key": "BUFF_Reduction",
+      "value": "감소율"
+    },
+    {
+      "key": "BUFF_Effect",
+      "value": "효과"
+    },
+    {
       "key": "BUFFHEAL_Hp",
       "value": "HP 회복"
     },
@@ -1549,6 +1557,14 @@
       "value": "TP를 소비하여 피해량 증가"
     },
     {
+      "key": "BUFF_CondAdditionalSkill",
+      "value": "추가 스킬"
+    },
+    {
+      "key": "BUFF_CondCancelPerfectHit",
+      "value": "필중 효과 무효화"
+    },
+    {
       "key": "BUFF_OtherStopReactRate",
       "value": "리액션 저지율"
     },
@@ -1571,6 +1587,14 @@
     {
       "key": "BUFF_OtherAvoidMagic",
       "value": "마법 공격 회피율"
+    },
+    {
+      "key": "BUFF_OtherChainRedRateAtk",
+      "value": "CHAIN"
+    },
+    {
+      "key": "BUFF_OtherChainRedRateElem",
+      "value": "ELEMENT CHAIN"
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -1649,8 +1673,40 @@
       "value": "마법 공격 시 인지존재 킬러"
     },
     {
+      "key": "BUFF_KillerSpeciesSlime",
+      "value": "슬라임 킬러"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPSlime",
+      "value": "물리 공격 시 슬라임 킬러"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMSlime",
+      "value": "마법 공격 시 슬라임 킬러"
+    },
+    {
+      "key": "BUFF_KillerSpeciesUndefined",
+      "value": "??? 킬러"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPUndefined",
+      "value": "물리 공격 시 ??? 킬러"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMUndefined",
+      "value": "마법 공격 시 ??? 킬러"
+    },
+    {
       "key": "BUFF_KillerSpeciesDamageCognition",
       "value": "인지존재 고정 피해"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageSlime",
+      "value": "슬라임 고정 피해"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageUndefined",
+      "value": "??? 고정 피해"
     },
     {
       "key": "BUFF_KillerBirthPUnknown",
@@ -1941,12 +1997,44 @@
       "value": "마법 공격 시 페르소나 5 더 로열 킬러"
     },
     {
+      "key": "BUFF_KillerBirthDQTC",
+      "value": "드래곤 퀘스트 택트 킬러"
+    },
+    {
+      "key": "BUFF_KillerBirthPDQTC",
+      "value": "물리 공격 시 드래곤 퀘스트 택트 킬러"
+    },
+    {
+      "key": "BUFF_KillerBirthMDQTC",
+      "value": "마법 공격 시 드래곤 퀘스트 택트 킬러"
+    },
+    {
+      "key": "BUFF_KillerBirthReserve02",
+      "value": "검은 허무의 사도 킬러"
+    },
+    {
+      "key": "BUFF_KillerBirthPReserve02",
+      "value": "물리 공격 시 검은 허무의 사도 킬러"
+    },
+    {
+      "key": "BUFF_KillerBirthMReserve02",
+      "value": "마법 공격 시 검은 허무의 사도 킬러"
+    },
+    {
       "key": "BUFF_KillerBirthDamageFarplane",
       "value": "이계 고정 피해"
     },
     {
       "key": "BUFF_KillerBirthDamageP5R",
       "value": "페르소나 5 더 로열 고정 피해"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageDQTC",
+      "value": "드래곤 퀘스트 택트 고정 피해"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageReserve02",
+      "value": "검은 허무의 사도 고정 피해"
     },
     {
       "key": "BUFF_KillerUnitTagPFloating",
@@ -2105,6 +2193,14 @@
       "value": "페르소나 5 더 로열 저항력"
     },
     {
+      "key": "BUFF_ResistBirthDQTC",
+      "value": "드래곤 퀘스트 택트 저항력"
+    },
+    {
+      "key": "BUFF_ResistBirthReserve02",
+      "value": "검은 허무의 사도 저항력"
+    },
+    {
       "key": "BUFF_ResistSpeciesHuman",
       "value": "인간 저항력"
     },
@@ -2167,6 +2263,14 @@
     {
       "key": "BUFF_ResistSpeciesCognition",
       "value": "인지존재 저항력"
+    },
+    {
+      "key": "BUFF_ResistSpeciesSlime",
+      "value": "슬라임 저항력"
+    },
+    {
+      "key": "BUFF_ResistSpeciesUndefined",
+      "value": "??? 저항력"
     },
     {
       "key": "BUFF_ExeMafuken1",

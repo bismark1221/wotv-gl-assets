@@ -633,6 +633,34 @@
       "value": "Aumenta la bravura de los aliados de alrededor."
     },
     {
+      "key": "SK_LW_SAM_M_1_PSAR",
+      "value": "Inflige daño (poco) al objetivo y recupera PA del usuario al dejar KO al enemigo."
+    },
+    {
+      "key": "SK_LW_SAM_S_3_PSAR",
+      "value": "Aumenta la bravura de los aliados de alrededor."
+    },
+    {
+      "key": "SK_LW_SAM_S_1_PSAR",
+      "value": "Aumenta el ATQ y la tasa de crítico del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SAM_M_2_PSAR",
+      "value": "Aumenta la tasa de evasión de los aliados de alrededor durante 3 turnos y aumenta la res. ataque de zona del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SAM_S_2_PSAR",
+      "value": "Daño (poco) a los objetivos de alrededor y probabilidad de infligirles ceguera durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SAM_R_1_PSAR",
+      "value": "Probabilidad de aumentar la evasión del usuario durante 3 turnos al recibir daño (acumulable hasta 3 veces)."
+    },
+    {
+      "key": "SK_LW_SAM_S_4_PSAR",
+      "value": "Inflige (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno durante 3 turnos."
+    },
+    {
       "key": "SK_LW_THI_ATK",
       "value": ""
     },
@@ -1515,6 +1543,34 @@
     {
       "key": "SK_LW_GRM_DARK_M_2_INIT",
       "value": "Aumenta la res. oscuridad de los aliados al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_GRM_M_4_ZOMA",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance y reduce su res. todos los elementos durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_GRM_M_5_ZOMA",
+      "value": "Inflige daño no elemental (medio) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_LW_GRM_ICE_M_2_ZOMA",
+      "value": "Aumenta la res. hielo de los aliados al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_GRM_S_1_ZOMA",
+      "value": "Reduce considerablemente la DEF de los objetivos al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_GRM_S_2_ZOMA",
+      "value": "Reduce considerablemente el ESP de los objetivos al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_GRM_M_1_ZOMA",
+      "value": "Aumenta la AGI del objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_GRM_R_1_ZOMA",
+      "value": "Elimina todos los aumentos del objetivo al recibir daño."
     },
     {
       "key": "SK_LW_GRM_S_1",
@@ -3815,6 +3871,198 @@
     {
       "key": "SK_LW_EC_SDLX_C_02B",
       "value": "Aumenta la res. ataque de zona y la res. ataque a distancia del usuario durante 3 turnos, aumenta su salto en +1 y le recupera PA al asestar un crítico durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_SLIM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_1",
+      "value": "Recupera un porcentaje fijo de VIT (medio) de los aliados al alcance."
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_1B",
+      "value": "Recupera un porcentaje fijo de VIT (mucho) de los aliados al alcance."
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_2",
+      "value": "Recupera un porcentaje fijo de VIT del usuario (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_2_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_3",
+      "value": "Inflige daño de fuego (mucho) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_DQTC_SLIM_S_1",
+      "value": "Inflige daño (poco) al objetivo y reduce su DEF durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_SLIM_S_2",
+      "value": "Daño (medio) en función de la MAG del usuario al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_SLIM_S_3",
+      "value": "Aumenta la AGI de un aliado durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_SLIM_S_4",
+      "value": "Aumenta considerablemente el ATQ de un aliado durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_SLIM_R_1",
+      "value": "Probabilidad de realizar un contraataque de fuego al recibir daño."
+    },
+    {
+      "key": "SK_DQTC_SLIM_P_1",
+      "value": "El usuario sobrevive a daño letal cuando su VIT está al 90 % o más."
+    },
+    {
+      "key": "SK_DQTC_SLIM_P_2",
+      "value": "Aumenta la cantidad de recuperación de VIT de Danza fogosa."
+    },
+    {
+      "key": "SK_DQTC_SLIM_P_3",
+      "value": "Reduce el ATQ y la MAG cuando la VIT está al 90 % o más, y aumenta considerablemente el ataque de fuego y rayo cuando la VIT está al 80 % o menos."
+    },
+    {
+      "key": "SK_DQTC_SLIM_P_4",
+      "value": "Aumenta la res. fuego y hielo."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ZOMA_M_1",
+      "value": "Reduce la tasa de penetración de ESP del objetivo durante 3 turnos, le inflige daño no elemental (mucho) en función de la MAG del usuario y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_M_2",
+      "value": "Aumenta la VIT máx. de los aliados de alrededor durante 3 turnos, recupera la cantidad de VIT aumentada, otorga reducción de bravura del objetivo a los ataques con éxito durante 3 turnos y otorga una barrera al usuario que reduce el daño físico (3 veces)."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_M_3",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance, reduce sus PA y probabilidad de infligirles congelación durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_S_1",
+      "value": "Daño (poco) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles sueño durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_S_2",
+      "value": "Aumenta la MAG y la tasa de precisión del usuario durante 3 turnos y otorga eliminación de estados (escudo y prisa) a sus ataques (se activa antes de atacar)."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_S_3",
+      "value": "Recupera VIT de un aliado (medio)."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_S_4",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance, reduce su movimiento en 1 durante 3 turnos y probabilidad de infligirles inmóvil durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_R_1",
+      "value": "Probabilidad de eliminar todas las mejoras del objetivo y todas las reducciones del usuario al recibir daño."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_P_1",
+      "value": "Aumenta la VIT máx. y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_P_2",
+      "value": "Salto +1 y aumenta la res. todos los tipos de ataque durante 3 turnos desde el inicio del combate."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_A_01",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance 3 veces y probabilidad de infligirles freno durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_01",
+      "value": "Mejora «Psicoaumento» a «Psicoaumento +1»: aumenta la VIT máx. y la tasa de penetración de ESP, y recupera VIT (poco) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_01B",
+      "value": "Aumenta la VIT máx. y la tasa de penetración de ESP, y recupera VIT (poco) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_01B_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_02",
+      "value": "Mejora «Megahelada» a «Megahelada +1»: reduce el tiempo de activación y mayor reducción de PA."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_02B",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance, reduce sus PA y probabilidad de infligirles congelación durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_PSAR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_PSAR_M_1",
+      "value": "Inflige daño (mucho) con mucha precisión a los objetivos al alcance."
+    },
+    {
+      "key": "SK_DQTC_PSAR_M_2",
+      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño no elemental (medio)."
+    },
+    {
+      "key": "SK_DQTC_PSAR_M_3",
+      "value": "El usuario sobrevive a daño letal una vez."
+    },
+    {
+      "key": "SK_DQTC_PSAR_S_1",
+      "value": "Inflige daño (poco) al objetivo 2 veces y reduce su tasa de precisión durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_PSAR_S_2",
+      "value": "Aumenta la AGI y la tasa de evasión de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_PSAR_S_3",
+      "value": "Inflige daño (medio) a los objetivos al alcance y reduce su res. corte durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_PSAR_S_4",
+      "value": "Inflige daño crítico (muchísimo) con poca precisión al objetivo."
+    },
+    {
+      "key": "SK_DQTC_PSAR_R_1",
+      "value": "Probabilidad de aumentar la tasa de penetración de DEF y la tasa de penetración de res. corte del usuario durante 3 turnos al evadir un ataque (acumulable hasta 3 veces)."
+    },
+    {
+      "key": "SK_DQTC_PSAR_P_1",
+      "value": "Aumenta la tasa de bloqueo de reacción y el daño físico cuando la VIT está al 40 % o menos."
+    },
+    {
+      "key": "SK_DQTC_PSAR_P_2",
+      "value": "Aumenta la AGI y la tasa de evasión de ataque a distancia y ataque mágico."
+    },
+    {
+      "key": "SK_DQTC_PSAR_EN_A_01",
+      "value": "Elimina agallas a los objetivos al alcance, elimina cualquier barrera que reduzca su daño físico y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_DQTC_EC_PSAR_C_01",
+      "value": "Mejora «Discontinuo» a «Discontinuo +1»: reduce la DEF del objetivo durante 3 turnos, le inflige daño no elemental (medio), reduce su ATQ durante 3 turnos y reduce considerablemente su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_EC_PSAR_C_01B",
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño no elemental (medio), reduce su ATQ durante 3 turnos y reduce considerablemente su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_EC_PSAR_C_02",
+      "value": "Mejora «Espíritu indómito» a «Espíritu indómito +1»: el usuario sobrevive a daño letal una vez, recupera PA y efecto adicional: aumenta su daño físico mientras agallas esté activo."
+    },
+    {
+      "key": "SK_DQTC_EC_PSAR_C_02B",
+      "value": "El usuario sobrevive a daño letal una vez, recupera PA y efecto adicional: aumenta su daño físico mientras agallas esté activo."
     },
     {
       "key": "SK_LW_LSWL_ATK",
@@ -6433,6 +6681,10 @@
       "value": "Aumenta el ataque de viento de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
     {
+      "key": "SK_LW_SCR_ICE_S_2_INIT",
+      "value": "Aumenta el ataque de hielo de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LW_SCR_DARK_S_2_INIT",
       "value": "Aumenta el ataque de oscuridad de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
@@ -6465,6 +6717,10 @@
       "value": "Aumenta el ataque de viento de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
     {
+      "key": "SK_LW_SCR_ICE_S_2",
+      "value": "Aumenta el ataque de hielo de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LW_SCR_DARK_S_2",
       "value": "Aumenta el ataque de oscuridad de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
@@ -6479,6 +6735,30 @@
     {
       "key": "SK_LW_SCR_M_3_SUB",
       "value": "Recupera VIT de un aliado (medio) y aumenta su ATQ, MAG y AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SCR_M_2_ZOMA",
+      "value": "Aumenta la DEF y el ESP de los aliados al alcance durante 3 turnos y aumenta la potencia de curación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SCR_S_1_ZOMA",
+      "value": "Recupera VIT del objetivo (poco)."
+    },
+    {
+      "key": "SK_LW_SCR_ICE_S_2_ZOMA",
+      "value": "Aumenta el ataque de hielo de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SCR_S_3_ZOMA",
+      "value": "Aumenta la res. ataque de zona y la res. ataque de corte del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SCR_S_4_ZOMA",
+      "value": "Recupera VIT (poco) de los aliados de alrededor."
+    },
+    {
+      "key": "SK_LW_SCR_R_1_ZOMA",
+      "value": "Probabilidad de recuperar VIT del usuario (poco) al recibir daño."
     },
     {
       "key": "SK_LW_EC_SCR_A_01",
@@ -7055,6 +7335,34 @@
     {
       "key": "SK_LW_LLN_M_3_SUB",
       "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, y le inflige daño penetrante (medio)."
+    },
+    {
+      "key": "SK_LW_LLN_S_1_PSAR",
+      "value": "Inflige daño penetrante (poco) al objetivo y reduce su ATQ y AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_LLN_S_2_PSAR",
+      "value": "Aumenta el ATQ de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_LLN_S_3_PSAR",
+      "value": "Inflige daño penetrante (medio) al objetivo y reduce sus PA al asestarle un crítico."
+    },
+    {
+      "key": "SK_LW_LLN_S_4_PSAR",
+      "value": "Inflige daño (medio) a los objetivos de alrededor y reduce su tasa de evasión de crítico durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_LLN_R_1_PSAR",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño físico."
+    },
+    {
+      "key": "SK_LW_LLN_M_1_PSAR",
+      "value": "Daño (medio) al objetivo, reduce considerablemente su potencia de curación durante 3 turnos al asestarle un crítico y probabilidad de infligirle inmóvil durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_LLN_M_1B_PSAR",
+      "value": "Daño (medio) al objetivo, reduce considerablemente su potencia de curación durante 3 turnos al asestarle un crítico y probabilidad de infligirle inmóvil durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_LLN_A_01",
@@ -11357,6 +11665,90 @@
       "value": "Probabilidad de realizar un contraataque penetrante al recibir daño."
     },
     {
+      "key": "SK_EN_SLIM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_M_01",
+      "value": "Recupera un porcentaje fijo de VIT del usuario (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_EN_SLIM_M_01B",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_M_02",
+      "value": "Inflige daño (poco) al objetivo y reduce su DEF durante 3 turnos."
+    },
+    {
+      "key": "SK_EN_SLIM_M_03",
+      "value": "Inflige daño de fuego (mucho) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_EN_SLIM_R_1",
+      "value": "Probabilidad de realizar un contraataque de fuego al recibir daño."
+    },
+    {
+      "key": "SK_EN_SLIM_P_1",
+      "value": "Aumenta considerablemente el ATQ y la MAG de forma permanente cuando la VIT cae por debajo del 80 %."
+    },
+    {
+      "key": "SK_EN_SLIM_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_01_M_01",
+      "value": "Recupera un porcentaje fijo de VIT del usuario (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_EN_SLIM_01_M_01B",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_01_M_02",
+      "value": "Inflige daño (poco) al objetivo y reduce su DEF durante 3 turnos."
+    },
+    {
+      "key": "SK_EN_SLIM_01_M_03",
+      "value": "Reduce considerablemente el ATQ del enemigo durante 3 turnos."
+    },
+    {
+      "key": "SK_EN_SLIM_01_R_01",
+      "value": "Probabilidad de realizar un contraataque al recibir daño."
+    },
+    {
+      "key": "SK_EN_SLIM_02_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_02_M_01",
+      "value": "Inflige daño (poco) al objetivo y reduce su DEF durante 3 turnos."
+    },
+    {
+      "key": "SK_EN_SLIM_02_M_02",
+      "value": "Inflige daño (poco) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_EN_KLMN_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_KLMN_M_01",
+      "value": "Aumenta el ATQ del usuario y la res. todos los tipos de ataque durante 3 turnos."
+    },
+    {
+      "key": "SK_EN_KLMN_M_02",
+      "value": "Inflige daño (medio) al objetivo y reduce su DEF durante 3 turnos."
+    },
+    {
+      "key": "SK_EN_KLMN_M_03",
+      "value": "Reduce la res. hielo del objetivo durante 3 turnos y le inflige daño (medio)."
+    },
+    {
+      "key": "SK_EN_KLMN_M_04",
+      "value": "Reduce la res. corte de los objetivos de alrededor durante 3 turnos y les inflige daño (medio)."
+    },
+    {
       "key": "SK_MRGE_ATK",
       "value": "Inflige daño (poco) al objetivo."
     },
@@ -12427,6 +12819,14 @@
     {
       "key": "SK_LB_LW_SDLX_01",
       "value": "Reduce la res. oscuridad del objetivo durante 3 turnos, le inflige daño (mucho) 2 veces y reduce su AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_DQTC_ZOMA",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, reduce su res. ataque mágico durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LB_DQTC_PSAR",
+      "value": "Elimina todas las mejoras del objetivo y le inflige daño (muchísimo)."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -15717,6 +16117,18 @@
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: res. ataque de zona +10, tasa de crítico +20"
     },
     {
+      "key": "SK_MA_DQTC_ZOMA",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: MAG +25 %"
+    },
+    {
+      "key": "SK_MA_DQTC_SLIM",
+      "value": "VIT máx. +30 %, res. corte +50"
+    },
+    {
+      "key": "SK_MA_DQTC_PSAR",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: tasa de penetración de res. corte +15, modificador de adquisición de PA +30 %"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -17149,6 +17561,14 @@
       "value": "Otorga eliminación de revitalia y prisa a los críticos de los aliados de alrededor durante 3 turnos."
     },
     {
+      "key": "SK_ACC_DQTC_ZOMA_1",
+      "value": "Aumenta la res. ataques de perforación, golpe y a distancia de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_CLT_DQTC_PSAR_1",
+      "value": "Reduce la probabilidad de que el usuario sea atacado y le otorga prisa durante 3 turnos."
+    },
+    {
       "key": "SK_SPE_LW_VERN_1_1",
       "value": ""
     },
@@ -17618,6 +18038,10 @@
     },
     {
       "key": "SK_ARM_FF14_TNCR_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_CLT_DQTC_SLIM_1",
       "value": ""
     },
     {
@@ -25441,6 +25865,10 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_INV_BRAVEDOWN",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_BTL_INV_CTDOWN",
       "value": "Técnica para equilibrar misiones."
     },
@@ -25825,6 +26253,10 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_RATK_1-999_U",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_BTL_PKILLER_MAN_1-100_U",
       "value": "Técnica para equilibrar misiones."
     },
@@ -25982,10 +26414,6 @@
     },
     {
       "key": "SK_BTL_RESMGPIERCE_1-100_U_KISO",
-      "value": "Técnica para equilibrar misiones."
-    },
-    {
-      "key": "SK_BTL_RATK_1-999_U",
       "value": "Técnica para equilibrar misiones."
     },
     {
@@ -28862,6 +29290,26 @@
     },
     {
       "key": "SK_LW_BOW_017_SHLS_5",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_1",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_2",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_3",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_4",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_5",
       "value": ""
     },
     {

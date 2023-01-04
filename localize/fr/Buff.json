@@ -1497,6 +1497,14 @@
       "value": " Prolongation "
     },
     {
+      "key": "BUFF_Reduction",
+      "value": ""
+    },
+    {
+      "key": "BUFF_Effect",
+      "value": ""
+    },
+    {
       "key": "BUFFHEAL_Hp",
       "value": "Restaure-PV"
     },
@@ -1549,6 +1557,14 @@
       "value": "Dégâts ↑ par consommation de PT"
     },
     {
+      "key": "BUFF_CondAdditionalSkill",
+      "value": ""
+    },
+    {
+      "key": "BUFF_CondCancelPerfectHit",
+      "value": ""
+    },
+    {
       "key": "BUFF_OtherStopReactRate",
       "value": "Taux de blocage de réaction"
     },
@@ -1571,6 +1587,14 @@
     {
       "key": "BUFF_OtherAvoidMagic",
       "value": "Taux d'esquive d'attaque magique"
+    },
+    {
+      "key": "BUFF_OtherChainRedRateAtk",
+      "value": ""
+    },
+    {
+      "key": "BUFF_OtherChainRedRateElem",
+      "value": ""
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -1649,8 +1673,40 @@
       "value": "Tue-Capacité cognitive conféré aux attaques magiques"
     },
     {
+      "key": "BUFF_KillerSpeciesSlime",
+      "value": "Tue-gluants"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPSlime",
+      "value": "Tue-gluants conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMSlime",
+      "value": "Tue-gluants conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesUndefined",
+      "value": "Tue-???"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPUndefined",
+      "value": "Tue-??? conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMUndefined",
+      "value": "Tue-??? conféré aux attaques magiques"
+    },
+    {
       "key": "BUFF_KillerSpeciesDamageCognition",
       "value": "Dégâts fixes sur Capacité cognitive"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageSlime",
+      "value": "Dégâts fixes sur Gluant"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageUndefined",
+      "value": "Dégâts fixes sur ???"
     },
     {
       "key": "BUFF_KillerBirthPUnknown",
@@ -1941,12 +1997,44 @@
       "value": "Tue-Persona 5 Royal conféré aux attaques magiques"
     },
     {
+      "key": "BUFF_KillerBirthDQTC",
+      "value": "Tue-DQTact"
+    },
+    {
+      "key": "BUFF_KillerBirthPDQTC",
+      "value": "Tue-DQTact conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMDQTC",
+      "value": "Tue-DQTact conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthReserve02",
+      "value": ""
+    },
+    {
+      "key": "BUFF_KillerBirthPReserve02",
+      "value": ""
+    },
+    {
+      "key": "BUFF_KillerBirthMReserve02",
+      "value": ""
+    },
+    {
       "key": "BUFF_KillerBirthDamageFarplane",
       "value": "Dégâts fixes sur Au-delà"
     },
     {
       "key": "BUFF_KillerBirthDamageP5R",
       "value": "Dégâts fixes sur Persona 5 Royal"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageDQTC",
+      "value": "Dégâts fixes sur DQTact"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageReserve02",
+      "value": ""
     },
     {
       "key": "BUFF_KillerUnitTagPFloating",
@@ -2105,6 +2193,14 @@
       "value": "Rés à Persona 5 Royal"
     },
     {
+      "key": "BUFF_ResistBirthDQTC",
+      "value": "Rés à DQTact"
+    },
+    {
+      "key": "BUFF_ResistBirthReserve02",
+      "value": ""
+    },
+    {
       "key": "BUFF_ResistSpeciesHuman",
       "value": "Rés. humains"
     },
@@ -2167,6 +2263,14 @@
     {
       "key": "BUFF_ResistSpeciesCognition",
       "value": "Rés à Capacité cognitive"
+    },
+    {
+      "key": "BUFF_ResistSpeciesSlime",
+      "value": "Rés gluants"
+    },
+    {
+      "key": "BUFF_ResistSpeciesUndefined",
+      "value": "Rés ???"
     },
     {
       "key": "BUFF_ExeMafuken1",

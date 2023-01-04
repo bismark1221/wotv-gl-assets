@@ -1497,6 +1497,14 @@
       "value": "延長"
     },
     {
+      "key": "BUFF_Reduction",
+      "value": ""
+    },
+    {
+      "key": "BUFF_Effect",
+      "value": ""
+    },
+    {
       "key": "BUFFHEAL_Hp",
       "value": "HP恢復"
     },
@@ -1549,6 +1557,14 @@
       "value": "TP消耗時增加傷害"
     },
     {
+      "key": "BUFF_CondAdditionalSkill",
+      "value": ""
+    },
+    {
+      "key": "BUFF_CondCancelPerfectHit",
+      "value": ""
+    },
+    {
       "key": "BUFF_OtherStopReactRate",
       "value": "反應能力阻止率"
     },
@@ -1571,6 +1587,14 @@
     {
       "key": "BUFF_OtherAvoidMagic",
       "value": "魔法攻擊閃避率"
+    },
+    {
+      "key": "BUFF_OtherChainRedRateAtk",
+      "value": ""
+    },
+    {
+      "key": "BUFF_OtherChainRedRateElem",
+      "value": ""
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -1649,8 +1673,40 @@
       "value": "魔法攻擊時對認知存在特效"
     },
     {
+      "key": "BUFF_KillerSpeciesSlime",
+      "value": "史萊姆特效"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPSlime",
+      "value": "物理攻擊時對史萊姆特效"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMSlime",
+      "value": "魔法攻擊時對史萊姆特效"
+    },
+    {
+      "key": "BUFF_KillerSpeciesUndefined",
+      "value": "???特效"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPUndefined",
+      "value": "物理攻擊時對???特效"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMUndefined",
+      "value": "魔法攻擊時對???特效"
+    },
+    {
       "key": "BUFF_KillerSpeciesDamageCognition",
       "value": "認知存在固定傷害"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageSlime",
+      "value": "史萊姆固定傷害"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageUndefined",
+      "value": "???固定傷害"
     },
     {
       "key": "BUFF_KillerBirthPUnknown",
@@ -1941,12 +1997,44 @@
       "value": "魔法攻擊時對女神異聞錄5 皇家版特效"
     },
     {
+      "key": "BUFF_KillerBirthDQTC",
+      "value": "對勇者鬥惡龍 戰略指揮家特效"
+    },
+    {
+      "key": "BUFF_KillerBirthPDQTC",
+      "value": "物理攻擊時對勇者鬥惡龍 戰略指揮家特效"
+    },
+    {
+      "key": "BUFF_KillerBirthMDQTC",
+      "value": "魔法攻擊時對勇者鬥惡龍 戰略指揮家特效"
+    },
+    {
+      "key": "BUFF_KillerBirthReserve02",
+      "value": ""
+    },
+    {
+      "key": "BUFF_KillerBirthPReserve02",
+      "value": ""
+    },
+    {
+      "key": "BUFF_KillerBirthMReserve02",
+      "value": ""
+    },
+    {
       "key": "BUFF_KillerBirthDamageFarplane",
       "value": "異界固定傷害"
     },
     {
       "key": "BUFF_KillerBirthDamageP5R",
       "value": "女神異聞錄5 皇家版固定傷害"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageDQTC",
+      "value": "勇者鬥惡龍 戰略指揮家固定傷害"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageReserve02",
+      "value": ""
     },
     {
       "key": "BUFF_KillerUnitTagPFloating",
@@ -2105,6 +2193,14 @@
       "value": "女神異聞錄5 皇家版耐性"
     },
     {
+      "key": "BUFF_ResistBirthDQTC",
+      "value": "勇者鬥惡龍 戰略指揮家耐性"
+    },
+    {
+      "key": "BUFF_ResistBirthReserve02",
+      "value": ""
+    },
+    {
       "key": "BUFF_ResistSpeciesHuman",
       "value": "人耐性"
     },
@@ -2167,6 +2263,14 @@
     {
       "key": "BUFF_ResistSpeciesCognition",
       "value": "認知存在耐性"
+    },
+    {
+      "key": "BUFF_ResistSpeciesSlime",
+      "value": "史萊姆耐性"
+    },
+    {
+      "key": "BUFF_ResistSpeciesUndefined",
+      "value": "???耐性"
     },
     {
       "key": "BUFF_ExeMafuken1",

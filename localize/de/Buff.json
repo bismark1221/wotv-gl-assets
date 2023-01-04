@@ -1497,6 +1497,14 @@
       "value": " Verlängert "
     },
     {
+      "key": "BUFF_Reduction",
+      "value": ""
+    },
+    {
+      "key": "BUFF_Effect",
+      "value": ""
+    },
+    {
       "key": "BUFFHEAL_Hp",
       "value": "LP-Wiederherstellung"
     },
@@ -1549,6 +1557,14 @@
       "value": "Schadenserhöhung durch TP-Verbrauch"
     },
     {
+      "key": "BUFF_CondAdditionalSkill",
+      "value": ""
+    },
+    {
+      "key": "BUFF_CondCancelPerfectHit",
+      "value": ""
+    },
+    {
       "key": "BUFF_OtherStopReactRate",
       "value": "Reaktionsblockrate"
     },
@@ -1571,6 +1587,14 @@
     {
       "key": "BUFF_OtherAvoidMagic",
       "value": "Magieangriff-Ausweichrate"
+    },
+    {
+      "key": "BUFF_OtherChainRedRateAtk",
+      "value": ""
+    },
+    {
+      "key": "BUFF_OtherChainRedRateElem",
+      "value": ""
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -1649,8 +1673,40 @@
       "value": "Kognition-Killer bei Magieangriff"
     },
     {
+      "key": "BUFF_KillerSpeciesSlime",
+      "value": "Schleimkiller"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPSlime",
+      "value": "Schleimkiller bei physischem Angriff"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMSlime",
+      "value": "Schleimkiller bei Magieangriff"
+    },
+    {
+      "key": "BUFF_KillerSpeciesUndefined",
+      "value": "???-Killer"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPUndefined",
+      "value": "???-Killer bei physischem Angriff"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMUndefined",
+      "value": "???-Killer bei Magieangriff"
+    },
+    {
       "key": "BUFF_KillerSpeciesDamageCognition",
       "value": "Festgesetzter Kognition-Schaden"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageSlime",
+      "value": "Festgesetzter Schaden (Schleim)"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageUndefined",
+      "value": "Festgesetzter Schaden (???)"
     },
     {
       "key": "BUFF_KillerBirthPUnknown",
@@ -1941,12 +1997,44 @@
       "value": "Persona 5 Royal-Killer bei Magieangriff"
     },
     {
+      "key": "BUFF_KillerBirthDQTC",
+      "value": "DQT-Killer"
+    },
+    {
+      "key": "BUFF_KillerBirthPDQTC",
+      "value": "DQT-Killer bei physischem Angriff"
+    },
+    {
+      "key": "BUFF_KillerBirthMDQTC",
+      "value": "DQT-Killer bei Magieangriff"
+    },
+    {
+      "key": "BUFF_KillerBirthReserve02",
+      "value": ""
+    },
+    {
+      "key": "BUFF_KillerBirthPReserve02",
+      "value": ""
+    },
+    {
+      "key": "BUFF_KillerBirthMReserve02",
+      "value": ""
+    },
+    {
       "key": "BUFF_KillerBirthDamageFarplane",
       "value": "Festgesetzter Schaden (Abyssum)"
     },
     {
       "key": "BUFF_KillerBirthDamageP5R",
       "value": "Festgesetzter Schaden (Persona 5 Royal)"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageDQTC",
+      "value": "Festgesetzter Schaden (DQT)"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageReserve02",
+      "value": ""
     },
     {
       "key": "BUFF_KillerUnitTagPFloating",
@@ -2105,6 +2193,14 @@
       "value": "Persona 5 Royal-Resistenz"
     },
     {
+      "key": "BUFF_ResistBirthDQTC",
+      "value": "DQT-Resistenz"
+    },
+    {
+      "key": "BUFF_ResistBirthReserve02",
+      "value": ""
+    },
+    {
       "key": "BUFF_ResistSpeciesHuman",
       "value": "Menschenresistenz"
     },
@@ -2167,6 +2263,14 @@
     {
       "key": "BUFF_ResistSpeciesCognition",
       "value": "Kognitionsresistenz"
+    },
+    {
+      "key": "BUFF_ResistSpeciesSlime",
+      "value": "Schleimresistenz"
+    },
+    {
+      "key": "BUFF_ResistSpeciesUndefined",
+      "value": "???-Resistenz"
     },
     {
       "key": "BUFF_ExeMafuken1",

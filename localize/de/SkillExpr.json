@@ -633,6 +633,34 @@
       "value": "Erhöht Courage von Verbündeten im Bereich um Wirkenden."
     },
     {
+      "key": "SK_LW_SAM_M_1_PSAR",
+      "value": "Fügt dem Ziel Schaden (S) zu und stellt bei Kampfunfähigkeit des Gegners eigene AP wieder her."
+    },
+    {
+      "key": "SK_LW_SAM_S_3_PSAR",
+      "value": "Erhöht Courage von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_LW_SAM_S_1_PSAR",
+      "value": "Erhöht 3 Runden lang eigenen ANG und kritische Trefferrate."
+    },
+    {
+      "key": "SK_LW_SAM_M_2_PSAR",
+      "value": "Erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigene Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_SAM_S_2_PSAR",
+      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (S) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Blind."
+    },
+    {
+      "key": "SK_LW_SAM_R_1_PSAR",
+      "value": "Gewährt Chance auf 3 Runden andauernde Erhöhung der eigenen Ausweichrate bei Erleiden von Schaden (bis zu 3 Mal stapelbar)."
+    },
+    {
+      "key": "SK_LW_SAM_S_4_PSAR",
+      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu, senkt 3 Runden lang Heilkraft erheblich und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+    },
+    {
       "key": "SK_LW_THI_ATK",
       "value": ""
     },
@@ -1515,6 +1543,34 @@
     {
       "key": "SK_LW_GRM_DARK_M_2_INIT",
       "value": "Erhöht 3 Runden lang Dunkelresistenz von Verbündeten in Reichweite."
+    },
+    {
+      "key": "SK_LW_GRM_M_4_ZOMA",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und senkt 3 Runden lang alle Elementarresistenzen."
+    },
+    {
+      "key": "SK_LW_GRM_M_5_ZOMA",
+      "value": "Fügt dem Ziel MAG-abhängigen nichtelementaren Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_GRM_ICE_M_2_ZOMA",
+      "value": "Erhöht 3 Runden lang Eisresistenz von Verbündeten in Reichweite."
+    },
+    {
+      "key": "SK_LW_GRM_S_1_ZOMA",
+      "value": "Senkt 3 Runden lang ABW von Zielen in Reichweite erheblich."
+    },
+    {
+      "key": "SK_LW_GRM_S_2_ZOMA",
+      "value": "Senkt 3 Runden lang PSY von Zielen in Reichweite erheblich."
+    },
+    {
+      "key": "SK_LW_GRM_M_1_ZOMA",
+      "value": "Erhöht erhöht 3 Runden lang AGI des Ziels."
+    },
+    {
+      "key": "SK_LW_GRM_R_1_ZOMA",
+      "value": "Entfernt bei Erleiden von Schaden alle Stärkungen vom Gegner."
     },
     {
       "key": "SK_LW_GRM_S_1",
@@ -3815,6 +3871,198 @@
     {
       "key": "SK_LW_EC_SDLX_C_02B",
       "value": "Erhöht 3 Runden lang eigene Bereichangriffsresistenz und Geschossresistenz, Sprung + 1 und gewährt 3 Runden lang AP-Wiederherstellung bei kritischem Treffer."
+    },
+    {
+      "key": "SK_DQTC_SLIM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_1",
+      "value": "Heilt festgelegten Anteil der LP (M) von Verbündeten in Reichweite."
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_1B",
+      "value": "Heilt festgelegten Anteil der LP (L) von Verbündeten in Reichweite."
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_2",
+      "value": "Heilt festgelegten Anteil der eigenen LP (M), wenn LP beim Erleiden von Schaden unter 50 % sinken (einmal)."
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_2_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SLIM_M_3",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (L) zu."
+    },
+    {
+      "key": "SK_DQTC_SLIM_S_1",
+      "value": "Fügt dem Ziel Schaden (S) zu und senkt 3 Runden lang ABW."
+    },
+    {
+      "key": "SK_DQTC_SLIM_S_2",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauernder Lähmung."
+    },
+    {
+      "key": "SK_DQTC_SLIM_S_3",
+      "value": "Erhöht erhöht 3 Runden lang AGI eines Verbündeten."
+    },
+    {
+      "key": "SK_DQTC_SLIM_S_4",
+      "value": "Erhöht 3 Runden lang ANG eines Verbündeten erheblich."
+    },
+    {
+      "key": "SK_DQTC_SLIM_R_1",
+      "value": "Gewährt Chance auf feuerbasierten Konter bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_DQTC_SLIM_P_1",
+      "value": "Ermöglicht Wirkendem einen tödlichen Treffer zu überleben, solange LP 90 % oder mehr betragen."
+    },
+    {
+      "key": "SK_DQTC_SLIM_P_2",
+      "value": "Erhöht die durch Muntermacher wiederhergestellte Menge an LP."
+    },
+    {
+      "key": "SK_DQTC_SLIM_P_3",
+      "value": "Senkt ANG und MAG, solange LP 90 % oder mehr betragen, und erhöht Feuer- und Blitzangriff erheblich, solange LP 80 % oder weniger betragen."
+    },
+    {
+      "key": "SK_DQTC_SLIM_P_4",
+      "value": "Erhöht Feuer- und Eisresistenz."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ZOMA_M_1",
+      "value": "Senkt 3 Runden lang PSY des Ziels, fügt anschließend MAG-abhängigen nichtelementaren Schaden (L) zu und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_M_2",
+      "value": "Erhöht 3 Runden lang LP-Maximum von Verbündeten im Bereich um Wirkenden, heilt Erhöhungsbetrag der LP, gewährt 3 Runden lang Courage-Senkung bei erfolgreichem Angriff und beschwört eine den Wirkenden umgebende Barriere herauf, die physischen Schaden reduziert (3 Mal)."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_M_3",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu, senkt AP und gewährt Chance auf Wirken von 3 Runden andauernder Erfrierung."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_S_1",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (S) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Schlaf."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_S_2",
+      "value": "Erhöht 3 Runden lang eigene MAG und Präzision und gewährt Angriffen Vallum/Hast-Entfernung (wird vor dem Angriff aktiviert)."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_S_3",
+      "value": "Heilt LP eines Verbündeten (M)."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_S_4",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu, senkt 3 Runden lang Bewegung um 1 und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_R_1",
+      "value": "Gewährt Chance auf Entfernen aller Stärkungen vom Ziel und aller Schwächungen von sich selbst bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_P_1",
+      "value": "Erhöht LP-Maximum und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_DQTC_ZOMA_P_2",
+      "value": "Sprung + 1 und erhöht ab Kampfbeginn 3 Runden lang alle Angriffsresistenzen."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_A_01",
+      "value": "Fügt Zielen in Reichweite 3 Mal hintereinander MAG-abhängigen Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_01",
+      "value": "Verstärkt Psychoschub zu Psychoschub +1. Erhöht LP-Maximum und PSY-Durchbohrrate und stellt LP (S) wieder her, wenn LP bei Erleiden von Schaden unter 50 % sinken (einmal)."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_01B",
+      "value": "Erhöht LP-Maximum und PSY-Durchbohrrate und stellt bei Erleiden von Schaden LP (S) wieder her, wenn diese unter 50 % fallen (einmal)."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_01B_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_02",
+      "value": "Verstärkt Klirr zu Klirr +1. Senkt Aktivierungszeit für Fähigkeiten und verstärkt AP-Senkung."
+    },
+    {
+      "key": "SK_DQTC_EC_ZOMA_C_02B",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu, senkt AP und gewährt Chance auf Wirken von 3 Runden andauernder Erfrierung."
+    },
+    {
+      "key": "SK_DQTC_PSAR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_PSAR_M_1",
+      "value": "Fügt Zielen in Reichweite mit hoher Präzision Schaden (L) zu."
+    },
+    {
+      "key": "SK_DQTC_PSAR_M_2",
+      "value": "Senkt 3 Runden lang ABW des Ziels und fügt anschließend nichtelementaren Schaden (M) zu."
+    },
+    {
+      "key": "SK_DQTC_PSAR_M_3",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben."
+    },
+    {
+      "key": "SK_DQTC_PSAR_S_1",
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (S) zu und senkt 3 Runden lang Präzision."
+    },
+    {
+      "key": "SK_DQTC_PSAR_S_2",
+      "value": "Erhöht 3 Runden lang AGI und Ausweichrate von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_DQTC_PSAR_S_3",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und senkt 3 Runden lang Schlitzresistenz."
+    },
+    {
+      "key": "SK_DQTC_PSAR_S_4",
+      "value": "Fügt dem Ziel mit geringer Präzision kritischen Schaden (XL) zu."
+    },
+    {
+      "key": "SK_DQTC_PSAR_R_1",
+      "value": "Gewährt Chance auf 3 Runden andauernde Erhöhung der eigenen ABW-Durchbohrrate und Schlitzresistenz-Durchbohrrate bei Ausweichen eines Angriffs (bis zu 3 Mal stapelbar)."
+    },
+    {
+      "key": "SK_DQTC_PSAR_P_1",
+      "value": "Erhöht Reaktionsblockrate und erhöht physischen Schaden, solange LP 40 % oder weniger betragen."
+    },
+    {
+      "key": "SK_DQTC_PSAR_P_2",
+      "value": "Erhöht AGI, Geschossangriff- und Magieangriff-Ausweichrate."
+    },
+    {
+      "key": "SK_DQTC_PSAR_EN_A_01",
+      "value": "Entfernt Mumm von Zielen in Reichweite, zerstört physischen Schaden verringernde Barrieren und fügt anschließend Schaden (L) zu."
+    },
+    {
+      "key": "SK_DQTC_EC_PSAR_C_01",
+      "value": "Verstärkt Diskontinuum zu Diskontinuum +1. Senkt 3 Runden lang ABW des Ziels, fügt anschließend nichtelementaren Schaden (M) zu, senkt 3 Runden lang ANG und senkt 3 Runden lang Heilkraft erheblich."
+    },
+    {
+      "key": "SK_DQTC_EC_PSAR_C_01B",
+      "value": "Senkt 3 Runden lang ABW des Ziels, fügt anschließend nichtelementaren Schaden (M) zu, senkt 3 Runden lang ANG und senkt 3 Runden lang Heilkraft erheblich."
+    },
+    {
+      "key": "SK_DQTC_EC_PSAR_C_02",
+      "value": "Verstärkt Unbezwingbarer Geist zu Unbezwingbarer Geist +1. Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, stellt eigene AP wieder her und zusätzlicher Effekt: Erhöht physischen Schaden, während Mumm aktiv ist."
+    },
+    {
+      "key": "SK_DQTC_EC_PSAR_C_02B",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, stellt eigene AP wieder her und zusätzlicher Effekt: Erhöht physischen Schaden, während Mumm aktiv ist."
     },
     {
       "key": "SK_LW_LSWL_ATK",
@@ -6433,6 +6681,10 @@
       "value": "Erhöht 3 Runden lang Windangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
     },
     {
+      "key": "SK_LW_SCR_ICE_S_2_INIT",
+      "value": "Erhöht 3 Runden lang Eisangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
+    },
+    {
       "key": "SK_LW_SCR_DARK_S_2_INIT",
       "value": "Erhöht 3 Runden lang Dunkelangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
     },
@@ -6465,6 +6717,10 @@
       "value": "Erhöht 3 Runden lang Windangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
     },
     {
+      "key": "SK_LW_SCR_ICE_S_2",
+      "value": "Erhöht 3 Runden lang Eisangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
+    },
+    {
       "key": "SK_LW_SCR_DARK_S_2",
       "value": "Erhöht 3 Runden lang Dunkelangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
     },
@@ -6479,6 +6735,30 @@
     {
       "key": "SK_LW_SCR_M_3_SUB",
       "value": "Heilt LP (M) eines Verbündeten und erhöht 3 Runden lang ANG, MAG und AGI."
+    },
+    {
+      "key": "SK_LW_SCR_M_2_ZOMA",
+      "value": "Erhöht 3 Runden lang ABW sowie PSY von Verbündeten in Reichweite und erhöht 3 Runden lang eigene Heilkraft."
+    },
+    {
+      "key": "SK_LW_SCR_S_1_ZOMA",
+      "value": "Heilt LP des Ziels (S)."
+    },
+    {
+      "key": "SK_LW_SCR_ICE_S_2_ZOMA",
+      "value": "Erhöht 3 Runden lang Eisangriff sowie Schwächungsresistenz eines Verbündeten und verkürzt 3 Runden lang eigene Aktivierungszeit."
+    },
+    {
+      "key": "SK_LW_SCR_S_3_ZOMA",
+      "value": "Erhöht 3 Runden lang eigene Bereichangriffsresistenz und Schlitzresistenz."
+    },
+    {
+      "key": "SK_LW_SCR_S_4_ZOMA",
+      "value": "Heilt LP von Verbündeten in Reichweite (S)."
+    },
+    {
+      "key": "SK_LW_SCR_R_1_ZOMA",
+      "value": "Gewährt Chance auf Heilung eigener LP (S) bei Erleiden von Schaden."
     },
     {
       "key": "SK_LW_EC_SCR_A_01",
@@ -7055,6 +7335,34 @@
     {
       "key": "SK_LW_LLN_M_3_SUB",
       "value": "Zerstört physischen Schaden verringernde Barrieren vom Ziel und fügt anschließend Schaden (M) und Durchschlag zu."
+    },
+    {
+      "key": "SK_LW_LLN_S_1_PSAR",
+      "value": "Fügt dem Ziel Schaden (S) zu, senkt 3 Runden lang ANG/AGI und durchbohrt."
+    },
+    {
+      "key": "SK_LW_LLN_S_2_PSAR",
+      "value": "Erhöht 3 Runden lang ANG von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_LW_LLN_S_3_PSAR",
+      "value": "Fügt dem Ziel Schaden (M) zu, reduziert AP bei kritischem Treffer und durchbohrt."
+    },
+    {
+      "key": "SK_LW_LLN_S_4_PSAR",
+      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu und senkt 3 Runden lang Kritische Ausweichrate."
+    },
+    {
+      "key": "SK_LW_LLN_R_1_PSAR",
+      "value": "Gewährt Chance auf Präventivschlag bei Erleiden von physischem Schaden."
+    },
+    {
+      "key": "SK_LW_LLN_M_1_PSAR",
+      "value": "Fügt dem Ziel Schaden (M) zu, senkt 3 Runden lang Heilkraft bei kritischem Treffer erheblich und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
+    },
+    {
+      "key": "SK_LW_LLN_M_1B_PSAR",
+      "value": "Fügt dem Ziel Schaden (M) zu, senkt 3 Runden lang Heilkraft bei kritischem Treffer erheblich und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
     },
     {
       "key": "SK_LW_EC_LLN_A_01",
@@ -11357,6 +11665,90 @@
       "value": "Gewährt Chance auf Konter bei Erleiden von Schaden und Durchbohren."
     },
     {
+      "key": "SK_EN_SLIM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_M_01",
+      "value": "Heilt festgelegten Anteil der eigenen LP (M), wenn LP beim Erleiden von Schaden unter 50 % sinken (einmal)."
+    },
+    {
+      "key": "SK_EN_SLIM_M_01B",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_M_02",
+      "value": "Fügt dem Ziel Schaden (S) zu und senkt 3 Runden lang ABW."
+    },
+    {
+      "key": "SK_EN_SLIM_M_03",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (L) zu."
+    },
+    {
+      "key": "SK_EN_SLIM_R_1",
+      "value": "Gewährt Chance auf feuerbasierten Konter bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_EN_SLIM_P_1",
+      "value": "Erhöht ANG und MAG dauerhaft erheblich, wenn LP unter 80 % fallen."
+    },
+    {
+      "key": "SK_EN_SLIM_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_01_M_01",
+      "value": "Heilt festgelegten Anteil der eigenen LP (M), wenn LP beim Erleiden von Schaden unter 50 % sinken (einmal)."
+    },
+    {
+      "key": "SK_EN_SLIM_01_M_01B",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_01_M_02",
+      "value": "Fügt dem Ziel Schaden (S) zu und senkt 3 Runden lang ABW."
+    },
+    {
+      "key": "SK_EN_SLIM_01_M_03",
+      "value": "Senkt 3 Runden lang ANG des Gegners erheblich."
+    },
+    {
+      "key": "SK_EN_SLIM_01_R_01",
+      "value": "Gewährt Chance auf Konter bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_EN_SLIM_02_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_SLIM_02_M_01",
+      "value": "Fügt dem Ziel Schaden (S) zu und senkt 3 Runden lang ABW."
+    },
+    {
+      "key": "SK_EN_SLIM_02_M_02",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu."
+    },
+    {
+      "key": "SK_EN_KLMN_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_EN_KLMN_M_01",
+      "value": "Erhöht 3 Runden lang eigenen ANG und alle Angriffsresistenzen."
+    },
+    {
+      "key": "SK_EN_KLMN_M_02",
+      "value": "Fügt dem Ziel Schaden (M) zu und senkt 3 Runden lang ABW."
+    },
+    {
+      "key": "SK_EN_KLMN_M_03",
+      "value": "Senkt 3 Runden lang Eisresistenz des Ziels und fügt anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_EN_KLMN_M_04",
+      "value": "Senkt 3 Runden lang Schlitzresistenz von Zielen im Bereich um Wirkenden und fügt anschließend Schaden (M) zu."
+    },
+    {
       "key": "SK_MRGE_ATK",
       "value": "Fügt dem Ziel Schaden (S) zu."
     },
@@ -12427,6 +12819,14 @@
     {
       "key": "SK_LB_LW_SDLX_01",
       "value": "Senkt 3 Runden lang Dunkelresistenz des Ziels, fügt anschließend 2 Mal hintereinander Schaden (L) zu und senkt 3 Runden lang AGI."
+    },
+    {
+      "key": "SK_LB_DQTC_ZOMA",
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, senkt 3 Runden lang Magieangriffsresistenz und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LB_DQTC_PSAR",
+      "value": "Entfernt alle Stärkungen vom Ziel und fügt anschließend Schaden (XL) zu."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -15717,6 +16117,18 @@
       "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene Bereichangriffsresistenz +10 und Kritische Trefferrate +20"
     },
     {
+      "key": "SK_MA_DQTC_ZOMA",
+      "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene MAG +25 %"
+    },
+    {
+      "key": "SK_MA_DQTC_SLIM",
+      "value": "LP-Maximum +30 %, Schlitzresistenz +50"
+    },
+    {
+      "key": "SK_MA_DQTC_PSAR",
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene Schlitzresistenz-Durchbohrrate +15 und Modifikator für AP-Erlangung +30 %"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -17149,6 +17561,14 @@
       "value": "Gewährt 3 Runden lang Verbündeten im Bereich um Wirkenden bei kritischem Treffer Entfernen von Statuseffekten (Regena/Hast)."
     },
     {
+      "key": "SK_ACC_DQTC_ZOMA_1",
+      "value": "Erhöht 3 Runden lang Durchbohr-, Hieb- und Geschossresistenz von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_CLT_DQTC_PSAR_1",
+      "value": "Senkt 3 Runden lang eigene Wahrscheinlichkeit, Ziel von Angriffen zu werden, und wirkt 3 Runden lang Hast auf sich selbst."
+    },
+    {
       "key": "SK_SPE_LW_VERN_1_1",
       "value": ""
     },
@@ -17618,6 +18038,10 @@
     },
     {
       "key": "SK_ARM_FF14_TNCR_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_CLT_DQTC_SLIM_1",
       "value": ""
     },
     {
@@ -25441,6 +25865,10 @@
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
     {
+      "key": "SK_BTL_INV_BRAVEDOWN",
+      "value": "Fähigkeit zur Auftragsausbalancierung"
+    },
+    {
       "key": "SK_BTL_INV_CTDOWN",
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
@@ -25825,6 +26253,10 @@
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
     {
+      "key": "SK_BTL_RATK_1-999_U",
+      "value": "Fähigkeit zur Auftragsausbalancierung"
+    },
+    {
       "key": "SK_BTL_PKILLER_MAN_1-100_U",
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
@@ -25982,10 +26414,6 @@
     },
     {
       "key": "SK_BTL_RESMGPIERCE_1-100_U_KISO",
-      "value": "Fähigkeit zur Auftragsausbalancierung"
-    },
-    {
-      "key": "SK_BTL_RATK_1-999_U",
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
     {
@@ -28862,6 +29290,26 @@
     },
     {
       "key": "SK_LW_BOW_017_SHLS_5",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_1",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_2",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_3",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_4",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_SWO_PSAR_5",
       "value": ""
     },
     {
