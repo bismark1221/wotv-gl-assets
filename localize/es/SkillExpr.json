@@ -430,19 +430,19 @@
     },
     {
       "key": "SK_LW_SWN_M_4",
-      "value": "Consume VIT del usuario e inflige daño (mucho) a los objetivos al alcance."
+      "value": "Consume VIT del usuario para eliminar Coraza a los objetivos al alcance y les inflige daño (mucho)."
     },
     {
       "key": "SK_LW_SWN_S_2",
-      "value": "Inflige daño (poco) en función de la VIT máx. del usuario al objetivo y absorbe el daño infligido."
+      "value": "Inflige daño (poco) en función de la VIT máx. del usuario al objetivo, absorbe el daño infligido y reduce su ATQ y MAG durante 3 turnos."
     },
     {
       "key": "SK_LW_SWN_S_2_ORDR",
-      "value": "Inflige daño (poco) en función de la VIT máx. del usuario al objetivo y absorbe el daño infligido."
+      "value": "Inflige daño (poco) en función de la VIT máx. del usuario al objetivo, absorbe el daño infligido y reduce su ATQ y MAG durante 3 turnos."
     },
     {
       "key": "SK_LW_SWN_S_3",
-      "value": "Daño (medio) al objetivo y probabilidad de infligirle condena."
+      "value": "Daño (medio) al objetivo, probabilidad de infligirle condena y probabilidad de infligirle inútil durante 3 turnos."
     },
     {
       "key": "SK_LW_SWN_M_2_INIT",
@@ -458,7 +458,7 @@
     },
     {
       "key": "SK_LW_SWN_S_1",
-      "value": "Daño (mínimo) al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
+      "value": "Daño (poco) con golpe garantizado al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
     },
     {
       "key": "SK_LW_SWN_S_4",
@@ -474,15 +474,15 @@
     },
     {
       "key": "SK_LW_SWN_M_4_SUB",
-      "value": "Consume VIT del usuario e inflige daño (mucho) a los objetivos al alcance."
+      "value": "Consume VIT del usuario para eliminar Coraza a los objetivos al alcance y les inflige daño (mucho)."
     },
     {
       "key": "SK_LW_SWN_S_2_SUB",
-      "value": "Inflige daño (poco) en función de la VIT máx. del usuario al objetivo y absorbe el daño infligido."
+      "value": "Inflige daño (poco) en función de la VIT máx. del usuario al objetivo, absorbe el daño infligido y reduce su ATQ y MAG durante 3 turnos."
     },
     {
       "key": "SK_LW_SWN_S_3_SUB",
-      "value": "Daño (medio) al objetivo y probabilidad de infligirle condena."
+      "value": "Daño (medio) al objetivo, probabilidad de infligirle condena y probabilidad de infligirle inútil durante 3 turnos."
     },
     {
       "key": "SK_LW_SWN_M_2",
@@ -3933,6 +3933,30 @@
       "value": "Aumenta la res. fuego y hielo."
     },
     {
+      "key": "SK_DQTC_EC_SLIM_C_01",
+      "value": "Mejora «Golpe corporal» a «Golpe corporal +1»: reduce la DEF del objetivo durante 3 turnos y le inflige daño (poco)."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_01B",
+      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (poco)."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_02",
+      "value": "Mejora «Poder de limo» a «Poder de limo +1»: reduce el ATQ y la MAG cuando la VIT está al 90 % o más, aumenta considerablemente el ataque de fuego y rayo cuando la VIT está al 80 % o menos y aumenta la tasa de penetración de DEF y ESP."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_02B",
+      "value": "Reduce el ATQ y la MAG cuando la VIT está al 90 % o más, aumenta considerablemente el ataque de fuego y rayo cuando la VIT está al 80 % o menos y aumenta la tasa de penetración de DEF y ESP."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_03",
+      "value": "Mejora «Acelerar» a «Aceleración»: aumenta la AGI de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_03B",
+      "value": "Aumenta la AGI de los aliados de alrededor durante 3 turnos."
+    },
+    {
       "key": "SK_DQTC_ZOMA_ATK",
       "value": ""
     },
@@ -5046,11 +5070,11 @@
     },
     {
       "key": "SK_LW_MSW_M_2",
-      "value": "Inflige daño (medio) a los objetivos al alcance y reduce su potencia de curación durante 3 turnos."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_MSW_M_3",
-      "value": "Aumenta considerablemente el ataque de corte de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
+      "value": "Aumenta considerablemente el ataque de corte de los aliados de alrededor y aumenta su AGI durante 3 turnos, y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_MSW_S_1_INIT",
@@ -5082,11 +5106,11 @@
     },
     {
       "key": "SK_LW_MSW_M_2_SUB",
-      "value": "Inflige daño (medio) a los objetivos al alcance y reduce su potencia de curación durante 3 turnos."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_MSW_M_3_SUB",
-      "value": "Aumenta considerablemente el ataque de corte de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
+      "value": "Aumenta considerablemente el ataque de corte de los aliados de alrededor y aumenta su AGI durante 3 turnos, y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_MSW_S_1",
@@ -6346,15 +6370,15 @@
     },
     {
       "key": "SK_LW_MSM_M_1",
-      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos y les inflige daño (medio) con mucha precisión en función de la MAG del usuario."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) con mucha precisión en función de la MAG del usuario y reduce su tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_MSM_M_2",
-      "value": "Inflige daño (mucho) en función de la MAG del usuario al objetivo y reduce el TC (poco) al asestar un crítico."
+      "value": "Elimina cualquier barrera que reduzca el daño mágico del objetivo, inflige daño (mucho) en función de la MAG del usuario al objetivo y aumenta el TC del usuario (poco) al asestar un crítico."
     },
     {
       "key": "SK_LW_MSM_M_3",
-      "value": "Otorga una barrera al usuario que niega una cierta cantidad de daño mágico."
+      "value": "Otorga una barrera al usuario que niega una cierta cantidad de daño mágico y aumenta su tasa de penetración de res. ataque de corte durante 3 turnos."
     },
     {
       "key": "SK_LW_MSM_S_1_INIT",
@@ -6382,7 +6406,7 @@
     },
     {
       "key": "SK_LW_MSM_P_2",
-      "value": "Aumenta la AGI y la tasa de penetración de ESP."
+      "value": "Aumenta la AGI, la tasa de penetración de ESP y la tasa de crítico."
     },
     {
       "key": "SK_LW_MSM_S_1",
@@ -6394,27 +6418,27 @@
     },
     {
       "key": "SK_LW_MSM_M_1_SUB",
-      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos y les inflige daño (medio) con mucha precisión en función de la MAG del usuario."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) con mucha precisión en función de la MAG del usuario y reduce su tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_MSM_M_2_SUB",
-      "value": "Inflige daño (mucho) en función de la MAG del usuario al objetivo y reduce el TC (poco) al asestar un crítico."
+      "value": "Elimina cualquier barrera que reduzca el daño mágico del objetivo, inflige daño (mucho) en función de la MAG del usuario al objetivo y aumenta el TC del usuario (poco) al asestar un crítico."
     },
     {
       "key": "SK_LW_MSM_M_3_SUB",
-      "value": "Otorga una barrera al usuario que niega una cierta cantidad de daño mágico."
+      "value": "Otorga una barrera al usuario que niega una cierta cantidad de daño mágico y aumenta su tasa de penetración de res. ataque de corte durante 3 turnos."
     },
     {
       "key": "SK_LW_MSM_EN_A_01",
-      "value": "Inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance y absorbe una parte del daño infligido."
+      "value": "Elimina autolázaro a los objetivos al alcance, les inflige daño (mucho) en función de la MAG del usuario y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_EC_MSM_C_01",
-      "value": "Mejora «Barrera disipadora» a «Barrera exorcista»: otorga una barrera al usuario que niega una cierta cantidad de daño mágico y otorga revitalia durante 3 turnos. "
+      "value": "Mejora «Barrera disipadora» a «Barrera exorcista»: otorga una barrera al usuario que niega una cierta cantidad de daño mágico, aumenta su tasa de penetración de res. ataque de corte durante 3 turnos y le otorga revitalia."
     },
     {
       "key": "SK_LW_EC_MSM_C_01B",
-      "value": "Otorga una barrera al usuario que niega una cierta cantidad de daño mágico y otorga revitalia durante 3 turnos. "
+      "value": "Otorga una barrera al usuario que niega una cierta cantidad de daño mágico, aumenta su tasa de penetración de res. ataque de corte durante 3 turnos y le otorga revitalia."
     },
     {
       "key": "SK_LW_EC_MSM_C_02",
@@ -6426,23 +6450,23 @@
     },
     {
       "key": "SK_LW_MSM_EN_A_02",
-      "value": "Inflige daño (medio) 2 veces en función de la MAG del usuario al objetivo y recupera PA del usuario al asestar un crítico."
+      "value": "Reduce la res. agua del objetivo durante 3 turnos, le inflige daño (medio) 2 veces en función de la MAG del usuario y recupera PA del usuario al asestar un crítico."
     },
     {
       "key": "SK_LW_EC_MSM_C_03",
-      "value": "Mejora «Partebambú» a «Partevelocidad»: inflige daño (mucho) en función de la MAG del usuario al objetivo, reduce su AGI durante 3 turnos al asestar un crítico y aumenta el TC del usuario (poco) al asestar un crítico."
+      "value": "Mejora «Partebambú» a «Partevelocidad»: destruye cualquier barrera que reduzca el daño mágico, inflige daño (mucho) en función de la MAG del usuario al objetivo, reduce su AGI durante 3 turnos al asestar un crítico y aumenta el TC del usuario (poco) al asestar un crítico."
     },
     {
       "key": "SK_LW_EC_MSM_C_03B",
-      "value": "Inflige daño (mucho) en función de la MAG del usuario al objetivo, reduce su AGI durante 3 turnos al asestar un crítico y aumenta el TC del usuario (poco) al asestar un crítico."
+      "value": "Destruye cualquier barrera que reduzca el daño mágico, inflige daño (mucho) en función de la MAG del usuario al objetivo, reduce su AGI durante 3 turnos al asestar un crítico y aumenta el TC del usuario (poco) al asestar un crítico."
     },
     {
       "key": "SK_LW_EC_MSM_C_04",
-      "value": "Mejora «Sabiduría del samurái místico» a «Esencia del samurái místico»: aumenta la AGI, la tasa de penetración de ESP y los PA iniciales."
+      "value": "Mejora «Sabiduría del samurái místico» a «Esencia del samurái místico»: aumenta la AGI, la tasa de penetración de ESP, la tasa de crítico y los PA iniciales."
     },
     {
       "key": "SK_LW_EC_MSM_C_04B",
-      "value": "Aumenta la AGI, la tasa de penetración de ESP y los PA iniciales."
+      "value": "Aumenta la AGI, la tasa de penetración de ESP, la tasa de crítico y los PA iniciales."
     },
     {
       "key": "SK_LW_OBRN_ATK",
@@ -13250,15 +13274,15 @@
     },
     {
       "key": "SK_LW_EC_SWN_A_01",
-      "value": "Consume VIT del usuario para reducir la res. corte del objetivo durante 3 turnos, y luego le inflige daño (medio)."
+      "value": "Consume VIT del usuario para destruir cualquier barrera que reduzca el daño físico del objetivo, reduce su res. ataque de corte durante 3 turnos, le inflige daño (medio) y probabilidad de infligirle freno durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SWN_C_01",
-      "value": "Mejora «Rompepeligro» a «Destruyepeligro»: consume VIT del usuario para infligir daño (muchísimo) a los objetivos al alcance."
+      "value": "Mejora «Rompepeligro» a «Destruyepeligro»: consume VIT del usuario para eliminar Coraza a los objetivos al alcance y les inflige daño (muchísimo)."
     },
     {
       "key": "SK_LW_EC_SWN_C_01B",
-      "value": "Consume VIT del usuario para infligir daño (muchísimo) a los objetivos al alcance."
+      "value": "Consume VIT del usuario para eliminar Coraza a los objetivos al alcance y les inflige daño (muchísimo)."
     },
     {
       "key": "SK_LW_EC_SWN_C_02",
@@ -13270,7 +13294,7 @@
     },
     {
       "key": "SK_LW_EC_SWN_A_02",
-      "value": "Inflige daño (poco) al objetivo, reduce sus PA y recupera PA del usuario."
+      "value": "Reduce la res. corte del objetivo durante 3 turnos, le inflige daño (medio), reduce sus PA y recupera PA del usuario."
     },
     {
       "key": "SK_LW_EC_SWN_C_03",
@@ -13470,7 +13494,7 @@
     },
     {
       "key": "SK_LW_EC_MSW_A_01",
-      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces)."
+      "value": "Otorga una barrera al usuario que reduce considerablemente el daño físico (3 veces) y aumenta su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MSW_C_01",
@@ -13490,15 +13514,15 @@
     },
     {
       "key": "SK_LW_EC_MSW_A_02",
-      "value": "Inflige daño (medio) al objetivo, reduce su AGI durante 3 turnos y aumenta su consumo de PA."
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio), reduce su AGI durante 3 turnos y aumenta su consumo de PA."
     },
     {
       "key": "SK_LW_EC_MSW_C_03",
-      "value": "Mejora «Concentración» a «Concentración activa»: aumenta considerablemente el ataque de corte de los aliados de alrededor durante 3 turnos, aumenta la tasa de penetración de DEF del usuario durante 3 turnos y recupera PA."
+      "value": "Mejora «Concentración» a «Concentración activa»: aumenta considerablemente el ataque de corte de los aliados de alrededor y aumenta su AGI durante 3 turnos, recupera PA del usuario y aumenta su tasa de penetración de DEF durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MSW_C_03B",
-      "value": "Aumenta considerablemente el ataque de corte de los aliados de alrededor durante 3 turnos, aumenta la tasa de penetración de DEF del usuario durante 3 turnos y recupera PA."
+      "value": "Aumenta considerablemente el ataque de corte de los aliados de alrededor y aumenta su AGI durante 3 turnos, recupera PA del usuario y aumenta su tasa de penetración de DEF durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MSW_C_04",
@@ -13610,15 +13634,15 @@
     },
     {
       "key": "SK_LW_EC_SWN_A_03",
-      "value": "Consume VIT del usuario e inflige daño (medio) a los objetivos al alcance y probabilidad de infligirles paro."
+      "value": "Consume VIT del usuario para aumentar su tasa de penetración de DEF, inflige daño (medio) a los objetivos al alcance y probabilidad de infligirles paro."
     },
     {
       "key": "SK_LW_EC_SWN_C_05",
-      "value": "Mejora «Némesis oscuro» a «Guadaña condena»: daño (mucho) al objetivo y probabilidad de infligirle condena."
+      "value": "Mejora «Némesis oscuro» a «Guadaña condena»: daño (mucho) al objetivo, probabilidad de infligirle condena, y probabilidad de infligirle inútil durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SWN_C_05B",
-      "value": "Daño (mucho) al objetivo y probabilidad de infligirle condena."
+      "value": "Daño (mucho) al objetivo, probabilidad de infligirle condena, y probabilidad de infligirle inútil durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SWN_C_06",
@@ -15065,6 +15089,10 @@
       "value": "VIT máx. +30 %"
     },
     {
+      "key": "SK_MA_LW_LILS_2",
+      "value": "Aliados de fuego: VIT máx. +10 %, res. freno +25; usuario: VIT máx. +50 %, ATQ +20 %, res. Fennes +50"
+    },
+    {
       "key": "SK_MA_LW_RAMD",
       "value": "PT máx. +30 %, ataque de perforación +20"
     },
@@ -15605,6 +15633,10 @@
       "value": "ATQ +10 %, Comegélidos +15 %"
     },
     {
+      "key": "SK_MA_LW_LATH_2",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: ATQ +30 %, Comegélidos +15, consumo de PA -20 %"
+    },
+    {
       "key": "SK_MA_LW_TITU",
       "value": "Res. perforación y proyectiles +10, consumo de PA -25 %"
     },
@@ -15813,6 +15845,10 @@
       "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de penetración de DEF +25"
     },
     {
+      "key": "SK_MA_LW_VLRC_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de penetración de DEF +40, tasa de penetración de res. ataque de corte +25"
+    },
+    {
       "key": "SK_MA_LW_LILS_01",
       "value": "AGI +10 %, mejora Ráfaga. Inflige daño (medio) con golpe garantizado a los objetivos al alcance."
     },
@@ -15849,6 +15885,10 @@
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: res. ataque de zona +10"
     },
     {
+      "key": "SK_MA_LW_LMRE_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: res. ataque de zona +20, VIT máx. +20 %, efecto adicional: otorga res. ataque a distancia +30 en estado prisa"
+    },
+    {
       "key": "SK_MA_FF7_AERT",
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: MAG +15 %, ESP +5"
     },
@@ -15878,7 +15918,7 @@
     },
     {
       "key": "SK_MA_LW_VERN",
-      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: tasa de penetración de DEF +20"
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: tasa de penetración de DEF +20"
     },
     {
       "key": "SK_MA_LW_JEDN",
@@ -16926,6 +16966,10 @@
     },
     {
       "key": "SK_LW_ARW_001_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ARW_001_6",
       "value": ""
     },
     {
@@ -22034,6 +22078,138 @@
     },
     {
       "key": "SK_GL_VC_LW_RAMU_01_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV1_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV1_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV1_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_PMAX",
       "value": ""
     },
     {
@@ -28997,6 +29173,10 @@
       "value": "Habilidad específica de equipo +6"
     },
     {
+      "key": "SK_LW_PLUS6_MDF_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
       "key": "SK_LW_PLUS6_SPEAR_10",
       "value": "Habilidad específica de equipo +6"
     },
@@ -29290,6 +29470,26 @@
     },
     {
       "key": "SK_LW_BOW_017_SHLS_5",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_1",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_2",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_3",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_4",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_5",
       "value": ""
     },
     {

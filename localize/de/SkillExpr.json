@@ -430,19 +430,19 @@
     },
     {
       "key": "SK_LW_SWN_M_4",
-      "value": "Verbraucht eigene LP, um Zielen in Reichweite Schaden (L) zuzufügen."
+      "value": "Verbraucht eigene LP, um Protes von Zielen in Reichweite zu entfernen und fügt anschließend Schaden (L) zu."
     },
     {
       "key": "SK_LW_SWN_S_2",
-      "value": "Fügt dem Ziel vom LP-Maximum des Wirkenden abhängigen Schaden (S) zu und absorbiert verursachten Schaden."
+      "value": "Fügt dem Ziel vom LP-Maximum des Wirkenden abhängigen Schaden (S) zu, absorbiert verursachten Schaden und senkt 3 Runden lang ANG und MAG."
     },
     {
       "key": "SK_LW_SWN_S_2_ORDR",
-      "value": "Fügt dem Ziel vom LP-Maximum des Wirkenden abhängigen Schaden (S) zu und absorbiert verursachten Schaden."
+      "value": "Fügt dem Ziel vom LP-Maximum des Wirkenden abhängigen Schaden (S) zu, absorbiert verursachten Schaden und senkt 3 Runden lang ANG und MAG."
     },
     {
       "key": "SK_LW_SWN_S_3",
-      "value": "Fügt dem Ziel Schaden (M) zu und gewährt Chance auf Wirken von Todesurteil."
+      "value": "Fügt dem Ziel Schaden (M) zu, gewährt Chance auf Wirken von Todesurteil sowie Chance auf Wirken von 3 Runden andauerndem Ausschalten."
     },
     {
       "key": "SK_LW_SWN_M_2_INIT",
@@ -458,7 +458,7 @@
     },
     {
       "key": "SK_LW_SWN_S_1",
-      "value": "Fügt dem Ziel Schaden (minimal) zu und gewährt geringe Chance auf Wirken von 3 Runden andauernder Lähmung."
+      "value": "Fügt dem Ziel Schaden (S) zu, garantiert Treffer und gewährt Chance auf Wirken von 3 Runden andauernder Lähmung."
     },
     {
       "key": "SK_LW_SWN_S_4",
@@ -474,15 +474,15 @@
     },
     {
       "key": "SK_LW_SWN_M_4_SUB",
-      "value": "Verbraucht eigene LP, um Zielen in Reichweite Schaden (L) zuzufügen."
+      "value": "Verbraucht eigene LP, um Protes von Zielen in Reichweite zu entfernen und fügt anschließend Schaden (L) zu."
     },
     {
       "key": "SK_LW_SWN_S_2_SUB",
-      "value": "Fügt dem Ziel vom LP-Maximum des Wirkenden abhängigen Schaden (S) zu und absorbiert verursachten Schaden."
+      "value": "Fügt dem Ziel vom LP-Maximum des Wirkenden abhängigen Schaden (S) zu, absorbiert verursachten Schaden und senkt 3 Runden lang ANG und MAG."
     },
     {
       "key": "SK_LW_SWN_S_3_SUB",
-      "value": "Fügt dem Ziel Schaden (M) zu und gewährt Chance auf Wirken von Todesurteil."
+      "value": "Fügt dem Ziel Schaden (M) zu, gewährt Chance auf Wirken von Todesurteil sowie Chance auf Wirken von 3 Runden andauerndem Ausschalten."
     },
     {
       "key": "SK_LW_SWN_M_2",
@@ -3933,6 +3933,30 @@
       "value": "Erhöht Feuer- und Eisresistenz."
     },
     {
+      "key": "SK_DQTC_EC_SLIM_C_01",
+      "value": "Verstärkt Rempler zu Rempler +1. Senkt 3 Runden lang ABW des Ziels und fügt anschließend Schaden (S) zu."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_01B",
+      "value": "Senkt 3 Runden lang ABW des Ziels und fügt anschließend Schaden (S) zu."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_02",
+      "value": "Verstärkt Kraft des Schleims zu Kraft des Schleims +1. Senkt ANG und MAG, solange LP 90 % oder mehr betragen, erhöht Feuer- und Blitzangriff erheblich, solange LP 80 % oder weniger betragen und erhöht ABW-Durchbohrrate und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_02B",
+      "value": "Senkt ANG und MAG, solange LP 90 % oder mehr betragen, erhöht Feuer- und Blitzangriff erheblich, solange LP 80 % oder weniger betragen, und erhöht ABW-Durchbohrrate und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_03",
+      "value": "Verstärkt Beschleunigung zu Multibeschleunigung. Erhöht 3 Runden lang AGI von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_03B",
+      "value": "Erhöht 3 Runden lang AGI von Verbündeten im Bereich um Wirkenden."
+    },
+    {
       "key": "SK_DQTC_ZOMA_ATK",
       "value": ""
     },
@@ -5046,11 +5070,11 @@
     },
     {
       "key": "SK_LW_MSW_M_2",
-      "value": "Fügt Zielen in Reichweite Schaden (M) zu und senkt 3 Runden lang Heilkraft."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend Schaden (M) zu und senkt 3 Runden lang Heilkraft."
     },
     {
       "key": "SK_LW_MSW_M_3",
-      "value": "Erhöht 3 Runden lang Schlitz-ANG von Verbündeten im Bereich um Wirkenden erheblich und erhöht 3 Runden lang eigene ABW-Durchbohrrate."
+      "value": "Erhöht 3 Runden lang Schlitzangriff erheblich und AGI von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigene ABW-Durchbohrrate."
     },
     {
       "key": "SK_LW_MSW_S_1_INIT",
@@ -5082,11 +5106,11 @@
     },
     {
       "key": "SK_LW_MSW_M_2_SUB",
-      "value": "Fügt Zielen in Reichweite Schaden (M) zu und senkt 3 Runden lang Heilkraft."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend Schaden (M) zu und senkt 3 Runden lang Heilkraft."
     },
     {
       "key": "SK_LW_MSW_M_3_SUB",
-      "value": "Erhöht 3 Runden lang Schlitz-ANG von Verbündeten im Bereich um Wirkenden erheblich und erhöht 3 Runden lang eigene ABW-Durchbohrrate."
+      "value": "Erhöht 3 Runden lang Schlitzangriff erheblich und AGI von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigene ABW-Durchbohrrate."
     },
     {
       "key": "SK_LW_MSW_S_1",
@@ -6346,15 +6370,15 @@
     },
     {
       "key": "SK_LW_MSM_M_1",
-      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich und fügt anschließend mit hoher Präzision MAG-abhängigen Schaden (M) zu."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend mit hoher Präzision MAG-abhängigen Schaden (M) zu und senkt 3 Runden lang Kritische Ausweichrate."
     },
     {
       "key": "SK_LW_MSM_M_2",
-      "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu und erhöht bei kritischem Treffer eigene AZ (S)."
+      "value": "Zerstört magischen Schaden verringernde Barrieren, fügt dem Ziel anschließend MAG-abhängigen Schaden (L) zu und erhöht eigene AZ (S) bei kritischem Treffer."
     },
     {
       "key": "SK_LW_MSM_M_3",
-      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge magischen Schaden abwehrt."
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge magischen Schaden abwehrt, und erhöht 3 Runden lang Schlitzresistenz-Durchbohrrate."
     },
     {
       "key": "SK_LW_MSM_S_1_INIT",
@@ -6382,7 +6406,7 @@
     },
     {
       "key": "SK_LW_MSM_P_2",
-      "value": "Erhöht AGI und PSY-Durchbohrrate."
+      "value": "Erhöht AGI, PSY-Durchbohrrate und Kritische Trefferrate."
     },
     {
       "key": "SK_LW_MSM_S_1",
@@ -6394,27 +6418,27 @@
     },
     {
       "key": "SK_LW_MSM_M_1_SUB",
-      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich und fügt anschließend mit hoher Präzision MAG-abhängigen Schaden (M) zu."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend mit hoher Präzision MAG-abhängigen Schaden (M) zu und senkt 3 Runden lang Kritische Ausweichrate."
     },
     {
       "key": "SK_LW_MSM_M_2_SUB",
-      "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu und erhöht bei kritischem Treffer eigene AZ (S)."
+      "value": "Zerstört magischen Schaden verringernde Barrieren, fügt dem Ziel anschließend MAG-abhängigen Schaden (L) zu und erhöht eigene AZ (S) bei kritischem Treffer."
     },
     {
       "key": "SK_LW_MSM_M_3_SUB",
-      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge magischen Schaden abwehrt."
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge magischen Schaden abwehrt, und erhöht 3 Runden lang Schlitzresistenz-Durchbohrrate."
     },
     {
       "key": "SK_LW_MSM_EN_A_01",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu und absorbiert einen Teil des verursachten Schadens."
+      "value": "Entfernt Schutzengel von Zielen in Reichweite, fügt anschließend MAG-abhängigen Schaden (L) zu und absorbiert Teil des verursachten Schaden."
     },
     {
       "key": "SK_LW_EC_MSM_C_01",
-      "value": "Verstärkt Bannungsbarriere zu Belebende Barriere. Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge magischen Schaden abwehrt, und wirkt 3 Runden andauerndes Regena. "
+      "value": "Verstärkt Bannungsbarriere zu Belebende Barriere. Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge magischen Schaden abwehrt, erhöht 3 Runden lang Schlitzresistenz-Durchbohrrate und wirkt Regena."
     },
     {
       "key": "SK_LW_EC_MSM_C_01B",
-      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge magischen Schaden abwehrt, und wirkt 3 Runden andauerndes Regena. "
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge magischen Schaden abwehrt, erhöht 3 Runden lang Schlitzresistenz-Durchbohrrate und wirkt Regena."
     },
     {
       "key": "SK_LW_EC_MSM_C_02",
@@ -6426,23 +6450,23 @@
     },
     {
       "key": "SK_LW_MSM_EN_A_02",
-      "value": "Fügt dem Ziel 2-mal hintereinander MAG-abhängigen Schaden (M) zu und heilt bei kritischem Treffer eigene AP."
+      "value": "Senkt 3 Runden lang Wasserresistenz des Ziels, fügt anschließend 2 Mal hintereinander MAG-abhängigen Schaden (M) zu und heilt bei kritischem Treffer eigene AP."
     },
     {
       "key": "SK_LW_EC_MSM_C_03",
-      "value": "Verstärkt Bambusbrecher zu Himmelsspalter. Fügt dem Ziel MAG-abhängigen Schaden (L) zu, senkt bei kritischem Treffer 3 Runden lang AGI und erhöht bei kritischem Treffer eigene AZ (S)."
+      "value": "Verstärkt Bambusbrecher zu Himmelsspalter. Zerstört magischen Schaden verringernde Barrieren, fügt dem Ziel anschließend MAG-abhängigen Schaden (L) zu, senkt bei kritischem Treffer 3 Runden lang AGI und erhöht bei kritischem Treffer eigene AZ (S)."
     },
     {
       "key": "SK_LW_EC_MSM_C_03B",
-      "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu, senkt bei kritischem Treffer 3 Runden lang AGI und erhöht bei kritischem Treffer eigene AZ (S)."
+      "value": "Zerstört magischen Schaden verringernde Barrieren, fügt dem Ziel anschließend MAG-abhängigen Schaden (L) zu, senkt bei kritischem Treffer 3 Runden lang AGI und erhöht bei kritischem Treffer eigene AZ (S)."
     },
     {
       "key": "SK_LW_EC_MSM_C_04",
-      "value": "Verstärkt Kenntnis der Klingenseele zu Erleuchtung der Klingenseele. Erhöht AGI, PSY-Durchbohrrate und AP zu Kampfbeginn."
+      "value": "Verstärkt Kenntnis der Klingenseele zu Erleuchtung der Klingenseele. Erhöht AGI, PSY-Durchbohrrate, Kritische Trefferrate und AP zu Kampfbeginn."
     },
     {
       "key": "SK_LW_EC_MSM_C_04B",
-      "value": "Erhöht AGI, PSY-Durchbohrrate und AP zu Kampfbeginn."
+      "value": "Erhöht AGI, PSY-Durchbohrrate, Kritische Trefferrate und AP zu Kampfbeginn."
     },
     {
       "key": "SK_LW_OBRN_ATK",
@@ -13250,15 +13274,15 @@
     },
     {
       "key": "SK_LW_EC_SWN_A_01",
-      "value": "Verbraucht eigene LP, um 3 Runden lang die Schlitzresistenz des Ziels zu senken, und fügt anschließend Schaden (M) zu."
+      "value": "Verbraucht eigene LP, um physischen Schaden verringernde Barrieren zu zerstören, senkt 3 Runden lang Schlitzresistenz des Ziels, fügt anschließend Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
     },
     {
       "key": "SK_LW_EC_SWN_C_01",
-      "value": "Verstärkt Risikobrecher zu Risikozerstörer. Verbraucht eigene LP, um Zielen in Reichweite Schaden (XL) zuzufügen."
+      "value": "Verstärkt Risikobrecher zu Risikozerstörer. Verbraucht eigene LP, um Protes von Zielen in Reichweite zu entfernen, und fügt anschließend Schaden (XL) zu."
     },
     {
       "key": "SK_LW_EC_SWN_C_01B",
-      "value": "Verbraucht eigene LP, um Zielen in Reichweite Schaden (XL) zuzufügen."
+      "value": "Verbraucht eigene LP, um Protes von Zielen in Reichweite zu entfernen, und fügt anschließend Schaden (XL) zu."
     },
     {
       "key": "SK_LW_EC_SWN_C_02",
@@ -13270,7 +13294,7 @@
     },
     {
       "key": "SK_LW_EC_SWN_A_02",
-      "value": "Fügt dem Ziel Schaden (S) zu, senkt AP und heilt eigene AP."
+      "value": "Senkt 3 Runden lang Schlitzresistenz des Ziels, fügt anschließend Schaden (M) zu, senkt AP und stellt eigene AP wieder her."
     },
     {
       "key": "SK_LW_EC_SWN_C_03",
@@ -13470,7 +13494,7 @@
     },
     {
       "key": "SK_LW_EC_MSW_A_01",
-      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3-mal physischen Schaden reduziert."
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal physischen Schaden erheblich reduziert, und erhöht 3 Runden lang Heilkraft."
     },
     {
       "key": "SK_LW_EC_MSW_C_01",
@@ -13490,15 +13514,15 @@
     },
     {
       "key": "SK_LW_EC_MSW_A_02",
-      "value": "Fügt Zielen in Reichweite Schaden (M) zu, senkt 3 Runden lang AGI und erhöht AP-Verbrauch."
+      "value": "Senkt 3 Runden lang ABW des Ziels, fügt anschließend Schaden (M) zu, senkt 3 Runden lang AGI und erhöht AP-Verbrauch."
     },
     {
       "key": "SK_LW_EC_MSW_C_03",
-      "value": "Verstärkt Zangans Lehre zu Zangans Lehre: Vitalität. Erhöht 3 Runden lang Schlitz-ANG von Verbündeten im Bereich um Wirkenden erheblich, erhöht 3 Runden lang eigene ABW-Durchbohrrate und heilt AP."
+      "value": "Verstärkt Zangans Lehre zu Zangans Lehre: Vitalität. Erhöht 3 Runden lang Schlitzangriff erheblich und AGI von Verbündeten im Bereich um Wirkenden, stellt eigene AP wieder her und erhöht 3 Runden lang ABW-Durchbohrrate."
     },
     {
       "key": "SK_LW_EC_MSW_C_03B",
-      "value": "Erhöht 3 Runden lang Schlitz-ANG von Verbündeten im Bereich um Wirkenden erheblich, erhöht 3 Runden lang eigene ABW-Durchbohrrate und heilt AP."
+      "value": "Erhöht 3 Runden lang Schlitzangriff erheblich und AGI von Verbündeten im Bereich um Wirkenden, stellt eigene AP wieder her und erhöht 3 Runden lang ABW-Durchbohrrate."
     },
     {
       "key": "SK_LW_EC_MSW_C_04",
@@ -13610,15 +13634,15 @@
     },
     {
       "key": "SK_LW_EC_SWN_A_03",
-      "value": "Verbraucht eigene LP, um Zielen in Reichweite Schaden (M) zuzufügen und gewährt Chance auf Wirken von Stopp."
+      "value": "Verbraucht eigene LP, um eigene ABW-Durchbohrrate zu erhöhen, fügt anschließend Zielen in Reichweite Schaden (M) zu und gewährt Chance auf Wirken von Stopp."
     },
     {
       "key": "SK_LW_EC_SWN_C_05",
-      "value": "Verstärkt Schnitter zu Vernichtungssichel. Fügt dem Ziel Schaden (L) zu und gewährt Chance auf Wirken von Todesurteil."
+      "value": "Verstärkt Schnitter zu Vernichtungssichel. Fügt dem Ziel Schaden (L) zu und gewährt Chance auf Wirken von Todesurteil sowie Chance auf Wirken von 3 Runden andauerndem Ausschalten."
     },
     {
       "key": "SK_LW_EC_SWN_C_05B",
-      "value": "Fügt dem Ziel Schaden (L) zu und gewährt Chance auf Wirken von Todesurteil."
+      "value": "Fügt dem Ziel Schaden (L) zu, gewährt Chance auf Wirken von Todesurteil sowie Chance auf Wirken von 3 Runden andauerndem Ausschalten."
     },
     {
       "key": "SK_LW_EC_SWN_C_06",
@@ -15065,6 +15089,10 @@
       "value": "LP-Maximum +30 %"
     },
     {
+      "key": "SK_MA_LW_LILS_2",
+      "value": "LP-Maximum +10 % und Gemachresistenz +25 für verbündete Feuereinheiten, eigenes LP-Maximum +50 %, ANG +20 % und Fennes-Resistenz +50"
+    },
+    {
       "key": "SK_MA_LW_RAMD",
       "value": "TP-Maximum +30 %, Durchbohr-ANG +20"
     },
@@ -15605,6 +15633,10 @@
       "value": "ANG +10 %, Eisfresser +15 %"
     },
     {
+      "key": "SK_MA_LW_LATH_2",
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigener ANG<br>+30 %, Eisfresser +15 und AP-Verbrauch<br>-20 %"
+    },
+    {
       "key": "SK_MA_LW_TITU",
       "value": "Durchbohr-/Geschossresistenz +10, AP-Verbrauch -25 %"
     },
@@ -15813,6 +15845,10 @@
       "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene ABW-Durchbohrrate +25"
     },
     {
+      "key": "SK_MA_LW_VLRC_2",
+      "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene ABW-Durchbohrrate +40, Schlitzresistenz-Durchbohrrate +25"
+    },
+    {
       "key": "SK_MA_LW_LILS_01",
       "value": "AGI +10 %, verstärkt Sperrfeuer. Fügt Zielen in Reichweite Schaden (M) zu und garantiert Treffer."
     },
@@ -15847,6 +15883,10 @@
     {
       "key": "SK_MA_LW_LMRE",
       "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene Bereichangriffsresistenz +10"
+    },
+    {
+      "key": "SK_MA_LW_LMRE_2",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene Bereichangriffsresistenz +20, LP-Maximum +20 %, zusätzlicher Effekt: Geschossresistenz +30, wenn Hast aktiv ist."
     },
     {
       "key": "SK_MA_FF7_AERT",
@@ -16926,6 +16966,10 @@
     },
     {
       "key": "SK_LW_ARW_001_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ARW_001_6",
       "value": ""
     },
     {
@@ -22034,6 +22078,138 @@
     },
     {
       "key": "SK_GL_VC_LW_RAMU_01_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV1_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV1_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV1_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_PMAX",
       "value": ""
     },
     {
@@ -28997,6 +29173,10 @@
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {
+      "key": "SK_LW_PLUS6_MDF_10",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
       "key": "SK_LW_PLUS6_SPEAR_10",
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
@@ -29290,6 +29470,26 @@
     },
     {
       "key": "SK_LW_BOW_017_SHLS_5",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_1",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_2",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_3",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_4",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_5",
       "value": ""
     },
     {

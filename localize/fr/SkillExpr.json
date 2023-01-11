@@ -430,19 +430,19 @@
     },
     {
       "key": "SK_LW_SWN_M_4",
-      "value": "Consomme les PV du lanceur pour infliger des dégâts (L) aux unités dans la zone ciblée."
+      "value": "Consomme les PV du lanceur pour dissiper Bouclier des unités dans la zone ciblée, puis inflige des dégâts (L)."
     },
     {
       "key": "SK_LW_SWN_S_2",
-      "value": "Inflige des dégâts (S) qui dépendent des PV max du lanceur à la cible et absorbe les dégâts infligés."
+      "value": "Inflige des dégâts (S) qui dépendent des PV max du lanceur à la cible, absorbe les dégâts infligés et réduit l'ATT et la MAGIE pendant 3 tours."
     },
     {
       "key": "SK_LW_SWN_S_2_ORDR",
-      "value": "Inflige des dégâts (S) qui dépendent des PV max du lanceur à la cible et absorbe les dégâts infligés."
+      "value": "Inflige des dégâts (S) qui dépendent des PV max du lanceur à la cible, absorbe les dégâts infligés et réduit l'ATT et la MAGIE pendant 3 tours."
     },
     {
       "key": "SK_LW_SWN_S_3",
-      "value": "Inflige des dégâts (M) à la cible, et confère une chance d'infliger Peine de mort."
+      "value": "Inflige des dégâts (M) à la cible, confère une chance d'infliger Peine de mort, et confère une chance d'infliger Incapacité à la cible pendant 3 tours."
     },
     {
       "key": "SK_LW_SWN_M_2_INIT",
@@ -458,7 +458,7 @@
     },
     {
       "key": "SK_LW_SWN_S_1",
-      "value": "Inflige des dégâts (XS) à la cible et confère une chance d'infliger Paralysie pendant 3 tours."
+      "value": "Inflige des dégâts (S) à la cible avec Coup garanti et confère une chance d'infliger Paralysie pendant 3 tours."
     },
     {
       "key": "SK_LW_SWN_S_4",
@@ -474,15 +474,15 @@
     },
     {
       "key": "SK_LW_SWN_M_4_SUB",
-      "value": "Consomme les PV du lanceur pour infliger des dégâts (L) aux unités dans la zone ciblée."
+      "value": "Consomme les PV du lanceur pour dissiper Bouclier des unités dans la zone ciblée, puis inflige des dégâts (L)."
     },
     {
       "key": "SK_LW_SWN_S_2_SUB",
-      "value": "Inflige des dégâts (S) qui dépendent des PV max du lanceur à la cible et absorbe les dégâts infligés."
+      "value": "Inflige des dégâts (S) qui dépendent des PV max du lanceur à la cible, absorbe les dégâts infligés et réduit l'ATT et la MAGIE pendant 3 tours."
     },
     {
       "key": "SK_LW_SWN_S_3_SUB",
-      "value": "Inflige des dégâts (M) à la cible, et confère une chance d'infliger Peine de mort."
+      "value": "Inflige des dégâts (M) à la cible, confère une chance d'infliger Peine de mort, et confère une chance d'infliger Incapacité à la cible pendant 3 tours."
     },
     {
       "key": "SK_LW_SWN_M_2",
@@ -3933,6 +3933,30 @@
       "value": "Augmente la résistance au feu et à la glace."
     },
     {
+      "key": "SK_DQTC_EC_SLIM_C_01",
+      "value": "Améliore Écrasement en Écrasement +1. Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (S)."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_01B",
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (S)."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_02",
+      "value": "Améliore Gluant pouvoir en Gluant pouvoir +1. Réduit l'ATT et la MAGIE quand les PV sont au-dessus de 90 %, augmente considérablement les attaques de feu et de foudre quand les PV sont en dessous de 80 % et augmente le taux de perforation de la DEF et le taux de perforation de la PSY."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_02B",
+      "value": "Réduit l'ATT et la MAGIE quand les PV sont au-dessus de 90 %, augmente considérablement les attaques de feu et de foudre quand les PV sont en dessous de 80 % et augmente le taux de perforation de la DEF et le taux de perforation de la PSY."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_03",
+      "value": "Améliore Accéléro en Superaccéléro. Augmente l'AGI des alliés dans la zone autour du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_DQTC_EC_SLIM_C_03B",
+      "value": "Augmente l'AGI des alliés dans la zone autour du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_DQTC_ZOMA_ATK",
       "value": ""
     },
@@ -5046,11 +5070,11 @@
     },
     {
       "key": "SK_LW_MSW_M_2",
-      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, et réduit les compétences de soin pendant 3 tours."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) et réduit les compétences de soin pendant 3 tours."
     },
     {
       "key": "SK_LW_MSW_M_3",
-      "value": "Augmente considérablement l'attaque tranchante des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de perforation de la DEF du lanceur pendant 3 tours."
+      "value": "Augmente considérablement l'attaque tranchante et l’AGI des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de perforation de la DEF du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_MSW_S_1_INIT",
@@ -5082,11 +5106,11 @@
     },
     {
       "key": "SK_LW_MSW_M_2_SUB",
-      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, et réduit les compétences de soin pendant 3 tours."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) et réduit les compétences de soin pendant 3 tours."
     },
     {
       "key": "SK_LW_MSW_M_3_SUB",
-      "value": "Augmente considérablement l'attaque tranchante des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de perforation de la DEF du lanceur pendant 3 tours."
+      "value": "Augmente considérablement l'attaque tranchante et l’AGI des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de perforation de la DEF du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_MSW_S_1",
@@ -6346,15 +6370,15 @@
     },
     {
       "key": "SK_LW_MSM_M_1",
-      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur avec une grande précision."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur avec une grande précision et réduit le taux d'esquive critique pendant 3 tours."
     },
     {
       "key": "SK_LW_MSM_M_2",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et augmente la jauge de CT (S) du lanceur en cas de Coup critique."
+      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour de la cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur et augmente la jauge de CT (S) du lanceur en cas de Coup critique."
     },
     {
       "key": "SK_LW_MSM_M_3",
-      "value": "Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts magiques."
+      "value": "Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts magiques et augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours."
     },
     {
       "key": "SK_LW_MSM_S_1_INIT",
@@ -6382,7 +6406,7 @@
     },
     {
       "key": "SK_LW_MSM_P_2",
-      "value": "Augmente l'AGI et le taux de perforation de la PSY."
+      "value": "Augmente l’AGI, le taux de perforation de la PSY et le taux de coup critique."
     },
     {
       "key": "SK_LW_MSM_S_1",
@@ -6394,27 +6418,27 @@
     },
     {
       "key": "SK_LW_MSM_M_1_SUB",
-      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur avec une grande précision."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur avec une grande précision et réduit le taux d'esquive critique pendant 3 tours."
     },
     {
       "key": "SK_LW_MSM_M_2_SUB",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et augmente la jauge de CT (S) du lanceur en cas de Coup critique."
+      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour de la cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur et augmente la jauge de CT (S) du lanceur en cas de Coup critique."
     },
     {
       "key": "SK_LW_MSM_M_3_SUB",
-      "value": "Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts magiques."
+      "value": "Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts magiques et augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours."
     },
     {
       "key": "SK_LW_MSM_EN_A_01",
-      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et absorbe une partie des dégâts infligés."
+      "value": "Dissipe Auréole des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur et absorbe une partie des dégâts infligés."
     },
     {
       "key": "SK_LW_EC_MSM_C_01",
-      "value": "Améliore Barrière magicide en Respiration magicide. Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts magiques, et accorde Récup pendant 3 tours. "
+      "value": "Améliore Barrière magicide en Respiration magicide. Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts magiques, augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours et accorde Récup."
     },
     {
       "key": "SK_LW_EC_MSM_C_01B",
-      "value": "Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts magiques, et accorde Récup pendant 3 tours. "
+      "value": "Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts magiques, augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours et accorde Récup."
     },
     {
       "key": "SK_LW_EC_MSM_C_02",
@@ -6426,23 +6450,23 @@
     },
     {
       "key": "SK_LW_MSM_EN_A_02",
-      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur en 2 coups à la cible et restaure les PA du lanceur en cas de Coup critique."
+      "value": "Réduit la résistance à l'eau de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur et restaure les PA du lanceur en cas de Coup critique."
     },
     {
       "key": "SK_LW_EC_MSM_C_03",
-      "value": "Améliore Coupe bambou en Lame des cieux. Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, réduit l'AGI pendant 3 tours en cas de Coup critique et augmente la jauge de CT (S) du lanceur en cas de Coup critique."
+      "value": "Améliore Coupe bambou en Lame des cieux. Détruit toute barrière réduisant les dégâts magiques, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, réduit l'AGI pendant 3 tours en cas de Coup critique et augmente la jauge de CT (S) du lanceur en cas de Coup critique."
     },
     {
       "key": "SK_LW_EC_MSM_C_03B",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, réduit l'AGI pendant 3 tours en cas de Coup critique et augmente la jauge de CT (S) du lanceur en cas de Coup critique."
+      "value": "Détruit toute barrière réduisant les dégâts magiques, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, réduit l'AGI pendant 3 tours en cas de Coup critique et augmente la jauge de CT (S) du lanceur en cas de Coup critique."
     },
     {
       "key": "SK_LW_EC_MSM_C_04",
-      "value": "Améliore Voie de la lame mystique en Lame spirituelle illuminée. Augmente l'AGI, le taux de perforation de la PSY et les PA initiaux."
+      "value": "Améliore Voie de la lame mystique en Lame spirituelle illuminée. Augmente l'AGI, le taux de perforation de la PSY, le taux de coup critique et les PA initiaux."
     },
     {
       "key": "SK_LW_EC_MSM_C_04B",
-      "value": "Augmente l'AGI, le taux de perforation de la PSY et les PA initiaux."
+      "value": "Augmente l'AGI, le taux de perforation de la PSY, le taux de coup critique et les PA initiaux."
     },
     {
       "key": "SK_LW_OBRN_ATK",
@@ -13250,15 +13274,15 @@
     },
     {
       "key": "SK_LW_EC_SWN_A_01",
-      "value": "Consomme les PV du lanceur pour réduire la résistance aux attaques tranchantes de la cible pendant 3 tours, puis inflige des dégâts (M)."
+      "value": "Consomme les PV du lanceur pour détruire toute barrière réduisant les dégâts physiques, réduit la résistance aux attaques tranchantes de la cible pendant 3 tours, puis lui inflige des dégâts (M), et confère une chance d'infliger Lenteur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SWN_C_01",
-      "value": "Améliore Brise danger en Destruction dangereuse. Consomme les PV du lanceur pour infliger des dégâts (XL) aux unités dans la zone ciblée."
+      "value": "Améliore Brise danger en Destruction dangereuse. Consomme les PV du lanceur pour dissiper Bouclier des unités dans la zone ciblée, puis inflige des dégâts (XL)."
     },
     {
       "key": "SK_LW_EC_SWN_C_01B",
-      "value": "Consomme les PV du lanceur pour infliger des dégâts (XL) aux unités dans la zone ciblée."
+      "value": "Consomme les PV du lanceur pour dissiper Bouclier des unités dans la zone ciblée, puis inflige des dégâts (XL)."
     },
     {
       "key": "SK_LW_EC_SWN_C_02",
@@ -13270,7 +13294,7 @@
     },
     {
       "key": "SK_LW_EC_SWN_A_02",
-      "value": "Inflige des dégâts (S) à la cible, réduit les PA et restaure les PA du lanceur."
+      "value": "Réduit la résistance aux attaques tranchantes de la cible pendant 3 tours, puis inflige des dégâts (M), réduit les PA et restaure les PA du lanceur."
     },
     {
       "key": "SK_LW_EC_SWN_C_03",
@@ -13470,7 +13494,7 @@
     },
     {
       "key": "SK_LW_EC_MSW_A_01",
-      "value": "Érige une barrière autour du lanceur qui réduit les dégâts physiques (3 fois)."
+      "value": "Érige une barrière autour du lanceur qui réduit considérablement les dégâts physiques (3 fois) et augmente les compétences de soin pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MSW_C_01",
@@ -13490,15 +13514,15 @@
     },
     {
       "key": "SK_LW_EC_MSW_A_02",
-      "value": "Inflige des dégâts (M) à la cible, réduit l'AGI pendant 3 tours et augmente la consommation de PA."
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M), réduit l’AGI pendant 3 tours et augmente la consommation de PA."
     },
     {
       "key": "SK_LW_EC_MSW_C_03",
-      "value": "Améliore Concentration en Concentration : Vitalité. Augmente considérablement l'attaque tranchante des alliés dans la zone autour du lanceur pendant 3 tours, augmente le taux de perforation de la DEF du lanceur pendant 3 tours et restaure les PA."
+      "value": "Améliore Concentration en Concentration : Vitalité. Augmente considérablement l'attaque tranchante et l’AGI des alliés dans la zone autour du lanceur pendant 3 tours, restaure les PA du lanceur et augmente le taux de perforation de sa DEF pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MSW_C_03B",
-      "value": "Augmente considérablement l'attaque tranchante des alliés dans la zone autour du lanceur pendant 3 tours, augmente le taux de perforation de la DEF du lanceur pendant 3 tours et restaure les PA."
+      "value": "Augmente considérablement l'attaque tranchante et l’AGI des alliés dans la zone autour du lanceur pendant 3 tours, restaure les PA du lanceur et augmente le taux de perforation de sa DEF pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MSW_C_04",
@@ -13610,15 +13634,15 @@
     },
     {
       "key": "SK_LW_EC_SWN_A_03",
-      "value": "Consomme les PV du lanceur pour infliger des dégâts (M) aux unités dans la zone ciblée et confère une chance d'infliger Stop."
+      "value": "Consomme les PV du lanceur pour augmenter son taux de perforation de la DEF, puis infliger des dégâts (M) aux unités dans la zone ciblée et confère une chance d'infliger Stop."
     },
     {
       "key": "SK_LW_EC_SWN_C_05",
-      "value": "Améliore Faucheur sombre en Faux de la ruine. Inflige des dégâts (L) à la cible et confère une chance d'infliger Peine de mort."
+      "value": "Améliore Faucheur sombre en Faux de la ruine. Inflige des dégâts (L) à la cible, confère une chance d'infliger Peine de mort, et confère une chance d'infliger Incapacité à la cible pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SWN_C_05B",
-      "value": "Inflige des dégâts (L) à la cible et confère une chance d'infliger Peine de mort."
+      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Peine de mort, et confère une chance d'infliger Incapacité à la cible pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SWN_C_06",
@@ -15065,6 +15089,10 @@
       "value": "PV max +30 %"
     },
     {
+      "key": "SK_MA_LW_LILS_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Lenteur de 25 des unités alliées de feu, augmente les PV max du lanceur de 50 %, son ATT de 20 % et sa résistance à Fennes de 50."
+    },
+    {
       "key": "SK_MA_LW_RAMD",
       "value": "PT max +30 %, Attaque perçante +20"
     },
@@ -15605,6 +15633,10 @@
       "value": "ATT +10 %, Cryophage +15 %"
     },
     {
+      "key": "SK_MA_LW_LATH_2",
+      "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente l'ATT du lanceur de 30 %, Cryophage de 15 et réduit sa consommation de PA de 20 %."
+    },
+    {
       "key": "SK_MA_LW_TITU",
       "value": "Résistance aux attaques perçantes et projectiles +10, consommation de PA -25 %"
     },
@@ -15813,6 +15845,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente le taux de perforation de la DEF du lanceur de 25."
     },
     {
+      "key": "SK_MA_LW_VLRC_2",
+      "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente le taux de perforation de la DEF du lanceur de 40 et son taux de perforation de la résistance aux attaques tranchantes de 25."
+    },
+    {
       "key": "SK_MA_LW_LILS_01",
       "value": "Augmente l’AGI de 10 % et améliore Barrage : inflige des dégâts (M) aux unités dans la zone ciblée avec coup garanti."
     },
@@ -15847,6 +15883,10 @@
     {
       "key": "SK_MA_LW_LMRE",
       "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, et augmente la résistance aux attaques de zone du lanceur de 10."
+    },
+    {
+      "key": "SK_MA_LW_LMRE_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente la résistance aux attaques de zone du lanceur de 20, ses PV max de 20 % et lui accorde un effet addtionnel : augmente la résistance aux attaques projectiles de 30 sous l'effet Booster."
     },
     {
       "key": "SK_MA_FF7_AERT",
@@ -16926,6 +16966,10 @@
     },
     {
       "key": "SK_LW_ARW_001_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ARW_001_6",
       "value": ""
     },
     {
@@ -22034,6 +22078,138 @@
     },
     {
       "key": "SK_GL_VC_LW_RAMU_01_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV1_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV1_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV1_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV1_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_DQTC_MV2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_DQTC_MV3_PMAX",
       "value": ""
     },
     {
@@ -28997,6 +29173,10 @@
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
+      "key": "SK_LW_PLUS6_MDF_10",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
       "key": "SK_LW_PLUS6_SPEAR_10",
       "value": "Aptitude spécifique de l'équipement +6"
     },
@@ -29290,6 +29470,26 @@
     },
     {
       "key": "SK_LW_BOW_017_SHLS_5",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_1",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_2",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_3",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_4",
+      "value": ""
+    },
+    {
+      "key": "SK_DQTC_ACC_002_5",
       "value": ""
     },
     {
