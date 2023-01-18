@@ -4089,6 +4089,70 @@
       "value": "El usuario sobrevive a daño letal una vez, recupera PA y efecto adicional: aumenta su daño físico mientras agallas esté activo."
     },
     {
+      "key": "SK_LW_RSNC_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RSNC_M_1",
+      "value": "Inflige daño (medio) al objetivo 3 veces y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RSNC_M_2",
+      "value": "Elimina autolázaro y prisa a los objetivos al alcance y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_LW_RSNC_M_3",
+      "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta la tasa de penetración de res. ataque de corte mientras agallas esté activo."
+    },
+    {
+      "key": "SK_LW_RSNC_S_1",
+      "value": "Inflige daño (poco) al objetivo y reduce su ATQ durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RSNC_S_2",
+      "value": "Aumenta la ESP y la res. proyectiles de los aliados de alrededor durante 3 turnos, aumenta la tasa de evasión del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RSNC_S_3",
+      "value": "Inflige daño (medio) al objetivo 2 veces y reduce su tasa de precisión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RSNC_S_4",
+      "value": "Daño (medio) a los objetivos al alcance y probabilidad de infligirles confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RSNC_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño físico."
+    },
+    {
+      "key": "SK_LW_RSNC_P_1",
+      "value": "Aumenta la AGI y la suerte."
+    },
+    {
+      "key": "SK_LW_RSNC_P_2",
+      "value": "Aumenta el ataque de rayo y el ESP."
+    },
+    {
+      "key": "SK_LW_EC_RSNC_A_01",
+      "value": "Elimina Coraza a los objetivos al alcance, reduce considerablemente la tasa de activación de sus habilidades de reacción durante 3 turnos y les inflige daño (mucho)."
+    },
+    {
+      "key": "SK_LW_EC_RSNC_C_01",
+      "value": "Mejora «Malabarismo triple» a «Acrobacia triple»: mayor altura de alcance. Aumenta la tasa de penetración de DEF del usuario, inflige daño (medio) 3 veces al objetivo y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_RSNC_C_01B",
+      "value": "Aumenta la tasa de penetración de DEF del usuario, inflige daño (medio) 3 veces al objetivo y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_RSNC_C_02",
+      "value": "Mejora Paso conejil a Danza conejil. Aumenta la ESP y la res. proyectiles de los aliados de alrededor durante 4 turnos, aumenta la tasa de evasión del usuario durante 3 turnos y recupera PA."
+    },
+    {
+      "key": "SK_LW_EC_RSNC_C_02B",
+      "value": "Aumenta la ESP y la res. proyectiles de los aliados de alrededor durante 4 turnos, aumenta la tasa de evasión del usuario durante 3 turnos y recupera PA."
+    },
+    {
       "key": "SK_LW_LSWL_ATK",
       "value": ""
     },
@@ -12853,6 +12917,10 @@
       "value": "Elimina todas las mejoras del objetivo y le inflige daño (muchísimo)."
     },
     {
+      "key": "SK_LB_LW_RSNC_01",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (mucho) y reduce considerablemente su potencia de curación durante 3 turnos."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -13186,11 +13254,11 @@
     },
     {
       "key": "SK_LW_EC_LAN_C_02",
-      "value": "Mejora «Corte de vacío» a «Perforavacío»: aumenta la tasa de penetración de res. perforación del usuario, inflige daño penetrante (mucho) a los enemigos al alcance y aumenta la tasa de crítico del usuario durante 3 turnos."
+      "value": "Mejora «Corte de vacío» a «Perforavacío»: aumenta la tasa de penetración de res. perforación del usuario, inflige daño penetrante (mucho) con golpe garantizado a los enemigos y aumenta la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_LAN_C_02B",
-      "value": "Aumenta la tasa de penetración de res. perforación del usuario, inflige daño penetrante (mucho) a los enemigos al alcance y aumenta la tasa de crítico del usuario durante 3 turnos."
+      "value": "Aumenta la tasa de penetración de res. perforación del usuario, inflige daño penetrante (mucho) con golpe garantizado a los enemigos y aumenta la tasa de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_LAN_A_02",
@@ -13538,7 +13606,7 @@
     },
     {
       "key": "SK_LW_EC_MMC_C_03",
-      "value": "Mejora «Corazón espinado» a «Corazón espinado, cuerpo acerado» y y elimina el tiempo de activación: aumenta la MAG, el ataque mágico y la res. corte de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de ESP del usuario durante 3 turnos."
+      "value": "Mejora «Corazón espinado» a «Corazón espinado, cuerpo acerado» y elimina el tiempo de activación: aumenta la MAG, el ataque mágico y la res. corte de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de ESP del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MMC_C_03B",
@@ -15997,6 +16065,10 @@
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: MAG +10 %; tasa de precisión +15"
     },
     {
+      "key": "SK_MA_LW_MORE_01_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: MAG +10 %; tasa de precisión +15 %, tasa de penetración de res. ataque mágico +20, res. ataque de zona +10"
+    },
+    {
       "key": "SK_MA_LW_LATH_01",
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de DEF +15, daño crítico +10 %"
     },
@@ -16167,6 +16239,10 @@
     {
       "key": "SK_MA_DQTC_PSAR",
       "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: tasa de penetración de res. corte +15, modificador de adquisición de PA +30 %"
+    },
+    {
+      "key": "SK_MA_LW_RSNC_01",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: tasa de penetración de res. ataque de corte +15, modificador de adquisición de PA +30 %"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -17611,6 +17687,10 @@
     {
       "key": "SK_CLT_DQTC_PSAR_1",
       "value": "Reduce la probabilidad de que el usuario sea atacado y le otorga prisa durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_LW_RSNC_01_1",
+      "value": "Otorga reducción de PA al asestar crítico a los objetivos al alcance durante 3 turnos."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -22210,6 +22290,42 @@
     },
     {
       "key": "SK_VC_DQTC_MV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ADSN_MV2_PMAX",
       "value": ""
     },
     {
@@ -28761,6 +28877,26 @@
       "value": "Habilidad pasiva exclusiva de Rafala"
     },
     {
+      "key": "SK_GL_LW_DAG_017_1",
+      "value": "Tasa de bloqueo de reacción +3/res. ataque de zona +1/suerte +2 %"
+    },
+    {
+      "key": "SK_GL_LW_DAG_017_2",
+      "value": "Tasa de bloqueo de reacción +5/res. ataque de zona +2/suerte +3 %"
+    },
+    {
+      "key": "SK_GL_LW_DAG_017_3",
+      "value": "Tasa de bloqueo de reacción +8/res. ataque de zona +3/suerte +5 %"
+    },
+    {
+      "key": "SK_GL_LW_DAG_017_4",
+      "value": "Tasa de bloqueo de reacción +15/res. ataque de zona +5/suerte +8 %"
+    },
+    {
+      "key": "SK_GL_LW_DAG_017_5",
+      "value": "Tasa de bloqueo de reacción +30/res. ataque de zona +8/suerte +15 %"
+    },
+    {
       "key": "SK_LW_KAT_013_1",
       "value": "Habilidad pasiva exclusiva de Reiches"
     },
@@ -29174,6 +29310,10 @@
     },
     {
       "key": "SK_LW_PLUS6_MDF_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_MAGIC_10",
       "value": "Habilidad específica de equipo +6"
     },
     {

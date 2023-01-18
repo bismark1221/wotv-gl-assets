@@ -384,6 +384,8 @@
       "crystal": "",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -494,6 +496,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -594,6 +598,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -694,6 +700,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -794,6 +802,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -894,6 +904,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -994,6 +1006,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1094,6 +1108,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1178,6 +1194,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALL_3",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 740
@@ -1187,6 +1204,7 @@
             "type": 0,
             "iname": "IT_JB_MM_THI_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 74
@@ -1196,6 +1214,7 @@
             "type": 0,
             "iname": "IT_JB_MM_PLD_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 74
@@ -1205,6 +1224,7 @@
             "type": 0,
             "iname": "IT_JB_MM_WGN_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 74
@@ -1214,6 +1234,7 @@
             "type": 0,
             "iname": "IT_JB_MM_LW_SAKR_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 74
@@ -1223,6 +1244,7 @@
             "type": 0,
             "iname": "IT_JB_MM_LW_DEAN_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 74
@@ -1232,6 +1254,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ASTR_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 74
@@ -1241,6 +1264,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SAND_02",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 720
@@ -1250,6 +1274,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_HEART_02",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 720
@@ -1259,6 +1284,7 @@
             "type": 0,
             "iname": "IT_AF_LW_BOK_002",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 210
@@ -1268,6 +1294,7 @@
             "type": 0,
             "iname": "IT_AF_LW_KAT_002",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 210
@@ -1277,6 +1304,7 @@
             "type": 0,
             "iname": "IT_JB_KUNAI_03",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1450
@@ -1286,6 +1314,7 @@
             "type": 0,
             "iname": "IT_JB_FIST_03",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1450
@@ -1295,6 +1324,7 @@
             "type": 0,
             "iname": "IT_JB_EM_FIRE_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1450
@@ -1304,6 +1334,7 @@
             "type": 0,
             "iname": "IT_JB_IM_ANGEL_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 310
@@ -1313,9 +1344,20 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
-          "weight": 2296
+          "weight": 2222
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_RSNC_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 74
         }
       ]
     },
@@ -1329,6 +1371,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -1338,6 +1381,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
