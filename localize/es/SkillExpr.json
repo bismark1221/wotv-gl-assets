@@ -574,7 +574,7 @@
     },
     {
       "key": "SK_LW_SAM_S_4",
-      "value": "Inflige (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno durante 3 turnos."
+      "value": "Inflige daño (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno durante 3 turnos."
     },
     {
       "key": "SK_LW_SAM_M_3",
@@ -618,7 +618,7 @@
     },
     {
       "key": "SK_LW_SAM_S_4_SUB",
-      "value": "Inflige (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno durante 3 turnos."
+      "value": "Inflige daño (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno durante 3 turnos."
     },
     {
       "key": "SK_LW_SAM_M_3_SUB",
@@ -658,7 +658,7 @@
     },
     {
       "key": "SK_LW_SAM_S_4_PSAR",
-      "value": "Inflige (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno durante 3 turnos."
+      "value": "Inflige daño (medio) a los objetivos de alrededor, reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirles freno durante 3 turnos."
     },
     {
       "key": "SK_LW_THI_ATK",
@@ -1506,7 +1506,7 @@
     },
     {
       "key": "SK_LW_GRM_S_3",
-      "value": "Elimina todas las reducciones de los objetivos al alcance."
+      "value": "Elimina todas las mejoras de los objetivos al alcance."
     },
     {
       "key": "SK_LW_GRM_M_5_INIT",
@@ -1634,7 +1634,7 @@
     },
     {
       "key": "SK_LW_GRM_S_3_SUB",
-      "value": "Elimina todas las reducciones de los objetivos al alcance."
+      "value": "Elimina todas las mejoras de los objetivos al alcance."
     },
     {
       "key": "SK_LW_GRM_M_5",
@@ -4163,6 +4163,74 @@
     {
       "key": "SK_LW_EC_RSNC_C_02B",
       "value": "Aumenta el ESP y la res. proyectiles de los aliados de alrededor durante 4 turnos, aumenta la tasa de evasión del usuario durante 3 turnos y recupera PA."
+    },
+    {
+      "key": "SK_LW_PRNE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_PRNE_M_1",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos y le inflige daño (medio) con golpe garantizado."
+    },
+    {
+      "key": "SK_LW_PRNE_M_2",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (medio) a los objetivos al alcance y reduce su potencia de curación durante 3 turnos (no afecta a objetivos en estado lévita)."
+    },
+    {
+      "key": "SK_LW_PRNE_M_3",
+      "value": "Aumenta la res. ataque de zona de los aliados de alrededor durante 3 turnos y recupera un porcentaje fijo de VIT (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_LW_PRNE_M_3_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_PRNE_S_1",
+      "value": "Inflige daño (poco) al objetivo tras desplazarse a la casilla objetivo y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_LW_PRNE_S_2",
+      "value": "Reduce el consumo de PA del usuario durante 3 turnos, otorga eliminación de Coraza a sus ataques (se activa antes de atacar) y aumenta considerablemente su ATQ cuando su VIT está al 70 % o más. "
+    },
+    {
+      "key": "SK_LW_PRNE_S_3",
+      "value": "Daño (medio) a los objetivos al alcance y probabilidad de infligirles aturdimiento durante un turno."
+    },
+    {
+      "key": "SK_LW_PRNE_S_4",
+      "value": "Inflige daño (medio) 3 veces al objetivo."
+    },
+    {
+      "key": "SK_LW_PRNE_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo y aumentar el TC del usuario (mínimo) al recibir daño."
+    },
+    {
+      "key": "SK_LW_PRNE_P_1",
+      "value": "Aumenta los PA adquiridos y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_PRNE_P_2",
+      "value": "Aumenta la VIT máx. y la AGI."
+    },
+    {
+      "key": "SK_LW_PRNE_EN_A_01",
+      "value": "Elimina agallas al objetivo y le inflige daño (mucho) tras desplazarse a la casilla objetivo."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_01",
+      "value": "Mejora «Zona de agua» a «Zona de agua+»: aumenta la res. ataque de zona de los aliados de alrededor durante 4 turnos, recupera un porcentaje fijo de VIT (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez) y aumenta la res. corte y perforación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_01B",
+      "value": "Aumenta la res. ataque de zona de los aliados de alrededor durante 4 turnos, recupera un porcentaje fijo de VIT (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez) y aumenta la res. corte y perforación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_02",
+      "value": "Mejora «Artes marciales acuáticas» a «Artes marciales hídricas»: aumenta el ATQ, la res. ataque de zona, los PA adquiridos y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_02B",
+      "value": "Aumenta el ATQ, la res. ataque de zona, los PA adquiridos y la tasa de penetración de DEF."
     },
     {
       "key": "SK_LW_LSWL_ATK",
@@ -8341,7 +8409,15 @@
       "value": "Daño (mucho) al objetivo, probabilidad de infligirle veneno durante 3 turnos y mayor probabilidad cuantas menos veces se haya recibido daño."
     },
     {
+      "key": "SK_LW_BNI_M_1_SUB",
+      "value": "Daño (mucho) al objetivo, probabilidad de infligirle veneno durante 3 turnos y mayor probabilidad cuantas menos veces se haya recibido daño."
+    },
+    {
       "key": "SK_LW_BNI_M_2",
+      "value": "Daño (medio) 3 veces a los objetivos al alcance y probabilidad de infligirles ceguera durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_BNI_M_2_SUB",
       "value": "Daño (medio) 3 veces a los objetivos al alcance y probabilidad de infligirles ceguera durante 3 turnos."
     },
     {
@@ -8349,11 +8425,23 @@
       "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI hasta que reciba daño."
     },
     {
+      "key": "SK_LW_BNI_M_3_SUB",
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI hasta que reciba daño."
+    },
+    {
       "key": "SK_LW_BNI_S_1_INIT",
       "value": "Inflige daño (medio) al objetivo."
     },
     {
+      "key": "SK_LW_BNI_S_1",
+      "value": "Inflige daño (medio) al objetivo."
+    },
+    {
       "key": "SK_LW_BNI_S_2_INIT",
+      "value": "Reduce la probabilidad de que el usuario sea atacado y aumenta la evasión de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_BNI_S_2",
       "value": "Reduce la probabilidad de que el usuario sea atacado y aumenta la evasión de los aliados de alrededor durante 3 turnos."
     },
     {
@@ -12949,6 +13037,10 @@
       "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (mucho) y reduce considerablemente su potencia de curación durante 3 turnos."
     },
     {
+      "key": "SK_LB_LW_PRNE",
+      "value": "Inflige daño (mucho) 3 veces al objetivo y otorga prisa al usuario durante 3 turnos."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -16289,6 +16381,10 @@
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: tasa de penetración de res. ataque de corte +15, modificador de adquisición de PA +30 %"
     },
     {
+      "key": "SK_MA_LW_PRNE",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: res. ataques de corte y perforación +10, tasa de bloqueo de reacción +20"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -17735,6 +17831,10 @@
     {
       "key": "SK_ACC_LW_RSNC_01_1",
       "value": "Otorga reducción de PA al asestar crítico a los objetivos al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_LW_PRNE_1",
+      "value": "Aumenta el TC (mínimo) de los aliados de alrededor durante 3 turnos al asestar un crítico."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -29690,6 +29790,26 @@
     },
     {
       "key": "SK_LW_FIS_013_URAL_5_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_5",
       "value": ""
     },
     {

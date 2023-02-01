@@ -4165,6 +4165,74 @@
       "value": "Erhöht 4 Runden lang PSY und Geschossresistenz von Verbündeten im Bereich um Wirkenden, erhöht 3 Runden lang eigene Ausweichrate und heilt AP."
     },
     {
+      "key": "SK_LW_PRNE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_PRNE_M_1",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend Schaden (M) zu und garantiert Treffer."
+    },
+    {
+      "key": "SK_LW_PRNE_M_2",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate und fügt Zielen in Reichweite anschließend Schaden (M) zu und senkt 3 Runden lang Heilkraft (wirkt nicht auf Ziele mit Levitas)."
+    },
+    {
+      "key": "SK_LW_PRNE_M_3",
+      "value": "Erhöht 3 Runden lang Bereichangriffsresistenz von Verbündeten im Bereich um den Wirkenden und heilt festgelegten Anteil der eigenen LP (M), wenn LP beim Erleiden von Schaden unter 50 % sinken (1 Mal)."
+    },
+    {
+      "key": "SK_LW_PRNE_M_3_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_PRNE_S_1",
+      "value": "Fügt dem Ziel nach Bewegung auf Zielfeld Schaden (S) zu und erhöht eigene AZ (S)."
+    },
+    {
+      "key": "SK_LW_PRNE_S_2",
+      "value": "Senkt 3 Runden lang eigenen AP-Verbrauch, gewährt Angriffen Protes-Entfernung (wird vor dem Angriff aktiviert) und erhöht ANG erheblich, solange LP 70 % oder mehr betragen. "
+    },
+    {
+      "key": "SK_LW_PRNE_S_3",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und gewährt Chance auf Wirken von 1 Runde andauernder Betäubung."
+    },
+    {
+      "key": "SK_LW_PRNE_S_4",
+      "value": "Fügt dem Ziel 3 Mal hintereinander Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_PRNE_R_1",
+      "value": "Gewährt Chance auf Präventivschlag und Erhöhung der eigenen AZ (minimal) bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_LW_PRNE_P_1",
+      "value": "Erhöht erlangte AP und ABW-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_PRNE_P_2",
+      "value": "Erhöht LP-Maximum und AGI."
+    },
+    {
+      "key": "SK_LW_PRNE_EN_A_01",
+      "value": "Entfernt Mumm vom Ziel und fügt ihm anschließend nach Bewegung auf Zielfeld Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_01",
+      "value": "Verstärkt Domäne des Wassers zu Größere Domäne des Wassers. Erhöht 4 Runden lang Bereichangriffsresistenz von Verbündeten im Bereich um Wirkenden, heilt festgelegten Anteil der eigenen LP (M), wenn LP bei Erleiden von Schaden unter 50 % fallen (1 Mal), und erhöht 3 Runden lang eigene Schlitz- und Durchbohrresistenz."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_01B",
+      "value": "Erhöht 4 Runden lang Bereichangriffsresistenz von Verbündeten im Bereich um Wirkenden, heilt festgelegten Anteil der eigenen LP (M), wenn LP bei Erleiden von Schaden unter 50 % fallen (1 Mal) und erhöht 3 Runden lang eigene Schlitz- und Durchbohrresistenz."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_02",
+      "value": "Verstärkt Wasserform-Kampfkunst zu Hydroform-Kampfkunst. Erhöht ANG, Bereichangriffsresistenz, erlangte AP und ABW-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_02B",
+      "value": "Erhöht ANG, Bereichangriffsresistenz, erlangte AP und ABW-Durchbohrrate."
+    },
+    {
       "key": "SK_LW_LSWL_ATK",
       "value": ""
     },
@@ -8341,7 +8409,15 @@
       "value": "Fügt dem Ziel Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauerndem Gift mit höherer Chance, je seltener Schaden erlitten wurde."
     },
     {
+      "key": "SK_LW_BNI_M_1_SUB",
+      "value": "Fügt dem Ziel Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauerndem Gift mit höherer Chance, je seltener Schaden erlitten wurde."
+    },
+    {
       "key": "SK_LW_BNI_M_2",
+      "value": "Fügt Zielen in Reichweite 3 Mal hintereinander Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Blind."
+    },
+    {
+      "key": "SK_LW_BNI_M_2_SUB",
       "value": "Fügt Zielen in Reichweite 3 Mal hintereinander Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Blind."
     },
     {
@@ -8349,11 +8425,23 @@
       "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert, und erhöht solange eigene AGI bis Schaden erlitten wurde."
     },
     {
+      "key": "SK_LW_BNI_M_3_SUB",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert, und erhöht solange eigene AGI bis Schaden erlitten wurde."
+    },
+    {
       "key": "SK_LW_BNI_S_1_INIT",
       "value": "Fügt dem Ziel Schaden (M) zu."
     },
     {
+      "key": "SK_LW_BNI_S_1",
+      "value": "Fügt dem Ziel Schaden (M) zu."
+    },
+    {
       "key": "SK_LW_BNI_S_2_INIT",
+      "value": "Senkt Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden, und erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_LW_BNI_S_2",
       "value": "Senkt Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden, und erhöht 3 Runden lang Ausweichrate von Verbündeten im Bereich um Wirkenden."
     },
     {
@@ -12949,6 +13037,10 @@
       "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend Schaden (L) zu und senkt 3 Runden lang Heilkraft erheblich."
     },
     {
+      "key": "SK_LB_LW_PRNE",
+      "value": "Fügt dem Ziel 3 Mal hintereinander Schaden (L) zu und wirkt 3 Runden lang Hast auf sich selbst."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Ruft Ifrit, fügt Zielen in Reichweite Feuerschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Feuerresistenz-Senkung für Gegner)."
     },
@@ -16289,6 +16381,10 @@
       "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigene Schlitzresistenz-Durchbohrrate +15 und Modifikator für AP-Erlangung + 30 %"
     },
     {
+      "key": "SK_MA_LW_PRNE",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene Schlitz- und Durchbohrresistenz +10 und Reaktionsblockrate +20."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -17735,6 +17831,10 @@
     {
       "key": "SK_ACC_LW_RSNC_01_1",
       "value": "Wirkt 3 Runden lang AP-Senkung nach kritischem Treffer auf Ziele in Reichweite."
+    },
+    {
+      "key": "SK_ACC_LW_PRNE_1",
+      "value": "Gewährt 3 Runden lang Verbündeten im Bereich um Wirkenden bei kritischem Treffer AZ-Schub (minimal)."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -29690,6 +29790,26 @@
     },
     {
       "key": "SK_LW_FIS_013_URAL_5_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_5",
       "value": ""
     },
     {

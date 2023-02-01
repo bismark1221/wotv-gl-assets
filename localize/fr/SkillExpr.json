@@ -4165,6 +4165,74 @@
       "value": "Augmente la PSY et la résistance aux attaques projectiles des alliés dans la zone autour du lanceur pendant 4 tours, augmente le taux d'esquive du lanceur pendant 3 tours et restaure les PA."
     },
     {
+      "key": "SK_LW_PRNE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_PRNE_M_1",
+      "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (M) avec Coup garanti."
+    },
+    {
+      "key": "SK_LW_PRNE_M_2",
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (M) aux unités dans la zone ciblée et réduit les compétences de soin pendant 3 tours (les cibles avec le statut Apesanteur ne seront pas atteintes)."
+    },
+    {
+      "key": "SK_LW_PRNE_M_3",
+      "value": "Augmente la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 3 tours et restaure un certain pourcentage des PV (M) du lanceur quand ses PV chutent en dessous de 50 % quand des dégâts sont subis (1 fois)."
+    },
+    {
+      "key": "SK_LW_PRNE_M_3_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_PRNE_S_1",
+      "value": "Après déplacement jusqu'à la case ciblée, inflige des dégâts (S) à la cible, et augmente la jauge de CT (S) du lanceur."
+    },
+    {
+      "key": "SK_LW_PRNE_S_2",
+      "value": "Réduit la consommation de PA du lanceur pendant 3 tours, accorde un effet de dissipation de l'effet Bouclier aux attaques (s'active avant une attaque) et augmente considérablement l'ATT quand les PV sont au-dessus de 70 %. "
+    },
+    {
+      "key": "SK_LW_PRNE_S_3",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée et confère une chance d'infliger Étourdissement pendant 1 tour."
+    },
+    {
+      "key": "SK_LW_PRNE_S_4",
+      "value": "Inflige des dégâts (M) en 3 coups à la cible."
+    },
+    {
+      "key": "SK_LW_PRNE_R_1",
+      "value": "Confère une chance d'effectuer une Frappe préventive et d'augmenter la jauge de CT du lanceur (XS) lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_LW_PRNE_P_1",
+      "value": "Augmente les PA acquis et le taux de perforation de la DEF."
+    },
+    {
+      "key": "SK_LW_PRNE_P_2",
+      "value": "Augmente les PV max et l'AGI."
+    },
+    {
+      "key": "SK_LW_PRNE_EN_A_01",
+      "value": "Dissipe Hardiesse de la cible, puis inflige des dégâts (L) à la cible après déplacement jusqu'à la case ciblée."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_01",
+      "value": "Améliore Domaine de l’eau en Domaine de l’eau majestueux. Augmente la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 4 tours, restaure un certain pourcentage des PV (M) du lanceur quand ses PV chutent en dessous de 50 % quand des dégâts sont subis (1 fois) et augmente la résistance aux attaques tranchantes et la résistance aux attaques perçantes pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_01B",
+      "value": "Augmente la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 4 tours, restaure un certain pourcentage des PV (M) du lanceur quand ses PV chutent en dessous de 50 % quand des dégâts sont subis (1 fois) et augmente la résistance aux attaques tranchantes et la résistance aux attaques perçantes pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_02",
+      "value": "Améliore Aqua-technique martiale en Hydro-technique martiale. Augmente l'ATT, la résistance aux attaques de zone, les PA acquis et le taux de perforation de la DEF."
+    },
+    {
+      "key": "SK_LW_EC_PRNE_C_02B",
+      "value": "Augmente l'ATT, la résistance aux attaques de zone, les PA acquis et le taux de perforation de la DEF."
+    },
+    {
       "key": "SK_LW_LSWL_ATK",
       "value": ""
     },
@@ -8338,10 +8406,18 @@
     },
     {
       "key": "SK_LW_BNI_M_1",
-      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Poison pendant 3 tours et réduit les chances proportionnellement au nombre de fois où le lanceur à subi des dégâts."
+      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Poison pendant 3 tours et réduit les chances proportionnellement au nombre de fois où le lanceur a subi des dégâts."
+    },
+    {
+      "key": "SK_LW_BNI_M_1_SUB",
+      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Poison pendant 3 tours et plus le nombre de fois que le lanceur subit des dégâts est faible plus les chances augmente."
     },
     {
       "key": "SK_LW_BNI_M_2",
+      "value": "Inflige des dégâts (M) en 3 coups aux unités dans la zone ciblée et confère une chance d'infliger Cécité pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_BNI_M_2_SUB",
       "value": "Inflige des dégâts (M) en 3 coups aux unités dans la zone ciblée et confère une chance d'infliger Cécité pendant 3 tours."
     },
     {
@@ -8349,11 +8425,23 @@
       "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et augmente l'AGI du lanceur jusqu'à ce que ce dernier subisse des dégâts."
     },
     {
+      "key": "SK_LW_BNI_M_3_SUB",
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et augmente l'AGI du lanceur jusqu'à ce que ce dernier subisse des dégâts."
+    },
+    {
       "key": "SK_LW_BNI_S_1_INIT",
       "value": "Inflige des dégâts (M) à la cible."
     },
     {
+      "key": "SK_LW_BNI_S_1",
+      "value": "Inflige des dégâts (M) à la cible."
+    },
+    {
       "key": "SK_LW_BNI_S_2_INIT",
+      "value": "Réduit les chances d'être pris pour cible et augmente le taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_BNI_S_2",
       "value": "Réduit les chances d'être pris pour cible et augmente le taux d'esquive des alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
@@ -12949,6 +13037,10 @@
       "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (L), et réduit considérablement les compétences de soin pendant 3 tours."
     },
     {
+      "key": "SK_LB_LW_PRNE",
+      "value": "Inflige des dégâts (L) en 3 coups à la cible et accorde Booster au lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoque Ifrit, inflige des dégâts de feu (MAX) aux unités dans la zone ciblée et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés et réduit considérablement la résistance au feu des ennemis)."
     },
@@ -16289,6 +16381,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur de 15 et augmente la modification de l'acquisition des PA acquis de 30 %."
     },
     {
+      "key": "SK_MA_LW_PRNE",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de +15 pour les unités alliées d'eau, augmente la résistance aux attaques tranchantes et la résistance aux attaques perçantes du lanceur de 10 et son taux de blocage de réaction de 20."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Attaque tranchante +2"
     },
@@ -17735,6 +17831,10 @@
     {
       "key": "SK_ACC_LW_RSNC_01_1",
       "value": "Accorde un effet de réduction de PA lors d'un Coup critique aux unités dans la zone ciblée pendant 3 tours."
+    },
+    {
+      "key": "SK_ACC_LW_PRNE_1",
+      "value": "Accorde une augmentation de la jauge de CT (XS) aux coups critiques des alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -29690,6 +29790,26 @@
     },
     {
       "key": "SK_LW_FIS_013_URAL_5_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_015_5",
       "value": ""
     },
     {
