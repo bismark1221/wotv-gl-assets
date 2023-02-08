@@ -666,15 +666,15 @@
     },
     {
       "key": "SK_LW_THI_M_3",
-      "value": "Daño (medio) al objetivo y probabilidad de robarle un objeto."
+      "value": "Elimina todas las mejoras del objetivo, le inflige daño (medio), reduce sus PA, recupera PA del usuario y probabilidad de robar un objeto."
     },
     {
       "key": "SK_LW_THI_M_4",
-      "value": "Daño (mucho) al objetivo con golpe crítico garantizado al atacar desde atrás."
+      "value": "Daño (mucho) al objetivo, y al atacar desde atrás: reduce la res. corte antes de infligirle daño con golpe crítico garantizado."
     },
     {
       "key": "SK_LW_THI_S_3",
-      "value": "Probabilidad de infligir embrujo al objetivo durante 3 turnos."
+      "value": "Probabilidad de infligir embrujo al objetivo durante 3 turnos, y efecto adicional: reduce la res. ataque de zona en estado embrujo."
     },
     {
       "key": "SK_LW_THI_M_1_INIT",
@@ -686,7 +686,7 @@
     },
     {
       "key": "SK_LW_THI_S_2",
-      "value": "Aumenta la evasión del usuario durante 3 turnos."
+      "value": "Aumenta la tasa de evasión y la tasa de bloqueo de reacción del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_THI_S_4",
@@ -710,15 +710,15 @@
     },
     {
       "key": "SK_LW_THI_M_3_SUB",
-      "value": "Daño (medio) al objetivo y probabilidad de robarle un objeto."
+      "value": "Elimina todas las mejoras del objetivo, le inflige daño (medio), reduce sus PA, recupera PA del usuario y probabilidad de robar un objeto."
     },
     {
       "key": "SK_LW_THI_M_4_SUB",
-      "value": "Daño (mucho) al objetivo con golpe crítico garantizado al atacar desde atrás."
+      "value": "Daño (mucho) al objetivo, y al atacar desde atrás: reduce la res. corte antes de infligirle daño con golpe crítico garantizado."
     },
     {
       "key": "SK_LW_THI_S_3_SUB",
-      "value": "Probabilidad de infligir embrujo al objetivo durante 3 turnos."
+      "value": "Probabilidad de infligir embrujo al objetivo durante 3 turnos, y efecto adicional: reduce la res. ataque de zona en estado embrujo."
     },
     {
       "key": "SK_LW_THI_M_1",
@@ -910,15 +910,15 @@
     },
     {
       "key": "SK_LW_DRG_S_3",
-      "value": "Inflige daño (mucho) al objetivo después de saltar."
+      "value": "Reduce la tasa de evasión del objetivo durante 3 turnos y le inflige daño (mucho) al objetivo después de saltar."
     },
     {
       "key": "SK_LW_DRG_S_4",
-      "value": "Inflige daño (mucho) al objetivo después de saltar."
+      "value": "Inflige daño (mucho) al objetivo después de saltar y reduce su salto en 1 durante 3 turnos (límite mínimo de salto: 1)."
     },
     {
       "key": "SK_LW_DRG_M_4",
-      "value": "Inflige daño (medio) a los objetivos al alcance después de saltar."
+      "value": "Inflige daño (medio) a los objetivos al alcance después de saltar y reduce considerablemente su potencia de curación durante 3 turnos al asestar un crítico."
     },
     {
       "key": "SK_LW_DRG_S_1_INIT",
@@ -926,7 +926,7 @@
     },
     {
       "key": "SK_LW_DRG_M_3_INIT",
-      "value": "Aumenta el ATQ del usuario durante 3 turnos."
+      "value": "Aumenta el ATQ del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
     },
     {
       "key": "SK_LW_DRG_M_1",
@@ -946,19 +946,19 @@
     },
     {
       "key": "SK_LW_DRG_P_2",
-      "value": "Aumenta la VIT máx."
+      "value": "Aumenta la VIT máx. y la potencia de curación."
     },
     {
       "key": "SK_LW_DRG_S_3_SUB",
-      "value": "Inflige daño (mucho) al objetivo después de saltar."
+      "value": "Reduce la tasa de evasión del objetivo durante 3 turnos y le inflige daño (mucho) después de saltar."
     },
     {
       "key": "SK_LW_DRG_S_4_SUB",
-      "value": "Inflige daño (mucho) al objetivo después de saltar."
+      "value": "Inflige daño (mucho) al objetivo después de saltar y reduce su salto en 1 durante 3 turnos (límite mínimo de salto: 1)."
     },
     {
       "key": "SK_LW_DRG_M_4_SUB",
-      "value": "Inflige daño (medio) a los objetivos al alcance después de saltar."
+      "value": "Inflige daño (medio) a los objetivos al alcance después de saltar y reduce considerablemente su potencia de curación durante 3 turnos al asestar un crítico."
     },
     {
       "key": "SK_LW_DRG_S_1",
@@ -966,7 +966,7 @@
     },
     {
       "key": "SK_LW_DRG_M_3",
-      "value": "Aumenta el ATQ del usuario durante 3 turnos."
+      "value": "Aumenta el ATQ del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
     },
     {
       "key": "SK_LW_HUN_ATK",
@@ -2718,7 +2718,7 @@
     },
     {
       "key": "SK_LW_MST_M_2",
-      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces)."
+      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces) y aumenta su res. ataque de unidad durante 3 turnos."
     },
     {
       "key": "SK_LW_MST_M_3",
@@ -2726,35 +2726,35 @@
     },
     {
       "key": "SK_LW_MST_FIRE_S_1_INIT",
-      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_ICE_S_1_INIT",
-      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_WIND_S_1_INIT",
-      "value": "Inflige daño de viento (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de viento (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_THUN_S_1_INIT",
-      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_WATR_S_1_INIT",
-      "value": "Inflige daño de agua (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de agua (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_SOIL_S_1_INIT",
-      "value": "Inflige daño de tierra (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de tierra (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_SHIN_S_1_INIT",
-      "value": "Inflige daño de luz (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de luz (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_DARK_S_1_INIT",
-      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_S_2_INIT",
@@ -2782,7 +2782,7 @@
     },
     {
       "key": "SK_LW_MST_P_2",
-      "value": "DEF↑"
+      "value": "Aumenta la DEF y la res. a proyectiles."
     },
     {
       "key": "SK_LW_MST_M_1_SUB",
@@ -2790,7 +2790,7 @@
     },
     {
       "key": "SK_LW_MST_M_2_SUB",
-      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces)."
+      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces) y aumenta su res. ataque de unidad durante 3 turnos."
     },
     {
       "key": "SK_LW_MST_M_3_SUB",
@@ -2798,35 +2798,35 @@
     },
     {
       "key": "SK_LW_MST_FIRE_S_1",
-      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_ICE_S_1",
-      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_WIND_S_1",
-      "value": "Inflige daño de viento (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de viento (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_THUN_S_1",
-      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_WATR_S_1",
-      "value": "Inflige daño de agua (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de agua (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_SOIL_S_1",
-      "value": "Inflige daño de tierra (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de tierra (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_SHIN_S_1",
-      "value": "Inflige daño de luz (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de luz (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_DARK_S_1",
-      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario al objetivo y probabilidad de reducir el TC (poco)."
+      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario al objetivo y reduce el TC (poco)."
     },
     {
       "key": "SK_LW_MST_S_2",
@@ -3042,75 +3042,75 @@
     },
     {
       "key": "SK_LW_CAL_M_1",
-      "value": "Inflige daño de luz (medio) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuya altura es múltiplo de 3."
+      "value": "Inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuya altura es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_M_1_B",
-      "value": "Inflige daño de luz (medio) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuya altura es múltiplo de 2."
+      "value": "Inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuya altura es múltiplo de 2."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2",
-      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de fuego (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2_B",
-      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de fuego (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2",
-      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de hielo (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2_B",
-      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de hielo (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2",
-      "value": "Inflige daño de viento (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de viento (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2_B",
-      "value": "Inflige daño de viento (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de viento (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2",
-      "value": "Inflige daño de tierra (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de tierra (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2_B",
-      "value": "Inflige daño de tierra (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de tierra (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2",
-      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de rayo (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2_B",
-      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de rayo (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2",
-      "value": "Inflige daño de agua (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de agua (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2_B",
-      "value": "Inflige daño de agua (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de agua (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2",
-      "value": "Inflige daño de luz (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de luz (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2_B",
-      "value": "Inflige daño de luz (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de luz (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2",
-      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de oscuridad (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2_B",
-      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de oscuridad (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_M_3",
@@ -3246,75 +3246,75 @@
     },
     {
       "key": "SK_LW_CAL_M_1_SUB",
-      "value": "Inflige daño de luz (medio) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuya altura es múltiplo de 3."
+      "value": "Inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuya altura es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_M_1_B_SUB",
-      "value": "Inflige daño de luz (medio) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuya altura es múltiplo de 2."
+      "value": "Inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuya altura es múltiplo de 2."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2_SUB",
-      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de fuego (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2_B_SUB",
-      "value": "Inflige daño de fuego (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de fuego (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2_SUB",
-      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de hielo (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2_B_SUB",
-      "value": "Inflige daño de hielo (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de hielo (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2_SUB",
-      "value": "Inflige daño de viento (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de viento (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2_B_SUB",
-      "value": "Inflige daño de viento (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de viento (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2_SUB",
-      "value": "Inflige daño de tierra (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de tierra (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2_B_SUB",
-      "value": "Inflige daño de tierra (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de tierra (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2_SUB",
-      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de rayo (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2_B_SUB",
-      "value": "Inflige daño de rayo (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de rayo (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2_SUB",
-      "value": "Inflige daño de agua (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de agua (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2_B_SUB",
-      "value": "Inflige daño de agua (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de agua (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2_SUB",
-      "value": "Inflige daño de luz (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de luz (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2_B_SUB",
-      "value": "Inflige daño de luz (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de luz (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2_SUB",
-      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de oscuridad (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2_B_SUB",
-      "value": "Inflige daño de oscuridad (poco) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de oscuridad (poco) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_CAL_M_3_SUB",
@@ -9330,19 +9330,15 @@
     },
     {
       "key": "SK_LW_RAB_M_1",
-      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (medio) 2 veces."
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio) 2 veces y reduce considerablemente su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_RAB_M_2",
-      "value": "Aumenta la res. ataque de zona de los aliados de alrededor durante 3 turnos y otorga recuperación de PA al usuario durante 3 turnos al asestar un crítico."
-    },
-    {
-      "key": "SK_LW_RAB_M_2_SUB",
-      "value": "Aumenta la res. ataque de zona de los aliados de alrededor durante 3 turnos y otorga recuperación de PA al usuario durante 3 turnos al asestar un crítico."
+      "value": "Aumenta la res. ataque de zona y la tasa de crítico de los aliados de alrededor durante 3 turnos y otorga recuperación de PA al usuario durante 3 turnos al asestar un crítico."
     },
     {
       "key": "SK_LW_RAB_M_3",
-      "value": "Inflige daño (medio) con alta probabilidad de golpe crítico a los objetivos de alrededor y reduce considerablemente su tasa de crítico durante 3 turnos."
+      "value": "Inflige daño (medio) con alta probabilidad de golpe crítico a los enemigos de alrededor, reduce considerablemente su tasa de crítico durante 3 turnos y reduce la precisión en 1 al asestar un crítico."
     },
     {
       "key": "SK_LW_RAB_S_1_INIT",
@@ -9382,19 +9378,27 @@
     },
     {
       "key": "SK_LW_RAB_M_1_SUB",
-      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (medio) 2 veces."
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio) 2 veces y reduce considerablemente su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RAB_M_2_SUB",
+      "value": "Aumenta la res. ataque de zona y la tasa de crítico de los aliados de alrededor durante 3 turnos y otorga recuperación de PA al usuario durante 3 turnos al asestar un crítico."
+    },
+    {
+      "key": "SK_LW_RAB_M_3_SUB",
+      "value": "Inflige daño (medio) con alta probabilidad de crítico a los enemigos de alrededor, reduce considerablemente su tasa de crítico durante 3 turnos y reduce la tasa de precisión en 1 al asestar un crítico."
     },
     {
       "key": "SK_LW_EC_RAB_A_01",
-      "value": "Aumenta la res. ataque de perforación y la res. ataque mágico del usuario durante 3 turnos."
+      "value": "El usuario sobrevive a daño letal una vez y aumenta la tasa de penetración y la res. ataque mágico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_RAB_C_01",
-      "value": "Mejora «Ráfaga a presión» a «Ráfaga drenadora»: reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio) 2 veces y absorbe parte del daño infligido."
+      "value": "Mejora «Ráfaga a presión» a «Ráfaga drenadora»: reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio) 2 veces, reduce considerablemente su potencia de curación durante 3 turnos y absorbe parte del daño infligido."
     },
     {
       "key": "SK_LW_EC_RAB_C_01B",
-      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio) 2 veces y absorbe parte del daño infligido."
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio) 2 veces, reduce considerablemente su potencia de curación durante 3 turnos y absorbe parte del daño infligido."
     },
     {
       "key": "SK_LW_EC_RAB_C_02",
@@ -9410,11 +9414,11 @@
     },
     {
       "key": "SK_LW_EC_RAB_C_03",
-      "value": "Mejora «Ráfaga a presión» a «Ruptura a presión»: elimina coraza del objetivo y destruye cualquier barrera que reduzca el daño físico, reduce su DEF durante 3 turnos y le inflige daño (medio) 2 veces."
+      "value": "Mejora «Ráfaga a presión» a «Ruptura a presión»: elimina coraza del objetivo y destruye cualquier barrera que reduzca el daño físico, reduce su DEF durante 3 turnos, le inflige daño (medio) 2 veces y reduce considerablemente su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_RAB_C_03B",
-      "value": "Elimina coraza del objetivo y destruye cualquier barrera que reduzca el daño físico, reduce su DEF durante 3 turnos y le inflige daño (medio) 2 veces."
+      "value": "Elimina coraza del objetivo y destruye cualquier barrera que reduzca el daño físico, reduce su DEF durante 3 turnos, le inflige daño (medio) 2 veces y reduce considerablemente su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_RAB_C_04",
@@ -9441,6 +9445,18 @@
       "value": "Aumenta la tasa de penetración de ESP del usuario, inflige daño de viento (medio) con mucha precisión en función de la MAG del usuario al objetivo, e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
+      "key": "SK_LW_EC_CAL_C_03",
+      "value": "Mejora «Aero++ Nv. 4» a «Aero++ Nv. 4 [cabalista]»: aumenta el alcance. Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño de viento (medio) en función de la MAG del usuario e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+    },
+    {
+      "key": "SK_LW_EC_CAL_C_03B",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción de objetivos al alcance durante 3 turnos y les inflige daño de viento (medio) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
+    },
+    {
+      "key": "SK_LW_EC_CAL_C_03B_B",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción de objetivos al alcance durante 3 turnos y les inflige daño de viento (medio) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
+    },
+    {
       "key": "SK_LW_EC_CAL_C_01",
       "value": "Mejora «Cura+ 3A» a «Cura+++ 3A»: recupera VIT de los aliados al alcance (medio) y recupera más la de objetivos cuya altura es múltiplo de 3."
     },
@@ -9459,18 +9475,6 @@
     {
       "key": "SK_LW_EC_CAL_C_02B",
       "value": "Aumenta la res. ataque de zona y sustituye las habilidades de altura múltiplo de 3 por múltiplo de 2 durante el combate."
-    },
-    {
-      "key": "SK_LW_EC_CAL_C_03",
-      "value": "Mejora «Aero++ Nv. 4» a «Aero++ Nv. 4 [cabalista]»: aumenta el alcance. Inflige daño de viento (medio) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
-    },
-    {
-      "key": "SK_LW_EC_CAL_C_03B",
-      "value": "Inflige daño de viento (medio) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 4."
-    },
-    {
-      "key": "SK_LW_EC_CAL_C_03B_B",
-      "value": "Inflige daño de viento (medio) en función de la MAG del usuario a los objetivos al alcance e inflige más daño a objetivos cuyo nivel es múltiplo de 3."
     },
     {
       "key": "SK_LW_EC_CAL_C_04",
@@ -12349,6 +12353,10 @@
       "value": "Inflige daño (medio) 4 veces al objetivo y reduce considerablemente su TC."
     },
     {
+      "key": "SK_EURP_M_04_GR",
+      "value": "Inflige daño (medio) 4 veces al objetivo."
+    },
+    {
       "key": "SK_EURP_M_05",
       "value": "Elimina cualquier barrera de los objetivos al alcance, y les inflige daño (muchísimo) con golpe garantizado."
     },
@@ -13846,19 +13854,79 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_01",
-      "value": "Mejora «Salto horizontal» a «Salto preciso»: aumenta el alcance y fija al objetivo. Inflige daño (mucho) al objetivo después de saltar."
+      "value": "Mejora «Salto horizontal» a «Salto preciso»: aumenta el alcance y fija al objetivo."
     },
     {
       "key": "SK_LW_EC_DRG_C_01B",
-      "value": "Inflige daño (mucho) al objetivo después de saltar."
+      "value": "Inflige daño (mucho) al objetivo después de saltar y reduce su salto en 1 durante 3 turnos (límite mínimo de salto: 1)."
     },
     {
       "key": "SK_LW_EC_DRG_C_02",
-      "value": "Mejora «Linaje dragontino» a «Escamas de dragón»: aumenta el ATQ y la DEF del usuario durante 3 turnos."
+      "value": "Mejora «Linaje dragontinol» a «Escamas de dragón». Aumenta el ATQ y la DEF del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
     },
     {
       "key": "SK_LW_EC_DRG_C_02B",
-      "value": "Aumenta el ATQ y la DEF del usuario durante 3 turnos."
+      "value": "Aumenta el ATQ y la DEF del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_02",
+      "value": "Otorga una barrera al usuario que reduce considerablemente el daño mágico (3 veces)."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_03",
+      "value": "Mejora «Salto vertical» a «Salto confu»: aumenta el alcance. Reduce la tasa de evasión del objetivo durante 3 turnos, inflige daño (muchísimo) al objetivo después de saltar y probabilidad de infligirle confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_03B",
+      "value": "Reduce la tasa de evasión del objetivo durante 3 turnos, inflige daño (muchísimo) al objetivo después de saltar y probabilidad de infligirle confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_04",
+      "value": "Mejora «Sabiduría de dragontino» a «Maestría de lanza infernal»: aumenta la VIT máx., la potencia de curación y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_04B",
+      "value": "Aumenta la VIT. máx., la potencia de curación y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_03",
+      "value": "Daño (medio) a los enemigos de alrededor y probabilidad de infligirles congelación durante 3 turnos tras desplazarse a la casilla objetivo."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_05",
+      "value": "Mejora «Salto horizontal» a «Salto pulverizador»: aumenta la altura de alcance. Reduce la DEF del objetivo durante 3 turnos, le inflige daño (mucho) después de saltar y reduce su salto en 1 durante 3 turnos (límite mínimo de salto: 1)."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_05B",
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (mucho) después de saltar y reduce su salto en 1 durante 3 turnos (límite mínimo de salto: 1)."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_06",
+      "value": "Mejora «Hoja dragontina» a «Colmillo dragontino»: aumenta el alcance. Probabilidad de realizar un contraataque al recibir daño, absorbe el daño infligido por el contraataque en forma de VIT, reduce PA y recupera PA del usuario."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_06B",
+      "value": "Probabilidad de realizar un contraataque al recibir daño, absorbe el daño infligido por el contraataque en forma de VIT y recupera PA del usuario."
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_04",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, inflige daño (mucho) a los objetivos al alcance después de saltar y cancela la activación de habilidades. "
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_07",
+      "value": "Mejora «Salto horizontal» a «Salto Mutis»: aumenta la altura de alcance. Daño (mucho) al objetivo después de saltar , reduce su salto en 1 durante 3 turnos (límite mínimo de salto: 1) y probabilidad de infligirle silencio durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_07B",
+      "value": "Daño (mucho) al objetivo después de saltar , reduce su salto en 1 durante 3 turnos (límite mínimo de salto: 1) y probabilidad de infligirle silencio durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_08",
+      "value": "Mejora «Linaje dragontinol» a «Autoridad dragontina». Aumenta el TC del usuario (poco) y el ATQ y la ESP del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_08B",
+      "value": "Aumenta el TC del usuario (poco) y el ATQ y la ESP del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
     },
     {
       "key": "SK_LW_EC_DRG_A_05",
@@ -13866,19 +13934,19 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_09",
-      "value": "Mejora «Saltodragón» a «Salto rompebarrera»: elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance después de saltar, y les inflige daño (medio)."
+      "value": "Mejora «Saltodragón» a «Salto rompebarrera»: elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance después de saltar, les inflige daño (medio) y reduce considerablemente su potencia de curación durante 3 turnos al asestar un crítico."
     },
     {
       "key": "SK_LW_EC_DRG_C_09B",
-      "value": "Elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance después de saltar, y les inflige daño (medio)."
+      "value": "Elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance después de saltar, les inflige daño (medio) y reduce considerablemente su potencia de curación durante 3 turnos al asestarle un crítico."
     },
     {
       "key": "SK_LW_EC_DRG_C_10",
-      "value": "Mejora «Linaje dragontino» a «Ojo dragontino»: aumenta el ATQ y la tasa de precisión del usuario durante 3 turnos."
+      "value": "Mejora «Linaje dragontinol» a «Ojo dragontino». Aumenta el ATQ y la tasa de precisión del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
     },
     {
       "key": "SK_LW_EC_DRG_C_10B",
-      "value": "Aumenta el ATQ y la tasa de precisión del usuario durante 3 turnos."
+      "value": "Aumenta el ATQ y la tasa de precisión del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
     },
     {
       "key": "SK_LW_EC_DRG_A_06",
@@ -13886,19 +13954,19 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_11",
-      "value": "Mejora «Salto horizontal» a «Salto Antimagia»: fija el objetivo. Inflige daño (mucho) al objetivo después de saltar y elimina todas sus mejoras al asestarle un crítico."
+      "value": "Mejora «Salto horizontal» a «Salto Antimagia»: fija el objetivo. Inflige daño (mucho) al objetivo después de saltar, reduce su salto en 1 durante 3 turnos (límite mínimo de salto: 1) y elimina todas sus mejoras al asestarle un crítico."
     },
     {
       "key": "SK_LW_EC_DRG_C_11B",
-      "value": "Inflige daño (mucho) al objetivo después de saltar y elimina todas sus mejoras al asestarle un crítico."
+      "value": "Inflige daño (mucho) al objetivo después de saltar, reduce su salto en 1 durante 3 turnos (límite mínimo de salto: 1) y elimina todas sus mejoras al asestarle un crítico."
     },
     {
       "key": "SK_LW_EC_DRG_C_12",
-      "value": "Mejora «VIT↑ nv. 1» a «Maestría punzante»: aumenta la VIT máx., la tasa de crítico y la tasa de evasión."
+      "value": "Mejora «Sabiduría de dragontino» a «Maestría punzante»: aumenta la VIT. máx., la potencia de curación, la tasa de crítico y la tasa de evasión."
     },
     {
       "key": "SK_LW_EC_DRG_C_12B",
-      "value": "Aumenta la VIT máx., la tasa de crítico y la tasa de evasión."
+      "value": "Aumenta la VIT. máx., la potencia de curación, la tasa de crítico y la tasa de evasión."
     },
     {
       "key": "SK_LW_EC_BLM_A_01_ICE",
@@ -14642,19 +14710,19 @@
     },
     {
       "key": "SK_LW_EC_THI_C_02",
-      "value": "Mejora «Ataque furtivo» a «Golpe sin sombra»: inflige daño (mucho) al objetivo y reduce su DEF antes de infligirle daño con golpe crítico garantizado al atacar por detrás."
+      "value": "Mejora «Ataque furtivo» a «Golpe sin sombra»: daño (mucho) al objetivo al atacar desde atrás. que reduce la res. corte y la DEF antes de infligirle daño con golpe crítico garantizado."
     },
     {
       "key": "SK_LW_EC_THI_C_02B",
-      "value": "Inflige daño (mucho) al objetivo y reduce su DEF antes de infligirle daño con golpe crítico garantizado al atacar por detrás."
+      "value": "Inflige daño (mucho) al objetivo, y al atacar desde atrás: reduce la res. corte y la DEF antes de infligirle daño con golpe crítico garantizado."
     },
     {
       "key": "SK_LW_EC_THI_C_05",
-      "value": "Mejora «Ataque furtivo» a «Ataque traicionero»: inflige daño (mucho) al objetivo, reduce su tasa de evasión de crítico durante 3 turnos y golpe crítico garantizado al atacar desde atrás."
+      "value": "Mejora «Ataque furtivo» a «Ataque traicionero»: inflige daño (mucho) al objetivo, reduce su tasa de evasión de crítico durante 3 turnos al atacar desde atrás y reduce la res. corte antes de infligirle daño con golpe crítico garantizado."
     },
     {
       "key": "SK_LW_EC_THI_C_05B",
-      "value": "Inflige daño (mucho) al objetivo, reduce su tasa de evasión de crítico durante 3 turnos y golpe crítico garantizado al atacar desde atrás."
+      "value": "Inflige daño (mucho) al objetivo, reduce su tasa de evasión de crítico durante 3 turnos al atacar desde atrás y reduce la res. corte antes de infligirle daño con golpe crítico garantizado."
     },
     {
       "key": "SK_LW_EC_THI_C_06",
@@ -14674,7 +14742,7 @@
     },
     {
       "key": "SK_LW_EC_THI_C_03B",
-      "value": "Probabilidad de infligir embrujo al objetivo durante 3 turnos."
+      "value": "Probabilidad de infligir embrujo al objetivo durante 3 turnos, y efecto adicional: reduce la res. ataque de zona en estado embrujo."
     },
     {
       "key": "SK_LW_EC_THI_C_04",
@@ -14703,66 +14771,6 @@
     {
       "key": "SK_LW_EC_VIK_C_04B",
       "value": "Aumenta ATQ, DEF y AGI del usuario durante 3 turnos y reduce su tasa de evasión."
-    },
-    {
-      "key": "SK_LW_EC_DRG_A_02",
-      "value": "Otorga una barrera al usuario que reduce el daño mágico (3 veces)."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_03",
-      "value": "Mejora «Salto vertical» a «Salto confu»: aumenta el alcance. Daño (muchísimo) al objetivo después de saltar y probabilidad de infligirle confusión durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_03B",
-      "value": "Daño (muchísimo) al objetivo después de saltar y probabilidad de infligirle confusión durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_04",
-      "value": "Mejora «VIT↑ nv. 1» a «Maestría de lanza infernal»: aumenta la VIT. máx. y la tasa de penetración de DEF."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_04B",
-      "value": "Aumenta la VIT máx. y la tasa de penetración de DEF."
-    },
-    {
-      "key": "SK_LW_EC_DRG_A_03",
-      "value": "Daño (medio) a los objetivos de alrededor y probabilidad de infligirles congelación tras desplazarse a la casilla objetivo."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_05",
-      "value": "Mejora «Salto horizontal» a «Salto pulverizador»: aumenta la altura de alcance. Reduce la DEF del objetivo durante 3 turnos y le inflige daño (mucho) al objetivo después de saltar."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_05B",
-      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (mucho) al objetivo después de saltar."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_06",
-      "value": "Mejora «Hoja dragontina» a «Colmillo dragontino»: aumenta el alcance. Probabilidad de realizar un contraataque al recibir daño, absorbe el daño infligido por el contraataque en forma de VIT, reduce PA y recupera PA del usuario."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_06B",
-      "value": "Probabilidad de realizar un contraataque al recibir daño, absorbe el daño infligido por el contraataque en forma de VIT y recupera PA del usuario."
-    },
-    {
-      "key": "SK_LW_EC_DRG_A_04",
-      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, inflige daño (mucho) a los objetivos al alcance después de saltar y cancela la activación de habilidades. "
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_07",
-      "value": "Mejora «Salto horizontal» a «Salto Mutis»: aumenta la altura de alcance. Daño (mucho) al objetivo después de saltar y probabilidad de infligirle silencio durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_07B",
-      "value": "Daño (mucho) al objetivo después de saltar y probabilidad de infligirle silencio durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_08",
-      "value": "Mejora «Linaje dragontino» a «Autoridad dragontina»: aumenta el ATQ y el ESP del usuario durante 3 turnos y aumenta el TC (poco)."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_08B",
-      "value": "Aumenta el ATQ y el ESP del usuario durante 3 turnos y aumenta el TC (poco)."
     },
     {
       "key": "SK_LW_EC_NIN_A_01_SOIL",
@@ -14986,7 +14994,7 @@
     },
     {
       "key": "SK_LW_EC_MST_A_01",
-      "value": "Aumenta el ataque mágico y la DEF del usuario durante 3 turnos y reduce el consumo de PA durante 3 turnos."
+      "value": "Aumenta el ataque mágico y la DEF propias durante 3 turnos, reduce el consumo de PA y absorbe una parte del daño infligido en forma de VIT."
     },
     {
       "key": "SK_LW_EC_MST_C_01",
@@ -15735,6 +15743,10 @@
     {
       "key": "SK_MA_LW_IRDL",
       "value": "ESP +5, res. ataque de zona +10"
+    },
+    {
+      "key": "SK_MA_LW_IRDL_2",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: ESP +5, res. ataque de zona +15, potencia de curación +20, odio -3"
     },
     {
       "key": "SK_MA_LW_STRN_01",
@@ -22441,6 +22453,54 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_PRNE_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_PRNE_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_PRNE_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_PRNE_P2MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_ADSN_MV2_GS",
       "value": ""
     },
@@ -27053,6 +27113,10 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_REACTSTP_1_100_U",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_BTL_JOB_THI_1_15_U",
       "value": "Técnica para equilibrar misiones."
     },
@@ -27215,6 +27279,10 @@
     {
       "key": "SK_GMK_SLEEP_2",
       "value": "Inflige sueño a los objetivos al alcance."
+    },
+    {
+      "key": "SK_GMK_ATK_STON",
+      "value": "Estalactita cayendo"
     },
     {
       "key": "SK_LW_WAR_P_2",
@@ -29521,6 +29589,14 @@
       "value": "Habilidad específica de equipo +6"
     },
     {
+      "key": "SK_LW_PLUS6_RES_SPEAR_15",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_MMANKR_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -30427,6 +30503,66 @@
     {
       "key": "SK_WYVN_M_03",
       "value": "Inflige daño (mucho) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_PBMF_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PBMF_M_01",
+      "value": "Daño (poco) en función de la MAG del usuario al objetivo y probabilidad de infligirle confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_PBMF_M_02",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles congelación durante 3 turnos."
+    },
+    {
+      "key": "SK_PBMF_M_03",
+      "value": "Aumenta la MAG del usuario durante 3 turnos y le otorga Escudo."
+    },
+    {
+      "key": "SK_PBMF_R_01",
+      "value": "Probabilidad de reducir el daño mágico recibido."
+    },
+    {
+      "key": "SK_PBMW_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PBMW_M_01",
+      "value": "Inflige daño (poco) al objetivo y reduce su DEF durante 3 turnos."
+    },
+    {
+      "key": "SK_PBMW_M_02",
+      "value": "Elimina cualquier barrera de los objetivos al alcance tras desplazarse a la casilla objetivo y les inflige daño (medio)."
+    },
+    {
+      "key": "SK_PBMW_M_03",
+      "value": "Aumenta el ATQ del usuario durante 3 turnos y le otorga Coraza."
+    },
+    {
+      "key": "SK_PBMW_R_01",
+      "value": "Probabilidad de reducir el daño físico recibido."
+    },
+    {
+      "key": "SK_KMNT_ATK",
+      "value": "Inflige daño al objetivo."
+    },
+    {
+      "key": "SK_KMNT_M_01",
+      "value": "Inflige daño (poco) al objetivo tras desplazarse, absorbe una parte del daño infligido y probabilidad de infligirle aturdimiento durante un turno."
+    },
+    {
+      "key": "SK_KMNT_M_02",
+      "value": "Inflige inmóvil al enemigo durante 3 turnos y reduce considerablemente su ATQ y DEF en estado inmóvil."
+    },
+    {
+      "key": "SK_KMNT_M_03",
+      "value": "Inflige daño (medio) 2 veces al objetivo con alta probabilidad de crítico."
+    },
+    {
+      "key": "SK_KMNT_R_01",
+      "value": "Probabilidad de aumentar el ATQ y el daño crítico durante 3 turnos al recibir daño."
     }
   ]
 }

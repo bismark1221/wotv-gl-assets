@@ -666,15 +666,15 @@
     },
     {
       "key": "SK_LW_THI_M_3",
-      "value": "Fügt dem Ziel Schaden (M) zu und gewährt Chance auf Diebstahl eines Gegenstandes."
+      "value": "Entfernt alle Stärkungen vom Ziel, fügt anschließend Schaden (M) zu, senkt AP, stellt eigene AP wieder her und Chance, einen Gegenstand zu stehlen."
     },
     {
       "key": "SK_LW_THI_M_4",
-      "value": "Fügt dem Ziel Schaden (L) zu und garantiert bei Attacke von hinten kritischen Treffer."
+      "value": "Fügt dem Ziel Schaden (L) zu, senkt vor dem Angriff Schlitzresistenz, wenn von hinten ausgeführt, und garantiert kritischen Treffer."
     },
     {
       "key": "SK_LW_THI_S_3",
-      "value": "Gewährt Chance auf Wirken von 3 Runden andauernder Betörung."
+      "value": "Gewährt Chance auf Wirken von 3 Runden andauernder Betörung auf Ziel und zusätzlicher Effekt: Senkt Bereichangriffsresistenz, solange Betörung aktiv ist."
     },
     {
       "key": "SK_LW_THI_M_1_INIT",
@@ -686,7 +686,7 @@
     },
     {
       "key": "SK_LW_THI_S_2",
-      "value": "Erhöht 3 Runden lang eigene Ausweichrate."
+      "value": "Erhöht 3 Runden lang eigene Ausweichrate und Reaktionsblockrate."
     },
     {
       "key": "SK_LW_THI_S_4",
@@ -710,15 +710,15 @@
     },
     {
       "key": "SK_LW_THI_M_3_SUB",
-      "value": "Fügt dem Ziel Schaden (M) zu und gewährt Chance auf Diebstahl eines Gegenstandes."
+      "value": "Entfernt alle Stärkungen vom Ziel, fügt anschließend Schaden (M) zu, senkt AP, stellt eigene AP wieder her und Chance, einen Gegenstand zu stehlen."
     },
     {
       "key": "SK_LW_THI_M_4_SUB",
-      "value": "Fügt dem Ziel Schaden (L) zu und garantiert bei Attacke von hinten kritischen Treffer."
+      "value": "Fügt dem Ziel Schaden (L) zu, senkt vor dem Angriff Schlitzresistenz, wenn von hinten ausgeführt, und garantiert kritischen Treffer."
     },
     {
       "key": "SK_LW_THI_S_3_SUB",
-      "value": "Gewährt Chance auf Wirken von 3 Runden andauernder Betörung."
+      "value": "Gewährt Chance auf Wirken von 3 Runden andauernder Betörung auf Ziel und zusätzlicher Effekt: Senkt Bereichangriffsresistenz, solange Betörung aktiv ist."
     },
     {
       "key": "SK_LW_THI_M_1",
@@ -910,15 +910,15 @@
     },
     {
       "key": "SK_LW_DRG_S_3",
-      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu."
+      "value": "Senkt 3 Runden lang Ausweichrate des Ziels und fügt anschließend nach auf Sprung folgender Verzögerung Schaden (L) zu."
     },
     {
       "key": "SK_LW_DRG_S_4",
-      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu."
+      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu und senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1)."
     },
     {
       "key": "SK_LW_DRG_M_4",
-      "value": "Fügt nach auf Sprung folgender Verzögerung Zielen in Reichweite Schaden (M) zu."
+      "value": "Fügt Zielen in Reichweite nach auf Sprung folgender Verzögerung Schaden (M) zu und senkt bei kritischem Treffer 3 Runden lang Heilkraft erheblich."
     },
     {
       "key": "SK_LW_DRG_S_1_INIT",
@@ -926,7 +926,7 @@
     },
     {
       "key": "SK_LW_DRG_M_3_INIT",
-      "value": "Erhöht 3 Runden lang eigenen ANG."
+      "value": "Erhöht 3 Runden lang eigenen ANG, wirkt Protes und zusätzliche Effekte: Erhöht kritische Trefferrate und erhöht Reaktionsblockrate erheblich, während Protes aktiv ist."
     },
     {
       "key": "SK_LW_DRG_M_1",
@@ -946,19 +946,19 @@
     },
     {
       "key": "SK_LW_DRG_P_2",
-      "value": "Erhöht LP-Maximum."
+      "value": "Erhöht LP-Maximum und Heilkraft."
     },
     {
       "key": "SK_LW_DRG_S_3_SUB",
-      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu."
+      "value": "Senkt 3 Runden lang Ausweichrate des Ziels und fügt anschließend nach auf Sprung folgender Verzögerung Schaden (L) zu."
     },
     {
       "key": "SK_LW_DRG_S_4_SUB",
-      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu."
+      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu und senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1)."
     },
     {
       "key": "SK_LW_DRG_M_4_SUB",
-      "value": "Fügt nach auf Sprung folgender Verzögerung Zielen in Reichweite Schaden (M) zu."
+      "value": "Fügt Zielen in Reichweite nach auf Sprung folgender Verzögerung Schaden (M) zu und senkt bei kritischem Treffer 3 Runden lang Heilkraft erheblich."
     },
     {
       "key": "SK_LW_DRG_S_1",
@@ -966,7 +966,7 @@
     },
     {
       "key": "SK_LW_DRG_M_3",
-      "value": "Erhöht 3 Runden lang eigenen ANG."
+      "value": "Erhöht 3 Runden lang eigenen ANG, wirkt Protes und zusätzliche Effekte: Erhöht kritische Trefferrate und erhöht Reaktionsblockrate erheblich, während Protes aktiv ist."
     },
     {
       "key": "SK_LW_HUN_ATK",
@@ -2718,7 +2718,7 @@
     },
     {
       "key": "SK_LW_MST_M_2",
-      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3-mal physischen Schaden reduziert."
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal physischen Schaden reduziert, und erhöht 3 Runden lang Einzelangriffsresistenz."
     },
     {
       "key": "SK_LW_MST_M_3",
@@ -2726,35 +2726,35 @@
     },
     {
       "key": "SK_LW_MST_FIRE_S_1_INIT",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Feuerschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Feuerschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_ICE_S_1_INIT",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Eisschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Eisschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_WIND_S_1_INIT",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Windschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Windschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_THUN_S_1_INIT",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Blitzschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Blitzschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_WATR_S_1_INIT",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Wasserschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Wasserschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_SOIL_S_1_INIT",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Erdschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Erdschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_SHIN_S_1_INIT",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Lichtschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Lichtschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_DARK_S_1_INIT",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Dunkelschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Dunkelschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_S_2_INIT",
@@ -2782,7 +2782,7 @@
     },
     {
       "key": "SK_LW_MST_P_2",
-      "value": "ABW-Erhöhung"
+      "value": "Erhöht ABW und Geschossresistenz."
     },
     {
       "key": "SK_LW_MST_M_1_SUB",
@@ -2790,7 +2790,7 @@
     },
     {
       "key": "SK_LW_MST_M_2_SUB",
-      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3-mal physischen Schaden reduziert."
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal physischen Schaden reduziert, und erhöht 3 Runden lang Einzelangriffsresistenz."
     },
     {
       "key": "SK_LW_MST_M_3_SUB",
@@ -2798,35 +2798,35 @@
     },
     {
       "key": "SK_LW_MST_FIRE_S_1",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Feuerschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Feuerschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_ICE_S_1",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Eisschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Eisschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_WIND_S_1",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Windschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Windschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_THUN_S_1",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Blitzschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Blitzschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_WATR_S_1",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Wasserschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Wasserschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_SOIL_S_1",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Erdschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Erdschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_SHIN_S_1",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Lichtschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Lichtschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_DARK_S_1",
-      "value": "Fügt dem Ziel von MAG des Wirkenden abhängigen Dunkelschaden (S) zu und gewährt Chance auf AZ-Senkung (S)."
+      "value": "Fügt dem Ziel MAG-abhängigen Dunkelschaden (S) zu und senkt AZ (S)."
     },
     {
       "key": "SK_LW_MST_S_2",
@@ -2858,7 +2858,7 @@
     },
     {
       "key": "SK_FFT_AGRA_S_3",
-      "value": "Beschwört eine die Verbündeten im Bereich um Wirkenden umgebende Barriere herauf, die 3-mal magischen Schaden reduziert."
+      "value": "Beschwört eine die Verbündeten im Bereich um Wirkenden umgebende Barriere herauf, die 3 Mal magischen Schaden reduziert."
     },
     {
       "key": "SK_FFT_AGRA_S_4",
@@ -3042,75 +3042,75 @@
     },
     {
       "key": "SK_LW_CAL_M_1",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_M_1_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 2 teilbar ist."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 2 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Feuerschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Feuerschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Eisschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Eisschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Windschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Windschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Erdschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Erdschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Erdschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Erdschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Blitzschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Blitzschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Wasserschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Wasserschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Wasserschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Wasserschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Lichtschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Lichtschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Dunkelschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Dunkelschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_M_3",
@@ -3246,75 +3246,75 @@
     },
     {
       "key": "SK_LW_CAL_M_1_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_M_1_B_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 2 teilbar ist."
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 2 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Feuerschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2_B_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Feuerschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Eisschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2_B_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Eisschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Windschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2_B_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Windschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Erdschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Erdschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2_B_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Erdschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Erdschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Blitzschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2_B_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Blitzschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Blitzschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Wasserschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Wasserschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2_B_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Wasserschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Wasserschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Lichtschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2_B_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Lichtschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Dunkelschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2_B_SUB",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Dunkelschaden (S) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_CAL_M_3_SUB",
@@ -6258,7 +6258,7 @@
     },
     {
       "key": "SK_FF7_AERT_M_3",
-      "value": "Beschwört eine die Verbündeten im Bereich um Wirkenden umgebende Barriere herauf, die 3-mal magischen Schaden reduziert."
+      "value": "Beschwört eine die Verbündeten im Bereich um Wirkenden umgebende Barriere herauf, die 3 Mal magischen Schaden reduziert."
     },
     {
       "key": "SK_FF7_AERT_S_1",
@@ -9330,19 +9330,15 @@
     },
     {
       "key": "SK_LW_RAB_M_1",
-      "value": "Senkt 3 Runden lang ABW des Ziels und fügt anschließend 2-mal hintereinander Schaden (M) zu."
+      "value": "Senkt 3 Runden lang ABW des Ziels, fügt anschließend 2 Mal hintereinander Schaden (M) zu und senkt 3 Runden lang Heilkraft erheblich."
     },
     {
       "key": "SK_LW_RAB_M_2",
-      "value": "Erhöht 3 Runden lang Bereichangriffsresistenz von Verbündeten im Bereich um Wirkenden und wirkt 3 Runden lang AP-Heilung bei kritischem Treffer auf sich selbst."
-    },
-    {
-      "key": "SK_LW_RAB_M_2_SUB",
-      "value": "Erhöht 3 Runden lang Bereichangriffsresistenz von Verbündeten im Bereich um Wirkenden und wirkt 3 Runden lang AP-Heilung bei kritischem Treffer auf sich selbst."
+      "value": "Erhöht 3 Runden lang Bereichangriffsresistenz und kritische Trefferrate von Verbündeten im Bereich um Wirkenden und wirkt 3 Runden lang AP-Heilung bei kritischem Treffer auf sich selbst."
     },
     {
       "key": "SK_LW_RAB_M_3",
-      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu, hohe Wahrscheinlichkeit eines kritischen Treffers, und senkt 3 Runden lang Kritische Trefferrate erheblich."
+      "value": "Fügt Feinden im Bereich um Wirkenden mit hoher Wahrscheinlichkeit auf kritische Treffer Schaden (M) zu, senkt 3 Runden lang Kritische Trefferrate erheblich und senkt 1 Runde lang Präzision bei kritischem Treffer."
     },
     {
       "key": "SK_LW_RAB_S_1_INIT",
@@ -9382,19 +9378,27 @@
     },
     {
       "key": "SK_LW_RAB_M_1_SUB",
-      "value": "Senkt 3 Runden lang ABW des Ziels und fügt anschließend 2-mal hintereinander Schaden (M) zu."
+      "value": "Senkt 3 Runden lang ABW des Ziels, fügt anschließend 2 Mal hintereinander Schaden (M) zu und senkt 3 Runden lang Heilkraft erheblich."
+    },
+    {
+      "key": "SK_LW_RAB_M_2_SUB",
+      "value": "Erhöht 3 Runden lang Bereichangriffsresistenz und kritische Trefferrate von Verbündeten im Bereich um Wirkenden und wirkt 3 Runden lang AP-Heilung bei kritischem Treffer auf sich selbst."
+    },
+    {
+      "key": "SK_LW_RAB_M_3_SUB",
+      "value": "Fügt Feinden im Bereich um Wirkenden mit hoher Wahrscheinlichkeit auf kritische Treffer Schaden (M) zu, senkt 3 Runden lang Kritische Trefferrate erheblich und senkt 1 Runde lang Präzision bei kritischem Treffer."
     },
     {
       "key": "SK_LW_EC_RAB_A_01",
-      "value": "Erhöht 3 Runden lang eigene Durchbohr- und Magieangriffsresistenz."
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, und erhöht 3 Runden lang eigene Durchbohrangriff- und Magieangriffsresistenz."
     },
     {
       "key": "SK_LW_EC_RAB_C_01",
-      "value": "Verstärkt Gefährlicher Windstoß zu Entzugswindstoß. Senkt 3 Runden lang ABW des Ziels, fügt dem Ziel anschließend 2-mal hintereinander Schaden (M) zu und absorbiert einen Teil des verursachten Schadens."
+      "value": "Verstärkt Gefährlicher Windstoß zu Entzugswindstoß. Senkt 3 Runden lang ABW des Ziels, fügt anschließend 2 Mal hintereinander Schaden (M) zu, senkt 3 Runden lang Heilkraft erheblich und absorbiert einen Teil des verursachten Schadens."
     },
     {
       "key": "SK_LW_EC_RAB_C_01B",
-      "value": "Senkt 3 Runden lang ABW des Ziels, fügt dem Ziel anschließend 2-mal hintereinander Schaden (M) zu und absorbiert einen Teil des verursachten Schadens."
+      "value": "Senkt 3 Runden lang ABW des Ziels, fügt anschließend 2 Mal hintereinander Schaden (M) zu, senkt 3 Runden lang Heilkraft erheblich und absorbiert einen Teil des verursachten Schadens."
     },
     {
       "key": "SK_LW_EC_RAB_C_02",
@@ -9410,11 +9414,11 @@
     },
     {
       "key": "SK_LW_EC_RAB_C_03",
-      "value": "Verstärkt Gefährlicher Windstoß zu Brechender Windstoß. Entfernt Protes vom Ziel, zerstört physischen Schaden verringernde Barrieren, senkt 3 Runden lang ABW des Ziels und fügt anschließend 2 Mal hintereinander Schaden (M) zu."
+      "value": "Verstärkt Gefährlicher Windstoß zu Brechender Windstoß. Entfernt Protes vom Ziel, zerstört physischen Schaden verringernde Barrieren, senkt 3 Runden lang ABW des Ziels, fügt anschließend 2 Mal hintereinander Schaden (M) zu und senkt 3 Runden lang Heilkraft erheblich."
     },
     {
       "key": "SK_LW_EC_RAB_C_03B",
-      "value": "Entfernt Protes vom Ziel, zerstört physischen Schaden verringernde Barrieren, senkt 3 Runden lang ABW des Ziels und fügt anschließend 2 Mal hintereinander Schaden (M) zu."
+      "value": "Entfernt Protes vom Ziel, zerstört physischen Schaden verringernde Barrieren, senkt 3 Runden lang ABW des Ziels, fügt anschließend 2 Mal hintereinander Schaden (M) zu und senkt 3 Runden lang Heilkraft erheblich."
     },
     {
       "key": "SK_LW_EC_RAB_C_04",
@@ -9441,6 +9445,18 @@
       "value": "Erhöht eigene PSY-Durchbohrrate, fügt dem Ziel anschließend mit hoher Präzision MAG-abhängigen Windschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
     },
     {
+      "key": "SK_LW_EC_CAL_C_03",
+      "value": "Verstärkt Stufe 4 Aeroga zu Stufe 4 Aeroga [Metamagie]. Erhöht Reichweite. Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Windschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
+    },
+    {
+      "key": "SK_LW_EC_CAL_C_03B",
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Windschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 4 teilbar ist."
+    },
+    {
+      "key": "SK_LW_EC_CAL_C_03B_B",
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Windschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Einheitenstufe durch 3 teilbar ist."
+    },
+    {
       "key": "SK_LW_EC_CAL_C_01",
       "value": "Verstärkt Höhe 3: Vitra zu Höhe 3: Vitaga. Heilt LP von Verbündeten in Reichweite (M) und steigert den Effekt bei Zielen, deren Höhe durch 3 teilbar ist."
     },
@@ -9459,18 +9475,6 @@
     {
       "key": "SK_LW_EC_CAL_C_02B",
       "value": "Erhöht Bereichsangriffresistenz und ersetzt in Kämpfen den Bezug der eigenen Fähigkeiten auf „Höhe 3 mit Höhe 2“."
-    },
-    {
-      "key": "SK_LW_EC_CAL_C_03",
-      "value": "Verstärkt Stufe 4 Aeroga zu Stufe 4 Aeroga [Metamagie]. Erhöht Reichweite. Fügt Zielen in Reichweite MAG-abhängigen Windschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
-    },
-    {
-      "key": "SK_LW_EC_CAL_C_03B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 4 teilbar ist."
-    },
-    {
-      "key": "SK_LW_EC_CAL_C_03B_B",
-      "value": "Fügt Zielen in Reichweite MAG-abhängigen Windschaden (M) zu und erhöht Stärke gegenüber Zielen, deren Höhe durch 3 teilbar ist."
     },
     {
       "key": "SK_LW_EC_CAL_C_04",
@@ -12349,6 +12353,10 @@
       "value": "Fügt dem Ziel 4-mal hintereinander Schaden (M) zu und senkt AZ erheblich."
     },
     {
+      "key": "SK_EURP_M_04_GR",
+      "value": "Fügt dem Ziel 4 Mal hintereinander Schaden (M) zu."
+    },
+    {
       "key": "SK_EURP_M_05",
       "value": "Zerstört Barrieren von Zielen in Reichweite, fügt anschließend Schaden (XL) zu und garantiert Treffer."
     },
@@ -13846,19 +13854,79 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_01",
-      "value": "Verstärkt Horizontalsprung zu Präzisionssprung. Erhöht Reichweite und ermöglicht Zielfixierung. Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu."
+      "value": "Verstärkt Horizontalsprung zu Präzisionssprung. Erhöht Reichweite und visiert Ziel an."
     },
     {
       "key": "SK_LW_EC_DRG_C_01B",
-      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu."
+      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu und senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1)."
     },
     {
       "key": "SK_LW_EC_DRG_C_02",
-      "value": "Verstärkt Drachenbrut zu Drachenschuppe. Erhöht 3 Runden lang eigenen ANG und ABW."
+      "value": "Verstärkt Drachenbrut zu Drachenschuppe. Erhöht 3 Runden lang eigenen ANG und ABW, wirkt Protes und zusätzliche Effekte: Erhöht kritische Trefferrate und erhöht Reaktionsblockrate erheblich, während Protes aktiv ist."
     },
     {
       "key": "SK_LW_EC_DRG_C_02B",
-      "value": "Erhöht 3 Runden lang eigenen ANG und ABW."
+      "value": "Erhöht 3 Runden lang eigenen ANG und ABW, wirkt Protes und zusätzliche Effekte: Erhöht kritische Trefferrate und erhöht Reaktionsblockrate erheblich, während Protes aktiv ist."
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_02",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal magischen Schaden erheblich reduziert."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_03",
+      "value": "Verstärkt Vertikalsprung zu Verwirrtaucher. Erhöht Reichweite. Senkt 3 Runden lang Ausweichrate, fügt dem Ziel anschließend nach auf Sprung folgender Verzögerung Schaden (XL) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Konfus."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_03B",
+      "value": "Senkt 3 Runden lang Ausweichrate, fügt dem Ziel nach auf Sprung folgender Verzögerung Schaden (XL) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Konfus."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_04",
+      "value": "Verstärkt Dragonerkenntnisse zu Meister der Satanslanze. Erhöht LP-Maximum, Heilkraft und ABW-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_04B",
+      "value": "Erhöht LP-Maximum, Heilkraft und ABW-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_03",
+      "value": "Fügt Feinden im Bereich um Wirkenden Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauernder Erfrierung nach Bewegung auf Zielfeld."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_05",
+      "value": "Verstärkt Horizontalsprung zu Schmettertaucher. Erhöht Reichweitenhöhe. Senkt 3 Runden lang ABW des Ziels, fügt dem Ziel anschließend nach auf Sprung folgender Verzögerung Schaden (L) zu und senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1)."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_05B",
+      "value": "Senkt 3 Runden lang ABW des Ziels, fügt dem Ziel anschließend nach auf Sprung folgender Verzögerung Schaden (L) zu und senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1)."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_06",
+      "value": "Verstärkt Drachenklinge zu Drachenzähne. Erhöht Reichweite. Gewährt bei Erleiden von Schaden Chance auf Konter, absorbiert verursachten Schaden, senkt AP und heilt eigene AP."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_06B",
+      "value": "Gewährt bei Erleiden von Schaden Chance auf Konter, absorbiert verursachten Schaden, senkt AP und heilt eigene AP."
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_04",
+      "value": "Zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite nach auf Sprung folgender Verzögerung Schaden (L) zu und bricht Fähigkeitenaktivierung ab. "
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_07",
+      "value": "Verstärkt Horizontalsprung zu Stiller Sprung. Erhöht Reichweitenhöhe. Fügt Ziel nach auf Sprung folgender Verzögerung Schaden (L) zu, senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1) und gewährt Chance auf Wirken von 3 Runden andauernder Stille."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_07B",
+      "value": "Fügt Ziel nach auf Sprung folgender Verzögerung Schaden (L) zu, senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1) und gewährt Chance auf Wirken von 3 Runden andauernder Stille."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_08",
+      "value": "Verstärkt Drachenbrut zu Drachenmacht. Erhöht eigene AZ (S), erhöht 3 Runden lang eigenen ANG und PSY, wirkt Protes und zusätzliche Effekte: Erhöht kritische Trefferrate und erhöht Reaktionsblockrate erheblich, während Protes aktiv ist."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_08B",
+      "value": "Erhöht eigene AZ (S), erhöht 3 Runden lang eigenen ANG und PSY, wirkt Protes und zusätzliche Effekte: Erhöht kritische Trefferrate und erhöht Reaktionsblockrate erheblich, während Protes aktiv ist."
     },
     {
       "key": "SK_LW_EC_DRG_A_05",
@@ -13866,19 +13934,19 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_09",
-      "value": "Verstärkt Drachensprung zu Barrierenbruchsturz. Zerstört physischen Schaden verringernde Barrieren auf Ziele in Reichweite nach auf Sprung folgender Verzögerung und fügt anschließend Schaden (M) zu."
+      "value": "Verstärkt Drachensprung zu Barrierenbruchsturz. Zerstört physischen Schaden verringernde Barrieren auf Zielen in Reichweite nach auf Sprung folgender Verzögerung, fügt anschließend Schaden (M) zu und senkt 3 Runden lang Heilkraft erheblich bei kritischem Treffer."
     },
     {
       "key": "SK_LW_EC_DRG_C_09B",
-      "value": "Zerstört physischen Schaden verringernde Barrieren auf Ziele in Reichweite nach auf Sprung folgender Verzögerung und fügt anschließend Schaden (M) zu."
+      "value": "Zerstört physischen Schaden verringernde Barrieren von Ziele in Reichweite nach auf Sprung folgender Verzögerung, fügt anschließend Schaden (M) zu und senkt 3 Runden lang Heilkraft erheblich bei kritischem Treffer."
     },
     {
       "key": "SK_LW_EC_DRG_C_10",
-      "value": "Verstärkt Drachenbrut zu Drachenauge. Erhöht 3 Runden lang eigenen ANG und Präzision."
+      "value": "Verstärkt Drachenbrut zu Drachenauge. Erhöht 3 Runden lang eigenen ANG und Präzision, wirkt Protes und zusätzliche Effekte: Erhöht kritische Trefferrate und erhöht Reaktionsblockrate erheblich, während Protes aktiv ist."
     },
     {
       "key": "SK_LW_EC_DRG_C_10B",
-      "value": "Erhöht 3 Runden lang eigenen ANG und Präzision."
+      "value": "Erhöht 3 Runden lang eigenen ANG und Präzision, wirkt Protes und zusätzliche Effekte: Erhöht kritische Trefferrate und erhöht Reaktionsblockrate erheblich, während Protes aktiv ist."
     },
     {
       "key": "SK_LW_EC_DRG_A_06",
@@ -13886,19 +13954,19 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_11",
-      "value": "Verstärkt Horizontalsprung zu Bannender Sprung. Visiert Ziel an. Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu und entfernt bei kritischem Treffer alle Stärkungen."
+      "value": "Verstärkt Horizontalsprung zu Bannender Sprung. Visiert Ziel an. Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu, senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1) und entfernt bei kritischem Treffer alle Stärkungen."
     },
     {
       "key": "SK_LW_EC_DRG_C_11B",
-      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu und entfernt bei kritischem Treffer alle Stärkungen."
+      "value": "Fügt nach auf Sprung folgender Verzögerung dem Ziel Schaden (L) zu, senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1) und entfernt bei kritischem Treffer alle Stärkungen."
     },
     {
       "key": "SK_LW_EC_DRG_C_12",
-      "value": "Verstärkt LP-Erhöhung Stufe 1 zu Scharflanzen-Meisterschaft. Erhöht LP-Maximum, Kritische Trefferrate und Ausweichrate."
+      "value": "Verstärkt Dragonerkenntnisse zu Scharflanzen-Meisterschaft. Erhöht LP-Maximum, Heilkraft, Kritische Trefferrate und Ausweichrate."
     },
     {
       "key": "SK_LW_EC_DRG_C_12B",
-      "value": "Erhöht LP-Maximum, Kritische Trefferrate und Ausweichrate."
+      "value": "Erhöht LP-Maximum, Heilkraft, Kritische Trefferrate und Ausweichrate."
     },
     {
       "key": "SK_LW_EC_BLM_A_01_ICE",
@@ -14642,19 +14710,19 @@
     },
     {
       "key": "SK_LW_EC_THI_C_02",
-      "value": "Verstärkt Schleichangriff zu Schattenlose Attacke. Fügt dem Ziel Schaden (L) zu und senkt bei Attacke von hinten ABW, bevor Schaden zugefügt wird, und garantiert kritischen Treffer. "
+      "value": "Verstärkt Schleichangriff zu Schattenlose Attacke. Fügt dem Ziel Schaden (L) zu, senkt vor dem Angriff Schlitzresistenz und ABW, wenn von hinten ausgeführt, und garantiert kritischen Treffer."
     },
     {
       "key": "SK_LW_EC_THI_C_02B",
-      "value": "Fügt dem Ziel Schaden (L) zu und senkt bei Attacke von hinten ABW, bevor Schaden zugefügt wird, und garantiert kritischen Treffer. "
+      "value": "Fügt dem Ziel Schaden (L) zu, senkt vor dem Angriff Schlitzresistenz und ABW, wenn von hinten ausgeführt, und garantiert kritischen Treffer."
     },
     {
       "key": "SK_LW_EC_THI_C_05",
-      "value": "Verstärkt Schleichangriff zu Hinterhalt. Fügt dem Ziel Schaden (L) zu, senkt 3 Runden lang Kritische Ausweichrate und garantiert bei Attacke von hinten kritischen Treffer."
+      "value": "Verstärkt Schleichangriff zu Hinterhalt. Fügt dem Ziel Schaden (L) zu, senkt 3 Runden lang Kritische Ausweichrate und senkt vor dem Angriff Schlitzresistenz, wenn von hinten ausgeführt, und garantiert kritischen Treffer."
     },
     {
       "key": "SK_LW_EC_THI_C_05B",
-      "value": "Fügt dem Ziel Schaden (L) zu, senkt 3 Runden lang Kritische Ausweichrate und garantiert bei Attacke von hinten kritischen Treffer."
+      "value": "Fügt dem Ziel Schaden (L) zu, senkt 3 Runden lang Kritische Ausweichrate und senkt vor dem Angriff Schlitzresistenz, wenn von hinten ausgeführt, und garantiert kritischen Treffer."
     },
     {
       "key": "SK_LW_EC_THI_C_06",
@@ -14674,7 +14742,7 @@
     },
     {
       "key": "SK_LW_EC_THI_C_03B",
-      "value": "Gewährt Chance auf Wirken von 3 Runden andauernder Betörung."
+      "value": "Gewährt Chance auf Wirken von 3 Runden andauernder Betörung auf Ziel und zusätzlicher Effekt: Senkt Bereichangriffsresistenz, solange Betörung aktiv ist."
     },
     {
       "key": "SK_LW_EC_THI_C_04",
@@ -14703,66 +14771,6 @@
     {
       "key": "SK_LW_EC_VIK_C_04B",
       "value": "Erhöht 3 Runden lang eigenen ANG, ABW und AGI und senkt Ausweichrate."
-    },
-    {
-      "key": "SK_LW_EC_DRG_A_02",
-      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3-mal magischen Schaden reduziert."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_03",
-      "value": "Verstärkt Vertikalsprung zu Verwirrtaucher. Erhöht Reichweite. Fügt dem Ziel nach auf Sprung folgender Verzögerung Schaden (XL) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Konfus."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_03B",
-      "value": "Fügt dem Ziel nach auf Sprung folgender Verzögerung Schaden (XL) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Konfus."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_04",
-      "value": "Verstärkt LP erhöht: Stufe 1 zu Meister der Satanslanze. Erhöht LP-Maximum und ABW-Durchbohrrate."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_04B",
-      "value": "Erhöht LP-Maximum und ABW-Durchbohrrate."
-    },
-    {
-      "key": "SK_LW_EC_DRG_A_03",
-      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (M) zu und gewährt Chance auf Wirken von Erfrierung nach Bewegung auf Zielfeld."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_05",
-      "value": "Verstärkt Horizontalsprung zu Schmettertaucher. Erhöht Reichweitenhöhe. Senkt 3 Runden lang ABW des Ziels und fügt dem Ziel anschließend nach auf Sprung folgender Verzögerung Schaden (L) zu."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_05B",
-      "value": "Senkt 3 Runden lang ABW des Ziels und fügt anschließend nach auf Sprung folgender Verzögerung Schaden (L) zu."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_06",
-      "value": "Verstärkt Drachenklinge zu Drachenzähne. Erhöht Reichweite. Gewährt bei Erleiden von Schaden Chance auf Konter, absorbiert verursachten Schaden, senkt AP und heilt eigene AP."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_06B",
-      "value": "Gewährt bei Erleiden von Schaden Chance auf Konter, absorbiert verursachten Schaden, senkt AP und heilt eigene AP."
-    },
-    {
-      "key": "SK_LW_EC_DRG_A_04",
-      "value": "Zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite nach auf Sprung folgender Verzögerung Schaden (L) zu und bricht Fähigkeitenaktivierung ab. "
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_07",
-      "value": "Verstärkt Horizontalsprung zu Stiller Sprung. Erhöht Reichweitenhöhe. Fügt Ziel nach auf Sprung folgender Verzögerung Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauernder Stille."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_07B",
-      "value": "Fügt Ziel nach auf Sprung folgender Verzögerung Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauernder Stille."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_08",
-      "value": "Verstärkt Drachenbrut zu Drachenmacht. Erhöht 3 Runden lang eigene ANG/PSY und erhöht AZ (S)."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_08B",
-      "value": "Erhöht 3 Runden lang eigene ANG/PSY und erhöht AZ (S)."
     },
     {
       "key": "SK_LW_EC_NIN_A_01_SOIL",
@@ -14986,7 +14994,7 @@
     },
     {
       "key": "SK_LW_EC_MST_A_01",
-      "value": "Erhöht 3 Runden lang eigenen Magieangriff und ABW und reduziert 3 Runden lang AP-Verbrauch."
+      "value": "Erhöht 3 Runden lang eigenen Magieangriff und ABW, reduziert AP-Verbrauch und lässt einen Teil des erlittenen LP-Schadens absorbieren."
     },
     {
       "key": "SK_LW_EC_MST_C_01",
@@ -15735,6 +15743,10 @@
     {
       "key": "SK_MA_LW_IRDL",
       "value": "PSY +5, Bereichsangriffsresistenz +10"
+    },
+    {
+      "key": "SK_MA_LW_IRDL_2",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene PSY +5, Bereichangriffsresistenz +15, Heilkraft +20 und Hass -3."
     },
     {
       "key": "SK_MA_LW_STRN_01",
@@ -22441,6 +22453,54 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_PRNE_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_PRNE_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_PRNE_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_PRNE_P2MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_ADSN_MV2_GS",
       "value": ""
     },
@@ -27053,6 +27113,10 @@
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
     {
+      "key": "SK_BTL_REACTSTP_1_100_U",
+      "value": "Fähigkeit zur Auftragsausbalancierung"
+    },
+    {
       "key": "SK_BTL_JOB_THI_1_15_U",
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
@@ -27215,6 +27279,10 @@
     {
       "key": "SK_GMK_SLEEP_2",
       "value": "Wirkt Schlaf auf Ziele in Reichweite."
+    },
+    {
+      "key": "SK_GMK_ATK_STON",
+      "value": "Fallender Stalaktit"
     },
     {
       "key": "SK_LW_WAR_P_2",
@@ -29521,6 +29589,14 @@
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {
+      "key": "SK_LW_PLUS6_RES_SPEAR_15",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_MMANKR_10",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -30427,6 +30503,66 @@
     {
       "key": "SK_WYVN_M_03",
       "value": "Fügt Zielen in Reichweite Schaden (L) zu."
+    },
+    {
+      "key": "SK_PBMF_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PBMF_M_01",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Konfus."
+    },
+    {
+      "key": "SK_PBMF_M_02",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauernder Erfrierung."
+    },
+    {
+      "key": "SK_PBMF_M_03",
+      "value": "Erhöht 3 Runden lang eigene MAG und wirkt Vallum."
+    },
+    {
+      "key": "SK_PBMF_R_01",
+      "value": "Gewährt Chance auf Reduzierung magischen Schadens."
+    },
+    {
+      "key": "SK_PBMW_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PBMW_M_01",
+      "value": "Fügt dem Ziel Schaden (S) zu und senkt 3 Runden lang ABW."
+    },
+    {
+      "key": "SK_PBMW_M_02",
+      "value": "Zerstört nach Bewegung auf Zielfeld Barrieren von Zielen in Reichweite und fügt anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_PBMW_M_03",
+      "value": "Erhöht 3 Runden lang eigenen ANG und wirkt Protes."
+    },
+    {
+      "key": "SK_PBMW_R_01",
+      "value": "Gewährt Chance auf Reduzierung physischen Angriffsschadens."
+    },
+    {
+      "key": "SK_KMNT_ATK",
+      "value": "Fügt dem Ziel Schaden zu."
+    },
+    {
+      "key": "SK_KMNT_M_01",
+      "value": "Fügt dem Ziel nach Bewegung Schaden (S) zu, absorbiert Teil des verursachten Schadens und gewährt Chance auf Wirken von 1 Runde andauernder Betäubung."
+    },
+    {
+      "key": "SK_KMNT_M_02",
+      "value": "Wirkt 3 Runden andauernde Immobilisierung auf Gegner und senkt ANG und ABW erheblich, während Immobilisierung aktiv ist."
+    },
+    {
+      "key": "SK_KMNT_M_03",
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (M) zu, mit hoher Wahrscheinlichkeit auf kritische Treffer."
+    },
+    {
+      "key": "SK_KMNT_R_01",
+      "value": "Gewährt bei Erleiden von Schaden Chance, 3 Runden langen eigenen ANG und Kritischen Schaden zu erhöhen."
     }
   ]
 }

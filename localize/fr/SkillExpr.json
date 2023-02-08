@@ -666,15 +666,15 @@
     },
     {
       "key": "SK_LW_THI_M_3",
-      "value": "Inflige des dégâts (M) à la cible avec une chance de lui voler un objet."
+      "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (M), réduit les PA, restaure les PA et confère une chance de voler un objet."
     },
     {
       "key": "SK_LW_THI_M_4",
-      "value": "Inflige des dégâts (L) à la cible avec coup critique garanti si l'attaque est portée par derrière."
+      "value": "Inflige des dégâts (L) à la cible, et réduit la résistance aux attaques tranchantes avant d'infliger des dégâts avec coup critique garanti si l'attaque est portée par derrière."
     },
     {
       "key": "SK_LW_THI_S_3",
-      "value": "Confère une chance d'infliger Charme à la cible pendant 3 tours."
+      "value": "Confère une chance d'infliger Charme à la cible pendant 3 tours et accorde un effet additionnel : réduit la résistance aux attaques de zone pendant l'effet de Charme."
     },
     {
       "key": "SK_LW_THI_M_1_INIT",
@@ -686,7 +686,7 @@
     },
     {
       "key": "SK_LW_THI_S_2",
-      "value": "Augmente le taux d'esquive du lanceur pendant 3 tours."
+      "value": "Augmente le taux d'esquive du lanceur et le taux de blocage de réaction pendant 3 tours."
     },
     {
       "key": "SK_LW_THI_S_4",
@@ -710,15 +710,15 @@
     },
     {
       "key": "SK_LW_THI_M_3_SUB",
-      "value": "Inflige des dégâts (M) à la cible avec une chance de lui voler un objet."
+      "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (M), réduit les PA, restaure les PA et confère une chance de voler un objet."
     },
     {
       "key": "SK_LW_THI_M_4_SUB",
-      "value": "Inflige des dégâts (L) à la cible avec coup critique garanti si l'attaque est portée par derrière."
+      "value": "Inflige des dégâts (L) à la cible, et réduit la résistance aux attaques tranchantes avant d'infliger des dégâts avec coup critique garanti si l'attaque est portée par derrière."
     },
     {
       "key": "SK_LW_THI_S_3_SUB",
-      "value": "Confère une chance d'infliger Charme à la cible pendant 3 tours."
+      "value": "Confère une chance d'infliger Charme à la cible pendant 3 tours et accorde un effet additionnel : réduit la résistance aux attaques de zone pendant l'effet de Charme."
     },
     {
       "key": "SK_LW_THI_M_1",
@@ -910,15 +910,15 @@
     },
     {
       "key": "SK_LW_DRG_S_3",
-      "value": "Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai."
+      "value": "Réduit le taux d'esquive de la cible pendant 3 tours, puis fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai."
     },
     {
       "key": "SK_LW_DRG_S_4",
-      "value": "Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai."
+      "value": "Fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai et réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1)."
     },
     {
       "key": "SK_LW_DRG_M_4",
-      "value": "Fait Sauter le lanceur et inflige des dégâts (M) aux unités dans la zone ciblée après un délai."
+      "value": "Fait Sauter le lanceur puis inflige des dégâts (M) aux unités dans la zone ciblée après un délai, et réduit considérablement les compétences de soin pendant 3 tours en cas de Coup critique."
     },
     {
       "key": "SK_LW_DRG_S_1_INIT",
@@ -926,7 +926,7 @@
     },
     {
       "key": "SK_LW_DRG_M_3_INIT",
-      "value": "Augmente l'ATT du lanceur pendant 3 tours."
+      "value": "Augmente l'ATT du lanceur pendant 3 tours, accorde Bouclier et des effets additionnels : augmente le taux de coup critique et augmente considérablement le taux de blocage de réaction pendant l'effet de Bouclier."
     },
     {
       "key": "SK_LW_DRG_M_1",
@@ -946,19 +946,19 @@
     },
     {
       "key": "SK_LW_DRG_P_2",
-      "value": "Augmente les PV max."
+      "value": "Augmente les PV max et les compétences de soin."
     },
     {
       "key": "SK_LW_DRG_S_3_SUB",
-      "value": "Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai."
+      "value": "Réduit le taux d'esquive de la cible pendant 3 tours, puis fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai."
     },
     {
       "key": "SK_LW_DRG_S_4_SUB",
-      "value": "Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai."
+      "value": "Fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai et réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1)."
     },
     {
       "key": "SK_LW_DRG_M_4_SUB",
-      "value": "Fait Sauter le lanceur et inflige des dégâts (M) aux unités dans la zone ciblée après un délai."
+      "value": "Fait Sauter le lanceur puis inflige des dégâts (M) aux unités dans la zone ciblée après un délai, et réduit considérablement les compétences de soin pendant 3 tours en cas de Coup critique."
     },
     {
       "key": "SK_LW_DRG_S_1",
@@ -966,7 +966,7 @@
     },
     {
       "key": "SK_LW_DRG_M_3",
-      "value": "Augmente l'ATT du lanceur pendant 3 tours."
+      "value": "Augmente l'ATT du lanceur pendant 3 tours, accorde Bouclier et des effets additionnels : augmente le taux de coup critique et augmente considérablement le taux de blocage de réaction pendant l'effet de Bouclier."
     },
     {
       "key": "SK_LW_HUN_ATK",
@@ -2718,7 +2718,7 @@
     },
     {
       "key": "SK_LW_MST_M_2",
-      "value": "Érige une barrière autour du lanceur qui réduit les dégâts physiques (3 fois)."
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts physiques (3 fois), et augmente la résistance aux attaques à cible unique pendant 3 tours."
     },
     {
       "key": "SK_LW_MST_M_3",
@@ -2726,35 +2726,35 @@
     },
     {
       "key": "SK_LW_MST_FIRE_S_1_INIT",
-      "value": "Inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_ICE_S_1_INIT",
-      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_WIND_S_1_INIT",
-      "value": "Inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_THUN_S_1_INIT",
-      "value": "Inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_WATR_S_1_INIT",
-      "value": "Inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_SOIL_S_1_INIT",
-      "value": "Inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_SHIN_S_1_INIT",
-      "value": "Inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_DARK_S_1_INIT",
-      "value": "Inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_S_2_INIT",
@@ -2782,7 +2782,7 @@
     },
     {
       "key": "SK_LW_MST_P_2",
-      "value": "Augmente la DEF"
+      "value": "Augmente la DEF et la résistance aux attaques projectiles."
     },
     {
       "key": "SK_LW_MST_M_1_SUB",
@@ -2790,7 +2790,7 @@
     },
     {
       "key": "SK_LW_MST_M_2_SUB",
-      "value": "Érige une barrière autour du lanceur qui réduit les dégâts physiques (3 fois)."
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts physiques (3 fois), et augmente la résistance aux attaques à cible unique pendant 3 tours."
     },
     {
       "key": "SK_LW_MST_M_3_SUB",
@@ -2798,35 +2798,35 @@
     },
     {
       "key": "SK_LW_MST_FIRE_S_1",
-      "value": "Inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_ICE_S_1",
-      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_WIND_S_1",
-      "value": "Inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_THUN_S_1",
-      "value": "Inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_WATR_S_1",
-      "value": "Inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_SOIL_S_1",
-      "value": "Inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_SHIN_S_1",
-      "value": "Inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_DARK_S_1",
-      "value": "Inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance de réduire la CT (S)."
+      "value": "Inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur à la cible et réduit la jauge de CT (S)."
     },
     {
       "key": "SK_LW_MST_S_2",
@@ -3042,75 +3042,75 @@
     },
     {
       "key": "SK_LW_CAL_M_1",
-      "value": "Inflige des dégâts de lumière (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont la hauteur est un multiple de 3."
+      "value": "Inflige des dégâts de lumière (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont la hauteur est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_M_1_B",
-      "value": "Inflige des dégâts de lumière (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont la hauteur est un multiple de 2."
+      "value": "Inflige des dégâts de lumière (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont la hauteur est un multiple de 2."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2",
-      "value": "Inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2_B",
-      "value": "Inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2",
-      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2_B",
-      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2",
-      "value": "Inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2_B",
-      "value": "Inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2",
-      "value": "Inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2_B",
-      "value": "Inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2",
-      "value": "Inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2_B",
-      "value": "Inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2",
-      "value": "Inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2_B",
-      "value": "Inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2",
-      "value": "Inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2_B",
-      "value": "Inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2",
-      "value": "Inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2_B",
-      "value": "Inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_M_3",
@@ -3246,75 +3246,75 @@
     },
     {
       "key": "SK_LW_CAL_M_1_SUB",
-      "value": "Inflige des dégâts de lumière (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont la hauteur est un multiple de 3."
+      "value": "Inflige des dégâts de lumière (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont la hauteur est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_M_1_B_SUB",
-      "value": "Inflige des dégâts de lumière (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont la hauteur est un multiple de 2."
+      "value": "Inflige des dégâts de lumière (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont la hauteur est un multiple de 2."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2_SUB",
-      "value": "Inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_FIRE_M_2_B_SUB",
-      "value": "Inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de feu (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2_SUB",
-      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_ICE_M_2_B_SUB",
-      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2_SUB",
-      "value": "Inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_WIND_M_2_B_SUB",
-      "value": "Inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de vent (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2_SUB",
-      "value": "Inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_SOIL_M_2_B_SUB",
-      "value": "Inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2_SUB",
-      "value": "Inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_THUN_M_2_B_SUB",
-      "value": "Inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de foudre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2_SUB",
-      "value": "Inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_WATER_M_2_B_SUB",
-      "value": "Inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts d'eau (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2_SUB",
-      "value": "Inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_SHIN_M_2_B_SUB",
-      "value": "Inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de lumière (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2_SUB",
-      "value": "Inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
     },
     {
       "key": "SK_LW_CAL_DARK_M_2_B_SUB",
-      "value": "Inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts d'ombre (S) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
     },
     {
       "key": "SK_LW_CAL_M_3_SUB",
@@ -8410,7 +8410,7 @@
     },
     {
       "key": "SK_LW_BNI_M_1_SUB",
-      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Poison pendant 3 tours et plus le nombre de fois que le lanceur subit des dégâts est faible plus les chances augmente."
+      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Poison pendant 3 tours et plus le nombre de fois que le lanceur subit des dégâts est faible plus les chances augmentent."
     },
     {
       "key": "SK_LW_BNI_M_2",
@@ -9330,19 +9330,15 @@
     },
     {
       "key": "SK_LW_RAB_M_1",
-      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups."
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups et réduit considérablement les compétences de soin pendant 3 tours."
     },
     {
       "key": "SK_LW_RAB_M_2",
-      "value": "Augmente la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 3 tours, et accorde la restauration de PA au lanceur lors d'un coup critique pendant 3 tours."
-    },
-    {
-      "key": "SK_LW_RAB_M_2_SUB",
-      "value": "Augmente la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 3 tours, et accorde la restauration de PA lors d'un coup critique au lanceur pendant 3 tours."
+      "value": "Augmente la résistance aux attaques de zone et le taux de coup critique des alliés dans la zone autour du lanceur pendant 3 tours, et accorde une restauration de PA au lanceur lors d'un coup critique pendant 3 tours."
     },
     {
       "key": "SK_LW_RAB_M_3",
-      "value": "Inflige des dégâts (M) aux cibles dans la zone autour du lanceur avec une chance élevée d'infliger un coup critique, et réduit considérablement le taux de coup critique pendant 3 tours."
+      "value": "Inflige des dégâts (M) aux ennemis dans la zone autour du lanceur avec une chance élevée d'infliger un coup critique, réduit considérablement le taux de coup critique pendant 3 tours et réduit le taux de précision pendant 1 tour en cas de Coup critique."
     },
     {
       "key": "SK_LW_RAB_S_1_INIT",
@@ -9382,19 +9378,27 @@
     },
     {
       "key": "SK_LW_RAB_M_1_SUB",
-      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups."
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups et réduit considérablement les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_RAB_M_2_SUB",
+      "value": "Augmente la résistance aux attaques de zone et le taux de coup critique des alliés dans la zone autour du lanceur pendant 3 tours, et accorde une restauration de PA au lanceur lors d'un coup critique pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_RAB_M_3_SUB",
+      "value": "Inflige des dégâts (M) aux ennemis dans la zone autour du lanceur avec une chance élevée d'infliger un coup critique, réduit considérablement le taux de coup critique pendant 3 tours et réduit le taux de précision pendant 1 tour en cas de Coup critique."
     },
     {
       "key": "SK_LW_EC_RAB_A_01",
-      "value": "Augmente la résistance aux attaques perçantes et magiques du lanceur pendant 3 tours."
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et augmente la résistance aux attaques perçantes et la résistance aux attaques magiques du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_RAB_C_01",
-      "value": "Améliore Lacération rapide en Lacération aspirante. Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups et absorbe une partie des dégâts infligés."
+      "value": "Améliore Lacération rapide en Lacération aspirante. Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups, réduit considérablement les compétences de soin pendant 3 tours et absorbe une partie des dégâts infligés."
     },
     {
       "key": "SK_LW_EC_RAB_C_01B",
-      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups et absorbe une partie des dégâts infligés."
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups, réduit considérablement les compétences de soin pendant 3 tours et absorbe une partie des dégâts infligés."
     },
     {
       "key": "SK_LW_EC_RAB_C_02",
@@ -9410,11 +9414,11 @@
     },
     {
       "key": "SK_LW_EC_RAB_C_03",
-      "value": "Améliore Lacération rapide en Lacération brisante. Dissipe Bouclier de la cible, détruit toute barrière réduisant les dégâts physiques autour d'elle, réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups."
+      "value": "Améliore Lacération rapide en Lacération brisante. Dissipe Bouclier de la cible, détruit toute barrière réduisant les dégâts physiques autour d'elle, réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups et réduit considérablement les compétences de soin pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_RAB_C_03B",
-      "value": "Dissipe Bouclier de la cible, détruit toute barrière réduisant les dégâts physiques autour d'elle, réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups."
+      "value": "Dissipe Bouclier de la cible, détruit toute barrière réduisant les dégâts physiques autour d'elle, réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups et réduit considérablement les compétences de soin pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_RAB_C_04",
@@ -9441,6 +9445,18 @@
       "value": "Augmente le taux de perforation de la PSY du lanceur, puis inflige des dégâts de vent (M) d'une grande précision qui dépendent de la MAGIE du lanceur à la cible, et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
     },
     {
+      "key": "SK_LW_EC_CAL_C_03",
+      "value": "Améliore Vent X niv. 4 en Vent X niv. 4 [Métamagik]. Améliore la portée. Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige aux unités ciblées des dégâts de vent (M) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
+    },
+    {
+      "key": "SK_LW_EC_CAL_C_03B",
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de vent (M) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 4."
+    },
+    {
+      "key": "SK_LW_EC_CAL_C_03B_B",
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de vent (M) qui dépendent de la MAGIE du lanceur et augmente l'efficacité contre les unités dont le niveau est un multiple de 3."
+    },
+    {
       "key": "SK_LW_EC_CAL_C_01",
       "value": "Améliore Soin + [H. 3] en Soin max [H. 3]. Restaure les PV (M) des alliés dans la zone ciblée et augmente les effets sur les cibles dont la hauteur est un multiple de 3."
     },
@@ -9459,18 +9475,6 @@
     {
       "key": "SK_LW_EC_CAL_C_02B",
       "value": "Augmente la résistance aux attaques de zone, et remplace les aptitudes du lanceur qui visent hauteur 3 par hauteur 2 uniquement pendant le combat."
-    },
-    {
-      "key": "SK_LW_EC_CAL_C_03",
-      "value": "Améliore Vent X niv. 4 en Vent X niv. 4 [Métamagik]. Améliore la portée. Inflige des dégâts de vent (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
-    },
-    {
-      "key": "SK_LW_EC_CAL_C_03B",
-      "value": "Inflige des dégâts de vent (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 4."
-    },
-    {
-      "key": "SK_LW_EC_CAL_C_03B_B",
-      "value": "Inflige des dégâts de vent (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente l'efficacité contre les cibles dont le niveau d'unité est un multiple de 3."
     },
     {
       "key": "SK_LW_EC_CAL_C_04",
@@ -12349,6 +12353,10 @@
       "value": "Inflige des dégâts (M) en 4 coups à la cible et réduit considérablement la jauge de CT."
     },
     {
+      "key": "SK_EURP_M_04_GR",
+      "value": "Inflige des dégâts (M) en 4 coups à la cible."
+    },
+    {
       "key": "SK_EURP_M_05",
       "value": "Détruit toute barrière érigée autour des unités dans la zone ciblée, puis inflige des dégâts (XL) avec coup garanti."
     },
@@ -13846,19 +13854,79 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_01",
-      "value": "Améliore Saut horizontal en Saut précis. Améliore la portée et permet de verrouiller la cible. Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai."
+      "value": "Améliore Saut horizontal en Saut précis. Améliore la portée et Cible verrouillée."
     },
     {
       "key": "SK_LW_EC_DRG_C_01B",
-      "value": "Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai."
+      "value": "Fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai et réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1)."
     },
     {
       "key": "SK_LW_EC_DRG_C_02",
-      "value": "Améliore Famille draconique en Écaille de dragon. Augmente l'ATT et la DEF du lanceur pendant 3 tours."
+      "value": "Améliore Famille draconique en Écaille de dragon. Augmente l'ATT et la DEF du lanceur pendant 3 tours, accorde Bouclier et des effets additionnels : augmente le taux de coup critique et augmente considérablement le taux de blocage de réaction pendant l'effet de Bouclier."
     },
     {
       "key": "SK_LW_EC_DRG_C_02B",
-      "value": "Augmente l'ATT et la DEF du lanceur pendant 3 tours."
+      "value": "Augmente l'ATT et la DEF du lanceur pendant 3 tours, accorde Bouclier et des effets additionnels : augmente le taux de coup critique et augmente considérablement le taux de blocage de réaction pendant l'effet de Bouclier."
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_02",
+      "value": "Érige une barrière autour du lanceur qui réduit considérablement les dégâts magiques (3 fois)."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_03",
+      "value": "Améliore Saut vertical en Sème-confusion. Augmente la portée. Réduit le taux d'esquive de la cible pendant 3 tours, puis fait Sauter le lanceur et inflige des dégâts (XL) à la cible après un délai, et confère une chance d'infliger Confusion pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_03B",
+      "value": "Augmente la portée. Réduit le taux d'esquive de la cible pendant 3 tours, puis fait Sauter le lanceur et inflige des dégâts (XL) à la cible après un délai, et confère une chance d'infliger Confusion pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_04",
+      "value": "Améliore Voie du dragonnier en Maîtrise du déferlement céleste. Augmente les PV max, les compétences de soin et le taux de perforation de la DEF."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_04B",
+      "value": "Augmente les PV max, les compétences de soin et le taux de perforation de la DEF."
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_03",
+      "value": "Après déplacement jusqu'à la case ciblée, inflige des dégâts (M) aux ennemis dans la zone autour du lanceur et confère une chance d'infliger Gelure pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_05",
+      "value": "Améliore Saut horizontal en Chute libre fracassante. Améliore la hauteur de la portée. Réduit la DEF de la cible pendant 3 tours, puis fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai et réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1)."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_05B",
+      "value": "Améliore la hauteur de la portée. Réduit la DEF de la cible pendant 3 tours, puis fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai et réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1)."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_06",
+      "value": "Améliore Lame draconique en Dent du dragon. Améliore la portée. Confère une chance de contre-attaquer lorsque des dégâts sont subis, absorbe les dégâts infligés, réduit les PA et restaure les PA du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_06B",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis, absorbe les dégâts infligés, réduit les PA et restaure les PA du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_04",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis fait Sauter le lanceur pour infliger des dégâts (L) aux unités dans la zone ciblée après un délai et annule l'activation des aptitudes. "
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_07",
+      "value": "Améliore Saut horizontal en Réduit au silence. Améliore la hauteur de la portée. Fait Sauter le lanceur et inflige des dégâts (L) à la cible après un délai, réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1), et confère une chance d'infliger Silence pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_07B",
+      "value": "Fait Sauter le lanceur et inflige des dégâts (L) à la cible après un délai, réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1), et confère une chance d'infliger Silence pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_08",
+      "value": "Améliore Famille draconique en Puissance du dragon. Augmente la jauge de CT (S) du lanceur, augmente son ATT et sa PSY pendant 3 tours, accorde Bouclier et des effets additionnels : augmente le taux de coup critique et augmente considérablement le taux de blocage de réaction pendant l'effet de Bouclier."
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_08B",
+      "value": "Augmente la jauge de CT (S) du lanceur, augmente son ATT et sa PSY pendant 3 tours, accorde Bouclier et des effets additionnels : augmente le taux de coup critique et augmente considérablement le taux de blocage de réaction pendant l'effet de Bouclier."
     },
     {
       "key": "SK_LW_EC_DRG_A_05",
@@ -13866,19 +13934,19 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_09",
-      "value": "Améliore Plongeon draconique en Plongeon anti-barrière. Fait Sauter le lanceur puis détruit toute barrière réduisant les dégâts physiques érigée autour des unités dans la zone ciblée après un délai, puis inflige des dégâts (M)."
+      "value": "Améliore Plongeon draconique en Plongeon anti-barrière. Fait Sauter le lanceur puis détruit toute barrière réduisant les dégâts physiques érigée autour des unités dans la zone ciblée après un délai, puis inflige des dégâts (M) et réduit considérablement les compétences de soin pendant 3 tours en cas de Coup critique."
     },
     {
       "key": "SK_LW_EC_DRG_C_09B",
-      "value": "Fait Sauter le lanceur puis détruit toute barrière réduisant les dégâts physiques érigée autour des unités dans la zone ciblée après un délai, puis inflige des dégâts (M)."
+      "value": "Fait Sauter le lanceur puis détruit toute barrière réduisant les dégâts physiques érigée autour des unités dans la zone ciblée après un délai, puis inflige des dégâts (M) et réduit considérablement les compétences de soin pendant 3 tours en cas de Coup critique."
     },
     {
       "key": "SK_LW_EC_DRG_C_10",
-      "value": "Améliore Famille draconique en Œil du dragon. Augmente l'ATT du lanceur et le taux de précision pendant 3 tours."
+      "value": "Améliore Famille draconique en Œil du dragon. Augmente l'ATT et le taux de précision du lanceur pendant 3 tours, accorde Bouclier et des effets additionnels : augmente le taux de coup critique et augmente considérablement le taux de blocage de réaction pendant l'effet de Bouclier."
     },
     {
       "key": "SK_LW_EC_DRG_C_10B",
-      "value": "Augmente l'ATT et le taux de précision du lanceur pendant 3 tours."
+      "value": "Augmente l'ATT et le taux de précision du lanceur pendant 3 tours, accorde Bouclier et des effets additionnels : augmente le taux de coup critique et augmente considérablement le taux de blocage de réaction pendant l'effet de Bouclier."
     },
     {
       "key": "SK_LW_EC_DRG_A_06",
@@ -13886,19 +13954,19 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_11",
-      "value": "Améliore Saut horizontal en Saut de dissipation. Cible verrouillée. Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai, et dissipe tous les bonus en cas de Coup critique."
+      "value": "Améliore Saut horizontal en Saut de dissipation. Cible verrouillée. Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai, réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1), et dissipe tous les bonus en cas de Coup critique."
     },
     {
       "key": "SK_LW_EC_DRG_C_11B",
-      "value": "Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai, et dissipe tous les bonus en cas de Coup critique."
+      "value": "Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai, réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1), et dissipe tous les bonus en cas de Coup critique."
     },
     {
       "key": "SK_LW_EC_DRG_C_12",
-      "value": "Améliore PV ↑ Niv. 1 en Maîtrise de la lance affilée. Augmente les PV max, le taux de coup critique et le taux d'esquive."
+      "value": "Améliore Voie du dragonnier en Maîtrise de la lance affilée. Augmente les PV max, les compétences de soin, le taux de coup critique et le taux d'esquive."
     },
     {
       "key": "SK_LW_EC_DRG_C_12B",
-      "value": "Augmente les PV max, le taux de coup critique et le taux d'esquive."
+      "value": "Augmente les PV max, les compétences de soin, le taux de coup critique et le taux d'esquive."
     },
     {
       "key": "SK_LW_EC_BLM_A_01_ICE",
@@ -14642,19 +14710,19 @@
     },
     {
       "key": "SK_LW_EC_THI_C_02",
-      "value": "Améliore Attaque furtive en Coup hâtif. Inflige des dégâts (L) à la cible, et réduit la DEF avant d'infliger des dégâts avec coup critique garanti si l'attaque est portée par derrière."
+      "value": "Améliore Attaque furtive en Coup hâtif. Inflige des dégâts (L) à la cible, et réduit la résistance aux attaques tranchantes et la DEF avant d'infliger des dégâts avec coup critique garanti si l'attaque est portée par derrière."
     },
     {
       "key": "SK_LW_EC_THI_C_02B",
-      "value": "Inflige des dégâts (L) à la cible, et réduit la DEF avant d'infliger des dégâts avec coup critique garanti si l'attaque est portée par derrière."
+      "value": "Inflige des dégâts (L) à la cible, et réduit la résistance aux attaques tranchantes et la DEF avant d'infliger des dégâts avec coup critique garanti si l'attaque est portée par derrière."
     },
     {
       "key": "SK_LW_EC_THI_C_05",
-      "value": "Améliore Attaque furtive en Attaque surprise. Inflige des dégâts (L) à la cible, réduit le taux d'esquive critique pendant 3 tours et Coup critique garanti si l'attaque est portée par derrière."
+      "value": "Améliore Attaque furtive en Attaque surprise. Inflige des dégâts (L) à la cible, réduit le taux d'esquive critique pendant 3 tours, et réduit la résistance aux attaques tranchantes avant d'infliger des dégâts avec coup critique garanti si l'attaque est portée par derrière."
     },
     {
       "key": "SK_LW_EC_THI_C_05B",
-      "value": "Inflige des dégâts (L) à la cible, réduit le taux d'esquive critique pendant 3 tours et Coup critique garanti si l'attaque est portée par derrière."
+      "value": "Inflige des dégâts (L) à la cible, réduit le taux d'esquive critique pendant 3 tours, et réduit la résistance aux attaques tranchantes avant d'infliger des dégâts avec coup critique garanti si l'attaque est portée par derrière."
     },
     {
       "key": "SK_LW_EC_THI_C_06",
@@ -14674,7 +14742,7 @@
     },
     {
       "key": "SK_LW_EC_THI_C_03B",
-      "value": "Confère une chance d'infliger Charme à la cible pendant 3 tours."
+      "value": "Confère une chance d'infliger Charme à la cible pendant 3 tours et accorde un effet additionnel : réduit la résistance aux attaques de zone pendant l'effet de Charme."
     },
     {
       "key": "SK_LW_EC_THI_C_04",
@@ -14703,66 +14771,6 @@
     {
       "key": "SK_LW_EC_VIK_C_04B",
       "value": "Augmente l'ATT, la DEF et l'AGI du lanceur pendant 3 tours, et réduit le taux d'esquive."
-    },
-    {
-      "key": "SK_LW_EC_DRG_A_02",
-      "value": "Érige une barrière autour du lanceur qui réduit les dégâts magiques (3 fois)."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_03",
-      "value": "Améliore Saut vertical en Sème-confusion. Augmente la portée. Fait Sauter le lanceur puis inflige des dégâts (XL) à la cible après un délai, et confère une chance d'infliger Confusion pendant 3 tours."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_03B",
-      "value": "Fait Sauter le lanceur puis inflige des dégâts (XL) à la cible après un délai, et confère une chance d'infliger Confusion pendant 3 tours."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_04",
-      "value": "Améliore PV ↑ Niv. 1 en Maîtrise du déferlement céleste. Augmente les PV max et le taux de perforation de la DEF."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_04B",
-      "value": "Augmente les PV max et le taux de perforation de la DEF."
-    },
-    {
-      "key": "SK_LW_EC_DRG_A_03",
-      "value": "Après déplacement jusqu'à la case ciblée, inflige des dégâts (M) aux cibles dans la zone autour du lanceur et confère une chance d'infliger Gelure."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_05",
-      "value": "Améliore Saut horizontal en Chute libre fracassante. Améliore la hauteur de la portée. Réduit la DEF de la cible pendant 3 tours, puis fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_05B",
-      "value": "Réduit la DEF de la cible pendant 3 tours, puis fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_06",
-      "value": "Améliore Lame draconique en Dent du dragon. Améliore la portée. Confère une chance de contre-attaquer lorsque des dégâts sont subis, absorbe les dégâts infligés, réduit les PA et restaure les PA du lanceur."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_06B",
-      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis, absorbe les dégâts infligés, réduit les PA et restaure les PA du lanceur."
-    },
-    {
-      "key": "SK_LW_EC_DRG_A_04",
-      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis fait Sauter le lanceur pour infliger des dégâts (L) aux unités dans la zone ciblée après un délai et annule l'activation des aptitudes. "
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_07",
-      "value": "Améliore Saut horizontal en Réduit au silence. Améliore la hauteur de la portée. Puis fait Sauter le lanceur et inflige des dégâts (L) à la cible après un délai, et confère une chance d'infliger Silence pendant 3 tours."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_07B",
-      "value": "Fait Sauter le lanceur puis inflige des dégâts (L) à la cible après un délai, et confère une chance d'infliger Silence pendant 3 tours."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_08",
-      "value": "Améliore Famille draconique en Puissance du dragon. Augmente l'ATT et la PSY du lanceur pendant 3 tours et augmente la jauge de CT (S)."
-    },
-    {
-      "key": "SK_LW_EC_DRG_C_08B",
-      "value": "Augmente l'ATT et la PSY du lanceur pendant 3 tours et augmente la jauge de CT (S)."
     },
     {
       "key": "SK_LW_EC_NIN_A_01_SOIL",
@@ -14986,7 +14994,7 @@
     },
     {
       "key": "SK_LW_EC_MST_A_01",
-      "value": "Augmente les attaques magiques et la DEF du lanceur pendant 3 tours et réduit la consommation de PA pendant 3 tours."
+      "value": "Augmente l'attaque magique et la DEF du lanceur pendant 3 tours, réduit la consommation des PA, et accorde un effet d'absorption d'une partie des dégâts infligés aux PV."
     },
     {
       "key": "SK_LW_EC_MST_C_01",
@@ -15735,6 +15743,10 @@
     {
       "key": "SK_MA_LW_IRDL",
       "value": "PSY +5, résistance aux attaques de zone +10"
+    },
+    {
+      "key": "SK_MA_LW_IRDL_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente la PSY du lanceur de 5, sa résistance aux attaques de zone de 15, ses compétences de soin de 20 et réduit sa Haine de 3."
     },
     {
       "key": "SK_MA_LW_STRN_01",
@@ -22441,6 +22453,54 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_PRNE_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_PRNE_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_PRNE_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_PRNE_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_PRNE_P2MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_ADSN_MV2_GS",
       "value": ""
     },
@@ -27053,6 +27113,10 @@
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
+      "key": "SK_BTL_REACTSTP_1_100_U",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
       "key": "SK_BTL_JOB_THI_1_15_U",
       "value": "Compétence de rééquilibrage de la quête"
     },
@@ -27215,6 +27279,10 @@
     {
       "key": "SK_GMK_SLEEP_2",
       "value": "Inflige Sommeil aux unités dans la zone d'effet."
+    },
+    {
+      "key": "SK_GMK_ATK_STON",
+      "value": "Chute de stalactite"
     },
     {
       "key": "SK_LW_WAR_P_2",
@@ -29521,6 +29589,14 @@
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
+      "key": "SK_LW_PLUS6_RES_SPEAR_15",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_MMANKR_10",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
       "key": "SK_FF4_ROD_000_1",
       "value": ""
     },
@@ -30427,6 +30503,66 @@
     {
       "key": "SK_WYVN_M_03",
       "value": "Inflige des dégâts (L) aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_PBMF_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PBMF_M_01",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance d'infliger Confusion pendant 3 tours."
+    },
+    {
+      "key": "SK_PBMF_M_02",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Gelure pendant 3 tours."
+    },
+    {
+      "key": "SK_PBMF_M_03",
+      "value": "Augmente la MAGIE du lanceur pendant 3 tours et accorde Barrière."
+    },
+    {
+      "key": "SK_PBMF_R_01",
+      "value": "Confère une chance de réduire les dégâts magiques subis."
+    },
+    {
+      "key": "SK_PBMW_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_PBMW_M_01",
+      "value": "Inflige des dégâts (S) à la cible et réduit la DEF pendant 3 tours."
+    },
+    {
+      "key": "SK_PBMW_M_02",
+      "value": "Après déplacement jusqu'à la case ciblée, détruit toute barrière érigée autour des unités dans la zone ciblée, puis inflige des dégâts (M)."
+    },
+    {
+      "key": "SK_PBMW_M_03",
+      "value": "Augmente l'ATT du lanceur pendant 3 tours et accorde Bouclier."
+    },
+    {
+      "key": "SK_PBMW_R_01",
+      "value": "Confère une chance de réduire les dégâts physiques subis."
+    },
+    {
+      "key": "SK_KMNT_ATK",
+      "value": "Inflige des dégâts à la cible."
+    },
+    {
+      "key": "SK_KMNT_M_01",
+      "value": "Après déplacement, inflige des dégâts (S) à la cible, absorbe une partie des dégâts infligés et confère une chance d'infliger Étourdissement pendant 1 tour."
+    },
+    {
+      "key": "SK_KMNT_M_02",
+      "value": "Inflige Immobilisation à un ennemi pendant 3 tours et réduit considérablement l'ATT et la DEF pendant l'effet d'Immobilisation."
+    },
+    {
+      "key": "SK_KMNT_M_03",
+      "value": "Inflige des dégâts (M) en 2 coups à la cible avec une chance élevée d'infliger un coup critique."
+    },
+    {
+      "key": "SK_KMNT_R_01",
+      "value": "Confère une chance d'augmenter l'ATT et les dégâts critiques du lanceur pendant 3 tours lorsque des dégâts sont subis."
     }
   ]
 }
