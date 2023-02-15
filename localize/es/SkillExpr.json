@@ -4233,6 +4233,78 @@
       "value": "Aumenta el ATQ, la res. ataque de zona, los PA adquiridos y la tasa de penetración de DEF."
     },
     {
+      "key": "SK_LW_AMNR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AMNR_M_1",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance 2 veces y reduce su res. ataque de unidad durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_AMNR_M_2",
+      "value": "Otorga una barrera a los aliados de alrededor que reduce el daño mágico (3 veces)."
+    },
+    {
+      "key": "SK_LW_AMNR_M_3",
+      "value": "Reduce considerablemente la tasa de activación de las habilidades de reacción de hasta 2 objetivos durante 3 turnos e inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_AMNR_S_1",
+      "value": "Elimina autolázaro al objetivo y le inflige daño (poco) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_AMNR_S_2",
+      "value": "Otorga recuperación de VIT de los aliados de alrededor durante 3 turnos (recupera un porcentaje fijo de VIT (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez))."
+    },
+    {
+      "key": "SK_LW_AMNR_S_2B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AMNR_S_3",
+      "value": "Aumenta el TC del usuario (medio) y reduce considerablemente el tiempo de activación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_AMNR_S_4",
+      "value": "Inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance y aumenta considerablemente la res. ataque de zona del usuario durante un turno."
+    },
+    {
+      "key": "SK_LW_AMNR_R_1",
+      "value": "Probabilidad de infligir estados alterados (sueño y freno) al objetivo durante 3 turnos al recibir daño."
+    },
+    {
+      "key": "SK_LW_AMNR_P_1",
+      "value": "Aumenta la VIT máx. y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_LW_AMNR_P_2",
+      "value": "Aumenta la res. ataque mágico y a distancia."
+    },
+    {
+      "key": "SK_LW_AMNR_EN_A_01",
+      "value": "Elimina todas las mejoras del objetivo y le inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_AMNR_EN_A_01B",
+      "value": "Elimina todas las mejoras del objetivo, le inflige daño (mucho) en función de la MAG del usuario y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_EC_AMNR_C_01",
+      "value": "Mejora «Sello binario» a «Sello ternario»: aumenta el alcance. Reduce considerablemente la tasa de activación de las habilidades de reacción de hasta 3 objetivos durante 3 turnos e inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_AMNR_C_01B",
+      "value": "Reduce considerablemente la tasa de activación de las habilidades de reacción de hasta 3 objetivos durante 3 turnos e inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_AMNR_C_02",
+      "value": "Mejora «Esencia de las visiones» a «Secreto de las visiones»: aumenta la VIT máx. y la tasa de penetración de ESP del usuario, y este sobrevive a daño letal cuando su VIT está al 70 % o más."
+    },
+    {
+      "key": "SK_LW_EC_AMNR_C_02B",
+      "value": "Aumenta la VIT máx. y la tasa de penetración de ESP del usuario, y este sobrevive a daño letal cuando su VIT está al 70 % o más."
+    },
+    {
       "key": "SK_LW_LSWL_ATK",
       "value": ""
     },
@@ -5667,6 +5739,10 @@
     {
       "key": "SK_LW_LIB_M_1_B",
       "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance, y les inflige daño (mucho) en función de la MAG del usuario y reduce su potencia de curación durante 3 turnos"
+    },
+    {
+      "key": "SK_LW_LIB_FIRE_M_2",
+      "value": "Aumenta el ataque de fuego y la res. ataque de unidad de los aliados de alrededor y aumenta considerablemente la velocidad de la barra de invocación durante 3 turnos."
     },
     {
       "key": "SK_LW_LIB_SOIL_M_2",
@@ -13049,6 +13125,10 @@
       "value": "Inflige daño (mucho) 3 veces al objetivo y otorga prisa al usuario durante 3 turnos."
     },
     {
+      "key": "SK_LB_LW_AMNR",
+      "value": "Reduce el ESP de los objetivos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -16397,6 +16477,10 @@
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: res. ataques de corte y perforación +10, tasa de bloqueo de reacción +20"
     },
     {
+      "key": "SK_MA_LW_AMNR",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: res. ataque de zona +15"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -17847,6 +17931,10 @@
     {
       "key": "SK_ACC_LW_PRNE_1",
       "value": "Aumenta el TC (mínimo) de los aliados de alrededor durante 3 turnos al asestar un crítico."
+    },
+    {
+      "key": "SK_CLT_LW_AMNR_1",
+      "value": "Rellena una parte de la barra de invocación."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -29886,6 +29974,26 @@
     },
     {
       "key": "SK_LW_FIS_015_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_5",
       "value": ""
     },
     {

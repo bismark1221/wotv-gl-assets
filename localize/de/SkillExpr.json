@@ -4233,6 +4233,78 @@
       "value": "Erhöht ANG, Bereichangriffsresistenz, erlangte AP und ABW-Durchbohrrate."
     },
     {
+      "key": "SK_LW_AMNR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AMNR_M_1",
+      "value": "Fügt Zielen in Reichweite 2 Mal hintereinander MAG-abhängigen Schaden (L) zu und senkt 3 Runden lang Einzelangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_AMNR_M_2",
+      "value": "Beschwört eine die Verbündeten im Bereich um Wirkenden umgebende Barriere herauf, die 3 Mal magischen Schaden reduziert."
+    },
+    {
+      "key": "SK_LW_AMNR_M_3",
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von bis zu 2 Zielen erheblich und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_AMNR_S_1",
+      "value": "Entfernt Schutzengel vom Ziel und fügt anschließend MAG-abhängigen Schaden (S) zu."
+    },
+    {
+      "key": "SK_LW_AMNR_S_2",
+      "value": "Wirkt 3 Runden lang LP-Wiederherstellung auf Verbündete im Bereich um den Wirkenden (heilt festgelegten Anteil der LP (M), wenn LP beim Erleiden von Schaden unter 50 % sinken (1 Mal))."
+    },
+    {
+      "key": "SK_LW_AMNR_S_2B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AMNR_S_3",
+      "value": "Erhöht eigene AZ (M) und verkürzt 3 Runden lang Aktivierungszeit erheblich."
+    },
+    {
+      "key": "SK_LW_AMNR_S_4",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu und erhöht 1 Runde lang eigene Bereichangriffsresistenz erheblich."
+    },
+    {
+      "key": "SK_LW_AMNR_R_1",
+      "value": "Gewährt bei Erleiden von Schaden Chance auf Wirken von 3 Runden andauernder Zustandsveränderung (Schlaf/Gemach) auf Ziel."
+    },
+    {
+      "key": "SK_LW_AMNR_P_1",
+      "value": "Erhöht LP-Maximum und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_AMNR_P_2",
+      "value": "Erhöht Geschoss- und Magieangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_AMNR_EN_A_01",
+      "value": "Entfernt alle Stärkungen vom Ziel und fügt diesem anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_AMNR_EN_A_01B",
+      "value": "Entfernt alle Stärkungen vom Ziel, fügt anschließend MAG-abhängigen Schaden (L) zu und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LW_EC_AMNR_C_01",
+      "value": "Verstärkt Binärsiegel zu Ersatzsiegel. Erhöht Reichweite. Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von bis zu 3 Zielen erheblich und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_EC_AMNR_C_01B",
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von bis zu 3 Zielen erheblich und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_EC_AMNR_C_02",
+      "value": "Verstärkt Visionsessenz zu Visionsverdrängung. Erhöht LP-Maximum, PSY-Durchbohrrate und ermöglicht Wirkendem einen tödlichen Treffer zu überleben, solange LP 70 % oder mehr betragen."
+    },
+    {
+      "key": "SK_LW_EC_AMNR_C_02B",
+      "value": "Erhöht LP-Maximum, PSY-Durchbohrrate und ermöglicht Wirkendem einen tödlichen Treffer zu überleben, solange LP 70 % oder mehr betragen."
+    },
+    {
       "key": "SK_LW_LSWL_ATK",
       "value": ""
     },
@@ -5667,6 +5739,10 @@
     {
       "key": "SK_LW_LIB_M_1_B",
       "value": "Zerstört magischen Schaden verringernde Barrieren von Zielen in Reichweite, fügt anschließend MAG-abhängigen Schaden (L) zu und senkt 3 Runden lang Heilkraft."
+    },
+    {
+      "key": "SK_LW_LIB_FIRE_M_2",
+      "value": "Erhöht 3 Runden lang Feuerangriff und Einzelangriffsresistenz von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang Anrufungsleisten-Füllmenge erheblich."
     },
     {
       "key": "SK_LW_LIB_SOIL_M_2",
@@ -13049,6 +13125,10 @@
       "value": "Fügt dem Ziel 3 Mal hintereinander Schaden (L) zu und wirkt 3 Runden lang Hast auf sich selbst."
     },
     {
+      "key": "SK_LB_LW_AMNR",
+      "value": "Senkt 3 Runden lang PSY von Zielen in Reichweite und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Ruft Ifrit, fügt Zielen in Reichweite Feuerschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete, erhebliche Feuerresistenz-Senkung für Gegner)."
     },
@@ -16397,6 +16477,10 @@
       "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene Schlitz- und Durchbohrresistenz +10 und Reaktionsblockrate +20."
     },
     {
+      "key": "SK_MA_LW_AMNR",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene Bereichangriffsresistenz +15"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -17847,6 +17931,10 @@
     {
       "key": "SK_ACC_LW_PRNE_1",
       "value": "Gewährt 3 Runden lang Verbündeten im Bereich um Wirkenden bei kritischem Treffer AZ-Schub (minimal)."
+    },
+    {
+      "key": "SK_CLT_LW_AMNR_1",
+      "value": "Füllt Teil der Anrufungsleiste."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -29886,6 +29974,26 @@
     },
     {
       "key": "SK_LW_FIS_015_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_032_5",
       "value": ""
     },
     {
