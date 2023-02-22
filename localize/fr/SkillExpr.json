@@ -498,7 +498,7 @@
     },
     {
       "key": "SK_LW_MNK_M_3",
-      "value": "Restaure les PV et les PT (M) des alliés dans la zone autour du lanceur."
+      "value": "Restaure un certain pourcentage des PV (M) des alliés dans la zone autour du lanceur, restaure les PT (M) et accorde Récup pendant 3 tours."
     },
     {
       "key": "SK_LW_MNK_M_2",
@@ -506,11 +506,11 @@
     },
     {
       "key": "SK_LW_MNK_S_5",
-      "value": "Confère une chance de guérir une cible de K.O. et restaure les PV (XS)."
+      "value": "Confère une chance de ranimer un allié K.O. et de restaurer les PV (S)."
     },
     {
       "key": "SK_LW_MNK_S_4",
-      "value": "Confère une chance d'infliger Peine de mort à la cible, ce qui la mettra K.O au début sa quatrième action."
+      "value": "Confère une chance d'infliger Peine de mort à la cible (K.O. en 4 tours) et accorde un effet additionnel : réduit considérablement l'ATT et la MAGIE pendant l'effet de Peine de mort et augmente le Déplacement du lanceur de 1 pendant 3 tours."
     },
     {
       "key": "SK_LW_MNK_M_1_INIT",
@@ -518,7 +518,7 @@
     },
     {
       "key": "SK_LW_MNK_S_2_INIT",
-      "value": "Augmente considérablement l'ATT du lanceur pendant 1 tour."
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 1 tour et augmente considérablement l'ATT."
     },
     {
       "key": "SK_LW_MNK_M_4",
@@ -526,7 +526,7 @@
     },
     {
       "key": "SK_LW_MNK_S_3",
-      "value": "Inflige des dégâts (S) à la cible."
+      "value": "Inflige des dégâts (S) à la cible avec Coup garanti."
     },
     {
       "key": "SK_LW_MNK_R_1",
@@ -534,7 +534,7 @@
     },
     {
       "key": "SK_LW_MNK_P_1",
-      "value": "Augmente les attaques contondantes."
+      "value": "Augmente l'ATT et les attaques contondantes."
     },
     {
       "key": "SK_LW_MNK_P_2",
@@ -542,7 +542,7 @@
     },
     {
       "key": "SK_LW_MNK_M_3_SUB",
-      "value": "Restaure les PV et les PT (M) des alliés dans la zone autour du lanceur."
+      "value": "Restaure un certain pourcentage des PV (M) des alliés dans la zone autour du lanceur, restaure les PT (M) et accorde Récup pendant 3 tours."
     },
     {
       "key": "SK_LW_MNK_M_2_SUB",
@@ -550,11 +550,11 @@
     },
     {
       "key": "SK_LW_MNK_S_5_SUB",
-      "value": "Confère une chance de guérir une cible de K.O. et restaure les PV (XS)."
+      "value": "Confère une chance de ranimer un allié K.O. et de restaurer les PV (S)."
     },
     {
       "key": "SK_LW_MNK_S_4_SUB",
-      "value": "Confère une chance d'infliger Peine de mort à la cible, ce qui la mettra K.O au début sa quatrième action."
+      "value": "Confère une chance d'infliger Peine de mort à la cible (K.O. en 4 tours) et accorde un effet additionnel : réduit considérablement l'ATT et la MAGIE pendant l'effet de Peine de mort et augmente le Déplacement du lanceur de 1 pendant 3 tours."
     },
     {
       "key": "SK_LW_MNK_M_1",
@@ -562,7 +562,7 @@
     },
     {
       "key": "SK_LW_MNK_S_2",
-      "value": "Augmente considérablement l'ATT du lanceur pendant 1 tour."
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 1 tour et augmente considérablement l'ATT."
     },
     {
       "key": "SK_LW_SAM_ATK",
@@ -1678,23 +1678,23 @@
     },
     {
       "key": "SK_LW_RDM_M_4",
-      "value": "Inflige des dégâts (M) à la cible en 2 coups, et réduit sa PSY pendant 3 tours."
+      "value": "Dissipe Auréole de la cible et réduit la PSY pendant 3 tours, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_RDM_S_3",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes."
-    },
-    {
-      "key": "SK_LW_RDM_S_3_SIRM",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes."
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, annule l'activation des aptitudes et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_RDM_S_3_B",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes avec Coup garanti."
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, annule l'activation des aptitudes, Coup garanti et augmente la PSY du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_RDM_S_3_SIRM",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, annule l'activation des aptitudes et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_RDM_S_4",
-      "value": "Réduit considérablement le délai d'activation des alliés pendant 3 tours."
+      "value": "Réduit considérablement le délai d'activation d'un allié pendant 3 tours, et accorde Booster et accorde un effet additionnel : augmente la résistance aux attaques à cible unique pendant l'effet de Booster."
     },
     {
       "key": "SK_LW_RDM_M_2_INIT",
@@ -1746,23 +1746,23 @@
     },
     {
       "key": "SK_LW_RDM_P_1",
-      "value": "Augmente les PA initiaux."
+      "value": "Augmente les PA initiaux et les dégâts magiques."
     },
     {
       "key": "SK_LW_RDM_P_2",
-      "value": "Augmente la résistance aux attaques magiques"
+      "value": "Augmente la PSY et la résistance aux attaques magiques."
     },
     {
       "key": "SK_LW_RDM_M_4_SUB",
-      "value": "Inflige des dégâts (M) à la cible en 2 coups, et réduit sa PSY pendant 3 tours."
+      "value": "Dissipe Auréole de la cible et réduit la PSY pendant 3 tours, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_RDM_S_3_SUB",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes."
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, annule l'activation des aptitudes et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_RDM_S_4_SUB",
-      "value": "Réduit considérablement le délai d'activation des alliés pendant 3 tours."
+      "value": "Réduit considérablement le délai d'activation d'un allié pendant 3 tours, et accorde Booster et accorde un effet additionnel : augmente la résistance aux attaques à cible unique pendant l'effet de Booster."
     },
     {
       "key": "SK_LW_RDM_M_2",
@@ -4870,7 +4870,7 @@
     },
     {
       "key": "SK_LW_ARC_M_1",
-      "value": "Inflige des dégâts (M) à la cible et réduit le déplacement de 1 pendant 3 tours."
+      "value": "Inflige des dégâts (L) à la cible et réduit le Déplacement de 1 pendant 3 tours."
     },
     {
       "key": "SK_LW_ARC_M_2",
@@ -4878,7 +4878,7 @@
     },
     {
       "key": "SK_LW_ARC_M_3",
-      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (M) à la cible."
+      "value": "Détruit toute barrière réduisant les dégâts physiques et réduit considérablement le taux d'activation de l'aptitude de réaction de la cible pendant 3 tours, puis inflige des dégâts (M)."
     },
     {
       "key": "SK_LW_ARC_S_1_INIT",
@@ -4914,7 +4914,7 @@
     },
     {
       "key": "SK_LW_ARC_M_1_SUB",
-      "value": "Inflige des dégâts (M) à la cible et réduit le déplacement de 1 pendant 3 tours."
+      "value": "Inflige des dégâts (L) à la cible et réduit le Déplacement de 1 pendant 3 tours."
     },
     {
       "key": "SK_LW_ARC_M_2_SUB",
@@ -4922,7 +4922,7 @@
     },
     {
       "key": "SK_LW_ARC_M_3_SUB",
-      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (M) à la cible."
+      "value": "Détruit toute barrière réduisant les dégâts physiques et réduit considérablement le taux d'activation de l'aptitude de réaction de la cible pendant 3 tours, puis inflige des dégâts (M)."
     },
     {
       "key": "SK_LW_ARC_S_1",
@@ -11498,7 +11498,7 @@
     },
     {
       "key": "SK_LW_RDM_S_3_TW",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes."
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, annule l'activation des aptitudes et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_WHM_S_4_1_TW",
@@ -13830,7 +13830,7 @@
     },
     {
       "key": "SK_LW_EC_MNK_A_01",
-      "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (L)."
+      "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (L) et augmente l'AGI du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MNK_C_01_DARK",
@@ -13842,11 +13842,11 @@
     },
     {
       "key": "SK_LW_EC_MNK_C_02",
-      "value": "Améliore Maîtrise contondante en Maîtrise Poing d'acier. Augmente les attaques contondantes et le taux de perforation de la DEF."
+      "value": "Améliore Maîtrise contondante en Maîtrise Poing d'acier. Augmente l'ATT, les attaques contondantes et le taux de perforation de la DEF."
     },
     {
       "key": "SK_LW_EC_MNK_C_02B",
-      "value": "Augmente les attaques contondantes et le taux de perforation de la DEF."
+      "value": "Augmente l'ATT, les attaques contondantes et le taux de perforation de la DEF."
     },
     {
       "key": "SK_LW_EC_MNK_A_02",
@@ -13854,11 +13854,11 @@
     },
     {
       "key": "SK_LW_EC_MNK_C_03",
-      "value": "Améliore Ermitage en Coup fatal. Confère une chance d'infliger Peine de mort à la cible (K.O. en 3 tours)."
+      "value": "Améliore Ermitage en Coup fatal. Confère une chance d'infliger Peine de mort à la cible (K.O. en 3 tours) et accorde un effet additionnel : réduit considérablement l'ATT et la MAGIE pendant l'effet de Peine de mort et augmente le Déplacement du lanceur de 1 pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MNK_C_03B",
-      "value": "Confère une chance d'infliger Peine de mort à la cible (K.O. en 3 tours)."
+      "value": "Confère une chance d'infliger Peine de mort à la cible (K.O. en 3 tours) et accorde un effet additionnel : réduit considérablement l'ATT et la MAGIE pendant l'effet de Peine de mort et augmente le Déplacement du lanceur de 1 pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MNK_C_04",
@@ -14190,11 +14190,7 @@
     },
     {
       "key": "SK_LW_EC_ARC_A_01",
-      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée et réduit l'ATT et la MAGIE pendant 3 tours."
-    },
-    {
-      "key": "SK_LW_EC_ARC_A_03",
-      "value": "Augmente considérablement les attaques projectiles du lanceur pendant 1 tour."
+      "value": "Réduit la résistance aux attaques projectiles des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M), et réduit l'ATT et la MAGIE pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_ARC_C_01",
@@ -14206,11 +14202,11 @@
     },
     {
       "key": "SK_LW_EC_ARC_C_02",
-      "value": "Améliore Flèche ralentie en Tir de flèche ralentie. Améliore la portée. Inflige des dégâts (M) à la cible et réduit le déplacement de 1 pendant 3 tours."
+      "value": "Améliore Flèche ralentie en Tir de flèche ralentie. Améliore la portée. Inflige des dégâts (L) à la cible et réduit le Déplacement de 1 pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_ARC_C_02B",
-      "value": "Inflige des dégâts (M) à la cible et réduit le déplacement de 1 pendant 3 tours."
+      "value": "Inflige des dégâts (L) à la cible et réduit le Déplacement de 1 pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_ARC_C_05",
@@ -14222,11 +14218,11 @@
     },
     {
       "key": "SK_LW_EC_ARC_C_06",
-      "value": "Améliore Flèche anti-barrière en Destructeur de barrière. Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L)."
+      "value": "Améliore Flèche anti-barrière en Destructeur de barrière. Détruit toute barrière réduisant les dégâts physiques et réduit considérablement le taux d'activation de l'aptitude de réaction de la cible pendant 3 tours, puis inflige des dégâts (L)."
     },
     {
       "key": "SK_LW_EC_ARC_C_06B",
-      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L)."
+      "value": "Détruit toute barrière réduisant les dégâts physiques et réduit considérablement le taux d'activation de l'aptitude de réaction de la cible pendant 3 tours, puis inflige des dégâts (L)."
     },
     {
       "key": "SK_LW_EC_SAM_A_03",
@@ -14398,19 +14394,19 @@
     },
     {
       "key": "SK_LW_EC_RDM_C_01",
-      "value": "Améliore Lancer rapide en Lancer rapide : défensif. Réduit considérablement le délai d'activation d'un allié, et augmente la DEF pendant 3 tours."
+      "value": "Améliore Lancer rapide en Lancer rapide : défensif. Réduit considérablement le délai d'activation d'un allié pendant 3 tours, augmente la DEF, et accorde Booster et accorde un effet additionnel : augmente la résistance aux attaques à cible unique pendant l'effet de Booster."
     },
     {
       "key": "SK_LW_EC_RDM_C_01B",
-      "value": "Réduit considérablement le délai d'activation d'un allié, et augmente la DEF pendant 3 tours."
+      "value": "Réduit considérablement le délai d'activation d'un allié pendant 3 tours, augmente la DEF, et accorde Booster et accorde un effet additionnel : augmente la résistance aux attaques à cible unique pendant l'effet de Booster."
     },
     {
       "key": "SK_LW_EC_RDM_C_02",
-      "value": "Améliore Protection du mage en Repousse magie. Augmente la résistance aux attaques magiques, et l'AGI."
+      "value": "Améliore Protection du mage en Repousse magie. Augmente la PSY, la résistance aux attaques magiques et l'AGI."
     },
     {
       "key": "SK_LW_EC_RDM_C_02B",
-      "value": "Augmente la résistance aux attaques magiques, et l'AGI."
+      "value": "Augmente la PSY, la résistance aux attaques magiques et l'AGI."
     },
     {
       "key": "SK_LW_EC_RDM_A_02",
@@ -14418,11 +14414,11 @@
     },
     {
       "key": "SK_LW_EC_RDM_C_03",
-      "value": "Améliore Annurésistance en Brise-défense. Inflige des dégâts (M) en 2 coups à la cible, réduit la DEF et la PSY pendant 3 tours, et Perforation."
+      "value": "Améliore Annurésistance en Brise-défense. Dissipe Auréole de la cible, réduit la DEF et la PSY pendant 3 tours, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur, et Perforation."
     },
     {
       "key": "SK_LW_EC_RDM_C_03B",
-      "value": "Inflige des dégâts (M) en 2 coups à la cible, réduit la DEF et la PSY pendant 3 tours, et Perforation."
+      "value": "Dissipe Auréole de la cible, réduit la DEF et la PSY pendant 3 tours, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur, et Perforation."
     },
     {
       "key": "SK_LW_EC_RDM_C_04",
@@ -14434,43 +14430,43 @@
     },
     {
       "key": "SK_LW_EC_RDM_C_05",
-      "value": "Améliore PA initiaux ↑ Niv. 1 en Arcane rouge. Améliore les bonus de PA. Augmente la MAGIE et les PA initiaux."
+      "value": "Améliore Mage rouge en Arcane carmin. Améliore les bonus de PA. Augmente la MAGIE, les PA initiaux et les dégâts magiques."
     },
     {
       "key": "SK_LW_EC_RDM_C_05B",
-      "value": "Augmente la MAGIE et les PA initiaux."
+      "value": "Augmente la MAGIE, les PA initiaux et les dégâts magiques."
     },
     {
       "key": "SK_LW_EC_RDM_C_06",
-      "value": "Améliore Élan enrayé en Élan scellé. Réduit considérablement le taux d'activation de l'aptitude de réaction de la cible pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, et annule l'activation des aptitudes."
+      "value": "Améliore Élan enrayé en Élan scellé. Réduit considérablement le taux d'activation de l'aptitude de réaction de la cible pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, annule l'activation des aptitudes et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_RDM_C_06B",
-      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction de la cible pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, et annule l'activation des aptitudes."
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction de la cible pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, annule l'activation des aptitudes et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_RDM_A_04",
-      "value": "Dissipe Auréole des unités dans la zone ciblée, puis inflige des dégâts d'eau (M) qui dépendent de la MAGIE du lanceur, et confère une chance d'infliger Sommeil pendant 3 tours."
+      "value": "Dissipe Auréole des unités dans la zone ciblée, puis inflige des dégâts d'eau (L) qui dépendent de la MAGIE du lanceur, et confère une chance d'infliger Sommeil pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_RDM_C_07",
-      "value": "Améliore Élan enrayé en Élan dissipatoire. Dissipe tous les bonus de la cible, puis lui inflige des dégâts (XL) qui dépendent de la MAGIE du lanceur et annule l'activation des aptitudes."
+      "value": "Améliore Élan enrayé en Élan dissipatoire. Dissipe tous les bonus de la cible, puis inflige des dégâts (XL) à la cible qui dépendent de la MAGIE du lanceur, annule l'activation des aptitudes et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_RDM_C_07B",
-      "value": "Dissipe tous les bonus de la cible, puis lui inflige des dégâts (XL) qui dépendent de la MAGIE du lanceur et annule l'activation des aptitudes."
+      "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (XL) à la cible qui dépendent de la MAGIE du lanceur, annule l'activation des aptitudes et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_RDM_C_07B_B",
-      "value": "Dissipe tous les bonus de la cible, puis lui inflige des dégâts (XL) qui dépendent de la MAGIE du lanceur et annule l'activation des aptitudes avec Coup garanti."
+      "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (XL) à la cible qui dépendent de la MAGIE du lanceur, annule l'activation des aptitudes avec Coup garanti et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_RDM_C_08",
-      "value": "Améliore Protection du mage en Rempart de mage. Augmente la résistance aux attaques tranchantes et magiques, et augmente considérablement la résistance aux malus de la résistance aux attaques tranchantes et magiques."
+      "value": "Améliore Protection du mage en Rempart de mage. Augmente la PSY, la résistance aux attaques tranchantes et magiques, et augmente considérablement la résistance aux malus de la résistance aux attaques tranchantes et magiques."
     },
     {
       "key": "SK_LW_EC_RDM_C_08B",
-      "value": "Augmente la résistance aux attaques tranchantes et magiques, et augmente considérablement la résistance aux malus de la résistance aux attaques tranchantes et magiques."
+      "value": "Augmente la PSY, la résistance aux attaques tranchantes et magiques, et augmente considérablement la résistance aux malus de la résistance aux attaques tranchantes et magiques."
     },
     {
       "key": "SK_LW_EC_WHM_A_01",
@@ -14934,7 +14930,7 @@
     },
     {
       "key": "SK_LW_EC_ARC_A_02",
-      "value": "Inflige des dégâts (L) à la cible et Coup garanti."
+      "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (L) avec Coup garanti."
     },
     {
       "key": "SK_LW_EC_ARC_C_03",
@@ -14953,24 +14949,28 @@
       "value": "Inflige des dégâts (L) d'une grande précision aux unités dans la zone ciblée et dissipe tous les bonus."
     },
     {
+      "key": "SK_LW_EC_ARC_A_03",
+      "value": "Augmente considérablement les attaques projectiles du lanceur pendant 1 tour et réduit la consommation de PA pendant 3 tours."
+    },
+    {
       "key": "SK_LW_EC_MNK_A_03",
       "value": "Augmente considérablement l'attaque contondante des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de perforation de la DEF du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MNK_C_05",
-      "value": "Améliore Chakra en Chakra du couronnement. Restaure un certain pourcentage des PV (M) des alliés dans la zone autour du lanceur et restaure les PT (M)."
+      "value": "Améliore Chakra en Chakra du couronnement. Améliore la portée."
     },
     {
       "key": "SK_LW_EC_MNK_C_05B",
-      "value": "Restaure un certain pourcentage des PV (M) des alliés dans la zone autour du lanceur et restaure les PT (M)."
+      "value": "Restaure un certain pourcentage des PV (M) des alliés dans la zone autour du lanceur, restaure les PT (M) et accorde Récup pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MNK_C_06",
-      "value": "Améliore Accumulation en Puissance mesurée. Augmente considérablement l'ATT, la DEF et la PSY du lanceur pendant 1 tour."
+      "value": "Améliore Accumulation en Puissance mesurée. Augmente le taux de perforation de la DEF du lanceur et augmente considérablement l'ATT, la DEF et la PSY pendant 1 tour."
     },
     {
       "key": "SK_LW_EC_MNK_C_06B",
-      "value": "Augmente considérablement l'ATT, la DEF et la PSY du lanceur pendant 1 tour."
+      "value": "Augmente le taux de perforation de la DEF du lanceur et augmente considérablement l'ATT, la DEF et la PSY pendant 1 tour."
     },
     {
       "key": "SK_LW_EC_MGK_A_01",
@@ -15302,7 +15302,7 @@
     },
     {
       "key": "SK_MA_LW_MRND_2",
-      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente l'ATT du lanceur de 15 %, sa MAGIE de 15 %, son taux de perforation de la PSY de 25, sa DEF de 20 et améliore Élan enrayé : Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes avec Coup garanti."
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente l'ATT du lanceur de 15 %, sa MAGIE de 15 %, son taux de perforation de la PSY de 25, sa DEF de 20 et améliore Élan enrayé : Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes avec Coup garanti MAGIE de 15 %, le taux de perforation de la PSY de 25, sa DEF de 20 et améliore Élan enrayé : Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible et annule l'activation des aptitudes avec Coup garanti, et augmente la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_MA_LW_AILN",
@@ -15387,6 +15387,10 @@
     {
       "key": "SK_MA_LW_LRNZ",
       "value": "PV max +25 %, DEF +10"
+    },
+    {
+      "key": "SK_MA_LW_LRNZ_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Paralysie de 25 des unités alliées de terre, augmente les PV max du lanceur de 25 %, sa DEF de 10 %, son taux de précision de 40, et accorde une Restauration auto de PA (S) et un effet de dissipation de Booster pour les attaques réussies du lanceur."
     },
     {
       "key": "SK_MA_LW_RIRY",
@@ -15479,6 +15483,10 @@
     {
       "key": "SK_MA_LW_SCIA",
       "value": "Attaque perçante +15, DEX +40 %"
+    },
+    {
+      "key": "SK_MA_LW_SCIA_2",
+      "value": "Augmente les attaques perçantes de 15, la DEX de 40, la résistance aux attaques magiques de 60 et la PSY de 10."
     },
     {
       "key": "SK_MA_LW_VRID",
@@ -15953,6 +15961,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente la DEF du lanceur de 10."
     },
     {
+      "key": "SK_MA_LW_SAKR_2",
+      "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente la DEF du lanceur de 25, sa résistance aux attaques magiques de 20 et réduit le délai d'activation de ses aptitudes de 30 %."
+    },
+    {
       "key": "SK_MA_LW_ALIM",
       "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente la résistance aux attaques à cible unique du lanceur de 10 ainsi que son taux d'esquive de 10."
     },
@@ -16215,6 +16227,10 @@
     {
       "key": "SK_MA_LW_VERN",
       "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente le taux de perforation de la DEF du lanceur de 20."
+    },
+    {
+      "key": "SK_MA_LW_VERN_2",
+      "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente les PV max du lanceur de 20 %, son taux de perforation de la DEF de 20 et sa résistance aux attaques de zone de 10."
     },
     {
       "key": "SK_MA_LW_JEDN",
@@ -22589,6 +22605,66 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_MINU_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P3MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_ADSN_MV2_GS",
       "value": ""
     },
@@ -27293,6 +27369,14 @@
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
+      "key": "SK_BTL_DOOM_1_100_U_PA",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
+      "key": "SK_BTL_TPVOI_1_999_U",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "Attaque mécanique provisoire"
     },
@@ -29207,6 +29291,26 @@
     {
       "key": "SK_LW_ROD_028_5",
       "value": "Aptitude passive spécifique à Minnwu"
+    },
+    {
+      "key": "SK_LW_ROD_028_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_028_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_028_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_028_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_028_1_5",
+      "value": ""
     },
     {
       "key": "SK_LW_DAG_010_1",
