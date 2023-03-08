@@ -158,15 +158,15 @@
     },
     {
       "key": "SK_LW_PLD_M_4",
-      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces)."
+      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces) y aumenta su tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_PLD_M_2",
-      "value": "El usuario sobrevive a daño letal una vez."
+      "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: anula parálisis y confusión mientras agallas esté activo."
     },
     {
       "key": "SK_LW_PLD_S_7",
-      "value": "Inflige daño (medio) a los objetivos de alrededor."
+      "value": "Elimina todas las reducciones del usuario, inflige daño (medio) a los objetivos de alrededor y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_PLD_M_1_INIT",
@@ -198,15 +198,15 @@
     },
     {
       "key": "SK_LW_PLD_M_4_SUB",
-      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces)."
+      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces) y aumenta su tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_PLD_M_2_SUB",
-      "value": "El usuario sobrevive a daño letal una vez."
+      "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: anula parálisis y confusión mientras agallas esté activo."
     },
     {
       "key": "SK_LW_PLD_S_7_SUB",
-      "value": "Inflige daño (medio) a los objetivos de alrededor."
+      "value": "Elimina todas las reducciones del usuario, inflige daño (medio) a los objetivos de alrededor y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_PLD_M_1",
@@ -1325,6 +1325,10 @@
       "value": "Recupera VIT (medio) de los aliados de alrededor."
     },
     {
+      "key": "SK_LW_WHM_S_4_1_PRAY",
+      "value": "Recupera VIT (medio) de los aliados de alrededor."
+    },
+    {
       "key": "SK_LW_WHM_M_4",
       "value": "Otorga revitalia a los aliados de alrededor y aumenta la potencia de curación y la tasa de evasión de crítico durante 3 turnos."
     },
@@ -1810,11 +1814,11 @@
     },
     {
       "key": "SK_LW_TIM_M_5",
-      "value": "Inflige daño no elemental (mucho) en función de la MAG del usuario al objetivo."
+      "value": "Inflige daño no elemental (mucho) en función de la MAG del usuario al objetivo e inflige mucho más daño si el usuario está en estado prisa o lévita."
     },
     {
       "key": "SK_LW_TIM_S_2",
-      "value": "Probabilidad de infligir paro al objetivo."
+      "value": "Probabilidad de infligir paro al objetivo, y efecto adicional: reduce la res. ataque de zona en estado paro."
     },
     {
       "key": "SK_LW_TIM_M_4",
@@ -1826,11 +1830,11 @@
     },
     {
       "key": "SK_LW_TIM_S_3_INIT",
-      "value": "Probabilidad de infligir inmóvil al objetivo durante 3 turnos."
+      "value": "Probabilidad de infligir inmóvil al objetivo durante 3 turnos, y efecto adicional: reduce la AGI en estado inmóvil."
     },
     {
       "key": "SK_LW_TIM_M_1",
-      "value": "Otorga prisa al aliado durante 3 turnos."
+      "value": "Otorga prisa a un aliado durante 3 turnos, y efecto adicional: aumenta su DEF en estado prisa."
     },
     {
       "key": "SK_LW_TIM_S_4",
@@ -1842,7 +1846,7 @@
     },
     {
       "key": "SK_LW_TIM_S_1",
-      "value": "Probabilidad de infligir freno al objetivo durante 3 turnos."
+      "value": "Probabilidad de infligir freno al objetivo durante 3 turnos, y efecto adicional: reduce la res. ataque de unidad en estado freno."
     },
     {
       "key": "SK_LW_TIM_R_1",
@@ -1858,11 +1862,11 @@
     },
     {
       "key": "SK_LW_TIM_M_5_SUB",
-      "value": "Inflige daño no elemental (mucho) en función de la MAG del usuario al objetivo."
+      "value": "Inflige daño no elemental (mucho) en función de la MAG del usuario al objetivo e inflige mucho más daño si el usuario está en estado prisa o lévita."
     },
     {
       "key": "SK_LW_TIM_S_2_SUB",
-      "value": "Probabilidad de infligir paro al objetivo."
+      "value": "Probabilidad de infligir paro al objetivo, y efecto adicional: reduce la res. ataque de zona en estado paro."
     },
     {
       "key": "SK_LW_TIM_M_4_SUB",
@@ -1874,7 +1878,7 @@
     },
     {
       "key": "SK_LW_TIM_S_3",
-      "value": "Probabilidad de infligir inmóvil al objetivo durante 3 turnos."
+      "value": "Probabilidad de infligir inmóvil al objetivo durante 3 turnos, y efecto adicional: reduce la AGI en estado inmóvil."
     },
     {
       "key": "SK_LW_GLMS_ATK",
@@ -3682,7 +3686,7 @@
     },
     {
       "key": "SK_LW_HSW_S_2_INIT",
-      "value": "Otorga eliminación de recuperación automática de PA a los ataques de los aliados de alrededor durante 3 turnos."
+      "value": "Otorga eliminación de recuperación automática de PA a los ataques con éxito de los aliados de alrededor durante 3 turnos."
     },
     {
       "key": "SK_LW_HSW_ICE_S_3",
@@ -5174,7 +5178,7 @@
     },
     {
       "key": "SK_LW_BEA_M_1",
-      "value": "Inflige daño (mucho) al objetivo y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 5 veces)."
+      "value": "Inflige daño (mucho) al objetivo, aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 5 veces) y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_BEA_M_2",
@@ -5182,7 +5186,7 @@
     },
     {
       "key": "SK_LW_BEA_M_3",
-      "value": "Aumenta considerablemente el ataque de golpe de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
+      "value": "Aumenta considerablemente el ataque de golpe de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de DEF y la res. ataque de unidad del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_BEA_S_1_INIT",
@@ -5218,7 +5222,7 @@
     },
     {
       "key": "SK_LW_BEA_M_1_SUB",
-      "value": "Inflige daño (mucho) al objetivo y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 5 veces)."
+      "value": "Inflige daño (mucho) al objetivo, aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 5 veces) y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_BEA_M_2_SUB",
@@ -5226,7 +5230,7 @@
     },
     {
       "key": "SK_LW_BEA_M_3_SUB",
-      "value": "Aumenta considerablemente el ataque de golpe de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
+      "value": "Aumenta considerablemente el ataque de golpe de los aliados de alrededor durante 3 turnos y aumenta la tasa de penetración de DEF y la res. ataque de unidad del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_BEA_S_1",
@@ -5238,11 +5242,7 @@
     },
     {
       "key": "SK_LW_EC_BEA_A_02",
-      "value": "Inflige daño (medio) a los objetivos al alcance (no afecta a objetivos en estado lévita) y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 3 veces)."
-    },
-    {
-      "key": "SK_LW_EC_BEA_A_03",
-      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño (medio) y aumenta considerablemente la DEF del usuario durante un turno."
+      "value": "Inflige daño (mucho) a los objetivos al alcance (no afecta a objetivos en estado lévita) y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 2 veces)."
     },
     {
       "key": "SK_LW_EC_BEA_C_03",
@@ -5262,19 +5262,23 @@
     },
     {
       "key": "SK_LW_EC_BEA_C_04",
-      "value": "Mejora «Exorcismo» a «Exorcismo violento»: reduce la DEF del objetivo, le inflige daño (mucho) y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 5 veces)."
+      "value": "Mejora «Exorcismo» a «Exorcismo violento»: reduce la DEF del objetivo, le inflige daño (mucho), aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 5 veces) y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_EC_BEA_C_04B",
-      "value": "Reduce la DEF del objetivo, le inflige daño (mucho) y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 5 veces)."
+      "value": "Reduce la DEF del objetivo, le inflige daño (mucho), aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 5 veces) y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_EC_BEA_A_03",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño (mucho) y aumenta considerablemente la DEF del usuario durante un turno."
     },
     {
       "key": "SK_LW_EC_BEA_C_05",
-      "value": "Mejora «Exorcismo» a «Exorcismo certero»: alcanza su máxima potencia tras recibir daño 2 veces. Reduce la DEF del objetivo durante 3 turnos, le inflige daño (mucho) con golpe garantizado y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 2 veces)."
+      "value": "Mejora «Exorcismo» a «Exorcismo certero»: alcanza su máxima potencia tras recibir daño 2 veces. Reduce la DEF del objetivo durante 3 turnos, le inflige daño (mucho) con golpe garantizado, aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 2 veces) y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_EC_BEA_C_05B",
-      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (mucho) con golpe garantizado y aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 2 veces)."
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (mucho) con golpe garantizado, aumenta la potencia según la cantidad de veces que el usuario haya recibido daño (hasta 2 veces) y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_EC_BEA_C_06",
@@ -5290,11 +5294,11 @@
     },
     {
       "key": "SK_LW_EC_BEA_C_07",
-      "value": "Mejora «Maestría pugilista» a «Maestría trinidad»: aumenta considerablemente el ataque de golpe de los aliados de alrededor y aumenta su daño físico durante 3 turnos, y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
+      "value": "Mejora «Maestría pugilista» a «Maestría trinidad»: aumenta considerablemente el ataque de golpe de los aliados de alrededor y aumenta su daño físico durante 3 turnos, y aumenta la tasa de penetración de DEF y la res. ataque de unidad del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_BEA_C_07B",
-      "value": "Aumenta considerablemente el ataque de golpe de los aliados de alrededor y aumenta su daño físico durante 3 turnos, y aumenta la tasa de penetración de DEF del usuario durante 3 turnos."
+      "value": "Aumenta considerablemente el ataque de golpe de los aliados de alrededor y aumenta su daño físico durante 3 turnos, y aumenta la tasa de penetración de DEF y la res. ataque de unidad del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_BEA_C_08",
@@ -5310,15 +5314,15 @@
     },
     {
       "key": "SK_LW_PSI_M_1",
-      "value": "Inflige daño (medio) en función de la MAG del usuario con golpe garantizado a los objetivos al alcance."
+      "value": "Inflige daño (medio) en función de la MAG del usuario con golpe garantizado a los objetivos al alcance y reduce su ATQ durante 3 turnos."
     },
     {
       "key": "SK_LW_PSI_M_2",
-      "value": "Inflige daño (muchísimo) en función de la MAG del usuario a los objetivos al alcance."
+      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance y les inflige daño (muchísimo) en función de la MAG del usuario."
     },
     {
       "key": "SK_LW_PSI_M_3",
-      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces)."
+      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces) y aumenta su tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_PSI_S_1_INIT",
@@ -11566,7 +11570,7 @@
     },
     {
       "key": "SK_LW_PSI_M_1_TW",
-      "value": "Inflige daño (medio) en función de la MAG del usuario con golpe garantizado a los objetivos al alcance."
+      "value": "Inflige daño (medio) en función de la MAG del usuario con golpe garantizado a los objetivos al alcance y reduce su ATQ durante 3 turnos."
     },
     {
       "key": "SK_LW_RDM_S_3_TW",
@@ -13966,7 +13970,7 @@
     },
     {
       "key": "SK_LW_EC_BEA_A_01",
-      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (mucho) y reduce considerablemente su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_BEA_C_01",
@@ -14206,15 +14210,15 @@
     },
     {
       "key": "SK_LW_EC_TIM_A_02",
-      "value": "Otorga prisa a los aliados alcance durante 3 turnos."
+      "value": "Otorga prisa a los aliados alcance durante 3 turnos, y efecto adicional: aumenta su DEF en estado prisa."
     },
     {
       "key": "SK_LW_EC_TIM_C_03",
-      "value": "Mejora «Paro» a «Paro [vaticinador]»: probabilidad de infligir paro al objetivo."
+      "value": "Mejora «Paro+» a «Paro+ [vaticinador]»: probabilidad de infligir paro al objetivo, y efecto adicional: reduce la res. ataque de zona en estado paro."
     },
     {
       "key": "SK_LW_EC_TIM_C_03B",
-      "value": "Probabilidad de infligir paro al objetivo."
+      "value": "Probabilidad de infligir paro al objetivo, y efecto adicional: reduce la res. ataque de zona en estado paro."
     },
     {
       "key": "SK_LW_EC_TIM_C_04",
@@ -14234,11 +14238,11 @@
     },
     {
       "key": "SK_LW_EC_TIM_C_05",
-      "value": "Mejora «Meteo» a «Meteo [sideral]»: aumenta la tasa de penetración de ESP del usuario durante 3 turnos e inflige daño no elemental (mucho) en función de la MAG del usuario al objetivo."
+      "value": "Mejora «Meteo+» a «Meteo+ [sideral]»: aumenta la tasa de penetración de ESP del usuario durante 3 turnos, inflige daño no elemental (mucho) en función de la MAG del usuario al objetivo e inflige mucho más daño si el usuario está en estado prisa o lévita."
     },
     {
       "key": "SK_LW_EC_TIM_C_05B",
-      "value": "Aumenta la tasa de penetración de ESP del usuario durante 3 turnos e inflige daño no elemental (mucho) en función de la MAG del usuario al objetivo."
+      "value": "Aumenta la tasa de penetración de ESP del usuario durante 3 turnos, inflige daño no elemental (mucho) en función de la MAG del usuario al objetivo e inflige mucho más daño si el usuario está en estado prisa o lévita."
     },
     {
       "key": "SK_LW_EC_TIM_C_06",
@@ -14250,11 +14254,11 @@
     },
     {
       "key": "SK_LW_EC_TIM_C_07",
-      "value": "Mejora «Meteo» a «Meteo [deshacedor]»: aumenta el alcance. Elimina todas las mejoras del objetivo y le inflige daño no elemental (mucho) en función de la MAG del usuario."
+      "value": "Mejora «Meteo+» a «Meteo+ [deshacedor]»: aumenta el alcance. Elimina todas las mejoras del objetivo, le inflige daño no elemental (mucho) en función de la MAG del usuario e inflige mucho más daño si el usuario está en estado prisa o lévita."
     },
     {
       "key": "SK_LW_EC_TIM_C_07B",
-      "value": "Elimina todas las mejoras del objetivo y le inflige daño no elemental (mucho) en función de la MAG del usuario."
+      "value": "Elimina todas las mejoras del objetivo, le inflige daño no elemental (mucho) en función de la MAG del usuario e inflige mucho más daño si el usuario está en estado prisa o lévita."
     },
     {
       "key": "SK_LW_EC_TIM_C_08",
@@ -14354,15 +14358,15 @@
     },
     {
       "key": "SK_LW_EC_PLD_C_02",
-      "value": "Mejora «Muro santo» a «Muro guardián»: incluye el daño mágico. Otorga una barrera al usuario que reduce el daño (3 veces)."
+      "value": "Mejora «Muro santo» a «Muro guardián»: incluye el daño mágico. Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PLD_C_02B",
-      "value": "Otorga una barrera al usuario que reduce el daño (3 veces)."
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PLD_A_02",
-      "value": "Aumenta la tasa de penetración de DEF del usuario, inflige daño de luz (medio) al objetivo y aumenta el daño según la cantidad de VIT que haya perdido el usuario, y absorbe una parte del daño infligido."
+      "value": "Aumenta la tasa de penetración de DEF del usuario, inflige daño de luz (mucho) al objetivo y aumenta el daño según la cantidad de VIT que haya perdido el usuario, y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_LW_EC_PLD_C_03",
@@ -14374,11 +14378,11 @@
     },
     {
       "key": "SK_LW_EC_PLD_C_04",
-      "value": "Mejora «Espíritu inmortal» a «Convicción inmortal»: aumenta el número de usos de la habilidad en +1. Mayor probabilidad de que el usuario sea atacado, y sobrevive a daño letal una vez."
+      "value": "Mejora «Espíritu inmortal» a «Convicción inmortal»: n.º de usos de la habilidad +1. El usuario sobrevive a daño letal una vez y aumenta la probabilidad de que sea atacado, y efecto adicional: anula parálisis y confusión mientras agallas esté activo."
     },
     {
       "key": "SK_LW_EC_PLD_C_04B",
-      "value": "Mayor probabilidad de que el usuario sea atacado, y sobrevive a daño letal una vez."
+      "value": "El usuario sobrevive a daño letal una vez y aumenta la probabilidad de que sea atacado, y efecto adicional: anula parálisis y confusión mientras agallas esté activo."
     },
     {
       "key": "SK_LW_EC_PLD_A_03",
@@ -14386,11 +14390,11 @@
     },
     {
       "key": "SK_LW_EC_PLD_C_05",
-      "value": "Mejora «Cruz santa» a «Cruz tiniebla»: daño (medio) a los objetivos de alrededor, probabilidad de infligirles ceguera durante 3 turnos y aumenta la tasa de evasión del usuario durante 3 turnos."
+      "value": "Mejora «Cruz santa» a «Cruz tiniebla»: elimina todas las reducciones del usuario, inflige daño (medio) a los objetivos de alrededor, absorbe parte del daño infligido, probabilidad de infligirles ceguera durante 3 turnos y aumenta la tasa de evasión del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PLD_C_05B",
-      "value": "Daño (medio) a los objetivos de alrededor, probabilidad de infligirles ceguera durante 3 turnos y aumenta la tasa de evasión del usuario durante 3 turnos."
+      "value": "Elimina todas las reducciones del usuario, inflige daño (medio) a los objetivos de alrededor, absorbe parte del daño infligido, probabilidad de infligirles ceguera durante 3 turnos y aumenta la tasa de evasión del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PLD_C_06",
@@ -14414,11 +14418,11 @@
     },
     {
       "key": "SK_LW_EC_PLD_C_08",
-      "value": "Mejora «Muro santo» a «Fortaleza santa»: otorga una barrera al usuario que reduce el daño físico (3 veces), aumenta la probabilidad de ser atacado y aumenta la res. perforación durante 3 turnos (acumulable hasta 2 veces)."
+      "value": "Mejora «Muro santo» a «Fortaleza santa»: otorga una barrera al usuario que reduce el daño físico (3 veces), aumenta la probabilidad de ser atacado, aumenta la res. perforación durante 3 turnos (acumulable hasta 3 veces) y aumenta la tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PLD_C_08B",
-      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces), aumenta la probabilidad de ser atacado y aumenta la res. perforación durante 3 turnos (acumulable hasta 2 veces)."
+      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces), aumenta la probabilidad de ser atacado, aumenta la res. perforación durante 3 turnos (acumulable hasta 3 veces) y aumenta la tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_LIB_A_01",
@@ -14594,6 +14598,10 @@
     },
     {
       "key": "SK_LW_EC_WHM_C_05B",
+      "value": "Recupera VIT de los aliados de alrededor (medio) y aumenta su res. ataque de zona durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_WHM_C_05B_2",
       "value": "Recupera VIT de los aliados de alrededor (medio) y aumenta su res. ataque de zona durante 3 turnos."
     },
     {
@@ -14789,16 +14797,12 @@
       "value": "Aumenta la MAG del usuario durante 3 turnos, e inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance (acumulable hasta 3 veces)."
     },
     {
-      "key": "SK_LW_EC_PSI_A_02",
-      "value": "Aumenta la tasa de penetración de ESP del usuario durante 3 turnos e inflige daño (mucho) en función de la MAG del usuario al objetivo."
-    },
-    {
       "key": "SK_LW_EC_PSI_C_01",
       "value": "Mejora «Ruptura de chi gemelo» a «Ruptura de chi gemelo+»: aumenta el alcance y reduce el consumo de PA."
     },
     {
       "key": "SK_LW_EC_PSI_C_01B",
-      "value": "Inflige daño (muchísimo) en función de la MAG del usuario a los objetivos al alcance."
+      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance y les inflige daño (muchísimo) en función de la MAG del usuario."
     },
     {
       "key": "SK_LW_EC_PSI_C_02",
@@ -14809,12 +14813,16 @@
       "value": "Daño (medio) en función de la MAG del usuario al objetivo."
     },
     {
+      "key": "SK_LW_EC_PSI_A_02",
+      "value": "Aumenta la tasa de penetración de ESP del usuario durante 3 turnos e inflige daño (mucho) en función de la MAG del usuario al objetivo."
+    },
+    {
       "key": "SK_LW_EC_PSI_C_03",
-      "value": "Mejora «Barrera de chi» a «Barrera de chi completa»: otorga una barrera al usuario que reduce el daño (3 veces)."
+      "value": "Mejora «Barrera de chi» a «Barrera de chi completa: otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PSI_C_03B",
-      "value": "Otorga una barrera al usuario que reduce el daño (3 veces)."
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su tasa de evasión de crítico durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PSI_C_04",
@@ -14830,11 +14838,11 @@
     },
     {
       "key": "SK_LW_EC_PSI_C_05",
-      "value": "Mejora «Explosión detonante» a «Detonación explosiva»: inflige daño (medio) con golpe garantizado en función de la MAG del usuario a los objetivos y reduce su res. ataque a distancia y mágico durante 3 turnos."
+      "value": "Mejora «Explosión detonante» a «Detonación explosiva»: inflige daño (medio) con golpe garantizado en función de la MAG del usuario a los objetivos y reduce su ATQ, su res. ataque a distancia y su res. ataque mágico durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PSI_C_05B",
-      "value": "Inflige daño (medio) con golpe garantizado en función de la MAG del usuario a los objetivos y reduce su res. ataque a distancia y mágico durante 3 turnos."
+      "value": "Inflige daño (medio) con golpe garantizado en función de la MAG del usuario a los objetivos y reduce su ATQ. su res. ataque a distancia y su res. mágico durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PSI_C_06",
@@ -15517,6 +15525,10 @@
       "value": "MAG +20 %, res. todos los tipos de ataque +10"
     },
     {
+      "key": "SK_MA_LW_PRAY_2",
+      "value": "Aliados de luz: VIT máx. +10 %, res. rana +25; usuario: MAG +40 %, res. todos los tipos de ataque +10, res. ataque de zona +10, n.º de usos de «Cura+++» +1"
+    },
+    {
       "key": "SK_MA_FF14_YSTL",
       "value": "PT máx. +15 %, modificador de adquisición de PA +30 %, tasa de penetración de res. ataque mágico +30"
     },
@@ -15837,6 +15849,10 @@
       "value": "VIT máx. +20 %, ataque de corte +10"
     },
     {
+      "key": "SK_MA_LW_TREL_2",
+      "value": "Aliados de agua: VIT máx. +10 %, res. inútil +25; usuario: VIT máx. +20 %, ataque de corte +10, ATQ +20 %, tasa de penetración de DEF +20"
+    },
+    {
       "key": "SK_MA_FF1_WROL",
       "value": "ATQ +20 %, DEF +5"
     },
@@ -16081,6 +16097,10 @@
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: MAG +20 %"
     },
     {
+      "key": "SK_MA_LW_GABL_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: MAG +20 %, VIT máx. +10 %, res. ataque de zona +15"
+    },
+    {
       "key": "SK_MA_LW_ELSR",
       "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: tasa de precisión +10, res. ataque de perforación y res. ataque a distancia +5"
     },
@@ -16319,6 +16339,10 @@
     {
       "key": "SK_MA_LW_VLUC",
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: ESP +5, VIT máx. +15 %"
+    },
+    {
+      "key": "SK_MA_LW_VLUC_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: consumo de PA <nobr>-20</nobr> % hasta recibir daño 2 veces, ESP +15, VIT máx. +15 %, res. ataque mágico +15, MAG +20 %"
     },
     {
       "key": "SK_MA_LW_FDRC_01",
@@ -17446,6 +17470,14 @@
     },
     {
       "key": "SK_LW_RNG_012_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ARW_006_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ARW_006_5",
       "value": ""
     },
     {
@@ -22785,6 +22817,54 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_LATH_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LATH_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LATH_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LATH_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LATH_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LATH_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LATH_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LATH_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LATH_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LATH_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LATH_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LATH_P2MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_ADSN_MV2_GS",
       "value": ""
     },
@@ -27497,6 +27577,30 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_INVINCIBLE",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_BARRIER",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_INV_EXT_ECHAIN",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_AP_LESS_1_100_U",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_GUTS_HP_70_MORE",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_CRI_AP_RECOVREY",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "Ataque provisional de mecanismo"
     },
@@ -30835,6 +30939,26 @@
     {
       "key": "SK_MPOT_R_01",
       "value": "Probabilidad de recuperar PA del objetivo al recibir daño."
+    },
+    {
+      "key": "SK_MBAT_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_MBAT_M_01",
+      "value": "Inflige daño (poco) al objetivo."
+    },
+    {
+      "key": "SK_MBAT_M_02",
+      "value": "Inflige daño (poco) al objetivo tras desplazarse a la casilla objetivo y le absorbe PA."
+    },
+    {
+      "key": "SK_MBAT_M_03",
+      "value": "Inflige daño (poco) al objetivo tras desplazarse a la casilla objetivo y le absorbe PT."
+    },
+    {
+      "key": "SK_MBAT_M_04",
+      "value": "Probabilidad de infligir confusión a los objetivos al alcance durante 3 turnos."
     },
     {
       "key": "SK_WYVN_ATK",
