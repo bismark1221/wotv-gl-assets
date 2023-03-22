@@ -384,6 +384,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -474,7 +476,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -532,6 +536,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -617,7 +623,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -675,6 +683,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -760,7 +770,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -818,6 +830,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -903,7 +917,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -961,6 +977,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1046,7 +1064,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -1104,6 +1124,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1189,7 +1211,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     },
     {
       "name": "",
@@ -1247,6 +1271,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1332,7 +1358,9 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false
     }
   ],
   "arena": [],
@@ -1374,6 +1402,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -1383,6 +1412,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -1399,6 +1429,7 @@
             "type": 0,
             "iname": "IT_AF_FF1_ARM_002",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 167
@@ -1408,6 +1439,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_HEART_03",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 4000
@@ -1417,6 +1449,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_MYTHRIL",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 583
@@ -1426,6 +1459,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SHINE_01",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 583
@@ -1435,6 +1469,7 @@
             "type": 0,
             "iname": "IT_AF_AW_ARMOR",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 650
@@ -1444,6 +1479,7 @@
             "type": 0,
             "iname": "IT_AF_EXP_02",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1750
@@ -1453,6 +1489,7 @@
             "type": 0,
             "iname": "IT_AF_EXP_03",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1500
@@ -1462,6 +1499,7 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 767
@@ -1476,8 +1514,9 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FF1_1_R2",
+            "iname": "IT_EC_FF1_R2_1",
             "num": 180,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 90
@@ -1485,8 +1524,9 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FF1_1_R2",
+            "iname": "IT_EC_FF1_R2_1",
             "num": 200,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 5
@@ -1494,8 +1534,9 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FF1_1_R2",
+            "iname": "IT_EC_FF1_R2_1",
             "num": 215,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 5
@@ -1512,6 +1553,7 @@
             "type": 0,
             "iname": "IT_AF_FF1_ARM_002",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 2
@@ -1521,6 +1563,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_HEART_03",
             "num": 3,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 72
@@ -1530,6 +1573,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_MYTHRIL",
             "num": 3,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 8
@@ -1539,6 +1583,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SHINE_01",
             "num": 3,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 8
@@ -1548,11 +1593,13 @@
             "type": 0,
             "iname": "IT_AF_AW_ARMOR",
             "num": 3,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 10
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

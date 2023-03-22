@@ -1410,7 +1410,7 @@
     },
     {
       "key": "SK_LW_CLR_M_3",
-      "value": "Anula veneno, congelación, ceguera, sueño, silencio, parálisis y confusión al objetivo durante 3 turnos."
+      "value": "Otorga una barrera a los aliados al alcance que reduce el daño (una vez), aumenta su VIT máx. durante 3 turnos, recupera la cantidad de VIT aumentada y anula veneno, congelación, ceguera, sueño, silencio, parálisis, confusión y paro."
     },
     {
       "key": "SK_LW_CLR_M_4",
@@ -1418,7 +1418,7 @@
     },
     {
       "key": "SK_LW_CLR_S_5",
-      "value": "Elimina las reducciones de los objetivos al alcance."
+      "value": "Elimina todas las reducciones de los objetivos al alcance y aumenta el TC del usuario (poco)."
     },
     {
       "key": "SK_LW_CLR_M_2_INIT",
@@ -1426,7 +1426,7 @@
     },
     {
       "key": "SK_LW_CLR_S_1_INIT",
-      "value": "Recupera VIT del objetivo (poco)."
+      "value": "Recupera VIT del objetivo (medio) y elimina todas sus reducciones."
     },
     {
       "key": "SK_LW_CLR_M_1",
@@ -1446,11 +1446,11 @@
     },
     {
       "key": "SK_LW_CLR_P_1",
-      "value": "Aumenta el ESP."
+      "value": "Aumenta la AGI y el ESP."
     },
     {
       "key": "SK_LW_CLR_M_3_SUB",
-      "value": "Anula veneno, congelación, ceguera, sueño, silencio, parálisis y confusión al objetivo durante 3 turnos."
+      "value": "Otorga una barrera a los aliados al alcance que reduce el daño (una vez), aumenta su VIT máx. durante 3 turnos, recupera la cantidad de VIT aumentada y anula veneno, congelación, ceguera, sueño, silencio, parálisis, confusión y paro."
     },
     {
       "key": "SK_LW_CLR_M_4_SUB",
@@ -1458,7 +1458,7 @@
     },
     {
       "key": "SK_LW_CLR_S_5_SUB",
-      "value": "Elimina las reducciones de los objetivos al alcance."
+      "value": "Elimina todas las reducciones de los objetivos al alcance y aumenta el TC del usuario (poco)."
     },
     {
       "key": "SK_LW_CLR_M_2",
@@ -1466,7 +1466,7 @@
     },
     {
       "key": "SK_LW_CLR_S_1",
-      "value": "Recupera VIT del objetivo (poco)."
+      "value": "Recupera VIT del objetivo (medio) y elimina todas sus reducciones."
     },
     {
       "key": "SK_LW_GRM_ATK",
@@ -2174,11 +2174,11 @@
     },
     {
       "key": "SK_LW_VIK_M_2",
-      "value": "Inflige daño (muchísimo) al objetivo."
+      "value": "Reduce la DEF y la res. corte del objetivo, reduce considerablemente su tasa de activación de la habilidad de reacción y le inflige daño (muchísimo)."
     },
     {
       "key": "SK_LW_VIK_M_3",
-      "value": "Inflige daño (mínimo) a los objetivos de alrededor y absorbe el daño infligido."
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario, inflige daño (poco) a los objetivos de alrededor y absorbe el daño infligido."
     },
     {
       "key": "SK_LW_VIK_S_1_INIT",
@@ -2190,7 +2190,7 @@
     },
     {
       "key": "SK_LW_VIK_S_2_INIT",
-      "value": "Aumenta el ATQ y la DEF del usuario durante 3 turnos y reduce su tasa de evasión."
+      "value": "Aumenta el ATQ, la DEF y la tasa de penetración de DEF del usuario durante 3 turnos y reduce su tasa de evasión durante 3 turnos."
     },
     {
       "key": "SK_LW_VIK_S_1",
@@ -2198,7 +2198,7 @@
     },
     {
       "key": "SK_LW_VIK_S_2",
-      "value": "Aumenta el ATQ y la DEF del usuario durante 3 turnos y reduce su tasa de evasión."
+      "value": "Aumenta el ATQ, la DEF y la tasa de penetración de DEF del usuario durante 3 turnos y reduce su tasa de evasión durante 3 turnos."
     },
     {
       "key": "SK_LW_VIK_S_3",
@@ -2210,7 +2210,7 @@
     },
     {
       "key": "SK_LW_VIK_R_1",
-      "value": "Probabilidad de recuperar VIT del usuario (media) al recibir daño y probabilidad de infligir locura durante 3 turnos."
+      "value": "Probabilidad de recuperar un porcentaje fijo de VIT del usuario (poco) al recibir daño y probabilidad de infligirle locura durante 3 turnos."
     },
     {
       "key": "SK_LW_VIK_P_1_2",
@@ -2226,11 +2226,11 @@
     },
     {
       "key": "SK_LW_VIK_M_2_SUB",
-      "value": "Inflige daño (muchísimo) al objetivo."
+      "value": "Reduce la DEF y la res. corte del objetivo, reduce considerablemente su tasa de activación de la habilidad de reacción y le inflige daño (muchísimo)."
     },
     {
       "key": "SK_LW_VIK_M_3_SUB",
-      "value": "Inflige daño (mínimo) a los objetivos de alrededor y absorbe el daño infligido."
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario, inflige daño (poco) a los objetivos de alrededor y absorbe el daño infligido."
     },
     {
       "key": "SK_LW_VIK_P_1",
@@ -6533,6 +6533,78 @@
       "value": "Reduce la DEF del objetivo durante 3 turnos, daño (medio) a los objetivos al alcance y probabilidad de infligirles freno durante 3 turnos."
     },
     {
+      "key": "SK_FF7_SPRT_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_SPRT_M_1",
+      "value": "Elimina cualquier barrera que reduzca el daño del objetivo, aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos e inflige daño (medio) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_FF7_SPRT_M_2",
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_FF7_SPRT_M_3",
+      "value": "Reduce la DEF del objetivo durante 3 turnos y le inflige daño (mucho) 3 veces."
+    },
+    {
+      "key": "SK_FF7_SPRT_S_1",
+      "value": "Inflige daño (poco) al objetivo y reduce su AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_SPRT_S_2",
+      "value": "Aumenta la res. luz y la tasa de bloqueo de reacción de los aliados de alrededor durante 3 turnos y otorga una reacción al usuario durante 3 turnos con probabilidad de activar un ataque de corte no elemental preventivo al recibir daño físico (forma de alcance: rombo; alcance: 4; altura de alcance: 1)."
+    },
+    {
+      "key": "SK_FF7_SPRT_S_3",
+      "value": "Probabilidad de infligir condena a los objetivos al alcance."
+    },
+    {
+      "key": "SK_FF7_SPRT_S_4",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle inmóvil durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_SPRT_R_1",
+      "value": "Probabilidad de evadir ataques físicos."
+    },
+    {
+      "key": "SK_FF7_SPRT_R_2",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño físico."
+    },
+    {
+      "key": "SK_FF7_SPRT_P_1",
+      "value": "Aumenta la tasa de penetración de DEF y la res. todos los elementos."
+    },
+    {
+      "key": "SK_FF7_SPRT_P_2",
+      "value": "Aumenta la AGI y movimiento +1."
+    },
+    {
+      "key": "SK_FF7_SPRT_EN_A_01",
+      "value": "Inflige daño de oscuridad (medio) a los objetivos al alcance y reduce el TC (medio)."
+    },
+    {
+      "key": "SK_FF7_SPRT_EN_A_01B",
+      "value": "Inflige daño de oscuridad (medio) con golpe garantizado a los objetivos al alcance y reduce el TC (medio)."
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_01",
+      "value": "Mejora «Barrera aciaga» a «Barrera aciaga+»: otorga una barrera al usuario que reduce el daño (3 veces) y le otorga recuperación automática de PA (medio) durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_01B",
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y le otorga recuperación automática de PA (medio) durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_02",
+      "value": "Mejora «Poder de la corriente vital» a «Poder de la corriente vital+»: mayor tasa de penetración de DEF y res. todos los elementos."
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_02B",
+      "value": "Aumenta la tasa de penetración de DEF y la res. todos los elementos."
+    },
+    {
       "key": "SK_LW_GRSR_01_ATK",
       "value": ""
     },
@@ -6982,11 +7054,11 @@
     },
     {
       "key": "SK_LW_SCR_M_1",
-      "value": "Daño (mucho) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles sueño durante 3 turnos."
+      "value": "Daño (mucho) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles sueño durante 3 turnos, y efecto adicional: reduce la res. todos los elementos en estado sueño."
     },
     {
       "key": "SK_LW_SCR_M_2",
-      "value": "Aumenta la DEF y el ESP de los aliados al alcance durante 3 turnos y aumenta la potencia de curación del usuario durante 3 turnos."
+      "value": "Aumenta la VIT máx. de los aliados de alrededor durante 3 turnos, recupera la cantidad de VIT aumentada, aumenta su DEF y ESP y aumenta su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_SCR_M_3",
@@ -7054,11 +7126,11 @@
     },
     {
       "key": "SK_LW_SCR_M_1_SUB",
-      "value": "Daño (mucho) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles sueño durante 3 turnos."
+      "value": "Daño (mucho) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles sueño durante 3 turnos, y efecto adicional: reduce la res. todos los elementos en estado sueño."
     },
     {
       "key": "SK_LW_SCR_M_2_SUB",
-      "value": "Aumenta la DEF y el ESP de los aliados al alcance durante 3 turnos y aumenta la potencia de curación del usuario durante 3 turnos."
+      "value": "Aumenta la VIT máx. de los aliados de alrededor durante 3 turnos, recupera la cantidad de VIT aumentada, aumenta su DEF y ESP y aumenta su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_SCR_M_3_SUB",
@@ -7066,7 +7138,7 @@
     },
     {
       "key": "SK_LW_SCR_M_2_ZOMA",
-      "value": "Aumenta la DEF y el ESP de los aliados al alcance durante 3 turnos y aumenta la potencia de curación del usuario durante 3 turnos."
+      "value": "Aumenta la VIT máx. de los aliados de alrededor durante 3 turnos, recupera la cantidad de VIT aumentada, aumenta su DEF y ESP y aumenta su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_SCR_S_1_ZOMA",
@@ -7090,11 +7162,11 @@
     },
     {
       "key": "SK_LW_EC_SCR_A_01",
-      "value": "Aumenta la tasa de perforación de ESP y la tasa de perforación de res. ataque mágico del usuario, e inflige daño no elemental (muchísimo) en función de la MAG del usuario al objetivo."
+      "value": "Aumenta la tasa de perforación de ESP y la tasa de perforación de res. ataque mágico del usuario, inflige daño no elemental (muchísimo) en función de la MAG del usuario con golpe garantizado al objetivo y aumenta la res. todos los tipos de ataque, la DEF y el ESP del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SCR_A_02",
-      "value": "Otorga una barrera a un aliado excepto el usuario que reduce el daño físico (3 veces) y reduce la probabilidad de que el usuario sea atacado."
+      "value": "Otorga una barrera a un aliado excepto el usuario que reduce el daño físico (3 veces), anula embrujo y congelación durante 3 turnos y reduce la probabilidad de que el usuario sea atacado."
     },
     {
       "key": "SK_LW_EC_SCR_C_01",
@@ -8566,34 +8638,34 @@
     },
     {
       "key": "SK_LW_BNI_M_1",
-      "value": "Daño (mucho) al objetivo, probabilidad de infligirle veneno durante 3 turnos y mayor probabilidad cuantas menos veces se haya recibido daño."
-    },
-    {
-      "key": "SK_LW_BNI_M_1_SUB",
-      "value": "Daño (mucho) al objetivo, probabilidad de infligirle veneno durante 3 turnos y mayor probabilidad cuantas menos veces se haya recibido daño."
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo durante 3 turnos, reduce su res. corte, le inflige daño (mucho), probabilidad de infligirle veneno durante 3 turnos y mayor probabilidad cuantas menos veces se haya recibido daño."
     },
     {
       "key": "SK_LW_BNI_M_2",
-      "value": "Daño (medio) 3 veces a los objetivos al alcance y probabilidad de infligirles ceguera durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_BNI_M_2_SUB",
-      "value": "Daño (medio) 3 veces a los objetivos al alcance y probabilidad de infligirles ceguera durante 3 turnos."
+      "value": "Inflige daño (medio) 3 veces a los objetivos al alcance, les elimina recuperación automática de PA y prisa y probabilidad de infligirles ceguera durante 3 turnos."
     },
     {
       "key": "SK_LW_BNI_M_3",
-      "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI hasta que reciba daño."
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces), aumenta su AGI hasta que reciba daño y le otorga recuperación automática de PA (poco) durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_BNI_M_1_SUB",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo durante 3 turnos, reduce su res. corte, le inflige daño (mucho), probabilidad de infligirle veneno durante 3 turnos y mayor probabilidad cuantas menos veces se haya recibido daño."
+    },
+    {
+      "key": "SK_LW_BNI_M_2_SUB",
+      "value": "Inflige daño (medio) 3 veces a los objetivos al alcance, les elimina recuperación automática de PA y prisa y probabilidad de infligirles ceguera durante 3 turnos."
     },
     {
       "key": "SK_LW_BNI_M_3_SUB",
-      "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI hasta que reciba daño."
-    },
-    {
-      "key": "SK_LW_BNI_S_1_INIT",
-      "value": "Inflige daño (medio) al objetivo."
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces), aumenta su AGI hasta que reciba daño y le otorga recuperación automática de PA (poco) durante 3 turnos."
     },
     {
       "key": "SK_LW_BNI_S_1",
+      "value": "Inflige daño (medio) al objetivo."
+    },
+    {
+      "key": "SK_LW_BNI_S_1_INIT",
       "value": "Inflige daño (medio) al objetivo."
     },
     {
@@ -8642,19 +8714,19 @@
     },
     {
       "key": "SK_LW_EC_BNI_C_02",
-      "value": "Mejora «Danza sombría» a «Movilidad sombría»: otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI y su tasa de penetración de res. ataque de corte hasta que reciba daño 2 veces."
+      "value": "Mejora «Danza sombría» a «Movilidad sombría»: otorga una barrera al usuario que reduce el daño (3 veces), aumenta su AGI y su tasa de penetración de res. ataque de corte hasta que reciba daño 2 veces y le otorga recuperación automática de PA (poco) durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_BNI_C_02B",
-      "value": "Otorga una barrera al usuario que reduce el daño (3 veces) y aumenta su AGI y su tasa de penetración de res. ataque de corte hasta que reciba daño 2 veces."
+      "value": "Otorga una barrera al usuario que reduce el daño (3 veces), aumenta su AGI y su tasa de penetración de res. ataque de corte hasta que reciba daño 2 veces y le otorga recuperación automática de PA (poco) durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_BNI_C_03",
-      "value": "Mejora «Tiniebla triple» a «Tiniebla tríplice»: elimina cualquier barrera que reduzca el daño de los objetivos al alcance, les inflige daño (medio) 3 veces, probabilidad de infligirles ceguera durante 3 turnos y reduce su AGI."
+      "value": "Mejora «Tiniebla triple» a «Tiniebla tríplice»: elimina cualquier barrera que reduzca el daño de los objetivos al alcance, les inflige daño (medio) 3 veces, les elimina recuperación automática de PA y prisa, y probabilidad de infligirles ceguera y reducir su AGI durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_BNI_C_03B",
-      "value": "Elimina cualquier barrera que reduzca el daño de los objetivos al alcance, les inflige daño (medio) 3 veces, probabilidad de infligirles ceguera durante 3 turnos y reduce su AGI."
+      "value": "Elimina cualquier barrera que reduzca el daño de los objetivos al alcance, les inflige daño (medio) 3 veces, les elimina recuperación automática de PA y prisa, y probabilidad de infligirles ceguera y reducir su AGI durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_BNI_C_04",
@@ -11825,6 +11897,30 @@
       "value": "Probabilidad de protegerse completamente de todos los ataques."
     },
     {
+      "key": "SK_FF7_SCRT_ATK",
+      "value": "Inflige daño (poco) al objetivo."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_01",
+      "value": "Inflige daño (poco) 3 veces al objetivo."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_02",
+      "value": "Inflige daño (medio) al objetivo tras desplazarse a la casilla objetivo, le hace retroceder 1 casilla y reduce su DEF durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_03",
+      "value": "Activa un efecto adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos), y otorga Coraza y Escudo."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_04",
+      "value": "Inflige daño (mucho) a los objetivos de alrededor."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_05",
+      "value": "Inflige daño (mínimo) al objetivo."
+    },
+    {
       "key": "SK_PRS5_KMSD_ATK",
       "value": ""
     },
@@ -12987,6 +13083,10 @@
     {
       "key": "SK_LB_FF7_BART",
       "value": "Daño (mucho) 2 veces al objetivo y probabilidad de infligirle confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_FF7_SPRT",
+      "value": "Elimina agallas y autolázaro a los objetivos al alcance, les inflige daño (mucho) con golpe garantizado y reduce el consumo de PA del usuario durante 3 turnos."
     },
     {
       "key": "SK_LB_LW_GRSR_01",
@@ -14334,15 +14434,15 @@
     },
     {
       "key": "SK_LW_EC_VIK_A_01",
-      "value": "Aumenta la tasa de penetración de DEF del usuario, elimina cualquier barrera que reduzca el daño físico del objetivo, y le inflige daño (medio)."
+      "value": "Aumenta la tasa de penetración de DEF del usuario, elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño (medio) con alta probabilidad de golpe crítico y recupera PA del usuario al asestar un crítico."
     },
     {
       "key": "SK_LW_EC_VIK_C_01",
-      "value": "Mejora «Golpe total» a «Golpe conquistador»: elimina el tiempo de activación de la habilidad. Inflige daño (muchísimo) al objetivo."
+      "value": "Mejora «Golpe total» a «Golpe conquistador»: elimina el tiempo de activación de la habilidad. Reduce la DEF y la res. corte del objetivo, reduce considerablemente su tasa de activación de la habilidad de reacción y le inflige daño (muchísimo)."
     },
     {
       "key": "SK_LW_EC_VIK_C_01B",
-      "value": "Inflige daño (muchísimo) al objetivo."
+      "value": "Reduce la DEF y la res. corte del objetivo, reduce considerablemente su tasa de activación de la habilidad de reacción y le inflige daño (muchísimo)."
     },
     {
       "key": "SK_LW_EC_VIK_C_02",
@@ -14351,6 +14451,26 @@
     {
       "key": "SK_LW_EC_VIK_C_02B",
       "value": "Daño penetrante (medio) al objetivo con golpe garantizado y probabilidad de infligirle inmóvil durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_VIK_A_02",
+      "value": "Reduce la DEF de los objetivos al alcance durante 3 turnos, y luego les inflige daño (medio)."
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_03",
+      "value": "Mejora «Hacha asesina» a «Hacha homicida»: daño (mucho) a los objetivos al alcance, otorga Comehombres aumentado y probabilidad de infligirles locura durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_03B",
+      "value": "Daño (mucho) a los objetivos al alcance, otorga Comehombres aumentado y probabilidad de infligirles locura durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_04",
+      "value": "Mejora «Espíritu rebelde» a «Espíritu saqueador»: aumenta el ATQ, la DEF, la tasa de penetración de DEF y la AGI del usuario durante 3 turnos y reduce su tasa de evasión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_04B",
+      "value": "Aumenta el ATQ, la DEF, la tasa de penetración de DEF y la AGI del usuario durante 3 turnos y reduce su tasa de evasión durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_PLD_A_01",
@@ -14762,23 +14882,23 @@
     },
     {
       "key": "SK_LW_EC_CLR_A_01",
-      "value": "Aumenta la tasa de penetración de ESP del usuario e inflige daño (medio) en función de la MAG del usuario con golpe garantizado al objetivo, y aumenta la DEF y el ESP del usuario durante 3 turnos."
+      "value": "Aumenta la tasa de penetración de ESP del usuario e inflige daño (mucho) en función de la MAG del usuario con golpe garantizado al objetivo, y aumenta la DEF y el ESP del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_CLR_C_01",
-      "value": "Mejora «Guardia calamitosa» a «Fortaleza calamitosa»: elimina el tiempo de activación. Aumenta la MAG de los objetivos al alcance durante 3 turnos, anula veneno, congelación, ceguera, sueño, silencio, parálisis, confusión, freno y locura, y aumenta la potencia de curación del usuario durante 3 turnos."
+      "value": "Mejora «Guardia calamitosa» a «Fortaleza calamitosa»: aumenta el alcance y la zona de efecto y elimina el tiempo de activación. Otorga una barrera a los aliados al alcance que reduce el daño (una vez), aumenta su MAG y VIT máx. durante 3 turnos, recupera la cantidad de VIT aumentada, anula veneno, congelación, ceguera, sueño, silencio, parálisis, confusión, paro y locura y aumenta la potencia de curación del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_CLR_C_01B",
-      "value": "Aumenta la MAG de los objetivos al alcance durante 3 turnos, anula veneno, congelación, ceguera, sueño, silencio, parálisis, confusión, freno y locura, y aumenta la potencia de curación del usuario durante 3 turnos."
+      "value": "Otorga una barrera a los aliados al alcance que reduce el daño (una vez), aumenta su MAG y VIT máx. durante 3 turnos, recupera la cantidad de VIT aumentada, anula veneno, congelación, ceguera, sueño, silencio, parálisis, confusión, paro y locura y aumenta la potencia de curación del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_CLR_C_02",
-      "value": "Mejora «ESP↑ nv. 1» a «Corazón valeroso»: aumenta la DEF y el ESP."
+      "value": "Mejora «Sabiduría de clérigo» a «Corazón valeroso»: aumenta AGI, DEF y ESP."
     },
     {
       "key": "SK_LW_EC_CLR_C_02B",
-      "value": "Aumenta la DEF y el ESP."
+      "value": "Aumenta AGI, DEF y ESP."
     },
     {
       "key": "SK_LW_EC_CLR_A_02",
@@ -14786,19 +14906,19 @@
     },
     {
       "key": "SK_LW_EC_CLR_C_03",
-      "value": "Mejora «Anulación» a «Anulación [redentor]»: elimina todas las reducciones de los objetivos al alcance y aumenta considerablemente su res. reducciones durante 3 turnos."
+      "value": "Mejora «Anulación» a «Anulación [redentor]»: elimina todas las reducciones de los objetivos al alcance, aumenta considerablemente su res. reducciones durante 3 turnos y aumenta el TC del usuario (medio)."
     },
     {
       "key": "SK_LW_EC_CLR_C_03B",
-      "value": "Elimina todas las reducciones de los objetivos al alcance y aumenta considerablemente su res. reducciones durante 3 turnos."
+      "value": "Elimina todas las reducciones de los objetivos al alcance, aumenta considerablemente su res. reducciones durante 3 turnos y aumenta el TC del usuario (medio)."
     },
     {
       "key": "SK_LW_EC_CLR_C_04",
-      "value": "Mejora «ESP↑ nv. 1» a «Ritual redentor»: aumenta el ESP, la res. oscuridad y la potencia de curación."
+      "value": "Mejora «Sabiduría de clérigo» a «Ritual redentor»: aumenta la AGI, el ESP, la res. oscuridad y la potencia de curación."
     },
     {
       "key": "SK_LW_EC_CLR_C_04B",
-      "value": "Aumenta el ESP, la res. oscuridad y la potencia de curación."
+      "value": "Aumenta la AGI, el ESP, la res. oscuridad y la potencia de curación."
     },
     {
       "key": "SK_LW_EC_PSI_A_01",
@@ -14919,26 +15039,6 @@
     {
       "key": "SK_LW_EC_THI_C_04B",
       "value": "Movimiento +1 y aumenta la AGI y reduce el odio."
-    },
-    {
-      "key": "SK_LW_EC_VIK_A_02",
-      "value": "Reduce la DEF de los objetivos al alcance durante 3 turnos, y luego les inflige daño (medio)."
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_03",
-      "value": "Mejora «Hacha asesina» a «Hacha homicida»: daño (mucho) a los objetivos al alcance, otorga Comehombres aumentado y probabilidad de infligirles locura durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_03B",
-      "value": "Daño (mucho) a los objetivos al alcance, otorga Comehombres aumentado y probabilidad de infligirles locura durante 3 turnos."
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_04",
-      "value": "Mejora «Espíritu rebelde» a «Espíritu saqueador»: aumenta ATQ, DEF y AGI del usuario durante 3 turnos y reduce su tasa de evasión."
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_04B",
-      "value": "Aumenta ATQ, DEF y AGI del usuario durante 3 turnos y reduce su tasa de evasión."
     },
     {
       "key": "SK_LW_EC_NIN_A_01_SOIL",
@@ -16325,6 +16425,10 @@
       "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: VIT máx. +25 %, tasa de penetración de DEF +25, ATQ +15 %"
     },
     {
+      "key": "SK_MA_FF7_SPRT",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: tasa de penetración de res. ataque de corte +20, tasa de crítico +20"
+    },
+    {
       "key": "SK_MA_LW_GRSR_01",
       "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. ataque de zona +10, tiempo de activación <nobr>-20</nobr> %"
     },
@@ -16623,6 +16727,134 @@
     {
       "key": "SK_MA_LW_LLGA",
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +10 %, consumo de PA <nobr>-20</nobr> %"
+    },
+    {
+      "key": "SK_UES_FF7_CLUD",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_EC_CLUD_A_01B",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario e inflige daño (medio) con alta probabilidad de golpe crítico a los enemigos de alrededor."
+    },
+    {
+      "key": "SK_UES_FF7_TIFA",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_EC_TIFA_A_01B",
+      "value": "Inflige daño (mucho) al objetivo 2 veces y reduce su ATQ y tasa de precisión durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_FF7_BART",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_EC_BART_C_01C",
+      "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta la res. ataque de zona mientras agallas esté activo, aumenta el ATQ y la DEF durante 3 turnos, y reduce el consumo de PA durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_FF7_AERT",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_EC_AERT_A_01B",
+      "value": "Otorga autolázaro al objetivo: revive a la unidad automáticamente una vez por combate (recuperación de VIT: medio) y aumenta el TC (poco) tras revivir con autolázaro."
+    },
+    {
+      "key": "SK_FF7_EC_AERT_A_01B_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_MONT",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MONT_C_01C",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) al objetivo y lo absorbe en forma de VIT, reduce sus PA y recupera PA del usuario."
+    },
+    {
+      "key": "SK_UES_LW_MONT_01",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MONT_01_C_01C",
+      "value": "Aumenta la DEF, el odio y la VIT máx. y otorga recuperación de VIT (recupera un porcentaje fijo de VIT (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez))."
+    },
+    {
+      "key": "SK_LW_EC_MONT_01_C_01C_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_ELDE",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_LAN_A_01B",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño penetrante (mucho), aumenta la potencia según el número de aliados KO y absorbe el daño infligido."
+    },
+    {
+      "key": "SK_UES_LW_STRN",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_SWN_A_01B",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, reduce su res. ataque de corte durante 3 turnos, le inflige daño (mucho) y probabilidad de infligirle freno durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_MDNA",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_BLM_A_01B_ICE",
+      "value": "Reduce considerablemente el ESP de los objetivos al alcance durante 3 turnos, les inflige daño de hielo (medio) en función de la MAG del usuario y reduce considerablemente su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_MACR",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_CLR_A_01B",
+      "value": "Aumenta la tasa de penetración de ESP del usuario e inflige daño (mucho) en función de la MAG del usuario con golpe garantizado al objetivo, y aumenta la DEF y el ESP del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_OBRN",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_OBRN_A_01B",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño (mucho) con golpe garantizado y otorga Comeeléctricos."
+    },
+    {
+      "key": "SK_UES_LW_NASR",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_PLD_A_01B",
+      "value": "Aumenta la res. ataque de unidad del usuario durante 3 turnos, aumenta considerablemente su res. reducciones de DEF y ESP y anula veneno, paro e inmóvil."
+    },
+    {
+      "key": "SK_UES_LW_RYER",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MGK_A_01B",
+      "value": "Daño (poco) en función de la MAG del usuario a los objetivos al alcance con golpe garantizado, reduce su potencia de curación y probabilidad de infligirles silencio durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_FF7_SPRT",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_AMNR",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_FF1_WROL",
+      "value": ""
+    },
+    {
+      "key": "SK_FF1_EC_WROL_C_01C",
+      "value": "Otorga una barrera a un aliado que reduce el daño (3 veces)."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -17991,6 +18223,10 @@
     {
       "key": "SK_CLT_FF7_BART_1",
       "value": "Aumenta la tasa de crítico y la tasa de evasión de crítico del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_CLT_FF7_SPRT_1",
+      "value": "Aumenta el ATQ y la tasa de penetración de DEF de los aliados de alrededor durante 3 turnos."
     },
     {
       "key": "SK_CLT_LW_GRSR_01_1",
@@ -20026,6 +20262,54 @@
     },
     {
       "key": "SK_VC_FF7_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7_MV2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7_MV2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7_MV2_P2MAX",
       "value": ""
     },
     {
@@ -30546,6 +30830,26 @@
     },
     {
       "key": "SK_FF7_GUN_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_5",
       "value": ""
     },
     {

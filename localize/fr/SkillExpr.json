@@ -1410,7 +1410,7 @@
     },
     {
       "key": "SK_LW_CLR_M_3",
-      "value": "Immunise la cible contre Poison, Gelure, Cécité, Sommeil, Silence, Paralysie et Confusion pendant 3 tours."
+      "value": "Érige une barrière autour des alliés dans la zone ciblée qui réduit les dégâts (1 fois), augmente les PV max pendant 3 tours et restaure la différence de PV, et immunise contre Poison, Gelure, Cécité, Sommeil, Silence, Paralysie, Confusion et Stop."
     },
     {
       "key": "SK_LW_CLR_M_4",
@@ -1418,7 +1418,7 @@
     },
     {
       "key": "SK_LW_CLR_S_5",
-      "value": "Dissipe tous les malus infligés aux unités dans la zone ciblée."
+      "value": "Dissipe tous les malus des unités dans la zone ciblée et augmente les CT du lanceur (M)."
     },
     {
       "key": "SK_LW_CLR_M_2_INIT",
@@ -1426,7 +1426,7 @@
     },
     {
       "key": "SK_LW_CLR_S_1_INIT",
-      "value": "Restaure les PV (S) de la cible."
+      "value": "Restaure les PV (M) de la cible et dissipe tous les malus."
     },
     {
       "key": "SK_LW_CLR_M_1",
@@ -1446,11 +1446,11 @@
     },
     {
       "key": "SK_LW_CLR_P_1",
-      "value": "Augmente la PSY."
+      "value": "Augmente l'AGI et la PSY."
     },
     {
       "key": "SK_LW_CLR_M_3_SUB",
-      "value": "Immunise la cible contre Poison, Gelure, Cécité, Sommeil, Silence, Paralysie et Confusion pendant 3 tours."
+      "value": "Érige une barrière autour des alliés dans la zone ciblée qui réduit les dégâts (1 fois), augmente les PV max pendant 3 tours et restaure la différence de PV, et immunise contre Poison, Gelure, Cécité, Sommeil, Silence, Paralysie, Confusion et Stop."
     },
     {
       "key": "SK_LW_CLR_M_4_SUB",
@@ -1458,7 +1458,7 @@
     },
     {
       "key": "SK_LW_CLR_S_5_SUB",
-      "value": "Dissipe tous les malus infligés aux unités dans la zone ciblée."
+      "value": "Dissipe tous les malus des unités dans la zone ciblée et augmente les CT du lanceur (M)."
     },
     {
       "key": "SK_LW_CLR_M_2",
@@ -1466,7 +1466,7 @@
     },
     {
       "key": "SK_LW_CLR_S_1",
-      "value": "Restaure les PV (S) de la cible."
+      "value": "Restaure les PV (M) de la cible et dissipe tous les malus."
     },
     {
       "key": "SK_LW_GRM_ATK",
@@ -2174,11 +2174,11 @@
     },
     {
       "key": "SK_LW_VIK_M_2",
-      "value": "Inflige des dégâts (XL) à la cible."
+      "value": "Réduit la DEF et la résistance aux attaques tranchantes de la cible, et réduit considérablement le taux d'activation de son aptitude de réaction, puis inflige des dégâts (XL)."
     },
     {
       "key": "SK_LW_VIK_M_3",
-      "value": "Inflige des dégâts (XS) aux cibles dans la zone autour du lanceur et absorbe les dégâts subis."
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur, puis inflige des dégâts (S) aux cibles dans la zone autour du lanceur et absorbe les dégâts infligés."
     },
     {
       "key": "SK_LW_VIK_S_1_INIT",
@@ -2190,7 +2190,7 @@
     },
     {
       "key": "SK_LW_VIK_S_2_INIT",
-      "value": "Augmente l'ATT et la DEF du lanceur pendant 3 tours et réduit le taux d'esquive."
+      "value": "Augmente l'ATT, la DEF et le taux de perforation de la DEF du lanceur pendant 3 tours et réduit le taux d'esquive pendant 3 tours."
     },
     {
       "key": "SK_LW_VIK_S_1",
@@ -2198,7 +2198,7 @@
     },
     {
       "key": "SK_LW_VIK_S_2",
-      "value": "Augmente l'ATT et la DEF du lanceur pendant 3 tours et réduit le taux d'esquive."
+      "value": "Augmente l'ATT, la DEF et le taux de perforation de la DEF du lanceur pendant 3 tours et réduit le taux d'esquive pendant 3 tours."
     },
     {
       "key": "SK_LW_VIK_S_3",
@@ -2210,7 +2210,7 @@
     },
     {
       "key": "SK_LW_VIK_R_1",
-      "value": "Chance de restaurer les PV (M) du lanceur lorsque des dégâts sont subis et confère une chance d'infliger Berserker pendant 3 tours."
+      "value": "Confère une chance de régénérer un certain pourcentage des PV (S) du lanceur lorsque des dégâts sont subis et confère une chance d'infliger Berserk pendant 3 tours."
     },
     {
       "key": "SK_LW_VIK_P_1_2",
@@ -2226,11 +2226,11 @@
     },
     {
       "key": "SK_LW_VIK_M_2_SUB",
-      "value": "Inflige des dégâts (XL) à la cible."
+      "value": "Réduit la DEF et la résistance aux attaques tranchantes de la cible, et réduit considérablement le taux d'activation de son aptitude de réaction, puis inflige des dégâts (XL)."
     },
     {
       "key": "SK_LW_VIK_M_3_SUB",
-      "value": "Inflige des dégâts (XS) aux cibles dans la zone autour du lanceur et absorbe les dégâts subis."
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur, puis inflige des dégâts (S) aux cibles dans la zone autour du lanceur et absorbe les dégâts infligés."
     },
     {
       "key": "SK_LW_VIK_P_1",
@@ -5794,7 +5794,7 @@
     },
     {
       "key": "SK_LW_EC_MONT_01_C_01",
-      "value": "Améliore Prudence léonienne en Destiné de Leonis. Augmente les PV max, la DEF et la Haine."
+      "value": "Améliore Prudence léonienne en Destinée de Leonis. Augmente les PV max, la DEF et la Haine."
     },
     {
       "key": "SK_LW_EC_MONT_01_C_01B",
@@ -6533,6 +6533,78 @@
       "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M) aux unités dans la zone ciblée, et confère une chance d'infliger Lenteur pendant 3 tours."
     },
     {
+      "key": "SK_FF7_SPRT_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_SPRT_M_1",
+      "value": "Détruit toute barrière réduisant les dégâts, augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (M) aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_FF7_SPRT_M_2",
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois)."
+    },
+    {
+      "key": "SK_FF7_SPRT_M_3",
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (L) en 3 coups."
+    },
+    {
+      "key": "SK_FF7_SPRT_S_1",
+      "value": "Inflige des dégâts (S) à la cible et réduit l'AGI pendant 3 tours."
+    },
+    {
+      "key": "SK_FF7_SPRT_S_2",
+      "value": "Augmente la résistance à la lumière et le taux de blocage de réaction des alliés dans la zone autour du lanceur pendant 3 tours, accorde une réaction au lanceur pendant 3 tours qui confère une chance de réaliser une attaque tranchante non-élémentaire lorsque des dégâts sont subis par une attaque physique (Forme de la portée : losange, Portée : 4 et Hauteur de la portée : 1)"
+    },
+    {
+      "key": "SK_FF7_SPRT_S_3",
+      "value": "Confère une chance d'infliger Peine de mort aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_FF7_SPRT_S_4",
+      "value": "Inflige des dégâts (M) à la cible et confère une chance d'infliger Immobilisation pendant 3 tours."
+    },
+    {
+      "key": "SK_FF7_SPRT_R_1",
+      "value": "Confère une chance d'esquiver des attaques physiques."
+    },
+    {
+      "key": "SK_FF7_SPRT_R_2",
+      "value": "Confère une chance d'effectuer une Frappe préventive lorsque des dégâts physiques sont subis."
+    },
+    {
+      "key": "SK_FF7_SPRT_P_1",
+      "value": "Augmente le taux de perforation de la DEF et la résistance tous éléments."
+    },
+    {
+      "key": "SK_FF7_SPRT_P_2",
+      "value": "Augmente l'AGI de 1 et le déplacement de 1."
+    },
+    {
+      "key": "SK_FF7_SPRT_EN_A_01",
+      "value": "Inflige des dégâts d'ombre (M) aux unités dans la zone ciblée, et réduit la jauge de CT (M)."
+    },
+    {
+      "key": "SK_FF7_SPRT_EN_A_01B",
+      "value": "Inflige des dégâts d'ombre (M) aux unités dans la zone ciblée avec Coup garanti, et réduit la jauge de CT (M)."
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_01",
+      "value": "Améliore Voile ténébreux en Voile ténébreux +. Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et accorde une Restauration auto de PA (M) pendant 3 tours."
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_01B",
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et accorde une Restauration auto de PA (M) pendant 3 tours."
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_02",
+      "value": "Améliore Pouvoir de la rivière de la vie en Pouvoir de la rivière de la vie +. Augmente le taux de perforation de la DEF et la résistance tous éléments."
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_02B",
+      "value": "Augmente le taux de perforation de la DEF et la résistance tous éléments."
+    },
+    {
       "key": "SK_LW_GRSR_01_ATK",
       "value": ""
     },
@@ -6982,11 +7054,11 @@
     },
     {
       "key": "SK_LW_SCR_M_1",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Sommeil pendant 3 tours."
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, confère une chance d'infliger Sommeil pendant 3 tours et accorde un effet additionnel : réduit la résistance tous éléments pendant l'effet de Sommeil."
     },
     {
       "key": "SK_LW_SCR_M_2",
-      "value": "Augmente la DEF et la PSY des alliés dans la zone ciblée pendant 3 tours, et augmente les compétences de soin du lanceur pendant 3 tours."
+      "value": "Augmente les PV max des alliés dans la zone ciblée pendant 3 tours, restaure la différence, augmente la DEF et la PSY, et augmente les compétences de soin du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_SCR_M_3",
@@ -7054,11 +7126,11 @@
     },
     {
       "key": "SK_LW_SCR_M_1_SUB",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Sommeil pendant 3 tours."
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, confère une chance d'infliger Sommeil pendant 3 tours et accorde un effet additionnel : réduit la résistance tous éléments pendant l'effet de Sommeil."
     },
     {
       "key": "SK_LW_SCR_M_2_SUB",
-      "value": "Augmente la DEF et la PSY des alliés dans la zone ciblée pendant 3 tours, et augmente les compétences de soin du lanceur pendant 3 tours."
+      "value": "Augmente les PV max des alliés dans la zone ciblée pendant 3 tours, restaure la différence, augmente la DEF et la PSY, et augmente les compétences de soin du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_SCR_M_3_SUB",
@@ -7066,7 +7138,7 @@
     },
     {
       "key": "SK_LW_SCR_M_2_ZOMA",
-      "value": "Augmente la DEF et la PSY des alliés dans la zone ciblée pendant 3 tours, et augmente les compétences de soin du lanceur pendant 3 tours."
+      "value": "Augmente les PV max des alliés dans la zone ciblée pendant 3 tours, restaure la différence, augmente la DEF et la PSY, et augmente les compétences de soin du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_SCR_S_1_ZOMA",
@@ -7090,11 +7162,11 @@
     },
     {
       "key": "SK_LW_EC_SCR_A_01",
-      "value": "Augmente le taux de perforation de la PSY et le taux de perforation de la résistance aux attaques magiques du lanceur, puis inflige des dégâts non-élémentaires (XL) qui dépendent de la MAGIE du lanceur à la cible."
+      "value": "Augmente le taux de perforation de la PSY et le taux de perforation de la résistance aux attaques magiques du lanceur, puis inflige des dégâts non-élémentaires (XL) qui dépendent de la MAGIE du lanceur à la cible avec Coup garanti, et augmente la résistance à toutes les attaques, la DEF et la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SCR_A_02",
-      "value": "Érige une barrière autour d'un allié sauf le lanceur qui réduit les dégâts physiques (3 fois) et réduit les chances du lanceur d'être pris pour cible."
+      "value": "Érige une barrière autour d'un allié sauf le lanceur qui réduit les dégâts physiques (3 fois), annule Charme et Gelure pendant 3 tours, et réduit les chances d'être pris pour cible pour le lanceur."
     },
     {
       "key": "SK_LW_EC_SCR_C_01",
@@ -8566,34 +8638,34 @@
     },
     {
       "key": "SK_LW_BNI_M_1",
-      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Poison pendant 3 tours et réduit les chances proportionnellement au nombre de fois où le lanceur a subi des dégâts."
-    },
-    {
-      "key": "SK_LW_BNI_M_1_SUB",
-      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Poison pendant 3 tours et plus le nombre de fois que le lanceur subit des dégâts est faible plus les chances augmentent."
+      "value": "Réduit considérablement le taux d'activation des aptitudes de réaction de la cible pendant 3 tours et réduit la résistance aux attaques tranchantes, puis inflige des dégâts (L), confère une chance d’infliger Poison pendant 3 tours, et réduit les chances proportionnellement au nombre de fois où le lanceur a subi des dégâts."
     },
     {
       "key": "SK_LW_BNI_M_2",
-      "value": "Inflige des dégâts (M) en 3 coups aux unités dans la zone ciblée et confère une chance d'infliger Cécité pendant 3 tours."
-    },
-    {
-      "key": "SK_LW_BNI_M_2_SUB",
-      "value": "Inflige des dégâts (M) en 3 coups aux unités dans la zone ciblée et confère une chance d'infliger Cécité pendant 3 tours."
+      "value": "Inflige des dégâts (M) en 3 coups aux unités dans la zone ciblée, dissipe Restauration auto de PA ou Booster, et confère une chance d'infliger Cécité pendant 3 tours."
     },
     {
       "key": "SK_LW_BNI_M_3",
-      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et augmente l'AGI du lanceur jusqu'à ce que ce dernier subisse des dégâts."
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), augmente l'AGI du lanceur jusqu'à ce que ce dernier subisse des dégâts, et accorde une Restauration auto de PA (S) pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_BNI_M_1_SUB",
+      "value": "Réduit considérablement le taux d'activation des aptitudes de réaction de la cible pendant 3 tours et réduit la résistance aux attaques tranchantes, puis inflige des dégâts (L), confère une chance d’infliger Poison pendant 3 tours, et réduit les chances proportionnellement au nombre de fois où le lanceur a subi des dégâts."
+    },
+    {
+      "key": "SK_LW_BNI_M_2_SUB",
+      "value": "Inflige des dégâts (M) en 3 coups aux unités dans la zone ciblée, dissipe Restauration auto de PA ou Booster, et confère une chance d'infliger Cécité pendant 3 tours."
     },
     {
       "key": "SK_LW_BNI_M_3_SUB",
-      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et augmente l'AGI du lanceur jusqu'à ce que ce dernier subisse des dégâts."
-    },
-    {
-      "key": "SK_LW_BNI_S_1_INIT",
-      "value": "Inflige des dégâts (M) à la cible."
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), augmente l'AGI du lanceur jusqu'à ce que ce dernier subisse des dégâts, et accorde une Restauration auto de PA (S) pendant 3 tours."
     },
     {
       "key": "SK_LW_BNI_S_1",
+      "value": "Inflige des dégâts (M) à la cible."
+    },
+    {
+      "key": "SK_LW_BNI_S_1_INIT",
       "value": "Inflige des dégâts (M) à la cible."
     },
     {
@@ -8642,19 +8714,19 @@
     },
     {
       "key": "SK_LW_EC_BNI_C_02",
-      "value": "Améliore Danse de l'ombre en Flux obscur. Érige une barrière autour du lanceur qui réduit les dégâts (3 fois) et augmente l'AGI et le taux de perforation de la résistance aux attaques tranchantes jusqu'à ce que le lanceur subisse des dégâts 2 fois."
+      "value": "Améliore Danse de l'ombre en Flux obscur. Érige une barrière autour du lanceur qui réduit les dégâts (3 fois) et augmente l'AGI et le taux de perforation de la résistance aux attaques tranchantes jusqu'à ce que le lanceur subisse des dégâts (2 fois), et accorde une Restauration auto de PA (S) pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_BNI_C_02B",
-      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois) et augmente l'AGI et le taux de perforation de la résistance aux attaques tranchantes jusqu'à ce que le lanceur subisse des dégâts 2 fois."
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois) et augmente l'AGI et le taux de perforation de la résistance aux attaques tranchantes jusqu'à ce que le lanceur subisse des dégâts (2 fois), et accorde une Restauration auto de PA (S) pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_BNI_C_03",
-      "value": "Améliore Trinité aveuglante en Trinité d'aveuglement destructeur. Détruit toutes les barrières réduisant les dégâts érigées autour des unités dans la zone ciblée, puis inflige des dégâts (M) en 3 coups, confère une chance d'infliger Cécité pendant 3 tours et réduit l'AGI."
+      "value": "Améliore Trinité aveuglante en Trinité d'aveuglement destructeur. Détruit toutes les barrières réduisant les dégâts érigées autour des unités dans la zone ciblée, puis inflige des dégâts (M) en 3 coups et dissipe Restauration auto de PA ou Booster, et confère une chance d'infliger Cécité et de réduire l’AGI pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_BNI_C_03B",
-      "value": "Détruit toutes les barrières réduisant les dégâts érigées autour des unités dans la zone ciblée, puis inflige des dégâts (M) en 3 coups, confère une chance d'infliger Cécité pendant 3 tours et réduit l'AGI."
+      "value": "Détruit toutes les barrières réduisant les dégâts érigées autour des unités dans la zone ciblée, puis inflige des dégâts (M) en 3 coups et dissipe Restauration auto de PA ou Booster, et confère une chance d'infliger Cécité et de réduire l’AGI pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_BNI_C_04",
@@ -11825,6 +11897,30 @@
       "value": "Confère une chance de pouvoir complètement se défendre contre toutes les attaques."
     },
     {
+      "key": "SK_FF7_SCRT_ATK",
+      "value": "Inflige des dégâts (S) à la cible."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_01",
+      "value": "Inflige des dégâts (S) en 3 coups à la cible."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_02",
+      "value": "Après déplacement jusqu'à la case ciblée, inflige des dégâts (M) à la cible, repousse d'une case et réduit la DEF pendant 3 tours."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_03",
+      "value": "Active des effets de dégâts additionnels lors de l'utilisation d'aptitudes d'attaque du lanceur pendant 3 tours (inflige des dégâts non-élémentaires (XS) et n'affecte en rien les combos) et accorde Bouclier/Barrière."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_04",
+      "value": "Inflige des dégâts (L) aux cibles dans la zone autour du lanceur."
+    },
+    {
+      "key": "SK_FF7_SCRT_M_05",
+      "value": "Inflige des dégâts (XS) à la cible."
+    },
+    {
       "key": "SK_PRS5_KMSD_ATK",
       "value": ""
     },
@@ -12989,6 +13085,10 @@
       "value": "Inflige des dégâts (L) en 2 coups à la cible et confère une chance d'infliger Confusion pendant 3 tours."
     },
     {
+      "key": "SK_LB_FF7_SPRT",
+      "value": "Dissipe Hardiesse et Auréole des unités dans la zone ciblée, puis inflige des dégâts (L) avec Coup garanti et réduit la consommation de PA du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_LB_LW_GRSR_01",
       "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur, et accorde la restauration automatique de PA (M) au lanceur pendant 3 tours."
     },
@@ -13490,11 +13590,11 @@
     },
     {
       "key": "SK_LW_EC_MONT_C_02",
-      "value": "Améliore Jet de pierre en Pro du jet de pierre. Améliore la portée. Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts (S) à la cible, coup garanti, réduit le Déplacement de 1 et réduit le taux de perforation de la DEF pendant 3 tours."
+      "value": "Améliore Jet de pierre en Pro du jet de pierre. Améliore la portée. Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts (S) à la cible avec Coup garanti, réduit le Déplacement de 1 et réduit le taux de perforation de la DEF pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_MONT_C_02B",
-      "value": "Améliore la portée. Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts (S) à la cible, coup garanti, réduit le Déplacement de 1 et réduit le taux de perforation de la DEF pendant 3 tours."
+      "value": "Améliore la portée. Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts (S) à la cible avec Coup garanti, réduit le Déplacement de 1 et réduit le taux de perforation de la DEF pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_SAM_A_01",
@@ -14334,15 +14434,15 @@
     },
     {
       "key": "SK_LW_EC_VIK_A_01",
-      "value": "Augmente le taux de perforation de la DEF du lanceur, détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (M)."
+      "value": "Augmente le taux de perforation de la DEF du lanceur, détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (M) avec une chance élevée d'infliger un coup critique, et restaure les PA du lanceur en cas de Coup critique."
     },
     {
       "key": "SK_LW_EC_VIK_C_01",
-      "value": "Améliore Explosion totale en Détonation dévastatrice. Pas de délai d'activation. Inflige des dégâts (XL) à la cible."
+      "value": "Améliore Explosion totale en Détonation dévastatrice. Pas de délai d'activation. Réduit la DEF et la résistance aux attaques tranchantes de la cible, et réduit considérablement le taux d'activation de son aptitude de réaction, puis inflige des dégâts (XL)."
     },
     {
       "key": "SK_LW_EC_VIK_C_01B",
-      "value": "Inflige des dégâts (XL) à la cible."
+      "value": "Réduit la DEF et la résistance aux attaques tranchantes de la cible, et réduit considérablement le taux d'activation de l'aptitude de réaction, puis inflige des dégâts (XL)."
     },
     {
       "key": "SK_LW_EC_VIK_C_02",
@@ -14351,6 +14451,26 @@
     {
       "key": "SK_LW_EC_VIK_C_02B",
       "value": "Inflige des dégâts (M) à la cible, Perforation, confère une chance d'infliger Immobilisation pendant 3 tours, et coup garanti."
+    },
+    {
+      "key": "SK_LW_EC_VIK_A_02",
+      "value": "Réduit la DEF des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M)."
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_03",
+      "value": "Améliore Hache meurtrière en Hache fatale. Inflige des dégâts (L) aux unités dans la zone ciblée, accorde Anthropophage augmenté, et confère une chance d'infliger Berserk pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_03B",
+      "value": "Inflige des dégâts (L) aux unités dans la zone ciblée, accorde Anthropophage augmenté, et confère une chance d'infliger Berserk pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_04",
+      "value": "Améliore Esprit rebelle en Esprit ravageur. Augmente l'ATT, la DEF, le taux de perforation de la DEF et l'AGI du lanceur pendant 3 tours, et réduit le taux d'esquive pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_04B",
+      "value": "Augmente l'ATT, la DEF, le taux de perforation de la DEF et l’AGI du lanceur pendant 3 tours et réduit le taux d'esquive pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_PLD_A_01",
@@ -14762,23 +14882,23 @@
     },
     {
       "key": "SK_LW_EC_CLR_A_01",
-      "value": "Augmente le taux de perforation de la PSY du lanceur, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible, coup garanti, et augmente la DEF et la PSY du lanceur pendant 3 tours."
+      "value": "Augmente le taux de perforation de la PSY du lanceur, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, coup garanti, et augmente la DEF et la PSY du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_CLR_C_01",
-      "value": "Améliore Anti-fléau en Immunisé. Pas de délai d'activation. Augmente la MAGIE des unités dans la zone ciblée pendant 3 tours, immunise contre Poison, Gelure, Cécité, Sommeil, Silence, Paralysie, Confusion, Lenteur et Berserk, et augmente les compétences de soin du lanceur pendant 3 tours."
+      "value": "Améliore Anti-fléau en Immunisé. Améliore la portée et la zone d’effet, et aucun délai d’activation. Érige une barrière autour des alliés dans la zone ciblée qui réduit les dégâts (1 fois), augmente la MAGIE et les PV max pendant 3 tours et restaure la différence de PV, et immunise contre Poison, Gelure, Cécité, Sommeil, Silence, Paralysie, Confusion, Lenteur, Stop et Berserk, et augmente les compétences de soin du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_CLR_C_01B",
-      "value": "Augmente la MAGIE des unités dans la zone ciblée pendant 3 tours, immunise contre Poison, Gelure, Cécité, Sommeil, Silence, Paralysie, Confusion, Lenteur et Berserk, et augmente les compétences de soin du lanceur pendant 3 tours."
+      "value": "Érige une barrière autour des alliés dans la zone ciblée qui réduit les dégâts (1 fois), augmente la MAGIE et les PV max pendant 3 tours et restaure la différence de PV, et immunise contre Poison, Gelure, Cécité, Sommeil, Silence, Paralysie, Confusion, Lenteur, Stop et Berserk, et augmente les compétences de soin du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_CLR_C_02",
-      "value": "Améliore PSY ↑ Niv. 1 en Cœur intrépide. Augmente la DEF et la PSY."
+      "value": "Améliore Intuition de prêtre en Cœur intrépide. Augmente l’AGI, la DEF et la PSY."
     },
     {
       "key": "SK_LW_EC_CLR_C_02B",
-      "value": "Augmente la DEF et la PSY."
+      "value": "Augmente l’AGI, la DEF et la PSY."
     },
     {
       "key": "SK_LW_EC_CLR_A_02",
@@ -14786,19 +14906,19 @@
     },
     {
       "key": "SK_LW_EC_CLR_C_03",
-      "value": "Améliore Suppression en Suppression [Flambeau]. Dissipe tous les malus des unités dans la zone ciblée et augmente considérablement la résistance aux malus pendant 3 tours."
+      "value": "Améliore Suppression en Suppression [Flambeau]. Dissipe tous les malus des unités dans la zone ciblée et augmente considérablement la résistance aux malus pendant 3 tours, et augmente les CT du lanceur (M)."
     },
     {
       "key": "SK_LW_EC_CLR_C_03B",
-      "value": "Dissipe tous les malus des unités dans la zone ciblée et augmente considérablement la résistance aux malus pendant 3 tours."
+      "value": "Dissipe tous les malus des unités dans la zone ciblée et augmente considérablement la résistance aux malus pendant 3 tours, et augmente les CT du lanceur (M)."
     },
     {
       "key": "SK_LW_EC_CLR_C_04",
-      "value": "Améliore PSY ↑ Niv. 1 en Rituel du flambeau. Augmente la PSY, la résistance à l'ombre et les compétences de soin."
+      "value": "Améliore Intuition de prêtre en Rituel du flambeau. Augmente l’AGI, la PSY, la résistance à l’ombre et les compétences de soin."
     },
     {
       "key": "SK_LW_EC_CLR_C_04B",
-      "value": "Augmente la PSY, la résistance à l'ombre et les compétences de soin."
+      "value": "Augmente l’AGI, la PSY, la résistance à l’ombre et les compétences de soin."
     },
     {
       "key": "SK_LW_EC_PSI_A_01",
@@ -14919,26 +15039,6 @@
     {
       "key": "SK_LW_EC_THI_C_04B",
       "value": "Déplacement +1, augmente l'AGI et réduit la Haine."
-    },
-    {
-      "key": "SK_LW_EC_VIK_A_02",
-      "value": "Réduit la DEF des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M)."
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_03",
-      "value": "Améliore Hache meurtrière en Hache fatale. Inflige des dégâts (L) aux unités dans la zone ciblée, accorde Anthropophage augmenté, et confère une chance d'infliger Berserk pendant 3 tours."
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_03B",
-      "value": "Inflige des dégâts (L) aux unités dans la zone ciblée, accorde Anthropophage augmenté, et confère une chance d'infliger Berserk pendant 3 tours."
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_04",
-      "value": "Améliore Esprit rebelle en Esprit ravageur. Augmente l'ATT, la DEF et l'AGI du lanceur pendant 3 tours, et réduit le taux d'esquive."
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_04B",
-      "value": "Augmente l'ATT, la DEF et l'AGI du lanceur pendant 3 tours, et réduit le taux d'esquive."
     },
     {
       "key": "SK_LW_EC_NIN_A_01_SOIL",
@@ -16325,6 +16425,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente les PV max du lanceur de 25 %, son taux de perforation de la DEF de 25 et son ATT de 15 %."
     },
     {
+      "key": "SK_MA_FF7_SPRT",
+      "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur de 20 et le taux de coup critique de 20."
+    },
+    {
       "key": "SK_MA_LW_GRSR_01",
       "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la résistance aux attaques de zone du lanceur de 10 et réduit son délai d'activation de 20 %."
     },
@@ -16623,6 +16727,134 @@
     {
       "key": "SK_MA_LW_LLGA",
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, et augmente l'ATT du lanceur de 10 % et réduit sa consommation de PA de 20 %."
+    },
+    {
+      "key": "SK_UES_FF7_CLUD",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_EC_CLUD_A_01B",
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur, puis inflige des dégâts (M) aux ennemis dans la zone autour du lanceur avec une chance élevée d'infliger un coup critique."
+    },
+    {
+      "key": "SK_UES_FF7_TIFA",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_EC_TIFA_A_01B",
+      "value": "Inflige des dégâts (L) en 2 coups à la cible et réduit l'ATT et le taux de précision pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_FF7_BART",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_EC_BART_C_01C",
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et accorde des effets additionnels : augmente la résistance aux attaques de zone pendant l'effet de Hardiesse, augmente l’ATT et la DEF pendant 3 tours, et réduit la consommation de PA pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_FF7_AERT",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_EC_AERT_A_01B",
+      "value": "Accorde Auréole à la cible, lui permettant d'être ranimée automatiquement une fois par combat (récupération de PV (M)) et augmente la jauge de CT (S) après avoir été ranimé via Auréole."
+    },
+    {
+      "key": "SK_FF7_EC_AERT_A_01B_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_MONT",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MONT_C_01C",
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, puis inflige des dégâts (L) à la cible, accorde Anthropophage, absorbe les dégâts infligés, réduit les PA et restaure les PA du lanceur."
+    },
+    {
+      "key": "SK_UES_LW_MONT_01",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MONT_01_C_01C",
+      "value": "Augmente la DEF, la Haine et les PV max, accorde une restauration de PV (restaure un certain pourcentage des PV (M) quand les PV chutent en dessous de 50 % quand des dégâts sont subis (1 fois))."
+    },
+    {
+      "key": "SK_LW_EC_MONT_01_C_01C_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_ELDE",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_LAN_A_01B",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L), Perforation et augmente la puissance en fonction du nombre d'alliés K.O. et absorbe une partie des dégâts infligés."
+    },
+    {
+      "key": "SK_UES_LW_STRN",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_SWN_A_01B",
+      "value": "Détruit toute barrière réduisant les dégâts physiques, réduit la résistance aux attaques tranchantes de la cible pendant 3 tours, puis lui inflige des dégâts (L), et confère une chance d'infliger Lenteur pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_MDNA",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_BLM_A_01B_ICE",
+      "value": "Réduit considérablement la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de glace (M) qui dépendent de la MAGIE du lanceur et réduit considérablement leurs compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_MACR",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_CLR_A_01B",
+      "value": "Augmente le taux de perforation de la PSY du lanceur, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible avec Coup garanti, et augmente la DEF et la PSY du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_OBRN",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_OBRN_A_01B",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L) avec Foudrophage et Coup garanti."
+    },
+    {
+      "key": "SK_UES_LW_NASR",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_PLD_A_01B",
+      "value": "Augmente la résistance aux attaques à cible unique du lanceur pendant 3 tours, augmente considérablement la résistance aux malus de DEF et la résistance aux malus de PSY et annule Poison, Stop et Immobilisation."
+    },
+    {
+      "key": "SK_UES_LW_RYER",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MGK_A_01B",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit les compétences de soin pendant 3 tours avec Coup garanti, et confère une chance d'infliger Silence pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_FF7_SPRT",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_AMNR",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_FF1_WROL",
+      "value": ""
+    },
+    {
+      "key": "SK_FF1_EC_WROL_C_01C",
+      "value": "Érige une barrière autour d'un allié qui réduit les dégâts (3 fois)."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -17991,6 +18223,10 @@
     {
       "key": "SK_CLT_FF7_BART_1",
       "value": "Augmente le taux de coup critique et le taux d'esquive critique du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_CLT_FF7_SPRT_1",
+      "value": "Augmente l'ATT et le taux de perforation de la DEF des alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
       "key": "SK_CLT_LW_GRSR_01_1",
@@ -20026,6 +20262,54 @@
     },
     {
       "key": "SK_VC_FF7_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7_MV2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7_MV2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7_MV2_P2MAX",
       "value": ""
     },
     {
@@ -30546,6 +30830,26 @@
     },
     {
       "key": "SK_FF7_GUN_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_KAT_000_5",
       "value": ""
     },
     {

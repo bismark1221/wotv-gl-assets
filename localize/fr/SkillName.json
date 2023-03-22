@@ -1426,7 +1426,7 @@
     },
     {
       "key": "SK_LW_CLR_S_1_INIT",
-      "value": "Soin"
+      "value": "Prière curative"
     },
     {
       "key": "SK_LW_CLR_M_1",
@@ -1446,7 +1446,7 @@
     },
     {
       "key": "SK_LW_CLR_P_1",
-      "value": "PSY ↑ Niv. 1"
+      "value": "Intuition de prêtre"
     },
     {
       "key": "SK_LW_CLR_M_3_SUB",
@@ -1466,7 +1466,7 @@
     },
     {
       "key": "SK_LW_CLR_S_1",
-      "value": "Soin"
+      "value": "Prière curative"
     },
     {
       "key": "SK_LW_GRM_ATK",
@@ -6533,6 +6533,78 @@
       "value": "Choc combustible +"
     },
     {
+      "key": "SK_FF7_SPRT_ATK",
+      "value": "Attaque normale"
+    },
+    {
+      "key": "SK_FF7_SPRT_M_1",
+      "value": "Porte de l'enfer"
+    },
+    {
+      "key": "SK_FF7_SPRT_M_2",
+      "value": "Voile ténébreux"
+    },
+    {
+      "key": "SK_FF7_SPRT_M_3",
+      "value": "Bouleversement"
+    },
+    {
+      "key": "SK_FF7_SPRT_S_1",
+      "value": "Déferlement"
+    },
+    {
+      "key": "SK_FF7_SPRT_S_2",
+      "value": "Garde de Masamune"
+    },
+    {
+      "key": "SK_FF7_SPRT_S_3",
+      "value": "Sentence du destin"
+    },
+    {
+      "key": "SK_FF7_SPRT_S_4",
+      "value": "Scission"
+    },
+    {
+      "key": "SK_FF7_SPRT_R_1",
+      "value": "Esquive instantanée"
+    },
+    {
+      "key": "SK_FF7_SPRT_R_2",
+      "value": "Scintilla"
+    },
+    {
+      "key": "SK_FF7_SPRT_P_1",
+      "value": "Pouvoir de la rivière de la vie"
+    },
+    {
+      "key": "SK_FF7_SPRT_P_2",
+      "value": "Héros solitaire"
+    },
+    {
+      "key": "SK_FF7_SPRT_EN_A_01",
+      "value": "Fission ombrale"
+    },
+    {
+      "key": "SK_FF7_SPRT_EN_A_01B",
+      "value": "Fission ombrale"
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_01",
+      "value": "Améliorer Voile ténébreux"
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_01B",
+      "value": "Voile ténébreux +"
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_02",
+      "value": "Améliorer Pouvoir de la rivière de la vie"
+    },
+    {
+      "key": "SK_FF7_EC_SPRT_C_02B",
+      "value": "Pouvoir de la rivière de la vie +"
+    },
+    {
       "key": "SK_LW_GRSR_01_ATK",
       "value": "Attaque normale"
     },
@@ -8569,15 +8641,7 @@
       "value": "Assaut toxique"
     },
     {
-      "key": "SK_LW_BNI_M_1_SUB",
-      "value": "Assaut toxique"
-    },
-    {
       "key": "SK_LW_BNI_M_2",
-      "value": "Trinité aveuglante"
-    },
-    {
-      "key": "SK_LW_BNI_M_2_SUB",
       "value": "Trinité aveuglante"
     },
     {
@@ -8585,15 +8649,23 @@
       "value": "Danse de l'ombre"
     },
     {
+      "key": "SK_LW_BNI_M_1_SUB",
+      "value": "Assaut toxique"
+    },
+    {
+      "key": "SK_LW_BNI_M_2_SUB",
+      "value": "Trinité aveuglante"
+    },
+    {
       "key": "SK_LW_BNI_M_3_SUB",
       "value": "Danse de l'ombre"
     },
     {
-      "key": "SK_LW_BNI_S_1_INIT",
+      "key": "SK_LW_BNI_S_1",
       "value": "Tranchant fatal"
     },
     {
-      "key": "SK_LW_BNI_S_1",
+      "key": "SK_LW_BNI_S_1_INIT",
       "value": "Tranchant fatal"
     },
     {
@@ -11825,6 +11897,30 @@
       "value": "Annul' dégâts"
     },
     {
+      "key": "SK_FF7_SCRT_ATK",
+      "value": "Attaque normale"
+    },
+    {
+      "key": "SK_FF7_SCRT_M_01",
+      "value": "Grand mitraillage"
+    },
+    {
+      "key": "SK_FF7_SCRT_M_02",
+      "value": "Charge"
+    },
+    {
+      "key": "SK_FF7_SCRT_M_03",
+      "value": "Demande de tir de suppression"
+    },
+    {
+      "key": "SK_FF7_SCRT_M_04",
+      "value": "Lame étincelante"
+    },
+    {
+      "key": "SK_FF7_SCRT_M_05",
+      "value": "Lance-roquettes"
+    },
+    {
       "key": "SK_PRS5_KMSD_ATK",
       "value": "Attaque normale"
     },
@@ -12987,6 +13083,10 @@
     {
       "key": "SK_LB_FF7_BART",
       "value": "Catastrophe"
+    },
+    {
+      "key": "SK_LB_FF7_SPRT",
+      "value": "Octofrappe"
     },
     {
       "key": "SK_LB_LW_GRSR_01",
@@ -14353,6 +14453,26 @@
       "value": "Brise-rotule assuré"
     },
     {
+      "key": "SK_LW_EC_VIK_A_02",
+      "value": "Percée meurtrière"
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_03",
+      "value": "Améliorer Hache meurtrière"
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_03B",
+      "value": "Hache fatale"
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_04",
+      "value": "Améliorer Esprit rebelle"
+    },
+    {
+      "key": "SK_LW_EC_VIK_C_04B",
+      "value": "Esprit ravageur"
+    },
+    {
       "key": "SK_LW_EC_PLD_A_01",
       "value": "Voile divin"
     },
@@ -14774,7 +14894,7 @@
     },
     {
       "key": "SK_LW_EC_CLR_C_02",
-      "value": "Améliorer PSY ↑ Niv. 1"
+      "value": "Améliorer Intuition de prêtre"
     },
     {
       "key": "SK_LW_EC_CLR_C_02B",
@@ -14794,7 +14914,7 @@
     },
     {
       "key": "SK_LW_EC_CLR_C_04",
-      "value": "Améliorer PSY ↑ Niv. 1"
+      "value": "Améliorer Intuition de prêtre"
     },
     {
       "key": "SK_LW_EC_CLR_C_04B",
@@ -14919,26 +15039,6 @@
     {
       "key": "SK_LW_EC_THI_C_04B",
       "value": "Voleur professionnel"
-    },
-    {
-      "key": "SK_LW_EC_VIK_A_02",
-      "value": "Percée meurtrière"
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_03",
-      "value": "Améliorer Hache meurtrière"
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_03B",
-      "value": "Hache fatale"
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_04",
-      "value": "Améliorer Esprit rebelle"
-    },
-    {
-      "key": "SK_LW_EC_VIK_C_04B",
-      "value": "Esprit ravageur"
     },
     {
       "key": "SK_LW_EC_NIN_A_01_SOIL",
@@ -16325,6 +16425,10 @@
       "value": "Aptitude maître"
     },
     {
+      "key": "SK_MA_FF7_SPRT",
+      "value": "Aptitude maître"
+    },
+    {
       "key": "SK_MA_LW_GRSR_01",
       "value": "Aptitude maître"
     },
@@ -16623,6 +16727,134 @@
     {
       "key": "SK_MA_LW_LLGA",
       "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_UES_FF7_CLUD",
+      "value": "Aptitude passive spécifique à la Réincarnation de Cloud"
+    },
+    {
+      "key": "SK_FF7_EC_CLUD_A_01B",
+      "value": "Méga taillade"
+    },
+    {
+      "key": "SK_UES_FF7_TIFA",
+      "value": "Aptitude passive spécifique à la Réincarnation de Tifa"
+    },
+    {
+      "key": "SK_FF7_EC_TIFA_A_01B",
+      "value": "Combo Dragon ascendant"
+    },
+    {
+      "key": "SK_UES_FF7_BART",
+      "value": "Aptitude passive spécifique à la Réincarnation de Barret"
+    },
+    {
+      "key": "SK_FF7_EC_BART_C_01C",
+      "value": "Volonté de fer +"
+    },
+    {
+      "key": "SK_UES_FF7_AERT",
+      "value": "Aptitude passive spécifique à la Réincarnation d'Aerith"
+    },
+    {
+      "key": "SK_FF7_EC_AERT_A_01B",
+      "value": "Auréole +"
+    },
+    {
+      "key": "SK_FF7_EC_AERT_A_01B_EN",
+      "value": "CT ↑ après ranimation (Auréole)"
+    },
+    {
+      "key": "SK_UES_LW_MONT",
+      "value": "Aptitude passive spécifique à la Réincarnation de Mont"
+    },
+    {
+      "key": "SK_LW_EC_MONT_C_01C",
+      "value": "Lame Saignée assassine"
+    },
+    {
+      "key": "SK_UES_LW_MONT_01",
+      "value": "Aptitude passive spécifique à la Réincarnation de Mont (Roi de Leonis)"
+    },
+    {
+      "key": "SK_LW_EC_MONT_01_C_01C",
+      "value": "Destinée de Leonis"
+    },
+    {
+      "key": "SK_LW_EC_MONT_01_C_01C_EN",
+      "value": "Restaure-PV si PV en dessous de 50 %"
+    },
+    {
+      "key": "SK_UES_LW_ELDE",
+      "value": "Aptitude passive spécifique à la Réincarnation de Eldo"
+    },
+    {
+      "key": "SK_LW_EC_LAN_A_01B",
+      "value": "Vengeance pénétrante"
+    },
+    {
+      "key": "SK_UES_LW_STRN",
+      "value": "Aptitude passive spécifique à la Réincarnation de Sterne"
+    },
+    {
+      "key": "SK_LW_EC_SWN_A_01B",
+      "value": "Fléau dangereux"
+    },
+    {
+      "key": "SK_UES_LW_MDNA",
+      "value": "Aptitude passive spécifique à la Réincarnation de Mediena"
+    },
+    {
+      "key": "SK_LW_EC_BLM_A_01B_ICE",
+      "value": "Glace + [Arcaniste]"
+    },
+    {
+      "key": "SK_UES_LW_MACR",
+      "value": "Aptitude passive spécifique à la Réincarnation de Machalie"
+    },
+    {
+      "key": "SK_LW_EC_CLR_A_01B",
+      "value": "Rayon sacré"
+    },
+    {
+      "key": "SK_UES_LW_OBRN",
+      "value": "Aptitude passive spécifique à la Réincarnation de Obéron"
+    },
+    {
+      "key": "SK_LW_EC_OBRN_A_01B",
+      "value": "Transpercement paratonnerre"
+    },
+    {
+      "key": "SK_UES_LW_NASR",
+      "value": "Aptitude passive spécifique à la Réincarnation de Nasha"
+    },
+    {
+      "key": "SK_LW_EC_PLD_A_01B",
+      "value": "Voile divin"
+    },
+    {
+      "key": "SK_UES_LW_RYER",
+      "value": "Aptitude passive spécifique à la Réincarnation de Lillyla"
+    },
+    {
+      "key": "SK_LW_EC_MGK_A_01B",
+      "value": "Réduit au silence"
+    },
+    {
+      "key": "SK_UES_FF7_SPRT",
+      "value": "Aptitude passive spécifique à la Réincarnation de Séphiroth"
+    },
+    {
+      "key": "SK_UES_LW_AMNR",
+      "value": "Aptitude passive spécifique à la Réincarnation de Amnélis"
+    },
+    {
+      "key": "SK_UES_FF1_WROL",
+      "value": "Aptitude passive spécifique à la Réincarnation de Guerrier de la lumière"
+    },
+    {
+      "key": "SK_FF1_EC_WROL_C_01C",
+      "value": "Bouclier invincible II"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -17991,6 +18223,10 @@
     {
       "key": "SK_CLT_FF7_BART_1",
       "value": "Accès de colère"
+    },
+    {
+      "key": "SK_CLT_FF7_SPRT_1",
+      "value": "Aura héroïque"
     },
     {
       "key": "SK_CLT_LW_GRSR_01_1",
@@ -20026,6 +20262,54 @@
     },
     {
       "key": "SK_VC_FF7_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7_MV2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7_MV2_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7_MV2_P2MAX",
       "value": ""
     },
     {
@@ -30547,6 +30831,26 @@
     {
       "key": "SK_FF7_GUN_000_5",
       "value": "Aptitude passive spécifique à Mitrailleuse"
+    },
+    {
+      "key": "SK_FF7_KAT_000_1",
+      "value": "Aptitude passive spécifique à Masamune"
+    },
+    {
+      "key": "SK_FF7_KAT_000_2",
+      "value": "Aptitude passive spécifique à Masamune"
+    },
+    {
+      "key": "SK_FF7_KAT_000_3",
+      "value": "Aptitude passive spécifique à Masamune"
+    },
+    {
+      "key": "SK_FF7_KAT_000_4",
+      "value": "Aptitude passive spécifique à Masamune"
+    },
+    {
+      "key": "SK_FF7_KAT_000_5",
+      "value": "Aptitude passive spécifique à Masamune"
     },
     {
       "key": "SK_SCOC_ATK",
