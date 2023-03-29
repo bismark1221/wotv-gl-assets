@@ -6605,6 +6605,70 @@
       "value": "Aumenta la tasa de penetración de DEF y la res. todos los elementos."
     },
     {
+      "key": "SK_FF7_YUFE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_YUFE_M_1",
+      "value": "Elimina Coraza al objetivo y le inflige daño de fuego (mucho)."
+    },
+    {
+      "key": "SK_FF7_YUFE_M_2",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (medio) a los objetivos de alrededor y probabilidad de infligirles ceguera durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_YUFE_M_3",
+      "value": "Aumenta la AGI de los aliados de alrededor durante 3 turnos y aumenta la res. ataque de unidad del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_YUFE_S_1",
+      "value": "Inflige daño no elemental (poco) al objetivo."
+    },
+    {
+      "key": "SK_FF7_YUFE_S_2",
+      "value": "Aumenta la tasa de evasión de ataque de perforación del usuario y anula los golpes garantizados que recibe durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_YUFE_S_3",
+      "value": "Daño (medio) al objetivo y probabilidad de robarle un objeto."
+    },
+    {
+      "key": "SK_FF7_YUFE_S_4",
+      "value": "Daño (medio) a los objetivos al alcance y probabilidad de infligirles confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_YUFE_R_1",
+      "value": "Probabilidad de aumentar el TC del usuario (mínimo) al evadir un ataque."
+    },
+    {
+      "key": "SK_FF7_YUFE_P_1",
+      "value": "Aumenta el ATQ y la tasa de penetración de DEF cuando la VIT está al 80 % o más."
+    },
+    {
+      "key": "SK_FF7_EC_YUFE_A_01",
+      "value": "Inflige daño (mucho) 3 veces al objetivo tras desplazarse a la casilla objetivo y aumenta el ATQ del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_EC_YUFE_A_01B",
+      "value": "Aumenta el ATQ del usuario durante 3 turnos tras desplazarse a la casilla objetivo e inflige daño (mucho) 3 veces al objetivo."
+    },
+    {
+      "key": "SK_FF7_EC_YUFE_C_01",
+      "value": "Mejora «Velo sombrío» a «Velo sombrío+»: otorga una barrera al usuario que niega por completo el daño (1 vez), aumenta su tasa de evasión de ataque de perforación y anula los golpes garantizados que recibe durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_EC_YUFE_C_01B",
+      "value": "Otorga una barrera al usuario que niega por completo el daño (1 vez), aumenta su tasa de evasión de ataque de perforación y anula los golpes garantizados que recibe durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_EC_YUFE_C_02",
+      "value": "Mejora «Torbellino» a «Torbellino+»: mayor probabilidad de activación de ceguera. Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (mucho) a los objetivos de alrededor y probabilidad de infligirles ceguera durante 3 turnos."
+    },
+    {
+      "key": "SK_FF7_EC_YUFE_C_02B",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (mucho) a los objetivos de alrededor y probabilidad de infligirles ceguera durante 3 turnos."
+    },
+    {
       "key": "SK_LW_GRSR_01_ATK",
       "value": ""
     },
@@ -7162,7 +7226,7 @@
     },
     {
       "key": "SK_LW_EC_SCR_A_01",
-      "value": "Aumenta la tasa de perforación de ESP y la tasa de perforación de res. ataque mágico del usuario, inflige daño no elemental (muchísimo) en función de la MAG del usuario con golpe garantizado al objetivo y aumenta la res. todos los tipos de ataque, la DEF y el ESP del usuario durante 3 turnos."
+      "value": "Aumenta la tasa de penetración de ESP y la tasa de penetración de res. ataque mágico del usuario, inflige daño no elemental (muchísimo) en función de la MAG del usuario con golpe garantizado al objetivo y aumenta la res. todos los tipos de ataque, la DEF y el ESP del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_SCR_A_02",
@@ -10649,6 +10713,26 @@
       "value": "Inflige daño de fuego (mucho) en función de la MAG del usuario a los objetivos al alcance."
     },
     {
+      "key": "SK_IFRT_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_IFRT_01_M_01",
+      "value": "Inflige daño mágico de fuego (poco) al objetivo enemigo y reduce su res. fuego durante 3 turnos."
+    },
+    {
+      "key": "SK_IFRT_01_M_02",
+      "value": "Transforma «Superllamas del infierno» en «Réquiem infernal» al turno siguiente, aumenta la MAG del usuario durante 3 turnos y le otorga una barrera (durabilidad: 5000)."
+    },
+    {
+      "key": "SK_IFRT_01_M_03",
+      "value": "Inflige daño mágico de fuego (mucho) a los enemigos al alcance."
+    },
+    {
+      "key": "SK_IFRT_01_M_04",
+      "value": "Inflige daño mágico de fuego (máximo) a los enemigos al alcance y elimina todas sus mejoras."
+    },
+    {
       "key": "SK_SIRE_ATK",
       "value": ""
     },
@@ -13089,6 +13173,10 @@
       "value": "Elimina agallas y autolázaro a los objetivos al alcance, les inflige daño (mucho) con golpe garantizado y reduce el consumo de PA del usuario durante 3 turnos."
     },
     {
+      "key": "SK_LB_FF7_YUFE",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) 3 veces al objetivo y aumenta la AGI del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LB_LW_GRSR_01",
       "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, y luego les inflige daño (mucho) en función de la MAG del usuario y otorga recuperación automática de PA (medio) al usuario durante 3 turnos."
     },
@@ -13543,6 +13631,10 @@
     {
       "key": "SK_SMN_RAMU_01",
       "value": "Invoca a Lamú oscuro: elimina Coraza y Escudo de los objetivos al alcance, les inflige daño de rayo (máximo) en función de la MAG del usuario y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de rayo, y reduce considerablemente la res. rayo de los enemigos)."
+    },
+    {
+      "key": "SK_SMN_IFRT_01",
+      "value": "Invoca a Ifrit oscuro: inflige daño de fuego (máximo) a los objetivos al alcance, elimina todas sus mejoras y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de fuego y reduce considerablemente la res. fuego de los enemigos)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -15769,6 +15861,10 @@
       "value": "Modificador de PA adquiridos +100 %, Mataespíritus +50"
     },
     {
+      "key": "SK_MA_LW_MIIA_2",
+      "value": "Modificador de PA adquiridos +100 %, Mataespíritus +50, DEF +20, velocidad de la barra de invocación +60 %"
+    },
+    {
       "key": "SK_MA_LW_ZZAN",
       "value": "DES +15 %, movimiento +1, salto +2"
     },
@@ -16153,8 +16249,16 @@
       "value": "Tasa de penetración de DEF +20, ataque a distancia +5"
     },
     {
+      "key": "SK_MA_LW_NIVL_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: ATQ +20 %, tasa de penetración de res. ataque a distancia +20, tasa de penetración de DEF +20, ataque a distancia +5"
+    },
+    {
       "key": "SK_MA_LW_RVAL",
       "value": "Potencia de curación +30, MAG +10 %"
+    },
+    {
+      "key": "SK_MA_LW_RVAL_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, res. freno +25; usuario: potencia de curación +30, MAG +10 %, tiempo de activación de habilidades ofensivas -40 %, res. rayo +10, aumenta la tasa de activación de veneno."
     },
     {
       "key": "SK_MA_LW_SAKR",
@@ -16429,6 +16533,10 @@
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: tasa de penetración de res. ataque de corte +20, tasa de crítico +20"
     },
     {
+      "key": "SK_MA_FF7_YUFE",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: tasa de penetración de res. ataque de corte +15, tasa de evasión +5"
+    },
+    {
       "key": "SK_MA_LW_GRSR_01",
       "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. ataque de zona +10, tiempo de activación <nobr>-20</nobr> %"
     },
@@ -16483,6 +16591,10 @@
     {
       "key": "SK_MA_LW_LMIG",
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: tasa de evasión +10"
+    },
+    {
+      "key": "SK_MA_LW_LMIG_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: ATQ +20 %, tasa de evasión +10, PA iniciales +20"
     },
     {
       "key": "SK_MA_LW_OBRN",
@@ -16845,6 +16957,10 @@
       "value": ""
     },
     {
+      "key": "SK_UES_FF7_YUFE",
+      "value": ""
+    },
+    {
       "key": "SK_UES_LW_AMNR",
       "value": ""
     },
@@ -16855,6 +16971,70 @@
     {
       "key": "SK_FF1_EC_WROL_C_01C",
       "value": "Otorga una barrera a un aliado que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_UES_LW_KTON",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_NIN_A_01B_SOIL",
+      "value": "Inflige daño de tierra (mínimo) al objetivo, reduce considerablemente su res. ataque de unidad y su potencia de curación durante 3 turnos y aumenta la potencia de curación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_FDRC",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_GUN_A_01B",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (medio) al objetivo y aumenta el ATQ del usuario durante 3 turnos al asestar un crítico."
+    },
+    {
+      "key": "SK_UES_LW_SDLX",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_NIN_A_02B_DARK",
+      "value": "Daño de oscuridad (medio) al objetivo y probabilidad de infligirle ceguera durante 3 turnos, y efecto adicional: aumenta el consumo de PA de objetivos cegados."
+    },
+    {
+      "key": "SK_UES_LW_NAIA",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_WHM_C_03C",
+      "value": "Recupera VIT de los aliados al alcance (medio) y aumenta el TC (poco)."
+    },
+    {
+      "key": "SK_UES_LW_WHIS",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_KNT_A_02B",
+      "value": "Reduce la DEF y el ESP del objetivo durante 3 turnos, le inflige daño (mucho) y aumenta la probabilidad de que el usuario sea atacado."
+    },
+    {
+      "key": "SK_UES_LW_OOOO",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_SAM_C_03C",
+      "value": "Aumenta la tasa de evasión de los aliados de alrededor durante 4 turnos, aumenta considerablemente la tasa de evasión del usuario durante 4 turnos y aumenta su res. ataque de zona durante 4 turnos."
+    },
+    {
+      "key": "SK_UES_LW_RAMD",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_LAN_A_03B",
+      "value": "Elimina todas las mejoras del objetivo, le inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_SIMR",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_SAM_C_06C",
+      "value": "Aumenta el ATQ y la tasa de evasión y reduce el consumo de PA."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -18227,6 +18407,10 @@
     {
       "key": "SK_CLT_FF7_SPRT_1",
       "value": "Aumenta el ATQ y la tasa de penetración de DEF de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_FF7_YUFE_1",
+      "value": "Recupera PA del usuario y aumenta su suerte durante 3 turnos."
     },
     {
       "key": "SK_CLT_LW_GRSR_01_1",
@@ -20310,6 +20494,90 @@
     },
     {
       "key": "SK_GL_VC_FF7_MV2_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7_MV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IFRT_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IFRT_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IFRT_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IFRT_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IFRT_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IFRT_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IFRT_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IFRT_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IFRT_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_IFRT_01_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_IFRT_01_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_IFRT_01_P2MAX",
       "value": ""
     },
     {
@@ -29925,6 +30193,26 @@
       "value": "Habilidad pasiva exclusiva de Rafala"
     },
     {
+      "key": "SK_LW_DAG_010_1_1",
+      "value": "Habilidad pasiva exclusiva de Rafala"
+    },
+    {
+      "key": "SK_LW_DAG_010_1_2",
+      "value": "Habilidad pasiva exclusiva de Rafala"
+    },
+    {
+      "key": "SK_LW_DAG_010_1_3",
+      "value": "Habilidad pasiva exclusiva de Rafala"
+    },
+    {
+      "key": "SK_LW_DAG_010_1_4",
+      "value": "Habilidad pasiva exclusiva de Rafala"
+    },
+    {
+      "key": "SK_LW_DAG_010_1_5",
+      "value": "Habilidad pasiva exclusiva de Rafala"
+    },
+    {
       "key": "SK_GL_LW_DAG_017_1",
       "value": "Tasa de bloqueo de reacción +3/res. ataque de zona +1/suerte +2 %"
     },
@@ -30090,6 +30378,26 @@
     },
     {
       "key": "SK_LW_NKN_004_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_UNI_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_UNI_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_UNI_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_UNI_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7_UNI_000_5",
       "value": ""
     },
     {
@@ -30378,6 +30686,10 @@
     },
     {
       "key": "SK_LW_PLUS6_MMANKR_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_1D_SPD_15",
       "value": "Habilidad específica de equipo +6"
     },
     {

@@ -344,7 +344,7 @@
       "dmganm": 0,
       "block": 0,
       "ai": {
-        "iname": "AI_ENEMY_1_BUFF_2_ATK",
+        "iname": "AI_ENEMY_ATK_LV3",
         "wait_e": 0,
         "search": 12,
         "sensing": 0
@@ -394,27 +394,17 @@
       "skills": [
         {
           "iname": "SK_FF7_SCRT_M_01",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_FF7_SCRT_M_02",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_FF7_SCRT_M_03",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_FF7_SCRT_M_04",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_FF7_SCRT_M_05",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         }
       ],
@@ -496,12 +486,12 @@
       "skills": [
         {
           "iname": "SK_SWPR_M_1",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_SWPR_M_2",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
@@ -511,7 +501,7 @@
         },
         {
           "iname": "SK_SWPR_M_4",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         }
       ],
@@ -543,7 +533,7 @@
       "dmganm": 0,
       "block": 0,
       "ai": {
-        "iname": "AI_ENEMY_ATK_LV5",
+        "iname": "AI_ENEMY_ATK_LV3",
         "wait_e": 0,
         "search": 12,
         "sensing": 0
@@ -593,16 +583,11 @@
       "skills": [
         {
           "iname": "SK_SCOC_M_1",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_SCOC_M_2",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SCOC_M_3",
           "rank": 10,
           "rate": 100
         }
@@ -615,7 +600,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":810},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
+      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":710},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
       "groupId": "",
       "infUnit": false
     },
@@ -635,7 +620,7 @@
       "dmganm": 0,
       "block": 0,
       "ai": {
-        "iname": "AI_ENEMY_ATK_LV5",
+        "iname": "AI_ENEMY_ATK_LV3",
         "wait_e": 0,
         "search": 12,
         "sensing": 0
@@ -685,16 +670,11 @@
       "skills": [
         {
           "iname": "SK_SCOC_M_1",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_SCOC_M_2",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SCOC_M_3",
           "rank": 10,
           "rate": 100
         }
@@ -707,7 +687,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":810},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
+      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":710},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
       "groupId": "",
       "infUnit": false
     },
@@ -785,16 +765,11 @@
       "skills": [
         {
           "iname": "SK_SCOC_M_1",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_SCOC_M_2",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SCOC_M_3",
           "rank": 10,
           "rate": 100
         }
@@ -807,7 +782,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":810},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
+      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":710},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
       "groupId": "",
       "infUnit": false
     },
@@ -885,16 +860,11 @@
       "skills": [
         {
           "iname": "SK_SCOC_M_1",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_SCOC_M_2",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SCOC_M_3",
           "rank": 10,
           "rate": 100
         }
@@ -907,7 +877,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":810},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
+      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":710},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
       "groupId": "",
       "infUnit": false
     },
@@ -985,16 +955,11 @@
       "skills": [
         {
           "iname": "SK_SCOC_M_1",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_SCOC_M_2",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SCOC_M_3",
           "rank": 10,
           "rate": 100
         }
@@ -1007,7 +972,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":810},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
+      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":710},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
       "groupId": "",
       "infUnit": false
     },
@@ -1085,16 +1050,11 @@
       "skills": [
         {
           "iname": "SK_SCOC_M_1",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_SCOC_M_2",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SCOC_M_3",
           "rank": 10,
           "rate": 100
         }
@@ -1107,7 +1067,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":810},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
+      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":710},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
       "groupId": "",
       "infUnit": false
     },
@@ -1127,7 +1087,7 @@
       "dmganm": 0,
       "block": 0,
       "ai": {
-        "iname": "AI_ENEMY_ATK_LV5",
+        "iname": "AI_ENEMY_ATK_LV3",
         "wait_e": 0,
         "search": 12,
         "sensing": 0
@@ -1177,16 +1137,11 @@
       "skills": [
         {
           "iname": "SK_SCOC_M_1",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_SCOC_M_2",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SCOC_M_3",
           "rank": 10,
           "rate": 100
         }
@@ -1199,7 +1154,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":810},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
+      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":710},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
       "groupId": "",
       "infUnit": false
     },
@@ -1219,7 +1174,7 @@
       "dmganm": 0,
       "block": 0,
       "ai": {
-        "iname": "AI_ENEMY_ATK_LV5",
+        "iname": "AI_ENEMY_ATK_LV3",
         "wait_e": 0,
         "search": 12,
         "sensing": 0
@@ -1269,16 +1224,11 @@
       "skills": [
         {
           "iname": "SK_SCOC_M_1",
-          "rank": 10,
+          "rank": 7,
           "rate": 100
         },
         {
           "iname": "SK_SCOC_M_2",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SCOC_M_3",
           "rank": 10,
           "rate": 100
         }
@@ -1291,7 +1241,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":810},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
+      "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":5},{\"type\":253,\"value\":5},{\"type\":403,\"value\":0},{\"type\":404,\"value\":0},{\"type\":405,\"value\":0},{\"type\":406,\"value\":0},{\"type\":407,\"value\":0},{\"type\":408,\"value\":0},{\"type\":410,\"value\":0},{\"type\":413,\"value\":0},{\"type\":409,\"value\":0},{\"type\":416,\"value\":0},{\"type\":417,\"value\":0},{\"type\":418,\"value\":0},{\"type\":419,\"value\":0},{\"type\":420,\"value\":0},{\"type\":421,\"value\":0},{\"type\":1,\"value\":710},{\"type\":2,\"value\":90},{\"type\":3,\"value\":100},{\"type\":9,\"value\":31},{\"type\":8,\"value\":150},{\"type\":158,\"value\":-10},{\"type\":254,\"value\":10},{\"type\":4,\"value\":113}]}",
       "groupId": "",
       "infUnit": false
     }
@@ -1451,6 +1401,16 @@
         {
           "drop_data": {
             "type": 0,
+            "iname": "IT_JB_MM_FF7_YUFE_2",
+            "num": 1,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 56
+        },
+        {
+          "drop_data": {
+            "type": 0,
             "iname": "IT_JB_EM_FIRE_2",
             "num": 1,
             "subNum1": 0,
@@ -1466,7 +1426,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 50
+          "weight": 56
         },
         {
           "drop_data": {
@@ -1496,7 +1456,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 6172
+          "weight": 6110
         }
       ]
     }
