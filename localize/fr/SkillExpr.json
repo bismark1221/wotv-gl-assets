@@ -4221,6 +4221,10 @@
       "value": "Dissipe Hardiesse de la cible, puis inflige des dégâts (L) à la cible après déplacement jusqu'à la case ciblée."
     },
     {
+      "key": "SK_LW_PRNE_EN_A_01B",
+      "value": "Dissipe Hardiesse de la cible, puis inflige des dégâts (L) à la cible après déplacement jusqu'à la case ciblée et augmente les CT du lanceur (S)."
+    },
+    {
       "key": "SK_LW_EC_PRNE_C_01",
       "value": "Améliore Domaine de l’eau en Domaine de l’eau majestueux. Augmente la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 4 tours, restaure un certain pourcentage des PV (M) du lanceur quand ses PV chutent en dessous de 50 % quand des dégâts sont subis (1 fois) et augmente la résistance aux attaques tranchantes et la résistance aux attaques perçantes pendant 3 tours."
     },
@@ -4361,6 +4365,10 @@
       "value": "Active des effets de dégâts additionnels lors de l'utilisation d'aptitudes d'attaque du lanceur (inflige des dégâts non-élémentaires (XS) et n'affecte en rien les combos), puis inflige des dégâts (M) à la cible."
     },
     {
+      "key": "SK_LW_LLGA_EN_A_01B",
+      "value": "Active des effets de dégâts additionnels lors de l'utilisation d'aptitudes d'attaque du lanceur pendant 3 tours (inflige des dégâts non-élémentaires (XS) et n'affecte en rien les combos), puis inflige des dégâts (M) à la cible."
+    },
+    {
       "key": "SK_LW_LLGA_EN_A_01_AD",
       "value": "Inflige des dégâts non-élémentaires (XS) à la cible."
     },
@@ -4379,6 +4387,154 @@
     {
       "key": "SK_LW_EC_LLGA_C_02_B",
       "value": "Portée +2 et augmente le taux de perforation de la résistance aux attaques projectiles."
+    },
+    {
+      "key": "SK_LW_RESL_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RESL_M_1",
+      "value": "Réduit la résistance aux attaques tranchantes à 2 cibles maximum pendant 3 tours, puis inflige des dégâts (M)."
+    },
+    {
+      "key": "SK_LW_RESL_M_2",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, absorbe une partie des dégâts infligés et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_RESL_M_3",
+      "value": "Accorde un effet d'absorption d'une partie des dégâts infligés aux PV des alliés dans la zone autour du lanceur pendant 3 tours, augmente l'ATT du lanceur et accorde un effet de dissipation d'Auréole aux attaques (s'active avant une attaque) pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_RESL_S_1",
+      "value": "Inflige des dégâts (S) à la cible et restaure les PA du lanceur quand un ennemi est mis K.O."
+    },
+    {
+      "key": "SK_LW_RESL_S_1_AD",
+      "value": "Restaure les PA du lanceur quand un ennemi est mis K.O."
+    },
+    {
+      "key": "SK_LW_RESL_S_2",
+      "value": "Confère des effets de statut (Bouclier/Barrière) au lanceur pendant 3 tours et accorde un effet additionnel : réduit la consommation de PA pendant l'effet de Bouclier/Barrière."
+    },
+    {
+      "key": "SK_LW_RESL_S_3",
+      "value": "Confère une chance d'infliger des altérations d'état (Poison, Paralysie, Immobilisation) à la cible pendant 3 tours et accorde un effet additionnel : réduit considérablement le taux de précision pendant l'effet de Poison/Paralysie/Immobilisation."
+    },
+    {
+      "key": "SK_LW_RESL_S_4",
+      "value": "Inflige des dégâts (M) en 2 coups à la cible et réduit l'AGI pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_RESL_R_1",
+      "value": "Confère une chance de réduire l'AGI de la cible pendant 3 tours et d'augmenter la résistance aux attaques de zone du lanceur pendant 3 tours lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_LW_RESL_P_1",
+      "value": "Augmente l'AGI et le taux de précision."
+    },
+    {
+      "key": "SK_LW_RESL_P_2",
+      "value": "Augmente le Déplacement et le Saut de 1"
+    },
+    {
+      "key": "SK_LW_RESL_EN_A_01",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L) et érige une barrière autour du lanceur qui réduit les dégâts physiques (1 fois)."
+    },
+    {
+      "key": "SK_LW_RESL_EN_A_01B",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L), dissipe tous les bonus et érige une barrière autour du lanceur qui réduit les dégâts physiques (1 fois)."
+    },
+    {
+      "key": "SK_LW_EC_RESL_C_01",
+      "value": "Améliore Baiser de Judas en Baiser de la Mort. Réduit la consommation de PA. Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M), absorbe une partie des dégâts infligés et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_RESL_C_01_B",
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M), absorbe une partie des dégâts infligés et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_RESL_C_02",
+      "value": "Améliore Tartufe en Mythomanie. Augmente l'AGI, le taux de précision et le taux de perforation de la DEF."
+    },
+    {
+      "key": "SK_LW_EC_RESL_C_02_B",
+      "value": "Augmente l'AGI, le taux de précision et le taux de perforation de la DEF."
+    },
+    {
+      "key": "SK_LW_HYOO_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_HYOO_M_1",
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_HYOO_M_2",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L)."
+    },
+    {
+      "key": "SK_LW_HYOO_M_3",
+      "value": "Augmente l'ATT et le taux de perforation de la DEF des alliés dans la zone autour du lanceur pendant 3 tours, accorde une réaction au lanceur pendant 3 tours qui confère une chance de régénérer un certain pourcentage des PV du lanceur lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_LW_HYOO_S_1",
+      "value": "Inflige des dégâts (S) à la cible et réduit l'ATT pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_HYOO_S_2",
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et accorde un effet additionnel : augmente l'attaque tranchante et le taux de précision pendant l'effet de Hardiesse."
+    },
+    {
+      "key": "SK_LW_HYOO_S_3",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée et confère une chance d'infliger Lenteur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_HYOO_S_4",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, et réduit l'AGI et le taux d'esquive critique pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_HYOO_R_1",
+      "value": "Confère une chance d'effectuer une Frappe préventive lorsque des dégâts physiques sont subis."
+    },
+    {
+      "key": "SK_LW_HYOO_R_2",
+      "value": "Confère une chance de régénérer un certain pourcentage des PV du lanceur lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_LW_HYOO_P_1",
+      "value": "Augmente l'ATT et le taux de perforation de la résistance aux attaques tranchantes."
+    },
+    {
+      "key": "SK_LW_HYOO_P_2",
+      "value": "Augmente les PV max et l'AGI."
+    },
+    {
+      "key": "SK_LW_HYOO_EN_A_01",
+      "value": "Dissipe Booster et Auréole de 2 cibles maximum, puis inflige des dégâts (L)."
+    },
+    {
+      "key": "SK_LW_HYOO_EN_A_01B",
+      "value": "Dissipe Booster et Auréole de 2 cibles maximum, puis inflige des dégâts (L), et restaure les PA du lanceur quand un ennemi est mis K.O. (jusqu'à 2 ennemis)."
+    },
+    {
+      "key": "SK_LW_HYOO_EN_A_01B_AD",
+      "value": "Restaure les PA du lanceur quand un ennemi est mis K.O. (jusqu'à 2 ennemis)."
+    },
+    {
+      "key": "SK_LW_EC_HYOO_C_01",
+      "value": "Améliore Lame fantôme en Frappe ardente. Réduit considérablement la DEF et le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_HYOO_C_01B",
+      "value": "Réduit considérablement la DEF et le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_HYOO_C_02",
+      "value": "Améliore Épéiste sanguinaire en Cœur sans merci. Augmente l'ATT, le taux de perforation de la résistance aux attaques tranchantes et résistance aux attaques de zone."
+    },
+    {
+      "key": "SK_LW_EC_HYOO_C_02B",
+      "value": "Augmente l'ATT, le taux de perforation de la résistance aux attaques tranchantes et résistance aux attaques de zone."
     },
     {
       "key": "SK_LW_LSWL_ATK",
@@ -13405,6 +13561,14 @@
       "value": "Augmente l'ATT du lanceur pendant 3 tours, puis inflige des dégâts (L) en 3 coups à la cible, et accorde une Restauration auto de PA (S) pour le lanceur pendant 3 tours."
     },
     {
+      "key": "SK_LB_LW_RESL",
+      "value": "Inflige des dégâts (L) aux unités dans la zone ciblée, confère une chance d'infliger Cécité pendant 3 tours et accorde un effet additionnel : réduit le taux de perforation de la DEF pendant l'effet de Cécité."
+    },
+    {
+      "key": "SK_LB_LW_HYOO",
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (L) en 3 coups aux unités dans la zone ciblée."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoque Ifrit, inflige des dégâts de feu (MAX) aux unités dans la zone ciblée et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés et réduit considérablement la résistance au feu des ennemis)."
     },
@@ -14614,7 +14778,7 @@
     },
     {
       "key": "SK_LW_EC_PLD_C_05B",
-      "value": "Améliore Croix sacrée en Croix éblouissante. Dissipe tous les malus du lanceur, puis inflige des dégâts (M) aux cibles dans la zone autour du lanceur, absorbe une partie des dégâts infligés et confère une chance d'infliger Cécité pendant 3 tours, et augmente le taux d'esquive du lanceur pendant 3 tours."
+      "value": "Dissipe tous les malus du lanceur, puis inflige des dégâts (M) aux cibles dans la zone autour du lanceur, absorbe une partie des dégâts infligés et confère une chance d'infliger Cécité pendant 3 tours, et augmente le taux d'esquive du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_PLD_C_06",
@@ -16841,6 +17005,14 @@
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, et augmente l'ATT du lanceur de 10 % et réduit sa consommation de PA de 20 %."
     },
     {
+      "key": "SK_MA_LW_RESL",
+      "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente l'ATT du lanceur de 10 % et sa résistance aux attaques de zone de 10."
+    },
+    {
+      "key": "SK_MA_LW_HYOO",
+      "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la résistance au feu et à la glace de 10 et les PJ acquis de 30 pour le lanceur."
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": ""
     },
@@ -17035,6 +17207,22 @@
     {
       "key": "SK_LW_EC_SAM_C_06C",
       "value": "Augmente l'ATT et le taux d'esquive, et réduit la consommation de PA."
+    },
+    {
+      "key": "SK_UES_LW_RESL",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_HYOO",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_PRNE",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_LLGA",
+      "value": ""
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -18511,6 +18699,14 @@
     {
       "key": "SK_ACC_LW_LLGA_1",
       "value": "Augmente la DEF du lanceur pendant 3 tours et accorde Bouclier."
+    },
+    {
+      "key": "SK_ACC_LW_RESL_1",
+      "value": "Augmente l’AGI et la résistance aux attaques de zone du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_HLM_LW_HYOO_1",
+      "value": "Augmente la résistance au feu et à la glace des unités dans la zone autour du lanceur pendant 3 tours et augmente la DEF du lanceur pendant 3 tours."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -20578,6 +20774,66 @@
     },
     {
       "key": "SK_GL_VC_LW_IFRT_01_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PMAX_3",
       "value": ""
     },
     {
@@ -30213,6 +30469,26 @@
       "value": "Aptitude passive spécifique à Rafale"
     },
     {
+      "key": "SK_LW_DAG_015_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_015_5",
+      "value": ""
+    },
+    {
       "key": "SK_GL_LW_DAG_017_1",
       "value": "Augmente le taux de blocage de réaction de 3, la résistance aux attaques de zone de 1 et la Chance de 2 %."
     },
@@ -31162,6 +31438,26 @@
     },
     {
       "key": "SK_FF7_KAT_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_5",
       "value": ""
     },
     {

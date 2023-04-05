@@ -4221,6 +4221,10 @@
       "value": "Elimina agallas al objetivo y le inflige daño (mucho) tras desplazarse a la casilla objetivo."
     },
     {
+      "key": "SK_LW_PRNE_EN_A_01B",
+      "value": "Elimina agallas al objetivo, le inflige daño (mucho) tras desplazarse a la casilla objetivo y aumenta el TC del usuario (poco)."
+    },
+    {
       "key": "SK_LW_EC_PRNE_C_01",
       "value": "Mejora «Zona de agua» a «Zona de agua+»: aumenta la res. ataque de zona de los aliados de alrededor durante 4 turnos, recupera un porcentaje fijo de VIT (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez) y aumenta la res. corte y perforación del usuario durante 3 turnos."
     },
@@ -4358,7 +4362,11 @@
     },
     {
       "key": "SK_LW_LLGA_EN_A_01",
-      "value": "Activa un efecto adicional al usar una habilidad ofensiva del usuario (inflige daño no elemental (mínimo) sin afectar a los combos), e inflige daño (medio) al objetivo."
+      "value": "Activa un efecto de daño adicional al usar una habilidad ofensiva del usuario (inflige daño no elemental (mínimo) sin afectar a los combos), e inflige daño (medio) al objetivo."
+    },
+    {
+      "key": "SK_LW_LLGA_EN_A_01B",
+      "value": "Activa un efecto de daño adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos), e inflige daño (medio) al objetivo."
     },
     {
       "key": "SK_LW_LLGA_EN_A_01_AD",
@@ -4379,6 +4387,154 @@
     {
       "key": "SK_LW_EC_LLGA_C_02_B",
       "value": "Alcance +2 y aumenta la tasa de penetración de res. ataque a distancia."
+    },
+    {
+      "key": "SK_LW_RESL_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RESL_M_1",
+      "value": "Reduce la res. corte de hasta 2 objetivos durante 3 turnos y les inflige daño (medio)."
+    },
+    {
+      "key": "SK_LW_RESL_M_2",
+      "value": "Inflige daño (medio) a los objetivos al alcance, absorbe una parte del daño infligido y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RESL_M_3",
+      "value": "Otorga absorción de una parte del daño de VIT infligido a los aliados de alrededor durante 3 turnos, aumenta el ATQ del usuario y otorga eliminación de autolázaro a los ataques (se activa antes de atacar) durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RESL_S_1",
+      "value": "Inflige daño (poco) al objetivo y recupera PA del usuario al dejar KO al enemigo."
+    },
+    {
+      "key": "SK_LW_RESL_S_1_AD",
+      "value": "Recupera PA del usuario al dejar KO al enemigo."
+    },
+    {
+      "key": "SK_LW_RESL_S_2",
+      "value": "Otorga Coraza y Escudo al usuario durante 3 turnos, y efecto adicional: reduce el consumo de PA en estado Coraza y Escudo."
+    },
+    {
+      "key": "SK_LW_RESL_S_3",
+      "value": "Probabilidad de infligir estados alterados (veneno, parálisis, inmóvil) al objetivo durante 3 turnos, y efecto adicional: reduce considerablemente la tasa de precisión en estado veneno, parálisis o inmóvil."
+    },
+    {
+      "key": "SK_LW_RESL_S_4",
+      "value": "Inflige daño (medio) 2 veces al objetivo y reduce su AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_RESL_R_1",
+      "value": "Probabilidad de reducir la AGI del objetivo durante 3 turnos y de aumentar la res. ataque de zona del usuario durante 3 turnos al recibir daño."
+    },
+    {
+      "key": "SK_LW_RESL_P_1",
+      "value": "Aumenta la AGI y la tasa de precisión."
+    },
+    {
+      "key": "SK_LW_RESL_P_2",
+      "value": "Movimiento y salto +1"
+    },
+    {
+      "key": "SK_LW_RESL_EN_A_01",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño (mucho) y otorga una barrera al usuario que reduce el daño físico (una vez)."
+    },
+    {
+      "key": "SK_LW_RESL_EN_A_01B",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño (mucho), elimina todas sus mejoras y otorga una barrera al usuario que reduce el daño físico (una vez)."
+    },
+    {
+      "key": "SK_LW_EC_RESL_C_01",
+      "value": "Mejora «Beso engañoso» a «Beso sellador»: menor consumo de PA. Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio), absorbe una parte del daño infligido y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_RESL_C_01_B",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio), absorbe una parte del daño infligido y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_RESL_C_02",
+      "value": "Mejora «Mentirosa compulsiva» a «Mitomanía»: aumenta la AGI, la tasa de precisión y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_EC_RESL_C_02_B",
+      "value": "Aumenta la AGI, la tasa de precisión y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_HYOO_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_HYOO_M_1",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_HYOO_M_2",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo y le inflige daño (mucho)."
+    },
+    {
+      "key": "SK_LW_HYOO_M_3",
+      "value": "Aumenta el ATQ y la tasa de penetración de DEF de los aliados de alrededor durante 3 turnos y otorga una reacción al usuario durante 3 turnos con probabilidad de recuperar un porcentaje fijo de su VIT al recibir daño."
+    },
+    {
+      "key": "SK_LW_HYOO_S_1",
+      "value": "Inflige daño (poco) al objetivo y reduce su ATQ durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_HYOO_S_2",
+      "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta el ataque de corte y la tasa de precisión mientras agallas esté activo."
+    },
+    {
+      "key": "SK_LW_HYOO_S_3",
+      "value": "Daño (medio) a los objetivos al alcance y probabilidad de infligirles freno durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_HYOO_S_4",
+      "value": "Inflige daño (medio) a los objetivos al alcance y reduce su AGI y su tasa de evasión de crítico durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_HYOO_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño físico."
+    },
+    {
+      "key": "SK_LW_HYOO_R_2",
+      "value": "Probabilidad de recuperar un porcentaje fijo de VIT del usuario al recibir daño."
+    },
+    {
+      "key": "SK_LW_HYOO_P_1",
+      "value": "Aumenta el ATQ y la tasa de penetración de res. ataque de corte."
+    },
+    {
+      "key": "SK_LW_HYOO_P_2",
+      "value": "Aumenta la VIT máx. y la AGI."
+    },
+    {
+      "key": "SK_LW_HYOO_EN_A_01",
+      "value": "Elimina prisa y autolázaro de hasta 2 objetivos e inflige daño (mucho)."
+    },
+    {
+      "key": "SK_LW_HYOO_EN_A_01B",
+      "value": "Elimina prisa y autolázaro de hasta 2 objetivos, inflige daño (mucho) y recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_LW_HYOO_EN_A_01B_AD",
+      "value": "Recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_LW_EC_HYOO_C_01",
+      "value": "Mejora «Hoja fantasma» a «Insolación»: reduce considerablemente la DEF y la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_HYOO_C_01B",
+      "value": "Reduce considerablemente la DEF y la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_HYOO_C_02",
+      "value": "Mejora «Espadachín sanguinario» a «Corazón despiadado»: aumenta el ATQ, la tasa de penetración de res. ataque de corte y la res. ataque de zona."
+    },
+    {
+      "key": "SK_LW_EC_HYOO_C_02B",
+      "value": "Aumenta el ATQ, la tasa de penetración de res. ataque de corte y la res. ataque de zona."
     },
     {
       "key": "SK_LW_LSWL_ATK",
@@ -13405,6 +13561,14 @@
       "value": "Aumenta el ATQ del usuario durante 3 turnos, inflige daño (mucho) 3 veces al objetivo y otorga recuperación automática de PA al usuario (poco) durante 3 turnos."
     },
     {
+      "key": "SK_LB_LW_RESL",
+      "value": "Inflige daño (mucho) a los objetivos al alcance y probabilidad de infligirles ceguera durante 3 turnos, y efecto adicional: reduce la tasa de penetración de DEF de objetivos cegados."
+    },
+    {
+      "key": "SK_LB_LW_HYOO",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos e inflige daño (mucho) 3 veces a los objetivos al alcance."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -16841,6 +17005,14 @@
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +10 %, consumo de PA <nobr>-20</nobr> %"
     },
     {
+      "key": "SK_MA_LW_RESL",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: ATQ +10 %, res. ataque de zona +10"
+    },
+    {
+      "key": "SK_MA_LW_HYOO",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. fuego y hielo +10, PA adquiridos +30 %"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": ""
     },
@@ -17035,6 +17207,22 @@
     {
       "key": "SK_LW_EC_SAM_C_06C",
       "value": "Aumenta el ATQ y la tasa de evasión y reduce el consumo de PA."
+    },
+    {
+      "key": "SK_UES_LW_RESL",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_HYOO",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_PRNE",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_LLGA",
+      "value": ""
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -18511,6 +18699,14 @@
     {
       "key": "SK_ACC_LW_LLGA_1",
       "value": "Aumenta la DEF del usuario durante 3 turnos y le otorga Coraza."
+    },
+    {
+      "key": "SK_ACC_LW_RESL_1",
+      "value": "Aumenta la AGI y la res. ataque de zona del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_HLM_LW_HYOO_1",
+      "value": "Aumenta la res. fuego y hielo de los objetivos de alrededor durante 3 turnos y aumenta la DEF del usuario durante 3 turnos."
     },
     {
       "key": "SK_SPE_LW_VERN_1_1",
@@ -20578,6 +20774,66 @@
     },
     {
       "key": "SK_GL_VC_LW_IFRT_01_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HYOO_PMAX_3",
       "value": ""
     },
     {
@@ -30213,6 +30469,26 @@
       "value": "Habilidad pasiva exclusiva de Rafala"
     },
     {
+      "key": "SK_LW_DAG_015_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_015_5",
+      "value": ""
+    },
+    {
       "key": "SK_GL_LW_DAG_017_1",
       "value": "Tasa de bloqueo de reacción +3/res. ataque de zona +1/suerte +2 %"
     },
@@ -31162,6 +31438,26 @@
     },
     {
       "key": "SK_FF7_KAT_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_020_5",
       "value": ""
     },
     {
