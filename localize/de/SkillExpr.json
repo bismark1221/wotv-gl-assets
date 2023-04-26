@@ -7290,7 +7290,7 @@
     },
     {
       "key": "SK_LW_SCR_FIRE_S_2_INIT",
-      "value": "Erhöht 3 Runden lang Feuerangriff sowie Bereichangriffsresistenz eines Verbündeten und senkt 3 Runden lang eigene AZ."
+      "value": "Erhöht 3 Runden lang Feuerangriff sowie Schwächungsresistenz eines Verbündeten und senkt 3 Runden lang eigene AZ."
     },
     {
       "key": "SK_LW_SCR_THUN_S_2_INIT",
@@ -7327,6 +7327,10 @@
     {
       "key": "SK_LW_SCR_S_1",
       "value": "Heilt LP des Ziels (S)."
+    },
+    {
+      "key": "SK_LW_SCR_FIRE_S_2",
+      "value": "Erhöht 3 Runden lang Feuerangriff sowie Schwächungsresistenz eines Verbündeten und senkt 3 Runden lang eigene AZ."
     },
     {
       "key": "SK_LW_SCR_THUN_S_2",
@@ -10295,6 +10299,94 @@
     {
       "key": "SK_ARM_FMAM_ALPN_1",
       "value": "Erhöht ANG von Verbündeten im Bereich um Wirkenden und lässt 3 Runden lang einen Teil des erlittenen LP-Schadens absorbieren."
+    },
+    {
+      "key": "SK_FMAM_ROYM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_ROYM_M_1",
+      "value": "Erhöht 3 Runden lang eigene Magieangriffsresistenz-Durchbohrrate und fügt anschließend Zielen in Reichweite 3 Mal hintereinander MAG-abhängigen Schaden (M) zu."
+    },
+    {
+      "key": "SK_FMAM_ROYM_M_2",
+      "value": "Entfernt Protes und Vallum vom Ziel und fügt diesem anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_FMAM_ROYM_M_3",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert, und wirkt 3 Runden lang TP-Verbrauchseffekt, wodurch TP verbraucht werden, um die Stärke von Angriffsfähigkeiten zu erhöhen."
+    },
+    {
+      "key": "SK_FMAM_ROYM_S_1",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu und senkt 3 Runden lang PSY."
+    },
+    {
+      "key": "SK_FMAM_ROYM_S_2",
+      "value": "Erhöht 3 Runden lang Reaktionsblockrate von Verbündeten im Bereich um Wirkenden und gewährt eigenen Angriffen 3 Runden lang Mumm-Entfernung (wird vor dem Angriff aktiviert)."
+    },
+    {
+      "key": "SK_FMAM_ROYM_S_3",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (M) zu und senkt 3 Runden lang Feuerresistenz."
+    },
+    {
+      "key": "SK_FMAM_ROYM_S_4",
+      "value": "Annulliert 3 Runden lang Erfrierung, Schlaf, Konfus, Stein und Steinwerdung bei allen Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_FMAM_ROYM_R_1",
+      "value": "Gewährt Chance auf Konter bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_FMAM_ROYM_P_1",
+      "value": "Erhöht AGI und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_FMAM_ROYM_P_2",
+      "value": "Erhöht MAG und Präzision."
+    },
+    {
+      "key": "SK_FMAM_ROYM_EN_A_01",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und erhöht eigene AZ (S) bei Kampfunfähigkeit des Gegners (bis zu 2)."
+    },
+    {
+      "key": "SK_FMAM_ROYM_EN_A_01_AD",
+      "value": "Erhöht bei Kampfunfähigkeit des Gegners (bis zu 2) AZ."
+    },
+    {
+      "key": "SK_FMAM_ROYM_EN_A_01B",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und erhöht eigene AZ (S) bei Kampfunfähigkeit des Gegners (bis zu 2)."
+    },
+    {
+      "key": "SK_FMAM_EC_ROYM_C_01",
+      "value": "Verstärkt Dreifache Entflammung zu Wahre Dreifache Entflammung. Fähigkeiteneinsätze +1. Erhöht 3 Runden lang eigene Magieangriffsresistenz-Durchbohrrate und fügt anschließend Zielen in Reichweite 3 Mal hintereinander MAG-abhängigen Schaden (M) mit hoher Präzision zu."
+    },
+    {
+      "key": "SK_FMAM_EC_ROYM_C_01_B",
+      "value": "Erhöht 3 Runden lang eigene Magieangriffsresistenz-Durchbohrrate und fügt anschließend Zielen in Reichweite 3 Mal hintereinander MAG-abhängigen Schaden (M) mit hoher Präzision zu."
+    },
+    {
+      "key": "SK_FMAM_EC_ROYM_C_02",
+      "value": "Verstärkt Glühende Seele zu Lodernde Seele. Erhöht AGI, Bereichangriffsresistenz und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_FMAM_EC_ROYM_C_02_B",
+      "value": "Erhöht AGI, Bereichangriffsresistenz und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_LB_FMAM_ROYM",
+      "value": "Fügt dem Ziel 4 Mal hintereinander MAG-abhängigen Schaden (L) zu und senkt drei Runden lang Heilkraft."
+    },
+    {
+      "key": "SK_MA_FMAM_ROYM",
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigener Magie-ANG +10 und Reaktionsblockrate +20"
+    },
+    {
+      "key": "SK_UES_FMAM_ROYM",
+      "value": ""
+    },
+    {
+      "key": "SK_CLT_FMAM_ROYM_1",
+      "value": "Gewährt eigenen erfolgreichen Angriffen für 3 Runden AP-Reduzierung."
     },
     {
       "key": "SK_BTL_GETSP_1-999_U",
@@ -17049,6 +17141,10 @@
       "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene MAG +20 %."
     },
     {
+      "key": "SK_MA_LW_MINU_2",
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene MAG<br>+25 %, ABW +15 und Heilkraft +15"
+    },
+    {
       "key": "SK_MA_FF15_ARNA",
       "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene AGI +10% und kritischer Schaden +5%"
     },
@@ -17619,6 +17715,58 @@
     {
       "key": "SK_LW_EC_LNAN_C_01C",
       "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von bis zu 2 Zielen erheblich, zerstört Schaden verringernde Barrieren und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_UES_LW_ZIZA",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MNK_A_01_B",
+      "value": "Entfernt Protes und Vallum vom Ziel, senkt 3 Runden lang Einzelangriffsresistenz, fügt anschließend Schaden (L) zu und erhöht 3 Runden lang eigene AGI."
+    },
+    {
+      "key": "SK_UES_LW_VKTR",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_05C",
+      "value": "Senkt 3 Runden lang ABW des Ziels, fügt dem Ziel anschließend nach auf Sprung folgender Verzögerung Schaden (L) zu, mit höherem Schaden bei Zielen mit Mumm/Schutzengel, und senkt 3 Runden lang Sprung um 1 (Untergrenze für Sprung: 1)."
+    },
+    {
+      "key": "SK_UES_LW_MRND",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_RDM_C_08C",
+      "value": "Erhöht PSY, Schlitz- sowie Magieangriffsresistenz und erhöht die Schwächungsresistenz von Schlitz- sowie Magieangriffsresistenz erheblich, heilt LP (S) bei Erleiden von Schaden, wenn LP unter 50 % fallen (1 Mal)."
+    },
+    {
+      "key": "SK_LW_EC_RDM_C_08C_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_RIRY",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_GUN_A_02_B",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 1 Mal jeglichen Schaden abwehrt und erhöht 3 Runden lang Reaktionsblockrate erheblich."
+    },
+    {
+      "key": "SK_UES_LW_UNII",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_HUN_A_03_B",
+      "value": "Fügt Zielen in Reichweite Schaden (S) zu, annulliert 3 Runden lang Hast, Beschleunigen und AZ-Änderungen und entfernt Hast."
+    },
+    {
+      "key": "SK_UES_LW_ETRE",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MNK_A_02_B",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu, gewährt Chance auf Wirken von 3 Runden andauernden Zustandsveränderungen (Konfus/Berserker) und zusätzlicher Effekt: Senkt alle Angriffsresistenzen, während Konfus/Berserker aktiv ist."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -21462,6 +21610,54 @@
     },
     {
       "key": "SK_GL_VC_FMAM_MV1_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FMAM_MV3_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FMAM_MV3_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FMAM_MV3_PMAX_2",
       "value": ""
     },
     {
@@ -31157,6 +31353,26 @@
       "value": "Passive Fähigkeit (nur Reyshesse)"
     },
     {
+      "key": "SK_LW_KAT_013_1_1",
+      "value": "Passive Fähigkeit (nur Reyshesse)"
+    },
+    {
+      "key": "SK_LW_KAT_013_2_1",
+      "value": "Passive Fähigkeit (nur Reyshesse)"
+    },
+    {
+      "key": "SK_LW_KAT_013_3_1",
+      "value": "Passive Fähigkeit (nur Reyshesse)"
+    },
+    {
+      "key": "SK_LW_KAT_013_4_1",
+      "value": "Passive Fähigkeit (nur Reyshesse)"
+    },
+    {
+      "key": "SK_LW_KAT_013_5_1",
+      "value": "Passive Fähigkeit (nur Reyshesse)"
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -32054,6 +32270,26 @@
     },
     {
       "key": "SK_FMAM_ACC_002_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_5",
       "value": ""
     },
     {

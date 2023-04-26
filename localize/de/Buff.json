@@ -1569,6 +1569,14 @@
       "value": "Auto-Bezaubern"
     },
     {
+      "key": "BUFF_CondEnchantAssistSkillOnly",
+      "value": "Unterstützungsverzauberung"
+    },
+    {
+      "key": "BUFF_OtherAttackSkillRank",
+      "value": "Anrufungsmagie Stufe "
+    },
+    {
       "key": "BUFF_OtherStopReactRate",
       "value": "Reaktionsblockrate"
     },
@@ -1598,7 +1606,7 @@
     },
     {
       "key": "BUFF_OtherChainRedRateElem",
-      "value": "Elementarkette"
+      "value": "Elementarkette "
     },
     {
       "key": "BUFF_OtherDamageMaxSlash",
@@ -1619,6 +1627,10 @@
     {
       "key": "BUFF_OtherDamageMaxMagic",
       "value": "Schadensmaximum (Magie)"
+    },
+    {
+      "key": "BUFF_OtherDebuffRedRate",
+      "value": "Schwächungsreduzierung"
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -2033,18 +2045,6 @@
       "value": "DQT-Killer bei Magieangriff"
     },
     {
-      "key": "BUFF_KillerBirthReserve02",
-      "value": "Diener der Leere-Killer"
-    },
-    {
-      "key": "BUFF_KillerBirthPReserve02",
-      "value": "Diener der Leere-Killer bei physischem Angriff"
-    },
-    {
-      "key": "BUFF_KillerBirthMReserve02",
-      "value": "Diener der Leere-Killer bei magischem Angriff"
-    },
-    {
       "key": "BUFF_KillerBirthFF7RINTERGRADE",
       "value": "FFVII REMAKE INTERGRADE-Killer"
     },
@@ -2091,10 +2091,6 @@
     {
       "key": "BUFF_KillerBirthDamageDQTC",
       "value": "Festgesetzter Schaden (DQT)"
-    },
-    {
-      "key": "BUFF_KillerBirthDamageReserve02",
-      "value": "Festgesetzter Schaden (Diener der Leere)"
     },
     {
       "key": "BUFF_KillerBirthDamageFF7RINTERGRADE",
@@ -2269,10 +2265,6 @@
       "value": "DQT-Resistenz"
     },
     {
-      "key": "BUFF_ResistBirthReserve02",
-      "value": "Diener der Leere-Resistenz"
-    },
-    {
       "key": "BUFF_ResistBirthFF7RINTERGRADE",
       "value": "FFVII REMAKE INTERGRADE-Resistenz"
     },
@@ -2371,6 +2363,26 @@
     {
       "key": "BUFF_ExeMafuken3",
       "value": "Runik ({0} Runde(n) & {1}-mal)"
+    },
+    {
+      "key": "BUFF_KillerBirthReserve02",
+      "value": "Diener der Leere-Killer"
+    },
+    {
+      "key": "BUFF_KillerBirthPReserve02",
+      "value": "Diener der Leere-Killer bei physischem Angriff"
+    },
+    {
+      "key": "BUFF_KillerBirthMReserve02",
+      "value": "Diener der Leere-Killer bei magischem Angriff"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageReserve02",
+      "value": "Festgesetzter Schaden (Diener der Leere)"
+    },
+    {
+      "key": "BUFF_ResistBirthReserve02",
+      "value": "Diener der Leere-Resistenz"
     },
     {
       "key": "BUFF_KillerBirthDamageLionis",

@@ -1569,6 +1569,14 @@
       "value": "自動附魔"
     },
     {
+      "key": "BUFF_CondEnchantAssistSkillOnly",
+      "value": "支援附魔"
+    },
+    {
+      "key": "BUFF_OtherAttackSkillRank",
+      "value": "召喚魔法Lv"
+    },
+    {
       "key": "BUFF_OtherStopReactRate",
       "value": "反應能力阻止率"
     },
@@ -1619,6 +1627,10 @@
     {
       "key": "BUFF_OtherDamageMaxMagic",
       "value": "魔法傷害上限"
+    },
+    {
+      "key": "BUFF_OtherDebuffRedRate",
+      "value": "弱化抵抗率"
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -2033,18 +2045,6 @@
       "value": "魔法攻擊時對勇者鬥惡龍 戰略指揮家特效"
     },
     {
-      "key": "BUFF_KillerBirthReserve02",
-      "value": "黑無使徒特效"
-    },
-    {
-      "key": "BUFF_KillerBirthPReserve02",
-      "value": "物理攻擊時對黑無使徒特效"
-    },
-    {
-      "key": "BUFF_KillerBirthMReserve02",
-      "value": "魔法攻擊時對黑無使徒特效"
-    },
-    {
       "key": "BUFF_KillerBirthFF7RINTERGRADE",
       "value": "FFVIIR INTERGRADE特效"
     },
@@ -2091,10 +2091,6 @@
     {
       "key": "BUFF_KillerBirthDamageDQTC",
       "value": "勇者鬥惡龍 戰略指揮家固定傷害"
-    },
-    {
-      "key": "BUFF_KillerBirthDamageReserve02",
-      "value": "黑無使徒固定傷害"
     },
     {
       "key": "BUFF_KillerBirthDamageFF7RINTERGRADE",
@@ -2269,10 +2265,6 @@
       "value": "勇者鬥惡龍 戰略指揮家耐性"
     },
     {
-      "key": "BUFF_ResistBirthReserve02",
-      "value": "黑無使徒耐性"
-    },
-    {
       "key": "BUFF_ResistBirthFF7RINTERGRADE",
       "value": "FFVIIR INTERGRADE耐性"
     },
@@ -2371,6 +2363,26 @@
     {
       "key": "BUFF_ExeMafuken3",
       "value": "魔封劍({0}回合&{1}次)"
+    },
+    {
+      "key": "BUFF_KillerBirthReserve02",
+      "value": "對黑無使徒特效"
+    },
+    {
+      "key": "BUFF_KillerBirthPReserve02",
+      "value": "物理攻擊時對黑無使徒特效"
+    },
+    {
+      "key": "BUFF_KillerBirthMReserve02",
+      "value": "魔法攻擊時對黑無使徒特效"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageReserve02",
+      "value": "黑無使徒固定傷害"
+    },
+    {
+      "key": "BUFF_ResistBirthReserve02",
+      "value": "黑無使徒耐性"
     },
     {
       "key": "BUFF_KillerBirthDamageLionis",

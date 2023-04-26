@@ -1569,6 +1569,14 @@
       "value": "자동 인챈트"
     },
     {
+      "key": "BUFF_CondEnchantAssistSkillOnly",
+      "value": "어시스트 인챈트"
+    },
+    {
+      "key": "BUFF_OtherAttackSkillRank",
+      "value": "소환마법 레벨"
+    },
+    {
       "key": "BUFF_OtherStopReactRate",
       "value": "리액션 저지율"
     },
@@ -1619,6 +1627,10 @@
     {
       "key": "BUFF_OtherDamageMaxMagic",
       "value": "마법 피해 한도"
+    },
+    {
+      "key": "BUFF_OtherDebuffRedRate",
+      "value": "약화 저항률"
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -2033,18 +2045,6 @@
       "value": "마법 공격 시 드래곤 퀘스트 택트 킬러"
     },
     {
-      "key": "BUFF_KillerBirthReserve02",
-      "value": "검은 허무의 사도 킬러"
-    },
-    {
-      "key": "BUFF_KillerBirthPReserve02",
-      "value": "물리 공격 시 검은 허무의 사도 킬러"
-    },
-    {
-      "key": "BUFF_KillerBirthMReserve02",
-      "value": "마법 공격 시 검은 허무의 사도 킬러"
-    },
-    {
       "key": "BUFF_KillerBirthFF7RINTERGRADE",
       "value": "FFVIIR INTERGRADE 킬러"
     },
@@ -2091,10 +2091,6 @@
     {
       "key": "BUFF_KillerBirthDamageDQTC",
       "value": "드래곤 퀘스트 택트 고정 피해"
-    },
-    {
-      "key": "BUFF_KillerBirthDamageReserve02",
-      "value": "검은 허무의 사도 고정 피해"
     },
     {
       "key": "BUFF_KillerBirthDamageFF7RINTERGRADE",
@@ -2269,10 +2265,6 @@
       "value": "드래곤 퀘스트 택트 저항력"
     },
     {
-      "key": "BUFF_ResistBirthReserve02",
-      "value": "검은 허무의 사도 저항력"
-    },
-    {
       "key": "BUFF_ResistBirthFF7RINTERGRADE",
       "value": "FFVIIR INTERGRADE 저항력"
     },
@@ -2371,6 +2363,26 @@
     {
       "key": "BUFF_ExeMafuken3",
       "value": "마봉검({0}턴&{1}회)"
+    },
+    {
+      "key": "BUFF_KillerBirthReserve02",
+      "value": "검은 허무의 사도 킬러"
+    },
+    {
+      "key": "BUFF_KillerBirthPReserve02",
+      "value": "물리 공격 시 검은 허무의 사도 킬러"
+    },
+    {
+      "key": "BUFF_KillerBirthMReserve02",
+      "value": "마법 공격 시 검은 허무의 사도 킬러"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageReserve02",
+      "value": "검은 허무의 사도 고정 피해"
+    },
+    {
+      "key": "BUFF_ResistBirthReserve02",
+      "value": "검은 허무의 사도 저항력"
     },
     {
       "key": "BUFF_KillerBirthDamageLionis",

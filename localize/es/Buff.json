@@ -1569,6 +1569,14 @@
       "value": "Autoencanto"
     },
     {
+      "key": "BUFF_CondEnchantAssistSkillOnly",
+      "value": "Encanto de apoyo"
+    },
+    {
+      "key": "BUFF_OtherAttackSkillRank",
+      "value": "Nv. magia de invocación"
+    },
+    {
       "key": "BUFF_OtherStopReactRate",
       "value": "Tasa de bloqueo de reacción"
     },
@@ -1598,7 +1606,7 @@
     },
     {
       "key": "BUFF_OtherChainRedRateElem",
-      "value": "Combo elemental"
+      "value": "Combo elemental "
     },
     {
       "key": "BUFF_OtherDamageMaxSlash",
@@ -1619,6 +1627,10 @@
     {
       "key": "BUFF_OtherDamageMaxMagic",
       "value": "Límite de daño mágico"
+    },
+    {
+      "key": "BUFF_OtherDebuffRedRate",
+      "value": "Tasa de disminución de reducción"
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -2033,18 +2045,6 @@
       "value": "MataDQ TACT al realizar ATQM"
     },
     {
-      "key": "BUFF_KillerBirthReserve02",
-      "value": "MataSirviente del Vacío"
-    },
-    {
-      "key": "BUFF_KillerBirthPReserve02",
-      "value": "MataSirviente del Vacío al realizar ATQF"
-    },
-    {
-      "key": "BUFF_KillerBirthMReserve02",
-      "value": "MataSirviente del Vacío al realizar ATQM"
-    },
-    {
       "key": "BUFF_KillerBirthFF7RINTERGRADE",
       "value": "MataFFVII REMAKE INTERGRADE"
     },
@@ -2091,10 +2091,6 @@
     {
       "key": "BUFF_KillerBirthDamageDQTC",
       "value": "Daño fijo a DRAGON QUEST TACT"
-    },
-    {
-      "key": "BUFF_KillerBirthDamageReserve02",
-      "value": "Daño fijo de Sirviente del Vacío"
     },
     {
       "key": "BUFF_KillerBirthDamageFF7RINTERGRADE",
@@ -2269,10 +2265,6 @@
       "value": "Res. DRAGON QUEST TACT"
     },
     {
-      "key": "BUFF_ResistBirthReserve02",
-      "value": "Res. Sirviente del Vacío"
-    },
-    {
       "key": "BUFF_ResistBirthFF7RINTERGRADE",
       "value": "Res. FFVII REMAKE INTERGRADE"
     },
@@ -2371,6 +2363,26 @@
     {
       "key": "BUFF_ExeMafuken3",
       "value": "Síntesis ({0} turno(s) y {1} vez/veces)"
+    },
+    {
+      "key": "BUFF_KillerBirthReserve02",
+      "value": "MataSirviente del Vacío"
+    },
+    {
+      "key": "BUFF_KillerBirthPReserve02",
+      "value": "MataSirviente del Vacío al realizar ATQF"
+    },
+    {
+      "key": "BUFF_KillerBirthMReserve02",
+      "value": "MataSirviente del Vacío al realizar ATQM"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageReserve02",
+      "value": "Daño fijo a Sirviente del Vacío"
+    },
+    {
+      "key": "BUFF_ResistBirthReserve02",
+      "value": "Res. Sirviente del Vacío"
     },
     {
       "key": "BUFF_KillerBirthDamageLionis",

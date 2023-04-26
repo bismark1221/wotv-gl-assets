@@ -7329,6 +7329,10 @@
       "value": "Restaure les PV (S) de la cible."
     },
     {
+      "key": "SK_LW_SCR_FIRE_S_2",
+      "value": "Augmente les attaques de feu et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_LW_SCR_THUN_S_2",
       "value": "Augmente les attaques de foudre et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
     },
@@ -10295,6 +10299,94 @@
     {
       "key": "SK_ARM_FMAM_ALPN_1",
       "value": "Augmente l'ATT des alliés dans la zone autour du lanceur et accorde un effet d'absorption d'une partie des dégâts infligés aux PV pendant 3 tours."
+    },
+    {
+      "key": "SK_FMAM_ROYM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_ROYM_M_1",
+      "value": "Augmente le taux de perforation de la résistance aux attaques magiques du lanceur pendant 3 tours, puis inflige des dégâts (M) en 3 coups qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_FMAM_ROYM_M_2",
+      "value": "Dissipe Bouclier/Barrière de la cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_FMAM_ROYM_M_3",
+      "value": "Érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et accorde un effet de consommation de PT pendant 3 tours (la consommation de PT augmente l'efficacité des aptitudes d'attaque)."
+    },
+    {
+      "key": "SK_FMAM_ROYM_S_1",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, et réduit la PSY pendant 3 tours."
+    },
+    {
+      "key": "SK_FMAM_ROYM_S_2",
+      "value": "Augmente le taux de blocage de réaction des alliés dans la zone autour du lanceur pendant 3 tours, et accorde un effet de dissipation d'Hardiesse (s'active avant une attaque) aux attaques du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_FMAM_ROYM_S_3",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible et réduit la résistance au feu pendant 3 tours."
+    },
+    {
+      "key": "SK_FMAM_ROYM_S_4",
+      "value": "Immunise tous les alliés dans la zone autour du lanceur contre Gelure, Sommeil, Confusion, Pétrification et Ankylose pendant 3 tours."
+    },
+    {
+      "key": "SK_FMAM_ROYM_R_1",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis."
+    },
+    {
+      "key": "SK_FMAM_ROYM_P_1",
+      "value": "Augmente l'AGI et le taux de perforation de la PSY."
+    },
+    {
+      "key": "SK_FMAM_ROYM_P_2",
+      "value": "Augmente la MAGIE et le taux de précision."
+    },
+    {
+      "key": "SK_FMAM_ROYM_EN_A_01",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente la jauge de CT du lanceur (S) quand un ennemi est mis K.O. (jusqu'à 2 ennemis)."
+    },
+    {
+      "key": "SK_FMAM_ROYM_EN_A_01_AD",
+      "value": "Augmente les CT du lanceur quand un ennemi est mis K.O. (jusqu'à 2 ennemis)."
+    },
+    {
+      "key": "SK_FMAM_ROYM_EN_A_01B",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente la jauge de CT du lanceur (S) quand un ennemi est mis K.O. (jusqu'à 2 ennemis)."
+    },
+    {
+      "key": "SK_FMAM_EC_ROYM_C_01",
+      "value": "Améliore Triple combustion en Triple combustion véritable. Augmente le nombre d'utilisations d'aptitude de 1. Augmente le taux de perforation de la résistance aux attaques magiques du lanceur pendant 3 tours, puis inflige des dégâts (M) d'une grande précision en 3 coups qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_FMAM_EC_ROYM_C_01_B",
+      "value": "Augmente le taux de perforation de la résistance aux attaques magiques du lanceur pendant 3 tours, puis inflige des dégâts (M) d'une grande précision en 3 coups qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_FMAM_EC_ROYM_C_02",
+      "value": "Améliore Âme ardente en Âme brulante. Augmente l'AGI, la résistance aux attaques de zone et le taux de perforation de la PSY."
+    },
+    {
+      "key": "SK_FMAM_EC_ROYM_C_02_B",
+      "value": "Augmente l'AGI, la résistance aux attaques de zone et le taux de perforation de la PSY."
+    },
+    {
+      "key": "SK_LB_FMAM_ROYM",
+      "value": "Inflige des dégâts (L) en 4 coups qui dépendent de la MAGIE du lanceur à la cible, et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_MA_FMAM_ROYM",
+      "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente les attaques magiques du lanceur de 10 et son taux de blocage de réaction de 20."
+    },
+    {
+      "key": "SK_UES_FMAM_ROYM",
+      "value": ""
+    },
+    {
+      "key": "SK_CLT_FMAM_ROYM_1",
+      "value": "Accorde un effet de réduction de PA pour les attaques réussies du lanceur pendant 3 tours."
     },
     {
       "key": "SK_BTL_GETSP_1-999_U",
@@ -14674,7 +14766,7 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_05B",
-      "value": "Améliore la hauteur de la portée. Réduit la DEF de la cible pendant 3 tours, puis fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai et réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1)."
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai et réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1)."
     },
     {
       "key": "SK_LW_EC_DRG_C_06",
@@ -17049,6 +17141,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la MAGIE du lanceur de 20 %."
     },
     {
+      "key": "SK_MA_LW_MINU_2",
+      "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la MAGIE de 25%, la DEF de 15 et les compétences de soin du lanceur de 15."
+    },
+    {
       "key": "SK_MA_FF15_ARNA",
       "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente l'AGI de 10 % pour le lanceur et ses dégâts critiques de 5 %."
     },
@@ -17619,6 +17715,58 @@
     {
       "key": "SK_LW_EC_LNAN_C_01C",
       "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction de 2 cibles maximum pendant 3 tours, détruit toute barrière réduisant les dégâts, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_UES_LW_ZIZA",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MNK_A_01_B",
+      "value": "Dissipe Bouclier/Barrière de la cible, réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (L) et augmente l'AGI du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_VKTR",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_DRG_C_05C",
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis fait Sauter le lanceur pour infliger des dégâts (L) à la cible après un délai, les dégâts sont accrus si les cibles sont sous l'effet de Hardiesse et d'Auréole, réduit Saut de 1 pendant 3 tours (Limite minimale de Saut : 1)."
+    },
+    {
+      "key": "SK_UES_LW_MRND",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_RDM_C_08C",
+      "value": "Augmente la PSY, la résistance aux attaques tranchantes et magiques et augmente considérablement la résistance aux malus de la résistance aux attaques tranchantes et magiques, restaure les PV (S) quand les PV chutent en dessous de 50 % quand des dégâts sont subis (1 fois)."
+    },
+    {
+      "key": "SK_LW_EC_RDM_C_08C_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_RIRY",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_GUN_A_02_B",
+      "value": "Érige une barrière autour du lanceur qui annule complètement les dégâts (1 fois), et augmente considérablement le taux de blocage de réaction pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_UNII",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_HUN_A_03_B",
+      "value": "Inflige des dégâts (S) aux unités dans la zone ciblée, annule Booster, Accélération et Changement de la jauge de CT pendant 3 tours, et dissipe Booster."
+    },
+    {
+      "key": "SK_UES_LW_ETRE",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_MNK_A_02_B",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, et confère une chance d'infliger des altérations d'état (Confusion/Berserk) pendant 3 tours et accorde un effet additionnel : réduit la résistance à toutes les attaques pendant l'effet de Confusion ou de Berserk."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -21462,6 +21610,54 @@
     },
     {
       "key": "SK_GL_VC_FMAM_MV1_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FMAM_MV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FMAM_MV3_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FMAM_MV3_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FMAM_MV3_PMAX_2",
       "value": ""
     },
     {
@@ -31157,6 +31353,26 @@
       "value": "Aptitude passive spécifique à Reychess"
     },
     {
+      "key": "SK_LW_KAT_013_1_1",
+      "value": "Aptitude passive spécifique à Reychess"
+    },
+    {
+      "key": "SK_LW_KAT_013_2_1",
+      "value": "Aptitude passive spécifique à Reychess"
+    },
+    {
+      "key": "SK_LW_KAT_013_3_1",
+      "value": "Aptitude passive spécifique à Reychess"
+    },
+    {
+      "key": "SK_LW_KAT_013_4_1",
+      "value": "Aptitude passive spécifique à Reychess"
+    },
+    {
+      "key": "SK_LW_KAT_013_5_1",
+      "value": "Aptitude passive spécifique à Reychess"
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -32054,6 +32270,26 @@
     },
     {
       "key": "SK_FMAM_ACC_002_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_GLO_000_5",
       "value": ""
     },
     {

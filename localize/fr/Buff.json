@@ -1569,6 +1569,14 @@
       "value": "Auto-Enchantement"
     },
     {
+      "key": "BUFF_CondEnchantAssistSkillOnly",
+      "value": "Assiste Enchanter"
+    },
+    {
+      "key": "BUFF_OtherAttackSkillRank",
+      "value": "Niv. magie d'invocation ↑"
+    },
+    {
       "key": "BUFF_OtherStopReactRate",
       "value": "Taux de blocage de réaction"
     },
@@ -1598,7 +1606,7 @@
     },
     {
       "key": "BUFF_OtherChainRedRateElem",
-      "value": "Combo élémentaire"
+      "value": "Combo élémentaire "
     },
     {
       "key": "BUFF_OtherDamageMaxSlash",
@@ -1619,6 +1627,10 @@
     {
       "key": "BUFF_OtherDamageMaxMagic",
       "value": "Dégâts magiques max"
+    },
+    {
+      "key": "BUFF_OtherDebuffRedRate",
+      "value": "Taux de réduction des malus"
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -2033,18 +2045,6 @@
       "value": "Tue-DQTact conféré aux attaques magiques"
     },
     {
-      "key": "BUFF_KillerBirthReserve02",
-      "value": "Tue-Serviteurs du Vide"
-    },
-    {
-      "key": "BUFF_KillerBirthPReserve02",
-      "value": "Tue-Serviteurs du Vide conféré aux attaques physiques"
-    },
-    {
-      "key": "BUFF_KillerBirthMReserve02",
-      "value": "Tue-Serviteurs du Vide conféré aux attaques magiques"
-    },
-    {
       "key": "BUFF_KillerBirthFF7RINTERGRADE",
       "value": "Tue-FFVII REMAKE INTERGRADE"
     },
@@ -2091,10 +2091,6 @@
     {
       "key": "BUFF_KillerBirthDamageDQTC",
       "value": "Dégâts fixes sur DQTact"
-    },
-    {
-      "key": "BUFF_KillerBirthDamageReserve02",
-      "value": "Dégâts fixes sur Serviteurs du Vide"
     },
     {
       "key": "BUFF_KillerBirthDamageFF7RINTERGRADE",
@@ -2269,10 +2265,6 @@
       "value": "Rés à DQTact"
     },
     {
-      "key": "BUFF_ResistBirthReserve02",
-      "value": "Rés à Serviteurs du Vide"
-    },
-    {
       "key": "BUFF_ResistBirthFF7RINTERGRADE",
       "value": "Rés à FFVII REMAKE INTERGRADE"
     },
@@ -2371,6 +2363,26 @@
     {
       "key": "BUFF_ExeMafuken3",
       "value": "Effet de lame égide ({0} tour(s) et {1} fois)"
+    },
+    {
+      "key": "BUFF_KillerBirthReserve02",
+      "value": "Tue-Serviteurs du Vide"
+    },
+    {
+      "key": "BUFF_KillerBirthPReserve02",
+      "value": "Tue-Serviteurs du Vide conféré aux attaques physiques"
+    },
+    {
+      "key": "BUFF_KillerBirthMReserve02",
+      "value": "Tue-Serviteurs du Vide conféré aux attaques magiques"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageReserve02",
+      "value": "Dégâts fixes sur Serviteurs du Vide"
+    },
+    {
+      "key": "BUFF_ResistBirthReserve02",
+      "value": "Rés à Serviteurs du Vide"
     },
     {
       "key": "BUFF_KillerBirthDamageLionis",
