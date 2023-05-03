@@ -3730,7 +3730,7 @@
     },
     {
       "key": "SK_LW_BFI_EN_A_01",
-      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (M) aux unités dans la zone ciblée."
+      "value": "Détruit toute barrière réduisant les dégâts physiques, puis inflige des dégâts (M) aux unités dans la zone ciblée."
     },
     {
       "key": "SK_LW_EC_BFI_C_01",
@@ -9977,54 +9977,6 @@
       "value": "Améliore Saignée rituelle en Invocation communicante. Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, absorbe les dégâts infligés, augmente considérablement la MAGIE du lanceur pendant 1 tour et augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours."
     },
     {
-      "key": "SK_FMAM_BRDL_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_FMAM_BRDL_M_1",
-      "value": "Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts d'une grande précision (L) en 2 coups aux unités dans la zone ciblée."
-    },
-    {
-      "key": "SK_FMAM_BRDL_M_2",
-      "value": "Augmente la résistance aux attaques perçantes et aux attaques projectiles des alliés dans la zone autour du lanceur pendant 3 tours, accorde une réaction au lanceur pendant 3 tours qui confère une chance de réaliser une attaque tranchante non-élémentaire lorsque des dégâts sont subis par une attaque physique (Forme de la portée : losange, Portée : 4 et Hauteur de la portée : 1)"
-    },
-    {
-      "key": "SK_FMAM_BRDL_M_3",
-      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M), dissipe tous les bonus et accorde un effet additionnel : réduit considérablement les compétences de soin quand la DEF est réduite."
-    },
-    {
-      "key": "SK_FMAM_BRDL_S_1",
-      "value": "Après déplacement jusqu'à la case ciblée, inflige des dégâts (S) à la cible, et augmente la jauge de CT (S) du lanceur."
-    },
-    {
-      "key": "SK_FMAM_BRDL_S_2",
-      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels, restaure les PA du lanceur et accorde un effet additionnel : augmente les dégâts physiques pendant l'effet de Hardiesse."
-    },
-    {
-      "key": "SK_FMAM_BRDL_S_3",
-      "value": "Inflige des dégâts (S) en 3 coups à la cible."
-    },
-    {
-      "key": "SK_FMAM_BRDL_S_4",
-      "value": "Inflige des dégâts (M) à la cible et confère une chance d'infliger Lenteur pendant 3 tours."
-    },
-    {
-      "key": "SK_FMAM_BRDL_R_1",
-      "value": "Confère une chance d'esquiver tous les types d'attaques."
-    },
-    {
-      "key": "SK_FMAM_BRDL_R_2",
-      "value": "Confère une chance d'effectuer une Frappe préventive lorsque des dégâts physiques sont subis."
-    },
-    {
-      "key": "SK_FMAM_BRDL_P_1",
-      "value": "Augmente le taux de perforation de la DEF et le taux de perforation de la résistance aux attaques tranchantes."
-    },
-    {
-      "key": "SK_FMAM_BRDL_P_2",
-      "value": "Augmente l'AGI et le taux de précision."
-    },
-    {
       "key": "SK_ENVY_ATK",
       "value": ""
     },
@@ -10387,6 +10339,94 @@
     {
       "key": "SK_CLT_FMAM_ROYM_1",
       "value": "Accorde un effet de réduction de PA pour les attaques réussies du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_FMAM_BRDL_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_BRDL_M_1",
+      "value": "Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts d'une grande précision (L) en 2 coups aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_FMAM_BRDL_M_2",
+      "value": "Augmente la résistance aux attaques perçantes et aux attaques projectiles des alliés dans la zone autour du lanceur pendant 3 tours, accorde une réaction au lanceur pendant 3 tours qui confère une chance de réaliser une attaque tranchante non-élémentaire lorsque des dégâts sont subis par une attaque physique (Forme de la portée : losange, Portée : 4 et Hauteur de la portée : 1)"
+    },
+    {
+      "key": "SK_FMAM_BRDL_M_3",
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (M), dissipe tous les bonus et accorde un effet additionnel : réduit considérablement les compétences de soin quand la DEF est réduite."
+    },
+    {
+      "key": "SK_FMAM_BRDL_S_1",
+      "value": "Après déplacement jusqu'à la case ciblée, inflige des dégâts (S) à la cible, et augmente la jauge de CT (S) du lanceur."
+    },
+    {
+      "key": "SK_FMAM_BRDL_S_2",
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels, restaure les PA du lanceur et accorde un effet additionnel : augmente les dégâts physiques pendant l'effet de Hardiesse."
+    },
+    {
+      "key": "SK_FMAM_BRDL_S_3",
+      "value": "Inflige des dégâts (S) en 3 coups à la cible."
+    },
+    {
+      "key": "SK_FMAM_BRDL_S_4",
+      "value": "Inflige des dégâts (M) à la cible et confère une chance d'infliger Lenteur pendant 3 tours."
+    },
+    {
+      "key": "SK_FMAM_BRDL_R_1",
+      "value": "Confère une chance d'esquiver tous les types d'attaques."
+    },
+    {
+      "key": "SK_FMAM_BRDL_R_2",
+      "value": "Confère une chance d'effectuer une Frappe préventive lorsque des dégâts physiques sont subis."
+    },
+    {
+      "key": "SK_FMAM_BRDL_P_1",
+      "value": "Augmente le taux de perforation de la DEF et le taux de perforation de la résistance aux attaques tranchantes."
+    },
+    {
+      "key": "SK_FMAM_BRDL_P_2",
+      "value": "Augmente l'AGI et le taux de précision."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_A_01",
+      "value": "Dissipe Auréole de la cible, puis inflige des dégâts (L) d'une grande précision."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_01",
+      "value": "Améliore Double déchiquètement en Rafale calculée. Améliore la portée. Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts d'une grande précision (L) en 2 coups aux unités dans la zone ciblée, et augmente la jauge de CT (S) du lanceur."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_01B",
+      "value": "Augmente le taux de perforation de la DEF du lanceur, puis inflige des dégâts d'une grande précision (L) en 2 coups aux unités dans la zone ciblée, et augmente la jauge de CT (S) du lanceur."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_01C",
+      "value": "Augmente le taux de perforation de la DEF du lanceur et détruit toute barrière réduisant les dégâts physiques érigée, puis inflige des dégâts d'une grande précision (L) en 2 coups aux unités dans la zone ciblée, et augmente la jauge de CT (S) du lanceur."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_02",
+      "value": "Améliore Sourire du président en Colère du président. Augmente l'ATT, le taux de perforation de la DEF et le taux de perforation de la résistance aux attaques tranchantes, et réduit la consommation de PA."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_02B",
+      "value": "Augmente l'ATT, le taux de perforation de la DEF et le taux de perforation de la résistance aux attaques tranchantes, et réduit la consommation de PA."
+    },
+    {
+      "key": "SK_LB_FMAM_BRDL",
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (L) en 3 coups à la cible, et augmente la jauge de CT (S) du lanceur."
+    },
+    {
+      "key": "SK_MA_FMAM_BRDL",
+      "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente la résistance aux attaques projectiles du lanceur de 10 et sa résistance aux attaques de zone de 10."
+    },
+    {
+      "key": "SK_UES_FMAM_BRDL",
+      "value": ""
+    },
+    {
+      "key": "SK_ACC_FMAM_BRDL_1",
+      "value": "Augmente le taux de blocage de réaction du lanceur pendant 3 tours et accorde Booster pendant 3 tours."
     },
     {
       "key": "SK_BTL_GETSP_1-999_U",
@@ -17767,6 +17807,62 @@
     {
       "key": "SK_LW_EC_MNK_A_02_B",
       "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, et confère une chance d'infliger des altérations d'état (Confusion/Berserk) pendant 3 tours et accorde un effet additionnel : réduit la résistance à toutes les attaques pendant l'effet de Confusion ou de Berserk."
+    },
+    {
+      "key": "SK_UES_LW_URAL",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BFI_EN_A_01_B",
+      "value": "Détruit toute barrière réduisant les dégâts physiques, puis inflige des dégâts (M) aux ennemis dans la zone ciblée."
+    },
+    {
+      "key": "SK_UES_LW_CLEY",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_HUN_A_02_B",
+      "value": "Augmente l'ATT, la MAGIE et l'AGI des alliés dans la zone autour du lanceur pendant 3 tours et augmente le taux de perforation de la résistance aux attaques projectiles du lanceur pendant 3 tours, et accorde une restauration de PA lors d'un Coup critique pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_LRNZ",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_05_B",
+      "value": "Fait Sauter le lanceur puis dissipe Bouclier/Barrière/Hardiesse/Auréole après un délai, puis inflige des dégâts (L) aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_UES_LW_ADLD",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_RDM_A_03_B",
+      "value": "Inflige des dégâts de feu (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit considérablement les attaques magiques pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_PHBE",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_02C",
+      "value": "Accorde Accélération à un allié et augmente la jauge de CT (S) du lanceur."
+    },
+    {
+      "key": "SK_UES_LW_MURM",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_RDM_A_02_B",
+      "value": "Réduit la résistance à la terre des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de terre (M) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_UES_LW_ZZAN",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_WAR_A_01_B",
+      "value": "Réduit la résistance aux humains des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) et accorde Anthropophage."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -32290,6 +32386,50 @@
     },
     {
       "key": "SK_FMAM_GLO_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ATK_1",
+      "value": "ATT +8"
+    },
+    {
+      "key": "SK_LW_ATK_2",
+      "value": "ATT +10"
+    },
+    {
+      "key": "SK_LW_ATK_3",
+      "value": "ATT +15"
+    },
+    {
+      "key": "SK_LW_ATK_4",
+      "value": "ATT +20"
+    },
+    {
+      "key": "SK_LW_ATK_5",
+      "value": "ATT +25"
+    },
+    {
+      "key": "SK_FMAM_SWO_000_5_2_B",
       "value": ""
     },
     {

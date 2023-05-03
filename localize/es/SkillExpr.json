@@ -3730,7 +3730,7 @@
     },
     {
       "key": "SK_LW_BFI_EN_A_01",
-      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, e inflige daño (medio) a los objetivos al alcance."
+      "value": "Elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance y les inflige daño (medio)."
     },
     {
       "key": "SK_LW_EC_BFI_C_01",
@@ -9977,54 +9977,6 @@
       "value": "Mejora «Evocación de drenaje» «Vigor de drenaje»: inflige daño (poco) en función de la MAG del usuario al objetivo, absorbe el daño infligido, aumenta considerablemente la MAG del usuario durante un turno y aumenta su tasa de penetración de res. ataque de corte durante 3 turnos."
     },
     {
-      "key": "SK_FMAM_BRDL_ATK",
-      "value": ""
-    },
-    {
-      "key": "SK_FMAM_BRDL_M_1",
-      "value": "Aumenta la tasa de penetración de DEF del usuario e inflige daño (mucho) 2 veces a los objetivos al alcance con mucha precisión."
-    },
-    {
-      "key": "SK_FMAM_BRDL_M_2",
-      "value": "Aumenta la res. perforación y proyectiles de los aliados de alrededor durante 3 turnos y otorga una reacción al usuario durante 3 turnos con probabilidad de activar un ataque de corte no elemental preventivo al recibir daño físico (forma de alcance: rombo; alcance: 4; altura de alcance: 1)."
-    },
-    {
-      "key": "SK_FMAM_BRDL_M_3",
-      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio) y elimina todas sus mejoras, y efecto adicional: reduce considerablemente la potencia de curación de objetivos con reducción de DEF."
-    },
-    {
-      "key": "SK_FMAM_BRDL_S_1",
-      "value": "Inflige daño (poco) al objetivo tras desplazarse a la casilla objetivo y aumenta el TC del usuario (poco)."
-    },
-    {
-      "key": "SK_FMAM_BRDL_S_2",
-      "value": "El usuario sobrevive a daño letal una vez, recupera PA y efecto adicional: aumenta su daño físico mientras agallas esté activo."
-    },
-    {
-      "key": "SK_FMAM_BRDL_S_3",
-      "value": "Inflige daño (poco) 3 veces al objetivo."
-    },
-    {
-      "key": "SK_FMAM_BRDL_S_4",
-      "value": "Daño (medio) al objetivo y probabilidad de infligirle freno durante 3 turnos."
-    },
-    {
-      "key": "SK_FMAM_BRDL_R_1",
-      "value": "Probabilidad de evadir todos los ataques."
-    },
-    {
-      "key": "SK_FMAM_BRDL_R_2",
-      "value": "Probabilidad de realizar un golpe preventivo al recibir daño físico."
-    },
-    {
-      "key": "SK_FMAM_BRDL_P_1",
-      "value": "Aumenta la tasa de penetración de DEF y la tasa de penetración de res. ataque de corte."
-    },
-    {
-      "key": "SK_FMAM_BRDL_P_2",
-      "value": "Aumenta la AGI y la tasa de precisión."
-    },
-    {
       "key": "SK_ENVY_ATK",
       "value": ""
     },
@@ -10387,6 +10339,94 @@
     {
       "key": "SK_CLT_FMAM_ROYM_1",
       "value": "Otorga reducción de PA a los ataques con éxito del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_FMAM_BRDL_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_BRDL_M_1",
+      "value": "Aumenta la tasa de penetración de DEF del usuario e inflige daño (mucho) 2 veces a los objetivos al alcance con mucha precisión."
+    },
+    {
+      "key": "SK_FMAM_BRDL_M_2",
+      "value": "Aumenta la res. perforación y proyectiles de los aliados de alrededor durante 3 turnos y otorga una reacción al usuario durante 3 turnos con probabilidad de activar un ataque de corte no elemental preventivo al recibir daño físico (forma de alcance: rombo; alcance: 4; altura de alcance: 1)."
+    },
+    {
+      "key": "SK_FMAM_BRDL_M_3",
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (medio) y elimina todas sus mejoras, y efecto adicional: reduce considerablemente la potencia de curación de objetivos con reducción de DEF."
+    },
+    {
+      "key": "SK_FMAM_BRDL_S_1",
+      "value": "Inflige daño (poco) al objetivo tras desplazarse a la casilla objetivo y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_FMAM_BRDL_S_2",
+      "value": "El usuario sobrevive a daño letal una vez, recupera PA y efecto adicional: aumenta su daño físico mientras agallas esté activo."
+    },
+    {
+      "key": "SK_FMAM_BRDL_S_3",
+      "value": "Inflige daño (poco) 3 veces al objetivo."
+    },
+    {
+      "key": "SK_FMAM_BRDL_S_4",
+      "value": "Daño (medio) al objetivo y probabilidad de infligirle freno durante 3 turnos."
+    },
+    {
+      "key": "SK_FMAM_BRDL_R_1",
+      "value": "Probabilidad de evadir todos los ataques."
+    },
+    {
+      "key": "SK_FMAM_BRDL_R_2",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño físico."
+    },
+    {
+      "key": "SK_FMAM_BRDL_P_1",
+      "value": "Aumenta la tasa de penetración de DEF y la tasa de penetración de res. ataque de corte."
+    },
+    {
+      "key": "SK_FMAM_BRDL_P_2",
+      "value": "Aumenta la AGI y la tasa de precisión."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_A_01",
+      "value": "Elimina autolázaro del objetivo y le inflige daño (mucho) con mucha precisión."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_01",
+      "value": "Mejora «Desgarro doble» a «Desgarro calculado»: aumenta el alcance. Aumenta la tasa de penetración de DEF del usuario, inflige daño (mucho) 2 veces a los objetivos al alcance con mucha precisión y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_01B",
+      "value": "Aumenta la tasa de penetración de DEF del usuario, inflige daño (mucho) 2 veces a los objetivos al alcance con mucha precisión y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_01C",
+      "value": "Aumenta la tasa de penetración de DEF del usuario, elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance, les inflige daño (mucho) 2 veces con mucha precisión y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_02",
+      "value": "Mejora «Sonrisa del Generalísimo» a «Ira del Generalísimo»: aumenta el ATQ, la tasa de penetración de DEF y la tasa de penetración de res. ataque de corte del usuario y reduce su consumo de PA."
+    },
+    {
+      "key": "SK_FMAM_EC_BRDL_C_02B",
+      "value": "Aumenta el ATQ, la tasa de penetración de DEF y la tasa de penetración de res. ataque de corte del usuario y reduce su consumo de PA."
+    },
+    {
+      "key": "SK_LB_FMAM_BRDL",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (mucho) 3 veces al objetivo y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_MA_FMAM_BRDL",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: res. proyectiles +10, res. ataque de zona +10"
+    },
+    {
+      "key": "SK_UES_FMAM_BRDL",
+      "value": ""
+    },
+    {
+      "key": "SK_ACC_FMAM_BRDL_1",
+      "value": "Aumenta la tasa de bloqueo de reacción del usuario durante 3 turnos y le otorga prisa durante 3 turnos."
     },
     {
       "key": "SK_BTL_GETSP_1-999_U",
@@ -17767,6 +17807,62 @@
     {
       "key": "SK_LW_EC_MNK_A_02_B",
       "value": "Daño (medio) a los objetivos al alcance y probabilidad de infligirles confusión y locura durante 3 turnos, y efecto adicional: reduce la res. todos los tipos de ataque en estado confusión o locura."
+    },
+    {
+      "key": "SK_UES_LW_URAL",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BFI_EN_A_01_B",
+      "value": "Elimina cualquier barrera que reduzca el daño físico de los enemigos al alcance y les inflige daño (medio)."
+    },
+    {
+      "key": "SK_UES_LW_CLEY",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_HUN_A_02_B",
+      "value": "Aumenta ATQ, MAG y AGI de los aliados de alrededor durante 3 turnos, aumenta la tasa de penetración de res. ataque a distancia del usuario durante 3 turnos y otorga recuperación de PA al asestar crítico durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_LRNZ",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_DRG_A_05_B",
+      "value": "Elimina coraza, escudo, agallas y autolázaro después de saltar, e inflige daño (mucho) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_UES_LW_ADLD",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_RDM_A_03_B",
+      "value": "Inflige daño de fuego (medio) en función de la MAG del usuario a los objetivos al alcance y reduce considerablemente su ataque mágico durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_PHBE",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_02C",
+      "value": "Otorga presto a un aliado y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_UES_LW_MURM",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_RDM_A_02_B",
+      "value": "Reduce la res. tierra de los objetivos al alcance durante 3 turnos y les inflige daño de tierra (medio) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_UES_LW_ZZAN",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_WAR_A_01_B",
+      "value": "Reduce la res. humanos de los objetivos al alcance durante 3 turnos, les inflige daño (mucho) y otorga Comehombres."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -32290,6 +32386,50 @@
     },
     {
       "key": "SK_FMAM_GLO_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FMAM_SWO_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ATK_1",
+      "value": "ATQ +8"
+    },
+    {
+      "key": "SK_LW_ATK_2",
+      "value": "ATQ +10"
+    },
+    {
+      "key": "SK_LW_ATK_3",
+      "value": "ATQ +15"
+    },
+    {
+      "key": "SK_LW_ATK_4",
+      "value": "ATQ +20"
+    },
+    {
+      "key": "SK_LW_ATK_5",
+      "value": "ATQ +25"
+    },
+    {
+      "key": "SK_FMAM_SWO_000_5_2_B",
       "value": ""
     },
     {
