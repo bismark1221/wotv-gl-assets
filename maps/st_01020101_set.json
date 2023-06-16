@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 315,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -35,14 +37,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -75,14 +82,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -115,14 +127,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -155,14 +172,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -195,14 +217,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -235,14 +262,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -275,14 +307,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -315,14 +352,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     }
@@ -357,14 +399,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 3,
@@ -384,6 +431,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -411,7 +460,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -442,14 +492,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 5,
@@ -469,6 +524,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -496,7 +553,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "e2a",
@@ -527,14 +585,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 6,
@@ -554,6 +617,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -581,7 +646,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "e1a",
@@ -612,14 +678,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 7,
@@ -639,6 +710,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -666,7 +739,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "e1a",
@@ -697,14 +771,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 8,
@@ -724,6 +803,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -751,7 +832,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -793,6 +875,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALL_2",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1000
@@ -802,6 +885,7 @@
             "type": 0,
             "iname": "IT_JB_MM_WAR_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 100
@@ -811,6 +895,7 @@
             "type": 0,
             "iname": "IT_JB_MM_LW_GLMS_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 100
@@ -820,6 +905,7 @@
             "type": 0,
             "iname": "IT_JB_MM_BEA_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 100
@@ -829,6 +915,7 @@
             "type": 0,
             "iname": "IT_JB_MM_SCR_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 100
@@ -838,6 +925,7 @@
             "type": 0,
             "iname": "IT_JB_MM_NIN_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 100
@@ -847,6 +935,7 @@
             "type": 0,
             "iname": "IT_JB_MM_RAB_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 100
@@ -856,6 +945,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_HEART_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 800
@@ -865,6 +955,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SAND_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 800
@@ -874,6 +965,7 @@
             "type": 0,
             "iname": "IT_AF_LW_CLT_002",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 300
@@ -883,6 +975,7 @@
             "type": 0,
             "iname": "IT_JB_STAFF_02",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 2000
@@ -892,6 +985,7 @@
             "type": 0,
             "iname": "IT_JB_SSWORD_02",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 2000
@@ -901,6 +995,7 @@
             "type": 0,
             "iname": "IT_JB_EM_WATER_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 2000
@@ -910,6 +1005,7 @@
             "type": 0,
             "iname": "IT_JB_IM_ANGEL_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 300
@@ -919,9 +1015,20 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
-          "weight": 200
+          "weight": 100
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BIGA_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 100
         }
       ]
     },
@@ -935,6 +1042,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -944,6 +1052,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50

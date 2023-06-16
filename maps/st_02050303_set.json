@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 90,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -35,14 +37,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -75,14 +82,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -115,14 +127,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -155,14 +172,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -195,14 +217,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -235,14 +262,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -275,14 +307,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -315,14 +352,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     }
@@ -357,14 +399,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 3,
@@ -433,7 +480,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":2655},{\"type\":2,\"value\":134},{\"type\":3,\"value\":143},{\"type\":4,\"value\":313},{\"type\":6,\"value\":79},{\"type\":9,\"value\":85},{\"type\":8,\"value\":258},{\"type\":10,\"value\":284},{\"type\":151,\"value\":10},{\"type\":155,\"value\":-10},{\"type\":253,\"value\":0},{\"type\":251,\"value\":0},{\"type\":11,\"value\":5},{\"type\":12,\"value\":4}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "o2",
@@ -464,14 +512,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 8,
@@ -540,7 +593,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":2655},{\"type\":2,\"value\":134},{\"type\":3,\"value\":143},{\"type\":4,\"value\":313},{\"type\":6,\"value\":79},{\"type\":9,\"value\":85},{\"type\":8,\"value\":258},{\"type\":10,\"value\":284},{\"type\":151,\"value\":10},{\"type\":155,\"value\":-10},{\"type\":253,\"value\":0},{\"type\":251,\"value\":0},{\"type\":12,\"value\":4},{\"type\":11,\"value\":5}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "o3",
@@ -571,14 +625,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 13,
@@ -652,7 +711,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":251,\"value\":0},{\"type\":253,\"value\":0},{\"type\":1,\"value\":4932},{\"type\":2,\"value\":135},{\"type\":3,\"value\":147},{\"type\":4,\"value\":337},{\"type\":6,\"value\":64},{\"type\":5,\"value\":20},{\"type\":9,\"value\":65},{\"type\":8,\"value\":243},{\"type\":10,\"value\":225},{\"type\":157,\"value\":-10},{\"type\":254,\"value\":0}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "o4",
@@ -683,14 +743,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 5,
@@ -764,7 +829,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":251,\"value\":0},{\"type\":253,\"value\":0},{\"type\":1,\"value\":4932},{\"type\":2,\"value\":135},{\"type\":3,\"value\":147},{\"type\":4,\"value\":337},{\"type\":6,\"value\":64},{\"type\":9,\"value\":65},{\"type\":8,\"value\":243},{\"type\":10,\"value\":225},{\"type\":157,\"value\":-10},{\"type\":254,\"value\":0},{\"type\":5,\"value\":20}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -820,14 +886,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 6,
@@ -901,7 +972,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":2889},{\"type\":2,\"value\":81},{\"type\":3,\"value\":153},{\"type\":4,\"value\":348},{\"type\":6,\"value\":83},{\"type\":5,\"value\":10},{\"type\":9,\"value\":66},{\"type\":8,\"value\":226},{\"type\":10,\"value\":291},{\"type\":151,\"value\":10},{\"type\":254,\"value\":-20},{\"type\":155,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -957,14 +1029,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 9,
@@ -1038,7 +1115,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":2889},{\"type\":2,\"value\":81},{\"type\":3,\"value\":153},{\"type\":4,\"value\":348},{\"type\":6,\"value\":83},{\"type\":5,\"value\":10},{\"type\":9,\"value\":66},{\"type\":8,\"value\":226},{\"type\":10,\"value\":291},{\"type\":151,\"value\":10},{\"type\":155,\"value\":-10},{\"type\":254,\"value\":-20}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1094,14 +1172,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 10,
@@ -1175,7 +1258,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":2889},{\"type\":2,\"value\":81},{\"type\":3,\"value\":153},{\"type\":4,\"value\":348},{\"type\":6,\"value\":83},{\"type\":5,\"value\":10},{\"type\":9,\"value\":66},{\"type\":8,\"value\":226},{\"type\":10,\"value\":291},{\"type\":151,\"value\":10},{\"type\":155,\"value\":-10},{\"type\":254,\"value\":-20}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "r1",
@@ -1206,14 +1290,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 4,
@@ -1282,7 +1371,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3138},{\"type\":2,\"value\":120},{\"type\":3,\"value\":174},{\"type\":4,\"value\":343},{\"type\":6,\"value\":67},{\"type\":9,\"value\":69},{\"type\":8,\"value\":287},{\"type\":10,\"value\":245},{\"type\":254,\"value\":0},{\"type\":153,\"value\":-10},{\"type\":155,\"value\":10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "r2",
@@ -1313,14 +1403,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 12,
@@ -1389,7 +1484,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3138},{\"type\":2,\"value\":120},{\"type\":3,\"value\":174},{\"type\":4,\"value\":343},{\"type\":6,\"value\":67},{\"type\":9,\"value\":69},{\"type\":8,\"value\":287},{\"type\":10,\"value\":245},{\"type\":254,\"value\":0},{\"type\":153,\"value\":-10},{\"type\":155,\"value\":10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1435,14 +1531,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 7,
@@ -1516,7 +1617,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":250,\"value\":20},{\"type\":251,\"value\":10},{\"type\":1,\"value\":2581},{\"type\":2,\"value\":168},{\"type\":3,\"value\":218},{\"type\":4,\"value\":296},{\"type\":6,\"value\":155},{\"type\":9,\"value\":83},{\"type\":8,\"value\":278},{\"type\":10,\"value\":295},{\"type\":155,\"value\":10},{\"type\":153,\"value\":-10},{\"type\":11,\"value\":4}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1562,14 +1664,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 11,
@@ -1643,7 +1750,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":250,\"value\":20},{\"type\":251,\"value\":10},{\"type\":1,\"value\":2581},{\"type\":2,\"value\":168},{\"type\":3,\"value\":299},{\"type\":4,\"value\":296},{\"type\":6,\"value\":155},{\"type\":9,\"value\":83},{\"type\":8,\"value\":278},{\"type\":10,\"value\":295},{\"type\":155,\"value\":10},{\"type\":153,\"value\":-10},{\"type\":11,\"value\":4}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -1935,7 +2043,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 4023
+          "weight": 3971
         },
         {
           "drop_data": {
@@ -1951,6 +2059,26 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_PRNE_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BIGA_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BIGA_3",
             "num": 2,
             "subNum1": 0,
             "secret": 0

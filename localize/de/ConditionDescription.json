@@ -469,6 +469,14 @@
       "value": "Einheit „Styr (Schwinge des Schicksals)“ befindet sich mindestens auf St. 1"
     },
     {
+      "key": "COND_HA_LW_REGN",
+      "value": "Einheit „Raegen“ befindet sich mindestens auf St. 1"
+    },
+    {
+      "key": "COND_HA_LW_BIGA",
+      "value": "Einheit „Viga“ befindet sich mindestens auf St. 1"
+    },
+    {
       "key": "COND_CH_LW_MONT",
       "value": "Einheit „Mont Leonis“ befindet sich mindestens auf St. 1"
     },
@@ -1065,6 +1073,10 @@
       "value": "Einheit „Alim“ befindet sich mindestens auf St. 40"
     },
     {
+      "key": "COND_CH_LW_ALIM2",
+      "value": "Einheit „Alim“ befindet sich mindestens auf St. 80"
+    },
+    {
       "key": "COND_CH_LW_RARD",
       "value": "Einheit „Rhaldor“ befindet sich mindestens auf St. 40"
     },
@@ -1373,6 +1385,10 @@
       "value": "Einheit „Pharm“ befindet sich mindestens auf St. 40"
     },
     {
+      "key": "COND_CH_LW_FALM2",
+      "value": "Einheit „Pharm“ befindet sich mindestens auf St. 80"
+    },
+    {
       "key": "COND_CH_FF15_NCT",
       "value": "Einheit „Noctis“ befindet sich mindestens auf St. 40"
     },
@@ -1397,8 +1413,16 @@
       "value": "Einheit „Lucio“ befindet sich mindestens auf St. 40"
     },
     {
+      "key": "COND_CH_LW_LCIO2",
+      "value": "Einheit „Lucio“ befindet sich mindestens auf St. 80"
+    },
+    {
       "key": "COND_CH_JUME",
       "value": "Einheit „Jume“ befindet sich mindestens auf St. 40"
+    },
+    {
+      "key": "COND_CH_LW_JUME2",
+      "value": "Einheit „Jume“ befindet sich mindestens auf St. 80"
     },
     {
       "key": "COND_CH_FF4_GLBZ",
@@ -1423,6 +1447,10 @@
     {
       "key": "COND_CH_RFAL",
       "value": "Einheit „Rafalle“ befindet sich mindestens auf St. 40"
+    },
+    {
+      "key": "COND_CH_LW_RFAL2",
+      "value": "Einheit „Rafalle“ befindet sich mindestens auf St. 80"
     },
     {
       "key": "COND_CH_MORE_01",
@@ -2029,16 +2057,32 @@
       "value": "Einheit „Lock“ befindet sich mindestens auf St. 40"
     },
     {
+      "key": "COND_CH_FF6_LO2",
+      "value": "Einheit „Lock“ befindet sich mindestens auf St. 80"
+    },
+    {
       "key": "COND_CH_FF6_TERA",
       "value": "Einheit „Terra“ befindet sich mindestens auf St. 40"
+    },
+    {
+      "key": "COND_CH_FF6_TE2",
+      "value": "Einheit „Terra“ befindet sich mindestens auf St. 80"
     },
     {
       "key": "COND_CH_CLES",
       "value": "Einheit „Celes“ befindet sich mindestens auf St. 40"
     },
     {
+      "key": "COND_CH_FF6_CL2",
+      "value": "Einheit „Celes“ befindet sich mindestens auf St. 80"
+    },
+    {
       "key": "COND_CH_BELS",
       "value": "Einheit „Velis“ befindet sich mindestens auf St. 40"
+    },
+    {
+      "key": "COND_CH_LW_BELS2",
+      "value": "Einheit „Velis“ befindet sich mindestens auf St. 80"
     },
     {
       "key": "COND_CH_LW_MDNA2",
@@ -2075,6 +2119,10 @@
     {
       "key": "COND_CH_ASTR",
       "value": "Einheit „Astrius“ befindet sich mindestens auf St. 40"
+    },
+    {
+      "key": "COND_CH_LW_ASTR2",
+      "value": "Einheit „Astrius“ befindet sich mindestens auf St. 80"
     },
     {
       "key": "COND_CH_RSNC",
@@ -2377,12 +2425,40 @@
       "value": "Einheit „Styr (Schwinge des Schicksals)“ befindet sich mindestens auf St. 40"
     },
     {
+      "key": "COND_CH_REGN",
+      "value": "Einheit „Raegen“ befindet sich mindestens auf St. 40"
+    },
+    {
+      "key": "COND_CH_FF6_KFKA",
+      "value": "Einheit „Kefka“ befindet sich mindestens auf St. 40"
+    },
+    {
+      "key": "COND_CH_BIGA",
+      "value": "Einheit „Viga“ befindet sich mindestens auf St. 40"
+    },
+    {
+      "key": "COND_CH_ADSN",
+      "value": ""
+    },
+    {
       "key": "COND_VC_LW_FMAM",
       "value": "Visionskarte „Verbunden mit den Brüdern“ befindet sich mindestens auf St. 1"
     },
     {
       "key": "COND_VC_LW_BAHM1",
       "value": "Visionskarte „Stygischer Eroberer, Dunkel-Bahamut“ befindet sich mindestens auf St. 1"
+    },
+    {
+      "key": "COND_VC_LW_REGN",
+      "value": "Visionskarte „Weltenspannende Bindung“ befindet sich mindestens auf St. 1"
+    },
+    {
+      "key": "COND_VC_LW_MCOR",
+      "value": "Visionskarte „Schnurrhaariger Donnerreißer, Meister-Coeurl“ befindet sich mindestens auf St. 1"
+    },
+    {
+      "key": "COND_EV_LW_LCIO",
+      "value": "Einheit „Lucio“ befindet sich mindestens auf St. 120"
     }
   ]
 }

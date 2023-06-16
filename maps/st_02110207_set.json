@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 0,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -35,14 +37,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -75,14 +82,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -115,14 +127,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -155,14 +172,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -195,14 +217,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -235,14 +262,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -275,14 +307,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     },
@@ -315,14 +352,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       }
     }
@@ -357,14 +399,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 70,
@@ -384,6 +431,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -431,7 +480,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":21608},{\"type\":2,\"value\":258},{\"type\":3,\"value\":275},{\"type\":4,\"value\":412},{\"type\":6,\"value\":391},{\"type\":5,\"value\":15},{\"type\":7,\"value\":15},{\"type\":9,\"value\":75},{\"type\":8,\"value\":325},{\"type\":10,\"value\":312},{\"type\":251,\"value\":10},{\"type\":253,\"value\":20},{\"type\":250,\"value\":-15},{\"type\":407,\"value\":50},{\"type\":416,\"value\":0},{\"type\":418,\"value\":0},{\"type\":254,\"value\":-5},{\"type\":307,\"value\":-20},{\"type\":319,\"value\":-20},{\"type\":306,\"value\":-20}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -462,14 +512,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 71,
@@ -489,6 +544,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -526,7 +583,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3429},{\"type\":2,\"value\":152},{\"type\":3,\"value\":154},{\"type\":4,\"value\":324},{\"type\":9,\"value\":75},{\"type\":8,\"value\":307},{\"type\":10,\"value\":292},{\"type\":253,\"value\":10},{\"type\":252,\"value\":10},{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -557,14 +615,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 72,
@@ -584,6 +647,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -621,7 +686,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3429},{\"type\":2,\"value\":152},{\"type\":3,\"value\":154},{\"type\":4,\"value\":324},{\"type\":9,\"value\":75},{\"type\":8,\"value\":307},{\"type\":10,\"value\":292},{\"type\":253,\"value\":10},{\"type\":252,\"value\":10},{\"type\":151,\"value\":-10},{\"type\":153,\"value\":10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -652,14 +718,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 73,
@@ -679,6 +750,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -716,7 +789,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3429},{\"type\":2,\"value\":152},{\"type\":3,\"value\":154},{\"type\":4,\"value\":324},{\"type\":9,\"value\":75},{\"type\":8,\"value\":307},{\"type\":10,\"value\":292},{\"type\":253,\"value\":10},{\"type\":252,\"value\":10},{\"type\":157,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -747,14 +821,19 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 74,
@@ -774,6 +853,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -811,7 +892,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3429},{\"type\":2,\"value\":152},{\"type\":3,\"value\":154},{\"type\":4,\"value\":324},{\"type\":9,\"value\":75},{\"type\":8,\"value\":307},{\"type\":10,\"value\":292},{\"type\":253,\"value\":10},{\"type\":252,\"value\":10},{\"type\":157,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -850,14 +932,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 75,
@@ -877,6 +964,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -919,7 +1008,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4332},{\"type\":6,\"value\":380},{\"type\":3,\"value\":207},{\"type\":9,\"value\":72},{\"type\":8,\"value\":289},{\"type\":10,\"value\":301},{\"type\":7,\"value\":15},{\"type\":5,\"value\":5},{\"type\":254,\"value\":20},{\"type\":253,\"value\":10},{\"type\":250,\"value\":-10},{\"type\":251,\"value\":-10},{\"type\":252,\"value\":-10},{\"type\":2,\"value\":102}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -958,14 +1048,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 76,
@@ -985,6 +1080,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1027,7 +1124,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4332},{\"type\":6,\"value\":380},{\"type\":3,\"value\":207},{\"type\":9,\"value\":72},{\"type\":8,\"value\":289},{\"type\":10,\"value\":301},{\"type\":7,\"value\":15},{\"type\":5,\"value\":5},{\"type\":254,\"value\":20},{\"type\":253,\"value\":10},{\"type\":250,\"value\":-10},{\"type\":251,\"value\":-10},{\"type\":252,\"value\":-10},{\"type\":2,\"value\":102}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1066,14 +1164,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 82,
@@ -1093,6 +1196,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1135,7 +1240,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4332},{\"type\":6,\"value\":380},{\"type\":3,\"value\":207},{\"type\":9,\"value\":72},{\"type\":8,\"value\":289},{\"type\":10,\"value\":301},{\"type\":7,\"value\":15},{\"type\":5,\"value\":5},{\"type\":254,\"value\":20},{\"type\":253,\"value\":10},{\"type\":250,\"value\":-10},{\"type\":251,\"value\":-10},{\"type\":252,\"value\":-10},{\"type\":2,\"value\":102}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1174,14 +1280,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 83,
@@ -1201,6 +1312,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1243,7 +1356,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4332},{\"type\":6,\"value\":380},{\"type\":3,\"value\":207},{\"type\":9,\"value\":72},{\"type\":8,\"value\":289},{\"type\":10,\"value\":301},{\"type\":7,\"value\":15},{\"type\":5,\"value\":5},{\"type\":254,\"value\":20},{\"type\":253,\"value\":10},{\"type\":250,\"value\":-10},{\"type\":251,\"value\":-10},{\"type\":252,\"value\":-10},{\"type\":2,\"value\":102}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1282,14 +1396,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 77,
@@ -1309,6 +1428,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1346,7 +1467,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":4,\"value\":342},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":73},{\"type\":8,\"value\":323},{\"type\":10,\"value\":310},{\"type\":2,\"value\":177},{\"type\":3,\"value\":183},{\"type\":250,\"value\":-10},{\"type\":252,\"value\":10},{\"type\":253,\"value\":10},{\"type\":155,\"value\":-10},{\"type\":1,\"value\":3725}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1385,14 +1507,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 78,
@@ -1412,6 +1539,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1449,7 +1578,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":4,\"value\":342},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":73},{\"type\":8,\"value\":323},{\"type\":10,\"value\":310},{\"type\":2,\"value\":177},{\"type\":3,\"value\":183},{\"type\":250,\"value\":-10},{\"type\":252,\"value\":10},{\"type\":253,\"value\":10},{\"type\":155,\"value\":-10},{\"type\":1,\"value\":3725}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1488,14 +1618,19 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
         "body": "",
         "id": "",
         "gauge": {
-          "x": 0,
-          "y": 0
+          "x": 0.0,
+          "y": 0.0
         }
       },
       "enemy_id": 79,
@@ -1515,6 +1650,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1552,7 +1689,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":4,\"value\":342},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":73},{\"type\":8,\"value\":323},{\"type\":10,\"value\":310},{\"type\":2,\"value\":177},{\"type\":3,\"value\":183},{\"type\":250,\"value\":-10},{\"type\":252,\"value\":10},{\"type\":253,\"value\":10},{\"type\":155,\"value\":-10},{\"type\":1,\"value\":3725}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -1594,6 +1732,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -1603,6 +1742,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -1619,6 +1759,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALL",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 233
@@ -1628,6 +1769,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALL_2",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 233
@@ -1637,6 +1779,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALL_5",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 117
@@ -1646,6 +1789,7 @@
             "type": 0,
             "iname": "IT_JB_MM_MNK",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 24
@@ -1655,6 +1799,7 @@
             "type": 0,
             "iname": "IT_JB_MM_MNK_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 24
@@ -1664,6 +1809,7 @@
             "type": 0,
             "iname": "IT_JB_MM_MNK_5",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 12
@@ -1673,6 +1819,7 @@
             "type": 0,
             "iname": "IT_JB_MM_DAC",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 24
@@ -1682,6 +1829,7 @@
             "type": 0,
             "iname": "IT_JB_MM_DAC_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 24
@@ -1691,6 +1839,7 @@
             "type": 0,
             "iname": "IT_JB_MM_DAC_5",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 12
@@ -1700,6 +1849,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALIA",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 24
@@ -1709,6 +1859,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALIA_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 24
@@ -1718,6 +1869,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALIA_5",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 12
@@ -1727,6 +1879,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_LIQUID_03",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 485
@@ -1736,6 +1889,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SAP_03",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 485
@@ -1745,6 +1899,7 @@
             "type": 0,
             "iname": "IT_AF_LW_HLM_003",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 120
@@ -1754,6 +1909,7 @@
             "type": 0,
             "iname": "IT_JB_KUNAI_01",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 525
@@ -1763,6 +1919,7 @@
             "type": 0,
             "iname": "IT_JB_KUNAI_02",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 525
@@ -1772,6 +1929,7 @@
             "type": 0,
             "iname": "IT_JB_KUNAI_05",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 263
@@ -1781,6 +1939,7 @@
             "type": 0,
             "iname": "IT_JB_SPEAR_01",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 525
@@ -1790,6 +1949,7 @@
             "type": 0,
             "iname": "IT_JB_SPEAR_02",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 525
@@ -1799,6 +1959,7 @@
             "type": 0,
             "iname": "IT_JB_SPEAR_05",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 263
@@ -1808,6 +1969,7 @@
             "type": 0,
             "iname": "IT_JB_EM_FIRE_1",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 525
@@ -1817,6 +1979,7 @@
             "type": 0,
             "iname": "IT_JB_EM_FIRE_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 525
@@ -1826,6 +1989,7 @@
             "type": 0,
             "iname": "IT_JB_EM_FIRE_5",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 263
@@ -1835,6 +1999,7 @@
             "type": 0,
             "iname": "IT_JB_IM_ANGEL_1",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 107
@@ -1844,6 +2009,7 @@
             "type": 0,
             "iname": "IT_JB_IM_ANGEL_2",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 107
@@ -1853,6 +2019,7 @@
             "type": 0,
             "iname": "IT_JB_IM_ANGEL_5",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 54
@@ -1862,9 +2029,40 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
-          "weight": 3940
+          "weight": 3880
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BIGA",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 24
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BIGA_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 24
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BIGA_5",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 12
         }
       ]
     }

@@ -469,6 +469,14 @@
       "value": "유닛 '운명의 날개 슈텔'의 레벨이 1 이상"
     },
     {
+      "key": "COND_HA_LW_REGN",
+      "value": "유닛 '레겐'의 레벨이 1 이상"
+    },
+    {
+      "key": "COND_HA_LW_BIGA",
+      "value": "유닛 '비가'의 레벨이 1 이상"
+    },
+    {
       "key": "COND_CH_LW_MONT",
       "value": "유닛 '몬트 레오니스'의 레벨이 40 이상"
     },
@@ -1065,6 +1073,10 @@
       "value": "유닛 '아림'의 레벨이 40 이상"
     },
     {
+      "key": "COND_CH_LW_ALIM2",
+      "value": "유닛 '아림'의 레벨이 80 이상"
+    },
+    {
       "key": "COND_CH_LW_RARD",
       "value": "유닛 '라르도'의 레벨이 40 이상"
     },
@@ -1373,6 +1385,10 @@
       "value": "유닛 '팔름'의 레벨이 40 이상"
     },
     {
+      "key": "COND_CH_LW_FALM2",
+      "value": "유닛 '팔름'의 레벨이 80 이상"
+    },
+    {
       "key": "COND_CH_FF15_NCT",
       "value": "유닛 '녹티스'의 레벨이 40 이상"
     },
@@ -1397,8 +1413,16 @@
       "value": "유닛 '루시오'의 레벨이 40 이상"
     },
     {
+      "key": "COND_CH_LW_LCIO2",
+      "value": "유닛 '루시오'의 레벨이 80 이상"
+    },
+    {
       "key": "COND_CH_JUME",
       "value": "유닛 '쥼'의 레벨이 40 이상"
+    },
+    {
+      "key": "COND_CH_LW_JUME2",
+      "value": "유닛 '쥼'의 레벨이 80 이상"
     },
     {
       "key": "COND_CH_FF4_GLBZ",
@@ -1423,6 +1447,10 @@
     {
       "key": "COND_CH_RFAL",
       "value": "유닛 '라팔'의 레벨이 40 이상"
+    },
+    {
+      "key": "COND_CH_LW_RFAL2",
+      "value": "유닛 '라팔'의 레벨이 80 이상"
     },
     {
       "key": "COND_CH_MORE_01",
@@ -2029,16 +2057,32 @@
       "value": "유닛 '로크'의 레벨이 40 이상"
     },
     {
+      "key": "COND_CH_FF6_LO2",
+      "value": "유닛 '로크'의 레벨이 80 이상"
+    },
+    {
       "key": "COND_CH_FF6_TERA",
       "value": "유닛 '티나'의 레벨이 40 이상"
+    },
+    {
+      "key": "COND_CH_FF6_TE2",
+      "value": "유닛 '티나'의 레벨이 80 이상"
     },
     {
       "key": "COND_CH_CLES",
       "value": "유닛 '셀리스'의 레벨이 40 이상"
     },
     {
+      "key": "COND_CH_FF6_CL2",
+      "value": "유닛 '셀리스'의 레벨이 80 이상"
+    },
+    {
       "key": "COND_CH_BELS",
       "value": "유닛 '베리스'의 레벨이 40 이상"
+    },
+    {
+      "key": "COND_CH_LW_BELS2",
+      "value": "유닛 '베리스'의 레벨이 80 이상"
     },
     {
       "key": "COND_CH_LW_MDNA2",
@@ -2075,6 +2119,10 @@
     {
       "key": "COND_CH_ASTR",
       "value": "유닛 '알스트리아'의 레벨이 40 이상"
+    },
+    {
+      "key": "COND_CH_LW_ASTR2",
+      "value": "유닛 '알스트리아'의 레벨이 80 이상"
     },
     {
       "key": "COND_CH_RSNC",
@@ -2377,12 +2425,40 @@
       "value": "유닛 '운명의 날개 슈텔'의 레벨이 40 이상"
     },
     {
+      "key": "COND_CH_REGN",
+      "value": "유닛 '레겐'의 레벨이 40 이상"
+    },
+    {
+      "key": "COND_CH_FF6_KFKA",
+      "value": "유닛 '케프카'의 레벨이 40 이상"
+    },
+    {
+      "key": "COND_CH_BIGA",
+      "value": "유닛 '비가'의 레벨이 40 이상"
+    },
+    {
+      "key": "COND_CH_ADSN",
+      "value": ""
+    },
+    {
       "key": "COND_VC_LW_FMAM",
       "value": "비전 카드 '형제와 유대를 맺는 자'의 레벨이 1 이상"
     },
     {
       "key": "COND_VC_LW_BAHM1",
       "value": "비전 카드 '암흑패룡-다크 바하무트'의 레벨이 1 이상"
+    },
+    {
+      "key": "COND_VC_LW_REGN",
+      "value": "비전 카드 '이계의 공동 전투'의 레벨이 1 이상"
+    },
+    {
+      "key": "COND_VC_LW_MCOR",
+      "value": "비전 카드 '긴 수염과 번개 송곳니-마스터 커얼'의 레벨이 1 이상"
+    },
+    {
+      "key": "COND_EV_LW_LCIO",
+      "value": "유닛 '루시오'의 레벨이 120 이상"
     }
   ]
 }
