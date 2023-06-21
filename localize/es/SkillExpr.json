@@ -4426,7 +4426,7 @@
     },
     {
       "key": "SK_LW_RESL_M_3",
-      "value": "Otorga absorción de una parte del daño de VIT infligido a los aliados de alrededor durante 3 turnos, aumenta el ATQ del usuario y otorga eliminación de autolázaro a los ataques (se activa antes de atacar) durante 3 turnos."
+      "value": "Los aliados de alrededor absorben una parte del daño de VIT que infligen durante 3 turnos, aumenta el ATQ del usuario y otorga eliminación de autolázaro a los ataques (se activa antes de atacar) durante 3 turnos."
     },
     {
       "key": "SK_LW_RESL_S_1",
@@ -9657,6 +9657,18 @@
       "value": "Aumenta la DEF de los aliados de alrededor durante 3 turnos y otorga una barrera al usuario que niega una cierta cantidad de daño físico."
     },
     {
+      "key": "SK_LW_MHA_S_1",
+      "value": "Inflige daño (poco) en función de la MAG del usuario al objetivo y reduce su ATQ y MAG durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_MHA_M_1_SUB",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance, reduce su tasa de penetración de DEF durante 3 turnos y aumenta el TC del usuario (poco) al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_LW_MHA_S_2",
+      "value": "Otorga reducción de PA a los ataques con éxito del usuario durante 3 turnos, le otorga Coraza y efecto adicional: aumenta su res. reducciones de DEF mientras el efecto de Coraza esté activo."
+    },
+    {
       "key": "SK_LW_MHA_S_1_INIT",
       "value": "Inflige daño (poco) en función de la MAG del usuario al objetivo y reduce su ATQ y MAG durante 3 turnos."
     },
@@ -10302,7 +10314,7 @@
     },
     {
       "key": "SK_ARM_FMAM_ALPN_1",
-      "value": "Aumenta el ATQ de los aliados de alrededor y les otorga absorción de una parte del daño de VIT infligido durante 3 turnos."
+      "value": "Aumenta el ATQ de los aliados de alrededor y les otorga absorción de una parte del daño de VIT que infligen durante 3 turnos."
     },
     {
       "key": "SK_FMAM_ROYM_ATK",
@@ -10557,6 +10569,22 @@
       "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (medio) a los objetivos al alcance, aumenta la potencia cuantos menos objetivos haya (daño normal para 3 o más objetivos) y reduce su potencia de curación durante 3 turnos."
     },
     {
+      "key": "SK_LB_LW_STRN_02",
+      "value": "Aumenta el ATQ del usuario, inflige daño (mucho) a los objetivos al alcance, otorga prisa al usuario y aumenta su daño físico durante 3 turnos."
+    },
+    {
+      "key": "SK_MA_LW_STRN_02",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: ATQ +10 %, consumo de PA -10 %, tasa de bloqueo de reacción +20"
+    },
+    {
+      "key": "SK_UES_LW_STRN_02",
+      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), y aumenta el ataque de corte y la tasa de precisión del usuario durante 3 turnos, aumenta el TC (poco) y le recupera PA tras revivir."
+    },
+    {
+      "key": "SK_ARM_LW_STRN_02_1",
+      "value": "Otorga Comehombres al usuario durante 3 turnos al realizar un ataque físico y le otorga recuperación automática de PA (poco)."
+    },
+    {
       "key": "SK_LW_REGN_ATK",
       "value": ""
     },
@@ -10627,22 +10655,6 @@
     {
       "key": "SK_LW_EC_REGN_C_02_C_EN",
       "value": ""
-    },
-    {
-      "key": "SK_LB_LW_STRN_02",
-      "value": "Aumenta el ATQ del usuario, inflige daño (mucho) a los objetivos al alcance, otorga prisa al usuario y aumenta su daño físico durante 3 turnos."
-    },
-    {
-      "key": "SK_MA_LW_STRN_02",
-      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: ATQ +10 %, consumo de PA -10 %, tasa de bloqueo de reacción +20"
-    },
-    {
-      "key": "SK_UES_LW_STRN_02",
-      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), y aumenta el ataque de corte y la tasa de precisión del usuario durante 3 turnos, aumenta el TC (poco) y le recupera PA tras revivir."
-    },
-    {
-      "key": "SK_ARM_LW_STRN_02_1",
-      "value": "Otorga Comehombres al usuario durante 3 turnos al realizar un ataque físico y le otorga recuperación automática de PA (poco)."
     },
     {
       "key": "SK_FF6_KFKA_ATK",
@@ -10859,6 +10871,70 @@
     {
       "key": "SK_ADSN_EC_ADSN_C_02B",
       "value": "Aumenta la MAG, la tasa de penetración de ESP y la tasa de penetración de res. ataque mágico."
+    },
+    {
+      "key": "SK_LW_SSA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SSA_M_1",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos e inflige daño (medio) 2 veces en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_LW_SSA_M_2",
+      "value": "Aumenta la MAG y la AGI de los aliados de alrededor durante 3 turnos y otorga una barrera al usuario que reduce el daño físico (3 veces)."
+    },
+    {
+      "key": "SK_LW_SSA_M_3",
+      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), y otorga un efecto adicional: aumenta la res. ataque de zona mientras autolázaro está activo."
+    },
+    {
+      "key": "SK_LW_SSA_S_1_INIT",
+      "value": "Inflige daño (poco) en función de la MAG del usuario al objetivo y aumenta el daño mágico del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SSA_S_2_INIT",
+      "value": "Otorga Escudo al usuario durante 3 turnos y aumenta su res. ataque mágico."
+    },
+    {
+      "key": "SK_LW_SSA_S_3",
+      "value": "Daño (poco) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles inútil durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_SSA_S_4",
+      "value": "Inflige daño (mucho) 2 veces en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_LW_SSA_R_1",
+      "value": "Probabilidad de reducir el daño de ataques a distancia recibido."
+    },
+    {
+      "key": "SK_LW_SSA_P_1",
+      "value": "Aumenta la MAG y reduce el consumo de PA."
+    },
+    {
+      "key": "SK_LW_SSA_P_2",
+      "value": "Aumenta la VIT máx. y la res. oscuridad."
+    },
+    {
+      "key": "SK_LW_SSA_EN_A_01",
+      "value": "Elimina agallas al objetivo y le inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_01",
+      "value": "Mejora «Corte mágico doble» a «Corte mágico deshojador»: aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance y les inflige daño (medio) 2 veces en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_01B",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance y les inflige daño (medio) 2 veces en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_02",
+      "value": "Mejora «Defensa antiproyectiles» a «Defensa antiproyectiles+»: mayor reducción de daño."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_02B",
+      "value": "Probabilidad de reducir el daño de ataques a distancia recibido."
     },
     {
       "key": "SK_BTL_GETSP_1-999_U",
@@ -13509,6 +13585,38 @@
       "value": "Cuatro destruidas: reduce la resistencia a todos los elementos y aumenta ATQ, MAG y AGI."
     },
     {
+      "key": "SK_DARE_ATK",
+      "value": "Inflige daño al objetivo."
+    },
+    {
+      "key": "SK_DARE_M_01",
+      "value": "Daño (poco) en función de la MAG del usuario al objetivo y probabilidad de infligirle aturdimiento."
+    },
+    {
+      "key": "SK_DARE_M_02",
+      "value": "Otorga autolázaro al usuario (recuperación de VIT: poco), aumenta su TC al revivir con autolázaro (ejemplo: +600), le otorga agallas y aumenta su res. todos los elementos cuando su VIT está por debajo del 50 %."
+    },
+    {
+      "key": "SK_DARE_M_02_B",
+      "value": ""
+    },
+    {
+      "key": "SK_DARE_M_03",
+      "value": "Inflige daño (medio) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_DARE_M_04",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_DARE_M_05",
+      "value": "Inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_DARE_M_06",
+      "value": "Daño (mucho) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles piedra."
+    },
+    {
       "key": "SK_CSLI_02_ATK",
       "value": ""
     },
@@ -14495,6 +14603,10 @@
     {
       "key": "SK_LB_ADSN_ADSN",
       "value": "Daño (mucho) 3 veces en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles freno durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_MRND_01",
+      "value": "Reduce el ESP y la res. luz del objetivo durante 3 turnos y le inflige daño (mucho) en función de la MAG del usuario."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -17897,6 +18009,10 @@
       "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: ATQ +15 %, consumo de PA -10 %"
     },
     {
+      "key": "SK_MA_LW_IRDL_01_2",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. ataque de unidad +40 (se elimina tras recibir daño 2 veces), ATQ +15 %, consumo de PA -10 %, tasa de bloqueo de reacción +30, ataque de fuego +10"
+    },
+    {
       "key": "SK_MA_LW_SDLE",
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: res. ataque de zona +10, tasa de penetración de ESP +10"
     },
@@ -18043,6 +18159,10 @@
     {
       "key": "SK_MA_ADSN_ADSN",
       "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: VIT máx. +10 %, odio -5"
+    },
+    {
+      "key": "SK_MA_LW_MRND_01",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: tasa de penetración de res. ataque de corte +10, PA adquiridos +30 %"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -18246,7 +18366,7 @@
     },
     {
       "key": "SK_UES_LW_HYOO",
-      "value": ""
+      "value": "Elimina prisa y autolázaro de hasta 2 objetivos, inflige daño (mucho) y recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
     },
     {
       "key": "SK_UES_LW_PRNE",
@@ -18346,15 +18466,15 @@
     },
     {
       "key": "SK_LW_ZZAN_M_3_ZZAN_01C",
-      "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), efecto adicional: reduce el consumo de PA mientras autolázaro esté activo, y aumenta el TC (poco) tras revivir."
+      "value": "N.º de usos de la habilidad +1. Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima) y efecto adicional: reduce el consumo de PA mientras autolázaro esté activo, y aumenta el TC (poco) tras revivir."
     },
     {
       "key": "SK_UES_LW_SLEN",
-      "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta la tasa de precisión y evasión de crítico mientras agallas esté activo."
+      "value": "N.º de usos de la habilidad +1. El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta la tasa de precisión y evasión de crítico mientras agallas esté activo."
     },
     {
       "key": "SK_LW_EC_SLEN_A_01_B",
-      "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta la tasa de precisión y evasión de crítico mientras agallas esté activo."
+      "value": "N.º de usos de la habilidad +1. El usuario sobrevive a daño letal una vez, y efecto adicional: aumenta la tasa de precisión y evasión de crítico mientras agallas esté activo."
     },
     {
       "key": "SK_UES_LW_STIA",
@@ -18806,7 +18926,7 @@
     },
     {
       "key": "SK_UES_LW_SEVR",
-      "value": "Reduce considerablemente el tiempo de activación del usuario, le otorga prisa durante 5 turnos y sobrevive a daño letal una vez."
+      "value": "Reduce el tiempo de activación del usuario, le otorga prisa durante 5 turnos y sobrevive a daño letal una vez."
     },
     {
       "key": "SK_LW_EC_BLM_A_03_B",
@@ -18819,6 +18939,30 @@
     {
       "key": "SK_LW_EC_HUN_A_01_B",
       "value": "Daño (mucho) al objetivo y probabilidad de infligirle paro."
+    },
+    {
+      "key": "SK_UES_LW_MRND_01",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance y les inflige daño (mucho) 2 veces en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_01C",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance y les inflige daño (mucho) 2 veces en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_UES_LW_THLA_01",
+      "value": "Aumenta la MAG del usuario durante 3 turnos, inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance (acumulable hasta 3 veces) y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_LW_EC_PSI_A_01_B",
+      "value": "Aumenta la MAG del usuario durante 3 turnos, inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance (acumulable hasta 3 veces) y aumenta el TC del usuario (poco)."
+    },
+    {
+      "key": "SK_UES_LW_IRDL_01",
+      "value": "Daño (mucho) al objetivo, probabilidad de infligirle inmóvil durante 3 turnos, y efecto adicional: reduce la AGI y la res. ataque de unidad en estado inmóvil."
+    },
+    {
+      "key": "SK_LW_EC_BNI_A_01_B",
+      "value": "Daño (mucho) al objetivo, probabilidad de infligirle inmóvil durante 3 turnos, y efecto adicional: reduce la AGI y la res. ataque de unidad en estado inmóvil."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -20362,7 +20506,7 @@
     },
     {
       "key": "SK_CLT_LW_URAL_1",
-      "value": "Otorga absorción de una parte del daño de VIT infligido a los aliados de alrededor durante 3 turnos."
+      "value": "Los aliados de alrededor absorben una parte del daño de VIT que infligen durante 3 turnos."
     },
     {
       "key": "SK_ACC_LW_HLNA_02_1",
@@ -20754,7 +20898,7 @@
     },
     {
       "key": "SK_CLT_LW_URAL_1_ARENA",
-      "value": "Otorga absorción de una parte del daño de VIT infligido a los aliados de alrededor durante 3 turnos."
+      "value": "Los aliados de alrededor absorben una parte del daño de VIT que infligen durante 3 turnos."
     },
     {
       "key": "SK_HAT_LW_MDNA_ARENA",
@@ -21023,6 +21167,10 @@
     {
       "key": "SK_ACC_ADSN_ADSN_1",
       "value": "Aumenta la tasa de crítico de los aliados de alrededor y otorga eliminación de prisa a los críticos durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_LW_MRND_01_1",
+      "value": "Reduce la probabilidad de ser atacado y aumenta la tasa de precisión del usuario durante 3 turnos."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -23126,6 +23274,54 @@
     },
     {
       "key": "SK_GL_VC_LW_MCOR_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PMAX_2",
       "value": ""
     },
     {
@@ -32877,6 +33073,26 @@
       "value": "Habilidad pasiva exclusiva de Reiches"
     },
     {
+      "key": "SK_LW_KAT_015_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -33346,6 +33562,10 @@
     },
     {
       "key": "SK_LW_PLUS6_SP_APC_30",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_2T_JUMP_1",
       "value": "Habilidad específica de equipo +6"
     },
     {

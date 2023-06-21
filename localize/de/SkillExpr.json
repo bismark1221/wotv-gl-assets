@@ -9657,6 +9657,18 @@
       "value": "Erhöht 3 Runden lang ABW von Verbündeten im Bereich um Wirkenden und beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge physischen Schaden abwehrt."
     },
     {
+      "key": "SK_LW_MHA_S_1",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu und senkt 3 Runden lang ANG und MAG."
+    },
+    {
+      "key": "SK_LW_MHA_M_1_SUB",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu, senkt 3 Runden lang ABW-Durchbohrrate und erhöht bei Kampfunfähigkeit des Gegners (bis zu 2) eigene AZ (S)."
+    },
+    {
+      "key": "SK_LW_MHA_S_2",
+      "value": "Gewährt eigenen erfolgreichen Angriffen für 3 Runden AP-Reduzierung, wirkt Protes und zusätzlicher Effekt: Erhöht ABW-Schwächungsresistenz während Protes aktiv ist."
+    },
+    {
       "key": "SK_LW_MHA_S_1_INIT",
       "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu und senkt 3 Runden lang ANG und MAG."
     },
@@ -10557,6 +10569,22 @@
       "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (M) zu, mit höherem Schaden, je weniger Ziele (normaler Schaden bei 3 oder mehr Zielen) und senkt 3 Runden lang Heilkraft."
     },
     {
+      "key": "SK_LB_LW_STRN_02",
+      "value": "Erhöht eigenen ANG, fügt Zielen in Reichweite anschließend Schaden (L) zu, wirkt Hast auf sich selbst und erhöht 3 Runden lang physischen Schaden."
+    },
+    {
+      "key": "SK_MA_LW_STRN_02",
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigener ANG +10 %, AP-Verbrauch -10 % und Reaktionsblockrate +20"
+    },
+    {
+      "key": "SK_UES_LW_STRN_02",
+      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst, erhöht 3 Runden lang Schlitzangriff und Präzision, erhöht AZ (S) und stellt nach Wiederbelebung durch Schutzengel AP wieder her."
+    },
+    {
+      "key": "SK_ARM_LW_STRN_02_1",
+      "value": "Wirkt 3 Runden andauernden Menschenfresser bei physischem Angriff auf sich selbst und wirkt automatische AP-Wiederherstellung (S)."
+    },
+    {
       "key": "SK_LW_REGN_ATK",
       "value": ""
     },
@@ -10627,22 +10655,6 @@
     {
       "key": "SK_LW_EC_REGN_C_02_C_EN",
       "value": ""
-    },
-    {
-      "key": "SK_LB_LW_STRN_02",
-      "value": "Erhöht eigenen ANG, fügt Zielen in Reichweite anschließend Schaden (L) zu, wirkt Hast auf sich selbst und erhöht 3 Runden lang physischen Schaden."
-    },
-    {
-      "key": "SK_MA_LW_STRN_02",
-      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigener ANG +10 %, AP-Verbrauch -10 % und Reaktionsblockrate +20"
-    },
-    {
-      "key": "SK_UES_LW_STRN_02",
-      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst, erhöht 3 Runden lang Schlitzangriff und Präzision, erhöht AZ (S) und stellt nach Wiederbelebung durch Schutzengel AP wieder her."
-    },
-    {
-      "key": "SK_ARM_LW_STRN_02_1",
-      "value": "Wirkt 3 Runden andauernden Menschenfresser bei physischem Angriff auf sich selbst und wirkt automatische AP-Wiederherstellung (S)."
     },
     {
       "key": "SK_FF6_KFKA_ATK",
@@ -10859,6 +10871,70 @@
     {
       "key": "SK_ADSN_EC_ADSN_C_02B",
       "value": "Erhöht MAG, PSY-Durchbohrrate und Magieangriffsresistenz-Durchbohrrate."
+    },
+    {
+      "key": "SK_LW_SSA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SSA_M_1",
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate und fügt anschließend Zielen in Reichweite 2 Mal hintereinander MAG-abhängigen Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_SSA_M_2",
+      "value": "Erhöht 3 Runden lang MAG und AGI von Verbündeten im Bereich um Wirkenden und beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal physischen Schaden reduziert."
+    },
+    {
+      "key": "SK_LW_SSA_M_3",
+      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst und zusätzlicher Effekt: Erhöht Bereichangriffsresistenz, während Schutzengel aktiv ist."
+    },
+    {
+      "key": "SK_LW_SSA_S_1_INIT",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu und erhöht 3 Runden lang eigenen magischen Schaden."
+    },
+    {
+      "key": "SK_LW_SSA_S_2_INIT",
+      "value": "Wirkt 3 Runden lang Vallum auf sich selbst und erhöht Magieangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_SSA_S_3",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (S) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Ausschalten."
+    },
+    {
+      "key": "SK_LW_SSA_S_4",
+      "value": "Fügt dem Ziel 2 Mal hintereinander MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_SSA_R_1",
+      "value": "Gewährt Chance auf Reduzierung von Geschossangriffsschaden."
+    },
+    {
+      "key": "SK_LW_SSA_P_1",
+      "value": "Erhöht MAG und senkt AP-Verbrauch."
+    },
+    {
+      "key": "SK_LW_SSA_P_2",
+      "value": "Erhöht LP-Maximum und Dunkelresistenz."
+    },
+    {
+      "key": "SK_LW_SSA_EN_A_01",
+      "value": "Entfernt Mumm vom Ziel und fügt anschließend MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_01",
+      "value": "Verstärkt Magischer Doppelschlitzer zu Magischer Doppelschlitzer: Spaltung. Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, zerstört magischen Schaden verringernde Barrieren von Zielen in Reichweite und fügt anschließend 2 Mal hintereinander MAG-abhängigen Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_01B",
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, zerstört magischen Schaden verringernde Barrieren von Zielen in Reichweite und fügt anschließend 2 Mal hintereinander MAG-abhängigen Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_02",
+      "value": "Verstärkt Pfeilverteidigung zu Ausgefeilte Pfeilverteidigung. Verstärkt Schadensreduzierung."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_02B",
+      "value": "Gewährt Chance auf Reduzierung von Geschossangriffsschaden."
     },
     {
       "key": "SK_BTL_GETSP_1-999_U",
@@ -13509,6 +13585,38 @@
       "value": "Alle vier zerstört: Senkt alle Elementarresistenzen und erhöht ANG, MAG und AGI."
     },
     {
+      "key": "SK_DARE_ATK",
+      "value": "Fügt dem Ziel Schaden zu."
+    },
+    {
+      "key": "SK_DARE_M_01",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (S) zu und gewährt Chance auf Wirken von Betäubung."
+    },
+    {
+      "key": "SK_DARE_M_02",
+      "value": "Wirkt Schutzengel auf sich selbst (Heilung S), erhöht AZ nach Wiederbelebung durch Schutzengel (z.B. +600), wirkt Mumm und erhöht alle Elementarresistenzen, solange LP 50 % oder weniger betragen."
+    },
+    {
+      "key": "SK_DARE_M_02_B",
+      "value": ""
+    },
+    {
+      "key": "SK_DARE_M_03",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu."
+    },
+    {
+      "key": "SK_DARE_M_04",
+      "value": "Fügt dem Ziel MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_DARE_M_05",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu."
+    },
+    {
+      "key": "SK_DARE_M_06",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und gewährt Chance auf Wirken von Stein."
+    },
+    {
       "key": "SK_CSLI_02_ATK",
       "value": ""
     },
@@ -14495,6 +14603,10 @@
     {
       "key": "SK_LB_ADSN_ADSN",
       "value": "Fügt Zielen in Reichweite 3 Mal hintereinander MAG-abhängigen Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+    },
+    {
+      "key": "SK_LB_LW_MRND_01",
+      "value": "Senkt 3 Runden lang PSY und Lichtresistenz des Ziels und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -17897,6 +18009,10 @@
       "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigener ANG +15 %/AP-Verbrauch -10 %"
     },
     {
+      "key": "SK_MA_LW_IRDL_01_2",
+      "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigene Einzelangriffsresistenz +40 (wird aufgehoben, wenn 2 Mal Schaden erlitten wurde), ANG +15 %, AP-Verbrauch -10 %, Reaktionsblockrate +30 und Feuerangriff +10"
+    },
+    {
       "key": "SK_MA_LW_SDLE",
       "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene Bereichangriffsresistenz +10 und PSY-Durchbohrrate +10"
     },
@@ -18043,6 +18159,10 @@
     {
       "key": "SK_MA_ADSN_ADSN",
       "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigenes LP-Maximum +10 % und Hass -5"
+    },
+    {
+      "key": "SK_MA_LW_MRND_01",
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene Schlitzresistenz-Durchbohrrate +10 und erlangte AP +30 %"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -18246,7 +18366,7 @@
     },
     {
       "key": "SK_UES_LW_HYOO",
-      "value": ""
+      "value": "Entfernt Hast und Schutzengel von bis zu 2 Zielen, fügt anschließend Schaden (L) zu und stellt bei Kampfunfähigkeit des Gegners (bis zu 2) eigene AP wieder her."
     },
     {
       "key": "SK_UES_LW_PRNE",
@@ -18346,15 +18466,15 @@
     },
     {
       "key": "SK_LW_ZZAN_M_3_ZZAN_01C",
-      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst und zusätzlicher Effekt: Senkt AP-Verbrauch, während Schutzengel aktiv ist und erhöht AZ (S) nach Wiederbelebung durch Schutzengel."
+      "value": "Fähigkeiteneinsätze +1. Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst und zusätzlicher Effekt: Senkt AP-Verbrauch, während Schutzengel aktiv ist und erhöht AZ (S) nach Wiederbelebung durch Schutzengel."
     },
     {
       "key": "SK_UES_LW_SLEN",
-      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben und zusätzlicher Effekt: Erhöht Präzision und Kritische Ausweichrate, während Mumm aktiv ist."
+      "value": "Fähigkeiteneinsätze +1. Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben und zusätzlicher Effekt: Erhöht Präzision und Kritische Ausweichrate, während Mumm aktiv ist."
     },
     {
       "key": "SK_LW_EC_SLEN_A_01_B",
-      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben und zusätzlicher Effekt: Erhöht Präzision und Kritische Ausweichrate, während Mumm aktiv ist."
+      "value": "Fähigkeiteneinsätze +1. Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben und zusätzlicher Effekt: Erhöht Präzision und Kritische Ausweichrate, während Mumm aktiv ist."
     },
     {
       "key": "SK_UES_LW_STIA",
@@ -18806,7 +18926,7 @@
     },
     {
       "key": "SK_UES_LW_SEVR",
-      "value": "Verkürzt eigene Aktivierungszeit erheblich, wirkt 5 Runden lang Hast und ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben."
+      "value": "Verkürzt Aktivierungszeit erheblich, wirkt 5 Runden lang Hast und ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben."
     },
     {
       "key": "SK_LW_EC_BLM_A_03_B",
@@ -18819,6 +18939,30 @@
     {
       "key": "SK_LW_EC_HUN_A_01_B",
       "value": "Fügt dem Ziel Schaden (L) zu und gewährt Chance auf Wirken von Stopp."
+    },
+    {
+      "key": "SK_UES_LW_MRND_01",
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, zerstört magischen Schaden verringernde Barrieren von Zielen in Reichweite und fügt anschließend 2 Mal hintereinander MAG-abhängigen Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_01C",
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, zerstört magischen Schaden verringernde Barrieren von Zielen in Reichweite und fügt anschließend 2 Mal hintereinander MAG-abhängigen Schaden (M) zu."
+    },
+    {
+      "key": "SK_UES_LW_THLA_01",
+      "value": "Erhöht 3 Runden lang eigene MAG, fügt Zielen in Reichweite anschließend MAG-abhängigen Schaden (M) zu (bis zu 3 Mal stapelbar) und erhöht eigene AZ (S)."
+    },
+    {
+      "key": "SK_LW_EC_PSI_A_01_B",
+      "value": "Erhöht 3 Runden lang eigene MAG, fügt Zielen in Reichweite anschließend MAG-abhängigen Schaden (M) zu (bis zu 3 Mal stapelbar) und erhöht eigene AZ (S)."
+    },
+    {
+      "key": "SK_UES_LW_IRDL_01",
+      "value": "Fügt dem Ziel Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung und zusätzlicher Effekt: Senkt AGI und Einzelangriffsresistenz während Immobilisierung aktiv ist."
+    },
+    {
+      "key": "SK_LW_EC_BNI_A_01_B",
+      "value": "Fügt dem Ziel Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung und zusätzlicher Effekt: Senkt AGI und Einzelangriffsresistenz während Immobilisierung aktiv ist."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -21025,6 +21169,10 @@
       "value": "Erhöht kritische Trefferrate von Verbündeten im Bereich um Wirkenden und gewährt Kritischen Treffern 3 Runden lang Hast-Entfernung."
     },
     {
+      "key": "SK_ACC_LW_MRND_01_1",
+      "value": "Senkt Wahrscheinlichkeit, Ziel von Angriffen zu werden, und erhöht 3 Runden lang eigene Präzision."
+    },
+    {
       "key": "SK_VC_LW_GLEM_GS",
       "value": ""
     },
@@ -23126,6 +23274,54 @@
     },
     {
       "key": "SK_GL_VC_LW_MCOR_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PMAX_2",
       "value": ""
     },
     {
@@ -32877,6 +33073,26 @@
       "value": "Passive Fähigkeit (nur Reyshesse)"
     },
     {
+      "key": "SK_LW_KAT_015_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -33346,6 +33562,10 @@
     },
     {
       "key": "SK_LW_PLUS6_SP_APC_30",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_2T_JUMP_1",
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {

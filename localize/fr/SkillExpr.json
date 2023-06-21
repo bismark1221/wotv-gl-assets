@@ -5470,7 +5470,7 @@
     },
     {
       "key": "SK_LW_EC_BEA_A_04",
-      "value": "Réduit le taux d'esquive critique de la cible pendant 3 tours, puis inflige des dégâts (M) en 2 coups et réduit l'AGI pendant 3 tours."
+      "value": "Réduit le taux d'esquive critique de la cible pendant 3 tours, puis inflige des dégâts (L) en 2 coups et réduit l'AGI pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_BEA_C_07",
@@ -9657,6 +9657,18 @@
       "value": "Augmente la DEF des alliés dans la zone autour du lanceur pendant 3 tours et érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques."
     },
     {
+      "key": "SK_LW_MHA_S_1",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, et réduit l'ATT et la MAGIE pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_MHA_M_1_SUB",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit le taux de perforation de la DEF pendant 3 tours et augmente les CT (S) du lanceur quand un ennemi est mis K.O. (jusqu'à 2 ennemis)."
+    },
+    {
+      "key": "SK_LW_MHA_S_2",
+      "value": "Accorde un effet de réduction de PA pour les attaques réussies du lanceur pendant 3 tours et accorde un effet additionnel : augmente la résistance aux malus de DEF pendant l'effet de Bouclier."
+    },
+    {
       "key": "SK_LW_MHA_S_1_INIT",
       "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, et réduit l'ATT et la MAGIE pendant 3 tours."
     },
@@ -10557,6 +10569,22 @@
       "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes pendant 3 tours du lanceur, puis inflige des dégâts (M) aux unités dans la zone ciblée, la puissance augmente plus le nombre de cibles est faible (dégâts standards à 3 cibles ou plus), et réduit les compétences de soin pendant 3 tours."
     },
     {
+      "key": "SK_LB_LW_STRN_02",
+      "value": "Augmente l'ATT du lanceur, puis inflige des dégâts (L) aux unités dans la zone ciblée, accorde Booster au lanceur et augmente les dégâts physiques pendant 3 tours."
+    },
+    {
+      "key": "SK_MA_LW_STRN_02",
+      "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente l'ATT du lanceur de 10 %, réduit la consommation de PA de 10 % et augmente le taux de blocage de réaction de 20."
+    },
+    {
+      "key": "SK_UES_LW_STRN_02",
+      "value": "Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS)), augmente l'attaque tranchante et le taux de précision pendant 3 tours, augmente la jauge de CT (S), et restaure les PA après avoir été ranimé via Auréole."
+    },
+    {
+      "key": "SK_ARM_LW_STRN_02_1",
+      "value": "Accorde Anthropophage aux attaques physiques du lanceur pendant 3 tours et accorde Restauration auto de PA (S)."
+    },
+    {
       "key": "SK_LW_REGN_ATK",
       "value": ""
     },
@@ -10627,22 +10655,6 @@
     {
       "key": "SK_LW_EC_REGN_C_02_C_EN",
       "value": ""
-    },
-    {
-      "key": "SK_LB_LW_STRN_02",
-      "value": "Augmente l'ATT du lanceur, puis inflige des dégâts (L) aux unités dans la zone ciblée, accorde Booster au lanceur et augmente les dégâts physiques pendant 3 tours."
-    },
-    {
-      "key": "SK_MA_LW_STRN_02",
-      "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente l'ATT du lanceur de 10 %, réduit la consommation de PA de 10 % et augmente le taux de blocage de réaction de 20."
-    },
-    {
-      "key": "SK_UES_LW_STRN_02",
-      "value": "Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS)), augmente l'attaque tranchante et le taux de précision pendant 3 tours, augmente la jauge de CT (S), et restaure les PA après avoir été ranimé via Auréole."
-    },
-    {
-      "key": "SK_ARM_LW_STRN_02_1",
-      "value": "Accorde Anthropophage aux attaques physiques du lanceur pendant 3 tours et accorde Restauration auto de PA (S)."
     },
     {
       "key": "SK_FF6_KFKA_ATK",
@@ -10859,6 +10871,70 @@
     {
       "key": "SK_ADSN_EC_ADSN_C_02B",
       "value": "Augmente le taux de perforation de la MAGIE et de la PSY et augmente le taux de perforation de la résistance aux attaques magiques."
+    },
+    {
+      "key": "SK_LW_SSA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SSA_M_1",
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_LW_SSA_M_2",
+      "value": "Augmente la MAGIE et l'AGI des alliés dans la zone autour du lanceur pendant 3 tours, et érige une barrière qui réduit les dégâts physiques (3 fois) autour du lanceur."
+    },
+    {
+      "key": "SK_LW_SSA_M_3",
+      "value": "Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS)) et accorde des effets additionnels : augmente la résistance aux attaques de zone pendant l'effet d'Auréole."
+    },
+    {
+      "key": "SK_LW_SSA_S_1_INIT",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible et augmente les dégâts magiques du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SSA_S_2_INIT",
+      "value": "Accorde Barrière au lanceur pendant 3 tours et augmente la résistance aux attaques magiques."
+    },
+    {
+      "key": "SK_LW_SSA_S_3",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et confère une chance d'infliger Incapacité pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SSA_S_4",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur en 2 coups à la cible."
+    },
+    {
+      "key": "SK_LW_SSA_R_1",
+      "value": "Confère une chance de réduire les dégâts des attaques projectiles subis."
+    },
+    {
+      "key": "SK_LW_SSA_P_1",
+      "value": "Augmente la MAGIE et réduit la consommation de PA."
+    },
+    {
+      "key": "SK_LW_SSA_P_2",
+      "value": "Augmente les PV max et la résistance à l'ombre."
+    },
+    {
+      "key": "SK_LW_SSA_EN_A_01",
+      "value": "Dissipe Hardiesse de la cible, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_01",
+      "value": "Améliore Aller-retour magique en Aller-retour magique : scission. Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours et détruit toute barrière réduisant les dégâts magiques érigée autour des unités dans la zone ciblée, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_01B",
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours et détruit toute barrière réduisant les dégâts magiques érigée autour des unités dans la zone ciblée, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_02",
+      "value": "Améliore Bouclier aérien en Grand bouclier aérien. Améliore la réduction de dégâts."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_02B",
+      "value": "Confère une chance de réduire les dégâts des attaques projectiles subis."
     },
     {
       "key": "SK_BTL_GETSP_1-999_U",
@@ -13509,6 +13585,38 @@
       "value": "Quatre détruites : réduit la résistance à tous les éléments, et augmente l'ATT, la MAGIE et l'AGI."
     },
     {
+      "key": "SK_DARE_ATK",
+      "value": "Inflige des dégâts à la cible."
+    },
+    {
+      "key": "SK_DARE_M_01",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible et confère une chance d'infliger Étourdissement."
+    },
+    {
+      "key": "SK_DARE_M_02",
+      "value": "Accorde Auréole au lanceur (récupération de PV (S)), augmente les CT quand l'unité est ressuscitée avec Auréole (+ 600 par exemple), accorde Hardiesse et augmente la résistance tous éléments quand les PV chutent en dessous de 50 %."
+    },
+    {
+      "key": "SK_DARE_M_02_B",
+      "value": ""
+    },
+    {
+      "key": "SK_DARE_M_03",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_DARE_M_04",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible."
+    },
+    {
+      "key": "SK_DARE_M_05",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_DARE_M_06",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Pétrification."
+    },
+    {
       "key": "SK_CSLI_02_ATK",
       "value": ""
     },
@@ -14495,6 +14603,10 @@
     {
       "key": "SK_LB_ADSN_ADSN",
       "value": "Inflige des dégâts (L) en 3 coups qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et confère une chance d'infliger Lenteur pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_MRND_01",
+      "value": "Réduit la PSY et la résistance à la lumière de la cible pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -17897,6 +18009,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente l'ATT du lanceur de 15 % et réduit la consommation de PA de 10 %."
     },
     {
+      "key": "SK_MA_LW_IRDL_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la résistance aux attaques à cible unique du lanceur de 40 (se dissipe après avoir subi 2 fois des dégâts), l'ATT de 15 %, réduit la consommation de PA de 10 %, augmente le taux de blocage de réaction de 30 et les attaques de feu de 10."
+    },
+    {
       "key": "SK_MA_LW_SDLE",
       "value": "Augmente les PV max de +10 % et les attaques de vent de +15 pour les unités alliées de vent, augmente la résistance aux attaques de zone du lanceur de 10 et le taux de perforation de la PSY de 10."
     },
@@ -18043,6 +18159,10 @@
     {
       "key": "SK_MA_ADSN_ADSN",
       "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente les PV max du lanceur de 10 % et réduit la Haine de 5."
+    },
+    {
+      "key": "SK_MA_LW_MRND_01",
+      "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur de 10 et les PA acquis de 30 %."
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -18246,7 +18366,7 @@
     },
     {
       "key": "SK_UES_LW_HYOO",
-      "value": ""
+      "value": "Dissipe Booster et Auréole de 2 cibles maximum, puis inflige des dégâts (L), et restaure les PA du lanceur quand un ennemi est mis K.O. (jusqu'à 2 ennemis)."
     },
     {
       "key": "SK_UES_LW_PRNE",
@@ -18346,15 +18466,15 @@
     },
     {
       "key": "SK_LW_ZZAN_M_3_ZZAN_01C",
-      "value": "Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS)), accorde un effet additionnel : réduit la consommation de PA pendant l'effet d'Auréole, et augmente la jauge de CT (S) après avoir été ranimé via Auréole."
+      "value": "Augmente le nombre d'utilisations d'aptitude de 1. Accorde Auréole au lanceur, lui permettant d'être ranimé automatiquement une fois par combat (récupération de PV (XS)), accorde un effet additionnel : réduit la consommation de PA pendant l'effet d'Auréole, augmente la jauge de CT (S) après avoir été ranimé via Auréole."
     },
     {
       "key": "SK_UES_LW_SLEN",
-      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et accorde un effet additionnel : augmente le taux de précision et le taux d'esquive critique pendant l'effet de Hardiesse."
+      "value": "Augmente le nombre d'utilisations d'aptitude de 1. Permet au lanceur de survivre 1 fois à des dégâts mortels et accorde un effet additionnel : augmente le taux de précision et le taux d'esquive critique pendant l'effet de Hardiesse."
     },
     {
       "key": "SK_LW_EC_SLEN_A_01_B",
-      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et accorde un effet additionnel : augmente le taux de précision et le taux d'esquive critique pendant l'effet de Hardiesse."
+      "value": "Augmente le nombre d'utilisations d'aptitude de 1. Permet au lanceur de survivre 1 fois à des dégâts mortels et accorde un effet additionnel : augmente le taux de précision et le taux d'esquive critique pendant l'effet de Hardiesse."
     },
     {
       "key": "SK_UES_LW_STIA",
@@ -18806,7 +18926,7 @@
     },
     {
       "key": "SK_UES_LW_SEVR",
-      "value": "Réduit considérablement le délai d'activation du lanceur, accorde Booster pendant 5 tours, et permet au lanceur de survivre 1 fois à des dégâts mortels."
+      "value": "Réduit le délai d'activation du lanceur, accorde Booster pendant 5 tours, et permet au lanceur de survivre 1 fois à des dégâts mortels."
     },
     {
       "key": "SK_LW_EC_BLM_A_03_B",
@@ -18819,6 +18939,30 @@
     {
       "key": "SK_LW_EC_HUN_A_01_B",
       "value": "Inflige des dégâts (L) à la cible et confère une chance d'infliger Stop."
+    },
+    {
+      "key": "SK_UES_LW_MRND_01",
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours et détruit toute barrière réduisant les dégâts magiques érigée autour des unités dans la zone ciblée, puis inflige des dégâts (L) en 2 coups qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_SSA_C_01C",
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur pendant 3 tours et détruit toute barrière réduisant les dégâts magiques érigée autour des unités dans la zone ciblée, puis inflige des dégâts (L) en 2 coups qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_UES_LW_THLA_01",
+      "value": "Augmente la MAGIE du lanceur pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée (cumulable jusqu'à 3 fois) et augmente les CT (S) du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_PSI_A_01_B",
+      "value": "Augmente la MAGIE du lanceur pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée (cumulable jusqu'à 3 fois) et augmente les CT (S) du lanceur."
+    },
+    {
+      "key": "SK_UES_LW_IRDL_01",
+      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Immobilisation pendant 3 tours et accorde un effet additionnel : réduit l'AGI et la résistance aux attaques à cible unique pendant l'effet d'Immobilisation."
+    },
+    {
+      "key": "SK_LW_EC_BNI_A_01_B",
+      "value": "Inflige des dégâts (L) à la cible, confère une chance d'infliger Immobilisation pendant 3 tours et accorde un effet additionnel : réduit l'AGI et la résistance aux attaques à cible unique pendant l'effet d'Immobilisation."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -21025,6 +21169,10 @@
       "value": "Augmente le taux de coup critique des alliés dans la zone autour du lanceur et annule Booster lors d'un coup critique pendant 3 tours."
     },
     {
+      "key": "SK_ACC_LW_MRND_01_1",
+      "value": "Réduit les chances d'être pris pour cible et augmente le taux de précision du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_VC_LW_GLEM_GS",
       "value": ""
     },
@@ -23126,6 +23274,54 @@
     },
     {
       "key": "SK_GL_VC_LW_MCOR_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MRND_01_PMAX_2",
       "value": ""
     },
     {
@@ -32877,6 +33073,26 @@
       "value": "Aptitude passive spécifique à Reychess"
     },
     {
+      "key": "SK_LW_KAT_015_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_015_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FF6_ACC_003_1",
       "value": ""
     },
@@ -33346,6 +33562,10 @@
     },
     {
       "key": "SK_LW_PLUS6_SP_APC_30",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_2T_JUMP_1",
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
