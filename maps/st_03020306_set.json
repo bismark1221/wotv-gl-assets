@@ -373,7 +373,7 @@
     {
       "name": "zouen",
       "x": 10,
-      "y": 11,
+      "y": 10,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -388,7 +388,7 @@
       "ai": {
         "iname": "AI_ENEMY_1_WAIT_2_ATK",
         "wait_e": 0,
-        "search": 3,
+        "search": 5,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -451,11 +451,6 @@
           "iname": "SK_GMK_HY06_1",
           "rank": 1,
           "rate": 100
-        },
-        {
-          "iname": "SK_BTL_INV_BRAVEDOWN",
-          "rank": 1,
-          "rate": 100
         }
       ],
       "fskl": "",
@@ -466,14 +461,14 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":253,\"value\":0},{\"type\":254,\"value\":0},{\"type\":152,\"value\":-10},{\"type\":154,\"value\":10},{\"type\":1,\"value\":2000},{\"type\":2,\"value\":160},{\"type\":3,\"value\":160},{\"type\":4,\"value\":300},{\"type\":9,\"value\":70},{\"type\":8,\"value\":270},{\"type\":10,\"value\":270},{\"type\":251,\"value\":0},{\"type\":6,\"value\":60},{\"type\":403,\"value\":999},{\"type\":404,\"value\":999},{\"type\":405,\"value\":999},{\"type\":406,\"value\":999},{\"type\":408,\"value\":999},{\"type\":407,\"value\":999},{\"type\":410,\"value\":999},{\"type\":413,\"value\":999},{\"type\":409,\"value\":999},{\"type\":416,\"value\":999},{\"type\":417,\"value\":999},{\"type\":418,\"value\":999},{\"type\":419,\"value\":999},{\"type\":420,\"value\":999},{\"type\":421,\"value\":999},{\"type\":412,\"value\":999},{\"type\":430,\"value\":999},{\"type\":442,\"value\":999},{\"type\":443,\"value\":999}]}",
+      "status": "{\"list\":[{\"type\":253,\"value\":0},{\"type\":254,\"value\":0},{\"type\":152,\"value\":-10},{\"type\":154,\"value\":10},{\"type\":1,\"value\":2000},{\"type\":2,\"value\":160},{\"type\":3,\"value\":160},{\"type\":4,\"value\":300},{\"type\":9,\"value\":70},{\"type\":8,\"value\":270},{\"type\":10,\"value\":270},{\"type\":251,\"value\":0},{\"type\":6,\"value\":60}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
     },
     {
       "name": "bni2",
-      "x": 9,
+      "x": 8,
       "y": 0,
       "dir": 1,
       "ct_calc": 0,
@@ -489,7 +484,7 @@
       "ai": {
         "iname": "AI_ENEMY_1_WAIT_2_ATK",
         "wait_e": 0,
-        "search": 4,
+        "search": 3,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -561,11 +556,6 @@
           "rate": 100
         },
         {
-          "iname": "SK_LW_BNI_R_1",
-          "rank": 20,
-          "rate": 100
-        },
-        {
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 20,
           "rate": 100
@@ -579,7 +569,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":251,\"value\":-10},{\"type\":252,\"value\":20},{\"type\":253,\"value\":20},{\"type\":254,\"value\":20},{\"type\":250,\"value\":-10},{\"type\":152,\"value\":-10},{\"type\":154,\"value\":10},{\"type\":1,\"value\":2513},{\"type\":2,\"value\":163},{\"type\":3,\"value\":166},{\"type\":4,\"value\":313},{\"type\":9,\"value\":73},{\"type\":8,\"value\":278},{\"type\":10,\"value\":283}]}",
+      "status": "{\"list\":[{\"type\":251,\"value\":20},{\"type\":253,\"value\":20},{\"type\":254,\"value\":20},{\"type\":250,\"value\":-10},{\"type\":152,\"value\":-10},{\"type\":154,\"value\":10},{\"type\":1,\"value\":1113},{\"type\":2,\"value\":163},{\"type\":3,\"value\":166},{\"type\":4,\"value\":423},{\"type\":9,\"value\":73},{\"type\":8,\"value\":278},{\"type\":10,\"value\":283},{\"type\":252,\"value\":-15}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
@@ -944,7 +934,7 @@
       "wave_id": 0
     },
     {
-      "name": "",
+      "name": "lln2",
       "x": 3,
       "y": 9,
       "dir": 2,
@@ -1358,7 +1348,12 @@
               "type": 3,
               "json": "{\"side\":1,\"tag\":\"lln1\"}"
             },
-            "childs": []
+            "childs": [
+              {
+                "type": 3,
+                "json": "{\"side\":1,\"tag\":\"lln2\"}"
+              }
+            ]
           }
         ]
       },
@@ -1486,7 +1481,12 @@
               "type": 3,
               "json": "{\"side\":1,\"tag\":\"lln1\"}"
             },
-            "childs": []
+            "childs": [
+              {
+                "type": 3,
+                "json": "{\"side\":1,\"tag\":\"lln2\"}"
+              }
+            ]
           }
         ]
       },
@@ -1854,13 +1854,13 @@
   "gcond": [
     {
       "cond": {
-        "timing": 0,
+        "timing": 2,
         "expr": "",
         "list": [
           {
             "self": {
               "type": 10,
-              "json": "{\"side\":0,\"tag\":\"\",\"pos\":[{\"x\":5,\"y\":0},{\"x\":5,\"y\":1},{\"x\":5,\"y\":2},{\"x\":5,\"y\":3},{\"x\":5,\"y\":4},{\"x\":5,\"y\":5},{\"x\":5,\"y\":6},{\"x\":6,\"y\":0},{\"x\":6,\"y\":1},{\"x\":6,\"y\":2},{\"x\":6,\"y\":3},{\"x\":6,\"y\":4},{\"x\":6,\"y\":5},{\"x\":6,\"y\":6},{\"x\":7,\"y\":0},{\"x\":7,\"y\":1},{\"x\":7,\"y\":2},{\"x\":7,\"y\":3},{\"x\":7,\"y\":4},{\"x\":7,\"y\":5},{\"x\":7,\"y\":6},{\"x\":8,\"y\":0},{\"x\":8,\"y\":1},{\"x\":8,\"y\":2},{\"x\":8,\"y\":3},{\"x\":8,\"y\":4},{\"x\":8,\"y\":5},{\"x\":8,\"y\":6},{\"x\":9,\"y\":1},{\"x\":9,\"y\":2},{\"x\":9,\"y\":3},{\"x\":9,\"y\":4},{\"x\":9,\"y\":5},{\"x\":9,\"y\":6},{\"x\":10,\"y\":0},{\"x\":10,\"y\":1},{\"x\":10,\"y\":2},{\"x\":10,\"y\":3},{\"x\":10,\"y\":4},{\"x\":10,\"y\":5},{\"x\":10,\"y\":6},{\"x\":11,\"y\":0},{\"x\":11,\"y\":1},{\"x\":11,\"y\":2},{\"x\":11,\"y\":3},{\"x\":11,\"y\":4},{\"x\":11,\"y\":5},{\"x\":11,\"y\":6}]}"
+              "json": "{\"side\":0,\"tag\":\"\",\"pos\":[{\"x\":5,\"y\":0},{\"x\":5,\"y\":1},{\"x\":5,\"y\":2},{\"x\":5,\"y\":3},{\"x\":5,\"y\":4},{\"x\":5,\"y\":5},{\"x\":5,\"y\":6},{\"x\":6,\"y\":0},{\"x\":6,\"y\":1},{\"x\":6,\"y\":2},{\"x\":6,\"y\":3},{\"x\":6,\"y\":4},{\"x\":6,\"y\":5},{\"x\":6,\"y\":6},{\"x\":7,\"y\":0},{\"x\":7,\"y\":1},{\"x\":7,\"y\":2},{\"x\":7,\"y\":3},{\"x\":7,\"y\":4},{\"x\":7,\"y\":5},{\"x\":7,\"y\":6},{\"x\":8,\"y\":0},{\"x\":8,\"y\":1},{\"x\":8,\"y\":2},{\"x\":8,\"y\":3},{\"x\":8,\"y\":4},{\"x\":8,\"y\":5},{\"x\":8,\"y\":6},{\"x\":9,\"y\":1},{\"x\":9,\"y\":2},{\"x\":9,\"y\":3},{\"x\":9,\"y\":4},{\"x\":9,\"y\":5},{\"x\":9,\"y\":6},{\"x\":10,\"y\":0},{\"x\":10,\"y\":1},{\"x\":10,\"y\":2},{\"x\":10,\"y\":3},{\"x\":10,\"y\":4},{\"x\":10,\"y\":5},{\"x\":10,\"y\":6},{\"x\":11,\"y\":0},{\"x\":11,\"y\":1},{\"x\":11,\"y\":2},{\"x\":11,\"y\":3},{\"x\":11,\"y\":4},{\"x\":11,\"y\":5},{\"x\":11,\"y\":6},{\"x\":9,\"y\":0}]}"
             },
             "childs": [
               {
@@ -1876,6 +1876,30 @@
             },
             "childs": [
               {
+                "type": 3,
+                "json": "{\"side\":1,\"tag\":\"bni2\"}"
+              }
+            ]
+          },
+          {
+            "self": {
+              "type": 3,
+              "json": "{\"side\":0,\"tag\":\"\"}"
+            },
+            "childs": [
+              {
+                "type": 4,
+                "json": "{\"side\":1,\"tag\":\"zouen\"}"
+              }
+            ]
+          },
+          {
+            "self": {
+              "type": 7,
+              "json": "{\"ope\":1,\"tag\":\"bni2\",\"hp\":99}"
+            },
+            "childs": [
+              {
                 "type": 4,
                 "json": "{\"side\":1,\"tag\":\"zouen\"}"
               }
@@ -1885,7 +1909,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=zouen;local=;string=0",
+        "typeval": "unittag=zouen;local=",
         "isUnitNoAct": false,
         "isAvoidAuto": false
       },
@@ -1908,7 +1932,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 330
+          "weight": 233
         },
         {
           "drop_data": {
@@ -1918,7 +1942,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 330
+          "weight": 233
         },
         {
           "drop_data": {
@@ -1928,7 +1952,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 330
+          "weight": 233
         },
         {
           "drop_data": {
@@ -1938,7 +1962,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 33
+          "weight": 24
         },
         {
           "drop_data": {
@@ -1948,7 +1972,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 33
+          "weight": 24
         },
         {
           "drop_data": {
@@ -1958,7 +1982,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 33
+          "weight": 24
         },
         {
           "drop_data": {
@@ -1968,7 +1992,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 33
+          "weight": 24
         },
         {
           "drop_data": {
@@ -1978,7 +2002,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 33
+          "weight": 24
         },
         {
           "drop_data": {
@@ -1988,7 +2012,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 33
+          "weight": 24
         },
         {
           "drop_data": {
@@ -1998,7 +2022,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 33
+          "weight": 24
         },
         {
           "drop_data": {
@@ -2008,7 +2032,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 33
+          "weight": 24
         },
         {
           "drop_data": {
@@ -2018,17 +2042,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 33
-        },
-        {
-          "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 0
+          "weight": 24
         },
         {
           "drop_data": {
@@ -2038,7 +2052,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 650
+          "weight": 485
         },
         {
           "drop_data": {
@@ -2048,7 +2062,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 650
+          "weight": 485
         },
         {
           "drop_data": {
@@ -2058,7 +2072,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 185
+          "weight": 120
         },
         {
           "drop_data": {
@@ -2068,7 +2082,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 675
+          "weight": 525
         },
         {
           "drop_data": {
@@ -2078,7 +2092,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 675
+          "weight": 525
         },
         {
           "drop_data": {
@@ -2088,7 +2102,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 675
+          "weight": 525
         },
         {
           "drop_data": {
@@ -2098,7 +2112,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 675
+          "weight": 525
         },
         {
           "drop_data": {
@@ -2108,7 +2122,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 675
+          "weight": 525
         },
         {
           "drop_data": {
@@ -2118,17 +2132,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 675
-        },
-        {
-          "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 0
+          "weight": 525
         },
         {
           "drop_data": {
@@ -2138,7 +2142,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 675
+          "weight": 525
         },
         {
           "drop_data": {
@@ -2148,7 +2152,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 675
+          "weight": 525
         },
         {
           "drop_data": {
@@ -2158,7 +2162,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 675
+          "weight": 525
         },
         {
           "drop_data": {
@@ -2168,7 +2172,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 140
+          "weight": 107
         },
         {
           "drop_data": {
@@ -2178,7 +2182,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 140
+          "weight": 107
         },
         {
           "drop_data": {
@@ -2188,7 +2192,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 140
+          "weight": 107
         },
         {
           "drop_data": {
@@ -2198,7 +2202,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 733
+          "weight": 2949
         }
       ]
     },
