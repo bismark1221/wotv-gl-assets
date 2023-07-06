@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 45,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -31,6 +33,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -75,6 +82,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -111,6 +123,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -155,6 +172,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -191,6 +213,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -235,6 +262,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -271,6 +303,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -324,6 +361,11 @@
             "childs": []
           }
         ]
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
       },
       "wait_m": 0,
       "parent": "",
@@ -391,7 +433,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4856},{\"type\":2,\"value\":168},{\"type\":3,\"value\":170},{\"type\":4,\"value\":168},{\"type\":6,\"value\":366},{\"type\":9,\"value\":69},{\"type\":8,\"value\":268},{\"type\":10,\"value\":264},{\"type\":152,\"value\":10},{\"type\":156,\"value\":-10},{\"type\":7,\"value\":25},{\"type\":254,\"value\":20},{\"type\":251,\"value\":-5},{\"type\":253,\"value\":-5},{\"type\":250,\"value\":10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -429,6 +472,11 @@
             "childs": []
           }
         ]
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
       },
       "wait_m": 0,
       "parent": "",
@@ -496,7 +544,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4856},{\"type\":2,\"value\":168},{\"type\":3,\"value\":170},{\"type\":4,\"value\":168},{\"type\":6,\"value\":366},{\"type\":9,\"value\":69},{\"type\":8,\"value\":268},{\"type\":10,\"value\":264},{\"type\":152,\"value\":10},{\"type\":156,\"value\":-10},{\"type\":7,\"value\":25},{\"type\":254,\"value\":20},{\"type\":251,\"value\":-5},{\"type\":253,\"value\":-5},{\"type\":250,\"value\":10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -523,6 +572,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -603,7 +657,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":4,\"value\":371},{\"type\":1,\"value\":5963},{\"type\":9,\"value\":62},{\"type\":8,\"value\":254},{\"type\":10,\"value\":252},{\"type\":2,\"value\":145},{\"type\":250,\"value\":20},{\"type\":251,\"value\":15},{\"type\":252,\"value\":15},{\"type\":5,\"value\":25},{\"type\":3,\"value\":154},{\"type\":154,\"value\":10},{\"type\":152,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -630,6 +685,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -710,7 +770,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":4,\"value\":371},{\"type\":1,\"value\":5963},{\"type\":9,\"value\":62},{\"type\":8,\"value\":254},{\"type\":10,\"value\":252},{\"type\":2,\"value\":145},{\"type\":250,\"value\":20},{\"type\":251,\"value\":15},{\"type\":252,\"value\":15},{\"type\":5,\"value\":25},{\"type\":3,\"value\":154},{\"type\":154,\"value\":10},{\"type\":152,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -737,6 +798,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -812,7 +878,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4326},{\"type\":2,\"value\":154},{\"type\":3,\"value\":162},{\"type\":4,\"value\":79},{\"type\":8,\"value\":270},{\"type\":10,\"value\":251},{\"type\":9,\"value\":66},{\"type\":6,\"value\":380},{\"type\":7,\"value\":20},{\"type\":155,\"value\":-10},{\"type\":151,\"value\":10},{\"type\":254,\"value\":15},{\"type\":250,\"value\":-10},{\"type\":253,\"value\":5},{\"type\":252,\"value\":10},{\"type\":251,\"value\":-15}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -839,6 +906,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -914,7 +986,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4326},{\"type\":2,\"value\":154},{\"type\":3,\"value\":162},{\"type\":4,\"value\":79},{\"type\":8,\"value\":270},{\"type\":10,\"value\":251},{\"type\":9,\"value\":66},{\"type\":6,\"value\":380},{\"type\":7,\"value\":20},{\"type\":155,\"value\":-10},{\"type\":151,\"value\":10},{\"type\":254,\"value\":15},{\"type\":250,\"value\":-10},{\"type\":253,\"value\":5},{\"type\":252,\"value\":10},{\"type\":251,\"value\":-15}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -952,6 +1025,11 @@
             "childs": []
           }
         ]
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
       },
       "wait_m": 0,
       "parent": "",
@@ -1019,7 +1097,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4236},{\"type\":3,\"value\":159},{\"type\":9,\"value\":68},{\"type\":10,\"value\":252},{\"type\":8,\"value\":270},{\"type\":2,\"value\":162},{\"type\":4,\"value\":389},{\"type\":251,\"value\":20},{\"type\":253,\"value\":30},{\"type\":5,\"value\":15},{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1057,6 +1136,11 @@
             "childs": []
           }
         ]
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
       },
       "wait_m": 0,
       "parent": "",
@@ -1124,7 +1208,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4236},{\"type\":3,\"value\":159},{\"type\":9,\"value\":68},{\"type\":10,\"value\":252},{\"type\":8,\"value\":270},{\"type\":2,\"value\":162},{\"type\":4,\"value\":389},{\"type\":251,\"value\":20},{\"type\":253,\"value\":30},{\"type\":5,\"value\":15},{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1151,6 +1236,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1221,7 +1311,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4236},{\"type\":3,\"value\":159},{\"type\":9,\"value\":68},{\"type\":10,\"value\":252},{\"type\":8,\"value\":270},{\"type\":2,\"value\":162},{\"type\":4,\"value\":389},{\"type\":251,\"value\":20},{\"type\":253,\"value\":30},{\"type\":5,\"value\":15},{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1259,6 +1350,11 @@
             "childs": []
           }
         ]
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
       },
       "wait_m": 0,
       "parent": "",
@@ -1326,7 +1422,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3865},{\"type\":2,\"value\":168},{\"type\":3,\"value\":170},{\"type\":4,\"value\":60},{\"type\":6,\"value\":375},{\"type\":9,\"value\":67},{\"type\":8,\"value\":264},{\"type\":10,\"value\":268},{\"type\":7,\"value\":20},{\"type\":250,\"value\":0},{\"type\":254,\"value\":15},{\"type\":158,\"value\":-10},{\"type\":251,\"value\":10},{\"type\":252,\"value\":-15}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1364,6 +1461,11 @@
             "childs": []
           }
         ]
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
       },
       "wait_m": 0,
       "parent": "",
@@ -1431,7 +1533,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3865},{\"type\":2,\"value\":168},{\"type\":3,\"value\":170},{\"type\":4,\"value\":60},{\"type\":6,\"value\":375},{\"type\":9,\"value\":67},{\"type\":8,\"value\":264},{\"type\":10,\"value\":268},{\"type\":7,\"value\":20},{\"type\":250,\"value\":0},{\"type\":254,\"value\":15},{\"type\":158,\"value\":-10},{\"type\":251,\"value\":10},{\"type\":252,\"value\":-15}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1469,6 +1572,11 @@
             "childs": []
           }
         ]
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
       },
       "wait_m": 0,
       "parent": "",
@@ -1546,7 +1654,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":4,\"value\":371},{\"type\":1,\"value\":5963},{\"type\":9,\"value\":62},{\"type\":8,\"value\":254},{\"type\":10,\"value\":252},{\"type\":2,\"value\":145},{\"type\":250,\"value\":20},{\"type\":251,\"value\":15},{\"type\":252,\"value\":15},{\"type\":5,\"value\":25},{\"type\":3,\"value\":154},{\"type\":154,\"value\":10},{\"type\":152,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -1838,7 +1947,27 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 4936
+          "weight": 4888
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_DARD_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 24
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_DARD_4",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 24
         }
       ]
     }

@@ -11033,6 +11033,78 @@
       "value": "Aumenta la MAG y la tasa de penetración de res. ataque de corte y otorga eliminación de prisa del objetivo a los ataques con éxito."
     },
     {
+      "key": "SK_LW_DARD_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DARD_M_1",
+      "value": "Inflige daño (medio) en función de la MAG del usuario a los objetivos al alcance y elimina todas sus mejoras."
+    },
+    {
+      "key": "SK_LW_DARD_M_2",
+      "value": "Aumenta la DEF del usuario durante 3 turnos, aumenta considerablemente su tasa de disminución de reducciones y le otorga una reacción con probabilidad de reducir el daño al recibir daño de ataques físicos."
+    },
+    {
+      "key": "SK_LW_DARD_M_3",
+      "value": "Aumenta la potencia de curación del usuario durante un turno, inflige daño (mucho) en función de la MAG del usuario al objetivo y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_DARD_S_1",
+      "value": "Daño penetrante (poco) en función de la MAG del usuario al objetivo y probabilidad de infligirle confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_DARD_S_2",
+      "value": "Aumenta la probabilidad de que el usuario sea atacado y aumenta considerablemente su res. combos elementales durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_DARD_S_3",
+      "value": "Inflige daño penetrante (medio) en función de la MAG del usuario al objetivo 2 veces y reduce su ATQ y MAG durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_DARD_S_4",
+      "value": "Aumenta la VIT máx. de los aliados de alrededor durante 3 turnos, recupera la cantidad de VIT aumentada y aumenta la res. tierra y rayo."
+    },
+    {
+      "key": "SK_LW_DARD_R_1",
+      "value": "Probabilidad de recuperar un porcentaje fijo de VIT del usuario (poco) al recibir daño de ataques físicos."
+    },
+    {
+      "key": "SK_LW_DARD_R_2",
+      "value": "Probabilidad de reducir el daño físico recibido."
+    },
+    {
+      "key": "SK_LW_DARD_P_1",
+      "value": "Aumenta la DEF y el odio."
+    },
+    {
+      "key": "SK_LW_DARD_P_2",
+      "value": "Movimiento +1 y aumenta la VIT máx."
+    },
+    {
+      "key": "SK_LW_DARD_EN_A_01",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo durante 3 turnos y le inflige daño penetrante (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_DARD_EN_A_01B",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo durante 3 turnos, le inflige daño penetrante (mucho) en función de la MAG del usuario y reduce sus PA."
+    },
+    {
+      "key": "SK_LW_EC_DARD_C_01",
+      "value": "Mejora «Voz de la aquiescencia» a «Voz de la desesperación»: n.º de usos de la habilidad +1. Aumenta la DEF del usuario durante 3 turnos, aumenta considerablemente su tasa de disminución de reducciones, le otorga Escudo y le otorga una reacción con probabilidad de reducir el daño al recibir daño de ataques físicos."
+    },
+    {
+      "key": "SK_LW_EC_DARD_C_01B",
+      "value": "Aumenta la DEF del usuario durante 3 turnos, aumenta considerablemente su tasa de disminución de reducciones, le otorga Escudo y le otorga una reacción con probabilidad de reducir el daño al recibir daño de ataques físicos."
+    },
+    {
+      "key": "SK_LW_EC_DARD_C_02",
+      "value": "Mejora «Guía hacia la quietud» a «Guía hacia la verdadera quietud»: aumenta la DEF, la res. ataque de unidad y el odio."
+    },
+    {
+      "key": "SK_LW_EC_DARD_C_02B",
+      "value": "Aumenta la DEF, la res. ataque de unidad y el odio."
+    },
+    {
       "key": "SK_BTL_GETSP_1-999_U",
       "value": ""
     },
@@ -14713,6 +14785,10 @@
       "value": "Aumenta la tasa de penetración de ESP del usuario, elimina cualquier barrera que reduzca el daño de los objetivos al alcance y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
+      "key": "SK_LB_LW_DARD",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance, aumenta la res. ataque de unidad del usuario y le otorga revitalia durante 3 turnos."
+    },
+    {
       "key": "SK_SMN_IFRT",
       "value": "Invoca a Ifrit: inflige daño de fuego (máximo) a los objetivos al alcance y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y reduce considerablemente la res. fuego de los enemigos)."
     },
@@ -18293,6 +18369,10 @@
       "value": "Aliados de agua: VIT máx. +10 %,res. embrujo +25; usuario: tasa de penetración de ESP +10, PA adquiridos +30 %, Comeígneos +20"
     },
     {
+      "key": "SK_MA_LW_DARD",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: VIT máx. +20 %, tasa de penetración de ESP +10"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario e inflige daño (medio) con alta probabilidad de golpe crítico a los enemigos de alrededor."
     },
@@ -19159,6 +19239,42 @@
     {
       "key": "SK_LW_EC_LSWL_C_01C",
       "value": "Reduce la res. hielo de hasta 2 objetivos durante 3 turnos, inflige daño (mucho) y daño adicional a objetivos en estado prisa."
+    },
+    {
+      "key": "SK_UES_LW_DARD",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo durante 3 turnos, le inflige daño penetrante (mucho) en función de la MAG del usuario y reduce sus PA."
+    },
+    {
+      "key": "SK_UES_LW_MORE",
+      "value": "N.º de usos de la habilidad +1. Elimina Escudo a los objetivos al alcance, les inflige daño (mucho) en función de la MAG del usuario, reduce su MAG y su tasa de penetración de ESP durante 3 turnos y probabilidad de infligirles silencio durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_MMC_A_01_B",
+      "value": "Elimina Escudo a los objetivos al alcance, les inflige daño (mucho) en función de la MAG del usuario, reduce su MAG y su tasa de penetración de ESP durante 3 turnos y probabilidad de infligirles silencio durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_NIVL",
+      "value": "Aumenta considerablemente la res. ataque a distancia del usuario durante un turno, aumenta la AGI y reduce el consumo de PA durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_ARC_A_03_B",
+      "value": "Aumenta considerablemente la res. ataque a distancia del usuario durante un turno, aumenta la AGI y reduce el consumo de PA durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_SRJS",
+      "value": "Inflige daño (mucho) a los objetivos de alrededor tras desplazarse a la casilla objetivo, reduce su tasa de penetración de DEF durante 3 turnos, probabilidad de infligirles freno durante 3 turnos  y otorga revitalia al usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_LAN_A_04_B",
+      "value": "Inflige daño (mucho) a los objetivos de alrededor tras desplazarse a la casilla objetivo, reduce su tasa de penetración de DEF durante 3 turnos, probabilidad de infligirles freno durante 3 turnos  y otorga revitalia al usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_MIIA",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (medio), reduce su TC a la mitad y reduce su AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_THI_A_03_B",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (medio), reduce su TC a la mitad y reduce su AGI durante 3 turnos."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -21375,6 +21491,10 @@
     {
       "key": "SK_KAT_LW_DIAA_1",
       "value": ""
+    },
+    {
+      "key": "SK_ACC_LW_DARD_1",
+      "value": "Otorga reducción de bravura durante 3 turnos a los ataques con éxito del usuario durante 3 turnos."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -33578,6 +33698,46 @@
     },
     {
       "key": "SK_LW_SPE_022_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_027_2_5",
       "value": ""
     },
     {
