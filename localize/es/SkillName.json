@@ -7349,6 +7349,10 @@
       "value": "Lección de hielo"
     },
     {
+      "key": "SK_LW_SCR_SOIL_S_2_INIT",
+      "value": "Lección de tierra"
+    },
+    {
       "key": "SK_LW_SCR_DARK_S_2_INIT",
       "value": "Lección de oscuridad"
     },
@@ -7467,6 +7471,26 @@
     {
       "key": "SK_LW_EC_SCR_C_04B",
       "value": "Sabiduría estable"
+    },
+    {
+      "key": "SK_LW_EC_SCR_A_03",
+      "value": "Ley de la extensión"
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_05",
+      "value": "Mejorar Lección de salvación"
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_05B",
+      "value": "Lección de vida"
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_06",
+      "value": "Mejorar Sabiduría de devoto"
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_06B",
+      "value": "Sabiduría preventiva"
     },
     {
       "key": "SK_LW_AXD_ATK",
@@ -12153,6 +12177,26 @@
       "value": "Roca de fragmentación"
     },
     {
+      "key": "SK_GLEM_01_ATK",
+      "value": "Ataque normal"
+    },
+    {
+      "key": "SK_GLEM_01_M_01",
+      "value": "Pétreo"
+    },
+    {
+      "key": "SK_GLEM_01_M_02",
+      "value": "Prisión rocosa"
+    },
+    {
+      "key": "SK_GLEM_01_M_03",
+      "value": "Muro de tierra"
+    },
+    {
+      "key": "SK_GLEM_01_M_04",
+      "value": "Roca gigantesca"
+    },
+    {
       "key": "SK_ODIN_ATK",
       "value": "Ataque normal"
     },
@@ -15027,6 +15071,10 @@
     {
       "key": "SK_SMN_MCOR",
       "value": "Mordisco atronador"
+    },
+    {
+      "key": "SK_SMN_GLEM_01",
+      "value": "Roca gigantesca"
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -18213,11 +18261,23 @@
       "value": "Habilidad maestra"
     },
     {
+      "key": "SK_MA_LW_SDLE_2",
+      "value": "Habilidad maestra"
+    },
+    {
       "key": "SK_MA_LW_IREZ",
       "value": "Habilidad maestra"
     },
     {
+      "key": "SK_MA_LW_IREZ_2",
+      "value": "Habilidad maestra"
+    },
+    {
       "key": "SK_MA_LW_RNEL",
+      "value": "Habilidad maestra"
+    },
+    {
+      "key": "SK_MA_LW_RNEL_2",
       "value": "Habilidad maestra"
     },
     {
@@ -18330,6 +18390,10 @@
     },
     {
       "key": "SK_MA_LW_HYOO",
+      "value": "Habilidad maestra"
+    },
+    {
+      "key": "SK_MA_LW_GLZK",
       "value": "Habilidad maestra"
     },
     {
@@ -18575,6 +18639,14 @@
     {
       "key": "SK_UES_LW_HYOO",
       "value": "Habilidad pasiva de reencarnación de Hyou"
+    },
+    {
+      "key": "SK_UES_LW_GLZK",
+      "value": "Habilidad pasiva de reencarnación de Galzak"
+    },
+    {
+      "key": "SK_LW_EC_SCR_A_03_B",
+      "value": "Ley de la extensión"
     },
     {
       "key": "SK_UES_LW_PRNE",
@@ -19277,6 +19349,74 @@
       "value": "Daga trucada"
     },
     {
+      "key": "SK_UES_LW_HLNA_01",
+      "value": "Habilidad pasiva de reencarnación de Helena, la Bruja de Negro"
+    },
+    {
+      "key": "SK_LW_EC_WIZ_C_02C",
+      "value": "Maestría oscura de bruja"
+    },
+    {
+      "key": "SK_UES_LW_FALM",
+      "value": "Habilidad pasiva de reencarnación de Pharm"
+    },
+    {
+      "key": "SK_LW_EC_NIN_A_03_B_WATER",
+      "value": "Sello exorcista"
+    },
+    {
+      "key": "SK_UES_LW_ELSR",
+      "value": "Habilidad pasiva de reencarnación de Elsirel"
+    },
+    {
+      "key": "SK_LW_EC_MSW_A_02_B",
+      "value": "Hoja de inercia"
+    },
+    {
+      "key": "SK_UES_LW_MCRD",
+      "value": "Habilidad pasiva de reencarnación de Macleod"
+    },
+    {
+      "key": "SK_LW_EC_LLN_A_02_B",
+      "value": "Lanza neutralizadora"
+    },
+    {
+      "key": "SK_UES_LW_SZRT",
+      "value": "Habilidad pasiva de reencarnación de Schuzelt"
+    },
+    {
+      "key": "SK_LW_EC_SWN_C_06C",
+      "value": "Resurrección peligro"
+    },
+    {
+      "key": "SK_UES_LW_SZRT_B",
+      "value": "Recuperación de VIT con VIT por debajo del 20 %"
+    },
+    {
+      "key": "SK_UES_LW_LSTE",
+      "value": "Habilidad pasiva de reencarnación de Lissette"
+    },
+    {
+      "key": "SK_LW_EC_BEA_A_04_B",
+      "value": "Rompepiernas doble"
+    },
+    {
+      "key": "SK_UES_LW_HLNA",
+      "value": "Habilidad pasiva de reencarnación de Helena Leonis"
+    },
+    {
+      "key": "SK_LW_EC_GRM_C_01C",
+      "value": "AntiAero+ [vigorizador]"
+    },
+    {
+      "key": "SK_UES_LW_MGRT",
+      "value": "Habilidad pasiva de reencarnación de Margritte"
+    },
+    {
+      "key": "SK_LW_EC_TIM_A_03_B",
+      "value": "Hechicería sideral"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -19926,6 +20066,10 @@
     },
     {
       "key": "SK_LW_ACC_003_5_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_003_6",
       "value": ""
     },
     {
@@ -23694,6 +23838,54 @@
     },
     {
       "key": "SK_GL_VC_LW_HWLT_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLEM_01_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLEM_01_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLEM_01_PMAX2",
       "value": ""
     },
     {
@@ -30993,6 +31185,10 @@
       "value": "Probabilidad de estado alterado [parálisis] 1-100↑"
     },
     {
+      "key": "SK_BTL_PARALYZE_1-100_D",
+      "value": "Probabilidad de estado alterado [parálisis] 1-100↓"
+    },
+    {
       "key": "SK_BTL_DARKN_1-100_U",
       "value": "Probabilidad de estado alterado [ceguera] 1-100↑"
     },
@@ -31003,6 +31199,10 @@
     {
       "key": "SK_BTL_CONFU_1-100_U",
       "value": "Probabilidad de estado alterado [confusión] 1-100↑"
+    },
+    {
+      "key": "SK_BTL_CONFU_1-100_D",
+      "value": "Probabilidad de estado alterado [confusión] 1-100↓"
     },
     {
       "key": "SK_BTL_CHARM_1-100_U",
@@ -31061,6 +31261,10 @@
       "value": "Probabilidad de paro 1-100↑"
     },
     {
+      "key": "SK_BTL_STOP_1-100_D",
+      "value": "Probabilidad de estado alterado [paro] 1-100↓"
+    },
+    {
       "key": "SK_BTL_DONAC_1-100_U",
       "value": "Probabilidad de estado alterado [inútil] 1-100↑"
     },
@@ -31075,6 +31279,14 @@
     {
       "key": "SK_BTL_FROST_1-100_D",
       "value": "Probabilidad de estado alterado [congelación] 1-100↓"
+    },
+    {
+      "key": "SK_BTL_BSK_1-100_U",
+      "value": "Probabilidad de estado alterado [locura] 1-100↑"
+    },
+    {
+      "key": "SK_BTL_BSK_1-100_D",
+      "value": "Probabilidad de estado alterado [locura] 1-100↓"
     },
     {
       "key": "SK_BTL_DEFPIERCE_1-100_U",
@@ -31335,14 +31547,6 @@
     {
       "key": "SK_BTL_JOB_MGK_1_15_U",
       "value": "Nivel de profesión [esgrimago] 1-15"
-    },
-    {
-      "key": "SK_BTL_BSK_1-100_U",
-      "value": "Probabilidad de estado alterado [locura] 1-100↑"
-    },
-    {
-      "key": "SK_BTL_BSK_1-100_D",
-      "value": "Probabilidad de estado alterado [locura] 1-100↓"
     },
     {
       "key": "SK_BTL_CHARM_U_PA",
@@ -33991,6 +34195,14 @@
     {
       "key": "SK_LW_PLUS6_DEMONKR_50",
       "value": "Matademonios +50"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_SINGLE_15",
+      "value": "Res. ataque de unidad +15"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_MAGIC_15",
+      "value": "Res. ataque mágico +15"
     },
     {
       "key": "SK_FF4_ROD_000_1",

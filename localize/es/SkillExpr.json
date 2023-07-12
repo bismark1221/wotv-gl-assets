@@ -7349,6 +7349,10 @@
       "value": "Aumenta el ataque de hielo de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
     {
+      "key": "SK_LW_SCR_SOIL_S_2_INIT",
+      "value": "Aumenta el ataque de tierra de un aliado durante 3 turnos y aumenta su res. reducciones, y reduce el tiempo de activación del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LW_SCR_DARK_S_2_INIT",
       "value": "Aumenta el ataque de oscuridad de un aliado y su res. reducciones durante 3 turnos, y reduce el tiempo de activación del usuario durante 3 turnos."
     },
@@ -7467,6 +7471,26 @@
     {
       "key": "SK_LW_EC_SCR_C_04B",
       "value": "Aumenta la DEF, el ESP y la res. ataque de zona y reduce el ataque mágico."
+    },
+    {
+      "key": "SK_LW_EC_SCR_A_03",
+      "value": "Recupera VIT (medio) de los aliados de alrededor y recupera PA."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_05",
+      "value": "Mejora «Lección de salvación» a «Lección de vida»: elimina el tiempo de activación. Aumenta la VIT máx. de los aliados de alrededor, recupera la cantidad de VIT aumentada, aumenta su DEF y ESP durante 3 turnos y aumenta la res. ataque de zona y la potencia de curación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_05B",
+      "value": "Aumenta la VIT máx. de los aliados de alrededor, recupera la cantidad de VIT aumentada, aumenta su DEF y ESP durante 3 turnos y aumenta la res. ataque de zona y la potencia de curación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_06",
+      "value": "Mejora «Sabiduría de devoto» a «Sabiduría preventiva»: aumenta la DEF y el ESP, menor tiempo de activación y reduce el ataque mágico."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_06B",
+      "value": "Aumenta la DEF y el ESP, menor tiempo de activación y reduce el ataque mágico."
     },
     {
       "key": "SK_LW_AXD_ATK",
@@ -12153,6 +12177,26 @@
       "value": "Inflige daño de tierra (mucho) en función de la MAG del usuario a los objetivos al alcance."
     },
     {
+      "key": "SK_GLEM_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_GLEM_01_M_01",
+      "value": "Inflige daño de tierra (poco) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_GLEM_01_M_02",
+      "value": "Inflige daño de tierra (medio) en función de la MAG del usuario a los objetivos al alcance y reduce su movimiento en 1 durante 3 turnos."
+    },
+    {
+      "key": "SK_GLEM_01_M_03",
+      "value": "Aumenta ATQ, MAG, DEF y ESP del usuario durante 3 turnos y le otorga Coraza y Escudo."
+    },
+    {
+      "key": "SK_GLEM_01_M_04",
+      "value": "Inflige daño de tierra (mucho) en función de la MAG del usuario a los objetivos al alcance y reduce su res. tierra durante 3 turnos."
+    },
+    {
       "key": "SK_ODIN_ATK",
       "value": ""
     },
@@ -15029,6 +15073,10 @@
       "value": "Invoca a Maestro bengal: reduce la DEF y la ESP de los objetivos al alcance durante 3 turnos, les inflige daño de rayo (mucho) y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y los aumenta aún más para unidades de rayo, y reduce la res. rayo de los enemigos)."
     },
     {
+      "key": "SK_SMN_GLEM_01",
+      "value": "Invoca a Gólem oscuro: inflige daño de tierra (mucho) en función de la MAG del usuario a los objetivos al alcance, reduce su res. tierra durante 3 turnos y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de tierra y reduce considerablemente la res. tierra de los enemigos)."
+    },
+    {
       "key": "SK_UN_BD_EC_HP_200",
       "value": ""
     },
@@ -15598,7 +15646,7 @@
     },
     {
       "key": "SK_LW_EC_SWN_C_06B",
-      "value": "Consume VIT del usuario y aumenta su ATQ durante 3 turnos, y anula parálisis, paro y condena durante 3 turnos."
+      "value": "Consume VIT del usuario para aumentar su ATQ, y anula parálisis, paro y condena durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_DRG_A_01",
@@ -18213,12 +18261,24 @@
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: res. ataque de zona +10, tasa de penetración de ESP +10"
     },
     {
+      "key": "SK_MA_LW_SDLE_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: VIT máx. +10 %, res. ataque de zona +20, tasa de penetración de ESP +10, tiempo de activación de habilidades ofensivas -20 %"
+    },
+    {
       "key": "SK_MA_LW_IREZ",
       "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de penetración de res. ataque a distancia +20, tiempo de activación de habilidades ofensivas -10 %"
     },
     {
+      "key": "SK_MA_LW_IREZ_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de penetración de res. ataque a distancia +20, tiempo de activación de habilidades ofensivas -10 %, daño crítico +20 %, PA adquiridos +30 %, al asestar crítico: AGI +10 % durante un turno"
+    },
+    {
       "key": "SK_MA_LW_RNEL",
       "value": "Aliados de oscuridad: VIT máx. +10 %, res. ceguera +25; usuario: ATQ +10 %, res. ataque de unidad +15"
+    },
+    {
+      "key": "SK_MA_LW_RNEL_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, res. ceguera +25; usuario: ATQ +30 %, res. ataque de unidad +25"
     },
     {
       "key": "SK_MA_LW_MCRD",
@@ -18331,6 +18391,10 @@
     {
       "key": "SK_MA_LW_HYOO",
       "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. fuego y hielo +10, PA adquiridos +30 %"
+    },
+    {
+      "key": "SK_MA_LW_GLZK",
+      "value": "Aliados de tierra: VIT máx. +10 %, res. confusión +25; usuario: tasa de penetración de ESP +10, res. ataque de zona +15"
     },
     {
       "key": "SK_MA_FMAM_EDWD",
@@ -18575,6 +18639,14 @@
     {
       "key": "SK_UES_LW_HYOO",
       "value": "Elimina prisa y autolázaro de hasta 2 objetivos, inflige daño (mucho) y recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_UES_LW_GLZK",
+      "value": "Elimina el tiempo de activación."
+    },
+    {
+      "key": "SK_LW_EC_SCR_A_03_B",
+      "value": "Recupera VIT (medio) de los aliados de alrededor y recupera PA."
     },
     {
       "key": "SK_UES_LW_PRNE",
@@ -19277,6 +19349,74 @@
       "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (medio), reduce su TC a la mitad y reduce su AGI durante 3 turnos."
     },
     {
+      "key": "SK_UES_LW_HLNA_01",
+      "value": "Aumenta considerablemente la MAG y reduce el ESP y el tiempo de activación, y aumenta considerablemente la res. ataque de zona cuando la VIT está al 80 % o más."
+    },
+    {
+      "key": "SK_LW_EC_WIZ_C_02C",
+      "value": "Aumenta considerablemente la MAG y reduce el ESP y el tiempo de activación, y aumenta considerablemente la res. ataque de zona cuando la VIT está al 80 % o más."
+    },
+    {
+      "key": "SK_UES_LW_FALM",
+      "value": "Aumenta la tasa de precisión y la res. ataque de zona de los aliados de alrededor durante 3 turnos, aumenta la res. ataque mágico del usuario, aumenta considerablemente su tasa de evasión de ataque mágico y anula los golpes garantizados que recibe durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_NIN_A_03_B_WATER",
+      "value": "Aumenta la tasa de precisión y la res. ataque de zona de los aliados de alrededor durante 3 turnos, aumenta la res. ataque mágico del usuario, aumenta considerablemente su tasa de evasión de ataque mágico y anula los golpes garantizados que recibe durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_ELSR",
+      "value": "Reduce la DEF de hasta 2 objetivos durante 3 turnos, inflige daño (medio), reduce la AGI y aumenta el consumo de PA durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_MSW_A_02_B",
+      "value": "Reduce la DEF de hasta 2 objetivos durante 3 turnos, inflige daño (medio), reduce la AGI y aumenta el consumo de PA durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_MCRD",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio), les elimina prisa y aumenta la tasa de penetración de res. ataque de perforación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_LLN_A_02_B",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio), les elimina prisa y aumenta la tasa de penetración de res. ataque de perforación del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_SZRT",
+      "value": "Consume VIT del usuario para sobrevivir a daño letal una vez y recupera un porcentaje fijo de su VIT (mucho) cuando esta cae por debajo del 20 % al recibir daño (una vez), aumenta su ATQ y le anula parálisis, paro y condena durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_SWN_C_06C",
+      "value": "Consume VIT del usuario para sobrevivir a daño letal una vez y recupera un porcentaje fijo de su VIT (mucho) cuando esta cae por debajo del 20 % al recibir daño (una vez), aumenta su ATQ y le anula parálisis, paro y condena durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_SZRT_B",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_LSTE",
+      "value": "Aumenta el ATQ y el daño crítico del usuario durante 3 turnos, reduce la tasa de evasión de crítico del objetivo durante 3 turnos, le inflige daño (mucho) 2 veces y reduce su AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_BEA_A_04_B",
+      "value": "Aumenta el ATQ y el daño crítico del usuario durante 3 turnos, reduce la tasa de evasión de crítico del objetivo durante 3 turnos, le inflige daño (mucho) 2 veces y reduce su AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_HLNA",
+      "value": "Aumenta la DEF, el ESP y la res. viento y tierra de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_GRM_C_01C",
+      "value": "Aumenta la DEF, el ESP y la res. viento y tierra de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_MGRT",
+      "value": "Mejora la forma de la zona. Daño (mucho) en función de la MAG del usuario a los objetivos al alcance, reduce su ESP durante 3 turnos y probabilidad de infligirles locura durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_TIM_A_03_B",
+      "value": "Daño (mucho) en función de la MAG del usuario a los objetivos al alcance, reduce su ESP durante 3 turnos y probabilidad de infligirles locura durante 3 turnos."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -19926,6 +20066,10 @@
     },
     {
       "key": "SK_LW_ACC_003_5_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_003_6",
       "value": ""
     },
     {
@@ -23694,6 +23838,54 @@
     },
     {
       "key": "SK_GL_VC_LW_HWLT_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLEM_01_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLEM_01_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLEM_01_PMAX2",
       "value": ""
     },
     {
@@ -30993,6 +31185,10 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_PARALYZE_1-100_D",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_BTL_DARKN_1-100_U",
       "value": "Técnica para equilibrar misiones."
     },
@@ -31002,6 +31198,10 @@
     },
     {
       "key": "SK_BTL_CONFU_1-100_U",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_CONFU_1-100_D",
       "value": "Técnica para equilibrar misiones."
     },
     {
@@ -31061,6 +31261,10 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_STOP_1-100_D",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_BTL_DONAC_1-100_U",
       "value": "Técnica para equilibrar misiones."
     },
@@ -31074,6 +31278,14 @@
     },
     {
       "key": "SK_BTL_FROST_1-100_D",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_BSK_1-100_U",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_BSK_1-100_D",
       "value": "Técnica para equilibrar misiones."
     },
     {
@@ -31334,14 +31546,6 @@
     },
     {
       "key": "SK_BTL_JOB_MGK_1_15_U",
-      "value": "Técnica para equilibrar misiones."
-    },
-    {
-      "key": "SK_BTL_BSK_1-100_U",
-      "value": "Técnica para equilibrar misiones."
-    },
-    {
-      "key": "SK_BTL_BSK_1-100_D",
       "value": "Técnica para equilibrar misiones."
     },
     {
@@ -33990,6 +34194,14 @@
     },
     {
       "key": "SK_LW_PLUS6_DEMONKR_50",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_SINGLE_15",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_MAGIC_15",
       "value": "Habilidad específica de equipo +6"
     },
     {

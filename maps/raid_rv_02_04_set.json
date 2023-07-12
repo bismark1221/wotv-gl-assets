@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 135,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -31,6 +33,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -75,6 +82,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -115,6 +127,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -151,6 +168,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -197,6 +219,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -220,10 +247,12 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "MEDAL",
+      "drop": "REMEDAL",
       "crystal": "",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -279,7 +308,10 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -306,6 +338,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -337,6 +374,8 @@
       "crystal": "",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -367,7 +406,10 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -394,6 +436,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -425,6 +472,8 @@
       "crystal": "",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -455,7 +504,10 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -497,6 +549,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SAND_03",
             "num": 27,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 19
@@ -506,6 +559,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SAND_04",
             "num": 48,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 25
@@ -515,6 +569,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_MABR",
             "num": 7,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -524,6 +579,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_LESS_02",
             "num": 7,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -532,14 +588,15 @@
     },
     {
       "type": 0,
-      "iname": "MEDAL",
+      "iname": "REMEDAL",
       "num": 1,
       "drop_list": [
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_RAID_20",
+            "iname": "IT_EC_RAID_SP_02",
             "num": 1500,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 100
@@ -554,8 +611,9 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_RAID_20",
+            "iname": "IT_EC_RAID_SP_02",
             "num": 750,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 20
@@ -565,6 +623,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SAND_03",
             "num": 5,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 20
@@ -574,6 +633,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SAND_04",
             "num": 12,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 20
@@ -583,6 +643,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_MABR",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 20
@@ -592,11 +653,13 @@
             "type": 0,
             "iname": "IT_AF_MAT_LESS_02",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 20
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

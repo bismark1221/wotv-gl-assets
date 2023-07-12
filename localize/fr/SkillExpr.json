@@ -7349,6 +7349,10 @@
       "value": "Augmente les attaques de glace et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_LW_SCR_SOIL_S_2_INIT",
+      "value": "Augmente les attaques de terre et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_LW_SCR_DARK_S_2_INIT",
       "value": "Augmente les attaques d'ombre et la résistance aux malus de l'unité alliée pendant 3 tours, et réduit le délai d'activation du lanceur pendant 3 tours."
     },
@@ -7467,6 +7471,26 @@
     {
       "key": "SK_LW_EC_SCR_C_04B",
       "value": "Augmente la DEF, la PSY, la résistance aux attaques de zone et réduit l'attaque magique."
+    },
+    {
+      "key": "SK_LW_EC_SCR_A_03",
+      "value": "Restaure les PV (M) des alliés dans la zone ciblée, et restaure les PA."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_05",
+      "value": "Améliore Enseignements sur l'auto-préservation totale en Enseignements de la résilience. Pas de délai d'activation. Augmente les PV max des alliés dans la zone ciblée, restaure la différence, augmente la DEF et la PSY pendant 3 tours, et augmente la résistance aux attaques de zone et les compétences de soin du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_05B",
+      "value": "Augmente les PV max des alliés dans la zone ciblée, restaure la différence, augmente la DEF et la PSY pendant 3 tours, et augmente la résistance aux attaques de zone et les compétences de soin du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_06",
+      "value": "Améliore Intuition du dévot en Intuition préventive. Augmente la DEF et la PSY, réduit le délai d'activation, et réduit les attaques magiques."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_06B",
+      "value": "Augmente la DEF et la PSY, réduit le délai d'activation, et réduit les attaques magiques."
     },
     {
       "key": "SK_LW_AXD_ATK",
@@ -12153,6 +12177,26 @@
       "value": "Inflige des dégâts de terre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
     },
     {
+      "key": "SK_GLEM_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_GLEM_01_M_01",
+      "value": "Inflige des dégâts de terre (S) qui dépendent de la MAGIE du lanceur à la cible."
+    },
+    {
+      "key": "SK_GLEM_01_M_02",
+      "value": "Inflige des dégâts de terre (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit le Déplacement de 1 pendant 3 tours."
+    },
+    {
+      "key": "SK_GLEM_01_M_03",
+      "value": "Augmente l'ATT, la MAGIE la DEF et la PSY du lanceur pendant 3 tours et accorde Bouclier et Barrière."
+    },
+    {
+      "key": "SK_GLEM_01_M_04",
+      "value": "Inflige des dégâts de terre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit la résistance à la terre pendant 3 tours."
+    },
+    {
       "key": "SK_ODIN_ATK",
       "value": ""
     },
@@ -15029,6 +15073,10 @@
       "value": "Invoque Maître cœurl, réduit la DEF et la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de foudre (L) et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités de foudre et réduit considérablement la résistance à la foudre des ennemis)."
     },
     {
+      "key": "SK_SMN_GLEM_01",
+      "value": "Invoque Golem obscur, inflige des dégâts de terre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit la résistance à la terre pendant 3 tours et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités de terre et réduit considérablement la résistance à la terre des ennemis)."
+    },
+    {
       "key": "SK_UN_BD_EC_HP_200",
       "value": ""
     },
@@ -15598,7 +15646,7 @@
     },
     {
       "key": "SK_LW_EC_SWN_C_06B",
-      "value": "Consomme les PV du lanceur pour augmenter son ATT pendant 3 tours et annule Paralysie, Stop et Peine de mort pendant 3 tours"
+      "value": "Consomme les PV du lanceur pour augmenter son ATT et annule Paralysie, Stop et Peine de mort pendant 3 tours"
     },
     {
       "key": "SK_LW_EC_DRG_A_01",
@@ -18213,12 +18261,24 @@
       "value": "Augmente les PV max de +10 % et les attaques de vent de +15 pour les unités alliées de vent, augmente la résistance aux attaques de zone du lanceur de 10 et le taux de perforation de la PSY de 10."
     },
     {
+      "key": "SK_MA_LW_SDLE_2",
+      "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente les PV max du lanceur de 10 %, sa résistance aux attaques de zone de 20, son taux de perforation de la PSY de 10, et réduit son délai d'activation des aptitudes d'attaque de 20 %."
+    },
+    {
       "key": "SK_MA_LW_IREZ",
       "value": "Augmente les PV max de 10 % et les attaques de glace de +15 pour les unités alliées de glace, augmente le taux de perforation de la résistance aux attaques projectiles du lanceur de +20, et réduit son délai d'activation des aptitudes d'attaque de -10 %"
     },
     {
+      "key": "SK_MA_LW_IREZ_2",
+      "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente le taux de perforation de la résistance aux attaques projectiles du lanceur de 20, réduit son délai d'activation des aptitudes d'attaque de 10 %, augmente ses dégâts critiques de 20 %, augmente ses PA acquis de 30 %, et augmente l'AGI de 10 % pendant 1 tour lors d'un Coup critique."
+    },
+    {
       "key": "SK_MA_LW_RNEL",
       "value": "Augmente les PV max de +10 % et la résistance à Cécité de +25 pour les unités alliées d'ombre, augmente l'ATT du lanceur de +10 % et sa résistance aux attaques à cible unique de +15"
+    },
+    {
+      "key": "SK_MA_LW_RNEL_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Cécité de 25 pour les unités alliées d'ombre, augmente l'ATT du lanceur de 30 % et sa résistance aux attaques à cible unique de 25."
     },
     {
       "key": "SK_MA_LW_MCRD",
@@ -18331,6 +18391,10 @@
     {
       "key": "SK_MA_LW_HYOO",
       "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la résistance au feu et à la glace de 10 et les PA acquis de 30 pour le lanceur."
+    },
+    {
+      "key": "SK_MA_LW_GLZK",
+      "value": "Augmente les PV max de 10 % et la résistance à Confusion de 25 pour les unités alliées de terre, augmente le taux de perforation de la PSY du lanceur de 10 et sa résistance aux attaques de zone de 15."
     },
     {
       "key": "SK_MA_FMAM_EDWD",
@@ -18575,6 +18639,14 @@
     {
       "key": "SK_UES_LW_HYOO",
       "value": "Dissipe Booster et Auréole de 2 cibles maximum, puis inflige des dégâts (L), et restaure les PA du lanceur quand un ennemi est mis K.O. (jusqu'à 2 ennemis)."
+    },
+    {
+      "key": "SK_UES_LW_GLZK",
+      "value": "Aucun délai d'activation des aptitudes."
+    },
+    {
+      "key": "SK_LW_EC_SCR_A_03_B",
+      "value": "Restaure les PV (M) des alliés dans la zone ciblée, et restaure les PA."
     },
     {
       "key": "SK_UES_LW_PRNE",
@@ -19277,6 +19349,74 @@
       "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (M), réduit de moitié la jauge de CT et réduit l'AGI pendant 3 tours."
     },
     {
+      "key": "SK_UES_LW_HLNA_01",
+      "value": "Augmente considérablement la MAGIE, réduit la PSY, réduit le délai d'activation, et augmente considérablement la résistance aux attaques de zone quand les PV sont au-dessus de 80 %."
+    },
+    {
+      "key": "SK_LW_EC_WIZ_C_02C",
+      "value": "Augmente considérablement la MAGIE, réduit la PSY, réduit le délai d'activation, et augmente considérablement la résistance aux attaques de zone quand les PV sont au-dessus de 80 %."
+    },
+    {
+      "key": "SK_UES_LW_FALM",
+      "value": "Augmente le taux de précision et la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 3 tours, augmente la résistance aux attaques magiques du lanceur et augmente considérablement son taux d'esquive d'attaque magique, et annule les Coups garantis qu'il subit pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_NIN_A_03_B_WATER",
+      "value": "Augmente le taux de précision et la résistance aux attaques de zone des alliés dans la zone autour du lanceur pendant 3 tours, augmente la résistance aux attaques magiques du lanceur et augmente considérablement son taux d'esquive d'attaque magique, et annule les Coups garantis qu'il subit pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_ELSR",
+      "value": "Réduit la DEF de 2 cibles maximum pendant 3 tours, puis inflige des dégâts (M), réduit l'AGI, et augmente la consommation de PA pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_MSW_A_02_B",
+      "value": "Réduit la DEF de 2 cibles maximum pendant 3 tours, puis inflige des dégâts (M), réduit l'AGI, et augmente la consommation de PA pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_MCRD",
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M), dissipe Booster, et augmente le taux de perforation de la résistance aux attaques perçantes du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_LLN_A_02_B",
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M), dissipe Booster, et augmente le taux de perforation de la résistance aux attaques perçantes du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_SZRT",
+      "value": "Consomme les PV du lanceur pour lui permettre de survivre 1 fois à des dégâts mortels, restaure un certain pourcentage des PV (L) quand les PV chutent en dessous de 20 % lorsque des dégâts sont subis (1 fois), augmente l'ATT du lanceur, et annule Paralysie, Stop et Peine de mort pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SWN_C_06C",
+      "value": "Consomme les PV du lanceur pour lui permettre de survivre 1 fois à des dégâts mortels, restaure un certain pourcentage des PV (L) quand les PV chutent en dessous de 20 % lorsque des dégâts sont subis (1 fois), augmente l'ATT du lanceur, et annule Paralysie, Stop et Peine de mort pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_SZRT_B",
+      "value": ""
+    },
+    {
+      "key": "SK_UES_LW_LSTE",
+      "value": "Augmente l'ATT du lanceur et ses dégâts critiques, réduit le taux d'esquive critique de la cible pendant 3 tours, puis inflige des dégâts (L) en 2 coups et réduit l'AGI pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_BEA_A_04_B",
+      "value": "Augmente l'ATT du lanceur et ses dégâts critiques, réduit le taux d'esquive critique de la cible pendant 3 tours, puis inflige des dégâts (L) en 2 coups et réduit l'AGI pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_HLNA",
+      "value": "Augmente la DEF, la PSY, la résistance aux attaques de vent et de terre des unités alliées dans la zone ciblée pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_GRM_C_01C",
+      "value": "Augmente la DEF, la PSY, la résistance aux attaques de vent et de terre des unités alliées dans la zone ciblée pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_MGRT",
+      "value": "Améliore la forme de la zone. Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit la PSY pendant 3 tours et confère une chance d'infliger Berserk pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_TIM_A_03_B",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit la PSY pendant 3 tours et confère une chance d'infliger Berserk pendant 3 tours."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Attaque tranchante +2"
     },
@@ -19926,6 +20066,10 @@
     },
     {
       "key": "SK_LW_ACC_003_5_S",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_003_6",
       "value": ""
     },
     {
@@ -23694,6 +23838,54 @@
     },
     {
       "key": "SK_GL_VC_LW_HWLT_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GLEM_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLEM_01_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLEM_01_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GLEM_01_PMAX2",
       "value": ""
     },
     {
@@ -30993,6 +31185,10 @@
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
+      "key": "SK_BTL_PARALYZE_1-100_D",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
       "key": "SK_BTL_DARKN_1-100_U",
       "value": "Compétence de rééquilibrage de la quête"
     },
@@ -31002,6 +31198,10 @@
     },
     {
       "key": "SK_BTL_CONFU_1-100_U",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
+      "key": "SK_BTL_CONFU_1-100_D",
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
@@ -31061,6 +31261,10 @@
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
+      "key": "SK_BTL_STOP_1-100_D",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
       "key": "SK_BTL_DONAC_1-100_U",
       "value": "Compétence de rééquilibrage de la quête"
     },
@@ -31074,6 +31278,14 @@
     },
     {
       "key": "SK_BTL_FROST_1-100_D",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
+      "key": "SK_BTL_BSK_1-100_U",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
+      "key": "SK_BTL_BSK_1-100_D",
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
@@ -31334,14 +31546,6 @@
     },
     {
       "key": "SK_BTL_JOB_MGK_1_15_U",
-      "value": "Compétence de rééquilibrage de la quête"
-    },
-    {
-      "key": "SK_BTL_BSK_1-100_U",
-      "value": "Compétence de rééquilibrage de la quête"
-    },
-    {
-      "key": "SK_BTL_BSK_1-100_D",
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
@@ -33990,6 +34194,14 @@
     },
     {
       "key": "SK_LW_PLUS6_DEMONKR_50",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_SINGLE_15",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_MAGIC_15",
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
