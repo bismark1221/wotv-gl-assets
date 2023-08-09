@@ -12553,6 +12553,30 @@
       "value": "Gewährt bei Erleiden von physischem Schaden Chance auf Konter und erhöht 3 Runden lang eigenen ANG."
     },
     {
+      "key": "SK_GRDM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_GRDM_M_01",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben. Zusätzlicher Effekt: Gewährt Hast und erhöht ANG und MAG, während Mumm aktiv ist."
+    },
+    {
+      "key": "SK_GRDM_M_02",
+      "value": "Senkt 3 Runden lang Schlitzresistenz des Ziels und fügt anschließend Schaden (S) zu."
+    },
+    {
+      "key": "SK_GRDM_M_03",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu."
+    },
+    {
+      "key": "SK_GRDM_M_04",
+      "value": "Fügt Zielen in Reichweite festgelegten Anteil an Schaden zu."
+    },
+    {
+      "key": "SK_GRDM_M_05",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und entfernt alle Stärkungen."
+    },
+    {
       "key": "SK_ODIN_ATK",
       "value": ""
     },
@@ -15555,6 +15579,10 @@
     {
       "key": "SK_SMN_MNTR",
       "value": "Ruft Minotaurus, fügt Zielen in Reichweite Lichtschaden (L) zu, gewährt Chance auf Wirken von 1 Runde andauernder Betäubung und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit stärkerem Effekt für Lichteinheiten, erhebliche Lichtresistenz-Senkung für Gegner)."
+    },
+    {
+      "key": "SK_SMN_GRDM",
+      "value": "Ruft Großer Dämon, fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (L) zu, entfernt alle Stärkungen und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit stärkerem Effekt für Dunkeleinheiten, erhebliche Dunkelresistenz-Senkung für Gegner)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -18765,8 +18793,16 @@
       "value": "LP-Maximum +10 % und Immobilisierungsresistenz +25 für verbündete Eiseinheiten, eigener AP-Verbrauch -15 %, Kritischer Schaden +25 %"
     },
     {
+      "key": "SK_MA_LW_MCRD_2",
+      "value": "LP-Maximum +10 % und Immobilisierungsresistenz +25 für verbündete Eiseinheiten, eigener AP-Verbrauch -25 %, Kritischer Schaden +25 %, Kritische Trefferrate +20 und Bereichangriffsresistenz +10"
+    },
+    {
       "key": "SK_MA_LW_FINA_01",
       "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene MAG +10 % und Magieangriffsresistenz-Durchbohrrate +20"
+    },
+    {
+      "key": "SK_MA_LW_FINA_01_2",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene MAG +20 %, Magieangriffsresistenz-Durchbohrrate +20, Einzelangriffsresistenz +10 und Kritische Ausweichrate +20"
     },
     {
       "key": "SK_MA_LW_JEDN_01",
@@ -19963,6 +19999,54 @@
     {
       "key": "SK_UES_FF5_FRIS",
       "value": "Wirkt 3 Runden lang Protes und Vallum auf sich selbst und zusätzlicher Effekt: Erhöht Präzision, Bereichangriffsresistenz und senkt AP-Verbrauch, während Protes/Vallum aktiv ist."
+    },
+    {
+      "key": "SK_UES_LW_ENBT",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, erhöht Chance, selbst Ziel von Angriffen zu werden, und zusätzlicher Effekt: Annulliert Lähmung/Konfus, während Mumm aktiv ist und erhöht 3 Runden lang Elementarkettenresistenz erheblich."
+    },
+    {
+      "key": "SK_LW_EC_PLD_C_04C",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, erhöht Chance, selbst Ziel von Angriffen zu werden, und zusätzlicher Effekt: Annulliert Lähmung/Konfus, während Mumm aktiv ist und erhöht 3 Runden lang Elementarkettenresistenz erheblich."
+    },
+    {
+      "key": "SK_UES_LW_SDLE",
+      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst und einen Verbündeten und zusätzlicher Effekt: Erhöht Einzelangriffsresistenz und Kritische Ausweichrate, während Schutzengel aktiv ist, und erhöht die Wahrscheinlichkeit, dass Verbündeter Ziel von Angriffen wird."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_A_01B",
+      "value": "Wirkt Schutzengel (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) auf sich selbst und einen Verbündeten und zusätzlicher Effekt: Erhöht Einzelangriffsresistenz und Kritische Ausweichrate, während Schutzengel aktiv ist, und erhöht die Wahrscheinlichkeit, dass Verbündeter Ziel von Angriffen wird."
+    },
+    {
+      "key": "SK_UES_LW_GRSR_02",
+      "value": "Verbessert Bereichangriffsresistenz-Stärkungen. Erhöht Bereichangriffsresistenz, ABW-Durchbohrrate, Präzision und Schwächungsreduzierung."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_02_C_01C",
+      "value": "Erhöht Bereichangriffsresistenz, ABW-Durchbohrrate, Präzision und Schwächungsreduzierung."
+    },
+    {
+      "key": "SK_UES_LW_TREL",
+      "value": "Erhöht eigene Schwächungsresistenz und Elementarkettenresistenz erheblich, erhöht 3 Runden lang ABW-Durchbohrrate, Heilkraft und LP-Maximum und heilt Erhöhungsbetrag der LP."
+    },
+    {
+      "key": "SK_LW_EC_KNT_C_05C",
+      "value": "Erhöht eigene Schwächungsresistenz und Elementarkettenresistenz erheblich, erhöht 3 Runden lang ABW-Durchbohrrate, Heilkraft und LP-Maximum und heilt Erhöhungsbetrag der LP."
+    },
+    {
+      "key": "SK_UES_LW_ELSI",
+      "value": "Entfernt alle Stärkungen vom Ziel und fügt anschließend MAG-abhängigen nichtelementaren Schaden (L) zu. Fügt deutlich höheren Schaden zu, wenn Hast oder Levitas für den Wirkenden aktiv ist. Erhöht eigene AZ (M)."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_07C",
+      "value": "Entfernt alle Stärkungen vom Ziel und fügt anschließend MAG-abhängigen nichtelementaren Schaden (L) zu. Fügt deutlich höheren Schaden zu, wenn Hast oder Levitas für den Wirkenden aktiv ist. Erhöht eigene AZ (M)."
+    },
+    {
+      "key": "SK_UES_LW_SERL",
+      "value": "Erhöht Präzision, ABW-Durchbohrrate, Schlitzresistenz-Durchbohrrate und Reaktionsblockrate."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_04C",
+      "value": "Erhöht Präzision, ABW-Durchbohrrate, Schlitzresistenz-Durchbohrrate und Reaktionsblockrate."
     },
     {
       "key": "SK_UES_LW_FINA",
@@ -24658,6 +24742,54 @@
     },
     {
       "key": "SK_GL_VC_LW_MNTR_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GRDM_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GRDM_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GRDM_PMAX2",
       "value": ""
     },
     {
@@ -32481,6 +32613,18 @@
       "value": ""
     },
     {
+      "key": "SK_GMK_ATK_DARK",
+      "value": "Gimmick-Angriff (Dunkler Fleck)"
+    },
+    {
+      "key": "SK_GMK_ATK_DARK_1",
+      "value": "Gimmick-LP-Wiederherstellung (Dunkler Fleck)"
+    },
+    {
+      "key": "SK_GMK_ATK_DARK_2",
+      "value": "Gimmick-Phy. Angriffsstärkung (Dunkler Fleck)"
+    },
+    {
       "key": "SK_LW_WAR_P_2",
       "value": "Kann nicht verwendet werden."
     },
@@ -35062,6 +35206,46 @@
     },
     {
       "key": "SK_FF5_SWO_001_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_5",
       "value": ""
     },
     {

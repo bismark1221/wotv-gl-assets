@@ -12553,6 +12553,30 @@
       "value": "Probabilidad de realizar un contraataque al recibir daño físico y aumenta el ATQ del usuario durante 3 turnos."
     },
     {
+      "key": "SK_GRDM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_GRDM_M_01",
+      "value": "El usuario sobrevive a daño letal una vez, y efecto adicional: otorga prisa y aumenta el ATQ y la MAG mientras agallas esté activo."
+    },
+    {
+      "key": "SK_GRDM_M_02",
+      "value": "Reduce la res. corte del objetivo durante 3 turnos, y luego le inflige daño (poco)."
+    },
+    {
+      "key": "SK_GRDM_M_03",
+      "value": "Inflige daño (medio) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_GRDM_M_04",
+      "value": "Inflige un porcentaje fijo de daño de VIT a los objetivos al alcance."
+    },
+    {
+      "key": "SK_GRDM_M_05",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario a los objetivos al alcance y elimina todas sus mejoras."
+    },
+    {
       "key": "SK_ODIN_ATK",
       "value": ""
     },
@@ -15555,6 +15579,10 @@
     {
       "key": "SK_SMN_MNTR",
       "value": "Invoca a Minotauro: daño de luz (mucho) a los objetivos al alcance, probabilidad de infligirles aturdimiento durante un turno y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de luz y reduce considerablemente la res. luz de los enemigos)."
+    },
+    {
+      "key": "SK_SMN_GRDM",
+      "value": "Invoca a Gran demonio: inflige daño de oscuridad (mucho) en función de la MAG del usuario a los objetivos al alcance, elimina todas sus mejoras y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de oscuridad y reduce considerablemente la res. oscuridad de los enemigos)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -18765,8 +18793,16 @@
       "value": "Aliados de hielo: VIT máx. +10 %, res. inmóvil +25; usuario: consumo de PA -15 %, daño crítico +25 %"
     },
     {
+      "key": "SK_MA_LW_MCRD_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, res. inmóvil +25; usuario: consumo de PA -25 %, daño crítico +25 %, tasa de crítico +20, res. ataque de zona +10"
+    },
+    {
       "key": "SK_MA_LW_FINA_01",
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: MAG +10 %, tasa de penetración de res. ataque mágico +20"
+    },
+    {
+      "key": "SK_MA_LW_FINA_01_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: MAG +20 %, tasa de penetración de res. ataque mágico +20, res. ataque de unidad +10, tasa de evasión de crítico +20"
     },
     {
       "key": "SK_MA_LW_JEDN_01",
@@ -19963,6 +19999,54 @@
     {
       "key": "SK_UES_FF5_FRIS",
       "value": "Otorga Coraza y Escudo al usuario durante 3 turnos, y efecto adicional: aumenta la tasa de precisión y la res. ataque de zona y reduce el consumo de PA en estado Coraza y Escudo."
+    },
+    {
+      "key": "SK_UES_LW_ENBT",
+      "value": "El usuario sobrevive a daño letal una vez y aumenta la probabilidad de que sea atacado, y efecto adicional: anula parálisis y confusión mientras agallas esté activo y aumenta considerablemente la res. combo elemental durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_PLD_C_04C",
+      "value": "El usuario sobrevive a daño letal una vez y aumenta la probabilidad de que sea atacado, y efecto adicional: anula parálisis y confusión mientras agallas esté activo y aumenta considerablemente la res. combo elemental durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_SDLE",
+      "value": "Otorga autolázaro al usuario y a un aliado: revive a las unidades automáticamente una vez por combate (recuperación de VIT: mínima), y otorga un efecto adicional: aumenta la res. ataque de unidad y la tasa de evasión de crítico mientras autolázaro está activo, y mayor probabilidad de que el aliado sea atacado."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_A_01B",
+      "value": "Otorga autolázaro al usuario y a un aliado: revive a las unidades automáticamente una vez por combate (recuperación de VIT: mínima), y otorga un efecto adicional: aumenta la res. ataque de unidad y la tasa de evasión de crítico mientras autolázaro está activo, y mayor probabilidad de que el aliado sea atacado."
+    },
+    {
+      "key": "SK_UES_LW_GRSR_02",
+      "value": "Mayor aumento de res. ataque de zona. Aumenta la res. ataque de zona, la tasa de penetración de DEF, la tasa de precisión y la tasa de disminución de reducciones."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_02_C_01C",
+      "value": "Aumenta la res. ataque de zona, la tasa de penetración de DEF, la tasa de precisión y la tasa de disminución de reducciones."
+    },
+    {
+      "key": "SK_UES_LW_TREL",
+      "value": "Aumenta considerablemente la res. reducciones y la res. combo elemental del usuario, aumenta la tasa de penetración de DEF, la potencia de curación y la VIT máx. durante 3 turnos y recupera la cantidad de VIT aumentada."
+    },
+    {
+      "key": "SK_LW_EC_KNT_C_05C",
+      "value": "Aumenta considerablemente la res. reducciones y la res. combo elemental del usuario, aumenta la tasa de penetración de DEF, la potencia de curación y la VIT máx. durante 3 turnos y recupera la cantidad de VIT aumentada."
+    },
+    {
+      "key": "SK_UES_LW_ELSI",
+      "value": "Elimina todas las mejoras del objetivo, le inflige daño no elemental (mucho) en función de la MAG del usuario, inflige mucho más daño si el usuario está en estado prisa o lévita y aumenta el TC del usuario (medio)."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_07C",
+      "value": "Elimina todas las mejoras del objetivo, le inflige daño no elemental (mucho) en función de la MAG del usuario, inflige mucho más daño si el usuario está en estado prisa o lévita y aumenta el TC del usuario (medio)."
+    },
+    {
+      "key": "SK_UES_LW_SERL",
+      "value": "Aumenta la tasa de precisión, la tasa de penetración de DEF, la tasa de penetración de res. ataque de corte y la tasa de bloqueo de reacción."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_04C",
+      "value": "Aumenta la tasa de precisión, la tasa de penetración de DEF, la tasa de penetración de res. ataque de corte y la tasa de bloqueo de reacción."
     },
     {
       "key": "SK_UES_LW_FINA",
@@ -24658,6 +24742,54 @@
     },
     {
       "key": "SK_GL_VC_LW_MNTR_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GRDM_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GRDM_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GRDM_PMAX2",
       "value": ""
     },
     {
@@ -32481,6 +32613,18 @@
       "value": ""
     },
     {
+      "key": "SK_GMK_ATK_DARK",
+      "value": "Ataque provisional (Pozo oscuro)"
+    },
+    {
+      "key": "SK_GMK_ATK_DARK_1",
+      "value": "Recuperación de VIT provisional (Pozo oscuro)"
+    },
+    {
+      "key": "SK_GMK_ATK_DARK_2",
+      "value": "Aumento de ATQF provisional (Pozo oscuro)"
+    },
+    {
       "key": "SK_LW_WAR_P_2",
       "value": "No se puede usar"
     },
@@ -35062,6 +35206,46 @@
     },
     {
       "key": "SK_FF5_SWO_001_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_5",
       "value": ""
     },
     {

@@ -12553,6 +12553,30 @@
       "value": "Confère une chance de contre-attaquer lorsque des dégâts physiques sont reçus et augmente l'ATT du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_GRDM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_GRDM_M_01",
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels et accorde un effet additionnel : accorde Booster et augmente l'ATT et la MAGIE pendant l'effet de Hardiesse."
+    },
+    {
+      "key": "SK_GRDM_M_02",
+      "value": "Réduit la résistance aux attaques tranchantes de la cible pendant 3 tours, puis inflige des dégâts (S)."
+    },
+    {
+      "key": "SK_GRDM_M_03",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_GRDM_M_04",
+      "value": "Inflige des dégâts proportionnels aux PV aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_GRDM_M_05",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et dissipe tous les bonus."
+    },
+    {
       "key": "SK_ODIN_ATK",
       "value": ""
     },
@@ -15555,6 +15579,10 @@
     {
       "key": "SK_SMN_MNTR",
       "value": "Invoque Minotaure, inflige des dégâts de lumière (L) aux unités dans la zone ciblée, confère une chance d'infliger Étourdissement pendant 1 tour et active des effets de carte temporaires (augmente l'ATT et la MAGIE des unités alliées, augmente les effets pour les unités de lumière et réduit considérablement la résistance à la lumière des ennemis)."
+    },
+    {
+      "key": "SK_SMN_GRDM",
+      "value": "Invoque Mégadémon, inflige des dégâts d'ombre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, dissipe tous les bonus, et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités d'ombre, et réduit considérablement la résistance à l'ombre des ennemis)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -18765,8 +18793,16 @@
       "value": "Augmente les PV max de 10 % et la résistance à Immobilisation de +25 pour les unités alliées de glace, réduit la consommation de PA du lanceur de 15 % et augmente les dégâts critiques de +25 %."
     },
     {
+      "key": "SK_MA_LW_MCRD_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Immobilisation de 25 pour les unités alliées de glace, réduit la consommation de PA du lanceur de 25 %, augmente ses dégâts critiques de 25 %, son taux de coup critique de 20, sa résistance aux attaques de zone de 10."
+    },
+    {
       "key": "SK_MA_LW_FINA_01",
       "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente la MAGIE du lanceur de 10 % et le taux de perforation de la résistance aux attaques magiques de 20."
+    },
+    {
+      "key": "SK_MA_LW_FINA_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente la MAGIE du lanceur de 20 %, son taux de perforation de la résistance aux attaques magiques de 20, sa résistance aux attaques à cible unique de 10 et son taux d'esquive critique de 20."
     },
     {
       "key": "SK_MA_LW_JEDN_01",
@@ -19963,6 +19999,54 @@
     {
       "key": "SK_UES_FF5_FRIS",
       "value": "Confère des effets de statut (Bouclier/Barrière) au lanceur pendant 3 tours et accorde des effets additionnels : augmente le taux de précision et la résistance aux attaques de zone, et réduit la consommation de PA pendant l'effet de Bouclier/Barrière."
+    },
+    {
+      "key": "SK_UES_LW_ENBT",
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels, augmente les chances d'être pris pour cible et accorde un effet additionnel : annule Paralysie et Confusion pendant l'effet de Hardiesse, et augmente considérablement la résistance aux combos élémentaires pendant 3 tours"
+    },
+    {
+      "key": "SK_LW_EC_PLD_C_04C",
+      "value": "Permet au lanceur de survivre 1 fois à des dégâts mortels, augmente les chances d'être pris pour cible et accorde un effet additionnel : annule Paralysie et Confusion pendant l'effet de Hardiesse, et augmente considérablement la résistance aux combos élémentaires pendant 3 tours"
+    },
+    {
+      "key": "SK_UES_LW_SDLE",
+      "value": "Accorde Auréole au lanceur et aux alliés, leur permettant d'être ranimés automatiquement une fois par combat (récupération de PV (XS)) et accorde des effets additionnels : augmente la résistance aux attaques à cible unique et le taux d'esquive critique pendant l'effet d'Auréole, et augmente les chances d'un allié d'être pris pour cible."
+    },
+    {
+      "key": "SK_LW_EC_SDLE_A_01B",
+      "value": "Accorde Auréole au lanceur et aux alliés, leur permettant d'être ranimés automatiquement une fois par combat (récupération de PV (XS)) et accorde des effets additionnels : augmente la résistance aux attaques à cible unique et le taux d'esquive critique pendant l'effet d'Auréole, et augmente les chances d'un allié d'être pris pour cible."
+    },
+    {
+      "key": "SK_UES_LW_GRSR_02",
+      "value": "Améliore le bonus de résistance aux attaques de zone. Augmente la résistance aux attaques de zone, le taux de perforation de la DEF, le taux de précision et le taux de réduction des malus."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_02_C_01C",
+      "value": "Augmente la résistance aux attaques de zone, le taux de perforation de la DEF, le taux de précision et le taux de réduction des malus."
+    },
+    {
+      "key": "SK_UES_LW_TREL",
+      "value": "Augmente considérablement la résistance aux malus et la résistance aux combos élémentaires du lanceur, augmente le taux de perforation de la DEF, les compétences de soin et les PV max pendant 3 tours et restaure la différence."
+    },
+    {
+      "key": "SK_LW_EC_KNT_C_05C",
+      "value": "Augmente considérablement la résistance aux malus et la résistance aux combos élémentaires du lanceur, augmente le taux de perforation de la DEF, les compétences de soin et les PV max pendant 3 tours et restaure la différence."
+    },
+    {
+      "key": "SK_UES_LW_ELSI",
+      "value": "Dissipe tous les bonus d'une cible, puis inflige des dégâts non-élémentaires (L) qui dépendent de la MAGIE du lanceur à la cible, augmente considérablement les dégâts infligés si le lanceur est sous l'effet de Booster ou d'Apesanteur, et augmente les CT (M) du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_TIM_C_07C",
+      "value": "Dissipe tous les bonus d'une cible, puis inflige des dégâts non-élémentaires (L) qui dépendent de la MAGIE du lanceur à la cible, augmente considérablement les dégâts infligés si le lanceur est sous l'effet de Booster ou d'Apesanteur, et augmente les CT (M) du lanceur."
+    },
+    {
+      "key": "SK_UES_LW_SERL",
+      "value": "Augmente le taux de précision, le taux de perforation de la DEF, le taux de perforation de la résistance aux attaques tranchantes et le taux de blocage de réaction."
+    },
+    {
+      "key": "SK_LW_EC_AXD_C_04C",
+      "value": "Augmente le taux de précision, le taux de perforation de la DEF, le taux de perforation de la résistance aux attaques tranchantes et le taux de blocage de réaction."
     },
     {
       "key": "SK_UES_LW_FINA",
@@ -24658,6 +24742,54 @@
     },
     {
       "key": "SK_GL_VC_LW_MNTR_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GRDM_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GRDM_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GRDM_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_GRDM_PMAX2",
       "value": ""
     },
     {
@@ -32481,6 +32613,18 @@
       "value": ""
     },
     {
+      "key": "SK_GMK_ATK_DARK",
+      "value": "Attaque mécanique (Puit d'ombre)"
+    },
+    {
+      "key": "SK_GMK_ATK_DARK_1",
+      "value": "Attaque mécanique avec restauration de PV (Puit d'ombre)"
+    },
+    {
+      "key": "SK_GMK_ATK_DARK_2",
+      "value": "Attaque mécanique avec bonus aux attaques physiques (Puit d'ombre)"
+    },
+    {
       "key": "SK_LW_WAR_P_2",
       "value": "Usage interdit"
     },
@@ -35062,6 +35206,46 @@
     },
     {
       "key": "SK_FF5_SWO_001_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_ACC_002_2_5",
       "value": ""
     },
     {
