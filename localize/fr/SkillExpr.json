@@ -9689,6 +9689,14 @@
       "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit le taux de perforation de la DEF pendant 3 tours et augmente les CT (S) du lanceur quand un ennemi est mis K.O. (jusqu'à 2 ennemis)."
     },
     {
+      "key": "SK_LW_MHA_M_2_SUB",
+      "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur avec Coup garanti."
+    },
+    {
+      "key": "SK_LW_MHA_M_3_SUB",
+      "value": "Augmente la DEF des alliés dans la zone autour du lanceur pendant 3 tours et érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques."
+    },
+    {
       "key": "SK_LW_MHA_S_2",
       "value": "Accorde un effet de réduction de PA pour les attaques réussies du lanceur pendant 3 tours et accorde un effet additionnel : augmente la résistance aux malus de DEF pendant l'effet de Bouclier."
     },
@@ -11457,6 +11465,82 @@
       "value": "Augmente les PV max, la DEF et la Haine."
     },
     {
+      "key": "SK_LW_JEDN_02_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_JEDN_02_M_1",
+      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour de la cible, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur et réduit la Haine à 0."
+    },
+    {
+      "key": "SK_LW_JEDN_02_M_1B",
+      "value": "Détruit toute barrière réduisant les dégâts magiques érigée autour de la cible, puis inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur et réduit la Haine à 0."
+    },
+    {
+      "key": "SK_LW_JEDN_02_M_2",
+      "value": "Inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_JEDN_02_M_2B",
+      "value": "Inflige des dégâts (M) en 2 coups qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_JEDN_02_M_3",
+      "value": "Augmente la résistance aux attaques à cible unique des alliés dans la zone autour du lanceur pendant 3 tours et érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques."
+    },
+    {
+      "key": "SK_LW_JEDN_02_S_1",
+      "value": "Dissipe Auréole de la cible, puis inflige des dégâts (S) qui dépendent de la MAGIE du lanceur et Perforation."
+    },
+    {
+      "key": "SK_LW_JEDN_02_S_2",
+      "value": "Restaure les PA du lanceur, augmente considérablement le taux de réduction des malus et augmente la MAGIE pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_JEDN_02_S_3",
+      "value": "Confère une chance d'infliger des altérations d'état (Paralysie/Confusion) à la cible pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_JEDN_02_S_4",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_LW_JEDN_02_R_1",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts physiques sont subis et Perforation."
+    },
+    {
+      "key": "SK_LW_JEDN_02_P_1",
+      "value": "Augmente la MAGIE et l'AGI."
+    },
+    {
+      "key": "SK_LW_JEDN_02_P_2",
+      "value": "Augmente le taux de coup critique, améliore la portée de Plongeon fracassant et Averse de piques."
+    },
+    {
+      "key": "SK_LW_EC_JEDN_02_A_01",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur à la cible, Perforation et restaure un certain pourcentage des PV (S) du lanceur en cas de Coup critique."
+    },
+    {
+      "key": "SK_LW_EC_JEDN_02_C_01",
+      "value": "Améliore Bénédiction du bouclier en Grande bénédiction du bouclier. Augmente la quantité d'annulation des dégâts de la Barrière. Augmente la résistance aux attaques à cible unique et aux attaques tranchantes des alliés dans la zone autour du lanceur pendant 3 tours et érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques."
+    },
+    {
+      "key": "SK_LW_EC_JEDN_02_C_01B",
+      "value": "Augmente la résistance aux attaques à cible unique et aux attaques tranchantes des alliés dans la zone autour du lanceur pendant 3 tours et érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques."
+    },
+    {
+      "key": "SK_LW_EC_JEDN_02_C_01C",
+      "value": "Augmente la résistance aux attaques à cible unique et aux attaques tranchantes des alliés dans la zone autour du lanceur pendant 3 tours, érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques, et accorde un effet de réduction du taux de perforation de la résistance aux attaques tranchantes pendant 3 tours aux attaques du lanceur portées avec succès pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_JEDN_02_C_02",
+      "value": "Améliore Renaissance royale en Esquisse d'un Grand Homme. Augmente la MAGIE, l'AGI, la résistance tous éléments et le taux d'esquive critique."
+    },
+    {
+      "key": "SK_LW_EC_JEDN_02_C_02B",
+      "value": "Augmente la MAGIE, l'AGI, la résistance tous éléments et le taux d'esquive critique."
+    },
+    {
       "key": "SK_BTL_GETSP_1-999_U",
       "value": ""
     },
@@ -12433,6 +12517,10 @@
       "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance d'infliger Poison pendant 3 tours."
     },
     {
+      "key": "SK_UMWP_ATK_B",
+      "value": "Inflige des dégâts (S) qui dépendent de la MAGIE du lanceur à la cible, et confère une chance d'infliger Poison pendant 3 tours."
+    },
+    {
       "key": "SK_UMWP_M_01",
       "value": "Réduit la résistance aux attaques de zone des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (S), repousse de 3 cases, dissipe les bonus, dissipe Bouclier, Barrière et Lame égide, et réduit les PA (dégâts de PA : 20)."
     },
@@ -12442,6 +12530,10 @@
     },
     {
       "key": "SK_UMWP_M_03",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée (jusqu'à 3 cibles), et réduit considérablement les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_UMWP_M_03_B",
       "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée (jusqu'à 3 cibles), et réduit considérablement les compétences de soin pendant 3 tours."
     },
     {
@@ -15327,6 +15419,10 @@
     {
       "key": "SK_LB_LW_RUFF",
       "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et maintient le compteur de combos élémentaires actif pendant 1 tour même si la cible effectue une action."
+    },
+    {
+      "key": "SK_LB_LW_JEDN_02",
+      "value": "Réduit la résistance aux attaques perçantes des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -18969,6 +19065,10 @@
       "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, et augmente la résistance aux attaques de zone du lanceur de 5 et la Haine de 5."
     },
     {
+      "key": "SK_MA_LW_JEDN_02",
+      "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente la MAGIE du lanceur de 20 % et son taux de perforation de la PSY de 10."
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur, puis inflige des dégâts (M) aux ennemis dans la zone autour du lanceur avec une chance élevée d'infliger un coup critique."
     },
@@ -20071,6 +20171,66 @@
     {
       "key": "SK_LW_EC_WHM_A_03B",
       "value": "Augmente considérablement la résistance aux malus de PSY, augmente la PSY, accorde Barrière aux alliés dans la zone autour du lanceur pendant 3 tours, et augmente les compétences de soin du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_JEDN_02",
+      "value": "Augmente la résistance aux attaques à cible unique et aux attaques tranchantes des alliés dans la zone autour du lanceur pendant 3 tours, érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques, et accorde un effet de réduction du taux de perforation de la résistance aux attaques tranchantes pendant 3 tours aux attaques du lanceur portées avec succès pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_ALIA",
+      "value": "Dissipe Bouclier de la cible, puis inflige des dégâts (M), Perforation, dissipe Booster et Restauration auto de PA, et réduit la résistance aux attaques projectiles pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_ALIA_EN_A_01B",
+      "value": "Dissipe Bouclier de la cible, puis inflige des dégâts (M), Perforation, dissipe Booster et Restauration auto de PA, et réduit la résistance aux attaques projectiles pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_SCAL",
+      "value": "Réduit la résistance à la foudre des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de foudre (L) qui dépendent de la MAGIE du lanceur et réduit les PA."
+    },
+    {
+      "key": "SK_LW_EC_BLM_A_06B",
+      "value": "Réduit la résistance à la foudre des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts de foudre (L) qui dépendent de la MAGIE du lanceur et réduit les PA."
+    },
+    {
+      "key": "SK_UES_LW_RARD",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L), réduit le taux de perforation de la DEF pendant 3 tours et augmente considérablement la DEF du lanceur pendant 1 tour."
+    },
+    {
+      "key": "SK_LW_EC_BEA_A_03B",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L), réduit le taux de perforation de la DEF pendant 3 tours et augmente considérablement la DEF du lanceur pendant 1 tour."
+    },
+    {
+      "key": "SK_UES_LW_GRSR_01",
+      "value": "Augmente le nombre d'utilisations d'aptitude de 1. Dissipe tous les bonus des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur et réduit la jauge de CT (M)."
+    },
+    {
+      "key": "SK_LW_EC_GRSR_01_A_01B",
+      "value": "Dissipe tous les bonus des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur et réduit la jauge de CT (M)."
+    },
+    {
+      "key": "SK_UES_LW_SHLS",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, réduit les CT (S), réduit la Portée de 1, réduit considérablement les attaques projectiles pendant 3 tours et accorde un effet de réduction de Anthropophage aux attaques physiques."
+    },
+    {
+      "key": "SK_LW_EC_DAC_C_03C",
+      "value": "Inflige des dégâts (M) aux unités dans la zone ciblée, réduit les CT (S), réduit la Portée de 1, réduit considérablement les attaques projectiles pendant 3 tours et accorde Anthropophage ↓ aux attaques physiques."
+    },
+    {
+      "key": "SK_UES_LW_RRIR",
+      "value": "Portée +1 et augmente le taux de précision et les dégâts critiques et accorde AGI ↓ pendant 3 tours aux coups critiques."
+    },
+    {
+      "key": "SK_LW_EC_HUN_C_10C",
+      "value": "Portée +1 et augmente le taux de précision et les dégâts critiques et accorde AGI ↓ pendant 3 tours aux coups critiques."
+    },
+    {
+      "key": "SK_UES_LW_VADM",
+      "value": "Déplacement +1, augmente l'AGI et la résistance aux attaques perçantes et magiques, et réduit la Haine."
+    },
+    {
+      "key": "SK_LW_EC_THI_C_04C",
+      "value": "Déplacement +1, augmente l'AGI et la résistance aux attaques perçantes et magiques, et réduit la Haine."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -22351,6 +22511,10 @@
     {
       "key": "SK_ACC_LW_RUFF_1",
       "value": "Augmente les PV max du lanceur pendant 3 tours et restaure la différence, et augmente les attaques sautées de 1."
+    },
+    {
+      "key": "SK_ACC_LW_JEDN_02_1",
+      "value": "Augmente considérablement la MAGIE des alliés dans la zone autour du lanceur pendant 3 tours."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -35249,6 +35413,26 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SPE_028_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_028_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_028_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_028_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_028_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FIS_016_2",
       "value": ""
     },
@@ -35294,6 +35478,38 @@
     },
     {
       "key": "SK_LW_KAT_004_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_025_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_025_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_025_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_025_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_012_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_012_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_012_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_012_5",
       "value": ""
     },
     {

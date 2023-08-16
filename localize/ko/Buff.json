@@ -1513,6 +1513,30 @@
       "value": " 감소 해제"
     },
     {
+      "key": "BUFF_ReduceDmgDistFar",
+      "value": "멀수록"
+    },
+    {
+      "key": "BUFF_ReduceDmgDistNear",
+      "value": "가까울수록"
+    },
+    {
+      "key": "BUFF_ReduceDmgDistUp",
+      "value": "감소"
+    },
+    {
+      "key": "BUFF_ReduceDmgDistDown",
+      "value": "증가"
+    },
+    {
+      "key": "BUFF_ReleaseReduceDmgDistUp",
+      "value": "감소 해제"
+    },
+    {
+      "key": "BUFF_ReleaseReduceDmgDistDown",
+      "value": "증가 해제"
+    },
+    {
       "key": "BUFFHEAL_Hp",
       "value": "HP 회복"
     },
@@ -1581,6 +1605,30 @@
       "value": "어시스트 인챈트"
     },
     {
+      "key": "BUFF_CondAreaBuff",
+      "value": "범위 버프"
+    },
+    {
+      "key": "BUFF_CondPhysicalDmgDown",
+      "value": "물리 피해량 감소"
+    },
+    {
+      "key": "BUFF_CondMagicalDmgDown",
+      "value": "마법 피해량 감소"
+    },
+    {
+      "key": "BUFF_CondUnBreakablePhyBarrier",
+      "value": "물리 보호막 파괴 불가"
+    },
+    {
+      "key": "BUFF_CondUnBreakableMagBarrier",
+      "value": "마법 보호막 파괴 불가"
+    },
+    {
+      "key": "BUFF_CondUnBreakableAllBarrier",
+      "value": "물리/마법 보호막 파괴 불가"
+    },
+    {
       "key": "BUFF_OtherAttackSkillRank",
       "value": "소환마법 레벨"
     },
@@ -1639,6 +1687,14 @@
     {
       "key": "BUFF_OtherDebuffRedRate",
       "value": "약화 저항률"
+    },
+    {
+      "key": "BUFF_OtherReducePhyDmgDist",
+      "value": "받은 물리 피해"
+    },
+    {
+      "key": "BUFF_OtherReduceMagDmgDist",
+      "value": "받은 마법 피해"
     },
     {
       "key": "BUFF_KillerElementPFire",
@@ -1741,6 +1797,18 @@
       "value": "마법 공격 시 ??? 킬러"
     },
     {
+      "key": "BUFF_KillerSpeciesReserve01",
+      "value": "레이드 보스 킬러"
+    },
+    {
+      "key": "BUFF_KillerSpeciesPReserve01",
+      "value": "물리 공격 시 레이드 보스 킬러"
+    },
+    {
+      "key": "BUFF_KillerSpeciesMReserve01",
+      "value": "마법 공격 시 레이드 보스 킬러"
+    },
+    {
       "key": "BUFF_KillerSpeciesDamageCognition",
       "value": "인지존재 고정 피해"
     },
@@ -1751,6 +1819,10 @@
     {
       "key": "BUFF_KillerSpeciesDamageUndefined",
       "value": "??? 고정 피해"
+    },
+    {
+      "key": "BUFF_KillerSpeciesDamageReserve01",
+      "value": "레이드 보스 고정 피해"
     },
     {
       "key": "BUFF_KillerBirthPUnknown",
@@ -2357,6 +2429,10 @@
       "value": "??? 저항력"
     },
     {
+      "key": "BUFF_ResistSpeciesReserve01",
+      "value": "레이드 보스 저항력"
+    },
+    {
       "key": "BUFF_ExeShield7",
       "value": "속성 보호막({0}에 약함)"
     },
@@ -2371,6 +2447,10 @@
     {
       "key": "BUFF_ExeMafuken3",
       "value": "마봉검({0}턴&{1}회)"
+    },
+    {
+      "key": "BUFF_DispAreaBuff",
+      "value": "범위 내 {0} 부여"
     },
     {
       "key": "BUFF_KillerBirthReserve02",
