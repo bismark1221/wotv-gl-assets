@@ -12669,6 +12669,26 @@
       "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et dissipe tous les bonus."
     },
     {
+      "key": "SK_SHIV_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_SHIV_01_M_01",
+      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur à la cible."
+    },
+    {
+      "key": "SK_SHIV_01_M_02",
+      "value": "Inflige des dégâts de glace (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit la PSY pendant 3 tours."
+    },
+    {
+      "key": "SK_SHIV_01_M_03",
+      "value": "Inflige des dégâts de glace (S) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et confère une chance d'infliger Silence et Gelure pendant 3 tours, et réduit la résistance aux attaques de zone pendant 3 tours."
+    },
+    {
+      "key": "SK_SHIV_01_M_04",
+      "value": "Inflige des dégâts de glace (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et réduit considérablement l'ATT et la MAGIE pendant 3 tours."
+    },
+    {
       "key": "SK_ODIN_ATK",
       "value": ""
     },
@@ -13387,6 +13407,18 @@
     {
       "key": "SK_CHCB2_M_03",
       "value": "Inflige des dégâts de vent (L) en 2 coups aux unités dans la zone ciblée et confère une chance d'infliger Étourdissement pendant 1 tour."
+    },
+    {
+      "key": "SK_CHCB2_M_01_B",
+      "value": ""
+    },
+    {
+      "key": "SK_CHCB2_M_02_B",
+      "value": ""
+    },
+    {
+      "key": "SK_CHCB2_M_03_B",
+      "value": ""
     },
     {
       "key": "SK_CHCB2_R_01",
@@ -15679,6 +15711,10 @@
     {
       "key": "SK_SMN_GRDM",
       "value": "Invoque Mégadémon, inflige des dégâts d'ombre (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, dissipe tous les bonus, et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités d'ombre, et réduit considérablement la résistance à l'ombre des ennemis)."
+    },
+    {
+      "key": "SK_SMN_SHIV_01",
+      "value": "Invoque Shiva obscure, inflige des dégâts de glace (MAX) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit considérablement l'ATT et la MAGIE pendant 3 tours, et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités de glace et réduit considérablement la résistance à la glace des ennemis)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -18625,6 +18661,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente la MAGIE du lanceur de 10 % et son AGI de 10 %."
     },
     {
+      "key": "SK_MA_LW_SLEN_2",
+      "value": "Augmente les PV max de 15 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente la MAGIE du lanceur de 20 %, son AGI de 10 %, son taux d'esquive de 10 et son taux de blocage de réaction de 30."
+    },
+    {
       "key": "SK_MA_LW_VERN",
       "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente le taux de perforation de la DEF du lanceur de 20."
     },
@@ -20233,6 +20273,22 @@
       "value": "Déplacement +1, augmente l'AGI et la résistance aux attaques perçantes et magiques, et réduit la Haine."
     },
     {
+      "key": "SK_UES_LW_MINU",
+      "value": "Restaure les PV (M) d'une unité alliée, augmente considérablement la résistance aux combos élémentaires, et augmente l'ATT, la MAGIE et l'AGI pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_01C",
+      "value": "Restaure les PV (M) d'une unité alliée, augmente considérablement la résistance aux combos élémentaires, et augmente l'ATT, la MAGIE et l'AGI pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_VERN",
+      "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (M)."
+    },
+    {
+      "key": "SK_LW_EC_LAN_C_09C",
+      "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (M)."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Attaque tranchante +2"
     },
@@ -20925,6 +20981,10 @@
       "value": ""
     },
     {
+      "key": "SK_LW_HAT_017_6",
+      "value": ""
+    },
+    {
       "key": "SK_LW_RNG_006_1",
       "value": ""
     },
@@ -21210,6 +21270,10 @@
     },
     {
       "key": "SK_LW_RNG_011_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_011_1_5",
       "value": ""
     },
     {
@@ -22279,6 +22343,14 @@
     {
       "key": "SK_BLT_LW_YERM_1_1_ARENA",
       "value": "Augmente considérablement l'ATT et le taux de précision du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_ACC_LW_BIGA_1_ARENA",
+      "value": "Accorde Bouclier au lanceur pendant 3 tours et confère une chance d'infliger Berserk pour les attaques réussies du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_ACC_LW_DARD_1_ARENA",
+      "value": "Pendant 3 tours, accorde Bravoure ↓ pendant 3 tours lorsqu'une attaque est portée avec succès."
     },
     {
       "key": "SK_SWO_LW_ADLD_1_1",
@@ -24954,6 +25026,102 @@
     },
     {
       "key": "SK_GL_VC_LW_GRDM_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SHIV_01_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SHIV_01_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SHIV_01_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_PMAX_2",
       "value": ""
     },
     {
@@ -34449,6 +34617,10 @@
       "value": ""
     },
     {
+      "key": "SK_GL_LW_SWO_031_1",
+      "value": ""
+    },
+    {
       "key": "SK_LW_BOK_007",
       "value": ""
     },
@@ -35193,6 +35365,10 @@
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
+      "key": "SK_LW_PLUS6_DEFPIERCE_30",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
       "key": "SK_LW_PLUS6_REACTSTP_30",
       "value": "Aptitude spécifique de l'équipement +6"
     },
@@ -35282,6 +35458,10 @@
     },
     {
       "key": "SK_LW_PLUS6_DEMONKR_50",
+      "value": "Aptitude spécifique de l'équipement +6"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_SINGLE_8",
       "value": "Aptitude spécifique de l'équipement +6"
     },
     {
@@ -36481,6 +36661,30 @@
       "value": ""
     },
     {
+      "key": "SK_LW_ACC_057",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_ACC_037_1_S",
       "value": ""
     },
@@ -36959,6 +37163,10 @@
     {
       "key": "SK_MBAT_M_03",
       "value": "Après déplacement jusqu'à la case ciblée, inflige des dégâts (S) à la cible, et absorbe les PT de la cible."
+    },
+    {
+      "key": "SK_MBAT_M_03_B",
+      "value": "Après déplacement jusqu'à la case ciblée, inflige des dégâts (S) à la cible, et absorbe les PT de la cible (quantité absorbée ajustée)."
     },
     {
       "key": "SK_MBAT_M_04",

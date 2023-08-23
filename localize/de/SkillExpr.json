@@ -12669,6 +12669,26 @@
       "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (L) zu und entfernt alle Stärkungen."
     },
     {
+      "key": "SK_SHIV_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_SHIV_01_M_01",
+      "value": "Fügt dem Ziel MAG-abhängigen Eisschaden (S) zu."
+    },
+    {
+      "key": "SK_SHIV_01_M_02",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (M) zu und senkt 3 Runden lang PSY."
+    },
+    {
+      "key": "SK_SHIV_01_M_03",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (S) zu, gewährt Chance auf Wirken von 3 Runden andauernder Stille und Erfrierung und senkt 3 Runden lang Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_SHIV_01_M_04",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Eisschaden (L) zu und senkt 3 Runden lang ANG und MAG erheblich."
+    },
+    {
       "key": "SK_ODIN_ATK",
       "value": ""
     },
@@ -13387,6 +13407,18 @@
     {
       "key": "SK_CHCB2_M_03",
       "value": "Fügt Zielen in Reichweite 2-mal hintereinander Windschaden (L) zu und gewährt Chance auf Wirken von 1 Runde andauernder Betäubung."
+    },
+    {
+      "key": "SK_CHCB2_M_01_B",
+      "value": ""
+    },
+    {
+      "key": "SK_CHCB2_M_02_B",
+      "value": ""
+    },
+    {
+      "key": "SK_CHCB2_M_03_B",
+      "value": ""
     },
     {
       "key": "SK_CHCB2_R_01",
@@ -15679,6 +15711,10 @@
     {
       "key": "SK_SMN_GRDM",
       "value": "Ruft Großer Dämon, fügt Zielen in Reichweite MAG-abhängigen Dunkelschaden (L) zu, entfernt alle Stärkungen und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit stärkerem Effekt für Dunkeleinheiten, erhebliche Dunkelresistenz-Senkung für Gegner)."
+    },
+    {
+      "key": "SK_SMN_SHIV_01",
+      "value": "Ruft Dunkel-Shiva, fügt Zielen in Reichweite MAG-abhängigen Eisschaden (maximal) zu, senkt 3 Runden lang ANG und MAG erheblich und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit stärkerem Effekt für Eiseinheiten, erhebliche Eisresistenz-Senkung für Gegner)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -18625,6 +18661,10 @@
       "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene MAG +10 % und AGI +10 %"
     },
     {
+      "key": "SK_MA_LW_SLEN_2",
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene MAG<br>+20 %, AGI +10 %, Ausweichrate +10 und Reaktionsblockrate +30"
+    },
+    {
       "key": "SK_MA_LW_VERN",
       "value": "LP-Maximum +10 % und Blitzangriff +15 für verbündete Blitzeinheiten, eigene ABW-Durchbohrrate +20"
     },
@@ -20233,6 +20273,22 @@
       "value": "Bewegung +1, erhöht AGI, Schlitzangriffs- und Magieangriffsresistenz und senkt Hass."
     },
     {
+      "key": "SK_UES_LW_MINU",
+      "value": "Heilt LP (M) eines Verbündeten, erhöht Elementarkettenresistenz erheblich und erhöht 3 Runden lang ANG, MAG und AGI."
+    },
+    {
+      "key": "SK_LW_EC_SCR_C_01C",
+      "value": "Heilt LP (M) eines Verbündeten, erhöht Elementarkettenresistenz erheblich und erhöht 3 Runden lang ANG, MAG und AGI."
+    },
+    {
+      "key": "SK_UES_LW_VERN",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels und fügt anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_EC_LAN_C_09C",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels und fügt anschließend Schaden (M) zu."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -20925,6 +20981,10 @@
       "value": ""
     },
     {
+      "key": "SK_LW_HAT_017_6",
+      "value": ""
+    },
+    {
       "key": "SK_LW_RNG_006_1",
       "value": ""
     },
@@ -21210,6 +21270,10 @@
     },
     {
       "key": "SK_LW_RNG_011_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_011_1_5",
       "value": ""
     },
     {
@@ -22279,6 +22343,14 @@
     {
       "key": "SK_BLT_LW_YERM_1_1_ARENA",
       "value": "Erhöht 3 Runden lang eigenen ANG und Präzision erheblich."
+    },
+    {
+      "key": "SK_ACC_LW_BIGA_1_ARENA",
+      "value": "Wirkt 3 Runden lang Protes auf sich selbst und gewährt eigenen erfolgreichen Angriffen die Chance auf Wirken von 3 Runden andauerndem Berserker."
+    },
+    {
+      "key": "SK_ACC_LW_DARD_1_ARENA",
+      "value": "Gewährt eigenen erfolgreichen Angriffen 3 Runden lang Courage-Senkung für 3 Runden."
     },
     {
       "key": "SK_SWO_LW_ADLD_1_1",
@@ -24954,6 +25026,102 @@
     },
     {
       "key": "SK_GL_VC_LW_GRDM_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHIV_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SHIV_01_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SHIV_01_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SHIV_01_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SLEN2_PMAX_2",
       "value": ""
     },
     {
@@ -34449,6 +34617,10 @@
       "value": ""
     },
     {
+      "key": "SK_GL_LW_SWO_031_1",
+      "value": ""
+    },
+    {
       "key": "SK_LW_BOK_007",
       "value": ""
     },
@@ -35193,6 +35365,10 @@
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {
+      "key": "SK_LW_PLUS6_DEFPIERCE_30",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
       "key": "SK_LW_PLUS6_REACTSTP_30",
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
@@ -35282,6 +35458,10 @@
     },
     {
       "key": "SK_LW_PLUS6_DEMONKR_50",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_SINGLE_8",
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {
@@ -36481,6 +36661,30 @@
       "value": ""
     },
     {
+      "key": "SK_LW_ACC_057",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_057_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_ACC_037_1_S",
       "value": ""
     },
@@ -36959,6 +37163,10 @@
     {
       "key": "SK_MBAT_M_03",
       "value": "Fügt dem Ziel nach Bewegung auf Zielfeld Schaden (S) zu und absorbiert TP des Ziels."
+    },
+    {
+      "key": "SK_MBAT_M_03_B",
+      "value": "Fügt dem Ziel nach Bewegung auf Zielfeld Schaden (S) zu und absorbiert TP des Ziels - Absorbierte Menge angepasst."
     },
     {
       "key": "SK_MBAT_M_04",
