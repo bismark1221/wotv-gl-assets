@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 0,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -31,6 +33,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -75,6 +82,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -111,6 +123,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -155,6 +172,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -191,6 +213,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -235,6 +262,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -275,6 +307,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -311,6 +348,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -357,6 +399,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -384,6 +431,8 @@
       "crystal": "",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -400,7 +449,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -427,6 +477,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -458,6 +513,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -545,7 +602,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -572,6 +630,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -603,6 +666,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -690,7 +755,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -717,6 +783,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -748,6 +819,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -835,7 +908,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -862,6 +936,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -893,6 +972,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -980,7 +1061,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1007,6 +1089,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1038,6 +1125,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1125,7 +1214,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1152,6 +1242,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1183,6 +1278,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1270,7 +1367,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1297,6 +1395,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1328,6 +1431,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1415,7 +1520,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1442,6 +1548,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1473,6 +1584,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1560,7 +1673,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1587,6 +1701,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1618,6 +1737,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1705,7 +1826,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1732,6 +1854,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1763,6 +1890,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1850,7 +1979,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "ROBB",
@@ -1877,6 +2007,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1908,6 +2043,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -2035,7 +2172,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -2097,7 +2235,8 @@
       "mapEv": {
         "type": 1,
         "typeval": "string={\"Datas\":[{\"Type\":6,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MoveType\\\":0,\\\"m_CameraPosName\\\":\\\"\\\",\\\"m_CameraLookAtName\\\":\\\"camera_target\\\",\\\"m_AnmCurve\\\":{\\\"serializedVersion\\\":\\\"2\\\",\\\"m_Curve\\\":[],\\\"m_PreInfinity\\\":2,\\\"m_PostInfinity\\\":2,\\\"m_RotationOrder\\\":4},\\\"m_AnmCurveTime\\\":0.0}\"},{\"Type\":1,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_ObjectName\\\":\\\"gimmick\\\",\\\"m_AnmName\\\":\\\"sub_door\\\"}\"},{\"Type\":5,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_Range\\\":[{\\\"x\\\":6,\\\"y\\\":6},{\\\"x\\\":6,\\\"y\\\":7}],\\\"m_Immediate\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"lio_cag_001_A_1_subopen\\\",\\\"m_IsDelete\\\":true}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"\\\",\\\"m_IsDelete\\\":false}\"}],\"ReactionSide\":0};local=",
-        "isUnitNoAct": false
+        "isUnitNoAct": false,
+        "isAvoidAuto": false
       },
       "invokeMax": 1,
       "deadTags": [],
@@ -2115,6 +2254,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -2124,6 +2264,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -2140,6 +2281,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -2149,6 +2291,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -2165,6 +2308,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALL_3",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 275
@@ -2174,6 +2318,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALL_4",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 275
@@ -2183,6 +2328,7 @@
             "type": 0,
             "iname": "IT_JB_MM_PLD_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2192,6 +2338,7 @@
             "type": 0,
             "iname": "IT_JB_MM_PLD_4",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2201,6 +2348,7 @@
             "type": 0,
             "iname": "IT_JB_MM_MGK_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2210,6 +2358,7 @@
             "type": 0,
             "iname": "IT_JB_MM_MGK_4",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2219,6 +2368,7 @@
             "type": 0,
             "iname": "IT_JB_MM_BEA_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2228,6 +2378,7 @@
             "type": 0,
             "iname": "IT_JB_MM_BEA_4",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2237,6 +2388,7 @@
             "type": 0,
             "iname": "IT_JB_MM_LW_DEAN_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2246,6 +2398,7 @@
             "type": 0,
             "iname": "IT_JB_MM_LW_DEAN_4",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2255,6 +2408,7 @@
             "type": 0,
             "iname": "IT_JB_MM_GRSR_02_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2264,6 +2418,27 @@
             "type": 0,
             "iname": "IT_JB_MM_GRSR_02_4",
             "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 28
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_GRSR_03_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 28
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_GRSR_03_4",
+            "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 28
@@ -2273,6 +2448,7 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 0
@@ -2282,6 +2458,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_LIQUID_02",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 550
@@ -2291,6 +2468,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SAP_03",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 550
@@ -2300,6 +2478,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_WING_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 550
@@ -2309,6 +2488,7 @@
             "type": 0,
             "iname": "IT_AF_LW_NKN_002",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 140
@@ -2318,6 +2498,7 @@
             "type": 0,
             "iname": "IT_AF_LW_BOK_002",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 140
@@ -2327,6 +2508,7 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 0
@@ -2336,6 +2518,7 @@
             "type": 0,
             "iname": "IT_JB_AXE_03",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 600
@@ -2345,6 +2528,7 @@
             "type": 0,
             "iname": "IT_JB_AXE_04",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 600
@@ -2354,6 +2538,7 @@
             "type": 0,
             "iname": "IT_JB_JSWORD_03",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 600
@@ -2363,6 +2548,7 @@
             "type": 0,
             "iname": "IT_JB_JSWORD_04",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 600
@@ -2372,6 +2558,7 @@
             "type": 0,
             "iname": "IT_JB_EM_WATER_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 600
@@ -2381,6 +2568,7 @@
             "type": 0,
             "iname": "IT_JB_EM_WATER_4",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 600
@@ -2390,6 +2578,7 @@
             "type": 0,
             "iname": "IT_JB_IM_DRAGON_3",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 125
@@ -2399,6 +2588,7 @@
             "type": 0,
             "iname": "IT_JB_IM_DRAGON_4",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 125
@@ -2408,9 +2598,10 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
-          "weight": 3390
+          "weight": 3334
         }
       ]
     }
