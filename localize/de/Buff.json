@@ -1514,26 +1514,34 @@
     },
     {
       "key": "BUFF_ReduceDmgDistFar",
-      "value": ""
+      "value": "Entfernungsbasierter"
     },
     {
       "key": "BUFF_ReduceDmgDistNear",
-      "value": ""
+      "value": "Nähebasierter"
     },
     {
       "key": "BUFF_ReduceDmgDistUp",
-      "value": ""
+      "value": "reduziert"
     },
     {
       "key": "BUFF_ReduceDmgDistDown",
-      "value": ""
+      "value": "erhöht"
     },
     {
       "key": "BUFF_ReleaseReduceDmgDistUp",
-      "value": ""
+      "value": "reduziert (Aufhebung)"
     },
     {
       "key": "BUFF_ReleaseReduceDmgDistDown",
+      "value": "erhöht (Aufhebung)"
+    },
+    {
+      "key": "BUFF_StrengthSumRateDown",
+      "value": ""
+    },
+    {
+      "key": "BUFF_ResistSumRateDown",
       "value": ""
     },
     {
@@ -1606,27 +1614,35 @@
     },
     {
       "key": "BUFF_CondAreaBuff",
-      "value": ""
+      "value": "Bereichserweiterung"
     },
     {
       "key": "BUFF_CondPhysicalDmgDown",
-      "value": ""
+      "value": "Physischer Schaden-Senkung"
     },
     {
       "key": "BUFF_CondMagicalDmgDown",
-      "value": ""
+      "value": "Magischer Schaden-Senkung"
     },
     {
       "key": "BUFF_CondUnBreakablePhyBarrier",
-      "value": ""
+      "value": "Physische Barriere unzerstörbar"
     },
     {
       "key": "BUFF_CondUnBreakableMagBarrier",
-      "value": ""
+      "value": "Magische Barriere unzerstörbar"
     },
     {
       "key": "BUFF_CondUnBreakableAllBarrier",
-      "value": ""
+      "value": "Physische/magische Barriere unzerstörbar"
+    },
+    {
+      "key": "BUFF_CondReducePhyDmgArea",
+      "value": "Physischer Schaden-Senkung für größeren Angriffsbereich"
+    },
+    {
+      "key": "BUFF_CondReduceMagDmgArea",
+      "value": "Magischer Schaden-Senkung für größeren Angriffsbereich"
     },
     {
       "key": "BUFF_OtherAttackSkillRank",
@@ -1690,11 +1706,11 @@
     },
     {
       "key": "BUFF_OtherReducePhyDmgDist",
-      "value": ""
+      "value": "physischer Schaden"
     },
     {
       "key": "BUFF_OtherReduceMagDmgDist",
-      "value": ""
+      "value": "magischer Schaden"
     },
     {
       "key": "BUFF_KillerElementPFire",
