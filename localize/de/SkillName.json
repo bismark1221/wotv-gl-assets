@@ -11713,6 +11713,90 @@
       "value": "AP-Angriff-Ausweichrate erhöht (1 bis 999)"
     },
     {
+      "key": "SK_LW_BFM_ATK",
+      "value": "Normaler Angriff"
+    },
+    {
+      "key": "SK_LW_BFM_M_1",
+      "value": "Ritus der Flucht"
+    },
+    {
+      "key": "SK_LW_BFM_M_2",
+      "value": "Göttliche Strafe"
+    },
+    {
+      "key": "SK_LW_BFM_M_3",
+      "value": "Zweifacher Segen"
+    },
+    {
+      "key": "SK_LW_BFM_S_1_INIT",
+      "value": "Anrufung"
+    },
+    {
+      "key": "SK_LW_BFM_ICE_S_2_INIT",
+      "value": "Eisreinigung"
+    },
+    {
+      "key": "SK_LW_BFM_S_3",
+      "value": "Göttliche Anrufung"
+    },
+    {
+      "key": "SK_LW_BFM_S_4",
+      "value": "Himmlischer Zweiklang"
+    },
+    {
+      "key": "SK_LW_BFM_R_1",
+      "value": "Schutzsagung"
+    },
+    {
+      "key": "SK_LW_BFM_P_1",
+      "value": "Schutzgewand"
+    },
+    {
+      "key": "SK_LW_BFM_P_2",
+      "value": "Intuition der betenden Intrigantin"
+    },
+    {
+      "key": "SK_LW_EC_BFM_A_01",
+      "value": "Belebendes Gebet"
+    },
+    {
+      "key": "SK_LW_EC_BFM_C_01",
+      "value": "Ritus der Flucht (verstärkt)"
+    },
+    {
+      "key": "SK_LW_EC_BFM_C_01B",
+      "value": "Ritus des Schutzes"
+    },
+    {
+      "key": "SK_LW_EC_BFM_C_02",
+      "value": "Schutzsagung (verstärkt)"
+    },
+    {
+      "key": "SK_LW_EC_BFM_C_02B",
+      "value": "Schutztalisman"
+    },
+    {
+      "key": "SK_LW_BFM_S_1",
+      "value": "Anrufung"
+    },
+    {
+      "key": "SK_LW_BFM_ICE_S_2",
+      "value": "Eisreinigung"
+    },
+    {
+      "key": "SK_LW_BFM_M_1_SUB",
+      "value": "Ritus der Flucht"
+    },
+    {
+      "key": "SK_LW_BFM_M_2_SUB",
+      "value": "Göttliche Strafe"
+    },
+    {
+      "key": "SK_LW_BFM_M_3_SUB",
+      "value": "Zweifacher Segen"
+    },
+    {
       "key": "SK_LW_WAR_ATK_100",
       "value": "Normaler Angriff"
     },
@@ -15009,10 +15093,6 @@
       "value": "Prestige"
     },
     {
-      "key": "SK_LB_LW_ROBB_B",
-      "value": "Prestige +"
-    },
-    {
       "key": "SK_LB_LW_ENBT",
       "value": "Beständige Tapferkeit"
     },
@@ -15031,10 +15111,6 @@
     {
       "key": "SK_LB_LW_MRND",
       "value": "Purpurner Sturm"
-    },
-    {
-      "key": "SK_LB_LW_MRND_B",
-      "value": "Purpurner Sturm +"
     },
     {
       "key": "SK_LB_LW_AILN",
@@ -15071,10 +15147,6 @@
     {
       "key": "SK_LB_LW_GLMS",
       "value": "Blitz"
-    },
-    {
-      "key": "SK_LB_LW_GLMS_B",
-      "value": "Blitz +"
     },
     {
       "key": "SK_LB_LW_KTON",
@@ -15665,6 +15737,10 @@
       "value": "Sphaera Historia"
     },
     {
+      "key": "SK_LB_LW_CHRZ",
+      "value": "Strippenzieherin"
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Schicksalskreuz"
     },
@@ -15705,6 +15781,18 @@
       "value": "Nixentanz"
     },
     {
+      "key": "SK_LB_LW_ROBB_B",
+      "value": "Prestige"
+    },
+    {
+      "key": "SK_LB_LW_GLMS_B",
+      "value": "Blitz"
+    },
+    {
+      "key": "SK_LB_LW_MRND_B",
+      "value": "Purpurner Sturm"
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Schicksalskreuz (verstärkt)"
     },
@@ -15739,6 +15827,18 @@
     {
       "key": "SK_LB_LW_HLNA_02_B_CH",
       "value": "Nixentanz (verstärkt)"
+    },
+    {
+      "key": "SK_LB_LW_ROBB_B_CH",
+      "value": "Prestige (verstärkt)"
+    },
+    {
+      "key": "SK_LB_LW_GLMS_B_CH",
+      "value": "Blitz (verstärkt)"
+    },
+    {
+      "key": "SK_LB_LW_MRND_B_CH",
+      "value": "Purpurner Sturm (verstärkt)"
     },
     {
       "key": "SK_SMN_IFRT",
@@ -19269,7 +19369,15 @@
       "value": "Meisterfähigkeit"
     },
     {
+      "key": "SK_MA_LW_ALIA_2",
+      "value": "Meisterfähigkeit"
+    },
+    {
       "key": "SK_MA_LW_URAL",
+      "value": "Meisterfähigkeit"
+    },
+    {
+      "key": "SK_MA_LW_URAL_2",
       "value": "Meisterfähigkeit"
     },
     {
@@ -19406,6 +19514,10 @@
     },
     {
       "key": "SK_MA_LW_ALIA_01",
+      "value": "Meisterfähigkeit"
+    },
+    {
+      "key": "SK_MA_LW_CHRZ",
       "value": "Meisterfähigkeit"
     },
     {
@@ -20657,6 +20769,46 @@
       "value": "Schutzhastka"
     },
     {
+      "key": "SK_UES_LW_CHRZ",
+      "value": "Passive Fähigkeit (nur Wiedergeburt, Sherza)"
+    },
+    {
+      "key": "SK_LW_EC_BFM_C_01C",
+      "value": "Ritus des Schutzes"
+    },
+    {
+      "key": "SK_UES_LW_RYEL",
+      "value": "Passive Fähigkeit (nur Wiedergeburt, Luëlle)"
+    },
+    {
+      "key": "SK_LW_EC_LIB_C_01C",
+      "value": "Irdene Anrufung"
+    },
+    {
+      "key": "SK_UES_LW_ORDR",
+      "value": "Passive Fähigkeit (nur Wiedergeburt, Oldoa)"
+    },
+    {
+      "key": "SK_LW_EC_SWN_A_02B",
+      "value": "AP entreißen"
+    },
+    {
+      "key": "SK_UES_LW_CWEL",
+      "value": "Passive Fähigkeit (nur Wiedergeburt, Corwell)"
+    },
+    {
+      "key": "SK_LW_EC_ARC_A_02B",
+      "value": "Unfehlbarer Pfeil"
+    },
+    {
+      "key": "SK_UES_LW_VLUC",
+      "value": "Passive Fähigkeit (nur Wiedergeburt, Valoush)"
+    },
+    {
+      "key": "SK_LW_EC_MSM_C_01C",
+      "value": "Belebende Barriere"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitzangriff +2"
     },
@@ -20819,6 +20971,10 @@
     {
       "key": "SK_LW_MAGICPOW_4_UR",
       "value": "MAG +20"
+    },
+    {
+      "key": "SK_LW_MAGICPOW_5",
+      "value": "MAG +25"
     },
     {
       "key": "SK_LW_MAGICPOW_5_UR",
@@ -21131,6 +21287,10 @@
     {
       "key": "SK_LW_DFRANGE_5",
       "value": "Ab Kampfbeginn 3 Runden lang Bereichangriffsresistenz +10"
+    },
+    {
+      "key": "SK_LW_DFRANGE_6",
+      "value": "Ab Kampfbeginn 4 Runden lang Bereichangriffsresistenz +10"
     },
     {
       "key": "SK_LW_DF_DARK_1",
@@ -21502,6 +21662,10 @@
     },
     {
       "key": "SK_LW_RNG_007_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_007_1_5",
       "value": ""
     },
     {
@@ -22963,6 +23127,10 @@
     {
       "key": "SK_ACC_LW_ALIA_01_1",
       "value": "Verführerischer Geruch"
+    },
+    {
+      "key": "SK_CLT_LW_CHRZ_1",
+      "value": "Nektar des Dämonenstamms"
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -25602,6 +25770,54 @@
     },
     {
       "key": "SK_GL_VC_LW_SIRE_01_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ALIA_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_01_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_01_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ALIA_01_PMAX2",
       "value": ""
     },
     {
@@ -33289,6 +33505,10 @@
       "value": "Elementare Kettenverlängerung-Annullierung"
     },
     {
+      "key": "SK_BTL_INV_EXT_ECHAIN2",
+      "value": "Kettenverlängerung (Elementar/Angriff)"
+    },
+    {
       "key": "SK_BTL_AP_LESS_1_100_U",
       "value": "AP-Verbrauch-Reduzierung erhöht (1 bis 100)"
     },
@@ -33439,6 +33659,10 @@
     {
       "key": "SK_GMK_ATK_DARK_2",
       "value": "Dunkler Fleck"
+    },
+    {
+      "key": "SK_GMK_ATK_MIRR",
+      "value": "Reflektierender Spiegel"
     },
     {
       "key": "SK_LW_WAR_P_2",
@@ -36545,6 +36769,30 @@
       "value": "Passive Fähigkeit (nur Walhaar)"
     },
     {
+      "key": "SK_LW_ROD_038_1",
+      "value": "Passive Fähigkeit (nur Stab des Dämonenstamms)"
+    },
+    {
+      "key": "SK_LW_ROD_038_2",
+      "value": "Passive Fähigkeit (nur Stab des Dämonenstamms)"
+    },
+    {
+      "key": "SK_LW_ROD_038_3",
+      "value": "Passive Fähigkeit (nur Stab des Dämonenstamms)"
+    },
+    {
+      "key": "SK_LW_ROD_038_4",
+      "value": "Passive Fähigkeit (nur Stab des Dämonenstamms)"
+    },
+    {
+      "key": "SK_LW_ROD_038_5",
+      "value": "Passive Fähigkeit (nur Stab des Dämonenstamms)"
+    },
+    {
+      "key": "SK_LW_ROD_038_5_B",
+      "value": "AZ-Erhöhung (S) ({0} Mal), wenn unter 20 % der LP"
+    },
+    {
       "key": "SK_LW_BOW_017_SHLS_1",
       "value": ""
     },
@@ -37298,6 +37546,10 @@
     },
     {
       "key": "SK_LW_ACC_078_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_078_6",
       "value": ""
     },
     {
