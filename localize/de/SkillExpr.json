@@ -11797,6 +11797,90 @@
       "value": "Wirkt 3 Runden lang Regena auf bis zu 2 Ziele und zusätzlicher Effekt: Erhöht physischen und magischen Schaden, während Regena aktiv ist."
     },
     {
+      "key": "SK_LW_AXG_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXG_M_1",
+      "value": "Entfernt Schutzengel vom Ziel, fügt ihm anschließend Schaden (M) zu und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LW_AXG_M_2",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge physischen Schaden abwehrt, und erhöht 3 Runden lang ANG und AGI."
+    },
+    {
+      "key": "SK_LW_AXG_M_3",
+      "value": "Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Schlaf mit höherem Schaden, je mehr Ziele (normaler Schaden bei 3 oder mehr Zielen)."
+    },
+    {
+      "key": "SK_LW_AXG_S_1_INIT",
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten des Ziels erheblich und fügt anschließend Schaden (S) zu."
+    },
+    {
+      "key": "SK_LW_AXG_S_2_INIT",
+      "value": "Erhöht 3 Runden lang ABW, Hiebresistenz und Elementarkettenresistenz von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_LW_AXG_S_3",
+      "value": "Fügt nach Bewegung auf Zielfeld Zielen im Bereich um Wirkenden Schaden (M) zu und erhöht 3 Runden lang AP-Verbrauch."
+    },
+    {
+      "key": "SK_LW_AXG_S_4",
+      "value": "Heilt festgelegten Anteil der eigenen LP (S) und entfernt Gift, Erfrierung, Blind, Stille, Lähmung und Immobilisierung."
+    },
+    {
+      "key": "SK_LW_AXG_R_1",
+      "value": "Gewährt Chance bei Erleiden von Schaden die Bereichangriffsresistenz von Verbündeten im Bereich um Wirkenden 1 Runde lang erheblich zu erhöhen."
+    },
+    {
+      "key": "SK_LW_AXG_P_1",
+      "value": "Erhöht ANG und senkt AP-Verbrauch."
+    },
+    {
+      "key": "SK_LW_AXG_P_2",
+      "value": "Erhöht LP-Maximum und Elementarkettenresistenz."
+    },
+    {
+      "key": "SK_LW_AXG_S_1",
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten des Ziels erheblich und fügt anschließend Schaden (S) zu."
+    },
+    {
+      "key": "SK_LW_AXG_S_2",
+      "value": "Erhöht 3 Runden lang ABW, Hiebresistenz und Elementarkettenresistenz von Verbündeten im Bereich um Wirkenden."
+    },
+    {
+      "key": "SK_LW_AXG_M_1_SUB",
+      "value": "Entfernt Schutzengel vom Ziel, fügt ihm anschließend Schaden (M) zu und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LW_AXG_M_2_SUB",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge physischen Schaden abwehrt, und erhöht 3 Runden lang ANG und AGI."
+    },
+    {
+      "key": "SK_LW_AXG_M_3_SUB",
+      "value": "Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Schlaf mit höherem Schaden, je mehr Ziele (normaler Schaden bei 3 oder mehr Zielen)."
+    },
+    {
+      "key": "SK_LW_EC_AXG_A_01",
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt anschließend bis zu 2 Zielen Schaden (M) zu und senkt AZ (M)."
+    },
+    {
+      "key": "SK_LW_EC_AXG_C_01",
+      "value": "Verstärkt Schlafschwung zu Schlafschlag. Erhöht Aktivierungschance von Schlaf und senkt AP-Verbrauch. Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Schlaf mit höherem Schaden, je mehr Ziele (normaler Schaden bei 3 oder mehr Zielen)."
+    },
+    {
+      "key": "SK_LW_EC_AXG_C_01B",
+      "value": "Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Schlaf mit höherem Schaden, je mehr Ziele (normaler Schaden bei 3 oder mehr Zielen)."
+    },
+    {
+      "key": "SK_LW_EC_AXG_C_02",
+      "value": "Verstärkt Ritterlicher Ehrgeiz zu Ritterliche Hingabe. Erhöht LP-Maximum, Elementarkettenresistenz und Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_EC_AXG_C_02B",
+      "value": "Erhöht LP-Maximum, Elementarkettenresistenz und Bereichangriffsresistenz."
+    },
+    {
       "key": "SK_LW_WAR_ATK_100",
       "value": ""
     },
@@ -15741,6 +15825,10 @@
       "value": "Ermöglicht Wirkendem und einem Verbündeten, einmal einen tödlichen Treffer zu überleben und senkt Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden"
     },
     {
+      "key": "SK_LB_LW_GRFD",
+      "value": "Senkt 3 Runden lang Bereichangriffsresistenz von Zielen in Reichweite und fügt anschließend 2 Mal hintereinander Schaden (L) zu."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Fügt Zielen in Reichweite Schaden (L) zu, erhöht eigene AZ (M), senkt 3 Runden lang AP-Verbrauch und heilt bei Erleiden von Schaden (1 Mal) festgelegten Anteil der eigenen LP (M), wenn LP unter 50 % sinken."
     },
@@ -19521,6 +19609,10 @@
       "value": "LP-Maximum +10 % und Feuerangriff +15 für verbündete Feuereinheiten, eigener Hass -3 und Kritische Ausweichrate +15"
     },
     {
+      "key": "SK_MA_LW_GRFD",
+      "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigenes LP-Maximum +10 % und ABW +10"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Erhöht eigene Schlitzresistenz-Durchbohrrate und fügt anschließend Gegnern im Bereich um Wirkenden Schaden (M) zu mit hoher Wahrscheinlichkeit auf kritische Treffer."
     },
@@ -20809,6 +20901,14 @@
       "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge Schaden abwehrt, erhöht 3 Runden lang Schlitzresistenz-Durchbohrrate, wirkt Regena und zusätzlicher Effekt: Erhöht Elementarkettenresistenz erheblich, während Regena aktiv ist."
     },
     {
+      "key": "SK_UES_LW_GRFD",
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt anschließend bis zu 2 Zielen Schaden (M) zu, senkt AZ (M) und erhöht Wahrscheinlichkeit, selbst Ziel von Angriffen zu werden."
+    },
+    {
+      "key": "SK_LW_EC_AXG_A_01B",
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt anschließend bis zu 2 Zielen Schaden (M) zu, senkt AZ (M) und erhöht Wahrscheinlichkeit, selbst Ziel von Angriffen zu werden."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -21662,10 +21762,6 @@
     },
     {
       "key": "SK_LW_RNG_007_5",
-      "value": ""
-    },
-    {
-      "key": "SK_LW_RNG_007_1_5",
       "value": ""
     },
     {
@@ -23131,6 +23227,10 @@
     {
       "key": "SK_CLT_LW_CHRZ_1",
       "value": "Erhöht Elementarkettenresistenz von Verbündeten in Reichweite und annulliert 3 Runden lang Erfrierung, Blind und Lähmung."
+    },
+    {
+      "key": "SK_ACC_LW_GRFD_1",
+      "value": "Erhöht 3 Runden lang Eis- und Windresistenz von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigenen ANG."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -25818,6 +25918,54 @@
     },
     {
       "key": "SK_GL_VC_LW_ALIA_01_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VLUC_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VLUC_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VLUC_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VLUC_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VLUC_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VLUC_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VLUC_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VLUC_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VLUC_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_VLUC_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_VLUC_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_VLUC_PMAX2",
       "value": ""
     },
     {
@@ -32525,6 +32673,10 @@
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
     {
+      "key": "SK_BTL_ATCASTTIME_1_999_D",
+      "value": "Fähigkeit zur Auftragsausbalancierung"
+    },
+    {
       "key": "SK_BTL_RES_DEBUFF_1_100_U",
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
@@ -35873,6 +36025,10 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SPE_022_6",
+      "value": ""
+    },
+    {
       "key": "SK_LW_SPE_027_1_1",
       "value": ""
     },
@@ -36457,6 +36613,58 @@
       "value": ""
     },
     {
+      "key": "SK_LW_AXE_015_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_015_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_016_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_016_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_016_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_016_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MAC_020_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MAC_020_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MAC_020_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_MAC_020_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_BOW_014_1",
       "value": ""
     },
@@ -36645,6 +36853,14 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SWO_035_6_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_035_6_2",
+      "value": ""
+    },
+    {
       "key": "SK_LW_SWO_038_1",
       "value": ""
     },
@@ -36685,6 +36901,10 @@
       "value": ""
     },
     {
+      "key": "SK_LW_ACC_074_6",
+      "value": ""
+    },
+    {
       "key": "SK_LW_GUN_004_1",
       "value": ""
     },
@@ -36702,6 +36922,10 @@
     },
     {
       "key": "SK_LW_GUN_004_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_004_6",
       "value": ""
     },
     {
@@ -36726,6 +36950,10 @@
     },
     {
       "key": "SK_LW_FIS_013_URAL_5_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_013_URAL_6",
       "value": ""
     },
     {
