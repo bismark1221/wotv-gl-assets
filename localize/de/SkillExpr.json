@@ -12017,6 +12017,78 @@
       "value": "Erhöht MAG und Bereichangriffsresistenz und senkt Aktivierungszeit."
     },
     {
+      "key": "SK_FF8_IRVN_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_IRVN_M_1",
+      "value": "Senkt 3 Runden lang Geschossresistenz von Zielen in Reichweite und fügt anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_FF8_IRVN_M_2",
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (L) zu und erhöht eigene AZ (S)."
+    },
+    {
+      "key": "SK_FF8_IRVN_M_3",
+      "value": "Erhöht 3 Runden lang ANG und AGI von Verbündeten im Bereich um Wirkenden und gewährt eigenen Angriffsfähigkeiten (Bereich: Rautenform, Reichweite: 4, Reichweitenhöhe: 1) zusätzlichen Schadenseffekt, der sich aktiviert, wenn Verbündete im Bereich um den Wirkenden mit Ausnahme des Wirkenden selbst Schaden zufügen (fügt nichtelementaren Schaden (minimal) zu, wirkt sich nicht auf Ketten aus) (maximal 3 Aktivierungen)."
+    },
+    {
+      "key": "SK_FF8_IRVN_M_3_AD",
+      "value": "Fügt dem Ziel nichtelementaren Schaden (minimal) zu."
+    },
+    {
+      "key": "SK_FF8_IRVN_S_1",
+      "value": "Fügt bis zu 2 Zielen 2 Mal hintereinander Schaden (S) zu."
+    },
+    {
+      "key": "SK_FF8_IRVN_S_2",
+      "value": "Erhöht 3 Runden lang eigene Bereichangriffsresistenz und Reichweite +1."
+    },
+    {
+      "key": "SK_FF8_IRVN_S_3",
+      "value": "Fügt dem Ziel Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauernder Zustandsveränderung (Gift/Schlaf)."
+    },
+    {
+      "key": "SK_FF8_IRVN_S_4",
+      "value": "Fügt Zielen in Reichweite Feuerschaden (M) zu und senkt 3 Runden lang Heilkraft."
+    },
+    {
+      "key": "SK_FF8_IRVN_R_1",
+      "value": "Gewährt Chance auf Präventivschlag bei Erleiden von Schlitz-/Hiebangriffsschaden."
+    },
+    {
+      "key": "SK_FF8_IRVN_P_1",
+      "value": "Erhöht ABW-Durchbohrrate und Reichweite +1."
+    },
+    {
+      "key": "SK_FF8_IRVN_P_2",
+      "value": "Erhöht ANG und beschwört zu Beginn des Kampfes eine Barriere herauf, die 1 Mal Schaden reduziert."
+    },
+    {
+      "key": "SK_FF8_IRVN_EN_A_01",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend Schaden (M) zu und durchbohrt."
+    },
+    {
+      "key": "SK_FF8_IRVN_EN_A_01B",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend Schaden (M) zu, durchbohrt und absorbiert einen Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_FF8_EC_IRVN_C_01",
+      "value": "Verstärkt Schnellfeuer zu Knallschuss. Entfernt Protes und Vallum vom Ziel, fügt anschließend 2 Mal hintereinander Schaden (L) zu und erhöht eigene AZ (S)."
+    },
+    {
+      "key": "SK_FF8_EC_IRVN_C_01B",
+      "value": "Entfernt Protes und Vallum vom Ziel, fügt anschließend 2 Mal hintereinander Schaden (L) zu und erhöht eigene AZ (S)."
+    },
+    {
+      "key": "SK_FF8_EC_IRVN_C_02",
+      "value": "Verstärkt Gardens bester Sniper zu Sniper aller Sniper. Erhöht AGI und ABW-Durchbohrrate und Reichweite +1."
+    },
+    {
+      "key": "SK_FF8_EC_IRVN_C_02B",
+      "value": "Erhöht AGI und ABW-Durchbohrrate und Reichweite +1."
+    },
+    {
       "key": "SK_LW_WAR_ATK_100",
       "value": ""
     },
@@ -16049,6 +16121,10 @@
       "value": "Erhöht 3 Runden lang eigene PSY-Durchbohrrate und fügt anschließend Zielen in Reichweite nichtelementaren MAG-abhängigen Schaden (L) zu."
     },
     {
+      "key": "SK_LB_FF8_IRVN",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate und fügt Zielen in Reichweite anschließend 3 Mal hintereinander Schaden (L) zu."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Fügt Zielen in Reichweite Schaden (L) zu, erhöht eigene AZ (M), senkt 3 Runden lang AP-Verbrauch und heilt bei Erleiden von Schaden (1 Mal) festgelegten Anteil der eigenen LP (M), wenn LP unter 50 % sinken."
     },
@@ -19869,6 +19945,10 @@
       "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigene Aktivierungszeit -20 % und Blitzresistenz +15"
     },
     {
+      "key": "SK_MA_FF8_IRVN",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigener ANG +10 % und AP-Verbrauch -15 %"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Erhöht eigene Schlitzresistenz-Durchbohrrate und fügt anschließend Gegnern im Bereich um Wirkenden Schaden (M) zu mit hoher Wahrscheinlichkeit auf kritische Treffer."
     },
@@ -21171,6 +21251,10 @@
     {
       "key": "SK_UES_FF8_RINA",
       "value": "Wirkt 3 Runden lang Hast auf sich selbst und einen Verbündeten, erhöht Bereichangriffsresistenz und senkt 3 Runden lang Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden."
+    },
+    {
+      "key": "SK_UES_FF8_IRVN",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend Schaden (M) zu, durchbohrt und absorbiert einen Teil des verursachten Schadens."
     },
     {
       "key": "SK_UES_LW_CMLO",
@@ -23519,6 +23603,10 @@
     {
       "key": "SK_ACC_FF8_RINA_1",
       "value": "Erhöht ABW und Einzelangriffsresistenz eines Verbündeten und erhöht 3 Runden lang eigene MAG."
+    },
+    {
+      "key": "SK_CLT_FF8_IRVN_1",
+      "value": "Senkt Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden, und erhöht 3 Runden lang Geschossangriff von Verbündeten im Bereich um Wirkenden."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -26302,6 +26390,54 @@
     },
     {
       "key": "SK_GL_VC_FF8_MV1_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF8_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF8_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF8_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF8_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF8_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF8_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF8_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF8_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF8_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF8_MV2_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF8_MV2_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF8_MV2_PMAX2",
       "value": ""
     },
     {
@@ -37018,6 +37154,26 @@
     },
     {
       "key": "SK_FF8_SWO_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_017_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_017_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_017_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_017_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_017_5",
       "value": ""
     },
     {
