@@ -6021,6 +6021,10 @@
       "value": "Aumenta el ataque de fuego y la res. ataque de unidad de los aliados de alrededor y aumenta considerablemente la velocidad de la barra de invocación durante 3 turnos."
     },
     {
+      "key": "SK_LW_LIB_FIRE_M_2_SUB",
+      "value": "Aumenta el ataque de fuego y la res. ataque de unidad de los aliados de alrededor y aumenta considerablemente la velocidad de la barra de invocación durante 3 turnos."
+    },
+    {
       "key": "SK_LW_LIB_SOIL_M_2",
       "value": "Aumenta la res. tierra y la res. ataque de unidad de los aliados de alrededor y aumenta considerablemente la velocidad de la barra de invocación durante 3 turnos."
     },
@@ -12089,6 +12093,82 @@
       "value": "Aumenta la AGI y la tasa de penetración de DEF, y alcance +1."
     },
     {
+      "key": "SK_LW_SOLL_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SOLL_M_1",
+      "value": "Inflige daño no elemental (medio) 2 veces a hasta 2 objetivos en función de la MAG del usuario, reduce los PA y activa «Curación caótica» a continuación (recupera VIT de un aliado (poco))."
+    },
+    {
+      "key": "SK_LW_SOLL_M_4",
+      "value": "Recupera VIT de un aliado (poco)."
+    },
+    {
+      "key": "SK_LW_SOLL_M_2",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance, mayor daño cuantos más objetivos (daño normal con 3 o más objetivos), probabilidad de infligirles veneno durante 3 turnos y mayor probabilidad de activación para objetivos con recuperación automática de PA, prisa o locura."
+    },
+    {
+      "key": "SK_LW_SOLL_M_3",
+      "value": "Aumenta la res. golpe de los aliados de alrededor durante 3 turnos, mayor aumento para unidades de fuego, les otorga Coraza y otorga una barrera al usuario que niega una cierta cantidad de daño físico."
+    },
+    {
+      "key": "SK_LW_SOLL_S_1",
+      "value": "Inflige daño no elemental (poco) en función de la MAG del usuario al objetivo con golpe garantizado."
+    },
+    {
+      "key": "SK_LW_SOLL_S_2",
+      "value": "Aumenta la MAG, aumenta considerablemente la tasa de evasión de crítico durante 3 turnos y otorga un efecto durante 3 turnos que reduce el daño recibido cuanto mayor sea el alcance del ataque."
+    },
+    {
+      "key": "SK_LW_SOLL_S_3",
+      "value": "Aumenta la tasa de perforación de ESP y la tasa de perforación de res. ataque mágico del usuario e inflige daño no elemental (medio) en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_LW_SOLL_S_4",
+      "value": "Reduce la probabilidad de que el usuario sea atacado, le recupera VIT (medio) y aumenta su TC (medio) si su VIT está por debajo del 30 % antes de la recuperación de VIT."
+    },
+    {
+      "key": "SK_LW_SOLL_R_1",
+      "value": "Probabilidad de reducir el daño de corte y golpe recibido."
+    },
+    {
+      "key": "SK_LW_SOLL_P_1",
+      "value": "Aumenta la MAG y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_LW_SOLL_P_2",
+      "value": "Otorga lévita, reduce el odio y aumenta la res. ataque de unidad."
+    },
+    {
+      "key": "SK_LW_SOLL_EN_A_01",
+      "value": "Elimina agallas de hasta 2 objetivos y les inflige daño (medio) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_SOLL_EN_A_01B",
+      "value": "Elimina agallas de hasta 2 objetivos, les inflige daño (medio) en función de la MAG del usuario y recupera VIT del usuario (poco) al dejar KO al enemigo."
+    },
+    {
+      "key": "SK_LW_SOLL_EN_A_01B_AD",
+      "value": "Recupera VIT del usuario (poco) al dejar KO al enemigo (hasta 1 enemigo)."
+    },
+    {
+      "key": "SK_LW_EC_SOLL_C_01",
+      "value": "Mejora «Fuego devastador caótico» a «Infierno devastador caótico»: destruye cualquier barrera que reduzca el daño mágico de hasta 2 objetivos, les inflige daño no elemental (medio) 2 veces en función de la MAG del usuario, reduce los PA y activa «Curación caótica» a continuación (recupera VIT de un aliado (poco))."
+    },
+    {
+      "key": "SK_LW_EC_SOLL_C_01B",
+      "value": "Destruye cualquier barrera que reduzca el daño mágico de hasta 2 objetivos, les inflige daño no elemental (medio) 2 veces en función de la MAG del usuario, reduce los PA y activa «Curación caótica» a continuación (recupera VIT de un aliado (poco))."
+    },
+    {
+      "key": "SK_LW_EC_SOLL_C_02",
+      "value": "Mejora «Las enseñanzas de Yuraisha» a «La guía de Yuraisha»: aumenta la MAG, la tasa de penetración de ESP, la tasa de penetración de res. ataque mágico y la potencia de curación."
+    },
+    {
+      "key": "SK_LW_EC_SOLL_C_02B",
+      "value": "Aumenta la MAG, la tasa de penetración de ESP, la tasa de penetración de res. ataque mágico y la potencia de curación."
+    },
+    {
       "key": "SK_LW_WAR_ATK_100",
       "value": ""
     },
@@ -16125,6 +16205,10 @@
       "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos e inflige daño (mucho) 3 veces a los objetivos al alcance."
     },
     {
+      "key": "SK_LB_LW_SOLL",
+      "value": "Elimina Escudo y agallas de los objetivos al alcance, les inflige daño no elemental (mucho) en función de la MAG del usuario, probabilidad de infligirles veneno durante 3 turnos, y efecto adicional: reduce el ATQ, la potencia de curación y la res. fuego de objetivos envenenados."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -16193,6 +16277,22 @@
       "value": ""
     },
     {
+      "key": "SK_LB_LW_RAIN_B",
+      "value": "Reduce el ESP y la res. fuego del objetivo durante 3 turnos, le inflige daño (mucho) 2 veces en función de la MAG del usuario, otorga revitalia al usuario durante 3 turnos y otorga reducción de ATQ y MAG durante 3 turnos a sus ataques con éxito durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_LSWL_B",
+      "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) a los objetivos al alcance, reduce su tasa de precisión durante 3 turnos y anula los golpes garantizados que recibe el usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_CRLT_B",
+      "value": "Inflige daño (mucho) a los objetivos al alcance, reduce ATQ y MAG durante 3 turnos, aumenta considerablemente la DEF, el ESP, la res. ataque de unidad y la VIT máx. del usuario durante 2 turnos, recupera la cantidad de VIT aumentada, y recupera un porcentaje fijo de VIT del usuario (medio) cuando esta cae por debajo del 50 % al recibir daño durante los 3 turnos siguientes (una vez)."
+    },
+    {
+      "key": "SK_LB_LW_CRLT_B_EN",
+      "value": ""
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Mejora «Cruz del destino». Reduce el consumo de PA y aumenta la altura de zona. Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -16251,6 +16351,18 @@
     {
       "key": "SK_LB_LW_MONT_01_B_CH",
       "value": "Mejora «Rey de Leonis»: inflige daño (muchísimo) a los enemigos de alrededor y absorbe una parte del daño infligido, probabilidad de infligir locura durante 3 turnos, otorga reducción de daño físico a los aliados de alrededor excepto el usuario (forma: rombo; alcance: 4; altura de alcance: 1) y reduce el consumo de PA durante 3 turnos"
+    },
+    {
+      "key": "SK_LB_LW_RAIN_B_CH",
+      "value": "Mejora «Nova deslumbrante». Reduce el ESP y la res. fuego del objetivo durante 3 turnos, le inflige daño (mucho) 2 veces en función de la MAG del usuario, otorga revitalia al usuario durante 3 turnos y otorga reducción de ATQ y MAG durante 3 turnos a sus ataques con éxito durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_LSWL_B_CH",
+      "value": "Mejora «Cielo azul». Menor consumo de PA. Elimina cualquier barrera que reduzca el daño físico del objetivo, aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) a los objetivos al alcance, reduce su tasa de precisión durante 3 turnos y anula los golpes garantizados que recibe el usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_CRLT_B_CH",
+      "value": "Mejora «Juicio sagrado de protector». Inflige daño (mucho) a los objetivos al alcance, reduce ATQ y MAG durante 3 turnos, aumenta considerablemente la DEF, el ESP, la res. ataque de unidad y la VIT máx. del usuario durante 2 turnos, recupera la cantidad de VIT aumentada, y recupera un porcentaje fijo de VIT del usuario (medio) cuando esta cae por debajo del 50 % al recibir daño durante los 3 turnos siguientes (una vez)."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -19805,8 +19917,16 @@
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de res. ataque a distancia +10, consumo de PA <nobr>-15</nobr> %"
     },
     {
+      "key": "SK_MA_LW_SHLS_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de res. ataque a distancia +15, consumo de PA -15 %, res. ataque de zona +10, odio -3"
+    },
+    {
       "key": "SK_MA_LW_LSTE",
       "value": "Aliados de rayo: VIT máx. +10 %, res. paro +25; usuario: res. ataque mágico +15, tasa de crítico +30, daño crítico +10 %"
+    },
+    {
+      "key": "SK_MA_LW_LSTE_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, res. paro +25; usuario: res. ataque mágico +15, tasa de crítico +30, daño crítico +10 %, tasa de penetración de DEF +20, Comeacuáticos +20"
     },
     {
       "key": "SK_MA_LW_SLVE",
@@ -19947,6 +20067,10 @@
     {
       "key": "SK_MA_FF8_IRVN",
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: ATQ +10 %, consumo de PA <nobr>-15</nobr> %"
+    },
+    {
+      "key": "SK_MA_LW_SOLL",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. ataque de unidad +10, tasa de bloqueo de reacción +20"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -21255,6 +21379,10 @@
     {
       "key": "SK_UES_FF8_IRVN",
       "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño penetrante (medio) y absorbe parte del daño infligido."
+    },
+    {
+      "key": "SK_UES_LW_SOLL",
+      "value": "Mejora la altura de alcance. Elimina agallas de hasta 2 objetivos, les inflige daño (medio) en función de la MAG del usuario y recupera VIT del usuario (poco) al dejar KO al enemigo."
     },
     {
       "key": "SK_UES_LW_CMLO",
@@ -23607,6 +23735,10 @@
     {
       "key": "SK_CLT_FF8_IRVN_1",
       "value": "Reduce la probabilidad de que el usuario sea atacado y aumenta el ataque a distancia de los aliados de alrededor durante 3 turnos."
+    },
+    {
+      "key": "SK_CLT_LW_SOLL_1",
+      "value": "Reduce la probabilidad de que el usuario sea atacado y otorga un efecto de reducción (reduce Comehombres al realizar ataque físico durante 3 turnos) a los ataques con éxito de los aliados de alrededor durante 3 turnos."
     },
     {
       "key": "SK_VC_LW_GLEM_GS",
@@ -26438,6 +26570,66 @@
     },
     {
       "key": "SK_GL_VC_FF8_MV2_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SOLL_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SOLL_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SOLL_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SOLL_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SOLL_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SOLL_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SOLL_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SOLL_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SOLL_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SOLL_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SOLL_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SOLL_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SOLL_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SOLL_PAW3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SOLL_PMAX3",
       "value": ""
     },
     {
@@ -36949,6 +37141,86 @@
       "value": ""
     },
     {
+      "key": "SK_FF8_ACC_002_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_3_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_3_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_3_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_3_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF8_ACC_002_3_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_SPE_028_1",
       "value": ""
     },
@@ -37562,6 +37834,26 @@
     },
     {
       "key": "SK_LW_ROD_038_5_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_036_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_036_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_036_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_036_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_036_5",
       "value": ""
     },
     {
