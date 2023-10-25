@@ -394,7 +394,7 @@
     },
     {
       "key": "SK_TENSEI_SAMPLE_HEAL",
-      "value": "Aumento de atributo de reencarnación de clase sanador"
+      "value": "Aumento de atributo de reencarnación de clase sanadora"
     },
     {
       "key": "SK_BOMB_ATK",
@@ -1006,6 +1006,10 @@
     },
     {
       "key": "SK_SLIM_M_03",
+      "value": "Daño (medio) a los objetivos de alrededor y probabilidad de infligirles veneno durante 3 turnos."
+    },
+    {
+      "key": "SK_SLIM_M_03_RP1",
       "value": "Daño (medio) a los objetivos de alrededor y probabilidad de infligirles veneno durante 3 turnos."
     },
     {
@@ -2162,7 +2166,7 @@
     },
     {
       "key": "SK_BAHM_01_M_08",
-      "value": "Reduce la DEF y la ESP de los objetivos al alcance durante 3 turnos y les inflige daño no elemental (mucho) 2 veces."
+      "value": "Reduce la DEF y el ESP de los objetivos al alcance durante 3 turnos y les inflige daño no elemental (mucho) 2 veces."
     },
     {
       "key": "SK_OMEG_ATK",
@@ -2302,7 +2306,7 @@
     },
     {
       "key": "SK_MCOR_M_05",
-      "value": "Reduce la DEF y la ESP de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
+      "value": "Reduce la DEF y el ESP de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
     },
     {
       "key": "SK_CBCL_ATK",
@@ -2443,6 +2447,54 @@
     {
       "key": "SK_LW_JUME_S_2_QE",
       "value": "Aumenta la probabilidad de ser atacado y otorga Coraza y Escudo al usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_ORTR_ATK",
+      "value": "Inflige daño al objetivo."
+    },
+    {
+      "key": "SK_ORTR_M_01",
+      "value": "Otorga Coraza y prisa al usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_ORTR_M_01_B",
+      "value": "Otorga Coraza y prisa al usuario durante 5 turnos."
+    },
+    {
+      "key": "SK_ORTR_M_02",
+      "value": "Daño de agua sin tipo de daño (poco) en función de la MAG del usuario a los enemigos al alcance y probabilidad de infligirles ceguera."
+    },
+    {
+      "key": "SK_ORTR_M_03",
+      "value": "Inflige daño (medio) al objetivo y lo absorbe en forma de VIT."
+    },
+    {
+      "key": "SK_ORTR_M_04",
+      "value": "Inflige daño (mucho) a los enemigos de alrededor con golpe garantizado y reduce su res. agua durante 3 turnos."
+    },
+    {
+      "key": "SK_ORTR_M_05",
+      "value": "Reduce el la DEF y el ESP de los enemigos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_ORTR_M_01_R",
+      "value": "Otorga Coraza y prisa al usuario durante 5 turnos."
+    },
+    {
+      "key": "SK_ORTR_M_02_R",
+      "value": "Daño de agua sin tipo de daño (poco) en función de la MAG del usuario a los enemigos al alcance y probabilidad de infligirles ceguera."
+    },
+    {
+      "key": "SK_ORTR_M_03_R",
+      "value": "Inflige daño (medio) al objetivo y lo absorbe en forma de VIT."
+    },
+    {
+      "key": "SK_ORTR_M_04_R",
+      "value": "Inflige daño (mucho) a los enemigos de alrededor con golpe garantizado y reduce su res. agua durante 3 turnos."
+    },
+    {
+      "key": "SK_ORTR_M_05_R",
+      "value": "Reduce el la DEF y el ESP de los enemigos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
       "key": "SK_DMNW_ATK",
@@ -2726,7 +2778,7 @@
     },
     {
       "key": "SK_PRS5_KNSR_M_05",
-      "value": "Reduce la DEF y la ESP de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
+      "value": "Reduce la DEF y el ESP de los objetivos al alcance durante 3 turnos y les inflige daño (mucho)."
     },
     {
       "key": "SK_PRS5_KNSR_M_06",
@@ -3906,11 +3958,11 @@
     },
     {
       "key": "SK_SMN_BAHM_01",
-      "value": "Invoca a Bahamut oscuro: reduce la DEF y la ESP de los objetivos al alcance durante 3 turnos, les inflige daño no elemental (mucho) 2 veces y activa un efecto de mapa temporal (aumenta ATQ, MAG y AGI de los aliados)."
+      "value": "Invoca a Bahamut oscuro: reduce la DEF y el ESP de los objetivos al alcance durante 3 turnos, les inflige daño no elemental (mucho) 2 veces y activa un efecto de mapa temporal (aumenta ATQ, MAG y AGI de los aliados)."
     },
     {
       "key": "SK_SMN_MCOR",
-      "value": "Invoca a Maestro bengal: reduce la DEF y la ESP de los objetivos al alcance durante 3 turnos, les inflige daño de rayo (mucho) y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y los aumenta aún más para unidades de rayo, y reduce la res. rayo de los enemigos)."
+      "value": "Invoca a Maestro bengal: reduce la DEF y el ESP de los objetivos al alcance durante 3 turnos, les inflige daño de rayo (mucho) y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y los aumenta aún más para unidades de rayo, y reduce la res. rayo de los enemigos)."
     },
     {
       "key": "SK_SMN_GLEM_01",
@@ -3935,6 +3987,10 @@
     {
       "key": "SK_SMN_SIRE_01",
       "value": "Invoca a Sirena oscura: daño de agua (mucho) en función de la MAG del usuario a los objetivos al alcance, probabilidad de infligirles parálisis y confusión, y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de agua, y reduce considerablemente la res. agua de los enemigos)."
+    },
+    {
+      "key": "SK_SMN_ORTR",
+      "value": "Invoca a Ultros: reduce la DEF y el ESP de los objetivos al alcance durante 3 turnos, les inflige daño de agua (mucho) y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y los aumenta aún más para unidades de agua, y reduce la res. agua de los enemigos)."
     },
     {
       "key": "SK_BTL_HP_100-99900_U",
@@ -5799,6 +5855,10 @@
     {
       "key": "SK_WYVN_M_03",
       "value": "Inflige daño (mucho) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_WYVN_M_03_RP1",
+      "value": "Inflige daño (mucho) a los objetivos al alcance y reduce su tasa de penetración de ataque de corte durante 3 turnos."
     },
     {
       "key": "SK_PBMF_ATK",
@@ -19522,11 +19582,11 @@
     },
     {
       "key": "SK_LW_EC_DRG_C_08",
-      "value": "Mejora «Linaje dragontinol» a «Autoridad dragontina». Aumenta el TC del usuario (poco) y el ATQ y la ESP del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
+      "value": "Mejora «Linaje dragontinol» a «Autoridad dragontina». Aumenta el TC del usuario (poco) y el ATQ y el ESP del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
     },
     {
       "key": "SK_LW_EC_DRG_C_08B",
-      "value": "Aumenta el TC del usuario (poco) y el ATQ y la ESP del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
+      "value": "Aumenta el TC del usuario (poco) y el ATQ y el ESP del usuario durante 3 turnos y le otorga Coraza y efectos adicionales: aumenta la tasa de crítico y aumenta considerablemente la tasa de bloqueo de reacción mientras el efecto de Coraza esté activo."
     },
     {
       "key": "SK_LW_EC_DRG_A_05",
@@ -27085,6 +27145,38 @@
       "value": ""
     },
     {
+      "key": "SK_LW_GLO_011_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GLO_011_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GLO_011_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GLO_011_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ARM_039_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ARM_039_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ARM_039_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ARM_039_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FIS_016_2",
       "value": ""
     },
@@ -31446,6 +31538,106 @@
     },
     {
       "key": "SK_GL_VC_LW_SOLL_PMAX3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORTR_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORTR_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORTR_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORTR_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORTR_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORTR_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORTR_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORTR_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORTR_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ORTR_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ORTR_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ORTR_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_HALL4_PVA",
+      "value": "Inflige daño (mucho) a los objetivos de alrededor y absorbe una parte del daño infligido, y aumenta el ATQ y la tasa de penetración de res. ataque de corte del usuario antes de atacar si su VIT está al 50 % o menos."
+    },
+    {
+      "key": "SK_GL_VC_LW_HALL4_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_HALL4_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_HALL4_PMAX2",
       "value": ""
     },
     {
