@@ -3437,6 +3437,10 @@
       "value": "Dissipe toutes les altérations d'état et augmente considérablement l'attaque de foudre du lanceur et l'AGI pendant 3 tours."
     },
     {
+      "key": "SK_EURP_M_01_R",
+      "value": "Dissipe toutes les altérations d'état et augmente prodigieusement l'attaque de foudre du lanceur et l'AGI pendant 3 tours."
+    },
+    {
       "key": "SK_EURP_M_02",
       "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur et confère une chance d'infliger Paralysie pendant 3 tours."
     },
@@ -3449,11 +3453,19 @@
       "value": "Inflige des dégâts (M) en 4 coups à la cible et réduit considérablement la jauge de CT."
     },
     {
+      "key": "SK_EURP_M_04_R",
+      "value": "Inflige des dégâts (M) en 4 coups à la cible."
+    },
+    {
       "key": "SK_EURP_M_04_GR",
       "value": "Inflige des dégâts (M) en 4 coups à la cible."
     },
     {
       "key": "SK_EURP_M_05",
+      "value": "Détruit toute barrière érigée autour des unités dans la zone ciblée, puis inflige des dégâts (XL) avec Coup garanti."
+    },
+    {
+      "key": "SK_EURP_M_05_R",
       "value": "Détruit toute barrière érigée autour des unités dans la zone ciblée, puis inflige des dégâts (XL) avec Coup garanti."
     },
     {
@@ -3991,6 +4003,10 @@
     {
       "key": "SK_SMN_ORTR",
       "value": "Invoque Ultros, réduit la DEF et la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts d'eau (L) et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités d'eau et réduit considérablement la résistance à l'eau des ennemis)."
+    },
+    {
+      "key": "SK_SMN_SHGN_03",
+      "value": "Invoque Prince Sahuagin, inflige des dégâts d'eau (M) aux cibles dans la zone autour du lanceur et confère une chance d'infliger Crapaud pendant 3 tours."
     },
     {
       "key": "SK_BTL_HP_100-99900_U",
@@ -22121,6 +22137,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente la résistance aux attaques de zone du lanceur de 10 et le taux de blocage de réaction de 20"
     },
     {
+      "key": "SK_MA_LW_MACR_02_2",
+      "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente le taux de perforation de la résistance aux attaques magiques du lanceur de 20, sa résistance aux attaques de zone de 10, son taux de blocage de réaction de 20, et augmente sa résistance aux attaques à cible unique de 40 quand ses PV sont au-dessus de 60 %."
+    },
+    {
       "key": "SK_MA_FF13_LTNG",
       "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, réduit la consommation de PA du lanceur de 15 % et augmente les attaques de foudre de 5."
     },
@@ -22137,12 +22157,24 @@
       "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente les attaques perçantes du lanceur de 15 et son taux de Coup critique de 20."
     },
     {
+      "key": "SK_MA_LW_GRSR_02_2",
+      "value": "Augmente les PV max de 10 % et les attaques de vent de 15 pour les unités alliées de vent, augmente les attaques perçantes du lanceur de 15, ses dégâts critiques de 15 %, son taux de coup critique de 30 et sa résistance aux attaques de zone de 10."
+    },
+    {
       "key": "SK_MA_LW_SHNC",
       "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente l'ATT du lanceur de 5 % et sa résistance aux attaques de zone de 10."
     },
     {
+      "key": "SK_MA_LW_SHNC_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente l'ATT du lanceur de 10 %, son taux d'esquive de 10 et sa résistance aux attaques de zone de 20."
+    },
+    {
       "key": "SK_MA_LW_LBRK",
       "value": "Augmente les PV max de 10 % et la résistance à Lenteur de 25 des unités alliées de feu, augmente Cryophage du lanceur de 20 et réduit la consommation de PA de 20 %."
+    },
+    {
+      "key": "SK_MA_LW_LBRK_2",
+      "value": "Augmente les PV max de 10 % et la résistance à Lenteur de 25 pour les unités alliées de feu, augmente le taux de perforation de la PSY du lanceur de 30, Cryophage de 20, et réduit sa consommation de PA de 20 % et sa Haine de 3."
     },
     {
       "key": "SK_MA_LW_LUCA_01",
@@ -27901,6 +27933,10 @@
       "value": ""
     },
     {
+      "key": "SK_LW_GUN_016_R",
+      "value": ""
+    },
+    {
       "key": "SK_LW_BOW_017_SHLS_1",
       "value": ""
     },
@@ -28750,6 +28786,10 @@
     },
     {
       "key": "SK_LW_ACC_111",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_113_5",
       "value": ""
     },
     {
@@ -31742,6 +31782,82 @@
     },
     {
       "key": "SK_GL_VC_LW_HALL4_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MLNA_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MLNA_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MLNA_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_PAW",
       "value": ""
     },
     {

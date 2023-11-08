@@ -3437,6 +3437,10 @@
       "value": "Elimina todos los estados alterados y aumenta considerablemente el ataque de rayo y la AGI del usuario durante 3 turnos."
     },
     {
+      "key": "SK_EURP_M_01_R",
+      "value": "Elimina todos los estados alterados y aumenta exponencialmente el ataque de rayo y la AGI del usuario durante 3 turnos."
+    },
+    {
       "key": "SK_EURP_M_02",
       "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) en función de la MAG del usuario y probabilidad de infligirles parálisis durante 3 turnos."
     },
@@ -3449,11 +3453,19 @@
       "value": "Inflige daño (medio) 4 veces al objetivo y reduce considerablemente su TC."
     },
     {
+      "key": "SK_EURP_M_04_R",
+      "value": "Inflige daño (medio) 4 veces al objetivo."
+    },
+    {
       "key": "SK_EURP_M_04_GR",
       "value": "Inflige daño (medio) 4 veces al objetivo."
     },
     {
       "key": "SK_EURP_M_05",
+      "value": "Elimina cualquier barrera de los objetivos al alcance, y les inflige daño (muchísimo) con golpe garantizado."
+    },
+    {
+      "key": "SK_EURP_M_05_R",
       "value": "Elimina cualquier barrera de los objetivos al alcance, y les inflige daño (muchísimo) con golpe garantizado."
     },
     {
@@ -3991,6 +4003,10 @@
     {
       "key": "SK_SMN_ORTR",
       "value": "Invoca a Ultros: reduce la DEF y el ESP de los objetivos al alcance durante 3 turnos, les inflige daño de agua (mucho) y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados y los aumenta aún más para unidades de agua, y reduce la res. agua de los enemigos)."
+    },
+    {
+      "key": "SK_SMN_SHGN_03",
+      "value": "Invoca a Sahuagin príncipe: Daño de agua (medio) a los objetivos de alrededor y probabilidad de infligirles rana durante 3 turnos."
     },
     {
       "key": "SK_BTL_HP_100-99900_U",
@@ -22121,6 +22137,10 @@
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: res. ataque de zona +10, tasa de bloqueo de reacción +20"
     },
     {
+      "key": "SK_MA_LW_MACR_02_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: tasa de penetración de res. ataque mágico +20, res. ataque de zona +10, tasa de bloqueo de reacción +20, res. ataque de unidad +40 cuando la VIT está al 60 % o más."
+    },
+    {
       "key": "SK_MA_FF13_LTNG",
       "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: consumo de PA -15 %, ataque de rayo +5"
     },
@@ -22137,12 +22157,24 @@
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: ataque de perforación +15, tasa de crítico +20"
     },
     {
+      "key": "SK_MA_LW_GRSR_02_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: ataque de perforación +15, daño crítico +15 %, tasa de crítico +30, res. ataque de zona +10"
+    },
+    {
       "key": "SK_MA_LW_SHNC",
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: ATQ +5 %, res. ataque de zona +10"
     },
     {
+      "key": "SK_MA_LW_SHNC_2",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: ATQ +10 %, tasa de evasión +10, res. ataque de zona +20"
+    },
+    {
       "key": "SK_MA_LW_LBRK",
       "value": "Aliados de fuego: VIT máx. +10 %, res. freno +25; usuario: Comegélidos +20, consumo de PA -20 %"
+    },
+    {
+      "key": "SK_MA_LW_LBRK_2",
+      "value": "Aliados de fuego: VIT máx. +10 %, res. freno +25; usuario: Comegélidos +20, consumo de PA -20 %, odio -3"
     },
     {
       "key": "SK_MA_LW_LUCA_01",
@@ -27901,6 +27933,10 @@
       "value": ""
     },
     {
+      "key": "SK_LW_GUN_016_R",
+      "value": ""
+    },
+    {
       "key": "SK_LW_BOW_017_SHLS_1",
       "value": ""
     },
@@ -28750,6 +28786,10 @@
     },
     {
       "key": "SK_LW_ACC_111",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_113_5",
       "value": ""
     },
     {
@@ -31742,6 +31782,82 @@
     },
     {
       "key": "SK_GL_VC_LW_HALL4_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MLNA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MLNA_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MLNA_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MLNA_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SHGN_03_PAW",
       "value": ""
     },
     {
