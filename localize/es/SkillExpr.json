@@ -18169,6 +18169,78 @@
       "value": "Otorga Coraza a los aliados de alrededor durante 4 turnos, y aumenta la tasa de penetración de DEF del usuario, le otorga recuperación automática de PA (poco) y le otorga eliminación de autolázaro a sus ataques con éxito durante 3 turnos."
     },
     {
+      "key": "SK_LW_HLNA_03_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_HLNA_03_M_1",
+      "value": "Reduce un porcentaje fijo de la res. ataque de zona de los objetivos al alcance durante 3 turnos, les inflige daño (medio) en función de la MAG del usuario, probabilidad de infligirles sueño durante 3 turnos y mayor probabilidad cuantos menos objetivos haya (probabilidad normal con 3 o más objetivos)."
+    },
+    {
+      "key": "SK_LW_HLNA_03_M_2",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance, mayor daño cuantos más objetivos haya (daño normal con 3 o más objetivos) y recupera VIT del usuario (poco) al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_LW_HLNA_03_M_2_AD",
+      "value": "Recupera VIT del usuario (poco) al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_LW_HLNA_03_M_3",
+      "value": "Reduce el daño que reciben los aliados de alrededor en función del alcance del ataque durante 3 turnos, otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima) y aumenta su res. oscuridad durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_HLNA_03_S_1",
+      "value": "Daño (poco) en función de la MAG del usuario al objetivo y probabilidad de infligirle paro."
+    },
+    {
+      "key": "SK_LW_HLNA_03_S_2",
+      "value": "Otorga eliminación de agallas (se activa antes de atacar) a los ataques del usuario durante 3 turnos y sus ataques con éxito sellan la eliminación de autolázaro durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_HLNA_03_S_3",
+      "value": "Inflige daño (medio) en función de la MAG del usuario a hasta 2 objetivos 2 veces y reduce su ESP durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_HLNA_03_S_4",
+      "value": "Recupera VIT de un aliado (medio) y le recupera PA."
+    },
+    {
+      "key": "SK_LW_HLNA_03_R_1",
+      "value": "Probabilidad de recuperar VIT del usuario (poco) al recibir daño de ataque físico."
+    },
+    {
+      "key": "SK_LW_HLNA_03_P_1",
+      "value": "Aumenta la MAG y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_LW_HLNA_03_P_2",
+      "value": "Aumenta la res. ataque de unidad y reduce considerablemente el tiempo de activación durante 5 turnos desde el inicio del combate."
+    },
+    {
+      "key": "SK_LW_HLNA_03_EN_A_01",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo durante 3 turnos y le inflige daño (medio) 3 veces en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_HLNA_03_EN_A_01B",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo durante 3 turnos y le inflige daño (mucho) 3 veces en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_03_C_01",
+      "value": "Mejora «Jardín de rosas» a «Vergel de rosas»: reduce el daño que reciben los aliados de alrededor en función del alcance del ataque durante 4 turnos, otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), efecto adicional: aumenta la res. ataque de zona mientras autolázaro esté activo, aumenta la res. oscuridad durante 3 turnos y reduce el daño mágico recibido durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_03_C_01B",
+      "value": "Reduce el daño que reciben los aliados de alrededor en función del alcance del ataque durante 4 turnos, otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), efecto adicional: aumenta la res. ataque de zona mientras autolázaro esté activo, aumenta la res. oscuridad durante 3 turnos y reduce el daño mágico recibido durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_03_C_02",
+      "value": "Mejora «Lucharé a tu lado» a «Para proteger a los mellizos»: aumenta la MAG, la tasa de penetración de ESP y la tasa de penetración de res. ataque mágico."
+    },
+    {
+      "key": "SK_LW_EC_HLNA_03_C_02B",
+      "value": "Aumenta la MAG, la tasa de penetración de ESP y la tasa de penetración de res. ataque mágico."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Inflige daño (mucho) a los objetivos al alcance."
     },
@@ -18863,6 +18935,18 @@
     {
       "key": "SK_LB_LW_MLNA",
       "value": "Elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño (mucho), probabilidad de infligirle veneno durante 3 turnos, y efecto adicional: reduce considerablemente Comehombres del objetivo envenenado."
+    },
+    {
+      "key": "SK_LB_LW_HLNA_03",
+      "value": "Reduce la res. ataque mágico de los objetivos al alcance durante 3 turnos, les inflige daño (mucho) en función de la MAG del usuario y activa «Curación de la Rosa Negra» a continuación (recupera VIT de los aliados de alrededor (poco) y otorga espejo al usuario durante 3 turnos (solo una vez))."
+    },
+    {
+      "key": "SK_LB_LW_HLNA_03_2",
+      "value": "Recupera VIT de los aliados de alrededor (poco) y otorga espejo al usuario durante 3 turnos (solo una vez)."
+    },
+    {
+      "key": "SK_LB_LW_HLNA_03_2_AD",
+      "value": ""
     },
     {
       "key": "SK_LB_LW_MONT_B",
@@ -22381,6 +22465,10 @@
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +20 %, tasa de bloqueo de reacción +20"
     },
     {
+      "key": "SK_MA_LW_HLNA_03",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: res. ataque de unidad +10, tiempo de activación <nobr>-20</nobr> %"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario e inflige daño (medio) con alta probabilidad de golpe crítico a los enemigos de alrededor."
     },
@@ -23759,6 +23847,10 @@
     {
       "key": "SK_UES_LW_MLNA",
       "value": "Elimina todas las mejoras de los objetivos al alcance y les inflige daño (medio), y aumenta la potencia cuantos más objetivos haya (daño normal para 3 o más objetivos)."
+    },
+    {
+      "key": "SK_UES_LW_HLNA_03",
+      "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo durante 3 turnos y le inflige daño (mucho) 3 veces en función de la MAG del usuario."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -26113,6 +26205,10 @@
       "value": "Aumenta considerablemente la res. ataque a distancia del usuario, aumenta la tasa de bloqueo de reacción durante 3 turnos."
     },
     {
+      "key": "SK_ACC_LW_HLNA_03_1",
+      "value": "Aumenta la tasa de penetración de res. ataque mágico y la res. ataque de corte del usuario durante 3 turnos y reduce el tiempo de activación."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -27290,6 +27386,26 @@
     },
     {
       "key": "SK_LW_ARM_039_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_039_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_039_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_039_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_039_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_039_5",
       "value": ""
     },
     {
@@ -31858,6 +31974,42 @@
     },
     {
       "key": "SK_VC_LW_SHGN_03_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ANV3_PMAX",
       "value": ""
     },
     {

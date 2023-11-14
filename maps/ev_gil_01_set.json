@@ -1,7 +1,11 @@
 {
   "info": {
     "angle_override": true,
-    "angle": 225
+    "angle": 225,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -14,6 +18,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -28,8 +37,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:2",
@@ -41,6 +63,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -55,8 +82,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:3",
@@ -68,6 +108,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -82,8 +127,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:4",
@@ -95,6 +153,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -109,8 +172,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:5",
@@ -122,6 +198,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -136,8 +217,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:6",
@@ -149,6 +243,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -163,8 +262,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "",
@@ -176,6 +288,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -190,8 +307,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "",
@@ -203,6 +333,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -217,8 +352,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     }
   ],
   "enemy": [
@@ -232,6 +380,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "AI_ENEMY_GLSP_Lv1",
         "wait_e": 0,
@@ -246,8 +399,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 2,
       "iname": "UN_LW_E_GLSP",
       "side": 1,
@@ -261,10 +427,12 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "IT_CG",
+      "drop": "IT_CG_4th",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -292,7 +460,13 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -304,6 +478,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "AI_ENEMY_GLSP_Lv1",
         "wait_e": 0,
@@ -318,8 +497,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 3,
       "iname": "UN_LW_E_GLSP",
       "side": 1,
@@ -337,6 +529,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -364,7 +558,13 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -376,6 +576,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "AI_ENEMY_GLSP_Lv1",
         "wait_e": 0,
@@ -390,8 +595,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 4,
       "iname": "UN_LW_E_GLSP",
       "side": 1,
@@ -409,6 +627,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -436,7 +656,13 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -448,6 +674,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "AI_ENEMY_GLSP_Lv1",
         "wait_e": 0,
@@ -462,8 +693,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 5,
       "iname": "UN_LW_E_GLSP",
       "side": 1,
@@ -481,6 +725,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -508,7 +754,13 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -520,6 +772,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -534,8 +791,21 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 6,
       "iname": "UN_GM_TREASURE",
       "side": 1,
@@ -553,6 +823,8 @@
       "crystal": "",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -564,7 +836,13 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -606,6 +884,7 @@
             "type": 0,
             "iname": "IT_CG_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 58
@@ -615,6 +894,7 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 42
@@ -631,6 +911,7 @@
             "type": 0,
             "iname": "IT_US_EXP_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 60
@@ -640,6 +921,7 @@
             "type": 0,
             "iname": "IT_US_EXP_02",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 25
@@ -649,6 +931,7 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 15
@@ -665,6 +948,7 @@
             "type": 0,
             "iname": "IT_US_EXP_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 60
@@ -674,6 +958,7 @@
             "type": 0,
             "iname": "IT_US_EXP_02",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 10
@@ -683,6 +968,7 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 30
@@ -699,6 +985,7 @@
             "type": 0,
             "iname": "IT_US_EXP_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 40
@@ -708,6 +995,7 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 60
@@ -724,6 +1012,7 @@
             "type": 0,
             "iname": "IT_UN_AW_SOIL_R2",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 0
@@ -733,6 +1022,7 @@
             "type": 0,
             "iname": "IT_UN_AW_SOIL_R3",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 0
@@ -742,6 +1032,7 @@
             "type": 0,
             "iname": "IT_UN_AW_SOIL_R4",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 5
@@ -751,6 +1042,7 @@
             "type": 0,
             "iname": "IT_UN_AW_SOIL_R5",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 40
@@ -760,6 +1052,7 @@
             "type": 0,
             "iname": "IT_UN_AW_SOIL_R6",
             "num": 20,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 10
@@ -769,6 +1062,7 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 45
@@ -785,6 +1079,7 @@
             "type": 0,
             "iname": "IT_JB_MM_ALL",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 20
@@ -794,6 +1089,7 @@
             "type": 0,
             "iname": "IT_JB_KUNAI_01",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 20
@@ -803,6 +1099,7 @@
             "type": 0,
             "iname": "IT_JB_BOW_01",
             "num": 2,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 20
@@ -812,6 +1109,7 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 40
@@ -828,6 +1126,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -837,11 +1136,50 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
         }
       ]
+    },
+    {
+      "type": 0,
+      "iname": "IT_CG_4th",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_CG_01",
+            "num": 1,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 5800
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_US_G_SSR_4thANV",
+            "num": 1,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 69
+        },
+        {
+          "drop_data": {
+            "type": -1,
+            "iname": "",
+            "num": 0,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 4131
+        }
+      ]
     }
-  ]
+  ],
+  "enemy_group": []
 }
