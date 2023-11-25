@@ -593,11 +593,19 @@
       "value": "Grand tourbillon"
     },
     {
+      "key": "SK_ZUUU_M_01_RP1",
+      "value": "Grand tourbillon"
+    },
+    {
       "key": "SK_ZUUU_M_02",
       "value": "Coup de bec"
     },
     {
       "key": "SK_ZUUU_M_03",
+      "value": "Souffle ailé"
+    },
+    {
+      "key": "SK_ZUUU_M_03_RP1",
       "value": "Souffle ailé"
     },
     {
@@ -2497,6 +2505,38 @@
       "value": "Facétieux faiseur de bulles"
     },
     {
+      "key": "SK_SNRY_ATK",
+      "value": "Attaque normale"
+    },
+    {
+      "key": "SK_SNRY_M_01",
+      "value": "Raz-de-marée"
+    },
+    {
+      "key": "SK_SNRY_M_02",
+      "value": "Marée haute"
+    },
+    {
+      "key": "SK_SNRY_M_02_B",
+      "value": "CT ↑ après ranimation (Auréole)"
+    },
+    {
+      "key": "SK_SNRY_M_03",
+      "value": "Griffes de Shinryu"
+    },
+    {
+      "key": "SK_SNRY_M_04",
+      "value": "Rayon draconique"
+    },
+    {
+      "key": "SK_SNRY_M_05",
+      "value": "Giga-brasier"
+    },
+    {
+      "key": "SK_SNRY_M_06",
+      "value": "Almagest"
+    },
+    {
       "key": "SK_DMNW_ATK",
       "value": "Attaque normale"
     },
@@ -4009,6 +4049,10 @@
       "value": "Malédiction de la grenouille"
     },
     {
+      "key": "SK_SMN_SNRY",
+      "value": "Almagest"
+    },
+    {
       "key": "SK_BTL_HP_100-99900_U",
       "value": "PV max ↑ 100 - 99 900"
     },
@@ -5243,6 +5287,14 @@
     {
       "key": "SK_BTL_RES_ELECHAIN_1_100_U",
       "value": "Rés. combos élémentaires ↑ 1 - 100"
+    },
+    {
+      "key": "SK_BTL_RES_TYPCHAIN_1_100_D",
+      "value": "Résistance aux combos types ↓ 1 - 100"
+    },
+    {
+      "key": "SK_BTL_RESWK_1_100_U",
+      "value": "Taux de réduction des malus ↑ 1 - 100"
     },
     {
       "key": "SK_BTL_REACTSTP_1_100_U",
@@ -18265,16 +18317,8 @@
       "value": "Courage inébranlable"
     },
     {
-      "key": "SK_LB_LW_ENBT_B",
-      "value": "Courage inébranlable+"
-    },
-    {
       "key": "SK_LB_LW_FDRC",
       "value": "Piqûre de papillon"
-    },
-    {
-      "key": "SK_LB_LW_FDRC_B",
-      "value": "Piqûre de papillon+"
     },
     {
       "key": "SK_LB_LW_MRND",
@@ -18469,6 +18513,10 @@
       "value": "Miracle des deux lunes"
     },
     {
+      "key": "SK_LB_FF04_ROSA_B",
+      "value": "Miracle amoureux"
+    },
+    {
       "key": "SK_LB_FF04_KAIN",
       "value": "Fléau draconique"
     },
@@ -18642,6 +18690,10 @@
     },
     {
       "key": "SK_LB_FF15_NCTS",
+      "value": "Assaut fantôme"
+    },
+    {
+      "key": "SK_LB_FF15_NCTS_B",
       "value": "Assaut fantôme"
     },
     {
@@ -19053,6 +19105,18 @@
       "value": "Affaiblissement arcanique"
     },
     {
+      "key": "SK_LB_LW_ENBT_B",
+      "value": "Courage inébranlable"
+    },
+    {
+      "key": "SK_LB_LW_FDRC_B",
+      "value": "Piqûre de papillon"
+    },
+    {
+      "key": "SK_LB_LW_IRDL_B",
+      "value": "Théorème d'Ildyra"
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Améliorer Croix du destin"
     },
@@ -19139,6 +19203,18 @@
     {
       "key": "SK_LB_LW_LUCA_01_B_CH",
       "value": "Améliorer Affaiblissement arcanique"
+    },
+    {
+      "key": "SK_LB_LW_ENBT_B_CH",
+      "value": "Améliorer Courage inébranlable"
+    },
+    {
+      "key": "SK_LB_LW_FDRC_B_CH",
+      "value": "Améliorer Piqûre de papillon"
+    },
+    {
+      "key": "SK_LB_LW_IRDL_B_CH",
+      "value": "Améliorer Théorème d'Ildyra"
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -22469,6 +22545,46 @@
       "value": "Aptitude maître"
     },
     {
+      "key": "SK_MA_FF4_CECL_2",
+      "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_MA_FF4_ROSA_2",
+      "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_MA_FF4_KAIN_2",
+      "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_MA_FF15_NCTS_2",
+      "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_MA_FF15_PRMP_2",
+      "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_MA_FF15_ARNA_2",
+      "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_MA_FF4_GLBZ_2",
+      "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_MA_FF13_LTNG_2",
+      "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_MA_FF13_HOPE_2",
+      "value": "Aptitude maître"
+    },
+    {
+      "key": "SK_MA_FF13_SNOW_2",
+      "value": "Aptitude maître"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Aptitude passive de la Réincarnation de Cloud"
     },
@@ -23851,6 +23967,118 @@
     {
       "key": "SK_UES_LW_HLNA_03",
       "value": "Aptitude passive de la Réincarnation de Helena la rose noire"
+    },
+    {
+      "key": "SK_UES_FF4_CECL",
+      "value": "Aptitude passive de la Réincarnation de Cécil"
+    },
+    {
+      "key": "SK_FF4_EC_CECL_A_01_B",
+      "value": "Lumière bienfaitrice"
+    },
+    {
+      "key": "SK_UES_FF4_KAIN",
+      "value": "Aptitude passive de la Réincarnation de Kaïn"
+    },
+    {
+      "key": "SK_FF4_EC_KAIN_A_01_B",
+      "value": "Plongeon de la lance scellée"
+    },
+    {
+      "key": "SK_UES_FF4_ROSA",
+      "value": "Aptitude passive de la Réincarnation de Rosa"
+    },
+    {
+      "key": "SK_FF4_EC_ROSA_A_01_B",
+      "value": "Vie Max"
+    },
+    {
+      "key": "SK_UES_FF4_GLBZ",
+      "value": "Aptitude passive de la Réincarnation de Golbez"
+    },
+    {
+      "key": "SK_FF4_EC_GLBZ_C_01C",
+      "value": "Crocs du désespoir"
+    },
+    {
+      "key": "SK_UES_FF10_YUNA",
+      "value": "Aptitude passive de la Réincarnation de Yuna"
+    },
+    {
+      "key": "SK_FF10_YUNA_S_3B",
+      "value": "Soin Max"
+    },
+    {
+      "key": "SK_UES_FF10_TIDU",
+      "value": "Aptitude passive de la Réincarnation de Tidus"
+    },
+    {
+      "key": "SK_FF10_EC_TIDU_C_01C",
+      "value": "Attaque éclair +"
+    },
+    {
+      "key": "SK_UES_FF10_ARON",
+      "value": "Aptitude passive de la Réincarnation de Auron"
+    },
+    {
+      "key": "SK_FF10_EC_ARON_A_01_B",
+      "value": "Embûche du dragon"
+    },
+    {
+      "key": "SK_UES_FF15_NCTS",
+      "value": "Aptitude passive de la Réincarnation de Noctis"
+    },
+    {
+      "key": "SK_FF15_EC_NCTS_C_02C",
+      "value": "Pouvoir du roi légitime"
+    },
+    {
+      "key": "SK_FF15_NCTS_S_2_AD_B",
+      "value": "Armes royales"
+    },
+    {
+      "key": "SK_UES_FF15_PRMP",
+      "value": "Aptitude passive de la Réincarnation de Prompto"
+    },
+    {
+      "key": "SK_FF15_EC_PRMP_C_01C",
+      "value": "Balle d'ombre"
+    },
+    {
+      "key": "SK_UES_FF15_ARNA",
+      "value": "Aptitude passive de la Réincarnation d'Aranea"
+    },
+    {
+      "key": "SK_FF15_ARNA_M_1C",
+      "value": "Saut de dragon"
+    },
+    {
+      "key": "SK_FF15_ARNA_M_1D",
+      "value": "Saut de dragon"
+    },
+    {
+      "key": "SK_UES_FF13_LTNG",
+      "value": "Aptitude passive de la Réincarnation de Lightning"
+    },
+    {
+      "key": "SK_FF13_EC_LTNG_C_01C",
+      "value": "Férocité II"
+    },
+    {
+      "key": "SK_UES_FF13_SNOW",
+      "value": "Aptitude passive de la Réincarnation de Snow"
+    },
+    {
+      "key": "SK_FF13_SNOW_EN_A_01_C",
+      "value": "De justesse"
+    },
+    {
+      "key": "SK_UES_FF13_HOPE",
+      "value": "Aptitude passive de la Réincarnation de Hope"
+    },
+    {
+      "key": "SK_FF13_EC_HOPE_C_02C",
+      "value": "Enchantement physique II"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -32010,6 +32238,66 @@
     },
     {
       "key": "SK_VC_LW_ANV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SNRY_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SNRY_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SNRY_PMAX2",
       "value": ""
     },
     {

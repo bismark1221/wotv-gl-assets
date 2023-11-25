@@ -593,12 +593,20 @@
       "value": "Für Kraftproben, fügt Zielen im Bereich um Wirkenden Schaden (minimal) zu und kein Rückschlag."
     },
     {
+      "key": "SK_ZUUU_M_01_RP1",
+      "value": "Fügt Zielen im Bereich um Wirkenden Schaden (minimal) zu, wirkt 2 Felder Rückschlag und senkt 1 Runde lang Bewegung um 1."
+    },
+    {
       "key": "SK_ZUUU_M_02",
       "value": "Fügt dem Ziel Schaden (M) zu und gewährt geringe Chance auf Wirken von 3 Runden andauernder Lähmung."
     },
     {
       "key": "SK_ZUUU_M_03",
       "value": "Fügt Zielen in Reichweite Schaden (L) zu."
+    },
+    {
+      "key": "SK_ZUUU_M_03_RP1",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und entfernt Hast/automatische AP-Wiederherstellung."
     },
     {
       "key": "SK_SKEL_ATK",
@@ -2497,6 +2505,38 @@
       "value": "Senkt 3 Runden lang ABW und PSY von Gegnern in Reichweite und fügt anschließend MAG-abhängigen Schaden (L) zu."
     },
     {
+      "key": "SK_SNRY_ATK",
+      "value": "Fügt dem Ziel Schaden zu."
+    },
+    {
+      "key": "SK_SNRY_M_01",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Wasserschaden (M) zu und gewährt Chance auf Wirken von Immobilisierung."
+    },
+    {
+      "key": "SK_SNRY_M_02",
+      "value": "Wirkt Schutzengel auf sich selbst und erhöht AZ nach Wiederbelebung durch Schutzengel erheblich."
+    },
+    {
+      "key": "SK_SNRY_M_02_B",
+      "value": ""
+    },
+    {
+      "key": "SK_SNRY_M_03",
+      "value": "Fügt dem Ziel Schaden (M) zu."
+    },
+    {
+      "key": "SK_SNRY_M_04",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (M) zu, gewährt Chance auf Wirken von Stille und zusätzlicher Effekt: Senkt AGI erheblich, während Stille aktiv ist."
+    },
+    {
+      "key": "SK_SNRY_M_05",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Feuerschaden (maximal) zu."
+    },
+    {
+      "key": "SK_SNRY_M_06",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu und senkt Hass auf null."
+    },
+    {
       "key": "SK_DMNW_ATK",
       "value": ""
     },
@@ -4009,6 +4049,10 @@
       "value": "Ruft Prinz Sahagin, fügt Zielen im Bereich um Wirkenden Wasserschaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Frosch."
     },
     {
+      "key": "SK_SMN_SNRY",
+      "value": "Ruft Shinryu, fügt Zielen in Reichweite MAG-abhängigen Lichtschaden (L) zu, senkt Hass auf null und aktiviert vorübergehende Karteneffekte (ANG- und MAG-Erhöhung für Verbündete mit stärkerem Effekt bei Lichteinheiten, erhebliche Lichtresistenz-Senkung für Gegner)."
+    },
+    {
       "key": "SK_BTL_HP_100-99900_U",
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
@@ -5242,6 +5286,14 @@
     },
     {
       "key": "SK_BTL_RES_ELECHAIN_1_100_U",
+      "value": "Fähigkeit zur Auftragsausbalancierung"
+    },
+    {
+      "key": "SK_BTL_RES_TYPCHAIN_1_100_D",
+      "value": "Fähigkeit zur Auftragsausbalancierung"
+    },
+    {
+      "key": "SK_BTL_RESWK_1_100_U",
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
     {
@@ -18265,16 +18317,8 @@
       "value": "Fügt dem Ziel Schaden (L) zu, der größer wird, je niedriger die eigenen LP sind."
     },
     {
-      "key": "SK_LB_LW_ENBT_B",
-      "value": "Fügt dem Ziel Schaden (XL) zu, der größer wird, je niedriger die eigenen LP sind."
-    },
-    {
       "key": "SK_LB_LW_FDRC",
       "value": "Fügt dem Ziel Schaden (L) zu und senkt AZ (M)."
-    },
-    {
-      "key": "SK_LB_LW_FDRC_B",
-      "value": "Fügt dem Ziel Schaden (L) zu und senkt AZ."
     },
     {
       "key": "SK_LB_LW_MRND",
@@ -18469,6 +18513,10 @@
       "value": "Heilt LP von Verbündeten im Bereich um Wirkenden (L) und AP von Verbündeten außer sich selbst."
     },
     {
+      "key": "SK_LB_FF04_ROSA_B",
+      "value": "Heilt LP von Verbündeten im Bereich um Wirkenden (L) und AP von Verbündeten außer sich selbst."
+    },
+    {
       "key": "SK_LB_FF04_KAIN",
       "value": "Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
     },
@@ -18643,6 +18691,10 @@
     {
       "key": "SK_LB_FF15_NCTS",
       "value": "Fügt dem Ziel Erdschaden (L) zu und senkt 3 Runden lang Schlitzresistenz, Durchbohrresistenz und Hiebresistenz."
+    },
+    {
+      "key": "SK_LB_FF15_NCTS_B",
+      "value": "Senkt ABW des Ziels, fügt anschließend Erdschaden (L) zu und senkt 3 Runden lang Schlitzresistenz, Durchbohrresistenz und Hiebresistenz."
     },
     {
       "key": "SK_LB_FF15_PRMP",
@@ -18966,7 +19018,7 @@
     },
     {
       "key": "SK_LB_LW_MDNA_C",
-      "value": "Senkt 3 Runden lang Eisresistenz von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Schaden (XL) zu, senkt AGI und senkt 3 Runden lang Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden."
+      "value": "Senkt 3 Runden lang Eisresistenz von Zielen in Reichweite, fügt anschließend MAG-abhängigen Schaden (XL) zu, senkt AGI und senkt 3 Runden lang Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden."
     },
     {
       "key": "SK_LB_LW_LILS_B",
@@ -19053,6 +19105,18 @@
       "value": "Gewährt 3 Runden lang bei Einsatz von eigenen Angriffsfähigkeiten zusätzlichen Schadenseffekt (fügt MAG-abhängigen nichtelementaren Schaden (minimal) zu und wirkt sich nicht auf Ketten aus), fügt anschließend MAG-abhängigen Schaden (L) mit hoher Präzision zu, absorbiert Teil des verursachten Schadens, entfernt Hast und automatische AP-Wiederherstellung und senkt AP."
     },
     {
+      "key": "SK_LB_LW_ENBT_B",
+      "value": "Erhöht eigene ABW-Durchbohrrate erheblich, entfernt alle Schwächungen, fügt dem Ziel anschließend Schaden (L) zu, erhöht Schaden abhängig vom eigenen LP-Verlust, erhöht Wahrscheinlichkeit, selbst Ziel von Angriffen zu werden, erhöht 3 Runden lang Bereichangriffsresistenz und gewährt 3 Runden lang Reduzierung erlittenen Schadens, die zunimmt, je höher die Reichweite."
+    },
+    {
+      "key": "SK_LB_LW_FDRC_B",
+      "value": "Senkt 3 Runden lang Geschossresistenz des Ziels um einen festgelegten Anteil, fügt anschließend Schaden (L) zu, senkt AZ (M) und wirkt 3 Runden lang AP-Heilung bei kritischem Treffer auf sich selbst."
+    },
+    {
+      "key": "SK_LB_LW_IRDL_B",
+      "value": "Erhöht eigene AZ (M) sowie die von Verbündeten in Reichweite und steigert den Effekt, wenn die eigene Einheitenstufe durch 2 teilbar ist, annulliert 3 Runden lang Erfrierung, Lähmung und Berserker von einem Verbündeten und gewährt erfolgreichen Angriffen 3 Runden lang Schwächungseffekt (Senkt 3 Runden lang Menschenfresser)."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Verstärkt Schicksalskreuz. Senkt AP-Verbrauch, erhöht Bereichshöhe. Fügt Zielen in Reichweite Schaden (L) zu, erhöht eigene AZ (M), senkt 3 Runden lang AP-Verbrauch und heilt bei Erleiden von Schaden (1 Mal) festgelegten Anteil der eigenen LP (L), wenn LP unter 50 % sinken."
     },
@@ -19066,7 +19130,7 @@
     },
     {
       "key": "SK_LB_LW_MDNA_C_CH",
-      "value": "Verstärkt Kosmofeder. Fähigkeiteneinsätze +1. Senkt 3 Runden lang Eisresistenz von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Schaden (XL) zu, senkt AGI und senkt 3 Runden lang Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden."
+      "value": "Verstärkt Kosmofeder. Fähigkeiteneinsätze +1. Senkt 3 Runden lang Eisresistenz von Zielen in Reichweite, fügt anschließend MAG-abhängigen Schaden (XL) zu, senkt AGI und senkt 3 Runden lang Wahrscheinlichkeit, selbst zum Ziel von Angriffen zu werden."
     },
     {
       "key": "SK_LB_LW_LILS_B_CH",
@@ -19139,6 +19203,18 @@
     {
       "key": "SK_LB_LW_LUCA_01_B_CH",
       "value": "Verstärkt Arkane Assimilierung. Erhöht Reichweitenhöhe. Gewährt 3 Runden lang bei Einsatz von eigenen Angriffsfähigkeiten zusätzlichen Schadenseffekt (fügt MAG-abhängigen nichtelementaren Schaden (minimal) zu und wirkt sich nicht auf Ketten aus), fügt anschließend MAG-abhängigen Schaden (L) mit hoher Präzision zu, absorbiert Teil des verursachten Schadens, entfernt Hast und automatische AP-Wiederherstellung und senkt AP."
+    },
+    {
+      "key": "SK_LB_LW_ENBT_B_CH",
+      "value": "Verstärkt Beständige Tapferkeit. Senkt AP-Verbrauch und erhöht Reichweitenform. Erhöht eigene ABW-Durchbohrrate erheblich, entfernt alle Schwächungen, fügt dem Ziel anschließend Schaden (L) zu, erhöht Schaden abhängig vom eigenen LP-Verlust, erhöht Wahrscheinlichkeit, selbst Ziel von Angriffen zu werden, erhöht 3 Runden lang Bereichangriffsresistenz und gewährt 3 Runden lang Reduzierung erlittenen Schadens, die zunimmt, je höher die Reichweite."
+    },
+    {
+      "key": "SK_LB_LW_FDRC_B_CH",
+      "value": "Verstärkt Stich des Schmetterlings. Erhöht Reichweite. Senkt 3 Runden lang Geschossresistenz des Ziels um einen festgelegten Anteil, fügt anschließend Schaden (L) zu, senkt AZ (M) und wirkt 3 Runden lang AP-Heilung bei kritischem Treffer auf sich selbst."
+    },
+    {
+      "key": "SK_LB_LW_IRDL_B_CH",
+      "value": "Verstärkt Ildyras Theorem. Erhöht eigene AZ (M) sowie die von Verbündeten in Reichweite und steigert den Effekt, wenn die eigene Einheitenstufe durch 2 teilbar ist, annulliert 3 Runden lang Erfrierung, Lähmung und Berserker von einem Verbündeten und gewährt erfolgreichen Angriffen 3 Runden lang Schwächungseffekt (Senkt 3 Runden lang Menschenfresser)."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -22469,6 +22545,46 @@
       "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene Einzelangriffsresistenz +10 und Aktivierungszeit für Fähigkeiten -20 %"
     },
     {
+      "key": "SK_MA_FF4_CECL_2",
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigener Lichtangriff +15, Schlitzresistenz-Durchbohrrate +30 und beschwört am Anfang des Kampfes eine Barriere, die physischen Schaden reduziert (bis zu 3 Mal)"
+    },
+    {
+      "key": "SK_MA_FF4_ROSA_2",
+      "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene MAG +10 %, Bereichangriffsresistenz +20, PSY +10 und erhöht Bereichsform von Wunder zweier Monde."
+    },
+    {
+      "key": "SK_MA_FF4_KAIN_2",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigener Durchbohrangriff +15, ABW-Durchbohrrate +40 und Präzision +10"
+    },
+    {
+      "key": "SK_MA_FF15_NCTS_2",
+      "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigener ANG +10 %, ABW-Durchbohrrate +25, Einzelangriffsresistenz +15, verstärkt Phantomüberfall. Senkt ABW des Ziel und fügt anschließend Erdschaden (L) zu und senkt 3 Runden lang Schlitz-, Durchbohr- sowie Hiebresistenz."
+    },
+    {
+      "key": "SK_MA_FF15_PRMP_2",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene ABW-Durchbohrrate +15, ANG +20 %, Reaktionsblockrate +40 und erlangte AP +30 %"
+    },
+    {
+      "key": "SK_MA_FF15_ARNA_2",
+      "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene AGI +10 %, Kritischer Schaden +15 %, Durchbohrresistenz-Durchbohrrate +20 und Hass -3"
+    },
+    {
+      "key": "SK_MA_FF4_GLBZ_2",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene MAG +15 %, Präzision +15, Einzelangriffsresistenz +10 und Aktivierungszeit für Angriffsfähigkeiten -30 %"
+    },
+    {
+      "key": "SK_MA_FF13_LTNG_2",
+      "value": "LP-Maximum +10 % und Blitzangriff +15 für verbündete Blitzeinheiten, eigener AP-Verbrauch -15 %, Blitzangriff +5, Kritischer Schaden +15 %, Reaktionsblockrate +50"
+    },
+    {
+      "key": "SK_MA_FF13_HOPE_2",
+      "value": "LP-Maximum +10 % und Lichtangriff +15 für verbündete Lichteinheiten, eigene MAG +5 %, Bereichangriffsresistenz +20 und PSY-Durchbohrrate +20"
+    },
+    {
+      "key": "SK_MA_FF13_SNOW_2",
+      "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigenes LP-Maximum +5 %, Heilkraft +15, Bereichangriffsresistenz +10 und Hass +5"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Erhöht eigene Schlitzresistenz-Durchbohrrate und fügt anschließend Gegnern im Bereich um Wirkenden Schaden (M) zu mit hoher Wahrscheinlichkeit auf kritische Treffer."
     },
@@ -23851,6 +23967,118 @@
     {
       "key": "SK_UES_LW_HLNA_03",
       "value": "Senkt 3 Runden lang Reaktionsfähigkeit des Ziels erheblich und fügt anschließend 3 Mal hintereinander MAG-abhängigen Schaden (L) zu."
+    },
+    {
+      "key": "SK_UES_FF4_CECL",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate und Heilkraft, fügt dem Ziel anschließend 2 Mal hintereinander Schaden (L) zu, der größer wird, je niedriger die eigenen LP sind und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_FF4_EC_CECL_A_01_B",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate und Heilkraft, fügt dem Ziel anschließend 2 Mal hintereinander Schaden (L) zu, der größer wird, je niedriger die eigenen LP sind und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_UES_FF4_KAIN",
+      "value": "Erhöht Reichweite. Erhöht eigen ABW-Durchbohrrate, senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend nach auf Sprung folgender Verzögerung Schaden (M) zu und verursacht zusätzlichen Schaden bei Zielen, die von automatischer AP-Wiederherstellung, Heilkraft-Senkung, Gemach oder Konfus betroffen sind."
+    },
+    {
+      "key": "SK_FF4_EC_KAIN_A_01_B",
+      "value": "Erhöht eigen ABW-Durchbohrrate, senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend nach auf Sprung folgender Verzögerung Schaden (M) zu und verursacht zusätzlichen Schaden bei Zielen, die von automatischer AP-Wiederherstellung, Heilkraft-Senkung, Gemach oder Konfus betroffen sind."
+    },
+    {
+      "key": "SK_UES_FF4_ROSA",
+      "value": "Fähigkeiteneinsätze +1 und erhöht Reichweite."
+    },
+    {
+      "key": "SK_FF4_EC_ROSA_A_01_B",
+      "value": "Gewährt Chance auf Wiederbelebung des Ziels und Heilung seiner LP (vollständig)."
+    },
+    {
+      "key": "SK_UES_FF4_GLBZ",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu, senkt 3 Runden lang ABW-Durchbohrrate und PSY und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
+    },
+    {
+      "key": "SK_FF4_EC_GLBZ_C_01C",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen Schaden (M) zu, senkt 3 Runden lang ABW-Durchbohrrate und PSY und gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung."
+    },
+    {
+      "key": "SK_UES_FF10_YUNA",
+      "value": "Erhöht Bereichsform."
+    },
+    {
+      "key": "SK_FF10_YUNA_S_3B",
+      "value": "Heilt LP (M) von Verbündeten in Reichweite."
+    },
+    {
+      "key": "SK_UES_FF10_TIDU",
+      "value": "Fügt dem Ziel Schaden (L) zu, senkt AZ (S), erhöht eigene AZ (S) und erhöht 1 Runde lang AGI."
+    },
+    {
+      "key": "SK_FF10_EC_TIDU_C_01C",
+      "value": "Fügt dem Ziel Schaden (L) zu, senkt AZ (S), erhöht eigene AZ (S) und erhöht 1 Runde lang AGI."
+    },
+    {
+      "key": "SK_UES_FF10_ARON",
+      "value": "Erhöht Reichweitenform. Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt dem Ziel anschließend Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauernder Lähmung."
+    },
+    {
+      "key": "SK_FF10_EC_ARON_A_01_B",
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt dem Ziel anschließend Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauernder Lähmung."
+    },
+    {
+      "key": "SK_UES_FF15_NCTS",
+      "value": "Erhöht 3 Runden lang eigenen ANG, eigene MAG sowie ABW und aktiviert zusätzlichen Schadenseffekt beim Nutzen einer Angriffsfähigkeit (senkt 3 Runden lang Einzelangriffsresistenz, fügt MAG-abhängigen nichtelementaren Schaden (S) zu und wirkt sich nicht auf Ketten aus)."
+    },
+    {
+      "key": "SK_FF15_EC_NCTS_C_02C",
+      "value": "Erhöht 3 Runden lang eigenen ANG, eigene MAG sowie ABW und aktiviert zusätzlichen Schadenseffekt beim Nutzen einer Angriffsfähigkeit (senkt 3 Runden lang Einzelangriffsresistenz, fügt MAG-abhängigen nichtelementaren Schaden (S) zu und wirkt sich nicht auf Ketten aus)."
+    },
+    {
+      "key": "SK_FF15_NCTS_S_2_AD_B",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels und fügt anschließend MAG-abhängigen nichtelementaren Schaden (S) zu."
+    },
+    {
+      "key": "SK_UES_FF15_PRMP",
+      "value": "Erhöht Reichweite und erhöht Aktivierungschance von Blind. Senkt 3 Runden lang Dunkelresistenz des Ziels, gewährt Chance auf Wirken von 3 Runden andauerndem Blind auf Ziel, fügt anschließend Schaden (L) zu und durchbohrt."
+    },
+    {
+      "key": "SK_FF15_EC_PRMP_C_01C",
+      "value": "Senkt 3 Runden lang Dunkelresistenz des Ziels, gewährt Chance auf Wirken von 3 Runden andauerndem Blind auf Ziel, fügt anschließend Schaden (L) zu und durchbohrt."
+    },
+    {
+      "key": "SK_UES_FF15_ARNA",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend nach auf Sprung folgender Verzögerung Schaden (M) zu und garantiert Treffer."
+    },
+    {
+      "key": "SK_FF15_ARNA_M_1C",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend nach auf Sprung folgender Verzögerung Schaden (M) zu und garantiert Treffer."
+    },
+    {
+      "key": "SK_FF15_ARNA_M_1D",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend nach auf Sprung folgender Verzögerung Schaden (M) zu, gewährt Chance auf Wirken von 3 Runden andauernder Erfrierung und garantiert Treffer."
+    },
+    {
+      "key": "SK_UES_FF13_LTNG",
+      "value": "Reduziert AP-Verbrauch."
+    },
+    {
+      "key": "SK_FF13_EC_LTNG_C_01C",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (L) zu und stellt bei Kampfunfähigkeit des Gegners (bis zu 2) eigene AP wieder her."
+    },
+    {
+      "key": "SK_UES_FF13_SNOW",
+      "value": "Heilt festgelegten Anteil der LP (L), wenn LP beim Erleiden von Schaden unter 20 % sinken (einmal), erhöht eigenen Hiebangriff und Bereichangriffsresistenz und erhöht 3 Runden lang Schwächungsreduzierung erheblich."
+    },
+    {
+      "key": "SK_FF13_SNOW_EN_A_01_C",
+      "value": "Heilt festgelegten Anteil der LP (L), wenn LP beim Erleiden von Schaden unter 20 % sinken (einmal), erhöht eigenen Hiebangriff und Bereichangriffsresistenz und erhöht 3 Runden lang Schwächungsreduzierung erheblich."
+    },
+    {
+      "key": "SK_UES_FF13_HOPE",
+      "value": "Erhöht 3 Runden lang physischen und magischen Schaden von Verbündeten in Reichweite."
+    },
+    {
+      "key": "SK_FF13_EC_HOPE_C_02C",
+      "value": "Erhöht 3 Runden lang physischen und magischen Schaden von Verbündeten in Reichweite."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -32010,6 +32238,66 @@
     },
     {
       "key": "SK_VC_LW_ANV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SNRY_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SNRY_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SNRY_PMAX2",
       "value": ""
     },
     {

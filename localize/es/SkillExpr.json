@@ -593,12 +593,20 @@
       "value": "Para asaltos. Inflige daño (mínimo) a los objetivos de alrededor sin retroceso."
     },
     {
+      "key": "SK_ZUUU_M_01_RP1",
+      "value": "Inflige daño (mínimo) a los objetivos de alrededor, les hace retroceder 2 casillas y reduce su movimiento en 1 durante un turno."
+    },
+    {
       "key": "SK_ZUUU_M_02",
       "value": "Daño (medio) al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
     },
     {
       "key": "SK_ZUUU_M_03",
       "value": "Inflige daño (mucho) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_ZUUU_M_03_RP1",
+      "value": "Inflige daño (medio) a los objetivos al alcance y les elimina prisa y recuperación automática de PA."
     },
     {
       "key": "SK_SKEL_ATK",
@@ -2497,6 +2505,38 @@
       "value": "Reduce el la DEF y el ESP de los enemigos al alcance durante 3 turnos y les inflige daño (mucho) en función de la MAG del usuario."
     },
     {
+      "key": "SK_SNRY_ATK",
+      "value": "Inflige daño al objetivo."
+    },
+    {
+      "key": "SK_SNRY_M_01",
+      "value": "Daño de agua (medio) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles inmóvil durante 3 turnos."
+    },
+    {
+      "key": "SK_SNRY_M_02",
+      "value": "Otorga autolázaro al usuario y aumenta considerablemente su TC al ser revivido."
+    },
+    {
+      "key": "SK_SNRY_M_02_B",
+      "value": ""
+    },
+    {
+      "key": "SK_SNRY_M_03",
+      "value": "Inflige daño (medio) al objetivo."
+    },
+    {
+      "key": "SK_SNRY_M_04",
+      "value": "Daño de luz (medio) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles silencio, y efecto adicional: reduce considerablemente la AGI de objetivos silenciados."
+    },
+    {
+      "key": "SK_SNRY_M_05",
+      "value": "Inflige daño de fuego (máximo) en función de la MAG del usuario a los objetivos al alcance."
+    },
+    {
+      "key": "SK_SNRY_M_06",
+      "value": "Inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance y reduce el odio a 0."
+    },
+    {
       "key": "SK_DMNW_ATK",
       "value": ""
     },
@@ -4009,6 +4049,10 @@
       "value": "Invoca a Sahuagin príncipe: Daño de agua (medio) a los objetivos de alrededor y probabilidad de infligirles rana durante 3 turnos."
     },
     {
+      "key": "SK_SMN_SNRY",
+      "value": "Invoca a Shinryu: inflige daño de luz (mucho) en función de la MAG del usuario a los objetivos al alcance, reduce el odio a 0 y activa un efecto de mapa temporal (aumenta el ATQ y la MAG de los aliados, los aumenta aún más si son unidades de luz y reduce considerablemente la res. luz de los enemigos)."
+    },
+    {
       "key": "SK_BTL_HP_100-99900_U",
       "value": "Técnica para equilibrar misiones."
     },
@@ -5242,6 +5286,14 @@
     },
     {
       "key": "SK_BTL_RES_ELECHAIN_1_100_U",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_RES_TYPCHAIN_1_100_D",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_RESWK_1_100_U",
       "value": "Técnica para equilibrar misiones."
     },
     {
@@ -18265,16 +18317,8 @@
       "value": "Inflige daño (mucho) al objetivo y aumenta el daño según la cantidad de VIT que haya perdido el usuario."
     },
     {
-      "key": "SK_LB_LW_ENBT_B",
-      "value": "Inflige daño (muchísimo) al objetivo y aumenta el daño según la cantidad de VIT que le falte al usuario."
-    },
-    {
       "key": "SK_LB_LW_FDRC",
       "value": "Inflige daño (mucho) al objetivo y reduce su TC (medio)."
-    },
-    {
-      "key": "SK_LB_LW_FDRC_B",
-      "value": "Inflige daño (muchísimo) al objetivo y reduce su TC."
     },
     {
       "key": "SK_LB_LW_MRND",
@@ -18469,6 +18513,10 @@
       "value": "Recupera VIT de los aliados de alrededor (mucho) y recupera PA de los aliados excepto el usuario."
     },
     {
+      "key": "SK_LB_FF04_ROSA_B",
+      "value": "Recupera VIT de los aliados de alrededor (mucho) y recupera PA de los aliados excepto el usuario."
+    },
+    {
       "key": "SK_LB_FF04_KAIN",
       "value": "Daño (mucho) a los objetivos al alcance y probabilidad de infligirles freno durante 3 turnos."
     },
@@ -18643,6 +18691,10 @@
     {
       "key": "SK_LB_FF15_NCTS",
       "value": "Inflige daño de tierra (mucho) al objetivo y reduce su res. corte, perforación y golpe durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_FF15_NCTS_B",
+      "value": "Reduce la DEF del objetivo, le inflige daño de tierra (mucho) y reduce su res. corte, perforación y golpe durante 3 turnos."
     },
     {
       "key": "SK_LB_FF15_PRMP",
@@ -18966,7 +19018,7 @@
     },
     {
       "key": "SK_LB_LW_MDNA_C",
-      "value": "Reduce considerablemente la res. hielo de los objetivos al alcance durante 3 turnos y les inflige daño (muchísimo) en función de la MAG del usuario, reduce la AGI y reduce la probabilidad de que el usuario sea atacado durante 3 turnos."
+      "value": "Reduce la res. hielo de los objetivos al alcance durante 3 turnos y les inflige daño (muchísimo) en función de la MAG del usuario, reduce la AGI y reduce la probabilidad de que el usuario sea atacado durante 3 turnos."
     },
     {
       "key": "SK_LB_LW_LILS_B",
@@ -19053,6 +19105,18 @@
       "value": "Activa un efecto de daño adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) en función de la MAG del usuario sin afectar a los combos), inflige daño (mucho) al objetivo en función de la MAG del usuario con mucha precisión, absorbe una parte del daño infligido, elimina prisa y recuperación automática de PA y reduce los PA."
     },
     {
+      "key": "SK_LB_LW_ENBT_B",
+      "value": "Aumenta considerablemente la tasa de penetración de DEF del usuario, elimina todas sus reducciones, inflige daño (mucho) al objetivo, aumenta el daño según la cantidad de VIT que haya perdido el usuario, aumenta la probabilidad de que sea atacado, aumenta su res. ataque de zona durante 3 turnos y reduce el daño que recibe en función del alcance del ataque durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_FDRC_B",
+      "value": "Reduce un porcentaje fijo de la res. ataque a distancia del objetivo durante 3 turnos, le inflige daño (mucho), reduce el TC (medio) y otorga recuperación de PA al usuario durante 3 turnos al asestar un crítico."
+    },
+    {
+      "key": "SK_LB_LW_IRDL_B",
+      "value": "Aumenta el TC del usuario y los aliados al alcance (medio), lo aumenta más si el nivel del usuario es múltiplo de 2, anula congelación, parálisis y locura de un aliado durante 3 turnos y le otorga reducción de Comehombres durante 3 turnos a sus ataques con éxito durante 3 turnos."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Mejora «Cruz del destino». Reduce el consumo de PA y aumenta la altura de zona. Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -19066,7 +19130,7 @@
     },
     {
       "key": "SK_LB_LW_MDNA_C_CH",
-      "value": "Mejora «Pilar cósmico». N.º de usos de la habilidad +1. Reduce considerablemente la res. hielo de los objetivos al alcance durante 3 turnos y les inflige daño (muchísimo) en función de la MAG del usuario, reduce la AGI y reduce la probabilidad de que el usuario sea atacado durante 3 turnos."
+      "value": "Mejora «Pilar cósmico». N.º de usos de la habilidad +1. Reduce la res. hielo de los objetivos al alcance durante 3 turnos y les inflige daño (muchísimo) en función de la MAG del usuario, reduce la AGI y reduce la probabilidad de que el usuario sea atacado durante 3 turnos."
     },
     {
       "key": "SK_LB_LW_LILS_B_CH",
@@ -19139,6 +19203,18 @@
     {
       "key": "SK_LB_LW_LUCA_01_B_CH",
       "value": "Mejora «Drenaje místico». Mayor altura de alcance. Activa un efecto de daño adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) en función de la MAG del usuario sin afectar a los combos), inflige daño (mucho) al objetivo en función de la MAG del usuario con mucha precisión, absorbe una parte del daño infligido, elimina prisa y recuperación automática de PA y reduce los PA."
+    },
+    {
+      "key": "SK_LB_LW_ENBT_B_CH",
+      "value": "Mejora «Fortaleza imperecedera». Reduce el consumo de PA y mejora la forma de alcance. Aumenta considerablemente la tasa de penetración de DEF del usuario, elimina todas sus reducciones, inflige daño (mucho) al objetivo, aumenta el daño según la cantidad de VIT que haya perdido el usuario, aumenta la probabilidad de que sea atacado, aumenta su res. ataque de zona durante 3 turnos y reduce el daño que recibe en función del alcance del ataque durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_FDRC_B_CH",
+      "value": "Mejora «Picadura de mariposa». Aumenta el alcance. Reduce un porcentaje fijo de la res. ataque a distancia del objetivo durante 3 turnos, le inflige daño (mucho), reduce el TC (medio) y otorga recuperación de PA al usuario durante 3 turnos al asestar un crítico."
+    },
+    {
+      "key": "SK_LB_LW_IRDL_B_CH",
+      "value": "Mejora «Teorema de Ildira». Aumenta el TC del usuario y los aliados al alcance (medio), lo aumenta más si el nivel del usuario es múltiplo de 2, anula congelación, parálisis y locura de un aliado durante 3 turnos y le otorga reducción de Comehombres durante 3 turnos a sus ataques con éxito durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -22469,6 +22545,46 @@
       "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: res. ataque de unidad +10, tiempo de activación <nobr>-20</nobr> %"
     },
     {
+      "key": "SK_MA_FF4_CECL_2",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: ataque de luz +15, tasa de penetración de res. ataque de corte +30, otorga una barrera al inicio del combate que reduce el daño físico (3 veces)"
+    },
+    {
+      "key": "SK_MA_FF4_ROSA_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: MAG +10 %, res. ataque de zona +20, ESP +10, mejora la forma de la zona de «Milagro de las dos lunas»."
+    },
+    {
+      "key": "SK_MA_FF4_KAIN_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: ataque de perforación +15, tasa de penetración de DEF +40, tasa de precisión +10"
+    },
+    {
+      "key": "SK_MA_FF15_NCTS_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +10 %, tasa de penetración de DEF +25, res. ataque de unidad +15, mejora «Razia espectral»: reduce la DEF del objetivo, le inflige daño de tierra (mucho) y reduce su res. corte, perforación y golpe durante 3 turnos."
+    },
+    {
+      "key": "SK_MA_FF15_PRMP_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: tasa de penetración de DEF +15, ATQ +20 %, tasa de bloqueo de reacción +40, PA adquiridos +30 %"
+    },
+    {
+      "key": "SK_MA_FF15_ARNA_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: AGI +10 %, daño crítico +15 %, tasa de penetración de res. ataque de perforación +20, odio -3"
+    },
+    {
+      "key": "SK_MA_FF4_GLBZ_2",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: MAG +15 %, tasa de precisión +15, res. ataque de unidad +10, tiempo de activación de habilidades ofensivas -30 %"
+    },
+    {
+      "key": "SK_MA_FF13_LTNG_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: consumo de PA -15 %, ataque de rayo +5, daño crítico +15 %, tasa de bloqueo de reacción +50"
+    },
+    {
+      "key": "SK_MA_FF13_HOPE_2",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: MAG +5 %, res. ataque de zona +20, tasa de penetración de ESP +20"
+    },
+    {
+      "key": "SK_MA_FF13_SNOW_2",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: VIT máx. +5 %, potencia de curación +15, res. ataque de zona +10, odio +5"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario e inflige daño (medio) con alta probabilidad de golpe crítico a los enemigos de alrededor."
     },
@@ -23851,6 +23967,118 @@
     {
       "key": "SK_UES_LW_HLNA_03",
       "value": "Reduce considerablemente la tasa de activación de la habilidad de reacción del objetivo durante 3 turnos y le inflige daño (mucho) 3 veces en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_UES_FF4_CECL",
+      "value": "Aumenta la tasa de penetración de DEF y la potencia de curación del usuario durante 3 turnos, inflige daño (mucho) al objetivo 2 veces, aumenta el daño según la cantidad de VIT que haya perdido el usuario y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_FF4_EC_CECL_A_01_B",
+      "value": "Aumenta la tasa de penetración de DEF y la potencia de curación del usuario durante 3 turnos, inflige daño (mucho) al objetivo 2 veces, aumenta el daño según la cantidad de VIT que haya perdido el usuario y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_UES_FF4_KAIN",
+      "value": "Mejora el alcance. Aumenta la tasa de penetración de DEF del usuario y reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) después de saltar e inflige daño adicional a objetivos con recuperación automática de PA, reducción de potencia de curación, freno o confusión."
+    },
+    {
+      "key": "SK_FF4_EC_KAIN_A_01_B",
+      "value": "Aumenta la tasa de penetración de DEF del usuario y reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance durante 3 turnos, les inflige daño (medio) después de saltar e inflige daño adicional a objetivos con recuperación automática de PA, reducción de potencia de curación, freno o confusión."
+    },
+    {
+      "key": "SK_UES_FF4_ROSA",
+      "value": "N.º de usos de la habilidad +1 y aumenta el alcance."
+    },
+    {
+      "key": "SK_FF4_EC_ROSA_A_01_B",
+      "value": "Probabilidad de revivir a un objetivo y recuperar toda su VIT."
+    },
+    {
+      "key": "SK_UES_FF4_GLBZ",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance, reduce su tasa de penetración de DEF y su ESP durante 3 turnos y probabilidad de infligirles inmóvil durante 3 turnos."
+    },
+    {
+      "key": "SK_FF4_EC_GLBZ_C_01C",
+      "value": "Daño (medio) en función de la MAG del usuario a los objetivos al alcance, reduce su tasa de penetración de DEF y su ESP durante 3 turnos y probabilidad de infligirles inmóvil durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_FF10_YUNA",
+      "value": "Mejora la forma de la zona."
+    },
+    {
+      "key": "SK_FF10_YUNA_S_3B",
+      "value": "Recupera VIT (medio) de los aliados de alrededor."
+    },
+    {
+      "key": "SK_UES_FF10_TIDU",
+      "value": "Inflige daño (mucho) al objetivo, reduce el TC (poco), aumenta el TC del usuario (poco) y aumenta su AGI durante un turno."
+    },
+    {
+      "key": "SK_FF10_EC_TIDU_C_01C",
+      "value": "Inflige daño (mucho) al objetivo, reduce el TC (poco), aumenta el TC del usuario (poco) y aumenta su AGI durante un turno."
+    },
+    {
+      "key": "SK_UES_FF10_ARON",
+      "value": "Mejora la forma del alcance. Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (mucho) al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
+    },
+    {
+      "key": "SK_FF10_EC_ARON_A_01_B",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (mucho) al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_FF15_NCTS",
+      "value": "Aumenta ATQ, MAG y DEF del usuario durante 3 turnos y activa un efecto de daño adicional al usar una habilidad ofensiva (reduce la res. ataque de unidad durante 3 turnos e inflige daño no elemental (poco) en función de la MAG del usuario sin afectar a los combos)."
+    },
+    {
+      "key": "SK_FF15_EC_NCTS_C_02C",
+      "value": "Aumenta ATQ, MAG y DEF del usuario durante 3 turnos y activa un efecto de daño adicional al usar una habilidad ofensiva (reduce la res. ataque de unidad durante 3 turnos e inflige daño no elemental (poco) en función de la MAG del usuario sin afectar a los combos)."
+    },
+    {
+      "key": "SK_FF15_NCTS_S_2_AD_B",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos y le inflige daño no elemental (poco) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_UES_FF15_PRMP",
+      "value": "Aumenta el alcance y la tasa de activación de ceguera. Reduce la res. oscuridad del objetivo durante 3 turnos, probabilidad de infligirle ceguera durante 3 turnos y le inflige daño penetrante (mucho)."
+    },
+    {
+      "key": "SK_FF15_EC_PRMP_C_01C",
+      "value": "Reduce la res. oscuridad del objetivo durante 3 turnos, probabilidad de infligirle ceguera durante 3 turnos y le inflige daño penetrante (mucho)."
+    },
+    {
+      "key": "SK_UES_FF15_ARNA",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos y le inflige daño (medio) con golpe garantizado después de saltar."
+    },
+    {
+      "key": "SK_FF15_ARNA_M_1C",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos y le inflige daño (medio) con golpe garantizado después de saltar."
+    },
+    {
+      "key": "SK_FF15_ARNA_M_1D",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (medio) con golpe garantizado después de saltar y probabilidad de infligirle congelación durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_FF13_LTNG",
+      "value": "Reduce el consumo de PA."
+    },
+    {
+      "key": "SK_FF13_EC_LTNG_C_01C",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) a los objetivos al alcance y recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_UES_FF13_SNOW",
+      "value": "Recupera un porcentaje fijo de VIT (mucho) cuando esta cae por debajo del 20 % al recibir daño (una vez), aumenta el ataque de golpe y la res. ataque de zona del usuario y aumenta considerablemente su tasa de disminución de reducciones durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_SNOW_EN_A_01_C",
+      "value": "Recupera un porcentaje fijo de VIT (mucho) cuando esta cae por debajo del 20 % al recibir daño (una vez), aumenta el ataque de golpe y la res. ataque de zona del usuario y aumenta considerablemente su tasa de disminución de reducciones durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_FF13_HOPE",
+      "value": "Aumenta el daño físico y mágico de los aliados al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_FF13_EC_HOPE_C_02C",
+      "value": "Aumenta el daño físico y mágico de los aliados al alcance durante 3 turnos."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -32010,6 +32238,66 @@
     },
     {
       "key": "SK_VC_LW_ANV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SNRY_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SNRY_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SNRY_PAW2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SNRY_PMAX2",
       "value": ""
     },
     {
