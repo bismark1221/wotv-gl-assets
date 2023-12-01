@@ -3729,6 +3729,30 @@
       "value": "Probabilidad de realizar un contraataque al recibir daño y aumenta el ATQ del usuario durante 3 turnos (acumulable hasta 3 veces)."
     },
     {
+      "key": "SK_FF9_E_KUJA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_01",
+      "value": "Inflige daño (muchísimo) 2 veces en función de la MAG del usuario al objetivo."
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_02",
+      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance, reduce su res. ataque de zona durante 3 turnos y les inflige daño no elemental (mucho) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_03",
+      "value": "Inflige daño (mucho) en función de la MAG del usuario con golpe garantizado a hasta 2 objetivos."
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_04",
+      "value": "Elimina todas las mejoras de los objetivos al alcance y les inflige daño (medio) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_05",
+      "value": "Otorga autolázaro al usuario (recuperación de VIT: poco) y aumenta su MAG y ESP durante 3 turnos."
+    },
+    {
       "key": "SK_GBLN_ATK",
       "value": "Inflige daño al objetivo."
     },
@@ -16865,6 +16889,10 @@
       "value": "Aumenta VIT máx. y la res. tierra."
     },
     {
+      "key": "SK_LW_SSA_P_THUNDER_2",
+      "value": "Aumenta la VIT máx. y la res. rayo."
+    },
+    {
       "key": "SK_LW_SSA_M_1_SUB",
       "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos e inflige daño (medio) 2 veces en función de la MAG del usuario a los objetivos al alcance."
     },
@@ -17869,6 +17897,18 @@
       "value": "Aumenta el ATQ, la tasa de penetración de DEF y la res. ataque de unidad."
     },
     {
+      "key": "SK_LW_DGB_S_1",
+      "value": "Inflige daño (poco) al objetivo después de saltar y absorbe el daño infligido."
+    },
+    {
+      "key": "SK_LW_DGB_S_2",
+      "value": "Aumenta el ATQ y la DEF del usuario y le otorga Coraza durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_DGB_M_1_SUB",
+      "value": "Reduce la res. perforación del objetivo durante 3 turnos y le inflige daño (medio) después de saltar."
+    },
+    {
       "key": "SK_FF8_SQAL_ATK",
       "value": ""
     },
@@ -18291,6 +18331,150 @@
     {
       "key": "SK_LW_EC_HLNA_03_C_02B",
       "value": "Aumenta la MAG, la tasa de penetración de ESP y la tasa de penetración de res. ataque mágico."
+    },
+    {
+      "key": "SK_FF9_ZDAN_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ZDAN_M_1",
+      "value": "El usuario sobrevive a daño letal una vez, reduce el daño mágico que recibe durante 3 turnos y sus ataques con éxito sellan la eliminación de agallas del objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_ZDAN_M_2",
+      "value": "Activa un efecto de daño adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos), elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance y les inflige daño (medio)."
+    },
+    {
+      "key": "SK_FF9_ZDAN_M_2_AD",
+      "value": "Inflige daño no elemental (mínimo) al objetivo."
+    },
+    {
+      "key": "SK_FF9_ZDAN_M_3",
+      "value": "Inflige daño (mucho) al objetivo 2 veces y reduce su tasa de evasión de crítico y su res. daño crítico durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_ZDAN_S_1",
+      "value": "Daño (poco) al objetivo, probabilidad de robarle un objeto y aumenta la AGI del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_ZDAN_S_2",
+      "value": "Aumenta el daño crítico y la res. ataque de unidad de los aliados de alrededor durante 3 turnos y aumenta el ataque de viento y la tasa de penetración de res. ataque de corte del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_ZDAN_S_3",
+      "value": "Daño (medio) a los objetivos al alcance y probabilidad de infligirles confusión durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_ZDAN_S_4",
+      "value": "Recupera un porcentaje fijo de VIT de todos los aliados del mapa excepto el usuario (mucho), recupera PA e inflige muerte al usuario."
+    },
+    {
+      "key": "SK_FF9_ZDAN_R_1",
+      "value": "Probabilidad de reducir el daño de corte y golpe recibido."
+    },
+    {
+      "key": "SK_FF9_ZDAN_P_1",
+      "value": "Aumenta el ATQ y la tasa de penetración de res. ataque de corte."
+    },
+    {
+      "key": "SK_FF9_ZDAN_P_2",
+      "value": "Aumenta la tasa de crítico y reduce el consumo de PA."
+    },
+    {
+      "key": "SK_FF9_ZDAN_EN_A_01",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos y le inflige daño (medio)."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_01",
+      "value": "Mejora «Experiencia de ladrón» a «Honor entre ladrones»: el usuario sobrevive a daño letal una vez, recupera PA, reduce el daño mágico que recibe durante 3 turnos y sus ataques con éxito sellan la eliminación de agallas del objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_01B",
+      "value": "El usuario sobrevive a daño letal una vez, recupera PA, reduce el daño mágico que recibe durante 3 turnos y sus ataques con éxito sellan la eliminación de agallas del objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_02",
+      "value": "Mejora «Hoja perseguidora» a «Hoja castigadora»: activa un efecto de daño adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos), elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance, les inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_02B",
+      "value": "Activa un efecto de daño adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos), elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance, les inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_02C",
+      "value": "Activa un efecto de daño adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos), elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance, les inflige daño (medio), reduce su potencia de curación durante 3 turnos y anula TC↑."
+    },
+    {
+      "key": "SK_FF9_DAGR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAGR_M_1",
+      "value": "Inflige daño no elemental (mucho) 2 veces a los objetivos al alcance en función de la MAG del usuario y activa «Cura+» a continuación (recupera VIT de los aliados al alcance (poco))."
+    },
+    {
+      "key": "SK_FF9_DAGR_M_4",
+      "value": "Recupera VIT (poco) de los aliados de alrededor."
+    },
+    {
+      "key": "SK_FF9_DAGR_M_2",
+      "value": "Elimina agallas del objetivo y le inflige daño de tierra (medio) en función de la MAG del usuario."
+    },
+    {
+      "key": "SK_FF9_DAGR_M_3",
+      "value": "Otorga eliminación de Coraza y Escudo a los ataques con éxito de los aliados de alrededor durante 3 turnos y aumenta la MAG y el ESP del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_DAGR_S_1",
+      "value": "Daño de tierra (poco) en función de la MAG del usuario al objetivo y probabilidad de infligirle parálisis durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_DAGR_S_2",
+      "value": "Reduce la probabilidad de que el usuario sea atacado y le otorga Coraza y Escudo durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_DAGR_S_3",
+      "value": "Recupera VIT del objetivo (medio)."
+    },
+    {
+      "key": "SK_FF9_DAGR_S_4",
+      "value": "Daño no elemental (medio) en función de la MAG del usuario a los objetivos al alcance y probabilidad de infligirles veneno durante 3 turnos."
+    },
+    {
+      "key": "SK_FF9_DAGR_R_1",
+      "value": "Probabilidad de recuperar VIT del usuario (poco) al recibir daño."
+    },
+    {
+      "key": "SK_FF9_DAGR_P_1",
+      "value": "Reduce considerablemente el tiempo de activación."
+    },
+    {
+      "key": "SK_FF9_DAGR_P_2",
+      "value": "Aumenta el ESP y la tasa de penetración de ESP."
+    },
+    {
+      "key": "SK_FF9_DAGR_EN_A_01",
+      "value": "Aumenta la res. ataque de zona de un aliado durante 3 turnos, le otorga Escudo y otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima)."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_01",
+      "value": "Mejora «Invocación: Bahamut oscuro» a «Megafulgor oscuro»: inflige daño no elemental (mucho) 2 veces a los objetivos al alcance en función de la MAG del usuario, reduce su tasa de penetración de ESP durante 3 turnos y activa «Cura+» a continuación (recupera VIT de los aliados al alcance (poco))."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_01B",
+      "value": "Inflige daño no elemental (mucho) 2 veces a los objetivos al alcance en función de la MAG del usuario, reduce su tasa de penetración de ESP durante 3 turnos y activa «Cura+» a continuación (recupera VIT de los aliados al alcance (poco))."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_02",
+      "value": "Mejora «Aplomo de princesa» a «Resolución de princesa»: aumenta el ESP, la tasa de penetración de ESP y la res. ataque de zona."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_02B",
+      "value": "Aumenta el ESP, la tasa de penetración de ESP y la res. ataque de zona."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_02C",
+      "value": "Aumenta el ESP, la tasa de penetración de ESP, la res. ataque de zona y la res. combo elemental."
     },
     {
       "key": "SK_LB_LW_MONT",
@@ -18999,6 +19183,14 @@
     {
       "key": "SK_LB_LW_HLNA_03_2_AD",
       "value": ""
+    },
+    {
+      "key": "SK_LB_FF9_ZDAN",
+      "value": "Aumenta el daño físico del usuario durante 3 turnos, inflige daño (mucho) al objetivo y reduce el consumo de PA del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_FF9_DAGR",
+      "value": "Elimina todas las reducciones de los aliados al alcance, les recupera VIT (mucho) y aumenta su res. todos los tipos de ataque durante 3 turnos."
     },
     {
       "key": "SK_LB_LW_MONT_B",
@@ -22585,6 +22777,14 @@
       "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: VIT máx. +5 %, potencia de curación +15, res. ataque de zona +10, odio +5"
     },
     {
+      "key": "SK_MA_FF9_ZDAN",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: res. ataque de unidad +10, tasa de bloqueo de reacción +20"
+    },
+    {
+      "key": "SK_MA_FF9_DAGR",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: MAG +5 %, reducción de daño mágico +10"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario e inflige daño (medio) con alta probabilidad de golpe crítico a los enemigos de alrededor."
     },
@@ -24079,6 +24279,14 @@
     {
       "key": "SK_FF13_EC_HOPE_C_02C",
       "value": "Aumenta el daño físico y mágico de los aliados al alcance durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_FF9_ZDAN",
+      "value": "N.º de usos de la habilidad +1. Activa un efecto de daño adicional al usar una habilidad ofensiva del usuario durante 3 turnos (inflige daño no elemental (mínimo) sin afectar a los combos), elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance, les inflige daño (medio), reduce su potencia de curación durante 3 turnos y anula TC↑."
+    },
+    {
+      "key": "SK_UES_FF9_DAGR",
+      "value": "Aumenta el ESP, la tasa de penetración de ESP, la res. ataque de zona y la res. combo elemental."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -26437,6 +26645,14 @@
       "value": "Aumenta la tasa de penetración de res. ataque mágico y la res. ataque de corte del usuario durante 3 turnos y reduce el tiempo de activación."
     },
     {
+      "key": "SK_ACC_FF9_ZDAN_1",
+      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces) y aumenta su tasa de precisión durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_FF9_DAGR_1",
+      "value": "Anula veneno, piedra y rana a los aliados al alcance durante 3 turnos y les recupera PA."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -27634,6 +27850,46 @@
     },
     {
       "key": "SK_LW_ROD_039_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_5",
       "value": ""
     },
     {
@@ -32298,6 +32554,66 @@
     },
     {
       "key": "SK_GL_VC_LW_SNRY_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF9_MV1_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF9_MV1_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF9_MV1_PMAX_2",
       "value": ""
     },
     {

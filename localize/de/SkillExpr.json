@@ -3729,6 +3729,30 @@
       "value": "Gewährt bei Erleiden von Schaden Chance auf Konter und erhöht 3 Runden lang eigenen ANG (bis zu 3 Mal stapelbar)."
     },
     {
+      "key": "SK_FF9_E_KUJA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_01",
+      "value": "Fügt dem Ziel 2 Mal hintereinander MAG-abhängigen Schaden (XL) zu."
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_02",
+      "value": "Zerstört magische Barrieren von Zielen in Reichweite, senkt 3 Runden lang Bereichsresistenz und fügt anschließend MAG-abhängigen nichtelementaren Schaden (L) zu."
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_03",
+      "value": "Fügt bis zu 2 Zielen MAG-abhängigen Schaden (L) zu und garantiert Treffer."
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_04",
+      "value": "Entfernt alle Stärkungen von Zielen in Reichweite und fügt anschließend MAG-abhängigen Schaden (M) zu."
+    },
+    {
+      "key": "SK_FF9_E_KUJA_M_05",
+      "value": "Wirkt Schutzengel auf sich selbst mit LP-Heilung (S) und erhöht 3 Runden lang eigene MAG und PSY."
+    },
+    {
       "key": "SK_GBLN_ATK",
       "value": "Fügt dem Ziel Schaden zu."
     },
@@ -16865,6 +16889,10 @@
       "value": "Erhöht LP-Maximum und Erdresistenz."
     },
     {
+      "key": "SK_LW_SSA_P_THUNDER_2",
+      "value": "Erhöht LP-Maximum und Blitzresistenz."
+    },
+    {
       "key": "SK_LW_SSA_M_1_SUB",
       "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate und fügt anschließend Zielen in Reichweite 2 Mal hintereinander MAG-abhängigen Schaden (M) zu."
     },
@@ -17869,6 +17897,18 @@
       "value": "Erhöht ANG, ABW-Durchbohrrate und Einzelangriffsresistenz."
     },
     {
+      "key": "SK_LW_DGB_S_1",
+      "value": "Fügt dem Ziel nach auf Sprung folgender Verzögerung Schaden (S) zu und absorbiert verursachten Schaden."
+    },
+    {
+      "key": "SK_LW_DGB_S_2",
+      "value": "Erhöht 3 Runden lang eigenen ANG und ABW und gewährt 3 Runden lang Protes."
+    },
+    {
+      "key": "SK_LW_DGB_M_1_SUB",
+      "value": "Senkt 3 Runden lang Durchbohrresistenz des Ziels und fügt anschließend nach auf Sprung folgender Verzögerung Schaden (M) zu."
+    },
+    {
       "key": "SK_FF8_SQAL_ATK",
       "value": ""
     },
@@ -18291,6 +18331,150 @@
     {
       "key": "SK_LW_EC_HLNA_03_C_02B",
       "value": "Erhöht MAG, PSY-Durchbohrrate und Magieangriffsresistenz-Durchbohrrate."
+    },
+    {
+      "key": "SK_FF9_ZDAN_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ZDAN_M_1",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, reduziert 3 Runden lang erlittenen magischen Schaden und versiegelt bei Treffer 3 Runden lang Mumm-Entfernung des Ziels."
+    },
+    {
+      "key": "SK_FF9_ZDAN_M_2",
+      "value": "Aktiviert 3 Runden lang einen zusätzlichen Schadenseffekt, wenn eigene Angriffsfähigkeiten eingesetzt werden (fügt nichtelementaren Schaden (minimal) zu und wirkt sich nicht auf Ketten aus), zerstört physischen Schaden verringernde Barrieren und fügt Zielen in Reichweite anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_FF9_ZDAN_M_2_AD",
+      "value": "Fügt dem Ziel nichtelementaren Schaden (minimal) zu."
+    },
+    {
+      "key": "SK_FF9_ZDAN_M_3",
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (L) zu und senkt 3 Runden lang Kritische Ausweichrate und Kritischer Schaden-Resistenz."
+    },
+    {
+      "key": "SK_FF9_ZDAN_S_1",
+      "value": "Fügt dem Ziel Schaden (S) zu, gewährt Chance, einen Gegenstand zu stehlen und erhöht 3 Runden lang eigene AGI."
+    },
+    {
+      "key": "SK_FF9_ZDAN_S_2",
+      "value": "Erhöht 3 Runden lang Kritischen Schaden und Einzelangriffsresistenz von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang eigenen Windangriff und Schlitzresistenz-Durchbohrrate."
+    },
+    {
+      "key": "SK_FF9_ZDAN_S_3",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Konfus."
+    },
+    {
+      "key": "SK_FF9_ZDAN_S_4",
+      "value": "Heilt festgelegten Anteil der LP (L) von allen Verbündeten auf der Karte außer die eigenen, heilt AP und wirkt Exitus auf sich selbst."
+    },
+    {
+      "key": "SK_FF9_ZDAN_R_1",
+      "value": "Gewährt Chance auf Schadensreduzierung von Schlitz- und Hiebangriffen."
+    },
+    {
+      "key": "SK_FF9_ZDAN_P_1",
+      "value": "Erhöht ANG und Schlitzresistenz-Durchbohrrate."
+    },
+    {
+      "key": "SK_FF9_ZDAN_P_2",
+      "value": "Erhöht Kritische Trefferrate und reduziert AP-Verbrauch."
+    },
+    {
+      "key": "SK_FF9_ZDAN_EN_A_01",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels und fügt anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_01",
+      "value": "Verstärkt Diebestrick zu Ehre unter Dieben. Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, stellt AP wieder her, reduziert 3 Runden lang erlittenen magischen Schaden und versiegelt bei Treffer 3 Runden lang Mumm-Entfernung des Ziels."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_01B",
+      "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, stellt AP wieder her, reduziert 3 Runden lang erlittenen magischen Schaden und versiegelt bei Treffer 3 Runden lang Mumm-Entfernung des Ziels."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_02",
+      "value": "Verstärkt Jagende Klinge zu Bestrafende Klinge. Erhöht Reichweite. Aktiviert 3 Runden lang einen zusätzlichen Schadenseffekt, wenn eigene Angriffsfähigkeiten eingesetzt werden (fügt nichtelementaren Schaden (minimal) zu und wirkt sich nicht auf Ketten aus), zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend Schaden (M) zu und senkt 3 Runden lang Heilkraft."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_02B",
+      "value": "Aktiviert 3 Runden lang einen zusätzlichen Schadenseffekt, wenn eigene Angriffsfähigkeiten eingesetzt werden (fügt nichtelementaren Schaden (minimal) zu und wirkt sich nicht auf Ketten aus), zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend Schaden (M) zu und senkt 3 Runden lang Heilkraft."
+    },
+    {
+      "key": "SK_FF9_EC_ZDAN_C_02C",
+      "value": "Aktiviert 3 Runden lang einen zusätzlichen Schadenseffekt, wenn eigene Angriffsfähigkeiten eingesetzt werden (fügt nichtelementaren Schaden (minimal) zu und wirkt sich nicht auf Ketten aus), zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend Schaden (M) zu, senkt 3 Runden lang Heilkraft und annulliert AZ-Erhöhung."
+    },
+    {
+      "key": "SK_FF9_DAGR_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAGR_M_1",
+      "value": "Fügt Zielen in Reichweite 2 Mal hintereinander nichtelementaren MAG-abhängigen Schaden (L) zu und wirkt Vitra als Kombofähigkeit (Heilt LP von Verbündeten in Reichweite (S))."
+    },
+    {
+      "key": "SK_FF9_DAGR_M_4",
+      "value": "Heilt LP von Verbündeten in Reichweite (S)."
+    },
+    {
+      "key": "SK_FF9_DAGR_M_2",
+      "value": "Entfernt Mumm und fügt dem Ziel anschließend MAG-abhängigen Erdschaden (M) zu."
+    },
+    {
+      "key": "SK_FF9_DAGR_M_3",
+      "value": "Gewährt 3 Runden lang Verbündeten im Bereich um Wirkenden Entfernen von Statuseffekten (Protes und Vallum) bei erfolgreichem Angriff und erhöht 3 Runden lang eigene MAG und PSY."
+    },
+    {
+      "key": "SK_FF9_DAGR_S_1",
+      "value": "Fügt dem Ziel MAG-abhängigen Erdschaden (S) zu und gewährt Chance auf Wirken von 3 Runden andauernder Lähmung."
+    },
+    {
+      "key": "SK_FF9_DAGR_S_2",
+      "value": "Senkt 3 Runden lang Wahrscheinlichkeit, Ziel von Angriffen zu werden, und wirkt 3 Runden lang Statuseffekte (Protes und Vallum) auf sich selbst."
+    },
+    {
+      "key": "SK_FF9_DAGR_S_3",
+      "value": "Heilt LP des Ziels (M)."
+    },
+    {
+      "key": "SK_FF9_DAGR_S_4",
+      "value": "Fügt Zielen in Reichweite MAG-abhängigen nichtelementaren Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gift."
+    },
+    {
+      "key": "SK_FF9_DAGR_R_1",
+      "value": "Gewährt Chance auf Heilung eigener LP (S) bei Erleiden von Schaden."
+    },
+    {
+      "key": "SK_FF9_DAGR_P_1",
+      "value": "Verkürzt Aktivierungszeit erheblich."
+    },
+    {
+      "key": "SK_FF9_DAGR_P_2",
+      "value": "Erhöht PSY und PSY-Durchbohrrate."
+    },
+    {
+      "key": "SK_FF9_DAGR_EN_A_01",
+      "value": "Erhöht 3 Runden lang Bereichangriffsresistenz von einem Verbündeten, wirkt Vallum, wirkt Schutzengel auf sich selbst (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal))."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_01",
+      "value": "Verstärkt Beschwörung von Dunkel-Bahamut zu Dunkle Megaflare. Fügt Zielen in Reichweite 2 Mal hintereinander nichtelementaren MAG-abhängigen Schaden (L) zu, senkt 3 Runden lang PSY-Durchbohrrate und wirkt Vitra als Kombofähigkeit (Heilt LP von Verbündeten in Reichweite (S))."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_01B",
+      "value": "Fügt Zielen in Reichweite 2 Mal hintereinander nichtelementaren MAG-abhängigen Schaden (L) zu, senkt 3 Runden lang PSY-Durchbohrrate und wirkt Vitra als Kombofähigkeit (Heilt LP von Verbündeten in Reichweite (S))."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_02",
+      "value": "Verstärkt Manieren einer Prinzessin zu Entschlossenheit der Prinzessin. Erhöht PSY, PSY-Durchbohrrate und Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_02B",
+      "value": "Erhöht PSY, PSY-Durchbohrrate und Bereichangriffresistenz."
+    },
+    {
+      "key": "SK_FF9_EC_DAGR_C_02C",
+      "value": "Erhöht PSY, PSY-Durchbohrrate, Bereichangriffresistenz und Elementarkettenresistenz."
     },
     {
       "key": "SK_LB_LW_MONT",
@@ -18999,6 +19183,14 @@
     {
       "key": "SK_LB_LW_HLNA_03_2_AD",
       "value": ""
+    },
+    {
+      "key": "SK_LB_FF9_ZDAN",
+      "value": "Erhöht 3 Runden lang eigenen physischen Schaden, fügt dem Ziel anschließend Schaden (L) zu und senkt 3 Runden lang eigenen AP-Verbrauch."
+    },
+    {
+      "key": "SK_LB_FF9_DAGR",
+      "value": "Entfernt alle Schwächung von Verbündeten in Reichweite, heilt LP (L) und erhöht 3 Runden lang alle Angriffsresistenzen."
     },
     {
       "key": "SK_LB_LW_MONT_B",
@@ -22585,6 +22777,14 @@
       "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigenes LP-Maximum +5 %, Heilkraft +15, Bereichangriffsresistenz +10 und Hass +5"
     },
     {
+      "key": "SK_MA_FF9_ZDAN",
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene Einzelangriffsresistenz +10 und eigene Reaktionsblockrate +20"
+    },
+    {
+      "key": "SK_MA_FF9_DAGR",
+      "value": "LP-Maximum +10 %, Erdangriff +15 für verbündete Erdeinheiten, eigene MAG +5 % und eigene Magischer Schaden-Senkung +10"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Erhöht eigene Schlitzresistenz-Durchbohrrate und fügt anschließend Gegnern im Bereich um Wirkenden Schaden (M) zu mit hoher Wahrscheinlichkeit auf kritische Treffer."
     },
@@ -24079,6 +24279,14 @@
     {
       "key": "SK_FF13_EC_HOPE_C_02C",
       "value": "Erhöht 3 Runden lang physischen und magischen Schaden von Verbündeten in Reichweite."
+    },
+    {
+      "key": "SK_UES_FF9_ZDAN",
+      "value": "Fähigkeiteneinsätze +1. Aktiviert 3 Runden lang einen zusätzlichen Schadenseffekt, wenn eigene Angriffsfähigkeiten eingesetzt werden (fügt nichtelementaren Schaden (minimal) zu und wirkt sich nicht auf Ketten aus), zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend Schaden (M) zu, senkt 3 Runden lang Heilkraft und annulliert AZ-Erhöhung."
+    },
+    {
+      "key": "SK_UES_FF9_DAGR",
+      "value": "Erhöht PSY, PSY-Durchbohrrate, Bereichangriffresistenz und Elementarkettenresistenz."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -26437,6 +26645,14 @@
       "value": "Erhöht 3 Runden lang eigene Magieangriffsresistenz-Durchbohrrate und Schlitzresistenz und senkt Aktivierungszeit."
     },
     {
+      "key": "SK_ACC_FF9_ZDAN_1",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal physischen Schaden reduziert, und erhöht 3 Runden lang Präzision."
+    },
+    {
+      "key": "SK_ACC_FF9_DAGR_1",
+      "value": "Annulliert 3 Runden lang Gift, Stein und Frosch von Verbündeten in Reichweite und stellt AP wieder her."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -27634,6 +27850,46 @@
     },
     {
       "key": "SK_LW_ROD_039_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_DAG_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_MAC_000_5",
       "value": ""
     },
     {
@@ -32298,6 +32554,66 @@
     },
     {
       "key": "SK_GL_VC_LW_SNRY_PMAX2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF9_MV1_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF9_MV1_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF9_MV1_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF9_MV1_PMAX_2",
       "value": ""
     },
     {
