@@ -1742,7 +1742,8 @@
       "mapEv": {
         "type": 2,
         "typeval": "unittag=ARAI;string=2;local=skill>SK_GMK_ATK_ARAIN|rmin>2|rmax>3|Vector2Int[]>{\"array\":[{\"x\":7,\"y\":2},{\"x\":8,\"y\":2},{\"x\":8,\"y\":3},{\"x\":9,\"y\":2},{\"x\":8,\"y\":1},{\"x\":7,\"y\":1},{\"x\":8,\"y\":0},{\"x\":9,\"y\":1},{\"x\":9,\"y\":3},{\"x\":8,\"y\":4},{\"x\":7,\"y\":3},{\"x\":6,\"y\":2},{\"x\":10,\"y\":2},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":4},{\"x\":2,\"y\":5},{\"x\":4,\"y\":5},{\"x\":8,\"y\":10},{\"x\":9,\"y\":10},{\"x\":10,\"y\":10},{\"x\":7,\"y\":10},{\"x\":11,\"y\":10},{\"x\":8,\"y\":9},{\"x\":9,\"y\":9},{\"x\":10,\"y\":9},{\"x\":10,\"y\":11},{\"x\":9,\"y\":11},{\"x\":8,\"y\":11},{\"x\":9,\"y\":12},{\"x\":9,\"y\":8}]}",
-        "isUnitNoAct": true
+        "isUnitNoAct": true,
+        "isAvoidAuto": false
       },
       "invokeMax": -1,
       "deadTags": [],
@@ -1896,6 +1897,36 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_PRNE_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_MDA",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_MDA_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_MDA_3",
             "num": 2,
             "subNum1": 0,
             "secret": 0
@@ -2090,7 +2121,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 2465
+          "weight": 2387
         }
       ]
     }
