@@ -18833,6 +18833,78 @@
       "value": "단일 공격 저항력/민첩성/리액션 저지율 증가"
     },
     {
+      "key": "SK_LW_ELDE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ELDE_M_1",
+      "value": "자신의 방어 관통률 증가+범위 내 대상에게 2연속 피해(중)+고확률로 명중+준 피해량 일부 흡수"
+    },
+    {
+      "key": "SK_LW_ELDE_M_2",
+      "value": "자신에게 일정량의 피해 보호막+3턴 동안 자신을 중심으로 자신을 제외한 범위 내(형태: 마름모꼴/사정거리: 3/사정거리 고저 차이: 1) 아군의 물리 피해량 증가 효과 부여"
+    },
+    {
+      "key": "SK_LW_ELDE_M_2B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ELDE_M_3",
+      "value": "범위 내 대상에게 피해(중)+CT 감소(중)"
+    },
+    {
+      "key": "SK_LW_ELDE_S_1",
+      "value": "대상에게 피해(소)+관통+자신의 모든 약화 효과 해제"
+    },
+    {
+      "key": "SK_LW_ELDE_S_2",
+      "value": "3턴 동안 자신을 중심으로 범위 내 아군의 범위 공격 저항력 증가+자신에게 리레이즈(전투불능 시 1회에 한해 자동으로 전투불능 회복+HP 극소량 회복) 효과+리레이즈 발동 중일 경우 물리 피해량 증가 효과 추가 부여+3턴 동안 거리 4 이상 1칸 멀어질수록 받는 피해량 감소 효과 부여(거리 7까지 효과 증가)+AP 자동 회복 효과(중)"
+    },
+    {
+      "key": "SK_LW_ELDE_S_3",
+      "value": "대상에게 피해(중)+관통+일정 확률로 돈액트(3턴 동안 이동 외 행동 불가) 효과"
+    },
+    {
+      "key": "SK_LW_ELDE_S_4",
+      "value": "범위 내 대상에게 피해(중)+AP 감소"
+    },
+    {
+      "key": "SK_LW_ELDE_R_1",
+      "value": "물리 피해를 받으면 일정 확률로 반격+준 피해량 흡수"
+    },
+    {
+      "key": "SK_LW_ELDE_P_1",
+      "value": "리액션 저지율/전투 시작 시 AP 증가"
+    },
+    {
+      "key": "SK_LW_ELDE_P_2",
+      "value": "최대 HP/범위 공격 저항력 증가"
+    },
+    {
+      "key": "SK_LW_ELDE_EN_A_01",
+      "value": "대상의 근성 효과 해제+피해(중)"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_01",
+      "value": " '더블 드레인'을 '레온 드레인'으로 강화+자신의 방어 관통률 증가+물리 피해 보호막 파괴+범위 내 대상에게 2연속 피해(중)+고확률로 명중+준 피해량 일부 흡수"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_01B",
+      "value": "자신의 방어 관통률 증가+물리 피해 보호막 파괴+범위 내 대상에게 2연속 피해(중)+고확률로 명중+준 피해량 일부 흡수"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_01C",
+      "value": "3턴 동안 자신의 방어 관통률 증가+물리 피해 보호막 파괴+범위 내 대상에게 2연속 피해(중)+고확률로 명중+준 피해량 일부 흡수"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_02",
+      "value": " '아내를 지킬 각오'를 '레오니스를 지킬 각오'로 강화+최대 HP/공격력/명중률/범위 공격 저항력 증가"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_02B",
+      "value": "최대 HP/공격력/명중률/범위 공격 저항력 증가"
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "범위 내 대상에게 피해(대)"
     },
@@ -19555,6 +19627,14 @@
     {
       "key": "SK_LB_LW_RUFF_01",
       "value": "대상에게 마력 의존 피해(대)(최대 2개체)+준 피해량 일부 흡수+일정 확률로 슬로우(3턴 동안 CT 축적 속도 감소) 효과"
+    },
+    {
+      "key": "SK_LB_LW_ELDE_01",
+      "value": "[연속 사용 1] 3턴 동안 범위 내 대상의 찌르기 저항력 감소+피해(대)+[연속 사용 2] '적으로 돌리더라도'(자신을 중심으로 범위 내 아군의 CT 증가(소)+3턴 동안 공격력/명중률 대폭 증가) 발동"
+    },
+    {
+      "key": "SK_LB_LW_ELDE_01_2",
+      "value": "자신을 중심으로 범위 내 아군의 CT 증가(소)+3턴 동안 공격력/명중률 대폭 증가"
     },
     {
       "key": "SK_LB_LW_MONT_B",
@@ -23265,6 +23345,10 @@
       "value": "번개속성 아군 유닛의 최대 HP+10%/번개속성 어빌리티 공격력+15, 자신의 마법 저항력 관통률+20"
     },
     {
+      "key": "SK_MA_LW_ELDE_01",
+      "value": "물속성 아군 유닛의 최대 HP+10%/물속성 어빌리티 공격력+15, 자신의 단일 공격 저항력+10/리액션 저지율+20"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "자신의 베기 저항력 관통률 증가+자신을 중심으로 범위 내 적에게 피해(중)+고확률로 크리티컬"
     },
@@ -24827,6 +24911,10 @@
     {
       "key": "SK_LW_EC_LLN_A_01B",
       "value": "3턴 동안 범위 내 대상의 방어력 감소+피해(중)+크리티컬 발생 시 3턴 동안 자신에게 AP 자동 회복 효과(소)"
+    },
+    {
+      "key": "SK_UES_LW_ELDE_01",
+      "value": "사용 횟수 1 증가+3턴 동안 자신의 방어 관통률 증가+물리 피해 보호막 파괴+범위 내 대상에게 2연속 피해(중)+고확률로 명중+준 피해량 일부 흡수"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -27201,6 +27289,10 @@
       "value": "3턴 동안 자신과 아군의 단일 공격 저항력 증가"
     },
     {
+      "key": "SK_ARM_LW_ELDE_01_1",
+      "value": "자신의 CT 증가(소)+3턴 동안 찌르기 공격력 증가+공격 명중 시 대상의 헤이스트 해제 효과 부여"
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -28506,6 +28598,106 @@
     },
     {
       "key": "SK_FF9_ROD_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_5",
       "value": ""
     },
     {
@@ -33354,6 +33546,90 @@
     },
     {
       "key": "SK_GL_VC_LW_XMAS4_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_P_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PAW_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PMAX_4",
       "value": ""
     },
     {

@@ -100,51 +100,6 @@
     },
     {
       "name": "id:3",
-      "x": 3,
-      "y": 1,
-      "dir": 1,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 0,
-      "faith": 0,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "",
-        "wait_e": 0,
-        "search": 3,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "escape_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "wait_m": 0,
-      "parent": "",
-      "part": {
-        "body": "",
-        "id": "",
-        "gauge": {
-          "x": 0.0,
-          "y": 0.0
-        }
-      }
-    },
-    {
-      "name": "id:4",
       "x": 8,
       "y": 1,
       "dir": 1,
@@ -189,8 +144,53 @@
       }
     },
     {
-      "name": "id:5",
+      "name": "id:4",
       "x": 9,
+      "y": 1,
+      "dir": 1,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "id:5",
+      "x": 3,
       "y": 1,
       "dir": 1,
       "ct_calc": 0,
@@ -350,12 +350,12 @@
       },
       "skills": [
         {
-          "iname": "SK_LW_BFI_S_2",
+          "iname": "SK_LW_BFI_S_2_INIT",
           "rank": 20,
           "rate": 100
         },
         {
-          "iname": "SK_LW_BFI_S_1",
+          "iname": "SK_LW_BFI_S_1_INIT",
           "rank": 20,
           "rate": 100
         },
@@ -393,6 +393,11 @@
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 30,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RATK_1-100_U",
+          "rank": 15,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -403,15 +408,15 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":19661},{\"type\":2,\"value\":236},{\"type\":3,\"value\":241},{\"type\":4,\"value\":661},{\"type\":6,\"value\":127},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":65},{\"type\":8,\"value\":295},{\"type\":10,\"value\":259},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":416,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":420,\"value\":100},{\"type\":421,\"value\":100}]}",
+      "status": "{\"list\":[{\"type\":1,\"value\":20661},{\"type\":2,\"value\":236},{\"type\":3,\"value\":241},{\"type\":4,\"value\":661},{\"type\":6,\"value\":127},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":65},{\"type\":8,\"value\":295},{\"type\":10,\"value\":259},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":416,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":420,\"value\":100},{\"type\":421,\"value\":100},{\"type\":155,\"value\":0},{\"type\":156,\"value\":-15},{\"type\":151,\"value\":0},{\"type\":152,\"value\":15}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
     },
     {
       "name": "02",
-      "x": 8,
-      "y": 11,
+      "x": 9,
+      "y": 10,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 800,
@@ -426,7 +431,7 @@
       "ai": {
         "iname": "AI_ENEMY_1_BUFF_2_ATK_1",
         "wait_e": 0,
-        "search": 15,
+        "search": 20,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -483,7 +488,7 @@
           "rate": 100
         },
         {
-          "iname": "SK_LW_SAM_M_1",
+          "iname": "SK_LW_SAM_M_1_INIT",
           "rank": 20,
           "rate": 100
         },
@@ -536,6 +541,11 @@
           "iname": "SK_LW_PIERCE_SLASH_1_100U",
           "rank": 10,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RATK_1-100_U",
+          "rank": 15,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -546,15 +556,15 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":16609},{\"type\":2,\"value\":220},{\"type\":3,\"value\":208},{\"type\":4,\"value\":816},{\"type\":6,\"value\":113},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":71},{\"type\":8,\"value\":289},{\"type\":10,\"value\":258},{\"type\":11,\"value\":4},{\"type\":406,\"value\":100},{\"type\":408,\"value\":100},{\"type\":413,\"value\":100},{\"type\":410,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":420,\"value\":100},{\"type\":421,\"value\":100}]}",
+      "status": "{\"list\":[{\"type\":1,\"value\":18609},{\"type\":2,\"value\":220},{\"type\":3,\"value\":208},{\"type\":4,\"value\":816},{\"type\":6,\"value\":113},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":71},{\"type\":8,\"value\":289},{\"type\":10,\"value\":258},{\"type\":11,\"value\":4},{\"type\":406,\"value\":100},{\"type\":408,\"value\":100},{\"type\":413,\"value\":100},{\"type\":410,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":420,\"value\":100},{\"type\":421,\"value\":100}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
     },
     {
       "name": "",
-      "x": 8,
-      "y": 12,
+      "x": 10,
+      "y": 10,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -636,16 +646,6 @@
           "rate": 100
         },
         {
-          "iname": "SK_LW_SAM_M_2",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LW_SAM_R_1",
-          "rank": 20,
-          "rate": 100
-        },
-        {
           "iname": "SK_BTL_HIT_1_999_U",
           "rank": 150,
           "rate": 100
@@ -669,6 +669,11 @@
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 30,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RATK_1-100_U",
+          "rank": 10,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -679,7 +684,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":2,\"value\":196},{\"type\":3,\"value\":162},{\"type\":254,\"value\":20},{\"type\":4,\"value\":579},{\"type\":156,\"value\":-10},{\"type\":152,\"value\":10},{\"type\":1,\"value\":9427},{\"type\":6,\"value\":80},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":51},{\"type\":8,\"value\":287},{\"type\":10,\"value\":288},{\"type\":250,\"value\":15},{\"type\":404,\"value\":100},{\"type\":406,\"value\":100},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100}]}",
+      "status": "{\"list\":[{\"type\":2,\"value\":196},{\"type\":3,\"value\":162},{\"type\":254,\"value\":20},{\"type\":4,\"value\":579},{\"type\":156,\"value\":-10},{\"type\":152,\"value\":10},{\"type\":1,\"value\":9427},{\"type\":6,\"value\":80},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":51},{\"type\":8,\"value\":287},{\"type\":10,\"value\":288},{\"type\":250,\"value\":15},{\"type\":404,\"value\":100},{\"type\":406,\"value\":100},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100},{\"type\":251,\"value\":-5}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
@@ -769,16 +774,6 @@
           "rate": 100
         },
         {
-          "iname": "SK_LW_SAM_M_2",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LW_SAM_R_1",
-          "rank": 20,
-          "rate": 100
-        },
-        {
           "iname": "SK_BTL_HIT_1_999_U",
           "rank": 150,
           "rate": 100
@@ -802,6 +797,11 @@
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 30,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RATK_1-100_U",
+          "rank": 10,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -812,7 +812,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":2,\"value\":196},{\"type\":3,\"value\":162},{\"type\":254,\"value\":20},{\"type\":4,\"value\":579},{\"type\":156,\"value\":-10},{\"type\":152,\"value\":10},{\"type\":1,\"value\":9427},{\"type\":6,\"value\":80},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":51},{\"type\":8,\"value\":287},{\"type\":10,\"value\":288},{\"type\":250,\"value\":15},{\"type\":404,\"value\":100},{\"type\":406,\"value\":100},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100}]}",
+      "status": "{\"list\":[{\"type\":2,\"value\":196},{\"type\":3,\"value\":162},{\"type\":254,\"value\":20},{\"type\":4,\"value\":579},{\"type\":156,\"value\":-10},{\"type\":152,\"value\":10},{\"type\":1,\"value\":9427},{\"type\":6,\"value\":80},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":51},{\"type\":8,\"value\":287},{\"type\":10,\"value\":288},{\"type\":250,\"value\":15},{\"type\":404,\"value\":100},{\"type\":406,\"value\":100},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100},{\"type\":251,\"value\":-5}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
@@ -902,16 +902,6 @@
           "rate": 100
         },
         {
-          "iname": "SK_LW_SAM_M_2",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_LW_SAM_R_1",
-          "rank": 20,
-          "rate": 100
-        },
-        {
           "iname": "SK_BTL_HIT_1_999_U",
           "rank": 150,
           "rate": 100
@@ -935,6 +925,11 @@
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 30,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RATK_1-100_U",
+          "rank": 10,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -945,7 +940,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":2,\"value\":196},{\"type\":3,\"value\":162},{\"type\":254,\"value\":20},{\"type\":4,\"value\":579},{\"type\":156,\"value\":-10},{\"type\":152,\"value\":10},{\"type\":1,\"value\":9427},{\"type\":6,\"value\":80},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":51},{\"type\":8,\"value\":287},{\"type\":10,\"value\":288},{\"type\":250,\"value\":15},{\"type\":404,\"value\":100},{\"type\":406,\"value\":100},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100}]}",
+      "status": "{\"list\":[{\"type\":2,\"value\":196},{\"type\":3,\"value\":162},{\"type\":254,\"value\":20},{\"type\":4,\"value\":579},{\"type\":156,\"value\":-10},{\"type\":152,\"value\":10},{\"type\":1,\"value\":9427},{\"type\":6,\"value\":80},{\"type\":5,\"value\":10},{\"type\":7,\"value\":10},{\"type\":9,\"value\":51},{\"type\":8,\"value\":287},{\"type\":10,\"value\":288},{\"type\":250,\"value\":15},{\"type\":404,\"value\":100},{\"type\":406,\"value\":100},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100},{\"type\":251,\"value\":-5}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
@@ -1003,7 +998,7 @@
         }
       },
       "enemy_id": 61,
-      "iname": "UN_LW_E_SO_03_GUN",
+      "iname": "UN_LW_E_SO_03_HUN",
       "side": 1,
       "dead": 0,
       "lv": 80,
@@ -1028,12 +1023,12 @@
       },
       "skills": [
         {
-          "iname": "SK_LW_GUN_S_1",
+          "iname": "SK_LW_HUN_M_2",
           "rank": 20,
           "rate": 100
         },
         {
-          "iname": "SK_LW_GUN_M_1_INIT",
+          "iname": "SK_LW_HUN_M_3",
           "rank": 20,
           "rate": 100
         },
@@ -1071,7 +1066,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":254,\"value\":0},{\"type\":250,\"value\":15},{\"type\":253,\"value\":20},{\"type\":9,\"value\":60},{\"type\":8,\"value\":208},{\"type\":1,\"value\":6890},{\"type\":2,\"value\":210},{\"type\":3,\"value\":220},{\"type\":4,\"value\":587},{\"type\":10,\"value\":178},{\"type\":6,\"value\":55},{\"type\":5,\"value\":10},{\"type\":251,\"value\":-5},{\"type\":154,\"value\":10},{\"type\":152,\"value\":-10},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100}]}",
+      "status": "{\"list\":[{\"type\":254,\"value\":0},{\"type\":250,\"value\":15},{\"type\":253,\"value\":20},{\"type\":9,\"value\":60},{\"type\":8,\"value\":208},{\"type\":1,\"value\":7190},{\"type\":2,\"value\":210},{\"type\":3,\"value\":220},{\"type\":4,\"value\":587},{\"type\":10,\"value\":178},{\"type\":6,\"value\":55},{\"type\":5,\"value\":10},{\"type\":251,\"value\":-5},{\"type\":154,\"value\":10},{\"type\":152,\"value\":-10},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
@@ -1079,7 +1074,7 @@
     {
       "name": "",
       "x": 5,
-      "y": 12,
+      "y": 13,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 400,
@@ -1129,7 +1124,7 @@
         }
       },
       "enemy_id": 62,
-      "iname": "UN_LW_E_SO_03_GUN",
+      "iname": "UN_LW_E_SO_03_HUN",
       "side": 1,
       "dead": 0,
       "lv": 80,
@@ -1154,12 +1149,12 @@
       },
       "skills": [
         {
-          "iname": "SK_LW_GUN_S_1",
+          "iname": "SK_LW_HUN_M_2",
           "rank": 20,
           "rate": 100
         },
         {
-          "iname": "SK_LW_GUN_M_1_INIT",
+          "iname": "SK_LW_HUN_M_3",
           "rank": 20,
           "rate": 100
         },
@@ -1197,7 +1192,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":254,\"value\":0},{\"type\":250,\"value\":15},{\"type\":253,\"value\":20},{\"type\":9,\"value\":60},{\"type\":8,\"value\":208},{\"type\":1,\"value\":6890},{\"type\":2,\"value\":210},{\"type\":3,\"value\":220},{\"type\":4,\"value\":587},{\"type\":10,\"value\":178},{\"type\":6,\"value\":55},{\"type\":5,\"value\":10},{\"type\":251,\"value\":-5},{\"type\":154,\"value\":10},{\"type\":152,\"value\":-10},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100}]}",
+      "status": "{\"list\":[{\"type\":254,\"value\":0},{\"type\":250,\"value\":15},{\"type\":253,\"value\":20},{\"type\":9,\"value\":60},{\"type\":8,\"value\":208},{\"type\":1,\"value\":7190},{\"type\":2,\"value\":210},{\"type\":3,\"value\":220},{\"type\":4,\"value\":587},{\"type\":10,\"value\":178},{\"type\":6,\"value\":55},{\"type\":5,\"value\":10},{\"type\":251,\"value\":-5},{\"type\":154,\"value\":10},{\"type\":152,\"value\":-10},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
@@ -1255,7 +1250,7 @@
         }
       },
       "enemy_id": 63,
-      "iname": "UN_LW_E_SO_03_GUN",
+      "iname": "UN_LW_E_SO_03_HUN",
       "side": 1,
       "dead": 0,
       "lv": 80,
@@ -1280,12 +1275,12 @@
       },
       "skills": [
         {
-          "iname": "SK_LW_GUN_S_1",
+          "iname": "SK_LW_HUN_M_2",
           "rank": 20,
           "rate": 100
         },
         {
-          "iname": "SK_LW_GUN_M_1_INIT",
+          "iname": "SK_LW_HUN_M_3",
           "rank": 20,
           "rate": 100
         },
@@ -1323,15 +1318,15 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":254,\"value\":0},{\"type\":250,\"value\":15},{\"type\":253,\"value\":20},{\"type\":9,\"value\":60},{\"type\":8,\"value\":208},{\"type\":1,\"value\":6890},{\"type\":2,\"value\":210},{\"type\":3,\"value\":220},{\"type\":4,\"value\":587},{\"type\":10,\"value\":178},{\"type\":6,\"value\":55},{\"type\":5,\"value\":10},{\"type\":251,\"value\":-5},{\"type\":154,\"value\":10},{\"type\":152,\"value\":-10},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100}]}",
+      "status": "{\"list\":[{\"type\":254,\"value\":0},{\"type\":250,\"value\":15},{\"type\":253,\"value\":20},{\"type\":9,\"value\":60},{\"type\":8,\"value\":208},{\"type\":1,\"value\":7190},{\"type\":2,\"value\":210},{\"type\":3,\"value\":220},{\"type\":4,\"value\":587},{\"type\":10,\"value\":178},{\"type\":6,\"value\":55},{\"type\":5,\"value\":10},{\"type\":251,\"value\":-5},{\"type\":154,\"value\":10},{\"type\":152,\"value\":-10},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":417,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100},{\"type\":412,\"value\":100}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
     },
     {
       "name": "",
-      "x": 4,
-      "y": 6,
+      "x": 3,
+      "y": 9,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 1000,
@@ -1454,6 +1449,11 @@
           "iname": "SK_LW_PIERCE_SLASH_1_100U",
           "rank": 30,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RATK_1-100_U",
+          "rank": 15,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -1464,15 +1464,15 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":250,\"value\":20},{\"type\":252,\"value\":25},{\"type\":254,\"value\":-5},{\"type\":1,\"value\":18709},{\"type\":2,\"value\":245},{\"type\":3,\"value\":234},{\"type\":4,\"value\":690},{\"type\":6,\"value\":116},{\"type\":7,\"value\":10},{\"type\":9,\"value\":69},{\"type\":8,\"value\":276},{\"type\":10,\"value\":285},{\"type\":406,\"value\":100},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":416,\"value\":100},{\"type\":418,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100}]}",
+      "status": "{\"list\":[{\"type\":250,\"value\":20},{\"type\":252,\"value\":25},{\"type\":254,\"value\":-5},{\"type\":1,\"value\":23709},{\"type\":2,\"value\":245},{\"type\":3,\"value\":234},{\"type\":4,\"value\":690},{\"type\":6,\"value\":116},{\"type\":7,\"value\":10},{\"type\":9,\"value\":69},{\"type\":8,\"value\":276},{\"type\":10,\"value\":285},{\"type\":406,\"value\":100},{\"type\":407,\"value\":100},{\"type\":408,\"value\":100},{\"type\":410,\"value\":100},{\"type\":413,\"value\":100},{\"type\":409,\"value\":100},{\"type\":416,\"value\":100},{\"type\":418,\"value\":100},{\"type\":419,\"value\":100},{\"type\":421,\"value\":100}]}",
       "groupId": "",
       "infUnit": false,
       "wave_id": 0
     },
     {
       "name": "",
-      "x": 4,
-      "y": 7,
+      "x": 3,
+      "y": 8,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 400,
@@ -1580,6 +1580,11 @@
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 30,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RATK_1-100_U",
+          "rank": 10,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -1633,12 +1638,12 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_LW_FIS_017",
+            "iname": "IT_AF_LW_SPE_032",
             "num": 1,
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 455
+          "weight": 556
         },
         {
           "drop_data": {
@@ -1648,37 +1653,37 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 909
+          "weight": 1111
         },
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_MAT_YARN_01",
+            "iname": "IT_AF_MAT_HEART_03",
             "num": 5,
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 1182
+          "weight": 1445
         },
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_MAT_THUNDER_01",
+            "iname": "IT_AF_MAT_LESS_01",
             "num": 1,
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 909
+          "weight": 1111
         },
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_AW_FIST",
+            "iname": "IT_AF_AW_SPEAR",
             "num": 1,
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 909
+          "weight": 1111
         },
         {
           "drop_data": {
@@ -1688,7 +1693,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 2273
+          "weight": 2778
         },
         {
           "drop_data": {
@@ -1698,7 +1703,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 1000
+          "weight": 1222
         },
         {
           "drop_data": {
@@ -1708,7 +1713,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 2363
+          "weight": 666
         }
       ]
     },

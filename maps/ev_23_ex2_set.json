@@ -100,51 +100,6 @@
     },
     {
       "name": "id:3",
-      "x": 7,
-      "y": 12,
-      "dir": 3,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 0,
-      "faith": 0,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "",
-        "wait_e": 0,
-        "search": 3,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "escape_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "wait_m": 0,
-      "parent": "",
-      "part": {
-        "body": "",
-        "id": "",
-        "gauge": {
-          "x": 0.0,
-          "y": 0.0
-        }
-      }
-    },
-    {
-      "name": "id:4",
       "x": 4,
       "y": 12,
       "dir": 3,
@@ -189,9 +144,54 @@
       }
     },
     {
-      "name": "id:5",
+      "name": "id:4",
       "x": 3,
       "y": 11,
+      "dir": 3,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "id:5",
+      "x": 7,
+      "y": 12,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -1376,7 +1376,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_LW_FIS_017",
+            "iname": "IT_AF_LW_SPE_032",
             "num": 1,
             "subNum1": 0,
             "secret": 0
@@ -1396,7 +1396,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_MAT_YARN_01",
+            "iname": "IT_AF_MAT_HEART_03",
             "num": 1,
             "subNum1": 0,
             "secret": 0
@@ -1406,7 +1406,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_MAT_THUNDER_01",
+            "iname": "IT_AF_MAT_LESS_01",
             "num": 1,
             "subNum1": 0,
             "secret": 0

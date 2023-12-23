@@ -15358,7 +15358,7 @@
     },
     {
       "key": "SK_LW_FINA_01_M_1",
-      "value": "Entfernt Runik-Schwertklinge vom Ziel, senkt Einzelangriffsresistenz des Ziels für für 3 Runden und fügt anschließend MAG-abhängigen Schaden (M) zu."
+      "value": "Entfernt Runik-Schwertklinge vom Ziel, senkt Einzelangriffsresistenz des Ziels für 3 Runden und fügt anschließend MAG-abhängigen Schaden (M) zu."
     },
     {
       "key": "SK_LW_FINA_01_M_2",
@@ -15402,7 +15402,7 @@
     },
     {
       "key": "SK_LW_EC_FINA_01_C_01B",
-      "value": "Entfernt Runik-Schwertklinge vom Ziel, senkt Einzelangriffsresistenz des Ziels für für 3 Runden und fügt anschließend MAG-abhängigen Schaden (M) mit hoher Präzision zu."
+      "value": "Entfernt Runik-Schwertklinge vom Ziel, senkt Einzelangriffsresistenz des Ziels für 3 Runden und fügt anschließend MAG-abhängigen Schaden (M) mit hoher Präzision zu."
     },
     {
       "key": "SK_LW_EC_FINA_01_C_02",
@@ -18833,6 +18833,78 @@
       "value": "Erhöht Einzelangriffsresistenz, AGI und Reaktionsblockrate."
     },
     {
+      "key": "SK_LW_ELDE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ELDE_M_1",
+      "value": "Erhöht eigene ABW-Durchbohrrate, fügt Zielen in Reichweite anschließend 2 Mal hintereinander Schaden (M) mit hoher Präzision zu und absorbiert einen Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LW_ELDE_M_2",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die bis zu einer bestimmten Menge Schaden abwehrt, und erhöht physischen Schaden für Verbündete im Bereich um Wirkenden außer sich selbst (Form: Raute, Reichweite: 3, Reichweitenhöhe: 1) für 3 Runden."
+    },
+    {
+      "key": "SK_LW_ELDE_M_2B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ELDE_M_3",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und senkt AZ (M)."
+    },
+    {
+      "key": "SK_LW_ELDE_S_1",
+      "value": "Fügt dem Ziel Schaden (S) zu, durchbohrt und entfernt alle Schwächungen von sich selbst."
+    },
+    {
+      "key": "SK_LW_ELDE_S_2",
+      "value": "Erhöht 3 Runden lang Bereichangriffsresistenz von Verbündeten im Bereich um Wirkenden, wirkt Schutzengel auf sich selbst (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)) und zusätzlicher Effekt: Erhöht physischen Schaden, während Schutzengel aktiv ist, gewährt 3 Runden lang Reduzierung erlittenen Schadens bei einer Distanz von 4 Feldern oder mehr (Schaden wird pro Feld weiter reduziert, maximaler Effekt bei 7 Feldern) und wirkt 3 Runden andauernde automatische AP-Wiederherstellung (M)."
+    },
+    {
+      "key": "SK_LW_ELDE_S_3",
+      "value": "Fügt Ziel Schaden (M) zu, durchbohrt und gewährt Chance auf Wirken von 3 Runden andauerndem Ausschalten."
+    },
+    {
+      "key": "SK_LW_ELDE_S_4",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und senkt AP."
+    },
+    {
+      "key": "SK_LW_ELDE_R_1",
+      "value": "Gewährt bei Erleiden von physischem Schaden Chance auf Konter und absorbiert verursachten Schaden."
+    },
+    {
+      "key": "SK_LW_ELDE_P_1",
+      "value": "Erhöht Reaktionsblockrate und AP zu Kampfbeginn."
+    },
+    {
+      "key": "SK_LW_ELDE_P_2",
+      "value": "Erhöht LP-Maximum und Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_ELDE_EN_A_01",
+      "value": "Entfernt Mumm vom Ziel und fügt anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_01",
+      "value": "Verstärkt Doppel-Subvita zu Subvita des Löwen. Erhöht eigene ABW-Durchbohrrate, zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend 2 Mal hintereinander Schaden (M) mit hoher Präzision zu und absorbiert einen Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_01B",
+      "value": "Erhöht eigene ABW-Durchbohrrate, zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend 2 Mal hintereinander Schaden (M) mit hoher Präzision zu und absorbiert einen Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_01C",
+      "value": "Erhöht eigene ABW-Durchbohrrate 3 Runden lang, zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend 2 Mal hintereinander Schaden (M) mit hoher Präzision zu und absorbiert einen Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_02",
+      "value": "Verstärkt Zum Schutz der Liebe zu Zum Schutz von Leonis. Erhöht LP-Maximum, ANG, Präzision und Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_02B",
+      "value": "Erhöht LP-Maximum, ANG, Präzision und Bereichangriffsresistenz."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Fügt Zielen in Reichweite Schaden (L) zu."
     },
@@ -19555,6 +19627,14 @@
     {
       "key": "SK_LB_LW_RUFF_01",
       "value": "Fügt bis zu 2 Zielen MAG-abhängigen Schaden (L) zu, absorbiert Teil des verursachten Schadens und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+    },
+    {
+      "key": "SK_LB_LW_ELDE_01",
+      "value": "Senkt 3 Runden lang Durchbohrresistenz von Zielen in Reichweite, fügt anschließend Schaden (L) zu, aktiviert „Dann muss es so sein“ als Kombofähigkeit (Erhöht AZ (S) von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang ANG und Präzision erheblich)."
+    },
+    {
+      "key": "SK_LB_LW_ELDE_01_2",
+      "value": "Erhöht AZ (S) von Verbündeten im Bereich um Wirkenden und erhöht 3 Runden lang ANG und Präzision erheblich."
     },
     {
       "key": "SK_LB_LW_MONT_B",
@@ -23265,6 +23345,10 @@
       "value": "LP-Maximum +10 % und Blitzangriff +15 für verbündete Blitzeinheiten, eigene Magieangriffsresistenz-Durchbohrrate +20"
     },
     {
+      "key": "SK_MA_LW_ELDE_01",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene Einzelangriffsresistenz +10 und Reaktionsblockrate +20."
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Erhöht eigene Schlitzresistenz-Durchbohrrate und fügt anschließend Gegnern im Bereich um Wirkenden Schaden (M) zu mit hoher Wahrscheinlichkeit auf kritische Treffer."
     },
@@ -24827,6 +24911,10 @@
     {
       "key": "SK_LW_EC_LLN_A_01B",
       "value": "Senkt 3 Runden lang ABW von Zielen in Reichweite, fügt anschließend Schaden (M) zu und wirkt 3 Runden andauernde automatische AP-Wiederherstellung (S) auf sich selbst bei kritischem Treffer."
+    },
+    {
+      "key": "SK_UES_LW_ELDE_01",
+      "value": "Fähigkeiteneinsätze +1. Erhöht 3 Runden lang eigene ABW-Durchbohrrate, zerstört physischen Schaden verringernde Barrieren, fügt Zielen in Reichweite anschließend 2 Mal hintereinander Schaden (M) mit hoher Präzision zu und absorbiert einen Teil des verursachten Schadens."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -27201,6 +27289,10 @@
       "value": "Erhöht 3 Runden lang Einzelangriffsresistenz von sich selbst und einem Verbündeten."
     },
     {
+      "key": "SK_ARM_LW_ELDE_01_1",
+      "value": "Erhöht eigene AZ (S), erhöht Durchbohrangriff und gewährt erfolgreichen Angriffen 3 Runden lang Hast-Entfernung des Ziels."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -28506,6 +28598,106 @@
     },
     {
       "key": "SK_FF9_ROD_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_5",
       "value": ""
     },
     {
@@ -33354,6 +33546,90 @@
     },
     {
       "key": "SK_GL_VC_LW_XMAS4_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_P_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PAW_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PMAX_4",
       "value": ""
     },
     {

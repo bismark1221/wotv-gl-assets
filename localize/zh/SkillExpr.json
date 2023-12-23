@@ -18833,6 +18833,78 @@
       "value": "提升單體攻擊耐性、敏捷、反應能力阻止率"
     },
     {
+      "key": "SK_LW_ELDE_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ELDE_M_1",
+      "value": "提升自身防禦貫通率後，對範圍內目標連續造成2次容易命中的傷害（中）&吸收所造成的部分傷害"
+    },
+    {
+      "key": "SK_LW_ELDE_M_2",
+      "value": "展開屏障，抵擋自身所受傷害至固定值為止&3回合內以自身為中心，賦予自身以外的範圍內（型態：菱形&射程：3&射程高低差：1）己方隊員，物理傷害上升的效果"
+    },
+    {
+      "key": "SK_LW_ELDE_M_2B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ELDE_M_3",
+      "value": "對範圍內目標造成傷害（中）&降低CT（中）"
+    },
+    {
+      "key": "SK_LW_ELDE_S_1",
+      "value": "對目標造成傷害（小）&貫通&解除自身所有弱化效果"
+    },
+    {
+      "key": "SK_LW_ELDE_S_2",
+      "value": "3回合內以自身為中心，提升範圍內己方隊員的範圍攻擊耐性&當自身陷入無法戰鬥狀態時，可自動從無法戰鬥狀態中復活1次的重生效果（HP恢復（極小））&賦予追加效果「若為重生狀態時，物理傷害上升」&3回合內賦予「距離4以上時，每增加1格距離便減輕遭受傷害的效果（效果最多增加至距離7）」&自動恢復AP效果（中）"
+    },
+    {
+      "key": "SK_LW_ELDE_S_3",
+      "value": "對目標造成傷害（中）&貫通&一定機率施加止動，使其3回合內無法進行「移動」以外的行動"
+    },
+    {
+      "key": "SK_LW_ELDE_S_4",
+      "value": "對範圍內目標造成傷害（中）&減少AP"
+    },
+    {
+      "key": "SK_LW_ELDE_R_1",
+      "value": "受到物理攻擊傷害時，一定機率進行反擊&吸收所造成的傷害"
+    },
+    {
+      "key": "SK_LW_ELDE_P_1",
+      "value": "提升反應能力阻止率、戰鬥開始時的AP"
+    },
+    {
+      "key": "SK_LW_ELDE_P_2",
+      "value": "提升HP上限、範圍攻擊耐性"
+    },
+    {
+      "key": "SK_LW_ELDE_EN_A_01",
+      "value": "解除目標的毅力狀態後，對其造成傷害（中）"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_01",
+      "value": "將「雙重吸血」強化成「獅子吸血」。提升自身防禦貫通率&破壞減輕物理傷害的屏障後，對範圍內目標連續造成2次容易命中的傷害（中）&吸收所造成的部分傷害"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_01B",
+      "value": "提升自身防禦貫通率&破壞減輕物理傷害的屏障後，對範圍內目標連續造成2次容易命中的傷害（中）&吸收所造成的部分傷害"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_01C",
+      "value": "3回合內提升自身防禦貫通率&破壞減輕物理傷害的屏障後，對範圍內目標連續造成2次容易命中的傷害（中）&吸收所造成的部分傷害"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_02",
+      "value": "將「護妻決意」強化成「守護雷歐尼斯的決意」。提升HP上限、攻擊、命中率、範圍攻擊耐性"
+    },
+    {
+      "key": "SK_LW_EC_ELDE_C_02B",
+      "value": "提升HP上限、攻擊、命中率、範圍攻擊耐性"
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "對範圍內目標造成傷害（大）"
     },
@@ -19555,6 +19627,14 @@
     {
       "key": "SK_LB_LW_RUFF_01",
       "value": "對最多2個目標造成受魔力高低影響的傷害（大）&吸收所造成的部分傷害&一定機率施加減速，使其積蓄CT速度降低3回合"
+    },
+    {
+      "key": "SK_LB_LW_ELDE_01",
+      "value": "【連續使用1】降低範圍內目標的突刺攻擊耐性3回合後，對其造成傷害（大）&【連續使用2】發動「要與神為敵（以自身為中心，提升範圍內己方隊員的CT（小）&大幅提升攻擊、命中率3回合）」"
+    },
+    {
+      "key": "SK_LB_LW_ELDE_01_2",
+      "value": "以自身為中心，提升範圍內己方隊員的CT（小）&大幅提升攻擊、命中率3回合"
     },
     {
       "key": "SK_LB_LW_MONT_B",
@@ -23265,6 +23345,10 @@
       "value": "己方雷屬性兵員HP上限+10%、雷屬性能力攻擊+15，自身魔法攻擊耐性貫通率+20"
     },
     {
+      "key": "SK_MA_LW_ELDE_01",
+      "value": "己方水屬性兵員HP上限+10%、水屬性能力攻擊+15，自身單體攻擊耐性+10、反應能力阻止率+20"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "提升自身斬擊攻擊耐性貫通率後，以自身為中心，對範圍內敵方造成容易發動暴擊的傷害（中）"
     },
@@ -24827,6 +24911,10 @@
     {
       "key": "SK_LW_EC_LLN_A_01B",
       "value": "降低範圍內目標的防禦3回合後，對其造成傷害（中）&發動暴擊時賦予自身自動恢復AP效果3回合（小）"
+    },
+    {
+      "key": "SK_UES_LW_ELDE_01",
+      "value": "使用次數+1。3回合內提升自身防禦貫通率&破壞減輕物理傷害的屏障後，對範圍內目標連續造成2次容易命中的傷害（中）&吸收所造成的部分傷害"
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -27201,6 +27289,10 @@
       "value": "提升自身與已方隊員的單體攻擊耐性3回合"
     },
     {
+      "key": "SK_ARM_LW_ELDE_01_1",
+      "value": "提升自身CT（小）&3回合內提升突刺攻擊力&賦予攻擊命中時解除目標的急速效果"
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -28506,6 +28598,106 @@
     },
     {
       "key": "SK_FF9_ROD_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF9_ACC_003_3_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_032_5",
       "value": ""
     },
     {
@@ -33354,6 +33546,90 @@
     },
     {
       "key": "SK_GL_VC_LW_XMAS4_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LEOFAM_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_P_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PAW_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LEOFAM_PMAX_4",
       "value": ""
     },
     {
