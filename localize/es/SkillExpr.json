@@ -5197,6 +5197,10 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_POIS_1-100_D",
+      "value": "Técnica para equilibrar misiones."
+    },
+    {
       "key": "SK_BTL_SILENCE_1-100_U",
       "value": "Técnica para equilibrar misiones."
     },
@@ -18905,6 +18909,90 @@
       "value": "Aumenta la VIT máx., el ATQ, la tasa de precisión y la res. ataque de zona."
     },
     {
+      "key": "SK_LW_ASTR_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ASTR_01_M_1",
+      "value": "Elimina cualquier barrera que reduzca el daño de los objetivos al alcance, les inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ASTR_01_M_1B",
+      "value": "Elimina cualquier barrera que reduzca el daño de los objetivos al alcance, les inflige daño (mucho) y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ASTR_01_M_2",
+      "value": "Inflige daño (medio) al objetivo 2 veces y aumenta el daño según la cantidad de VIT que haya perdido el usuario."
+    },
+    {
+      "key": "SK_LW_ASTR_01_M_3",
+      "value": "Aumenta la AGI y la res. ataque de unidad de los aliados de alrededor durante 3 turnos, otorga eliminación de agallas (se activa antes de atacar) a los ataques del usuario durante 3 turnos y probabilidad de reducir el daño de ataque físico recibido."
+    },
+    {
+      "key": "SK_LW_ASTR_01_M_3B",
+      "value": "Aumenta la AGI y la res. ataque de unidad de los aliados de alrededor durante 3 turnos, otorga eliminación de agallas (se activa antes de atacar) a los ataques del usuario durante 3 turnos y probabilidad de reducir el daño de ataque físico recibido."
+    },
+    {
+      "key": "SK_LW_ASTR_01_S_1",
+      "value": "Reduce un porcentaje fijo de la res. ataque de corte del objetivo durante 3 turnos y le inflige daño (poco) 2 veces."
+    },
+    {
+      "key": "SK_LW_ASTR_01_S_2",
+      "value": "El usuario sobrevive a daño letal una vez, le otorga revitalia durante 3 turnos y efecto adicional: reduce el consumo de PA y otorga reducción de daño mágico en estado agallas y revitalia."
+    },
+    {
+      "key": "SK_LW_ASTR_01_S_3",
+      "value": "Aumenta la res. agua de los aliados de alrededor durante 3 turnos y otorga Escudo al usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ASTR_01_S_4",
+      "value": "Inflige daño (medio) a los objetivos de alrededor y reduce su ATQ y AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_ASTR_01_R_1",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño de corte o golpe."
+    },
+    {
+      "key": "SK_LW_ASTR_01_R_2",
+      "value": "Probabilidad de reducir el daño físico recibido."
+    },
+    {
+      "key": "SK_LW_ASTR_01_R_1B",
+      "value": "Probabilidad de realizar un golpe preventivo al recibir daño de corte o golpe."
+    },
+    {
+      "key": "SK_LW_ASTR_01_R_2B",
+      "value": "Probabilidad de reducir el daño físico recibido."
+    },
+    {
+      "key": "SK_LW_ASTR_01_P_1",
+      "value": "Aumenta el ATQ y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_ASTR_01_P_2",
+      "value": "Aumenta la probabilidad de activación de «Disuasión profética» y «Protección del cristal»."
+    },
+    {
+      "key": "SK_LW_ASTR_01_A_01",
+      "value": "Aumenta la tasa de penetración de DEF del usuario, reduce un porcentaje fijo de la res. ataque de zona de los objetivos al alcance durante 3 turnos y les inflige daño (medio)."
+    },
+    {
+      "key": "SK_LW_EC_ASTR_01_C_01",
+      "value": "Mejora «Represalia doble» a «Represalia dúplice»: inflige daño (medio) a hasta 2 objetivos 2 veces y aumenta el daño según la cantidad de VIT que haya perdido el usuario."
+    },
+    {
+      "key": "SK_LW_EC_ASTR_01_C_01B",
+      "value": "Inflige daño (medio) a hasta 2 objetivos 2 veces y aumenta el daño según la cantidad de VIT que haya perdido el usuario."
+    },
+    {
+      "key": "SK_LW_EC_ASTR_01_C_02",
+      "value": "Mejora «Recuerdos recuperados» a «Recuerdos reactivados»: aumenta el ATQ y la tasa de penetración de DEF y otorga una barrera que reduce el daño físico al inicio del combate (3 veces)."
+    },
+    {
+      "key": "SK_LW_EC_ASTR_01_C_02B",
+      "value": "Aumenta el ATQ y la tasa de penetración de DEF y otorga una barrera que reduce el daño físico al inicio del combate (3 veces)."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Inflige daño (mucho) a los objetivos al alcance."
     },
@@ -19635,6 +19723,14 @@
     {
       "key": "SK_LB_LW_ELDE_01_2",
       "value": "Aumenta el TC (poco) de los aliados de alrededor y aumenta considerablemente su ATQ y su tasa de precisión durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_ASTR_01",
+      "value": "Activa un efecto de daño adicional durante 3 turnos al usar una habilidad ofensiva del usuario (inflige daño no elemental (mínimo) sin afectar a los combos), elimina cualquier barrera que reduzca el daño físico del objetivo, le inflige daño (mucho) y probabilidad de infligirle veneno durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_ASTR_01_AD",
+      "value": "Inflige daño no elemental (mínimo) al objetivo."
     },
     {
       "key": "SK_LB_LW_MONT_B",
@@ -23349,6 +23445,10 @@
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: res. ataque de unidad +10, tasa de bloqueo de reacción +20"
     },
     {
+      "key": "SK_MA_LW_ASTR_01",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: tasa de penetración de res. ataque de corte +20, PA adquiridos +30 %"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario e inflige daño (medio) con alta probabilidad de golpe crítico a los enemigos de alrededor."
     },
@@ -24915,6 +25015,10 @@
     {
       "key": "SK_UES_LW_ELDE_01",
       "value": "N.º de usos de la habilidad +1. Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance, les inflige daño (medio) 2 veces con mucha precisión y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_UES_LW_ASTR_01",
+      "value": "Reduce el consumo de PA. Elimina cualquier barrera que reduzca el daño de los objetivos al alcance, les inflige daño (mucho) y reduce su potencia de curación durante 3 turnos."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -27293,6 +27397,10 @@
       "value": "Aumenta el TC del usuario (poco), aumenta su ataque de perforación y otorga eliminación de prisa del objetivo a los ataques con éxito durante 3 turnos."
     },
     {
+      "key": "SK_ACC_LW_ASTR_01_1",
+      "value": "Aumenta la bravura de los aliados de alrededor, les recupera PA, aumenta su ataque de corte durante 3 turnos y anula inmóvil y locura."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -28698,6 +28806,26 @@
     },
     {
       "key": "SK_LW_SPE_032_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_022_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_022_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_022_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_022_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_022_5",
       "value": ""
     },
     {
