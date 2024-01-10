@@ -449,6 +449,18 @@
       "value": "Inflige des dégâts (L) à la cible et confère une chance d'infliger Mort instantanée."
     },
     {
+      "key": "SK_BHMT_M_01_RP1",
+      "value": "Inflige des dégâts (M) à l'ennemi avec une chance de le repousser d'1 case, et réduit les PA."
+    },
+    {
+      "key": "SK_BHMT_M_02_RP1",
+      "value": "Inflige des dégâts (M) aux cibles dans la zone autour du lanceur, réduit la DEF pendant 3 tours et réduit le taux d'esquive critique pendant 3 tours."
+    },
+    {
+      "key": "SK_BHMT_M_03_RP1",
+      "value": "Inflige des dégâts (XL) à la cible, confère une chance d'infliger Étourdissement pendant 1 tour, et dissipe tous les bonus lors d'un Coup critique."
+    },
+    {
       "key": "SK_BHMT_ATK_01",
       "value": ""
     },
@@ -495,6 +507,14 @@
     {
       "key": "SK_ARMN_M_01_BTL",
       "value": "Inflige des dégâts (S) à l'ennemi, et confère une chance de réduire Bravoure."
+    },
+    {
+      "key": "SK_ARMN_M_01_RP1",
+      "value": "Inflige des dégâts (M) à l'ennemi avec une chance de réduire la Bravoure, et réduit les PA."
+    },
+    {
+      "key": "SK_ARMN_M_01_RP1_NO_USE",
+      "value": "Inflige des dégâts (M) à l'ennemi avec une chance de réduire la Bravoure, et réduit les PA."
     },
     {
       "key": "SK_ARMN_M_02",
@@ -1179,6 +1199,10 @@
     {
       "key": "SK_SIRE_M_04",
       "value": "Inflige des dégâts d'eau (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et confère une chance d'infliger Sommeil pendant 3 tours."
+    },
+    {
+      "key": "SK_SIRE_M_05",
+      "value": "Inflige des dégâts d'eau (L) aux unités dans la zone ciblée qui dépendent de la MAGIE du lanceur, confère une chance d'infliger Sommeil pendant 3 tours et active des effets de carte temporaires (augmente l'ATT et la MAGIE des unités alliées et réduit considérablement la résistance à l'eau des ennemis)."
     },
     {
       "key": "SK_SIRE_M_01_RA",
@@ -3893,6 +3917,30 @@
       "value": "Accorde Auréole au lanceur (restaure (S)), et augmente la DEF et la PSY du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_TDDG_ATK",
+      "value": "Inflige des dégâts à la cible."
+    },
+    {
+      "key": "SK_TDDG_M_01",
+      "value": "Inflige des dégâts (M) qui dépendent de la MAGIE du lanceur à la cible."
+    },
+    {
+      "key": "SK_TDDG_M_02",
+      "value": "Augmente l'ATT et la MAGIE du lanceur pendant 3 tours, et inflige Étourdissement pendant 1 tour lors d'un Coup critique"
+    },
+    {
+      "key": "SK_TDDG_M_03",
+      "value": "Augmente le taux de blocage de réaction du lanceur pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée."
+    },
+    {
+      "key": "SK_TDDG_M_04",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée avec une chance élevée d'infliger un coup critique, accorde l'effet Hydrophage, et Coup garanti."
+    },
+    {
+      "key": "SK_TDDG_R_01",
+      "value": "Confère une chance d'infliger Paralysie à la cible pendant 3 tours lorsque des dégâts physiques sont subis."
+    },
+    {
       "key": "SK_GBLN_ATK",
       "value": "Inflige des dégâts à la cible."
     },
@@ -4215,6 +4263,10 @@
     {
       "key": "SK_SMN_SNRY",
       "value": "Invoque Shinryu, inflige des dégâts de lumière (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, réduit Haine à zéro, et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités de lumière et réduit considérablement la résistance à la lumière des ennemis)."
+    },
+    {
+      "key": "SK_SMN_TDDG",
+      "value": "Invoque Voldisk, inflige des dégâts de foudre (L) avec une chance élevée d'infliger un coup critique aux unités dans la zone ciblée, accorde l'effet Hydrophage, et active des effets de carte temporaires (augmente l'ATT et la MAGIE des alliés, augmente les effets pour les unités de foudre et réduit considérablement la résistance à la foudre des ennemis)."
     },
     {
       "key": "SK_BTL_HP_100-99900_U",
@@ -5610,6 +5662,14 @@
     },
     {
       "key": "SK_BTL_ASTR_1",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
+      "key": "SK_BTL_EMEC",
+      "value": "Compétence de rééquilibrage de la quête"
+    },
+    {
+      "key": "SK_BTL_LEVT",
       "value": "Compétence de rééquilibrage de la quête"
     },
     {
@@ -8702,7 +8762,7 @@
     },
     {
       "key": "SK_LW_ASS_P_2",
-      "value": "Augmente le taux de perforation de la résitance aux attaques tranchantes et augmente les PA acquis."
+      "value": "Augmente le taux de perforation de la résistance aux attaques tranchantes et augmente les PA acquis."
     },
     {
       "key": "SK_LW_ASS_M_4_SUB",
@@ -14310,7 +14370,7 @@
     },
     {
       "key": "SK_LW_IBRA_M_1",
-      "value": "Réduit la résistance à la foudre des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (XS) qui dépendent de la MAGIE du lanceur."
+      "value": "Réduit la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (XS) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_IBRA_M_2",
@@ -14318,7 +14378,11 @@
     },
     {
       "key": "SK_LW_IBRA_M_3",
-      "value": "Augmente les attaques magiques et le taux de perforation de la résistance aux attaques magiques du lanceur pendant 3 tours."
+      "value": "Augmente les attaques magiques, le taux de perforation de la résistance aux attaques magiques et la résistance aux attaques de zone du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_IBRA_M_3_B",
+      "value": "Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques, augmente les attaques magiques, le taux de perforation de la résistance aux attaques magiques et la résistance aux attaques de zone du lanceur pendant 3 tours."
     },
     {
       "key": "SK_LW_IBRA_S_1",
@@ -14342,7 +14406,7 @@
     },
     {
       "key": "SK_LW_IBRA_P_1",
-      "value": "Augmente l'effet Anthropophage."
+      "value": "Augmente le taux de perforation de la résistance aux attaques magiques et accorde l'effet Anthropophage."
     },
     {
       "key": "SK_LW_IBRA_P_2",
@@ -14350,23 +14414,27 @@
     },
     {
       "key": "SK_LW_EC_IBRA_A_01",
-      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée et augmente la jauge de CT du lanceur (S)."
+      "value": "Dissipe Barrière et Bouclier des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur, et augmente la jauge de CT (S) du lanceur."
     },
     {
       "key": "SK_LW_EC_IBRA_C_01",
-      "value": "Améliore Lamentation lugubre en Tempête hurlante. Réduit la résistance à la foudre des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (S) qui dépendent de la MAGIE du lanceur."
+      "value": "Améliore Lamentation lugubre en Tempête hurlante. Réduit la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (S) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_EC_IBRA_C_01B",
-      "value": "Réduit la résistance à la foudre des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (S) qui dépendent de la MAGIE du lanceur."
+      "value": "Réduit la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (S) qui dépendent de la MAGIE du lanceur."
     },
     {
       "key": "SK_LW_EC_IBRA_C_02",
-      "value": "Améliore Possession spirituelle en Au bout de la nuit. Augmente les attaques magiques, l'effet Anthropophage et le taux de perforation de la résistance aux attaques magiques du lanceur pendant 3 tours."
+      "value": "Améliore Possession spirituelle en Au bout de la nuit. Augmente les attaques magiques, le taux de perforation de la résistance aux attaques magiques et la résistance aux attaques de zone du lanceur, et accorde l'effet Anthropophage pendant 3 tours."
     },
     {
       "key": "SK_LW_EC_IBRA_C_02B",
-      "value": "Augmente les attaques magiques, l'effet Anthropophage et le taux de perforation de la résistance aux attaques magiques du lanceur pendant 3 tours."
+      "value": "Augmente les attaques magiques, le taux de perforation de la résistance aux attaques magiques et la résistance aux attaques de zone du lanceur, et accorde l'effet Anthropophage pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_IBRA_C_02B_B",
+      "value": "Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques, augmente les attaques magiques, le taux de perforation de la résistance aux attaques magiques et la résistance aux attaques de zone du lanceur, et accorde Anthropophage pendant 3 tours."
     },
     {
       "key": "SK_LW_STIA_ATK",
@@ -19901,6 +19969,26 @@
       "value": "Dissipe tous les malus du lanceur, réduit la résistance aux attaques de zone des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur, Coup garanti et érige une barrière autour du lanceur qui réduit les dégâts (3 fois)."
     },
     {
+      "key": "SK_LB_LW_FRVA_B",
+      "value": "Réduit la résistance à tous les types d'attaques des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur, réduit la consommation de PA du lanceur, accorde Booster, augmente considérablement les compétences de soin pendant 3 tours, et accorde un effet de réduction des dégâts magiques aux alliés dans la zone autour du lanceur (sauf le lanceur) pendant 3 tours (forme : diamant, portée : 4, hauteur de la portée : 1)"
+    },
+    {
+      "key": "SK_LB_LW_FRVA_B_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LB_LW_LATH_B",
+      "value": "Détruit toute barrière réduisant les dégâts physiques, réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) en 2 coups, et réduit l'AGI et la résistance aux combos de types pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_GRSR_B",
+      "value": "Augmente la limite des dégâts du lanceur, dissipe Hardiesse et Auréole de la cible, puis inflige des dégâts d'une très grande précision (L), Perforation, augmente l'effet des combos de types (les combos de types prennent fin au combo 5 ou supérieur), érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et accorde une Restauration auto de PA (M) pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_OBRN_B",
+      "value": "Réduit la résistance tous éléments des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L), accorde Booster au lanceur pendant 3 tours quand les PV du lanceur sont au-dessus de 50 %, accorde un effet additionnel : augmente la résistance aux attaques à cible unique pendant l'effet de Booster, restaure un certain pourcentage des PV du lanceur quand les PV chutent en dessous de 50 %, et augmente les dégâts physiques pendant 3 tours (s'active avant une attaque)."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Améliore Croix du destin. Réduit la consommation de PA et améliore la hauteur de zone. Inflige des dégâts (L) aux unités dans la zone ciblée, augmente la jauge de CT (M) du lanceur, réduit la consommation de PA pendant 3 tours, et restaure un certain pourcentage des PV (L) du lanceur quand ses PV chutent en dessous de 50 % lorsque des dégâts sont subis (1 fois)."
     },
@@ -20047,6 +20135,22 @@
     {
       "key": "SK_LB_LW_BELS_B_CH",
       "value": "Améliore Brise-glace. Dissipe tous les malus du lanceur, réduit la résistance aux attaques de zone des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur, Coup garanti et érige une barrière autour du lanceur qui réduit les dégâts (3 fois)."
+    },
+    {
+      "key": "SK_LB_LW_FRVA_B_CH",
+      "value": "Améliore Prison de glace. Améliore la portée et la hauteur de la portée. Réduit la résistance à tous les types d'attaques des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur, réduit la consommation de PA du lanceur, accorde Booster, augmente considérablement les compétences de soin pendant 3 tours, et accorde un effet de réduction des dégâts magiques aux alliés dans la zone autour du lanceur (sauf le lanceur) pendant 3 tours (forme : diamant, portée : 4, hauteur de la portée : 1)"
+    },
+    {
+      "key": "SK_LB_LW_LATH_B_CH",
+      "value": "Améliore Tir brise-vitesse. Réduit la consommation de PA. Détruit toute barrière réduisant les dégâts physiques, réduit considérablement le taux d'activation de l'aptitude de réaction des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L) en 2 coups, et réduit l'AGI et la résistance aux combos de types pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_GRSR_B_CH",
+      "value": "Améliore Offensive de Valkyrie. Réduit la consommation de PA. Augmente la limite des dégâts du lanceur, dissipe Hardiesse et Auréole de la cible, puis inflige des dégâts d'une très grande précision (L), Perforation, augmente l'effet des combos de types (les combos de types prennent fin au combo 5 ou supérieur), érige une barrière autour du lanceur qui réduit les dégâts (3 fois), et accorde une Restauration auto de PA (M) pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_OBRN_B_CH",
+      "value": "Améliore Les huit voies du dragon. Réduit la consommation de PA et améliore la forme de la zone. Réduit la résistance tous éléments des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (L), accorde Booster au lanceur pendant 3 tours quand les PV du lanceur sont au-dessus de 50 %, accorde un effet additionnel : augmente la résistance aux attaques à cible unique pendant l'effet de Booster, restaure un certain pourcentage des PV du lanceur quand les PV chutent en dessous de 50 %, et augmente les dégâts physiques pendant 3 tours (s'active avant une attaque)."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -22974,7 +23078,11 @@
     },
     {
       "key": "SK_MA_LW_IBRA",
-      "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente la modification de l'acquisition de PA de 30 % du lanceur et sa résistance aux attaques de zone de 10."
+      "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente les PA acquis du lanceur de 30 % et la résistance aux attaques de zone de 10."
+    },
+    {
+      "key": "SK_MA_LW_IBRA_2",
+      "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente les PA acquis par le lanceur de 30 %, augmente la résistance aux attaques de zone de 10, les PV max de 20 %, et améliore Possession spirituelle. Érige une barrière autour du lanceur qui annule une certaine quantité de dégâts physiques, et augmente les attaques magiques, le taux de perforation de la résistance aux attaques magiques et la résistance aux attaques de zone pendant 3 tours."
     },
     {
       "key": "SK_MA_LW_STIA",
@@ -23027,6 +23135,10 @@
     {
       "key": "SK_MA_LW_ESTR",
       "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente les PV max du lanceur de 10 % et la résistance aux attaques tranchantes/perçantes de 10."
+    },
+    {
+      "key": "SK_MA_LW_ESTR_2",
+      "value": "Augmente les PV max de 10 % et les attaques de foudre de 15 pour les unités alliées de foudre, augmente les PV max du lanceur de 10 %, la résistance aux attaques tranchantes de 10, la résistance aux attaques perçantes de 25, la résistance aux attaques à cible unique de 15, et quand les PV du lanceur sont au-dessus de 70 % : augmente les dégâts physiques."
     },
     {
       "key": "SK_MA_PRS5_JOKR",
@@ -23221,6 +23333,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente la résistance aux attaques de zone du lanceur de 10, et réduit le délai d'activation des aptitudes de non-attaque de 40 %."
     },
     {
+      "key": "SK_MA_LW_SLVE_2",
+      "value": "Augmente les PV max de 10 % et les attaques de lumière de 15 pour les unités alliées de lumière, augmente la résistance aux attaques de zone du lanceur de 20, et réduit le délai d'activation des aptitudes de non-attaque de 40 %, augmente la résistance aux attaques tranchantes de 15 et le taux d'esquive critique de 20."
+    },
+    {
       "key": "SK_MA_LW_LVES_01",
       "value": "Augmente les PV max de 10 % et les attaques de glace de 15 pour les unités alliées de glace, augmente le taux de précision du lanceur de 15."
     },
@@ -23231,6 +23347,10 @@
     {
       "key": "SK_MA_LW_SDLX_01",
       "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente la résistance aux attaques de zone du lanceur de 10 et son taux de coup critique de 20."
+    },
+    {
+      "key": "SK_MA_LW_SDLX_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques d'ombre de 15 pour les unités alliées d'ombre, augmente la résistance aux attaques de zone du lanceur de 20, le taux de coup critique de 20 et les dégâts critiques de 20. Permet au lanceur de survivre à des dégâts mortels quand ses PV sont à 80 % ou plus."
     },
     {
       "key": "SK_MA_DQTC_ZOMA",
@@ -25019,6 +25139,38 @@
     {
       "key": "SK_UES_LW_ASTR_01",
       "value": "Réduit la consommation de PA. Détruit toutes les barrières réduisant les dégâts érigées autour des unités dans la zone ciblée, puis inflige des dégâts (L), et réduit les compétences de soin pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_IBRA",
+      "value": "Améliore les malus de PSY. Réduit la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_IBRA_C_01C",
+      "value": "Réduit la PSY des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) qui dépendent de la MAGIE du lanceur."
+    },
+    {
+      "key": "SK_UES_LW_ESTR",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L) et augmente considérablement la résistance aux malus du lanceur pendant 3 tours en cas de Coup critique."
+    },
+    {
+      "key": "SK_LW_ESTR_EN_A_01B",
+      "value": "Détruit toute barrière réduisant les dégâts physiques érigée autour de la cible, puis inflige des dégâts (L) et augmente considérablement la résistance aux malus du lanceur pendant 3 tours en cas de Coup critique."
+    },
+    {
+      "key": "SK_UES_LW_SLVE",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit le taux de perforation de la DEF et celui de la PSY pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_SLVE_A_01_B",
+      "value": "Inflige des dégâts (L) qui dépendent de la MAGIE du lanceur aux unités dans la zone ciblée, et réduit le taux de perforation de la DEF et celui de la PSY pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_SDLX_01",
+      "value": "Améliore la portée. Dissipe tous les bonus de la cible, puis inflige des dégâts (L) avec Coup garanti, et réduit considérablement les compétences de soin en cas de Coup critique pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_SDLX_EN_A_01B",
+      "value": "Dissipe tous les bonus de la cible, puis inflige des dégâts (L) avec Coup garanti, et réduit considérablement les compétences de soin en cas de Coup critique pendant 3 tours."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -28829,6 +28981,90 @@
       "value": ""
     },
     {
+      "key": "SK_LW_GUN_015_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_2_1_AD",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_2_1_AD2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_3_1_AD",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_3_1_AD2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_4_1_AD",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_4_1_AD2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_5_1_AD",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_GUN_015_5_1_AD2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_019_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_019_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_019_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_019_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_112_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_112_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_112_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_112_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_112_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FIS_016_2",
       "value": ""
     },
@@ -30326,6 +30562,18 @@
     },
     {
       "key": "SK_LW_ACC_113_5",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_LW_BOK_007_1",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_LW_BSW_017_1",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_LW_SWO_039_1",
       "value": ""
     },
     {
@@ -33758,6 +34006,82 @@
     },
     {
       "key": "SK_GL_VC_LW_LEOFAM_PMAX_4",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TDDG_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TDDG_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TDDG_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TDDG_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TDDG_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TDDG_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TDDG_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TDDG_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TDDG_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TDDG_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TDDG_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_TDDG_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_STRN_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_STRN_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_STRN_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_STRN_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_STRN_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_STRN_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_STRN_PAW",
       "value": ""
     },
     {
