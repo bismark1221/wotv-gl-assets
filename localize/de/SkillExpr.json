@@ -9917,6 +9917,10 @@
       "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (M) zu und senkt 3 Runden lang Eisresistenz."
     },
     {
+      "key": "SK_LW_HSW_DARK_S_3",
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (M) zu und senkt 3 Runden lang Dunkelresistenz."
+    },
+    {
       "key": "SK_LW_HSW_S_4",
       "value": "Fügt Zielen in Reichweite Schaden (M) zu und gewährt Chance auf Wirken von 3 Runden andauernder Stille."
     },
@@ -9953,6 +9957,26 @@
       "value": "Erhöht ANG und ABW-Durchbohrrate."
     },
     {
+      "key": "SK_LW_HSW_EN_A_02",
+      "value": "Erhöht eigene Schlitzresistenz-Durchbohrrate, fügt anschließend bis zu 2 Zielen Schaden (L) zu und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LW_EC_HSW_C_03",
+      "value": "Verstärkt Ausdauerschub zu Himmlische Ermutigung. Erhöht Durchbohrresistenz und Kritische Ausweichrate von Verbündeten im Bereich um Wirkenden, wirkt 4 Runden lang Regena, beschwört eine Barriere, die 3 Mal physischen Schaden reduziert, und gewährt eigenen erfolgreichen Angriffen 3 Runden lang einen Schwächungseffekt (senkt 3 Runden lang ABW-Durchbohrrate des Ziels)."
+    },
+    {
+      "key": "SK_LW_EC_HSW_C_03B",
+      "value": "Erhöht Durchbohrresistenz und Kritische Ausweichrate von Verbündeten im Bereich um Wirkenden, wirkt 4 Runden lang Regena, beschwört eine Barriere, die 3 Mal physischen Schaden reduziert, und gewährt eigenen erfolgreichen Angriffen 3 Runden lang einen Schwächungseffekt (senkt 3 Runden lang ABW-Durchbohrrate des Ziels)."
+    },
+    {
+      "key": "SK_LW_EC_HSW_C_04",
+      "value": "Verstärkt Große Ritterkenntnisse zu Stärke des Großen Ritters. Erhöht ANG, ABW-Durchbohrrate und Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_EC_HSW_C_04B",
+      "value": "Erhöht ANG, ABW-Durchbohrrate und Bereichangriffsresistenz."
+    },
+    {
       "key": "SK_LW_BFI_EN_A_01",
       "value": "Zerstört physischen Schaden verringernde Barrieren und fügt Zielen in Reichweite anschließend Schaden (M) zu."
     },
@@ -9971,6 +9995,26 @@
     {
       "key": "SK_LW_EC_BFI_C_02B",
       "value": "Ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, und heilt eigene AP."
+    },
+    {
+      "key": "SK_LW_BFI_EN_A_02",
+      "value": "Senkt Bereichangriffsresistenz von Zielen in Reichweite und fügt anschließend Schaden (M) zu (wirkt nicht auf Ziele mit Levitas)."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_03",
+      "value": "Verstärkt Fataler Schwur zu Schwur des Dezimators. Gewährt Angriffen von Verbündeten im Bereich um Wirkenden 3 Runden lang Schwächungseffekt (Mumm und Zusätzliche Schadenseffekte. Wird vor dem Angriff aktiviert) und erhöht 3 Runden lang eigene Präzision und Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_03B",
+      "value": "Gewährt Angriffen von Verbündeten im Bereich um Wirkenden 3 Runden lang Schwächungseffekt (Mumm und Zusätzliche Schadenseffekte. Wird vor dem Angriff aktiviert) und erhöht 3 Runden lang eigene Präzision und Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_04",
+      "value": "Verstärkt Weisheit des Kampfkünstlers zu Erobernde Intuition. Erhöht ANG, ABW-Durchbohrrate und Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_04B",
+      "value": "Erhöht ANG, ABW-Durchbohrrate und Bereichangriffsresistenz."
     },
     {
       "key": "SK_LW_SLVE_ATK",
@@ -10559,6 +10603,10 @@
     {
       "key": "SK_LW_LLGA_S_2",
       "value": "Senkt 3 Runden lang Wahrscheinlichkeit, selbst Ziel von Angriffen zu werden, und 3 Runden lang eigene Reichweite +1. "
+    },
+    {
+      "key": "SK_LW_LLGA_S_2_B",
+      "value": "Senkt Wahrscheinlichkeit, selbst Ziel von Angriffen zu werden, eigene Reichweite +1 für 3 Runden und gewährt für 3 Runden Reduzierung erlittenen Schadens, die zunimmt, je höher die Reichweite."
     },
     {
       "key": "SK_LW_LLGA_S_3",
@@ -19097,10 +19145,6 @@
       "value": "Senkt 3 Runden lang Erdresistenz des Ziels und fügt anschließend Durchbohrschaden (L) zu."
     },
     {
-      "key": "SK_LB_LW_AILN_B",
-      "value": "Senkt 3 Runden lang Erdresistenz des Ziels erheblich und fügt anschließend Durchbohrschaden (XL) zu."
-    },
-    {
       "key": "SK_LB_LW_ZIZA",
       "value": "Fügt dem Ziel Schaden (L) zu und wirkt verstärkten Menschenfresser."
     },
@@ -19801,6 +19845,10 @@
       "value": "Fügt dem Ziel nichtelementaren Schaden (minimal) zu."
     },
     {
+      "key": "SK_LB_LW_BRWL",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (L) zu und senkt 3 Runden lang ABW-Durchbohrrate und PSY-Durchbohrrate."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Fügt Zielen in Reichweite Schaden (L) zu, erhöht eigene AZ (M), senkt 3 Runden lang AP-Verbrauch und heilt bei Erleiden von Schaden (1 Mal) festgelegten Anteil der eigenen LP (M), wenn LP unter 50 % sinken."
     },
@@ -19989,6 +20037,18 @@
       "value": "Senkt 3 Runden lang alle Elementarresistenzen von Zielen in Reichweite, fügt anschließend Schaden (L) zu, wirkt 3 Runden lang Hast auf sich selbst, wenn LP 50 % oder höher sind und zusätzlicher Effekt: Erhöht Einzelangriffsresistenz, während Hast aktiv ist, heilt festgelegten Anteil der eigenen LP (S), wenn LP 50 % oder niedriger sind und erhöht 3 Runden lang physischen Schaden (wird vor dem Angriff aktiviert)."
     },
     {
+      "key": "SK_LB_LW_AILN_B",
+      "value": "Erhöht 3 Runden lang eigenen physischen Schaden, senkt 3 Runden lang Erdresistenz des Ziels erheblich, fügt anschließend Schaden (L) zu, ermöglicht Wirkendem, einen tödlichen Treffer zu überleben, und zusätzlicher Effekt: Senkt AP-Verbrauch, während Mumm aktiv ist."
+    },
+    {
+      "key": "SK_LB_LW_MORE_B",
+      "value": "Senkt PSY und Wasserresistenz, senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Schaden (L) zu und versiegelt 3 Runden lang Vallum-Entfernung."
+    },
+    {
+      "key": "SK_LB_LW_VKTR_B",
+      "value": "Entfernt alle Schwächungen von sich selbst, fügt Zielen im Bereich um Wirkenden anschließend Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Betörung, Treffergarantie, wirkt Regena auf sich selbst und zusätzlicher Effekt: Erhöht Bereichangriffsresistenz und Elementarkettenresistenz, während Regena aktiv ist."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Verstärkt Schicksalskreuz. Senkt AP-Verbrauch, erhöht Bereichshöhe. Fügt Zielen in Reichweite Schaden (L) zu, erhöht eigene AZ (M), senkt 3 Runden lang AP-Verbrauch und heilt bei Erleiden von Schaden (1 Mal) festgelegten Anteil der eigenen LP (L), wenn LP unter 50 % sinken."
     },
@@ -20151,6 +20211,18 @@
     {
       "key": "SK_LB_LW_OBRN_B_CH",
       "value": "Verstärkt Achtpfadiger Drachenschimmer. Reduziert AP-Verbrauch und erhöht Bereichsform. Senkt 3 Runden lang alle Elementarresistenzen von Zielen in Reichweite, fügt anschließend Schaden (L) zu, wirkt 3 Runden lang Hast auf sich selbst, wenn LP 50 % oder höher sind und zusätzlicher Effekt: Erhöht Einzelangriffsresistenz, während Hast aktiv ist, heilt festgelegten Anteil der eigenen LP (S), wenn LP 50 % oder niedriger sind, und erhöht 3 Runden lang physischen Schaden (wird vor dem Angriff aktiviert)."
+    },
+    {
+      "key": "SK_LB_LW_AILN_B_CH",
+      "value": "Verstärkt Bohrwirkung. Senkt AP-Verbrauch und erhöht Reichweite. Erhöht 3 Runden lang eigenen physischen Schaden, senkt 3 Runden lang Erdresistenz des Ziels erheblich, fügt anschließend Schaden (L) zu, ermöglicht Wirkendem, einen tödlichen Treffer zu überleben und zusätzlicher Effekt: Senkt AP-Verbrauch, während Mumm aktiv ist."
+    },
+    {
+      "key": "SK_LB_LW_MORE_B_CH",
+      "value": "Verstärkt Führung der Gestirne. Senkt PSY und Wasserresistenz, senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend MAG-abhängigen Schaden (L) zu und versiegelt 3 Runden lang Vallum-Entfernung."
+    },
+    {
+      "key": "SK_LB_LW_VKTR_B_CH",
+      "value": "Verstärkt Süße Falle. Senkt AP-Verbrauch. Entfernt alle Schwächungen von sich selbst, fügt Zielen im Bereich um Wirkenden anschließend Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Betörung, Treffergarantie, wirkt Regena auf sich selbst und zusätzlicher Effekt: Erhöht Bereichangriffsresistenz und Elementarkettenresistenz, während Regena aktiv ist."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -23381,8 +23453,16 @@
       "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene Bereichangriffsresistenz +15"
     },
     {
+      "key": "SK_MA_LW_AMNR_2",
+      "value": "LP-Maximum +10 % und Wasserangriff +15 für verbündete Wassereinheiten, eigene MAG +10 %, Bereichangriffsresistenz +25 und Aktivierungszeit -25 %"
+    },
+    {
       "key": "SK_MA_LW_LLGA",
       "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigener ANG +10 % und AP-Verbrauch -20 %"
+    },
+    {
+      "key": "SK_MA_LW_LLGA_2",
+      "value": "LP-Maximum +10 % und Erdangriff +15 für verbündete Erdeinheiten, eigener ANG +10 %, AP-Verbrauch -20 %, ABW-Durchbohrrate +20, Menschenfresser bei physischem Angriff +20 und verstärkt Gunst der Erde. Senkt Wahrscheinlichkeit, selbst Ziel von Angriffen zu werden, eigene Reichweite +1 für 3 Runden und gewährt für 3 Runden Reduzierung erlittenen Schadens, die zunimmt, je höher die Reichweite."
     },
     {
       "key": "SK_MA_LW_RESL",
@@ -23567,6 +23647,14 @@
     {
       "key": "SK_MA_LW_ASTR_01",
       "value": "LP-Maximum +10 % und Blitzangriff +15 für verbündete Blitzeinheiten, eigene Schlitzresistenz-Durchbohrrate +20 und erlangte AP +30 %"
+    },
+    {
+      "key": "SK_MA_LW_CMRL",
+      "value": "LP-Maximum +10 % und Lähmungsresistenz +25 für verbündete Feuereinheiten, eigene Hiebresistenz-Durchbohrrate +10, Reaktionsblockrate +20 und Eisfresser +20"
+    },
+    {
+      "key": "SK_MA_LW_BRWL",
+      "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene ABW-Durchbohrrate +15 und AP-Verbrauch -10 %"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -25139,6 +25227,22 @@
     {
       "key": "SK_UES_LW_ASTR_01",
       "value": "Senkt AP-Verbrauch. Zerstört alle schadensverringernden Barrieren von Zielen in Reichweite, fügt anschließend Schaden (L) zu und senkt 3 Runden lang Heilkraft."
+    },
+    {
+      "key": "SK_UES_LW_CMRL",
+      "value": "Senkt 3 Runden lang Bereichangriffsresistenz von Zielen in Reichweite und fügt anschließend Schaden (M) zu (wirkt nicht auf Ziele mit Levitas)."
+    },
+    {
+      "key": "SK_LW_BFI_EN_A_02B",
+      "value": "Senkt 3 Runden lang Bereichangriffsresistenz von Zielen in Reichweite und fügt anschließend Schaden (M) zu (wirkt nicht auf Ziele mit Levitas)."
+    },
+    {
+      "key": "SK_UES_LW_BRWL",
+      "value": "Verstärkt LP-Absorption. Erhöht eigene Schlitzresistenz-Durchbohrrate, entfernt Protes und Vallum von bis zu 2 Zielen, fügt anschließend Schaden (L) zu und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LW_HSW_EN_A_02B",
+      "value": "Erhöht eigene Schlitzresistenz-Durchbohrrate, entfernt Protes und Vallum von bis zu 2 Zielen, fügt anschließend Schaden (L) zu und absorbiert Teil des verursachten Schadens."
     },
     {
       "key": "SK_UES_LW_IBRA",
@@ -27553,6 +27657,14 @@
       "value": "Erhöht Courage von Verbündeten in Reichweite, stellt AP wieder her, erhöht 3 Runden lang Schlitzangriff und annulliert Immobilisierung und Berserker."
     },
     {
+      "key": "SK_ACC_LW_BRWL_1",
+      "value": "Wirkt 3 Runden lang Hast auf sich selbst und zusätzlicher Effekt: Reduziert AP-Verbrauch, während Hast aktiv ist."
+    },
+    {
+      "key": "SK_FIS_LW_CMRL_1",
+      "value": ""
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -28445,6 +28557,10 @@
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
     {
+      "key": "SK_LW_PLUS6_2D_RES_RANGE_10",
+      "value": "+6 Ausrüstungsspezifische Fähigkeit"
+    },
+    {
       "key": "SK_LW_PLUS6_HPO70_RES_SINGL_10",
       "value": "+6 Ausrüstungsspezifische Fähigkeit"
     },
@@ -28978,6 +29094,26 @@
     },
     {
       "key": "SK_LW_BSW_022_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_5",
       "value": ""
     },
     {
@@ -29518,6 +29654,10 @@
     },
     {
       "key": "SK_LW_SWO_038_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_038_6",
       "value": ""
     },
     {
@@ -34082,6 +34222,78 @@
     },
     {
       "key": "SK_VC_LW_STRN_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_P_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PAW_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PMAX_4",
       "value": ""
     },
     {

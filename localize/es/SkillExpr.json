@@ -3826,7 +3826,7 @@
     },
     {
       "key": "SK_FF8_E_SIFR_M_03",
-      "value": "Elimina cualquier barrera que reduzca el daño físico e inflige daño (medio) a los objetivos al alcance."
+      "value": "Elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance y les inflige daño (medio)."
     },
     {
       "key": "SK_FF8_E_SIFR_M_04",
@@ -9917,6 +9917,10 @@
       "value": "Inflige daño (medio) al objetivo 2 veces y reduce su res. hielo durante 3 turnos."
     },
     {
+      "key": "SK_LW_HSW_DARK_S_3",
+      "value": "Inflige daño (medio) al objetivo 2 veces y reduce su res. oscuridad durante 3 turnos."
+    },
+    {
       "key": "SK_LW_HSW_S_4",
       "value": "Daño (medio) a los objetivos al alcance y probabilidad de infligirles silencio durante 3 turnos."
     },
@@ -9953,6 +9957,26 @@
       "value": "Aumenta el ATQ y la tasa de penetración de DEF."
     },
     {
+      "key": "SK_LW_HSW_EN_A_02",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario, inflige daño (mucho) a hasta 2 objetivos y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_EC_HSW_C_03",
+      "value": "Mejora «Infundir resistencia» a «Bendición de causa mayor»: aumenta la res. perforación y la tasa de evasión de crítico de los aliados de alrededor y les otorga revitalia durante 4 turnos, otorga una barrera al usuario que reduce el daño físico (3 veces) y le otorga un efecto de reducción a sus ataques con éxito durante 3 turnos que reduce la tasa de penetración de DEF del objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_HSW_C_03B",
+      "value": "Aumenta la res. perforación y la tasa de evasión de crítico de los aliados de alrededor y les otorga revitalia durante 4 turnos, otorga una barrera al usuario que reduce el daño físico (3 veces) y le otorga un efecto de reducción a sus ataques con éxito durante 3 turnos que reduce la tasa de penetración de DEF del objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_HSW_C_04",
+      "value": "Mejora «Sabiduría de caballero pesado» a «Inquisición de caballero pesado»: aumenta el ATQ, la tasa de penetración de DEF y la res. ataque de zona."
+    },
+    {
+      "key": "SK_LW_EC_HSW_C_04B",
+      "value": "Aumenta el ATQ, la tasa de penetración de DEF y la res. ataque de zona."
+    },
+    {
       "key": "SK_LW_BFI_EN_A_01",
       "value": "Elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance y les inflige daño (medio)."
     },
@@ -9971,6 +9995,26 @@
     {
       "key": "SK_LW_EC_BFI_C_02B",
       "value": "El usuario sobrevive a daño letal una vez y recupera PA."
+    },
+    {
+      "key": "SK_LW_BFI_EN_A_02",
+      "value": "Reduce la res. ataque de zona de los objetivos al alcance y les inflige daño (medio) (no afecta a objetivos en estado lévita)."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_03",
+      "value": "Mejora «Juramento fatal» a «Juramento diezmante»: otorga eliminación de agallas y de efectos de daño adicional (se activa antes de atacar) a los ataques de los aliados de alrededor durante 3 turnos y aumenta la tasa de precisión y la res. ataque de zona del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_03B",
+      "value": "Otorga eliminación de agallas y de efectos de daño adicional (se activa antes de atacar) a los ataques de los aliados de alrededor durante 3 turnos y aumenta la tasa de precisión y la res. ataque de zona del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_04",
+      "value": "Mejora «Sabiduría de luchador» a «Intuición conquistadora»: aumenta el ATQ, la tasa de penetración de DEF y la res. ataque de zona."
+    },
+    {
+      "key": "SK_LW_EC_BFI_C_04B",
+      "value": "Aumenta el ATQ, la tasa de penetración de DEF y la res. ataque de zona."
     },
     {
       "key": "SK_LW_SLVE_ATK",
@@ -10559,6 +10603,10 @@
     {
       "key": "SK_LW_LLGA_S_2",
       "value": "Reduce la probabilidad de que el usuario sea atacado y aumenta su alcance en +1 durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_LLGA_S_2_B",
+      "value": "Reduce la probabilidad de que el usuario sea atacado, aumenta su alcance en +1 durante 3 turnos y reduce el daño que recibe cuanto mayor sea el alcance del ataque durante 3 turnos."
     },
     {
       "key": "SK_LW_LLGA_S_3",
@@ -14378,7 +14426,7 @@
     },
     {
       "key": "SK_LW_IBRA_M_3",
-      "value": "Aumenta el ataque mágico, la tasa de penetración de res. ataque mágico del usuario, la res. ataque de zona durante 3 turnos."
+      "value": "Aumenta el ataque mágico, la tasa de penetración de res. ataque mágico y la res. ataque de zona del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_IBRA_M_3_B",
@@ -14414,7 +14462,7 @@
     },
     {
       "key": "SK_LW_EC_IBRA_A_01",
-      "value": "Elimina coraza y escudo de los objetivos al alcance, inflige daño (mucho) en función de la MAG del usuario y aumenta el TC del usuario (poco)."
+      "value": "Elimina Coraza y Escudo de los objetivos al alcance, les inflige daño (mucho) en función de la MAG del usuario y aumenta el TC del usuario (poco)."
     },
     {
       "key": "SK_LW_EC_IBRA_C_01",
@@ -14426,11 +14474,11 @@
     },
     {
       "key": "SK_LW_EC_IBRA_C_02",
-      "value": "Mejora «Posesión espiritual» a «Noche sin luna»: aumenta el ataque mágico, la tasa de penetración de res. ataque mágico del usuario, la res. ataque de zona y otorga Comehombres durante 3 turnos."
+      "value": "Mejora «Posesión espiritual» a «Noche sin luna»: aumenta el ataque mágico, la tasa de penetración de res. ataque mágico y la res. ataque de zona del usuario y otorga Comehombres durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_IBRA_C_02B",
-      "value": "Aumenta el ataque mágico, la tasa de penetración de res. ataque mágico del usuario, la res. ataque de zona y otorga Comehombres durante 3 turnos."
+      "value": "Aumenta el ataque mágico, la tasa de penetración de res. ataque mágico y la res. ataque de zona del usuario y otorga Comehombres durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_IBRA_C_02B_B",
@@ -16378,7 +16426,7 @@
     },
     {
       "key": "SK_FMAM_EC_EDWD_A_01",
-      "value": "Elimina cualquier barrera que reduzca el daño físico e inflige daño (medio) a los objetivos al alcance."
+      "value": "Elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance y les inflige daño (medio)."
     },
     {
       "key": "SK_FMAM_EC_EDWD_A_01_B",
@@ -19097,10 +19145,6 @@
       "value": "Reduce la res. tierra del objetivo durante 3 turnos y le inflige daño de perforación (mucho)."
     },
     {
-      "key": "SK_LB_LW_AILN_B",
-      "value": "Reduce considerablemente la res. tierra del objetivo durante 3 turnos y le inflige daño de perforación (muchísimo)."
-    },
-    {
       "key": "SK_LB_LW_ZIZA",
       "value": "Inflige daño (mucho) al objetivo y otorga Comehombres potenciado."
     },
@@ -19801,6 +19845,10 @@
       "value": "Inflige daño no elemental (mínimo) al objetivo."
     },
     {
+      "key": "SK_LB_LW_BRWL",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) a los objetivos al alcance y reduce su tasa de penetración de DEF y de ESP durante 3 turnos."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -19970,7 +20018,7 @@
     },
     {
       "key": "SK_LB_LW_FRVA_B",
-      "value": "Reduce la res. todos los tipos de ataque de los objetivos al alcance durante 3 turnos, a continuación asesta daño (G) en función de la MAG del usuario, reduce el consumo de PA propio, otorga prisa, aumenta considerablemente la potencia de curación durante 3 turnos, y otorga reducción de daño mágico a los aliados de alrededor excepto el usuario durante 3 turnos (forma: rombo; alcance: 4; altura de alcance: 1)."
+      "value": "Reduce la res. todos los tipos de ataque de los objetivos al alcance durante 3 turnos, les inflige daño (mucho) en función de la MAG del usuario, reduce el consumo de PA del usuario, otorga prisa, aumenta considerablemente la potencia de curación durante 3 turnos y otorga reducción de daño mágico a los aliados de alrededor excepto el usuario durante 3 turnos (forma: rombo; alcance: 4; altura de alcance: 1)."
     },
     {
       "key": "SK_LB_LW_FRVA_B_B",
@@ -19987,6 +20035,18 @@
     {
       "key": "SK_LB_LW_OBRN_B",
       "value": "Reduce la res. todos los elementos de los objetivos al alcance durante 3 turnos, les inflige daño (mucho), otorga prisa al usuario durante 3 turnos cuando su VIT está al 50 % o más, efecto adicional: aumenta la res. ataque de unidad en estado prisa, recupera un porcentaje fijo de VIT del usuario (poco) si esta cae por debajo del 50 % y aumenta su daño físico durante 3 turnos (se activa antes de atacar)."
+    },
+    {
+      "key": "SK_LB_LW_AILN_B",
+      "value": "Aumenta el daño físico del usuario durante 3 turnos, reduce considerablemente la res. tierra del objetivo durante 3 turnos, le inflige daño (mucho), el usuario sobrevive a daño letal una vez y efecto adicional: reduce el consumo de PA en estado agallas."
+    },
+    {
+      "key": "SK_LB_LW_MORE_B",
+      "value": "Reduce el ESP y la res. agua de los objetivos al alcance, reduce considerablemente su tasa de activación de habilidades de reacción durante 3 turnos, les inflige daño (mucho) en función de la MAG del usuario y les sella la eliminación de Escudo durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_VKTR_B",
+      "value": "Elimina todas las reducciones del usuario, inflige daño (mucho) a los objetivos de alrededor con golpe garantizado, probabilidad de infligirles embrujo durante 3 turnos, otorga revitalia al usuario y efecto adicional: aumenta la res. ataque de zona y la res. combo elemental en estado revitalia."
     },
     {
       "key": "SK_LB_LW_MONT_B_CH",
@@ -20138,7 +20198,7 @@
     },
     {
       "key": "SK_LB_LW_FRVA_B_CH",
-      "value": "Mejora «Prisión helada». Mejora el alcance y la altura de alcance. Reduce la res. todos los tipos de ataque de los objetivos al alcance durante 3 turnos, a continuación asesta daño (G) en función de la MAG del usuario, reduce el consumo de PA propio, otorga prisa, aumenta considerablemente la potencia de curación durante 3 turnos, y otorga reducción de daño mágico a los aliados de alrededor excepto el usuario durante 3 turnos (forma: rombo; alcance: 4; altura de alcance: 1)."
+      "value": "Mejora «Prisión helada». Mejora el alcance y la altura de alcance. Reduce la res. todos los tipos de ataque de los objetivos al alcance durante 3 turnos, les inflige daño (mucho) en función de la MAG del usuario, reduce el consumo de PA del usuario, otorga prisa, aumenta considerablemente la potencia de curación durante 3 turnos y otorga reducción de daño mágico a los aliados de alrededor excepto el usuario durante 3 turnos (forma: rombo; alcance: 4; altura de alcance: 1)."
     },
     {
       "key": "SK_LB_LW_LATH_B_CH",
@@ -20151,6 +20211,18 @@
     {
       "key": "SK_LB_LW_OBRN_B_CH",
       "value": "Mejora «Brillo octodragón». Reduce el consumo de PA y mejora la forma de la zona. Reduce la res. todos los elementos de los objetivos al alcance durante 3 turnos, les inflige daño (mucho), otorga prisa al usuario durante 3 turnos cuando su VIT está al 50 % o más, efecto adicional: aumenta la res. ataque de unidad en estado prisa, recupera un porcentaje fijo de VIT del usuario (poco) si esta cae por debajo del 50 % y aumenta su daño físico durante 3 turnos (se activa antes de atacar)."
+    },
+    {
+      "key": "SK_LB_LW_AILN_B_CH",
+      "value": "Mejora «Impacto taladrante». Reduce el consumo de PA y mejora el alcance. Aumenta el daño físico del usuario durante 3 turnos, reduce considerablemente la res. tierra del objetivo durante 3 turnos, le inflige daño (mucho), el usuario sobrevive a daño letal una vez y efecto adicional: reduce el consumo de PA en estado agallas."
+    },
+    {
+      "key": "SK_LB_LW_MORE_B_CH",
+      "value": "Mejora «Guía astral». Reduce el ESP y la res. agua de los objetivos al alcance, reduce considerablemente su tasa de activación de habilidades de reacción durante 3 turnos, les inflige daño (mucho) en función de la MAG del usuario y les sella la eliminación de Escudo durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_VKTR_B_CH",
+      "value": "Mejora «Trampa encantadora». Reduce el consumo de PA. Elimina todas las reducciones del usuario, inflige daño (mucho) a los objetivos de alrededor con golpe garantizado, probabilidad de infligirles embrujo durante 3 turnos, otorga revitalia al usuario y efecto adicional: aumenta la res. ataque de zona y la res. combo elemental en estado revitalia."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -23082,7 +23154,7 @@
     },
     {
       "key": "SK_MA_LW_IBRA_2",
-      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: PA adquiridos +30 %, res. ataque de zona +10, VIT máx. +20 % y mejora la posesión espiritual. Otorga una barrera al usuario que niega una cierta cantidad de daño físico, aumenta su ataque mágico, su tasa de penetración de res. ataque mágico y su res. ataque de zona durante 3 turnos."
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: PA adquiridos +30 %, res. ataque de zona +10, VIT máx. +20 %, mejora «Posesión espiritual»: otorga una barrera al usuario que niega una cierta cantidad de daño físico, aumenta su ataque mágico, su tasa de penetración de res. ataque mágico y su res. ataque de zona durante 3 turnos."
     },
     {
       "key": "SK_MA_LW_STIA",
@@ -23138,7 +23210,7 @@
     },
     {
       "key": "SK_MA_LW_ESTR_2",
-      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: VIT máx. +10 %, res. ataque de corte +10 y res. ataque de perforación +25, res. ataque de unidad +15, y cuando la VIT es superior al 70 %: daño físico↑."
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: VIT máx. +10 %, res. ataque de corte +10, res. ataque de perforación +25, res. ataque de unidad +15, con VIT al 70 % o más: daño físico↑"
     },
     {
       "key": "SK_MA_PRS5_JOKR",
@@ -23334,7 +23406,7 @@
     },
     {
       "key": "SK_MA_LW_SLVE_2",
-      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: res. ataque de zona +20, tiempo de activación de habilidades no ofensivas -40 %, res. corte +15 y tasa de evasión de crítico +20."
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: res. ataque de zona +20, tiempo de activación de habilidades no ofensivas -40 %, res. corte +15 y tasa de evasión de crítico +20"
     },
     {
       "key": "SK_MA_LW_LVES_01",
@@ -23381,8 +23453,16 @@
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: res. ataque de zona +15"
     },
     {
+      "key": "SK_MA_LW_AMNR_2",
+      "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: MAG +10 %, res. ataque de zona +25, tiempo de activación <nobr>-25</nobr> %"
+    },
+    {
       "key": "SK_MA_LW_LLGA",
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +10 %, consumo de PA <nobr>-20</nobr> %"
+    },
+    {
+      "key": "SK_MA_LW_LLGA_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: ATQ +10 %, consumo de PA <nobr>-20</nobr> %, tasa de penetración de DEF +20, Comehombres al realizar ataque físico +20, mejora «Protección de la tierra»: reduce la probabilidad de que el usuario sea atacado, aumenta su alcance en +1 durante 3 turnos y reduce el daño que recibe cuanto mayor sea el alcance del ataque durante 3 turnos."
     },
     {
       "key": "SK_MA_LW_RESL",
@@ -23567,6 +23647,14 @@
     {
       "key": "SK_MA_LW_ASTR_01",
       "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: tasa de penetración de res. ataque de corte +20, PA adquiridos +30 %"
+    },
+    {
+      "key": "SK_MA_LW_CMRL",
+      "value": "Aliados de fuego: VIT máx. +10 %, res. parálisis +25; usuario: tasa de penetración de res. ataque de golpe +10, tasa de bloqueo de reacción +20, Comegélidos +20"
+    },
+    {
+      "key": "SK_MA_LW_BRWL",
+      "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: tasa de penetración de DEF +15, consumo de PA -10 %"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -25139,6 +25227,22 @@
     {
       "key": "SK_UES_LW_ASTR_01",
       "value": "Reduce el consumo de PA. Elimina cualquier barrera que reduzca el daño de los objetivos al alcance, les inflige daño (mucho) y reduce su potencia de curación durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_CMRL",
+      "value": "Reduce la res. ataque de zona de los objetivos al alcance durante 3 turnos y les inflige daño (medio) (no afecta a objetivos en estado lévita)."
+    },
+    {
+      "key": "SK_LW_BFI_EN_A_02B",
+      "value": "Reduce la res. ataque de zona de los objetivos al alcance durante 3 turnos y les inflige daño (medio) (no afecta a objetivos en estado lévita)."
+    },
+    {
+      "key": "SK_UES_LW_BRWL",
+      "value": "Mayor absorción de VIT. Aumenta la tasa de penetración de res. ataque de corte del usuario, elimina Coraza y Escudo de hasta 2 objetivos, inflige daño (mucho) y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_HSW_EN_A_02B",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario, elimina Coraza y Escudo de hasta 2 objetivos, inflige daño (mucho) y absorbe una parte del daño infligido."
     },
     {
       "key": "SK_UES_LW_IBRA",
@@ -27553,6 +27657,14 @@
       "value": "Aumenta la bravura de los aliados de alrededor, les recupera PA, aumenta su ataque de corte durante 3 turnos y anula inmóvil y locura."
     },
     {
+      "key": "SK_ACC_LW_BRWL_1",
+      "value": "Otorga prisa al usuario durante 3 turnos, y efecto adicional: reduce el consumo de PA en estado prisa."
+    },
+    {
+      "key": "SK_FIS_LW_CMRL_1",
+      "value": ""
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -28445,6 +28557,10 @@
       "value": "Habilidad específica de equipo +6"
     },
     {
+      "key": "SK_LW_PLUS6_2D_RES_RANGE_10",
+      "value": "Habilidad específica de equipo +6"
+    },
+    {
       "key": "SK_LW_PLUS6_HPO70_RES_SINGL_10",
       "value": "Habilidad específica de equipo +6"
     },
@@ -28978,6 +29094,26 @@
     },
     {
       "key": "SK_LW_BSW_022_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BSW_021_5",
       "value": ""
     },
     {
@@ -29518,6 +29654,10 @@
     },
     {
       "key": "SK_LW_SWO_038_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_038_6",
       "value": ""
     },
     {
@@ -34082,6 +34222,78 @@
     },
     {
       "key": "SK_VC_LW_STRN_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_SERL_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_P_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PAW_4",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_SERL_PMAX_4",
       "value": ""
     },
     {
