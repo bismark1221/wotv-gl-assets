@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 225,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -31,6 +33,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -75,6 +82,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -111,6 +123,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -155,6 +172,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -191,6 +213,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -235,6 +262,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -275,6 +307,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -311,6 +348,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -357,6 +399,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -384,6 +431,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -508,7 +557,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -535,6 +588,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -566,6 +624,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -690,7 +750,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -717,6 +781,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -748,6 +817,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -872,7 +943,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -899,6 +974,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -930,6 +1010,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1054,7 +1136,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1081,6 +1167,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1112,6 +1203,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1261,7 +1354,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1288,6 +1385,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1319,6 +1421,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1468,7 +1572,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1507,6 +1615,11 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -1534,6 +1647,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1653,7 +1768,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1692,6 +1811,11 @@
           }
         ]
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -1719,6 +1843,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -1838,7 +1964,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1865,6 +1995,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1896,6 +2031,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -2030,7 +2167,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "eve",
@@ -2057,6 +2198,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -2088,6 +2234,8 @@
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
       "nrmSkl": {
         "iname": "",
         "rank": 0,
@@ -2222,7 +2370,11 @@
       "dispOrder": 0,
       "pts": 0,
       "shield": false,
-      "referenceGObjName": ""
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -2264,6 +2416,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -2273,6 +2426,7 @@
             "type": 99,
             "iname": "UN_GM_CRYSTAL_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 50
@@ -2287,8 +2441,9 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_NIER_1",
+            "iname": "IT_EC_NIER_R_1",
             "num": 210,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 90
@@ -2296,8 +2451,9 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_NIER_1",
+            "iname": "IT_EC_NIER_R_1",
             "num": 230,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 5
@@ -2305,8 +2461,9 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_NIER_1",
+            "iname": "IT_EC_NIER_R_1",
             "num": 250,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 5
@@ -2323,6 +2480,7 @@
             "type": 0,
             "iname": "IT_AF_NIER_SPE_000",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 556
@@ -2332,6 +2490,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_MABR",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1067
@@ -2341,6 +2500,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_SAND_03",
             "num": 5,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1222
@@ -2350,6 +2510,7 @@
             "type": 0,
             "iname": "IT_AF_MAT_THUNDER_01",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1067
@@ -2359,6 +2520,7 @@
             "type": 0,
             "iname": "IT_AF_AW_SPEAR",
             "num": 1,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1222
@@ -2368,6 +2530,7 @@
             "type": 0,
             "iname": "IT_AF_EXP_02",
             "num": 4,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 2778
@@ -2377,6 +2540,7 @@
             "type": 0,
             "iname": "IT_AF_EXP_03",
             "num": 3,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 1222
@@ -2386,11 +2550,13 @@
             "type": -1,
             "iname": "",
             "num": 0,
+            "subNum1": 0,
             "secret": 0
           },
           "weight": 866
         }
       ]
     }
-  ]
+  ],
+  "enemy_group": []
 }

@@ -217,6 +217,10 @@
       "value": ""
     },
     {
+      "key": "SK_UN_BD_EC_VRHW",
+      "value": ""
+    },
+    {
       "key": "SK_US_POTION",
       "value": "Heilt LP eines Verbündeten (S)."
     },
@@ -1633,12 +1637,20 @@
       "value": "Fügt Feinden im Zielbereich magischen Windschaden (S) zu."
     },
     {
+      "key": "SK_TSLP_M_02_RP1",
+      "value": "Fügt Feinden im Zielbereich magischen Windschaden (L) zu und erhöht eigene AZ (S)."
+    },
+    {
       "key": "SK_TSLP_M_03",
       "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3-mal Schaden um N% reduziert."
     },
     {
       "key": "SK_TSLP_M_04",
       "value": "Fügt Feinden im Zielbereich magischen Windschaden (L) zu."
+    },
+    {
+      "key": "SK_TSLP_M_05",
+      "value": "Fügt Feinden im Zielbereich magischen Windschaden (maximal) zu und aktiviert vorübergehende Karteneffekte (Ausweichrate-Erhöhung für Verbündete und erhebliche Windresistenz-Senkung für Gegner)."
     },
     {
       "key": "SK_TSLP_01_ATK",
@@ -3941,6 +3953,30 @@
       "value": "Gewährt bei Erleiden von physischem Schaden Chance auf Wirken von 3 Runden andauernder Lähmung."
     },
     {
+      "key": "SK_NIER_KOSI_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_KOSI_M_01",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu."
+    },
+    {
+      "key": "SK_NIER_KOSI_M_02",
+      "value": "Senkt Aktivierungschance von Reaktionsfähigkeiten von Zielen in Reichweite erheblich, fügt anschließend Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauernder Lähmung."
+    },
+    {
+      "key": "SK_NIER_KOSI_M_03",
+      "value": "Zerstört physischen Schaden verringernde Barrieren und fügt Zielen in Reichweite anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_NIER_KOSI_M_04",
+      "value": "Fügt dem Ziel 3 Mal hintereinander Schaden (L) zu und garantiert Treffer."
+    },
+    {
+      "key": "SK_NIER_KOSI_R_01",
+      "value": "Gewährt Chance auf Konter bei Zielen in Reichweite bei Erleiden von Schaden."
+    },
+    {
       "key": "SK_GBLN_ATK",
       "value": "Fügt dem Ziel Schaden zu."
     },
@@ -4393,6 +4429,10 @@
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
     {
+      "key": "SK_BTL_MOVE_1_D_3T",
+      "value": ""
+    },
+    {
       "key": "SK_BTL_JUMP_1-20_D",
       "value": "Fähigkeit zur Auftragsausbalancierung"
     },
@@ -4771,6 +4811,10 @@
     {
       "key": "SK_BTL_INV_CTDOWN",
       "value": "Fähigkeit zur Auftragsausbalancierung"
+    },
+    {
+      "key": "SK_BTL_INV_CTDOWN_1",
+      "value": ""
     },
     {
       "key": "SK_BTL_INV_SPDDOWN",
@@ -19109,6 +19153,150 @@
       "value": "Erhöht ANG und ABW-Durchbohrrate und beschwört zu Beginn des Kampfes eine Barriere herauf, die 3 Mal physischen Schaden reduziert."
     },
     {
+      "key": "SK_NIER_N2TA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_N2TA_M_1",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (M) zu und aktiviert A120: Reparatur (Heilt festgelegten Anteil der eigenen LP (S) sowie die eines Verbündeten) als Kombofähigkeit."
+    },
+    {
+      "key": "SK_NIER_N2TA_M_2",
+      "value": "Heilt festgelegten Anteil der eigenen LP (S) sowie die eines Verbündeten"
+    },
+    {
+      "key": "SK_NIER_N2TA_M_3",
+      "value": "Erhöht 3 Runden lang AGI von Verbündeten im Bereich um Wirkenden, wirkt Schutzengel auf sich selbst (einmalige automatische Wiederbelebung bei Kampfunfähigkeit mit LP-Heilung (minimal)), gewährt erfolgreichen Angriffen 3 Runden lang Hast-Entfernung vom Ziel, wirkt 3 Runden lang Schwächungseffekt (3 Runden lang Versiegelung von Barrierenzerstörung) auf erfolgreiche Angriffe und erhöht nach Wiederbelebung durch Schutzengel 3 Runden lang AGI und Präzision."
+    },
+    {
+      "key": "SK_NIER_N2TA_M_3_B",
+      "value": "Erhöht nach Wiederbelebung durch Schutzengel 3 Runden lang AGI und Präzision."
+    },
+    {
+      "key": "SK_NIER_N2TA_M_4",
+      "value": "Entfernt Protes und Vallum vom Ziel und fügt anschließend 2 Mal hintereinander Schaden (L) zu."
+    },
+    {
+      "key": "SK_NIER_N2TA_S_1",
+      "value": "Senkt Kritische Ausweichrate des Ziels und fügt anschließend Schaden (S) zu."
+    },
+    {
+      "key": "SK_NIER_N2TA_S_2",
+      "value": "Beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal physischen Schaden reduziert, und gewährt für 3 Runden Reduzierung erlittenen Schadens, die zunimmt, je höher die Reichweite."
+    },
+    {
+      "key": "SK_NIER_N2TA_S_3",
+      "value": "Verbraucht eigene LP, um 3 Runden lang eigenen ANG erheblich zu erhöhen, und wirkt 3 Runden lang AZ-Erhöhung (minimal) nach kritischem Treffer."
+    },
+    {
+      "key": "SK_NIER_N2TA_S_4",
+      "value": "Verbraucht erheblichen Betrag der eigenen LP, um Zielen im Bereich um Wirkenden nichtelementaren Schaden (L) basierend auf der Anzahl besiegter Verbündeter zuzufügen, und gewährt Chance auf Wirken von 1 Runde andauernder Betäubung."
+    },
+    {
+      "key": "SK_NIER_N2TA_R_1",
+      "value": "Gewährt Chance, allen Angriffen auszuweichen."
+    },
+    {
+      "key": "SK_NIER_N2TA_P_1",
+      "value": "Erhöht Schlitzresistenz-Durchbohrrate und Präzision."
+    },
+    {
+      "key": "SK_NIER_N2TA_P_2",
+      "value": "Erhöht Schlitzresistenz, Durchbohrresistenz und Bereichangriffsresistenz."
+    },
+    {
+      "key": "SK_NIER_N2TA_EN_A_01",
+      "value": "Senkt 3 Runden lang einen festgelegten Anteil an Bereichangriffsresistenz von Zielen in Reichweite und fügt anschließend Schaden mit hoher Präzision (M) zu."
+    },
+    {
+      "key": "SK_NIER_N2TA_EN_A_01B",
+      "value": "Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten erheblich, senkt 3 Runden lang einen festgelegten Anteil an Bereichangriffsresistenz von Zielen in Reichweite, fügt anschließend Schaden mit hoher Präzision (M) zu und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_NIER_EC_N2TA_C_01",
+      "value": "Verstärkt Hiebe und Heilung zu Hiebe und Heilung +. Reduziert AP-Verbrauch. Erhöht 3 Runden lang eigene ABW-Durchbohrrate, entfernt Mumm von Zielen in Reichweite, fügt anschließend Schaden (M) zu und aktiviert A120: Reparatur (Heilt festgelegten Anteil der eigenen LP (S) sowie die eines Verbündeten) als Kombofähigkeit."
+    },
+    {
+      "key": "SK_NIER_EC_N2TA_C_01B",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, entfernt Mumm von Zielen in Reichweite, fügt anschließend Schaden (M) zu und aktiviert A120: Reparatur (Heilt festgelegten Anteil der eigenen LP (S) sowie die eines Verbündeten) als Kombofähigkeit."
+    },
+    {
+      "key": "SK_NIER_EC_N2TA_C_02",
+      "value": "Verstärkt Schlitz- und Präzisionsverbesserung zu Schlitz- und Präzisionsverbesserung +. Erhöht ANG, Schlitzresistenz-Durchbohrrate sowie Präzision und Reduziert AP-Verbrauch."
+    },
+    {
+      "key": "SK_NIER_EC_N2TA_C_02B",
+      "value": "Erhöht ANG, Schlitzresistenz-Durchbohrrate sowie Präzision und reduziert AP-Verbrauch."
+    },
+    {
+      "key": "SK_LW_VRHW_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_VRHW_M_1",
+      "value": "Senkt 3 Runden lang einen festgelegten Anteil an Bereichangriffsresistenz von Zielen in Reichweite und fügt anschließend 2 Mal hintereinander Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_VRHW_M_2",
+      "value": "Enfernt Schutzengel vom Ziel und fügt ihm anschließend nach auf Sprung folgender Verzögerung Schaden (L) zu."
+    },
+    {
+      "key": "SK_LW_VRHW_M_3",
+      "value": "Erhöht 3 Runden lang Bereichangriffsresistenz aller Verbündeten im Bereich um Wirkenden, wirkt 3 Runden andauernden Menschenfresser bei physischem Angriff und beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal physischen Schaden reduziert."
+    },
+    {
+      "key": "SK_LW_VRHW_S_1",
+      "value": "Fügt dem Ziel Schaden (S) zu, durchbohrt, garantiert Treffer und stellt bei Kampfunfähigkeit des Gegners (bis zu 2) eigene AP wieder her."
+    },
+    {
+      "key": "SK_LW_VRHW_S_1_AD",
+      "value": "Stellt bei Kampfunfähigkeit des Gegners eigene AP wieder her."
+    },
+    {
+      "key": "SK_LW_VRHW_S_2",
+      "value": "Gewährt 3 Runden lang Reduzierung erlittenen Schadens des Wirkenden, die zunimmt, je höher die Reichweite, wirkt 3 Runden andauernde Hast und gewährt einen zusätzlichen Effekt: Erhöht Schwächungsreduzierung erheblich, während Hast aktiv ist."
+    },
+    {
+      "key": "SK_LW_VRHW_S_3",
+      "value": "Fügt dem Ziel 3 Mal hintereinander Schaden (M) zu und senkt 3 Runden lang ANG."
+    },
+    {
+      "key": "SK_LW_VRHW_S_4",
+      "value": "Fügt Zielen in Reichweite Schaden (M) zu und gewährt Chance auf Wirken von 1 Runde andauernder Betäubung."
+    },
+    {
+      "key": "SK_LW_VRHW_R_1",
+      "value": "Gewährt bei Erleiden von Schaden Chance auf Konter, absorbiert verursachten Schaden und durchbohrt."
+    },
+    {
+      "key": "SK_LW_VRHW_P_1",
+      "value": "Erhöht ABW-Durchbohrrate und reduziert AP-Verbrauch."
+    },
+    {
+      "key": "SK_LW_VRHW_P_2",
+      "value": "Erhöht LP-/AGI-Maximum und Sprung +1."
+    },
+    {
+      "key": "SK_LW_VRHW_EN_A_01",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate und entfernt alle Stärkungen von Zielen in Reichweite, fügt ihnen anschließend Schaden (M) zu."
+    },
+    {
+      "key": "SK_LW_EC_VRHW_C_01",
+      "value": "Verstärkt Schutz-Haltung zu Festungshaltung. Erhöht 4 Runden lang Bereichangriffsresistenz aller Verbündeten im Bereich um Wirkenden, wirkt 4 Runden andauernden Menschenfresser bei physischem Angriff und beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert."
+    },
+    {
+      "key": "SK_LW_EC_VRHW_C_01B",
+      "value": "Erhöht 4 Runden lang Bereichangriffsresistenz aller Verbündeten im Bereich um Wirkenden, wirkt 4 Runden andauernden Menschenfresser bei physischem Angriff und beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal Schaden reduziert."
+    },
+    {
+      "key": "SK_LW_EC_VRHW_C_02",
+      "value": "Verstärkt Himmlische Geheimnisse zu Wege des Himmels. Erhöht ABW-Durchbohrrate, Einzelangriffsresistenz und senkt AP-Verbrauch."
+    },
+    {
+      "key": "SK_LW_EC_VRHW_C_02B",
+      "value": "Erhöht ABW-Durchbohrrate, Einzelangriffsresistenz und senkt AP-Verbrauch."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Fügt Zielen in Reichweite Schaden (L) zu."
     },
@@ -19849,6 +20037,10 @@
       "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, fügt Zielen in Reichweite anschließend Schaden (L) zu und senkt 3 Runden lang ABW-Durchbohrrate und PSY-Durchbohrrate."
     },
     {
+      "key": "SK_LB_NIER_N2TA",
+      "value": "Fügt Zielen in Reichweite Schaden (L) zu, zieht sie 1 Feld nach innen und Chance auf Wirken von 3 Runden andauernden Zustandsveränderungen (Gemach/Immobilisierung) und zusätzlicher Effekt: Senkt Schlitzresistenz um einen festgelegten Anteil erheblich, während Gemach/Immobilisierung aktiv ist."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Fügt Zielen in Reichweite Schaden (L) zu, erhöht eigene AZ (M), senkt 3 Runden lang AP-Verbrauch und heilt bei Erleiden von Schaden (1 Mal) festgelegten Anteil der eigenen LP (M), wenn LP unter 50 % sinken."
     },
@@ -20049,6 +20241,26 @@
       "value": "Entfernt alle Schwächungen von sich selbst, fügt Zielen im Bereich um Wirkenden anschließend Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Betörung, Treffergarantie, wirkt Regena auf sich selbst und zusätzlicher Effekt: Erhöht Bereichangriffsresistenz und Elementarkettenresistenz, während Regena aktiv ist."
     },
     {
+      "key": "SK_LB_NIER_N2TB_B",
+      "value": "Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt dem Ziel anschließend Schaden (L) zu, ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, und zusätzlicher Effekt: Erhöht Reaktionsblockrate und reduziert AP-Verbrauch, während Mumm aktiv ist, und annulliert 3 runden lang garantierte Treffer gegen sich selbst."
+    },
+    {
+      "key": "SK_LB_NIER_N9TS_B",
+      "value": "Erhöht 3 Runden lang eigene ABW-Durchbohrrate, senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt ihm anschließend Blitzschaden (L) zu, beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal physischen Schaden reduziert, und wirkt 3 Runden lang automatische AP-Wiederherstellung (M)."
+    },
+    {
+      "key": "SK_LB_LW_YERM_C",
+      "value": "Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend Schaden (XL) zu, erhöht eigene Einzelangriffsresistenz, wirkt 3 Runden lang Hast auf sich selbst, ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, und zusätzlicher Effekt: reduziert AP-Verbrauch, während Mumm/Hast aktiv ist, und senkt Wahrscheinlichkeit, Ziel von Angriffen zu werden."
+    },
+    {
+      "key": "SK_LB_LW_SCAL_B",
+      "value": "Senkt Bereichangriffsresistenz von Zielen in Reichweite, fügt anschließend 3-mal hintereinander MAG-abhängigen Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Lähmung mit höherem Effekt, je mehr Ziele (normaler Schaden bei 3 oder mehr Zielen), und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LB_LW_ALIA_B",
+      "value": "Fügt dem Ziel 2 Mal hintereinander Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung und zusätzlicher Effekt: Senkung der Eisresistenz sowie AGI während Immobilisierung, garantiert Treffer und wirkt Protes 3 Runden lang auf sich selbst."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Verstärkt Schicksalskreuz. Senkt AP-Verbrauch, erhöht Bereichshöhe. Fügt Zielen in Reichweite Schaden (L) zu, erhöht eigene AZ (M), senkt 3 Runden lang AP-Verbrauch und heilt bei Erleiden von Schaden (1 Mal) festgelegten Anteil der eigenen LP (L), wenn LP unter 50 % sinken."
     },
@@ -20223,6 +20435,26 @@
     {
       "key": "SK_LB_LW_VKTR_B_CH",
       "value": "Verstärkt Süße Falle. Senkt AP-Verbrauch. Entfernt alle Schwächungen von sich selbst, fügt Zielen im Bereich um Wirkenden anschließend Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Betörung, Treffergarantie, wirkt Regena auf sich selbst und zusätzlicher Effekt: Erhöht Bereichangriffsresistenz und Elementarkettenresistenz, während Regena aktiv ist."
+    },
+    {
+      "key": "SK_LB_NIER_N2TB_B_CH",
+      "value": "Verstärkt YoRHa-Vernichtungstanz. Reduziert AP-Verbrauch. Erhöht 3 Runden lang eigene Schlitzresistenz-Durchbohrrate, fügt dem Ziel anschließend Schaden (L) zu, ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, und zusätzlicher Effekt: Erhöht Reaktionsblockrate und reduziert AP-Verbrauch, während Mumm aktiv ist, und annulliert 3 Runden lang garantierte Treffer gegen sich selbst."
+    },
+    {
+      "key": "SK_LB_NIER_N9TS_B_CH",
+      "value": "Verstärkt Neuro-Hacken. Reduziert AP-Verbrauch und erhöht Reichweite. Erhöht 3 Runden lang eigene ABW-Durchbohrrate, senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt ihm anschließend Blitzschaden (L) zu, beschwört eine den Wirkenden umgebende Barriere herauf, die 3 Mal physischen Schaden reduziert, und wirkt 3 Runden lang automatische AP-Wiederherstellung (M)."
+    },
+    {
+      "key": "SK_LB_LW_YERM_C_CH",
+      "value": "Verstärkt Rasender Axtschlitzer. Senkt AP-Verbrauch und erhöht Reichweite. Senkt 3 Runden lang Einzelangriffsresistenz des Ziels, fügt anschließend Schaden (XL) zu, erhöht eigene Einzelangriffsresistenz, wirkt 3 Runden lang Hast auf sich selbst, ermöglicht Wirkendem, einmal einen tödlichen Treffer zu überleben, und zusätzlicher Effekt: reduziert AP-Verbrauch, während Mumm/Hast aktiv ist, und senkt Wahrscheinlichkeit, Ziel von Angriffen zu werden."
+    },
+    {
+      "key": "SK_LB_LW_SCAL_B_CH",
+      "value": "Verstärkt Blitzanrufung. Senkt Bereichangriffsresistenz von Zielen in Reichweite, fügt anschließend 3-mal hintereinander MAG-abhängigen Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Lähmung mit höherem Effekt, je mehr Ziele (normaler Schaden bei 3 oder mehr Zielen), und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_LB_LW_ALIA_B_CH",
+      "value": "Verstärkt Pistolen der Drachenprinzessin. Reduziert AP-Verbrauch. Fügt dem Ziel 2 Mal hintereinander Schaden (L) zu, gewährt Chance auf Wirken von 3 Runden andauernder Immobilisierung und zusätzlicher Effekt: Senkung der Eisresistenz sowie AGI während Immobilisierung, garantiert Treffer und wirkt Protes 3 Runden lang auf sich selbst."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -22833,8 +23065,16 @@
       "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene Ausweichrate +10 "
     },
     {
+      "key": "SK_MA_NIER_N2TB_2",
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene Ausweichrate +10, Schlitzresistenz-Durchbohrrate +20 und Bereichangriffsresistenz +20, wenn LP 50 % oder mehr betragen."
+    },
+    {
       "key": "SK_MA_NIER_N9TS",
       "value": "LP-Maximum +10 % und Blitzangriff +15 für verbündete Blitzeinheiten, eigene ABW +10"
+    },
+    {
+      "key": "SK_MA_NIER_N9TS_2",
+      "value": "LP-Maximum +10 % und Blitzangriff +15 für verbündete Blitzeinheiten, eigene ABW +10, ABW-Durchbohrrate +20 sowie Physischer Schaden-Senkung +10."
     },
     {
       "key": "SK_MA_LW_MONT_01",
@@ -23655,6 +23895,14 @@
     {
       "key": "SK_MA_LW_BRWL",
       "value": "LP-Maximum +10 % und Dunkelangriff +15 für verbündete Dunkeleinheiten, eigene ABW-Durchbohrrate +15 und AP-Verbrauch -10 %"
+    },
+    {
+      "key": "SK_MA_NIER_N2TA",
+      "value": "LP-Maximum +10 % und Eisangriff +15 für verbündete Eiseinheiten, eigene Schlitzresistenz-Durchbohrrate +20 und erlangte AP +30 %."
+    },
+    {
+      "key": "SK_MA_LW_VRHW",
+      "value": "LP-Maximum +10 % und Windangriff +15 für verbündete Windeinheiten, eigene ABW-Durchbohrrate +20 und erlangte AP +30 %"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -25277,6 +25525,26 @@
       "value": "Entfernt alle Stärkungen vom Ziel, fügt anschließend Schaden (L) zu, garantiert Treffer und senkt 3 Runden lang Heilkraft bei kritischem Treffer erheblich."
     },
     {
+      "key": "SK_UES_NIER_N2TA",
+      "value": "Erhöht Bereich. Senkt 3 Runden lang Aktivierungschance von Reaktionsfähigkeiten erheblich, senkt 3 Runden lang einen festgelegten Anteil an Bereichangriffsresistenz von Zielen in Reichweite, fügt anschließend Schaden mit hoher Präzision (M) zu und absorbiert Teil des verursachten Schadens."
+    },
+    {
+      "key": "SK_UES_NIER_N2TB",
+      "value": "Erhöht Gemach-Aktivierungschance. Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+    },
+    {
+      "key": "SK_NIER_EC_N2TB_A_01B",
+      "value": "Fügt Zielen in Reichweite Schaden (L) zu und gewährt Chance auf Wirken von 3 Runden andauerndem Gemach."
+    },
+    {
+      "key": "SK_UES_NIER_N9TS",
+      "value": "Fähigkeiteneinsätze +1. Erhöht 3 Runden lang ABW sowie PSY von Verbündeten im Bereich um Wirkenden, gewährt 3 Runden lang Schwächungseffekt (versiegelt 3 Runden lang Protes-Entfernen bei erfolgreichem Angriff) und wirkt 3 Runden lang Protes auf sich selbst."
+    },
+    {
+      "key": "SK_NIER_EC_N9TS_C_02C",
+      "value": "Erhöht 3 Runden lang ABW sowie PSY von Verbündeten im Bereich um Wirkenden, gewährt 3 Runden lang Schwächungseffekt (versiegelt 3 Runden lang Protes-Entfernen bei erfolgreichem Angriff) und wirkt 3 Runden lang Protes auf sich selbst."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Schlitz-ANG +2"
     },
@@ -25699,6 +25967,14 @@
     {
       "key": "SK_LW_APRED_3",
       "value": "Senkt AP-Kostenrate von Ausrüstung um 5 %"
+    },
+    {
+      "key": "SK_LW_APRED_4_SSR",
+      "value": "Senkt AP-Kostenrate von Ausrüstung um 8 %"
+    },
+    {
+      "key": "SK_LW_APRED_5_SSR",
+      "value": "Senkt AP-Kostenrate von Ausrüstung um 15 %"
     },
     {
       "key": "SK_LW_AP_GET_4_N_SSR",
@@ -26338,6 +26614,10 @@
     },
     {
       "key": "SK_NIER_KAT_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_KAT_000_6",
       "value": ""
     },
     {
@@ -27663,6 +27943,14 @@
     {
       "key": "SK_FIS_LW_CMRL_1",
       "value": ""
+    },
+    {
+      "key": "SK_ACC_NIER_N2TA_1",
+      "value": "Erhöht Bewegung/Sprung um 1 und gewährt Technikfeind für 3 Runden."
+    },
+    {
+      "key": "SK_ACC_LW_VRHW_1",
+      "value": "Entfernt automatische AP-Wiederherstellung von allen Gegnern auf der Karte, reduziert AP, senkt 2 Runden lang ANG, annulliert 2 Runden lang automatische AP-Wiederherstellung und erhöht 3 Runden lang eigene Kritische Ausweichrate."
     },
     {
       "key": "SK_LW_ACC_042_1",
@@ -29233,6 +29521,46 @@
       "value": ""
     },
     {
+      "key": "SK_NIER_BSW_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_BSW_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_BSW_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_BSW_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_BSW_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FIS_017_1",
       "value": ""
     },
@@ -30465,6 +30793,22 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SWO_041_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_041_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_041_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_041_1_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_SWO_044_1",
       "value": ""
     },
@@ -30674,6 +31018,22 @@
     },
     {
       "key": "SK_LW_ACC_077_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_077_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_077_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_077_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_077_1_5",
       "value": ""
     },
     {
@@ -34294,6 +34654,114 @@
     },
     {
       "key": "SK_GL_VC_LW_SERL_PMAX_4",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_NIER_MV2_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_NIER_MV2_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_NIER_MV2_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ORDR2_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ORDR2_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ORDR2_PMAX_2",
       "value": ""
     },
     {

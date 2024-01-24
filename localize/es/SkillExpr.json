@@ -217,6 +217,10 @@
       "value": ""
     },
     {
+      "key": "SK_UN_BD_EC_VRHW",
+      "value": ""
+    },
+    {
       "key": "SK_US_POTION",
       "value": "Recupera VIT de un aliado (poco)."
     },
@@ -1633,12 +1637,20 @@
       "value": "Inflige daño mágico de viento (poco) a los enemigos de la zona objetivo."
     },
     {
+      "key": "SK_TSLP_M_02_RP1",
+      "value": "Inflige daño mágico de viento (mucho) a los enemigos de la zona objetivo y aumenta el TC del usuario (poco)."
+    },
+    {
       "key": "SK_TSLP_M_03",
       "value": "Otorga una barrera al usuario que reduce el daño un N% (3 veces)."
     },
     {
       "key": "SK_TSLP_M_04",
       "value": "Inflige daño mágico de viento (mucho) a los enemigos de la zona objetivo."
+    },
+    {
+      "key": "SK_TSLP_M_05",
+      "value": "Inflige daño de viento (máximo) a los objetivos de la zona objetivo y activa un efecto de mapa temporal (aumenta la tasa de evasión y reduce considerablemente la res. viento de los enemigos)."
     },
     {
       "key": "SK_TSLP_01_ATK",
@@ -3941,6 +3953,30 @@
       "value": "Probabilidad de infligir parálisis al objetivo durante 3 turnos al recibir daño físico."
     },
     {
+      "key": "SK_NIER_KOSI_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_KOSI_M_01",
+      "value": "Inflige daño (medio) a los objetivos al alcance."
+    },
+    {
+      "key": "SK_NIER_KOSI_M_02",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance, les inflige daño (mucho) y probabilidad de infligirles parálisis durante 3 turnos."
+    },
+    {
+      "key": "SK_NIER_KOSI_M_03",
+      "value": "Elimina cualquier barrera que reduzca el daño físico de los objetivos al alcance y les inflige daño (medio)."
+    },
+    {
+      "key": "SK_NIER_KOSI_M_04",
+      "value": "Inflige daño (mucho) 3 veces al objetivo con golpe garantizado."
+    },
+    {
+      "key": "SK_NIER_KOSI_R_01",
+      "value": "Probabilidad de realizar un contraataque a los objetivos al alcance al recibir daño."
+    },
+    {
       "key": "SK_GBLN_ATK",
       "value": "Inflige daño al objetivo."
     },
@@ -4393,6 +4429,10 @@
       "value": "Técnica para equilibrar misiones."
     },
     {
+      "key": "SK_BTL_MOVE_1_D_3T",
+      "value": ""
+    },
+    {
       "key": "SK_BTL_JUMP_1-20_D",
       "value": "Técnica para equilibrar misiones."
     },
@@ -4771,6 +4811,10 @@
     {
       "key": "SK_BTL_INV_CTDOWN",
       "value": "Técnica para equilibrar misiones."
+    },
+    {
+      "key": "SK_BTL_INV_CTDOWN_1",
+      "value": ""
     },
     {
       "key": "SK_BTL_INV_SPDDOWN",
@@ -19109,6 +19153,150 @@
       "value": "Aumenta el ATQ y la tasa de penetración de DEF y otorga una barrera que reduce el daño físico al inicio del combate (3 veces)."
     },
     {
+      "key": "SK_NIER_N2TA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_N2TA_M_1",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (medio) a los objetivos al alcance y activa «A120: Reparar» a continuación (recupera un porcentaje fijo de VIT del usuario y un aliado (poco))."
+    },
+    {
+      "key": "SK_NIER_N2TA_M_2",
+      "value": "Recupera un porcentaje fijo de VIT del usuario y un aliado (poco)."
+    },
+    {
+      "key": "SK_NIER_N2TA_M_3",
+      "value": "Aumenta la AGI de los aliados de alrededor durante 3 turnos, otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), otorga eliminación de prisa del objetivo a los ataques con éxito durante 3 turnos, los ataques con éxito sellan la eliminación de barreras durante 3 turnos y aumenta la AGI y la tasa de precisión durante 3 turnos tras revivir con autolázaro."
+    },
+    {
+      "key": "SK_NIER_N2TA_M_3_B",
+      "value": "Aumenta la AGI y la tasa de precisión durante 3 turnos tras revivir con autolázaro."
+    },
+    {
+      "key": "SK_NIER_N2TA_M_4",
+      "value": "Elimina Coraza y Escudo del objetivo y le inflige daño (mucho) 2 veces."
+    },
+    {
+      "key": "SK_NIER_N2TA_S_1",
+      "value": "Reduce la tasa de evasión de crítico del objetivo y le inflige daño (poco)."
+    },
+    {
+      "key": "SK_NIER_N2TA_S_2",
+      "value": "Otorga una barrera al usuario que reduce el daño físico (3 veces) y le otorga un efecto durante 3 turnos que reduce el daño recibido cuanto mayor sea el alcance del ataque."
+    },
+    {
+      "key": "SK_NIER_N2TA_S_3",
+      "value": "Consume VIT del usuario para aumentar considerablemente su ATQ durante 3 turnos y le otorga TC↑ (mínimo) durante 3 turnos al asestar un crítico."
+    },
+    {
+      "key": "SK_NIER_N2TA_S_4",
+      "value": "Consume una cantidad considerable de VIT del usuario para infligir daño no elemental (mucho) a los objetivos de alrededor, mayor daño en función del número de aliados KO y probabilidad de infligirles aturdimiento durante un turno."
+    },
+    {
+      "key": "SK_NIER_N2TA_R_1",
+      "value": "Probabilidad de evadir todos los ataques."
+    },
+    {
+      "key": "SK_NIER_N2TA_P_1",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte y la tasa de precisión."
+    },
+    {
+      "key": "SK_NIER_N2TA_P_2",
+      "value": "Aumenta la res. corte, la res. perforación y la res. ataque de zona."
+    },
+    {
+      "key": "SK_NIER_N2TA_EN_A_01",
+      "value": "Reduce un porcentaje fijo de la res. ataque de zona de los objetivos al alcance durante 3 turnos y les inflige daño (medio) con mucha precisión."
+    },
+    {
+      "key": "SK_NIER_N2TA_EN_A_01B",
+      "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance, reduce un porcentaje fijo de su res. ataque de zona durante 3 turnos, les inflige daño (medio) con mucha precisión y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_NIER_EC_N2TA_C_01",
+      "value": "Mejora «Desgarrar y remendar» a «Desgarrar y remendar+»: reduce el consumo de PA. Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, elimina agallas de los objetivos al alcance, les inflige daño (medio) y activa «A120: Reparar» a continuación (recupera un porcentaje fijo de VIT del usuario y un aliado (poco))."
+    },
+    {
+      "key": "SK_NIER_EC_N2TA_C_01B",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, elimina agallas de los objetivos al alcance, les inflige daño (medio) y activa «A120: Reparar» a continuación (recupera un porcentaje fijo de VIT del usuario y un aliado (poco))."
+    },
+    {
+      "key": "SK_NIER_EC_N2TA_C_02",
+      "value": "Mejora «Mejorar corte y precisión» a «Mejorar corte y precisión+»: aumenta el ATQ, la tasa de penetración de res. ataque de corte, la tasa de precisión y reduce el consumo de PA."
+    },
+    {
+      "key": "SK_NIER_EC_N2TA_C_02B",
+      "value": "Aumenta el ATQ, la tasa de penetración de res. ataque de corte, la tasa de precisión y reduce el consumo de PA."
+    },
+    {
+      "key": "SK_LW_VRHW_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_VRHW_M_1",
+      "value": "Reduce un porcentaje fijo de la res. ataque de zona de los objetivos al alcance durante 3 turnos y les inflige daño (medio) 2 veces."
+    },
+    {
+      "key": "SK_LW_VRHW_M_2",
+      "value": "Elimina autolázaro del objetivo y le inflige daño (mucho) después de saltar."
+    },
+    {
+      "key": "SK_LW_VRHW_M_3",
+      "value": "Aumenta la res. ataque de zona de los aliados de alrededor, otorga Comehombres al realizar ataques físicos durante 3 turnos y otorga una barrera al usuario que reduce el daño físico (3 veces)."
+    },
+    {
+      "key": "SK_LW_VRHW_S_1",
+      "value": "Inflige daño penetrante (poco) al objetivo con golpe garantizado y recupera PA del usuario al dejar KO al enemigo (hasta 2 enemigos)."
+    },
+    {
+      "key": "SK_LW_VRHW_S_1_AD",
+      "value": "Recupera PA del usuario al dejar KO al enemigo."
+    },
+    {
+      "key": "SK_LW_VRHW_S_2",
+      "value": "Reduce el daño que recibe el usuario cuanto mayor sea el alcance del ataque, le otorga prisa durante 3 turnos y efecto adicional: aumenta considerablemente la tasa de disminución de reducciones en estado prisa."
+    },
+    {
+      "key": "SK_LW_VRHW_S_3",
+      "value": "Inflige daño (medio) 3 veces al objetivo y reduce su ATQ durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_VRHW_S_4",
+      "value": "Daño (medio) a los objetivos al alcance y probabilidad de infligirles aturdimiento durante un turno."
+    },
+    {
+      "key": "SK_LW_VRHW_R_1",
+      "value": "Probabilidad de realizar un contraataque penetrante al recibir daño y absorbe el daño infligido."
+    },
+    {
+      "key": "SK_LW_VRHW_P_1",
+      "value": "Aumenta la tasa de penetración de DEF y reduce el consumo de PA."
+    },
+    {
+      "key": "SK_LW_VRHW_P_2",
+      "value": "Salto +1 y aumenta la VIT máx. y la AGI."
+    },
+    {
+      "key": "SK_LW_VRHW_EN_A_01",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, elimina todas las mejoras de los objetivos al alcance y les inflige daño (medio)."
+    },
+    {
+      "key": "SK_LW_EC_VRHW_C_01",
+      "value": "Mejora «Arrojo - Guardia» a «Arrojo - Fortaleza»: aumenta la res. ataque de zona de los aliados de alrededor durante 4 turnos, otorga Comehombres al realizar ataques físicos durante 4 turnos y otorga una barrera al usuario que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_LW_EC_VRHW_C_01B",
+      "value": "Aumenta la res. ataque de zona de los aliados de alrededor durante 4 turnos, otorga Comehombres al realizar ataques físicos durante 4 turnos y otorga una barrera al usuario que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_LW_EC_VRHW_C_02",
+      "value": "Mejora «Secretos celestiales» a «Arcanos celestiales»: aumenta la tasa de penetración de DEF, la res. ataque de unidad y reduce el consumo de PA."
+    },
+    {
+      "key": "SK_LW_EC_VRHW_C_02B",
+      "value": "Aumenta la tasa de penetración de DEF, la res. ataque de unidad y reduce el consumo de PA."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Inflige daño (mucho) a los objetivos al alcance."
     },
@@ -19849,6 +20037,10 @@
       "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, inflige daño (mucho) a los objetivos al alcance y reduce su tasa de penetración de DEF y de ESP durante 3 turnos."
     },
     {
+      "key": "SK_LB_NIER_N2TA",
+      "value": "Inflige daño (mucho) a los objetivos al alcance, los acerca una casilla, probabilidad de infligirles freno e inmóvil durante 3 turnos y efecto adicional: reduce considerablemente un porcentaje fijo de la res. corte de objetivos en estado freno o inmóvil."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -20049,6 +20241,26 @@
       "value": "Elimina todas las reducciones del usuario, inflige daño (mucho) a los objetivos de alrededor con golpe garantizado, probabilidad de infligirles embrujo durante 3 turnos, otorga revitalia al usuario y efecto adicional: aumenta la res. ataque de zona y la res. combo elemental en estado revitalia."
     },
     {
+      "key": "SK_LB_NIER_N2TB_B",
+      "value": "Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (mucho) al objetivo, el usuario sobrevive a daño letal una vez, efecto adicional: aumenta la tasa de bloqueo de reacción y reduce el consumo de PA en estado agallas y anula los golpes garantizados que recibe el usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_NIER_N9TS_B",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, reduce la res. ataque de unidad del objetivo, le inflige daño de rayo (mucho), otorga una barrera al usuario que reduce el daño físico (3 veces) y le otorga recuperación automática de PA (medio) durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_YERM_C",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (muchísimo), aumenta la res. ataque de unidad del usuario, le otorga prisa durante 3 turnos, este sobrevive a daño letal una vez y efecto adicional: reduce el consumo de PA en estado agallas o prisa y reduce la probabilidad de ser atacado."
+    },
+    {
+      "key": "SK_LB_LW_SCAL_B",
+      "value": "Reduce la res. ataque de zona de los objetivos al alcance, les inflige daño (mucho) 3 veces en función de la MAG del usuario, probabilidad de infligirles parálisis durante 3 turnos, mayor daño cuantos más objetivos haya (daño normal con 3 o más objetivos) y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LB_LW_ALIA_B",
+      "value": "Daño (mucho) 2 veces al objetivo con golpe garantizado, probabilidad de infligirle inmóvil durante 3 turnos, efecto adicional: reduce la res. hielo y la AGI en estado inmóvil y otorga Coraza al usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Mejora «Cruz del destino». Reduce el consumo de PA y aumenta la altura de zona. Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -20223,6 +20435,26 @@
     {
       "key": "SK_LB_LW_VKTR_B_CH",
       "value": "Mejora «Trampa encantadora». Reduce el consumo de PA. Elimina todas las reducciones del usuario, inflige daño (mucho) a los objetivos de alrededor con golpe garantizado, probabilidad de infligirles embrujo durante 3 turnos, otorga revitalia al usuario y efecto adicional: aumenta la res. ataque de zona y la res. combo elemental en estado revitalia."
+    },
+    {
+      "key": "SK_LB_NIER_N2TB_B_CH",
+      "value": "Mejora «Danza mortal de YoRHa». Reduce el consumo de PA. Aumenta la tasa de penetración de res. ataque de corte del usuario durante 3 turnos, inflige daño (mucho) al objetivo, el usuario sobrevive a daño letal una vez, efecto adicional: aumenta la tasa de bloqueo de reacción y reduce el consumo de PA en estado agallas y anula los golpes garantizados que recibe el usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_NIER_N9TS_B_CH",
+      "value": "Mejora «Hackeo neuronal». Reduce el consumo de PA y mejora el alcance. Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, reduce la res. ataque de unidad del objetivo, le inflige daño de rayo (mucho), otorga una barrera al usuario que reduce el daño físico (3 veces) y le otorga recuperación automática de PA (medio) durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_YERM_C_CH",
+      "value": "Mejora «Hachazo elevado». Reduce el consumo de PA y mejora el alcance. Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (muchísimo), aumenta la res. ataque de unidad del usuario, le otorga prisa durante 3 turnos, este sobrevive a daño letal una vez y efecto adicional: reduce el consumo de PA en estado agallas o prisa y reduce la probabilidad de ser atacado."
+    },
+    {
+      "key": "SK_LB_LW_SCAL_B_CH",
+      "value": "Mejora «Invocación del rayo divino». Reduce la res. ataque de zona de los objetivos al alcance, les inflige daño (mucho) 3 veces en función de la MAG del usuario, probabilidad de infligirles parálisis durante 3 turnos, mayor daño cuantos más objetivos haya (daño normal con 3 o más objetivos) y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LB_LW_ALIA_B_CH",
+      "value": "Mejora «Pistolas de la princesa dragón». Reduce el consumo de PA. Daño (mucho) 2 veces al objetivo con golpe garantizado, probabilidad de infligirle inmóvil durante 3 turnos, efecto adicional: reduce la res. hielo y la AGI en estado inmóvil y otorga Coraza al usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -22833,8 +23065,16 @@
       "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de evasión +10"
     },
     {
+      "key": "SK_MA_NIER_N2TB_2",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de evasión +10, tasa de penetración de res. ataque de corte +20, res. ataque de zona +20 cuando la VIT está al 50 % o más"
+    },
+    {
       "key": "SK_MA_NIER_N9TS",
       "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: DEF +10"
+    },
+    {
+      "key": "SK_MA_NIER_N9TS_2",
+      "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: DEF +10, tasa de penetración de DEF +20, reducción de daño físico +10"
     },
     {
       "key": "SK_MA_LW_MONT_01",
@@ -23655,6 +23895,14 @@
     {
       "key": "SK_MA_LW_BRWL",
       "value": "Aliados de oscuridad: VIT máx. +10 %, ataque de oscuridad +15; usuario: tasa de penetración de DEF +15, consumo de PA -10 %"
+    },
+    {
+      "key": "SK_MA_NIER_N2TA",
+      "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: tasa de penetración de res. ataque de corte +20, PA adquiridos +30 %"
+    },
+    {
+      "key": "SK_MA_LW_VRHW",
+      "value": "Aliados de viento: VIT máx. +10 %, ataque de viento +15; usuario: tasa de penetración de DEF +20, PA adquiridos +30 %"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -25277,6 +25525,26 @@
       "value": "Elimina todas las mejoras del objetivo, le inflige daño (mucho) con golpe garantizado y reduce considerablemente su potencia de curación al asestar un crítico durante 3 turnos."
     },
     {
+      "key": "SK_UES_NIER_N2TA",
+      "value": "Mejora la zona. Reduce considerablemente la tasa de activación de habilidades de reacción de los objetivos al alcance, reduce un porcentaje fijo de su res. ataque de zona durante 3 turnos, les inflige daño (medio) con mucha precisión y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_UES_NIER_N2TB",
+      "value": "Mayor probabilidad de activación de freno. Daño (mucho) a los objetivos al alcance y probabilidad de infligirles freno durante 3 turnos."
+    },
+    {
+      "key": "SK_NIER_EC_N2TB_A_01B",
+      "value": "Daño (mucho) a los objetivos al alcance y probabilidad de infligirles freno durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_NIER_N9TS",
+      "value": "N.º de usos de la habilidad +1. Aumenta la DEF y el ESP de los aliados de alrededor durante 3 turnos, sus ataques con éxito sellan la eliminación de Coraza del objetivo durante 3 turnos y otorga Coraza al usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_NIER_EC_N9TS_C_02C",
+      "value": "Aumenta la DEF y el ESP de los aliados de alrededor durante 3 turnos, sus ataques con éxito sellan la eliminación de Coraza del objetivo durante 3 turnos y otorga Coraza al usuario durante 3 turnos."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Ataque de corte +2"
     },
@@ -25699,6 +25967,14 @@
     {
       "key": "SK_LW_APRED_3",
       "value": "Tasa de coste de PA de equipo -5 %"
+    },
+    {
+      "key": "SK_LW_APRED_4_SSR",
+      "value": "Tasa de coste de PA de equipo -8 %"
+    },
+    {
+      "key": "SK_LW_APRED_5_SSR",
+      "value": "Tasa de coste de PA de equipo -15 %"
     },
     {
       "key": "SK_LW_AP_GET_4_N_SSR",
@@ -26338,6 +26614,10 @@
     },
     {
       "key": "SK_NIER_KAT_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_KAT_000_6",
       "value": ""
     },
     {
@@ -27663,6 +27943,14 @@
     {
       "key": "SK_FIS_LW_CMRL_1",
       "value": ""
+    },
+    {
+      "key": "SK_ACC_NIER_N2TA_1",
+      "value": "Aumenta el movimiento y el salto en 1 y otorga Matamáquinas durante 3 turnos."
+    },
+    {
+      "key": "SK_ACC_LW_VRHW_1",
+      "value": "Elimina la recuperación automática de PA de todos los enemigos del mapa, reduce sus PA, reduce su ATQ durante 2 turnos, les anula la recuperación automática de PA durante 2 turnos y aumenta la tasa de evasión de crítico del usuario durante 3 turnos."
     },
     {
       "key": "SK_LW_ACC_042_1",
@@ -29233,6 +29521,46 @@
       "value": ""
     },
     {
+      "key": "SK_NIER_BSW_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_BSW_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_BSW_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_BSW_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_BSW_000_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_124_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FIS_017_1",
       "value": ""
     },
@@ -30465,6 +30793,22 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SWO_041_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_041_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_041_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SWO_041_1_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_SWO_044_1",
       "value": ""
     },
@@ -30674,6 +31018,22 @@
     },
     {
       "key": "SK_LW_ACC_077_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_077_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_077_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_077_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_077_1_5",
       "value": ""
     },
     {
@@ -34294,6 +34654,114 @@
     },
     {
       "key": "SK_GL_VC_LW_SERL_PMAX_4",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_NIER_MV2_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_NIER_MV2_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_NIER_MV2_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ORDR2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ORDR2_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ORDR2_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ORDR2_PMAX_2",
       "value": ""
     },
     {
