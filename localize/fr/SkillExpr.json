@@ -18598,7 +18598,7 @@
     },
     {
       "key": "SK_LW_HLNA_03_S_2",
-      "value": "Accorde un effet de dissipation de Hardiesse (s'active avant une attaque) aux attaques du lanceur pendant 3 tours et scelle la dissipation d'Auréole de la cible lorsqu'une attaque du lanceur est portée avec succès pendant 3 tours."
+      "value": "Accorde un effet de dissipation de Hardiesse (s'active avant une attaque) aux attaques du lanceur pendant 3 tours et scelle la dissipation d'Auréole de la cible pendant 3 tours lorsqu'une attaque du lanceur est portée avec succès pendant 3 tours."
     },
     {
       "key": "SK_LW_HLNA_03_S_3",
@@ -19306,7 +19306,7 @@
     },
     {
       "key": "SK_NIER_N2TB_01_M_2",
-      "value": "Augmente l'ATT et la DEF des alliés dans la zone autour du lanceur, réduit la consommation de PA pendant 3 tours, et érige une barrière qui réduit les dégâts magiques (3 fois) autour du lanceur."
+      "value": "Augmente l'ATT et la DEF des alliés dans la zone autour du lanceur et réduit la consommation de PA pendant 3 tours, et érige une barrière qui réduit les dégâts physiques (3 fois) autour du lanceur."
     },
     {
       "key": "SK_NIER_N2TB_01_M_3",
@@ -19394,7 +19394,7 @@
     },
     {
       "key": "SK_LW_LCIO_02_M_1B",
-      "value": "Détruit toute barrière réduisant les dégâts physiques (jusqu'à 2 cibles maximum), puis inflige des dégâts (L) et restaure les PA du lanceur quand un ennemi est mis K.O. quand un ennemi est mis K.O."
+      "value": "Détruit toute barrière réduisant les dégâts physiques (jusqu'à 2 cibles maximum), puis inflige des dégâts (L) et restaure les PA du lanceur quand un ennemi est mis K.O. quand un ennemi est mis K.O. (jusqu'à 1 ennemi)."
     },
     {
       "key": "SK_LW_LCIO_02_M_2",
@@ -19402,7 +19402,7 @@
     },
     {
       "key": "SK_LW_LCIO_02_M_2B",
-      "value": "Détruit toute barrière réduisant les dégâts physiques (jusqu'à 2 cibles maximum), puis inflige des dégâts (L) et restaure les PA du lanceur quand un ennemi est mis K.O."
+      "value": "Détruit toute barrière réduisant les dégâts physiques (jusqu'à 2 cibles maximum), puis inflige des dégâts (L) et restaure les PA du lanceur quand un ennemi est mis K.O. (jusqu'à 1 ennemi)."
     },
     {
       "key": "SK_LW_LCIO_02_M_3",
@@ -19410,7 +19410,7 @@
     },
     {
       "key": "SK_LW_LCIO_02_M_3B",
-      "value": "Détruit toute barrière réduisant les dégâts physiques (jusqu'à 2 cibles maximum), puis inflige des dégâts (L) et restaure les PA du lanceur quand un ennemi est mis K.O."
+      "value": "Détruit toute barrière réduisant les dégâts physiques (jusqu'à 2 cibles maximum), puis inflige des dégâts (L) et restaure les PA du lanceur quand un ennemi est mis K.O. (jusqu'à 1 ennemi)."
     },
     {
       "key": "SK_LW_LCIO_02_M_1B_AD",
@@ -19481,6 +19481,86 @@
       "value": "Augmente la résistance aux attaques à cible unique, la résistance tous éléments et le taux de perforation de la résistance aux attaques tranchantes, et augmente les dégâts physiques."
     },
     {
+      "key": "SK_LW_OBRN_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_OBRN_01_M_1",
+      "value": "Réduit la résistance des attaques tranchantes de la cible à hauteur d'un pourcentage défini pendant 3 tours, puis inflige des dégâts (M), avec Coup garanti."
+    },
+    {
+      "key": "SK_LW_OBRN_01_M_2",
+      "value": "[Enchaînement 1] Inflige des dégâts (M) en 2 coups aux unités dans la zone ciblée, réduit le taux de perforation de la résistance aux attaques tranchantes et magiques pendant 3 tours, et [Enchaînement 2] lance « Protection du dragon sacré » (augmente la résistance aux attaques tranchantes et magiques d'un allié pendant 3 tours)."
+    },
+    {
+      "key": "SK_LW_OBRN_01_M_2_AD",
+      "value": "Augmente la résistance aux attaques tranchantes et magiques d'un allié pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_OBRN_01_M_3",
+      "value": "Augmente la résistance aux attaques à cible unique des alliés dans la zone autour du lanceur pendant 3 tours, et érige une barrière autour du lanceur qui réduit les dégâts (3 fois)."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_1",
+      "value": "Active des effets de dégâts additionnels lors de l'utilisation d'aptitudes d'attaque du lanceur (inflige des dégâts non-élémentaires (XS) et n'affecte en rien les combos), puis inflige des dégâts (S) à la cible."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_1_AD",
+      "value": "Inflige des dégâts non-élémentaires (XS) à la cible."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_2",
+      "value": "Restaure un certain pourcentage des PV (M) du lanceur quand ses PV chutent en dessous de 50 % lorsque des dégâts sont subis (1 fois), accorde un effet d'absorption d'une partie des dégâts infligés aux PV au lanceur, et accorde Restauration auto de PA (S) pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_2_B",
+      "value": "Restaure un certain pourcentage des PV (M) du lanceur quand ses PV chutent en dessous de 50 % quand des dégâts sont subis (1 fois)."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_3",
+      "value": "Inflige des dégâts (M) en 2 coups à la cible et réduit l'AGI pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_4",
+      "value": "Augmente le Saut et le Déplacement du lanceur de 1 pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_OBRN_01_R_1",
+      "value": "Confère une chance de contre-attaquer lorsque des dégâts sont subis et absorbe une partie des dégâts infligés."
+    },
+    {
+      "key": "SK_LW_OBRN_01_P_1",
+      "value": "Augmente l'AGI et le taux de perforation de la DEF."
+    },
+    {
+      "key": "SK_LW_OBRN_01_P_2",
+      "value": "Augmente les PV max et la résistance aux attaques tranchantes et magiques."
+    },
+    {
+      "key": "SK_LW_OBRN_01_EN_A_01",
+      "value": "Augmente le taux de perforation de la DEF du lanceur pendant 3 tours, dissipe Bouclier des unités dans la zone ciblée, puis inflige des dégâts (M), et absorbe une partie des dégâts infligés."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_01",
+      "value": "Améliore Lame du dragon sacré en Attaque éclair du dragon sacré. Réduit la résistance aux attaques de zone des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) en 2 coups, réduit le taux de perforation de la résistance aux attaques tranchantes et magiques pendant 3 tours, et [Enchaînement 2] lance « Protection du dragon sacré » (augmente la résistance aux attaques tranchantes et magiques d'un allié pendant 3 tours)."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_01B",
+      "value": "[Enchaînement 1] Réduit la résistance aux attaques de zone des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) en 2 coups, réduit le taux de perforation de la résistance aux attaques tranchantes et magiques pendant 3 tours, et [Enchaînement 2] lance « Protection du dragon sacré » (augmente la résistance aux attaques tranchantes et magiques d'un allié pendant 3 tours)."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_01C",
+      "value": "[Enchaînement 1] Dissipe tous les malus du lanceur, réduit la résistance aux attaques de zone des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) en 2 coups, réduit le taux de perforation de la résistance aux attaques tranchantes et magiques pendant 3 tours, et [Enchaînement 2] lance « Protection du dragon sacré » (augmente la résistance aux attaques tranchantes et magiques d'un allié pendant 3 tours)."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_02",
+      "value": "Améliore Ferveur volante en Ferveur grandissante. Augmente l'AGI, le taux de perforation de la DEF et le taux de perforation de la résistance aux attaques tranchantes, et réduit la consommation de PA."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_02B",
+      "value": "Augmente l'AGI, le taux de perforation de la DEF et le taux de perforation de la résistance aux attaques tranchantes, et réduit la consommation de PA."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Inflige des dégâts (L) aux unités dans la zone ciblée."
     },
@@ -19543,10 +19623,6 @@
     {
       "key": "SK_LB_LW_KTON",
       "value": "Inflige des dégâts (L) en 2 coups à la cible et confère une chance d'infliger Stop."
-    },
-    {
-      "key": "SK_LB_LW_KTON_B",
-      "value": "Inflige des dégâts (XL) en 2 coups à la cible et confère une chance d'infliger Stop."
     },
     {
       "key": "SK_LB_LW_WHIS",
@@ -20233,6 +20309,10 @@
       "value": "Dissipe Bouclier de 3 cibles maximum, puis inflige des dégâts (L) en 2 coups, et réduit la jauge de CT (S)."
     },
     {
+      "key": "SK_LB_LW_OBRN_01",
+      "value": "Dissipe tous les bonus des unités dans la zone ciblée, puis inflige des dégâts (L), avec Coup garanti."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Inflige des dégâts (L) aux unités dans la zone ciblée, augmente la jauge de CT (M) du lanceur, réduit la consommation de PA pendant 3 tours, et restaure un certain pourcentage des PV (L) du lanceur quand ses PV chutent en dessous de 50 % lorsque des dégâts sont subis (1 fois)."
     },
@@ -20465,6 +20545,26 @@
       "value": "Réduit considérablement le taux d'activation de l'aptitude de réaction des ennemis dans la zone ciblée et réduit la résistance à la terre pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur et réduit la résistance aux combos élémentaires pendant 3 tours."
     },
     {
+      "key": "SK_LB_LW_MACR_C",
+      "value": "Dissipe tous les malus du lanceur, dissipe tous les bonus de la cible, puis inflige des dégâts (XL) en 2 coups qui dépendent de la MAGIE du lanceur à la cible, coup garanti, et augmente considérablement la résistance à toutes les attaques du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_ORDR_B",
+      "value": "Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (XL), réduit de moitié la jauge de CT, réduit considérablement les PA, et accorde une réduction des dégâts physiques au lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_KTON_B",
+      "value": "Accorde l'effet Anthropophage au lanceur pendant 3 tours, puis inflige des dégâts (L) en 2 coups à la cible, confère une chance d'infliger Stop, augmente le taux d'esquive et les compétences de soin du lanceur, et annule les coups garantis à destination du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_MORE_01_B",
+      "value": "Détruit toute barrière réduisant les dégâts magiques, réduit la résistance au vent des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur, confère une chance d'infliger Silence pendant 3 tours, et accorde un effet additionnel : réduit la résistance aux attaques de zone et l'effet Anthropophage pendant l'effet de Silence."
+    },
+    {
+      "key": "SK_LB_LW_RSNC_01_B",
+      "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (L), réduit considérablement les compétences de soin pendant 3 tours et confère une chance d'infliger Incapacité."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Améliore Croix du destin. Réduit la consommation de PA et améliore la hauteur de zone. Inflige des dégâts (L) aux unités dans la zone ciblée, augmente la jauge de CT (M) du lanceur, réduit la consommation de PA pendant 3 tours, et restaure un certain pourcentage des PV (L) du lanceur quand ses PV chutent en dessous de 50 % lorsque des dégâts sont subis (1 fois)."
     },
@@ -20667,6 +20767,26 @@
     {
       "key": "SK_LB_LW_MACR_02_B_CH",
       "value": "Améliore Éclat de la reine. Réduit considérablement le taux d'activation de l'aptitude de réaction des ennemis dans la zone ciblée et réduit la résistance à la terre pendant 3 tours, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur et réduit la résistance aux combos élémentaires pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_MACR_C_CH",
+      "value": "Améliore Lumière éclatante. Dissipe tous les malus du lanceur, dissipe tous les bonus de la cible, puis inflige des dégâts (XL) en 2 coups qui dépendent de la MAGIE du lanceur à la cible, coup garanti, et augmente considérablement la résistance à toutes les attaques du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_ORDR_B_CH",
+      "value": "Améliore Bomboldoa. Réduit la consommation de PA. Réduit la DEF de la cible pendant 3 tours, puis inflige des dégâts (XL), réduit de moitié la jauge de CT, réduit considérablement les PA, et accorde une réduction des dégâts physiques au lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_KTON_B_CH",
+      "value": "Améliore Entrave d'ombre de Saiga. Réduit la consommation de PA. Accorde l'effet Anthropophage au lanceur pendant 3 tours, puis inflige des dégâts (L) en 2 coups à la cible, confère une chance d'infliger Stop, augmente le taux d'esquive et les compétences de soin du lanceur, et annule les coups garantis à destination du lanceur pendant 3 tours."
+    },
+    {
+      "key": "SK_LB_LW_MORE_01_B_CH",
+      "value": "Détruit toute barrière réduisant les dégâts magiques, réduit la résistance au vent des unités dans la zone ciblée, puis inflige des dégâts (L) qui dépendent de la MAGIE du lanceur, confère une chance d'infliger Silence pendant 3 tours, et accorde un effet additionnel : réduit la résistance aux attaques de zone et l'effet Anthropophage pendant l'effet de Silence."
+    },
+    {
+      "key": "SK_LB_LW_RSNC_01_B_CH",
+      "value": "Réduit la résistance aux attaques à cible unique de la cible pendant 3 tours, puis inflige des dégâts (L), réduit considérablement les compétences de soin pendant 3 tours et confère une chance d'infliger Incapacité."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -23893,6 +24013,10 @@
       "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur de 15 et augmente la modification de l'acquisition des PA acquis de 30 %."
     },
     {
+      "key": "SK_MA_LW_RSNC_01_2",
+      "value": "Augmente les PV max de 10 % et les attaques de terre de 15 pour les unités alliées de terre, augmente le taux de perforation de la résistance aux attaques tranchantes du lanceur de 15, la modification de l'acquisition des PA acquis de 30 %, l'Esquive de 20 et l'effet Anthropophage de 10."
+    },
+    {
       "key": "SK_MA_LW_PRNE",
       "value": "Augmente les PV max de 10 % et les attaques d'eau de 15 pour les unités alliées d'eau, augmente la résistance aux attaques tranchantes et la résistance aux attaques perçantes du lanceur de 10 et son taux de blocage de réaction de 20."
     },
@@ -24123,6 +24247,10 @@
     {
       "key": "SK_MA_LW_LCIO_02",
       "value": "Augmente les PV max de 10 % et les attaques tous éléments de 10 pour toutes les unités alliées, augmente la résistance aux attaques de zone du lanceur de 10 et ses PA acquis de 30."
+    },
+    {
+      "key": "SK_MA_LW_OBRN_01",
+      "value": "Augmente les PV max de 10 % et les attaques de feu de 15 pour les unités alliées de feu, augmente la résistance aux attaques de zone du lanceur de 15."
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -25770,7 +25898,27 @@
     },
     {
       "key": "SK_UES_LW_LCIO_02",
-      "value": "Améliore la hauteur de la portée. Détruit toute barrière réduisant les dégâts physiques (jusqu'à 2 cibles maximum), puis inflige des dégâts (L) et restaure les PA du lanceur quand un ennemi est mis K.O."
+      "value": "Améliore la hauteur de la portée. Détruit toute barrière réduisant les dégâts physiques (jusqu'à 2 cibles maximum), puis inflige des dégâts (L) et restaure les PA du lanceur quand un ennemi est mis K.O. (jusqu'à 1 ennemi)."
+    },
+    {
+      "key": "SK_UES_LW_OBRN_01",
+      "value": "[Enchaînement 1] Dissipe tous les malus du lanceur, réduit la résistance aux attaques de zone des unités dans la zone ciblée pendant 3 tours, puis inflige des dégâts (M) en 2 coups, réduit le taux de perforation de la résistance aux attaques tranchantes et magiques pendant 3 tours, et [Enchaînement 2] lance « Protection du dragon sacré » (augmente la résistance aux attaques tranchantes et magiques d'un allié pendant 3 tours)."
+    },
+    {
+      "key": "SK_UES_LW_MORE_01",
+      "value": "Augmente la DEF et la PSY des alliés dans la zone autour du lanceur pendant 3 tours, accorde Récup, et scelle la dissipation d'Auréole de la cible pendant 3 tours lorsqu'une attaque du lanceur est portée avec succès pendant 3 tours."
+    },
+    {
+      "key": "SK_LW_EC_MORE_C_02C",
+      "value": "Augmente la DEF et la PSY des alliés dans la zone autour du lanceur pendant 3 tours, accorde Récup, et scelle la dissipation d'Auréole de la cible pendant 3 tours lorsqu'une attaque du lanceur est portée avec succès pendant 3 tours."
+    },
+    {
+      "key": "SK_UES_LW_RSNC_01",
+      "value": "Augmente la PSY et la résistance aux attaques projectiles des alliés dans la zone autour du lanceur pendant 4 tours, augmente le taux d'esquive du lanceur pendant 3 tours, scelle la dissipation de Hardiesse de la cible pendant 3 tours lorsqu'une attaque du lanceur est portée avec succès pendant 3 tours, et restaure les PA du lanceur."
+    },
+    {
+      "key": "SK_LW_EC_RSNC_C_02C",
+      "value": "Augmente la PSY et la résistance aux attaques projectiles des alliés dans la zone autour du lanceur pendant 4 tours, augmente le taux d'esquive du lanceur pendant 3 tours, scelle la dissipation de Hardiesse de la cible pendant 3 tours lorsqu'une attaque du lanceur est portée avec succès pendant 3 tours, et restaure les PA du lanceur."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -28217,6 +28365,10 @@
       "value": "Augmente le taux de perforation de la DEF des alliés dans la zone autour du lanceur et augmente le taux de réduction des malus du lanceur pendant 3 tours."
     },
     {
+      "key": "SK_ACC_LW_OBRN_01_1",
+      "value": "Réduit la consommation de PA des alliés dans la zone autour du lanceur pendant 3 tours, restaure les PA du lanceur et accorde l'effet Anthropophage en cas d'attaques physiques du lanceur pendant 3 tours."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -28491,6 +28643,10 @@
     {
       "key": "SK_GL_LW_DAG_017_5",
       "value": "Augmente le taux de blocage de réaction de 30, la résistance aux attaques de zone de 8 et la Chance de 15 %."
+    },
+    {
+      "key": "SK_GL_LW_PLUS6_2D_attack_30",
+      "value": "ATT +30 % (jusqu'à avoir subi des dégâts 2 fois), Lame du p'tit lapin +6"
     },
     {
       "key": "SK_LW_KAT_013_1",
@@ -29862,6 +30018,106 @@
     },
     {
       "key": "SK_LW_SWO_046_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_5",
       "value": ""
     },
     {
@@ -35126,6 +35382,114 @@
     },
     {
       "key": "SK_GL_VC_LW_NEWYEAR3_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LCIO_02_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LCIO_02_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LCIO_02_PMAX_2",
       "value": ""
     },
     {

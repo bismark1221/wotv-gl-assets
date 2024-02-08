@@ -18598,7 +18598,7 @@
     },
     {
       "key": "SK_LW_HLNA_03_S_2",
-      "value": "Otorga eliminación de agallas (se activa antes de atacar) a los ataques del usuario durante 3 turnos y sus ataques con éxito sellan la eliminación de autolázaro durante 3 turnos."
+      "value": "Otorga eliminación de agallas (se activa antes de atacar) a los ataques del usuario durante 3 turnos y sus ataques con éxito durante 3 turnos sellan la eliminación de autolázaro durante 3 turnos."
     },
     {
       "key": "SK_LW_HLNA_03_S_3",
@@ -19306,7 +19306,7 @@
     },
     {
       "key": "SK_NIER_N2TB_01_M_2",
-      "value": "Aumenta el ATQ y la DEF de los aliados de alrededor y reduce su consumo de PA durante 3 turnos, y otorga una barrera al usuario que reduce el daño mágico (3 veces)."
+      "value": "Aumenta el ATQ y la DEF de los aliados de alrededor y reduce su consumo de PA durante 3 turnos, y otorga una barrera al usuario que reduce el daño físico (3 veces)."
     },
     {
       "key": "SK_NIER_N2TB_01_M_3",
@@ -19481,6 +19481,86 @@
       "value": "Aumenta la res. ataque de unidad, la res. todos los elementos, la tasa de penetración de res. ataque de corte y el daño físico."
     },
     {
+      "key": "SK_LW_OBRN_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_OBRN_01_M_1",
+      "value": "Reduce un porcentaje fijo de la res. corte del objetivo durante 3 turnos y le inflige daño (medio) con golpe garantizado."
+    },
+    {
+      "key": "SK_LW_OBRN_01_M_2",
+      "value": "Inflige daño (medio) 2 veces a los objetivos al alcance, reduce su tasa de penetración de res. ataque de corte y mágico durante 3 turnos y activa «Protección del buen dragón» a continuación (aumenta la res. ataque de corte y mágico de un aliado durante 3 turnos)."
+    },
+    {
+      "key": "SK_LW_OBRN_01_M_2_AD",
+      "value": "Aumenta la res. ataque de corte y mágico de un aliado durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_OBRN_01_M_3",
+      "value": "Aumenta la res. ataque de unidad de los aliados de alrededor durante 3 turnos y otorga una barrera al usuario que reduce el daño (3 veces)."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_1",
+      "value": "Activa un efecto de daño adicional al usar una habilidad ofensiva del usuario (inflige daño no elemental (mínimo) sin afectar a los combos) e inflige daño (poco) al objetivo."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_1_AD",
+      "value": "Inflige daño no elemental (mínimo) al objetivo."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_2",
+      "value": "Recupera un porcentaje fijo de VIT del usuario (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez), absorbe una parte del daño de VIT infligido al usuario y le otorga recuperación automática de PA (poco) durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_2_B",
+      "value": "Recupera un porcentaje fijo de VIT del usuario (medio) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_3",
+      "value": "Inflige daño (medio) 2 veces al objetivo y reduce su AGI durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_OBRN_01_S_4",
+      "value": "Aumenta el salto y el movimiento del usuario en 1 durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_OBRN_01_R_1",
+      "value": "Probabilidad de realizar un contraataque al recibir daño y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_OBRN_01_P_1",
+      "value": "Aumenta la AGI y la tasa de penetración de DEF."
+    },
+    {
+      "key": "SK_LW_OBRN_01_P_2",
+      "value": "Aumenta la VIT máx., la res. corte y la res. ataque mágico."
+    },
+    {
+      "key": "SK_LW_OBRN_01_EN_A_01",
+      "value": "Aumenta la tasa de penetración de DEF del usuario durante 3 turnos, elimina Coraza de los objetivos al alcance, les inflige daño (medio) y absorbe una parte del daño infligido."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_01",
+      "value": "Mejora «Doble filo del buen dragón» a «Combo del buen dragón»: reduce la res. ataque de zona de los objetivos al alcance durante 3 turnos, les inflige daño (medio) 2 veces, reduce su tasa de penetración de res. ataque de corte y mágico durante 3 turnos y activa «Protección del buen dragón» a continuación (aumenta la res. ataque de corte y mágico de un aliado durante 3 turnos)."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_01B",
+      "value": "Reduce la res. ataque de zona de los objetivos al alcance durante 3 turnos, les inflige daño (medio) 2 veces, reduce su tasa de penetración de res. ataque de corte y mágico durante 3 turnos y activa «Protección del buen dragón» a continuación (aumenta la res. ataque de corte y mágico de un aliado durante 3 turnos)."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_01C",
+      "value": "Elimina todas las reducciones del usuario, reduce la res. ataque de zona de los objetivos al alcance durante 3 turnos, les inflige daño (medio) 2 veces, reduce su tasa de penetración de res. ataque de corte y mágico durante 3 turnos y activa «Protección del buen dragón» a continuación (aumenta la res. ataque de corte y mágico de un aliado durante 3 turnos)."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_02",
+      "value": "Mejora «Dragón ascendente» a «Dragón encumbrado»: aumenta la AGI, la tasa de penetración de DEF y la tasa de penetración de res. ataque de corte del usuario y reduce su consumo de PA."
+    },
+    {
+      "key": "SK_LW_EC_OBRN_01_C_02B",
+      "value": "Aumenta la AGI, la tasa de penetración de DEF y la tasa de penetración de res. ataque de corte del usuario y reduce su consumo de PA."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Inflige daño (mucho) a los objetivos al alcance."
     },
@@ -19543,10 +19623,6 @@
     {
       "key": "SK_LB_LW_KTON",
       "value": "Daño (mucho) 2 veces al objetivo y probabilidad de infligirle paro."
-    },
-    {
-      "key": "SK_LB_LW_KTON_B",
-      "value": "Daño (muchísimo) 2 veces al objetivo y probabilidad de infligirle paro."
     },
     {
       "key": "SK_LB_LW_WHIS",
@@ -20233,6 +20309,10 @@
       "value": "Elimina Coraza de hasta 3 objetivos, inflige daño (mucho) 2 veces y reduce el TC (poco)."
     },
     {
+      "key": "SK_LB_LW_OBRN_01",
+      "value": "Elimina todas las mejoras de los objetivos al alcance y les inflige daño (mucho) con golpe garantizado."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -20465,6 +20545,26 @@
       "value": "Reduce considerablemente la tasa de activación de habilidades de reacción de los enemigos al alcance y reduce su res. tierra durante 3 turnos, les inflige daño (mucho) en función de la MAG del usuario y reduce su res. combo elemental durante 3 turnos."
     },
     {
+      "key": "SK_LB_LW_MACR_C",
+      "value": "Elimina todas las reducciones del usuario y todas las mejoras del objetivo, le inflige daño (muchísimo) 2 veces en función de la MAG del usuario con golpe garantizado y aumenta considerablemente la res. todos los tipos de ataque del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_ORDR_B",
+      "value": "Reduce la DEF del objetivo durante 3 turnos, le inflige daño (muchísimo), reduce su TC a la mitad, reduce considerablemente sus PA y otorga reducción de daño físico al usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_KTON_B",
+      "value": "Otorga Comehombres al usuario durante 3 turnos, inflige daño (mucho) 2 veces al objetivo, probabilidad de infligirle paro, aumenta la tasa de evasión y la potencia de curación del usuario y anula los golpes garantizados que recibe durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_MORE_01_B",
+      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance, reduce su res. viento, les inflige daño (mucho) en función de la MAG del usuario, probabilidad de infligirles silencio durante 3 turnos y otorga un efecto adicional: reduce la res. ataque de zona y Comehombres de objetivos silenciados."
+    },
+    {
+      "key": "SK_LB_LW_RSNC_01_B",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (mucho), reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirle inútil durante 3 turnos."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Mejora «Cruz del destino». Reduce el consumo de PA y aumenta la altura de zona. Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -20667,6 +20767,26 @@
     {
       "key": "SK_LB_LW_MACR_02_B_CH",
       "value": "Mejora «Gambito de dama». Reduce considerablemente la tasa de activación de habilidades de reacción de los enemigos al alcance y reduce su res. tierra durante 3 turnos, les inflige daño (mucho) en función de la MAG del usuario y reduce su res. combo elemental durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_MACR_C_CH",
+      "value": "Mejora Doblepuño radiante. Elimina todas las reducciones del usuario y todas las mejoras del objetivo, le inflige daño (muchísimo) 2 veces en función de la MAG del usuario con golpe garantizado y aumenta considerablemente la res. todos los tipos de ataque del usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_ORDR_B_CH",
+      "value": "Mejora Bombardeo de Oldoa. Menor consumo de PA. Reduce la DEF del objetivo durante 3 turnos, le inflige daño (muchísimo), reduce su TC a la mitad, reduce considerablemente sus PA y otorga reducción de daño físico al usuario durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_KTON_B_CH",
+      "value": "Mejora Lazo umbrío de Saiga. Menos consumo de PA. Otorga Comehombres al usuario durante 3 turnos, inflige daño (mucho) 2 veces al objetivo, probabilidad de infligirle paro, aumenta la tasa de evasión y la potencia de curación del usuario y anula los golpes garantizados que recibe durante 3 turnos."
+    },
+    {
+      "key": "SK_LB_LW_MORE_01_B_CH",
+      "value": "Elimina cualquier barrera que reduzca el daño mágico de los objetivos al alcance, reduce su res. viento, les inflige daño (mucho) en función de la MAG del usuario, probabilidad de infligirles silencio durante 3 turnos y otorga un efecto adicional: reduce la res. ataque de zona y Comehombres de objetivos silenciados."
+    },
+    {
+      "key": "SK_LB_LW_RSNC_01_B_CH",
+      "value": "Reduce la res. ataque de unidad del objetivo durante 3 turnos, le inflige daño (mucho), reduce considerablemente su potencia de curación durante 3 turnos y probabilidad de infligirle inútil durante 3 turnos."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -23893,6 +24013,10 @@
       "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: tasa de penetración de res. ataque de corte +15, modificador de adquisición de PA +30 %"
     },
     {
+      "key": "SK_MA_LW_RSNC_01_2",
+      "value": "Aliados de tierra: VIT máx. +10 %, ataque de tierra +15; usuario: tasa de penetración de res. ataque de corte +15, modificador de adquisición de PA +30 %, evasión +20, Comehombres +10"
+    },
+    {
       "key": "SK_MA_LW_PRNE",
       "value": "Aliados de agua: VIT máx. +10 %, ataque de agua +15; usuario: res. ataques de corte y perforación +10, tasa de bloqueo de reacción +20"
     },
@@ -24123,6 +24247,10 @@
     {
       "key": "SK_MA_LW_LCIO_02",
       "value": "Todos los aliados: VIT máx. +10 %, ataque de todos los elementos +10; usuario: res. ataque de zona +10, PA adquiridos +30 %"
+    },
+    {
+      "key": "SK_MA_LW_OBRN_01",
+      "value": "Aliados de fuego: VIT máx. +10 %, ataque de fuego +15; usuario: res. ataque de zona +15"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -25771,6 +25899,26 @@
     {
       "key": "SK_UES_LW_LCIO_02",
       "value": "Mejora la altura de alcance. Elimina cualquier barrera que reduzca el daño físico de hasta 2 objetivos, inflige daño (mucho) y recupera PA del usuario al dejar KO al enemigo (un enemigo)."
+    },
+    {
+      "key": "SK_UES_LW_OBRN_01",
+      "value": "Elimina todas las reducciones del usuario, reduce la res. ataque de zona de los objetivos al alcance durante 3 turnos, les inflige daño (medio) 2 veces, reduce su tasa de penetración de res. ataque de corte y mágico durante 3 turnos y activa «Protección del buen dragón» a continuación (aumenta la res. ataque de corte y mágico de un aliado durante 3 turnos)."
+    },
+    {
+      "key": "SK_UES_LW_MORE_01",
+      "value": "Aumenta la DEF y el ESP de los aliados de alrededor durante 3 turnos, les otorga revitalia y sus ataques con éxito durante 3 turnos sellan la eliminación de autolázaro del objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_LW_EC_MORE_C_02C",
+      "value": "Aumenta la DEF y el ESP de los aliados de alrededor durante 3 turnos, les otorga revitalia y sus ataques con éxito durante 3 turnos sellan la eliminación de autolázaro del objetivo durante 3 turnos."
+    },
+    {
+      "key": "SK_UES_LW_RSNC_01",
+      "value": "Aumenta el ESP y la res. proyectiles de los aliados de alrededor durante 4 turnos, aumenta la tasa de evasión del usuario durante 3 turnos, sus ataques con éxito durante 3 turnos sellan la eliminación de agallas del objetivo durante 3 turnos y recupera PA."
+    },
+    {
+      "key": "SK_LW_EC_RSNC_C_02C",
+      "value": "Aumenta el ESP y la res. proyectiles de los aliados de alrededor durante 4 turnos, aumenta la tasa de evasión del usuario durante 3 turnos, sus ataques con éxito durante 3 turnos sellan la eliminación de agallas del objetivo durante 3 turnos y recupera PA."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -28217,6 +28365,10 @@
       "value": "Aumenta la tasa de penetración de DEF de los aliados de alrededor y la tasa de disminución de reducciones del usuario durante 3 turnos."
     },
     {
+      "key": "SK_ACC_LW_OBRN_01_1",
+      "value": "Reduce el consumo de PA de los aliados de alrededor durante 3 turnos, recupera PA del usuario y otorga Comehombres durante 3 turnos al realizar ataque físico."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -28491,6 +28643,10 @@
     {
       "key": "SK_GL_LW_DAG_017_5",
       "value": "Tasa de bloqueo de reacción +30/res. ataque de zona +8/suerte +15 %"
+    },
+    {
+      "key": "SK_GL_LW_PLUS6_2D_attack_30",
+      "value": "ATQ +30 % (hasta recibir daño 2 veces). Daga conejito +6"
     },
     {
       "key": "SK_LW_KAT_013_1",
@@ -29862,6 +30018,106 @@
     },
     {
       "key": "SK_LW_SWO_046_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_3_5",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_1",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_2",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_3",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_4",
+      "value": ""
+    },
+    {
+      "key": "SK_NIER_ACC_005_4_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_022_5",
       "value": ""
     },
     {
@@ -35126,6 +35382,114 @@
     },
     {
       "key": "SK_GL_VC_LW_NEWYEAR3_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_NIER_MV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LCIO_02_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LCIO_02_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LCIO_02_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_LCIO_02_PMAX_2",
       "value": ""
     },
     {

@@ -6721,6 +6721,10 @@
       "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 40, Jobstufe 8<br>Freischaltbedingungen: Einheit „Resnick der Schneehase“ ist mindestens auf Stufe 40"
     },
     {
+      "key": "QE_CH_LW_RSNC_01_2",
+      "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 80, Jobstufe 12<br>Freischaltbedingungen: Einheit „Resnick der Schneehase“ ist mindestens auf Stufe 80<br>Charakterauftrag „Resnick der Schneehase“ wurde abgeschlossen"
+    },
+    {
       "key": "QE_CH_LW_MLNA",
       "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 40, Jobstufe 8<br>Freischaltbedingungen: Einheit „Melnia“ ist mindestens auf Stufe 40"
     },
@@ -6775,6 +6779,10 @@
     {
       "key": "QE_CH_LW_LCIO_02",
       "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 40, Jobstufe 8<br>Freischaltbedingungen: Einheit „Leuchtender Glanz Lucio“ ist mindestens auf Stufe 40"
+    },
+    {
+      "key": "QE_CH_LW_OBRN_01",
+      "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 40, Jobstufe 8<br>Freischaltbedingungen: Einheit „Oberon, der Verheißungsvolle“ ist mindestens auf Stufe 40"
     },
     {
       "key": "QE_EV_GL_CDOWN_01_9",
@@ -7821,6 +7829,14 @@
       "value": "Highscore-Belohnungen<br>・Bei mindestens 3700 Punkten<br>・Bei mindestens 5340 Punkten<br>・Bei mindestens 6680 Punkten"
     },
     {
+      "key": "QE_MU_GL_ACF_07",
+      "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 50, Jobstufe 9"
+    },
+    {
+      "key": "QE_MU_GL_ACF_08",
+      "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 80, Jobstufe 12"
+    },
+    {
       "key": "QE_MU_NieR_EX_01",
       "value": "Informationen zum Auftrag<br>Keine"
     },
@@ -8529,22 +8545,6 @@
       "value": "Informationen zum Auftrag<br>Keine"
     },
     {
-      "key": "QE_EV_GL_ART_CRF_05",
-      "value": "Informationen zum Auftrag<br>Keine"
-    },
-    {
-      "key": "QE_EV_GL_ART_CRF_06",
-      "value": "Informationen zum Auftrag<br>Keine"
-    },
-    {
-      "key": "QE_MU_GL_ART_CRF_05",
-      "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 50, Jobstufe 9"
-    },
-    {
-      "key": "QE_MU_GL_ART_CRF_06",
-      "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 80, Jobstufe 12"
-    },
-    {
       "key": "QE_EV_DQT_01",
       "value": "Informationen zum Auftrag<br>Keine"
     },
@@ -8746,7 +8746,19 @@
     },
     {
       "key": "QE_EV_VC_STRN_3",
-      "value": "Informationen zum Auftrag<br>Gegner verwandeln sich in diesem Auftrag nicht in Kristalle. Feinde verschwinden sofort, nachdem ihre LP auf 0 sinken.<br>・Empfohlene Gruppe: Blitz<br>・Effektive Strategien: Schlitzangriffe, Geschossangriffe, Gift, Betäubung, Schlaf<br>・Sirenes Angriff aktiviert den Karteneffekt!<br>"
+      "value": "Informationen zum Auftrag<br>Gegner verwandeln sich in diesem Auftrag nicht in Kristalle. Feinde verschwinden sofort, nachdem ihre LP auf 0 sinken.<br>・Empfohlene Gruppe: Blitz<br>・Effektive Strategien: Schlitzangriffe, Geschossangriffe, Gift, Betäubung, Schlaf<br>・Sirenes Angriff aktiviert die Karteneffekte!<br>"
+    },
+    {
+      "key": "QE_EV_VC_NIER_1",
+      "value": "Informationen zum Auftrag<br>Keine"
+    },
+    {
+      "key": "QE_EV_VC_NIER_2",
+      "value": "Informationen zum Auftrag<br>Keine"
+    },
+    {
+      "key": "QE_EV_VC_NIER_3",
+      "value": "Informationen zum Auftrag<br>Gegner verwandeln sich in diesem Auftrag nicht in Kristalle. Feinde verschwinden sofort, nachdem ihre LP auf 0 sinken.<br>・Empfohlene Gruppe: Erde<br>・Effektive Strategien: Hiebangriffe, garantierter Treffer, Heilkraft-Senkung<br>"
     },
     {
       "key": "QE_EV_FF1_01",
@@ -14061,6 +14073,30 @@
       "value": "Informationen zum Auftrag<br>Keine"
     },
     {
+      "key": "QE_EV_GL_ART_CRF_05",
+      "value": "Informationen zum Auftrag<br>Keine"
+    },
+    {
+      "key": "QE_EV_GL_ART_CRF_06",
+      "value": "Informationen zum Auftrag<br>Keine"
+    },
+    {
+      "key": "QE_MU_GL_ART_CRF_05",
+      "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 50, Jobstufe 9"
+    },
+    {
+      "key": "QE_MU_GL_ART_CRF_06",
+      "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 80, Jobstufe 12"
+    },
+    {
+      "key": "QE_EV_GL_ACF_07",
+      "value": "Informationen zum Auftrag<br>Keine"
+    },
+    {
+      "key": "QE_EV_GL_ACF_08",
+      "value": "Informationen zum Auftrag<br>Keine"
+    },
+    {
       "key": "QE_MU_SHIV_04",
       "value": "Informationen zum Auftrag<br>Keine"
     },
@@ -16583,6 +16619,30 @@
     {
       "key": "QE_RAID_EV_34_03",
       "value": "Informationen zum Auftrag<br>Element des Bosses: Wasser<br>Schwäche: Magieangriffe, Hiebangriffe, Geschossangriffe, Durchbohrangriffe"
+    },
+    {
+      "key": "QE_RAID_EV_35_01",
+      "value": "Informationen zum Auftrag<br>Element des Bosses: Blitz<br>Schwäche: Hiebangriffe"
+    },
+    {
+      "key": "QE_RAID_EV_35_02",
+      "value": "Informationen zum Auftrag<br>Element des Bosses: Blitz<br>Schwäche: Hiebangriffe"
+    },
+    {
+      "key": "QE_RAID_EV_35_03",
+      "value": "Informationen zum Auftrag<br>Element des Bosses: Blitz<br>Schwäche: Hiebangriffe"
+    },
+    {
+      "key": "QE_RAID_EV_35_04",
+      "value": "Informationen zum Auftrag<br>Element des Bosses: Wind<br>Schwächen: Schlitzangriffe"
+    },
+    {
+      "key": "QE_RAID_EV_35_05",
+      "value": "Informationen zum Auftrag<br>Element des Bosses: Wind<br>Schwächen: Schlitzangriffe"
+    },
+    {
+      "key": "QE_RAID_EV_35_06",
+      "value": "Informationen zum Auftrag<br>Element des Bosses: Wind<br>Schwächen: Schlitzangriffe"
     },
     {
       "key": "QE_RAID_RV_01_01",
@@ -21023,6 +21083,10 @@
     {
       "key": "QE_VC_LW_NEWYEAR3",
       "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 70, Jobstufe 12<br>Freischaltbedingungen: Visionskarte „Neujahrsfestschmaus“ im Besitz"
+    },
+    {
+      "key": "QE_VC_LW_LCIO_02",
+      "value": "Informationen zum Auftrag<br>Empfohlen: Einheitenstufe 70, Jobstufe 12<br>Freischaltbedingungen: Visionskarte „Zwischen Hoffnung und Verzweiflung“ im Besitz"
     },
     {
       "key": "QE_VC_LW_IGNT",
