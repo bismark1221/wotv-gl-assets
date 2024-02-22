@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 0,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -31,6 +33,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -75,6 +82,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -111,6 +123,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -155,6 +172,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -191,6 +213,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -235,6 +262,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -273,6 +305,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -388,7 +425,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -415,6 +453,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -530,7 +573,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -557,6 +601,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -667,7 +716,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -694,6 +744,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -804,7 +859,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -831,6 +887,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -936,7 +997,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -963,6 +1025,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1068,7 +1135,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1095,6 +1163,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1200,7 +1273,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1227,6 +1301,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1332,7 +1411,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1359,6 +1439,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1464,7 +1549,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1491,6 +1577,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1596,7 +1687,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1623,6 +1715,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1733,7 +1830,8 @@
       "referenceGObjName": "",
       "status": "",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -1900,6 +1998,56 @@
         {
           "drop_data": {
             "type": 0,
+            "iname": "IT_JB_MM_PRNE_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_PRNE_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_KTON_02_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_KTON_02_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 26
+        },
+        {
+          "drop_data": {
+            "type": -1,
+            "iname": "",
+            "num": 0,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 0
+        },
+        {
+          "drop_data": {
+            "type": 0,
             "iname": "IT_AF_MAT_SAND_03",
             "num": 1,
             "subNum1": 0,
@@ -2015,27 +2163,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 4486
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_PRNE_2",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 26
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_PRNE_3",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 26
+          "weight": 4434
         }
       ]
     }

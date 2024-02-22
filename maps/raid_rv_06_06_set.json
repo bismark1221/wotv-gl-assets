@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 270,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -31,6 +33,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -75,6 +82,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -111,6 +123,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -155,6 +172,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -193,6 +215,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -288,7 +315,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":250,\"value\":-10},{\"type\":251,\"value\":20},{\"type\":254,\"value\":0},{\"type\":7,\"value\":25},{\"type\":5,\"value\":55},{\"type\":412,\"value\":0},{\"type\":405,\"value\":0}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -315,6 +343,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -375,7 +408,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":254,\"value\":0},{\"type\":251,\"value\":15},{\"type\":253,\"value\":20},{\"type\":252,\"value\":10},{\"type\":157,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -402,6 +436,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -462,7 +501,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":254,\"value\":0},{\"type\":251,\"value\":15},{\"type\":253,\"value\":20},{\"type\":252,\"value\":10},{\"type\":157,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -502,7 +542,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_RAID_SP",
+            "iname": "IT_EC_RAID_31",
             "num": 750,
             "subNum1": 0,
             "secret": 0
@@ -559,7 +599,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_RAID_SP",
+            "iname": "IT_EC_RAID_31",
             "num": 1500,
             "subNum1": 0,
             "secret": 0

@@ -1636,7 +1636,8 @@
       "mapEv": {
         "type": 2,
         "typeval": "string=2;unittag=ARAI;local=skill>SK_GMK_ATK_ARAIN|rmin>2|rmax>3|Vector2Int[]>{\"array\":[{\"x\":7,\"y\":5},{\"x\":7,\"y\":4},{\"x\":7,\"y\":3},{\"x\":6,\"y\":3},{\"x\":6,\"y\":4},{\"x\":6,\"y\":5},{\"x\":5,\"y\":5},{\"x\":5,\"y\":4},{\"x\":5,\"y\":3},{\"x\":6,\"y\":2},{\"x\":4,\"y\":4},{\"x\":6,\"y\":6}]}",
-        "isUnitNoAct": true
+        "isUnitNoAct": true,
+        "isAvoidAuto": false
       },
       "invokeMax": -1,
       "deadTags": [],
@@ -1790,6 +1791,36 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_IBRA_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 28
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_KTON_02",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 28
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_KTON_02_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 28
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_KTON_02_3",
             "num": 2,
             "subNum1": 0,
             "secret": 0
@@ -1984,7 +2015,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 1908
+          "weight": 1824
         }
       ]
     }
