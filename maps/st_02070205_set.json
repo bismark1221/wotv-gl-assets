@@ -3,7 +3,9 @@
     "angle_override": true,
     "angle": 45,
     "crystal_fade_enable": false,
-    "crystal_fade_max": 0
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
   },
   "party": [
     {
@@ -31,6 +33,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -75,6 +82,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -111,6 +123,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -155,6 +172,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -191,6 +213,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -235,6 +262,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -271,6 +303,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -315,6 +352,11 @@
         "expr": "",
         "list": []
       },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
       "wait_m": 0,
       "parent": "",
       "part": {
@@ -353,6 +395,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -428,7 +475,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3261},{\"type\":2,\"value\":133},{\"type\":3,\"value\":191},{\"type\":4,\"value\":375},{\"type\":9,\"value\":73},{\"type\":8,\"value\":288},{\"type\":10,\"value\":281},{\"type\":252,\"value\":10},{\"type\":254,\"value\":5},{\"type\":155,\"value\":10},{\"type\":153,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -455,6 +503,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -530,7 +583,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3261},{\"type\":2,\"value\":133},{\"type\":3,\"value\":191},{\"type\":4,\"value\":375},{\"type\":9,\"value\":73},{\"type\":8,\"value\":288},{\"type\":10,\"value\":281},{\"type\":252,\"value\":10},{\"type\":254,\"value\":5},{\"type\":155,\"value\":10},{\"type\":153,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -557,6 +611,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -627,7 +686,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3015},{\"type\":8,\"value\":281},{\"type\":10,\"value\":264},{\"type\":9,\"value\":71},{\"type\":158,\"value\":-10},{\"type\":250,\"value\":-15},{\"type\":4,\"value\":327},{\"type\":2,\"value\":139},{\"type\":3,\"value\":186},{\"type\":253,\"value\":20}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -654,6 +714,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -724,7 +789,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":3015},{\"type\":8,\"value\":281},{\"type\":10,\"value\":264},{\"type\":9,\"value\":71},{\"type\":158,\"value\":-10},{\"type\":250,\"value\":-15},{\"type\":4,\"value\":327},{\"type\":2,\"value\":139},{\"type\":3,\"value\":186},{\"type\":253,\"value\":20}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -751,6 +817,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -821,7 +892,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":8,\"value\":287},{\"type\":2,\"value\":205},{\"type\":10,\"value\":276},{\"type\":7,\"value\":10},{\"type\":9,\"value\":68},{\"type\":1,\"value\":2880},{\"type\":6,\"value\":320},{\"type\":3,\"value\":186},{\"type\":254,\"value\":15},{\"type\":250,\"value\":0},{\"type\":153,\"value\":10},{\"type\":151,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -848,6 +920,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -918,7 +995,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":8,\"value\":287},{\"type\":2,\"value\":205},{\"type\":10,\"value\":276},{\"type\":7,\"value\":10},{\"type\":9,\"value\":68},{\"type\":1,\"value\":2880},{\"type\":6,\"value\":320},{\"type\":3,\"value\":186},{\"type\":254,\"value\":15},{\"type\":250,\"value\":0},{\"type\":153,\"value\":10},{\"type\":151,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -945,6 +1023,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1015,7 +1098,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":8,\"value\":287},{\"type\":2,\"value\":205},{\"type\":10,\"value\":276},{\"type\":7,\"value\":10},{\"type\":9,\"value\":68},{\"type\":1,\"value\":2880},{\"type\":6,\"value\":320},{\"type\":3,\"value\":186},{\"type\":254,\"value\":15},{\"type\":250,\"value\":0},{\"type\":153,\"value\":10},{\"type\":151,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     },
     {
       "name": "",
@@ -1042,6 +1126,11 @@
         "hp_tbl": []
       },
       "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
         "timing": 0,
         "expr": "",
         "list": []
@@ -1107,7 +1196,8 @@
       "referenceGObjName": "",
       "status": "{\"list\":[{\"type\":1,\"value\":4566},{\"type\":2,\"value\":172},{\"type\":3,\"value\":193},{\"type\":6,\"value\":298},{\"type\":7,\"value\":20},{\"type\":9,\"value\":71},{\"type\":8,\"value\":290},{\"type\":10,\"value\":285},{\"type\":254,\"value\":25},{\"type\":4,\"value\":256},{\"type\":157,\"value\":-10},{\"type\":250,\"value\":10},{\"type\":252,\"value\":-10}]}",
       "groupId": "",
-      "infUnit": false
+      "infUnit": false,
+      "wave_id": 0
     }
   ],
   "arena": [],
@@ -1293,6 +1383,66 @@
         },
         {
           "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_PRNE",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 33
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_PRNE_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 33
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_PRNE_5",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 17
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_DRIO_01",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 33
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_DRIO_01_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 33
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_DRIO_01_5",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 17
+        },
+        {
+          "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
@@ -1469,37 +1619,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 1944
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_PRNE",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 33
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_PRNE_2",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 33
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_PRNE_5",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 17
+          "weight": 1861
         }
       ]
     }
