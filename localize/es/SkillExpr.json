@@ -16877,10 +16877,6 @@
       "value": "Aumenta el ATQ del usuario, inflige daño (mucho) a los objetivos al alcance, otorga prisa al usuario y aumenta su daño físico durante 3 turnos."
     },
     {
-      "key": "SK_MA_LW_STRN_02",
-      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: ATQ +10 %, consumo de PA -10 %, tasa de bloqueo de reacción +20"
-    },
-    {
       "key": "SK_UES_LW_STRN_02",
       "value": "Otorga autolázaro al usuario: revive a la unidad automáticamente una vez por combate (recuperación de VIT: mínima), y aumenta el ataque de corte y la tasa de precisión del usuario durante 3 turnos, aumenta el TC (poco) y le recupera PA tras revivir."
     },
@@ -20937,6 +20933,30 @@
       "value": "Reduce la res. hielo del objetivo durante 3 turnos, le inflige daño (mucho), reduce su movimiento en 1 durante 3 turnos y otorga recuperación automática de PA al usuario durante 3 turnos al asestar crítico."
     },
     {
+      "key": "SK_LB_LW_LUCA_C_1",
+      "value": "Raises own Missile Attack Res Piercing Rate for 3 turns, then deals 2-Hit Dmg (L) to target & chance of inflicting status ailments (Immobilize/Disable) for 3 turns & decreases chance of being targeted & bestows a damage reduction effect that reduces Phys Dmg taken the larger the attack range for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_VNLA_B",
+      "value": "Lowers target's Unit Attack Res for 3 turns & significantly lowers reaction ability activation rate, then deals 3-Hit Dmg (L) & chance of inflicting Poison for 3 turns & nullifies Guaranteed Hit against self for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_GRSR_01_B",
+      "value": "Significantly lowers reaction ability activation rate of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat & reduces Hate to zero & bestows AP Auto-Restore (M) on self for 3 turns & significantly reduces Activation Time for 3 turns & bestows Phys Dmg reduction for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_THLA_01_B",
+      "value": "Increases own Magic Dmg for 3 turns & removes all Buffs from target, then deals Dmg (L) based on caster's MAG stat & lowers Buff Enhancement Rate for 3 turns & nullifies Dmg Boost/Haste & raises own CT (S) & bestows a barrier that reduces Magic Dmg (3 times)."
+    },
+    {
+      "key": "SK_LB_LW_IRDL_01_B",
+      "value": "Deals Dmg (L) to targets within range & halves CT & increases in potency against more targets (standard damage for 3 targets or more) & raises own CT (S) & raises Evasion Rate for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_MRND_01_B",
+      "value": "Lowers target's SPR/Light Res for 3 turns, then deals Dmg (L) based on caster's MAG stat & Guaranteed Hit & bestows Phys Dmg reduction on self for 3 turns."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Mejora «Cruz del destino». Reduce el consumo de PA y aumenta la altura de zona. Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -21171,6 +21191,30 @@
     {
       "key": "SK_LB_LW_IREZ_B_CH",
       "value": "Mejora «Jaula de espinas». N.º de usos de la habilidad +1. Reduce la res. hielo del objetivo durante 3 turnos, le inflige daño (mucho), reduce su movimiento en 1 durante 3 turnos y otorga recuperación automática de PA al usuario durante 3 turnos al asestar crítico."
+    },
+    {
+      "key": "SK_LB_LW_LUCA_C_1_CH",
+      "value": "Enhances Sadistic Dance. Lowers AP Consumption. Raises own Missile Attack Res Piercing Rate for 3 turns, then deals 2-Hit Dmg (L) to target & chance of inflicting status ailments (Immobilize/Disable) for 3 turns & decreases chance of being targeted & bestows a damage reduction effect that reduces Phys Dmg taken the larger the attack range for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_VNLA_B_CH",
+      "value": "Enhances Dark Art: Hidden in Haze. Lowers AP Consumption. Lowers target's Unit Attack Res for 3 turns & significantly lowers reaction ability activation rate, then deals 3-Hit Dmg (L) & chance of inflicting Poison for 3 turns & nullifies Guaranteed Hit against self for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_GRSR_01_B_CH",
+      "value": "Enhances Dreams Come True. Significantly lowers reaction ability activation rate of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat & reduces Hate to zero & bestows AP Auto-Restore (M) on self for 3 turns & significantly reduces Activation Time for 3 turns & bestows Phys Dmg reduction for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_THLA_01_B_CH",
+      "value": "Enhances Bombardment of Love. Increases own Magic Dmg for 3 turns & removes all Buffs from target, then deals Dmg (L) based on caster's MAG stat & lowers Buff Enhancement Rate for 3 turns & nullifies Dmg Boost/Haste & raises own CT (S) & bestows a barrier that reduces Magic Dmg (3 times)."
+    },
+    {
+      "key": "SK_LB_LW_IRDL_01_B_CH",
+      "value": "Enhances Letter Bomb of Love. Lowers AP Consumption. Deals Dmg (L) to targets within range & halves CT & increases in potency against more targets (standard damage for 3 targets or more) & raises own CT (S) & raises Evasion Rate for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_MRND_01_B_CH",
+      "value": "Enhances Magical Infatuation. Lowers AP Consumption & enhances Range. Lowers target's SPR/Light Res for 3 turns, then deals Dmg (L) based on caster's MAG stat & Guaranteed Hit & bestows Phys Dmg reduction on self for 3 turns."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -24449,8 +24493,20 @@
       "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: VIT máx. +10 %, DEF +10"
     },
     {
+      "key": "SK_MA_LW_STRN_02",
+      "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: ATQ +10 %, consumo de PA -10 %, tasa de bloqueo de reacción +20"
+    },
+    {
+      "key": "SK_MA_LW_STRN_02_2",
+      "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own ATK +10%/AP Consumption<br>-10%/Reaction Block Rate +20/Accuracy Rate +10/Critical Evasion Rate +20/Slash Attack Res Piercing Rate +20"
+    },
+    {
       "key": "SK_MA_LW_REGN",
       "value": "Aliados de hielo: VIT máx. +10 %, ataque de hielo +15; usuario: res. ataque de corte y mágico +10, tasa de bloqueo de reacción +20"
+    },
+    {
+      "key": "SK_MA_LW_REGN_2",
+      "value": "Ice Unit Allies' Max HP +10%/Ice Attack +15, own Slash/Magic Attack Res +20/Reaction Block Rate +40/Phys Dmg +10%"
     },
     {
       "key": "SK_MA_FF6_KFKA",
@@ -24467,6 +24523,10 @@
     {
       "key": "SK_MA_LW_MRND_01",
       "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: tasa de penetración de res. ataque de corte +10, PA adquiridos +30 %"
+    },
+    {
+      "key": "SK_MA_LW_MRND_01_2",
+      "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Slash Attack Res Piercing Rate +20/Acquired AP +30%/Strike/Missile Res +10/Unit Attack Res +10"
     },
     {
       "key": "SK_MA_LW_HWLT_01",
@@ -27402,6 +27462,10 @@
     },
     {
       "key": "SK_LW_RNG_012_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_012_1_5",
       "value": ""
     },
     {
@@ -36174,6 +36238,66 @@
     },
     {
       "key": "SK_GL_VC_LW_KTON_02_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_ERKA_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ERKA_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ERKA_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_ERKA_PMAX_2",
       "value": ""
     },
     {
