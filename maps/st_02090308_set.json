@@ -1404,7 +1404,8 @@
       "mapEv": {
         "type": 3,
         "typeval": "unittag=group01;string=2;local=",
-        "isUnitNoAct": true
+        "isUnitNoAct": true,
+        "isAvoidAuto": false
       },
       "invokeMax": -1,
       "deadTags": [],
@@ -1427,7 +1428,8 @@
       "mapEv": {
         "type": 3,
         "typeval": "unittag=group02;string=2;local=",
-        "isUnitNoAct": true
+        "isUnitNoAct": true,
+        "isAvoidAuto": false
       },
       "invokeMax": -1,
       "deadTags": [],
@@ -1561,6 +1563,46 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_MORE_4",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 28
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BIGA_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 28
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BIGA_4",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 28
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_ORDR_01_3",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 28
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_ORDR_01_4",
             "num": 2,
             "subNum1": 0,
             "secret": 0
@@ -1715,27 +1757,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 4080
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_BIGA_3",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 28
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_BIGA_4",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 28
+          "weight": 4024
         }
       ]
     }
