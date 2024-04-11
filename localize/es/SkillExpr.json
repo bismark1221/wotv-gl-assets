@@ -9753,6 +9753,10 @@
       "value": "Consume VIT del usuario para reducir la DEF de los objetivos al alcance durante 3 turnos, y luego les inflige daño (medio) y reduce su potencia de curación durante 3 turnos."
     },
     {
+      "key": "SK_LW_EC_STRN_C_01C",
+      "value": "Lowers DEF of targets within range for 3 turns, then deals Dmg (M) & lowers Healing Power for 3 turns."
+    },
+    {
       "key": "SK_LW_EC_STRN_C_02",
       "value": "Mejora «Rugido destructor» a «Amenaza ruinosa»: aumenta el ATQ y la tasa de precisión del usuario y reduce el consumo de PA durante 3 turnos."
     },
@@ -21297,6 +21301,18 @@
       "value": "Removes all Debuffs from allies within range, then recovers HP (L) & raises ATK/MAG for 3 turns."
     },
     {
+      "key": "SK_LB_LW_STRN_01_B",
+      "value": "Raises own Phys Dmg for 3 turns, then deals Dmg (XL) to target & absorbs Dmg dealt & will survive fatal Dmg to self 1 time & negates HP consumption of Hazard Render for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_VLRC_B",
+      "value": "Raises own DEF Piercing Rate for 3 turns & lowers target's Slash Attack Res for 3 turns, then deals Dmg (XL) & chance of inflicting Disable for 3 turns & bestows absorption of portion of HP Dmg dealt for 3 turns to self."
+    },
+    {
+      "key": "SK_LB_LW_AMNR_B",
+      "value": "Bestows Guaranteed Hit on self for 3 turns & lowers SPR of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat & reduces own Attack Ability Activation Time for 3 turns."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Mejora «Cruz del destino». Reduce el consumo de PA y aumenta la altura de zona. Inflige daño (mucho) a los objetivos al alcance y aumenta el TC del usuario (medio), reduce el consumo de PA durante 3 turnos y recupera un porcentaje fijo de VIT del usuario (mucho) cuando esta cae por debajo del 50 % al recibir daño (una vez)."
     },
@@ -21579,6 +21595,18 @@
     {
       "key": "SK_LB_LW_RSNC_B_CH",
       "value": "Enhances Rain of Rallying. Ability Use +1. Removes all Debuffs from allies within range, then recovers HP (L) & raises ATK/MAG for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_STRN_01_B_CH",
+      "value": "Enhances Destructive Fang. Lowers AP Consumption & enhances Range. Raises own Phys Dmg for 3 turns, then deals Dmg (XL) to target & absorbs Dmg dealt & will survive fatal Dmg to self 1 time & negates HP consumption of Hazard Render for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_VLRC_B_CH",
+      "value": "Enhances Shattering Creation. Lowers AP Consumption. Raises own DEF Piercing Rate for 3 turns & lowers target's Slash Attack Res for 3 turns, then deals Dmg (XL) & chance of inflicting Disable for 3 turns & bestows absorption of portion of HP Dmg dealt for 3 turns to self."
+    },
+    {
+      "key": "SK_LB_LW_AMNR_B_CH",
+      "value": "Enhances Advent. Bestows Guaranteed Hit on self for 3 turns & lowers SPR of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat & reduces own Attack Ability Activation Time for 3 turns."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -24881,6 +24909,10 @@
       "value": "Aliados de rayo: VIT máx. +10 %, ataque de rayo +15; usuario: ataque de rayo +15, modificador de adquisición de PA +30 %"
     },
     {
+      "key": "SK_MA_LW_BIGA_2",
+      "value": "Lightning Unit Allies' Max HP +10%/Lightning Attack +15, own Lightning Attack +15, Acquired AP +30%/Dmg Reduction +10"
+    },
+    {
       "key": "SK_MA_ADSN_ADSN",
       "value": "Aliados de luz: VIT máx. +10 %, ataque de luz +15; usuario: VIT máx. +10 %, odio -5"
     },
@@ -27367,6 +27399,26 @@
     {
       "key": "SK_LW_DF_SHINE_5",
       "value": "Res. luz +10"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_1",
+      "value": "Critical Dmg Res +1"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_2",
+      "value": "Critical Dmg Res +2"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_3",
+      "value": "Critical Dmg Res +3"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_4_UR",
+      "value": "Critical Dmg Res +5"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_5_UR",
+      "value": "Critical Dmg Res +10"
     },
     {
       "key": "SK_LW_SWO_003_1",
@@ -29949,6 +30001,10 @@
       "value": ""
     },
     {
+      "key": "SK_FF13_ACCE_002_6",
+      "value": ""
+    },
+    {
       "key": "SK_LW_PLUS6_1_1",
       "value": "Habilidad específica de equipo +6"
     },
@@ -31178,6 +31234,86 @@
     },
     {
       "key": "SK_LW_BSW_024_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_5",
       "value": ""
     },
     {
@@ -36870,6 +37006,66 @@
     },
     {
       "key": "SK_VC_LW_JUME_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MONT_04_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MONT_04_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MONT_04_PMAX_2",
       "value": ""
     },
     {

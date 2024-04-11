@@ -9753,6 +9753,10 @@
       "value": "자신의 HP를 소비하여 3턴 동안 범위 내 대상의 방어력 감소+피해(중)+3턴 동안 치유력 감소"
     },
     {
+      "key": "SK_LW_EC_STRN_C_01C",
+      "value": "Lowers DEF of targets within range for 3 turns, then deals Dmg (M) & lowers Healing Power for 3 turns."
+    },
+    {
       "key": "SK_LW_EC_STRN_C_02",
       "value": " '파멸의 포효'를 '파멸의 공하'로 강화+3턴 동안 자신의 공격력/명중률 증가+소비 AP 감소"
     },
@@ -21297,6 +21301,18 @@
       "value": "Removes all Debuffs from allies within range, then recovers HP (L) & raises ATK/MAG for 3 turns."
     },
     {
+      "key": "SK_LB_LW_STRN_01_B",
+      "value": "Raises own Phys Dmg for 3 turns, then deals Dmg (XL) to target & absorbs Dmg dealt & will survive fatal Dmg to self 1 time & negates HP consumption of Hazard Render for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_VLRC_B",
+      "value": "Raises own DEF Piercing Rate for 3 turns & lowers target's Slash Attack Res for 3 turns, then deals Dmg (XL) & chance of inflicting Disable for 3 turns & bestows absorption of portion of HP Dmg dealt for 3 turns to self."
+    },
+    {
+      "key": "SK_LB_LW_AMNR_B",
+      "value": "Bestows Guaranteed Hit on self for 3 turns & lowers SPR of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat & reduces own Attack Ability Activation Time for 3 turns."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": " '운명의 십자가' 강화+소비 AP 감소+범위 고저 차이 강화+범위 내 대상에게 피해(대)+자신의 CT 증가(중)+3턴 동안 소비 AP 감소+피해를 받아 HP가 50% 이하가 될 경우 HP 일정 비율 회복(대)(1회)"
     },
@@ -21579,6 +21595,18 @@
     {
       "key": "SK_LB_LW_RSNC_B_CH",
       "value": "Enhances Rain of Rallying. Ability Use +1. Removes all Debuffs from allies within range, then recovers HP (L) & raises ATK/MAG for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_STRN_01_B_CH",
+      "value": "Enhances Destructive Fang. Lowers AP Consumption & enhances Range. Raises own Phys Dmg for 3 turns, then deals Dmg (XL) to target & absorbs Dmg dealt & will survive fatal Dmg to self 1 time & negates HP consumption of Hazard Render for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_VLRC_B_CH",
+      "value": "Enhances Shattering Creation. Lowers AP Consumption. Raises own DEF Piercing Rate for 3 turns & lowers target's Slash Attack Res for 3 turns, then deals Dmg (XL) & chance of inflicting Disable for 3 turns & bestows absorption of portion of HP Dmg dealt for 3 turns to self."
+    },
+    {
+      "key": "SK_LB_LW_AMNR_B_CH",
+      "value": "Enhances Advent. Bestows Guaranteed Hit on self for 3 turns & lowers SPR of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat & reduces own Attack Ability Activation Time for 3 turns."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -24881,6 +24909,10 @@
       "value": "번개속성 아군 유닛의 최대 HP+10%/번개속성 어빌리티 공격력+15, 자신의 번개속성 어빌리티 공격력+15/AP 획득 보정+30%"
     },
     {
+      "key": "SK_MA_LW_BIGA_2",
+      "value": "Lightning Unit Allies' Max HP +10%/Lightning Attack +15, own Lightning Attack +15, Acquired AP +30%/Dmg Reduction +10"
+    },
+    {
       "key": "SK_MA_ADSN_ADSN",
       "value": "빛속성 아군 유닛의 최대 HP+10%/빛속성 어빌리티 공격력+15, 자신의 최대 HP+10%/헤이트 감소-5"
     },
@@ -27367,6 +27399,26 @@
     {
       "key": "SK_LW_DF_SHINE_5",
       "value": "빛속성 저항력+10"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_1",
+      "value": "Critical Dmg Res +1"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_2",
+      "value": "Critical Dmg Res +2"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_3",
+      "value": "Critical Dmg Res +3"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_4_UR",
+      "value": "Critical Dmg Res +5"
+    },
+    {
+      "key": "SK_LW_DF_CRIDMG_5_UR",
+      "value": "Critical Dmg Res +10"
     },
     {
       "key": "SK_LW_SWO_003_1",
@@ -29949,6 +30001,10 @@
       "value": ""
     },
     {
+      "key": "SK_FF13_ACCE_002_6",
+      "value": ""
+    },
+    {
       "key": "SK_LW_PLUS6_1_1",
       "value": "장비+6용"
     },
@@ -31178,6 +31234,86 @@
     },
     {
       "key": "SK_LW_BSW_024_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_3_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF13_ACC_004_4_5",
       "value": ""
     },
     {
@@ -36870,6 +37006,66 @@
     },
     {
       "key": "SK_VC_LW_JUME_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MONT_04_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MONT_04_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MONT_04_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MONT_04_PMAX_2",
       "value": ""
     },
     {
