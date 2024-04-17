@@ -137,6 +137,18 @@
       "value": "<color=#E03030>${fromName}</color> ha usado ${actionIname} en <color=#00F0FF>${toName}</color>."
     },
     {
+      "key": "36",
+      "value": "Se ha expulsado a ${playerName} del gremio (prueba)."
+    },
+    {
+      "key": "37",
+      "value": "${playerName} ha abandonado el gremio (prueba)."
+    },
+    {
+      "key": "35",
+      "value": "${playerName} se ha unido al gremio (prueba)."
+    },
+    {
       "key": "38",
       "value": "${playerName} ha enviado una solicitud de reclutamiento."
     },
@@ -203,6 +215,22 @@
     {
       "key": "54",
       "value": "${playerName} ha cambiado la opción de juego delegado para el combate de gremio a ${onoff}."
+    },
+    {
+      "key": "55",
+      "value": "${scheduleName} en curso"
+    },
+    {
+      "key": "56",
+      "value": "${scheduleName} finalizado"
+    },
+    {
+      "key": "57",
+      "value": "<color=#00F0FF>${playerName}, ${slotIname}, </color>acción n.º #${actionCount}. Ha atacado al <color=#E03030>grupo de defensa #${enemyNo} de ${fortIname}</color>. Ha recibido <color=#F0C040>${score} ptos.</color>"
+    },
+    {
+      "key": "58",
+      "value": "<color=#00F0FF>${fromName}}</color> ha realizado la acción ${actionIname} en <color=#00F0FF>${toName}, ${toSlotIname}}</color>."
     }
   ]
 }

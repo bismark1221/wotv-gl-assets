@@ -137,6 +137,18 @@
       "value": "<color=#E03030>${fromName}</color> a utilisé ${actionIname} sur <color=#00F0FF>${toName}</color>."
     },
     {
+      "key": "36",
+      "value": "${playerName} a été banni de la guilde (Essai)."
+    },
+    {
+      "key": "37",
+      "value": "${playerName} a quitté la guilde (Essai)."
+    },
+    {
+      "key": "35",
+      "value": "${playerName} a rejoint la guilde (Essai)."
+    },
+    {
       "key": "38",
       "value": "Une offre de recrutement a été envoyée à ${playerName}."
     },
@@ -203,6 +215,22 @@
     {
       "key": "54",
       "value": "Paramètre de Délégation de groupe de ${playerName} : ${onoff}."
+    },
+    {
+      "key": "55",
+      "value": "${scheduleName} a commencé."
+    },
+    {
+      "key": "56",
+      "value": "${scheduleName} est terminé."
+    },
+    {
+      "key": "57",
+      "value": "<color=#00F0FF>${playerName}, ${slotIname}, </color>Action nº${actionCount}. Attaque le <color=#E03030>groupe de défense ${enemyNo} de ${fortIname}</color>. <color=#F0C040>${score} pts</color> obtenus."
+    },
+    {
+      "key": "58",
+      "value": "<color=#00F0FF>${fromName}}</color> a réalisé l'action ${actionIname} sur <color=#00F0FF>${toName}, ${toSlotIname}}</color>."
     }
   ]
 }

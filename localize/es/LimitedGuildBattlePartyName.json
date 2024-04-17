@@ -25,24 +25,52 @@
       "value": "Coste de 540 o menos"
     },
     {
-      "key": "PB_GL_LGB_C670",
-      "value": "Límite de coste de formación: 670 o menos"
+      "key": "PB_LGB_EL2_UC240",
+      "value": "Coste de unidades de 240 o menos y solo luz/hielo/tierra/agua"
+    },
+    {
+      "key": "PB_LGB_UC240",
+      "value": "Coste de unidades de 240 o menos"
+    },
+    {
+      "key": "PB_LGB_EL2_C570",
+      "value": "Coste de 570 o menos y solo luz/hielo/tierra/agua"
+    },
+    {
+      "key": "PB_LGB_SR",
+      "value": "Solo MR"
+    },
+    {
+      "key": "PB_LGB_Cost300",
+      "value": "Coste de 400 o menos"
+    },
+    {
+      "key": "PB_LGB_Birth01",
+      "value": "Solo Leonis"
+    },
+    {
+      "key": "PB_LGB_Level01",
+      "value": "Nv. 10 a 20"
+    },
+    {
+      "key": "PB_LGB_Element02",
+      "value": "Solo oscuridad/hielo/tierra/agua"
     },
     {
       "key": "PB_LGB_C500",
       "value": "Coste de 500 o menos"
     },
     {
-      "key": "PB_LGB_C560",
-      "value": "Límite de coste: 560 o menos"
-    },
-    {
       "key": "PB_LGB_UC220",
       "value": "Coste de unidades de 220 o menos"
     },
     {
-      "key": "PB_LGB_UC230",
-      "value": "Coste de unidades de 230 o menos"
+      "key": "PB_LGB_C500F",
+      "value": "Solo mujeres y coste de 500 o menos"
+    },
+    {
+      "key": "PB_LGB_C500M",
+      "value": "Solo hombres y coste de 500 o menos"
     },
     {
       "key": "PB_LGB_EL1_UC220",
@@ -57,20 +85,12 @@
       "value": "Coste de unidades de 270 o menos"
     },
     {
-      "key": "PB_LGB_UC250",
+      "key": "PB_GL_LGB_C670",
+      "value": "Límite de coste de formación: 670 o menos"
+    },
+    {
+      "key": "PB_GL_LGB_UC250",
       "value": "Coste de unidades de 250 o menos"
-    },
-    {
-      "key": "PB_LGB_EL2_UC240",
-      "value": "Coste de unidades de 240 o menos y solo luz/hielo/tierra/agua"
-    },
-    {
-      "key": "PB_LGB_UC240",
-      "value": "Coste de unidades de 240 o menos"
-    },
-    {
-      "key": "PB_LGB_EL2_C570",
-      "value": "Coste de 570 o menos y solo luz/hielo/tierra/agua"
     },
     {
       "key": "PB_LGB_C550",
@@ -81,28 +101,8 @@
       "value": "Coste de unidades de 210 o menos"
     },
     {
-      "key": "PB_LGB_Element01",
-      "value": "Solo luz, fuego, viento y rayo"
-    },
-    {
-      "key": "PB_LGB_Element02",
-      "value": "Solo oscuridad/hielo/tierra/agua"
-    },
-    {
       "key": "PB_GL_LGB_C570",
       "value": "Coste de 570 o menos"
-    },
-    {
-      "key": "PB_LGB_C540",
-      "value": "Coste de 540 o menos"
-    },
-    {
-      "key": "PB_LGB_UC270",
-      "value": "Coste de unidades de 270 o menos"
-    },
-    {
-      "key": "PB_LGB_UC290",
-      "value": "Coste de unidades de 290 o menos"
     },
     {
       "key": "PB_LGB_EL1_UC260",
@@ -113,8 +113,168 @@
       "value": "Coste de unidades de 260 o menos y solo luz/fuego/viento/rayo"
     },
     {
+      "key": "PB_LGB_DEBUG_020",
+      "value": "Solo unidades femeninas"
+    },
+    {
+      "key": "PB_LGB_DEBUG_026",
+      "value": "Sin límite"
+    },
+    {
+      "key": "PB_LGB_DEBUG_035",
+      "value": "Coste de 540 o menos"
+    },
+    {
+      "key": "PB_LGB_DEBUG_036",
+      "value": "Solo luz, fuego, viento y rayo"
+    },
+    {
+      "key": "PB_LGB_DEBUG_038",
+      "value": "Solo unidades de Hourne"
+    },
+    {
+      "key": "PB_LGB_DEBUG_060",
+      "value": "Coste de unidades; 230; espers: 110; CV: 160; CV sec.: 100"
+    },
+    {
+      "key": "PB_LGB_DEBUG_022",
+      "value": "Solo género masculino e indeterminado"
+    },
+    {
+      "key": "PB_LGB_DEBUG_023",
+      "value": "Solo género femenino e indeterminado"
+    },
+    {
+      "key": "PB_LGB_DEBUG_024",
+      "value": "Solo género masculino y femenino"
+    },
+    {
+      "key": "PB_LGB_DEBUG_025",
+      "value": "Género masculino, femenino e indeterminado"
+    },
+    {
+      "key": "PB_LGB_DEBUG_040",
+      "value": "Coste:500, esper: 100, CV: 150; CV sec.: 100"
+    },
+    {
+      "key": "PB_LGB_DEBUG_041",
+      "value": "Coste:500, esper: 100"
+    },
+    {
+      "key": "PB_LGB_DEBUG_042",
+      "value": "Elemento: coste de reserva total"
+    },
+    {
+      "key": "PB_LGB_DEBUG_054",
+      "value": "Unidades: 250, esper: 110"
+    },
+    {
+      "key": "PB_LGB_DEBUG_055",
+      "value": "Unidades: 250, esper: 150"
+    },
+    {
       "key": "PB_LGB_VC190_140",
       "value": "Collective Cost of Main Vision Cards: 190 or Less, Collective Cost of Sub Vision Cards: 140 or Less"
+    },
+    {
+      "key": "PB_LGB_Element01",
+      "value": "Solo luz, fuego, viento y rayo"
+    },
+    {
+      "key": "PB_LGB_UC230",
+      "value": "Coste de unidades de 230 o menos"
+    },
+    {
+      "key": "PB_LGB_EL1_C500",
+      "value": "Coste de 500 o menos y solo oscuridad/fuego/viento/rayo"
+    },
+    {
+      "key": "PB_LGB_EL2_C500",
+      "value": "Coste de 500 o menos y solo luz/hielo/tierra/agua"
+    },
+    {
+      "key": "PB_LGB_UC230F",
+      "value": "Solo mujeres y coste de unidades de 230 o menos"
+    },
+    {
+      "key": "PB_LGB_C560",
+      "value": "Límite de coste: 560 o menos"
+    },
+    {
+      "key": "PB_LGB_UC240M",
+      "value": "Solo hombres y coste de unidades de 240 o menos"
+    },
+    {
+      "key": "PB_LGB_UC240F",
+      "value": "Solo mujeres y coste de unidades de 240 o menos"
+    },
+    {
+      "key": "PB_LGB_C540F",
+      "value": "Solo mujeres y coste de 540 o menos"
+    },
+    {
+      "key": "PB_LGB_C540M",
+      "value": "Solo hombres y coste de 540 o menos"
+    },
+    {
+      "key": "PB_LGB_UC260",
+      "value": "Coste de unidades de 260 o menos"
+    },
+    {
+      "key": "PB_LGB_UC250",
+      "value": "Coste de unidades de 250 o menos"
+    },
+    {
+      "key": "PB_LGB_C540",
+      "value": "Coste de 540 o menos"
+    },
+    {
+      "key": "PB_LGB_ELE_C560",
+      "value": "Coste de 560 o menos y solo luz/hielo/tierra/agua"
+    },
+    {
+      "key": "PB_LGB_EL1_UC240",
+      "value": "Coste de unidades de 240 o menos y solo oscuridad/fuego/viento/rayo"
+    },
+    {
+      "key": "PB_LGB_C560F",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_C550F",
+      "value": "Solo mujeres y coste de 550 o menos"
+    },
+    {
+      "key": "PB_LGB_C560MU",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_C520",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_C530",
+      "value": "Coste de 530 o menos"
+    },
+    {
+      "key": "PB_LGB_UC270",
+      "value": "Coste de unidades de 270 o menos"
+    },
+    {
+      "key": "PB_LGB_Element03",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_Element04",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_UC290",
+      "value": "Coste de unidades de 290 o menos"
+    },
+    {
+      "key": "PB_LGB_UC265",
+      "value": "Coste de unidades de 265 o menos"
     }
   ]
 }

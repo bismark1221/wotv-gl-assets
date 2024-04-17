@@ -25,24 +25,52 @@
       "value": "유닛 코스트 합계 540 이내로 편성하세요."
     },
     {
-      "key": "PB_GL_LGB_C670",
-      "value": "편성 코스트 제한 670 이하"
+      "key": "PB_LGB_EL2_UC240",
+      "value": "유닛 코스트 합계 240 이내, 빛/얼음/땅/물속성 유닛만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_UC240",
+      "value": "유닛 코스트 합계 240 이내로<br>편성하세요."
+    },
+    {
+      "key": "PB_LGB_EL2_C570",
+      "value": "코스트 합계 570 이내, 빛/얼음/땅/물속성만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_SR",
+      "value": "레어도 MR 유닛만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_Cost300",
+      "value": "유닛 코스트 합계 400 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_Birth01",
+      "value": "레오니스 한정"
+    },
+    {
+      "key": "PB_LGB_Level01",
+      "value": "레벨 10~20"
+    },
+    {
+      "key": "PB_LGB_Element02",
+      "value": "어둠/얼음/땅/물속성 유닛만 편성하세요."
     },
     {
       "key": "PB_LGB_C500",
       "value": "코스트 합계 500 이내로 편성하세요."
     },
     {
-      "key": "PB_LGB_C560",
-      "value": "코스트 합계 560 이내로 편성하세요."
-    },
-    {
       "key": "PB_LGB_UC220",
       "value": "유닛 코스트 합계 220 이내로 편성하세요."
     },
     {
-      "key": "PB_LGB_UC230",
-      "value": "유닛 코스트 합계 230 이내로 편성하세요."
+      "key": "PB_LGB_C500F",
+      "value": "여성 유닛 한정, 코스트 합계 500 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_C500M",
+      "value": "남성 유닛 한정, 코스트 합계 500 이내로 편성하세요."
     },
     {
       "key": "PB_LGB_EL1_UC220",
@@ -57,20 +85,12 @@
       "value": "유닛 코스트 합계 270 이내로 편성하세요."
     },
     {
-      "key": "PB_LGB_UC250",
+      "key": "PB_GL_LGB_C670",
+      "value": "편성 코스트 제한 670 이하"
+    },
+    {
+      "key": "PB_GL_LGB_UC250",
       "value": "유닛 코스트 합계 250 이내로 편성하세요."
-    },
-    {
-      "key": "PB_LGB_EL2_UC240",
-      "value": "유닛 코스트 합계 240 이내, 빛/얼음/땅/물속성 유닛만 편성하세요."
-    },
-    {
-      "key": "PB_LGB_UC240",
-      "value": "유닛 코스트 합계 240 이내로<br>편성하세요."
-    },
-    {
-      "key": "PB_LGB_EL2_C570",
-      "value": "코스트 합계 570 이내, 빛/얼음/땅/물속성만 편성하세요."
     },
     {
       "key": "PB_LGB_C550",
@@ -81,28 +101,8 @@
       "value": "유닛 코스트 합계 210 이내로<br>편성하세요."
     },
     {
-      "key": "PB_LGB_Element01",
-      "value": "빛/불/바람/번개속성 유닛만 편성하세요."
-    },
-    {
-      "key": "PB_LGB_Element02",
-      "value": "어둠/얼음/땅/물속성 유닛만 편성하세요."
-    },
-    {
       "key": "PB_GL_LGB_C570",
       "value": "코스트 합계 570 이내로 편성하세요."
-    },
-    {
-      "key": "PB_LGB_C540",
-      "value": "코스트 합계 540 이내로 편성하세요."
-    },
-    {
-      "key": "PB_LGB_UC270",
-      "value": "유닛 코스트 합계 270 이내로 편성하세요."
-    },
-    {
-      "key": "PB_LGB_UC290",
-      "value": "유닛 코스트 합계 290 이내로<br>편성하세요."
     },
     {
       "key": "PB_LGB_EL1_UC260",
@@ -113,8 +113,168 @@
       "value": "유닛 코스트 합계 260 이내, 빛/불/바람/번개속성 유닛만 편성하세요."
     },
     {
+      "key": "PB_LGB_DEBUG_020",
+      "value": "여성 유닛만 편성 가능"
+    },
+    {
+      "key": "PB_LGB_DEBUG_026",
+      "value": "제한 없음"
+    },
+    {
+      "key": "PB_LGB_DEBUG_035",
+      "value": "코스트 합계 540 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_DEBUG_036",
+      "value": "빛/불/바람/번개속성 유닛만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_DEBUG_038",
+      "value": "호른 출신 유닛만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_DEBUG_060",
+      "value": "유닛 230, 소환수 110, 비전 카드 160, 서브 비전 카드 100 이내로 편성"
+    },
+    {
+      "key": "PB_LGB_DEBUG_022",
+      "value": "남성/불명 유닛만 편성 가능"
+    },
+    {
+      "key": "PB_LGB_DEBUG_023",
+      "value": "여성/불명 유닛만 편성 가능"
+    },
+    {
+      "key": "PB_LGB_DEBUG_024",
+      "value": "남성/여성 유닛만 편성 가능"
+    },
+    {
+      "key": "PB_LGB_DEBUG_025",
+      "value": "남성/여성/불명"
+    },
+    {
+      "key": "PB_LGB_DEBUG_040",
+      "value": "합계 코스트 500, 소환수 100, 비전 카드 150, 서브 비전 카드 100 이내로 편성"
+    },
+    {
+      "key": "PB_LGB_DEBUG_041",
+      "value": "합계 코스트 500, 소환수 100 이내로 편성"
+    },
+    {
+      "key": "PB_LGB_DEBUG_042",
+      "value": "합계 코스트 530, 비전 카드 150 이내로 편성"
+    },
+    {
+      "key": "PB_LGB_DEBUG_054",
+      "value": "유닛 250, 소환수 110 이내로 편성"
+    },
+    {
+      "key": "PB_LGB_DEBUG_055",
+      "value": "유닛 250, 비전 카드 150 이내로 편성"
+    },
+    {
       "key": "PB_LGB_VC190_140",
       "value": "Form a party with a total Cost of 190 or less for main vision cards, 140 or less for sub vision cards"
+    },
+    {
+      "key": "PB_LGB_Element01",
+      "value": "빛/불/바람/번개속성 유닛만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_UC230",
+      "value": "유닛 코스트 합계 230 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_EL1_C500",
+      "value": "코스트 합계 500 이내, 어둠/불/바람/번개속성만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_EL2_C500",
+      "value": "코스트 합계 500 이내, 빛/얼음/땅/물속성만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_UC230F",
+      "value": "여성 유닛 한정, 유닛 코스트 합계 230 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_C560",
+      "value": "코스트 합계 560 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_UC240M",
+      "value": "남성 유닛 한정, 유닛 코스트 합계 240 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_UC240F",
+      "value": "여성 유닛 한정, 유닛 코스트 합계 240 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_C540F",
+      "value": "여성 유닛 한정, 코스트 합계 540 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_C540M",
+      "value": "남성 유닛 한정, 코스트 합계 540 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_UC260",
+      "value": "유닛 코스트 합계 260 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_UC250",
+      "value": "유닛 코스트 합계 250 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_C540",
+      "value": "코스트 합계 540 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_ELE_C560",
+      "value": "코스트 합계 560 이내, 빛/얼음/땅/물속성만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_EL1_UC240",
+      "value": "유닛 코스트 합계 240 이내, 어둠/불/바람/번개속성 유닛만 편성하세요."
+    },
+    {
+      "key": "PB_LGB_C560F",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_C550F",
+      "value": "Form a party of only female units with a total Cost of 550 or less"
+    },
+    {
+      "key": "PB_LGB_C560MU",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_C520",
+      "value": "Form a party with a total Cost of 520 or less"
+    },
+    {
+      "key": "PB_LGB_C530",
+      "value": "코스트 합계 530 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_UC270",
+      "value": "유닛 코스트 합계 270 이내로 편성하세요."
+    },
+    {
+      "key": "PB_LGB_Element03",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_Element04",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_UC290",
+      "value": "유닛 코스트 합계 290 이내로<br>편성하세요."
+    },
+    {
+      "key": "PB_LGB_UC265",
+      "value": "유닛 코스트 합계 265 이내로<br>편성하세요."
     }
   ]
 }

@@ -137,6 +137,18 @@
       "value": "<color=#E03030>${fromName}</color>이(가) <color=#00F0FF>${toName}</color>에게 ${actionIname}을(를) 했습니다."
     },
     {
+      "key": "36",
+      "value": "${playerName} 님이 길드에서 추방되었습니다(체험)."
+    },
+    {
+      "key": "37",
+      "value": "${playerName} 님이 길드를 탈퇴했습니다(체험)."
+    },
+    {
+      "key": "35",
+      "value": "${playerName} 님이 길드에 가입했습니다(체험)."
+    },
+    {
       "key": "38",
       "value": "${playerName} 님을 스카우트했습니다."
     },
@@ -203,6 +215,22 @@
     {
       "key": "54",
       "value": "${playerName} 님이 길드 전투 대리 조작을 ${onoff}(으)로 설정했습니다."
+    },
+    {
+      "key": "55",
+      "value": "${scheduleName} 시작"
+    },
+    {
+      "key": "56",
+      "value": "${scheduleName} 종료"
+    },
+    {
+      "key": "57",
+      "value": "<color=#00F0FF>${playerName}, ${slotIname}, </color>${actionCount}회째 행동. <color=#E03030>${fortIname} 방어 파티 ${enemyNo}</color>을(를) 공격. <color=#F0C040>${score}pt</color> 획득."
+    },
+    {
+      "key": "58",
+      "value": "<color=#00F0FF>${fromName}}</color>(이)가 <color=#00F0FF>${toName}의 ${toSlotIname}}</color>에게 ${actionIname}을(를) 했습니다."
     }
   ]
 }

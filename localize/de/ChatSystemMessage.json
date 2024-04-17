@@ -137,6 +137,18 @@
       "value": "<color=#E03030>${fromName}</color> hat ${actionIname} auf <color=#00F0FF>${toName}</color> angewandt."
     },
     {
+      "key": "36",
+      "value": "${playerName} ist aus der Gilde verbannt worden (Schnupperstunde)."
+    },
+    {
+      "key": "37",
+      "value": "${playerName} ist aus der Gilde ausgetreten (Schnupperstunde)."
+    },
+    {
+      "key": "35",
+      "value": "${playerName} ist der Gilde beigetreten (Schnupperstunde)."
+    },
+    {
       "key": "38",
       "value": "Es wurde eine Anwerbungsnachricht an ${playerName} geschickt."
     },
@@ -203,6 +215,22 @@
     {
       "key": "54",
       "value": "${playerName} hat das Gildenkampf-Proxy-Spiel auf ${onoff} gestellt."
+    },
+    {
+      "key": "55",
+      "value": "${scheduleName} beginnt"
+    },
+    {
+      "key": "56",
+      "value": "${scheduleName} beendet"
+    },
+    {
+      "key": "57",
+      "value": "<color=#00F0FF>${playerName}, ${slotIname}, </color>Aktion #${actionCount}. Angriff auf <color=#E03030>${fortIname} Defensiv-Gruppe #${enemyNo}</color>. <color=#F0C040>${score} Punkte</color> erhalten."
+    },
+    {
+      "key": "58",
+      "value": "<color=#00F0FF>${fromName}}</color> hat ${actionIname} bei <color=#00F0FF>${toName}, ${toSlotIname}}</color> ausgeführt."
     }
   ]
 }

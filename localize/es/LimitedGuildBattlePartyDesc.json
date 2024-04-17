@@ -25,24 +25,52 @@
       "value": "Forma un grupo con un coste total de 540 o menos"
     },
     {
-      "key": "PB_GL_LGB_C670",
-      "value": "Límite de coste de formación: 670 o menos"
+      "key": "PB_LGB_EL2_UC240",
+      "value": "Forma un grupo con un coste de unidades total de 240 o menos y solo con unidades de luz, hielo, tierra y agua"
+    },
+    {
+      "key": "PB_LGB_UC240",
+      "value": "Forma un grupo con un coste de unidades total de 240 o menos"
+    },
+    {
+      "key": "PB_LGB_EL2_C570",
+      "value": "Forma un grupo con un coste total de 570 o menos y solo con unidades de luz, hielo, tierra y agua"
+    },
+    {
+      "key": "PB_LGB_SR",
+      "value": "Forma un grupo solo con unidades de rareza MR"
+    },
+    {
+      "key": "PB_LGB_Cost300",
+      "value": "Forma un grupo con un coste total de 400 o menos"
+    },
+    {
+      "key": "PB_LGB_Birth01",
+      "value": "Solo Leonis"
+    },
+    {
+      "key": "PB_LGB_Level01",
+      "value": "Nv. 10 a 20"
+    },
+    {
+      "key": "PB_LGB_Element02",
+      "value": "Forma un grupo solo con unidades de oscuridad, hielo, tierra y agua"
     },
     {
       "key": "PB_LGB_C500",
       "value": "Forma un grupo con un coste total de 500 o menos"
     },
     {
-      "key": "PB_LGB_C560",
-      "value": "Forma un grupo con un coste total de 560 o menos"
-    },
-    {
       "key": "PB_LGB_UC220",
       "value": "Forma un grupo con un coste de unidades total de 220 o menos"
     },
     {
-      "key": "PB_LGB_UC230",
-      "value": "Forma un grupo con un coste de unidades total de 230 o menos"
+      "key": "PB_LGB_C500F",
+      "value": "Forma un grupo solo con unidades femeninas y un coste total de 500 o menos"
+    },
+    {
+      "key": "PB_LGB_C500M",
+      "value": "Forma un grupo solo con unidades masculinas y un coste total de 500 o menos"
     },
     {
       "key": "PB_LGB_EL1_UC220",
@@ -57,20 +85,12 @@
       "value": "Forma un grupo con un coste de unidades total de 270 o menos"
     },
     {
-      "key": "PB_LGB_UC250",
+      "key": "PB_GL_LGB_C670",
+      "value": "Límite de coste de formación: 670 o menos"
+    },
+    {
+      "key": "PB_GL_LGB_UC250",
       "value": "Forma un grupo con un coste de unidades total de 250 o menos"
-    },
-    {
-      "key": "PB_LGB_EL2_UC240",
-      "value": "Forma un grupo con un coste de unidades total de 240 o menos y solo con unidades de luz, hielo, tierra y agua"
-    },
-    {
-      "key": "PB_LGB_UC240",
-      "value": "Forma un grupo con un coste de unidades total de 240 o menos"
-    },
-    {
-      "key": "PB_LGB_EL2_C570",
-      "value": "Forma un grupo con un coste total de 570 o menos y solo con unidades de luz, hielo, tierra y agua"
     },
     {
       "key": "PB_LGB_C550",
@@ -81,28 +101,8 @@
       "value": "Forma un grupo con un coste de unidades total de 210 o menos"
     },
     {
-      "key": "PB_LGB_Element01",
-      "value": "Forma un grupo solo con unidades de luz, fuego, viento y rayo"
-    },
-    {
-      "key": "PB_LGB_Element02",
-      "value": "Forma un grupo solo con unidades de oscuridad, hielo, tierra y agua"
-    },
-    {
       "key": "PB_GL_LGB_C570",
       "value": "Forma un grupo con un coste total de 570 o menos"
-    },
-    {
-      "key": "PB_LGB_C540",
-      "value": "Forma un grupo con un coste total de 540 o menos"
-    },
-    {
-      "key": "PB_LGB_UC270",
-      "value": "Forma un grupo con un coste de unidades total de 270 o menos"
-    },
-    {
-      "key": "PB_LGB_UC290",
-      "value": "Forma un grupo con un coste de unidades total de 290 o menos"
     },
     {
       "key": "PB_LGB_EL1_UC260",
@@ -113,8 +113,168 @@
       "value": "Forma un grupo con un coste de unidades total de 260 o menos y solo con unidades de luz, fuego, viento y rayo"
     },
     {
+      "key": "PB_LGB_DEBUG_020",
+      "value": "La formación solo puede incluir unidades femeninas"
+    },
+    {
+      "key": "PB_LGB_DEBUG_026",
+      "value": "Sin límite"
+    },
+    {
+      "key": "PB_LGB_DEBUG_035",
+      "value": "Forma un grupo con un coste total de 540 o menos"
+    },
+    {
+      "key": "PB_LGB_DEBUG_036",
+      "value": "Forma un grupo solo con unidades de luz, fuego, viento y rayo"
+    },
+    {
+      "key": "PB_LGB_DEBUG_038",
+      "value": "Forma un grupo solo con unidades de Hourne"
+    },
+    {
+      "key": "PB_LGB_DEBUG_060",
+      "value": "Forma un grupo con los siguientes límites de coste. Unidades: 230; espers: 110; cartas de visión: 160; cartas de visión secundarias: 100"
+    },
+    {
+      "key": "PB_LGB_DEBUG_022",
+      "value": "La formación solo puede incluir unidades de género masculino o indeterminado"
+    },
+    {
+      "key": "PB_LGB_DEBUG_023",
+      "value": "La formación solo puede incluir unidades de género femenino o indeterminado"
+    },
+    {
+      "key": "PB_LGB_DEBUG_024",
+      "value": "La formación solo puede incluir unidades de género masculino o femenino"
+    },
+    {
+      "key": "PB_LGB_DEBUG_025",
+      "value": "Género masculino, femenino e indeterminado"
+    },
+    {
+      "key": "PB_LGB_DEBUG_040",
+      "value": "Forma un grupo con los siguientes límites de coste. Coste total: 500; espers: 100; cartas de visión: 150; cartas de visión secundarias: 100"
+    },
+    {
+      "key": "PB_LGB_DEBUG_041",
+      "value": "Forma un grupo con los siguientes límites de coste. Coste total: 500; espers: 100"
+    },
+    {
+      "key": "PB_LGB_DEBUG_042",
+      "value": "Forma un grupo con los siguientes límites de coste. Coste total: 530; espers: 150"
+    },
+    {
+      "key": "PB_LGB_DEBUG_054",
+      "value": "Límite de coste de unidades: 250; espers: 110"
+    },
+    {
+      "key": "PB_LGB_DEBUG_055",
+      "value": "Límite de coste de unidades: 250; cartas de visión: 150"
+    },
+    {
       "key": "PB_LGB_VC190_140",
       "value": "Form a party with a total Cost of 190 or less for main vision cards, 140 or less for sub vision cards"
+    },
+    {
+      "key": "PB_LGB_Element01",
+      "value": "Forma un grupo solo con unidades de luz, fuego, viento y rayo"
+    },
+    {
+      "key": "PB_LGB_UC230",
+      "value": "Forma un grupo con un coste de unidades total de 230 o menos"
+    },
+    {
+      "key": "PB_LGB_EL1_C500",
+      "value": "Forma un grupo con un coste total de 500 o menos y solo con unidades de oscuridad, fuego, viento y rayo"
+    },
+    {
+      "key": "PB_LGB_EL2_C500",
+      "value": "Forma un grupo con un coste total de 500 o menos y solo con unidades de luz, hielo, tierra y agua"
+    },
+    {
+      "key": "PB_LGB_UC230F",
+      "value": "Forma un grupo solo con unidades femeninas y un coste total de 230 o menos"
+    },
+    {
+      "key": "PB_LGB_C560",
+      "value": "Forma un grupo con un coste total de 560 o menos"
+    },
+    {
+      "key": "PB_LGB_UC240M",
+      "value": "Forma un grupo solo con unidades masculinas y un coste total de 240 o menos"
+    },
+    {
+      "key": "PB_LGB_UC240F",
+      "value": "Forma un grupo solo con unidades femeninas y un coste total de 240 o menos"
+    },
+    {
+      "key": "PB_LGB_C540F",
+      "value": "Forma un grupo solo con unidades femeninas y un coste total de 540 o menos"
+    },
+    {
+      "key": "PB_LGB_C540M",
+      "value": "Forma un grupo solo con unidades masculinas y un coste total de 540 o menos"
+    },
+    {
+      "key": "PB_LGB_UC260",
+      "value": "Forma un grupo con un coste de unidades total de 260 o menos"
+    },
+    {
+      "key": "PB_LGB_UC250",
+      "value": "Forma un grupo con un coste de unidades total de 250 o menos"
+    },
+    {
+      "key": "PB_LGB_C540",
+      "value": "Forma un grupo con un coste total de 540 o menos"
+    },
+    {
+      "key": "PB_LGB_ELE_C560",
+      "value": "Forma un grupo con un coste total de 560 o menos y solo con unidades de luz, hielo, tierra y agua"
+    },
+    {
+      "key": "PB_LGB_EL1_UC240",
+      "value": "Forma un grupo con un coste de unidades total de 240 o menos y solo con unidades de oscuridad, fuego, viento y rayo"
+    },
+    {
+      "key": "PB_LGB_C560F",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_C550F",
+      "value": "Forma un grupo solo con unidades femeninas y un coste total de 550 o menos"
+    },
+    {
+      "key": "PB_LGB_C560MU",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_C520",
+      "value": "Forma un grupo con un coste total de 520 o menos"
+    },
+    {
+      "key": "PB_LGB_C530",
+      "value": "Forma un grupo con un coste total de 530 o menos"
+    },
+    {
+      "key": "PB_LGB_UC270",
+      "value": "Forma un grupo con un coste de unidades total de 270 o menos"
+    },
+    {
+      "key": "PB_LGB_Element03",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_Element04",
+      "value": ""
+    },
+    {
+      "key": "PB_LGB_UC290",
+      "value": "Forma un grupo con un coste de unidades total de 290 o menos"
+    },
+    {
+      "key": "PB_LGB_UC265",
+      "value": "Forma un grupo con un coste de unidades total de 265 o menos"
     }
   ]
 }
