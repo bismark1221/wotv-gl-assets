@@ -1363,7 +1363,8 @@
       "mapEv": {
         "type": 1,
         "typeval": "string={\"Datas\":[{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"cmn_sip_003_A_2_break01\\\",\\\"m_IsDelete\\\":true}\"},{\"Type\":5,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_Range\\\":[{\\\"x\\\":3,\\\"y\\\":9},{\\\"x\\\":3,\\\"y\\\":8},{\\\"x\\\":3,\\\"y\\\":7},{\\\"x\\\":4,\\\"y\\\":7},{\\\"x\\\":4,\\\"y\\\":8},{\\\"x\\\":4,\\\"y\\\":9},{\\\"x\\\":5,\\\"y\\\":9},{\\\"x\\\":5,\\\"y\\\":8},{\\\"x\\\":5,\\\"y\\\":7}],\\\"m_Immediate\\\":false}\"}],\"ReactionSide\":0};local=",
-        "isUnitNoAct": true
+        "isUnitNoAct": true,
+        "isAvoidAuto": false
       },
       "invokeMax": 1,
       "deadTags": [],
@@ -1386,7 +1387,8 @@
       "mapEv": {
         "type": 1,
         "typeval": "string={\"Datas\":[{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"cmn_sip_003_A_2_break02\\\",\\\"m_IsDelete\\\":true}\"},{\"Type\":5,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_Range\\\":[{\\\"x\\\":2,\\\"y\\\":0},{\\\"x\\\":2,\\\"y\\\":1},{\\\"x\\\":3,\\\"y\\\":0},{\\\"x\\\":3,\\\"y\\\":1},{\\\"x\\\":4,\\\"y\\\":0},{\\\"x\\\":4,\\\"y\\\":1},{\\\"x\\\":2,\\\"y\\\":2},{\\\"x\\\":3,\\\"y\\\":2},{\\\"x\\\":4,\\\"y\\\":2}],\\\"m_Immediate\\\":false}\"}],\"ReactionSide\":0};local=",
-        "isUnitNoAct": true
+        "isUnitNoAct": true,
+        "isAvoidAuto": false
       },
       "invokeMax": 1,
       "deadTags": [],
@@ -1540,6 +1542,66 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_JB_MM_LW_DEAN_5",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 15
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_STRN_01",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 30
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_STRN_01_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 30
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_STRN_01_5",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 15
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_GLMS_01",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 30
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_GLMS_01_2",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 30
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_GLMS_01_5",
             "num": 2,
             "subNum1": 0,
             "secret": 0
@@ -1734,37 +1796,7 @@
             "subNum1": 0,
             "secret": 0
           },
-          "weight": 2449
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_STRN_01",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 30
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_STRN_01_2",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 30
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_STRN_01_5",
-            "num": 2,
-            "subNum1": 0,
-            "secret": 0
-          },
-          "weight": 15
+          "weight": 2374
         }
       ]
     }

@@ -1,0 +1,1986 @@
+{
+  "info": {
+    "angle_override": true,
+    "angle": 45,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0,
+    "start_wave": 0,
+    "max_wave": 0
+  },
+  "party": [
+    {
+      "name": "id:1",
+      "x": 0,
+      "y": 4,
+      "dir": 0,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    }
+  ],
+  "enemy": [
+    {
+      "name": "",
+      "x": 8,
+      "y": 7,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 47,
+      "faith": 47,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_DEBUFF_ALL",
+        "wait_e": 0,
+        "search": 2,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 6,
+      "iname": "UN_LW_E_SO_00_TIM",
+      "side": 1,
+      "dead": 2,
+      "lv": 99,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 1,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_LW_TIM_S_3_INIT",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_CASTTIME_1_999_D",
+          "rank": 400,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":1,\"value\":3500},{\"type\":5,\"value\":0},{\"type\":7,\"value\":0},{\"type\":4,\"value\":50},{\"type\":6,\"value\":300},{\"type\":3,\"value\":200},{\"type\":12,\"value\":1},{\"type\":9,\"value\":60},{\"type\":8,\"value\":200},{\"type\":10,\"value\":200},{\"type\":250,\"value\":0},{\"type\":251,\"value\":0},{\"type\":252,\"value\":0},{\"type\":253,\"value\":0},{\"type\":254,\"value\":0},{\"type\":412,\"value\":999},{\"type\":2,\"value\":200},{\"type\":403,\"value\":999},{\"type\":409,\"value\":999},{\"type\":404,\"value\":999},{\"type\":416,\"value\":999},{\"type\":405,\"value\":999},{\"type\":417,\"value\":999},{\"type\":406,\"value\":999},{\"type\":418,\"value\":999},{\"type\":407,\"value\":999},{\"type\":419,\"value\":999},{\"type\":408,\"value\":999},{\"type\":420,\"value\":999},{\"type\":410,\"value\":999},{\"type\":421,\"value\":999},{\"type\":413,\"value\":999},{\"type\":442,\"value\":999},{\"type\":446,\"value\":999},{\"type\":11,\"value\":1},{\"type\":156,\"value\":-10},{\"type\":152,\"value\":10}]}",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 9,
+      "y": 5,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 47,
+      "faith": 47,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_DEBUFF_ALL",
+        "wait_e": 0,
+        "search": 2,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 35,
+      "iname": "UN_LW_E_SO_03_TIM",
+      "side": 1,
+      "dead": 2,
+      "lv": 99,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 8,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_LW_TIM_S_3_INIT",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_CASTTIME_1_999_D",
+          "rank": 400,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":1,\"value\":3500},{\"type\":5,\"value\":0},{\"type\":7,\"value\":0},{\"type\":4,\"value\":50},{\"type\":6,\"value\":300},{\"type\":3,\"value\":200},{\"type\":12,\"value\":1},{\"type\":9,\"value\":60},{\"type\":8,\"value\":200},{\"type\":10,\"value\":200},{\"type\":250,\"value\":0},{\"type\":251,\"value\":0},{\"type\":252,\"value\":0},{\"type\":253,\"value\":0},{\"type\":254,\"value\":0},{\"type\":412,\"value\":999},{\"type\":2,\"value\":200},{\"type\":403,\"value\":999},{\"type\":409,\"value\":999},{\"type\":404,\"value\":999},{\"type\":416,\"value\":999},{\"type\":405,\"value\":999},{\"type\":417,\"value\":999},{\"type\":406,\"value\":999},{\"type\":418,\"value\":999},{\"type\":407,\"value\":999},{\"type\":419,\"value\":999},{\"type\":408,\"value\":999},{\"type\":420,\"value\":999},{\"type\":410,\"value\":999},{\"type\":421,\"value\":999},{\"type\":413,\"value\":999},{\"type\":442,\"value\":999},{\"type\":446,\"value\":999},{\"type\":11,\"value\":1},{\"type\":157,\"value\":-10}]}",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 8,
+      "y": 1,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 47,
+      "faith": 47,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_DEBUFF_ALL",
+        "wait_e": 0,
+        "search": 2,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 14,
+      "iname": "UN_LW_E_SO_02_TIM",
+      "side": 1,
+      "dead": 2,
+      "lv": 99,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 6,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_LW_TIM_S_1",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_CASTTIME_1_999_D",
+          "rank": 400,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":1,\"value\":3500},{\"type\":5,\"value\":0},{\"type\":7,\"value\":0},{\"type\":4,\"value\":50},{\"type\":6,\"value\":300},{\"type\":3,\"value\":200},{\"type\":12,\"value\":1},{\"type\":9,\"value\":60},{\"type\":8,\"value\":200},{\"type\":10,\"value\":200},{\"type\":250,\"value\":0},{\"type\":251,\"value\":0},{\"type\":252,\"value\":0},{\"type\":253,\"value\":0},{\"type\":254,\"value\":0},{\"type\":412,\"value\":999},{\"type\":2,\"value\":200},{\"type\":403,\"value\":999},{\"type\":409,\"value\":999},{\"type\":404,\"value\":999},{\"type\":416,\"value\":999},{\"type\":405,\"value\":999},{\"type\":417,\"value\":999},{\"type\":406,\"value\":999},{\"type\":418,\"value\":999},{\"type\":407,\"value\":999},{\"type\":419,\"value\":999},{\"type\":408,\"value\":999},{\"type\":420,\"value\":999},{\"type\":410,\"value\":999},{\"type\":421,\"value\":999},{\"type\":413,\"value\":999},{\"type\":442,\"value\":999},{\"type\":446,\"value\":999},{\"type\":11,\"value\":1},{\"type\":151,\"value\":10},{\"type\":155,\"value\":-10}]}",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 12,
+      "y": 6,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 47,
+      "faith": 47,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 2,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 15,
+      "iname": "UN_LW_E_CACT",
+      "side": 1,
+      "dead": 2,
+      "lv": 99,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 4,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_CACT_M_03",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_CACT_M_01",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_PARALYZE_1-100_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_HIT_1_999_U",
+          "rank": 150,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":1,\"value\":1500},{\"type\":5,\"value\":0},{\"type\":7,\"value\":0},{\"type\":4,\"value\":300},{\"type\":6,\"value\":300},{\"type\":3,\"value\":200},{\"type\":12,\"value\":1},{\"type\":9,\"value\":60},{\"type\":8,\"value\":200},{\"type\":10,\"value\":200},{\"type\":250,\"value\":0},{\"type\":251,\"value\":0},{\"type\":252,\"value\":0},{\"type\":253,\"value\":0},{\"type\":254,\"value\":0},{\"type\":153,\"value\":-10},{\"type\":155,\"value\":10},{\"type\":412,\"value\":999},{\"type\":2,\"value\":200},{\"type\":403,\"value\":999},{\"type\":409,\"value\":999},{\"type\":404,\"value\":999},{\"type\":416,\"value\":999},{\"type\":405,\"value\":999},{\"type\":417,\"value\":999},{\"type\":406,\"value\":999},{\"type\":418,\"value\":999},{\"type\":407,\"value\":999},{\"type\":419,\"value\":999},{\"type\":408,\"value\":999},{\"type\":420,\"value\":999},{\"type\":410,\"value\":999},{\"type\":421,\"value\":999},{\"type\":413,\"value\":999},{\"type\":442,\"value\":999},{\"type\":446,\"value\":999},{\"type\":11,\"value\":1}]}",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 6,
+      "y": 3,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 47,
+      "faith": 47,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 2,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 16,
+      "iname": "UN_LW_E_CACT_01",
+      "side": 1,
+      "dead": 2,
+      "lv": 99,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 7,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_CACT_M_03",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_CACT_M_01",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_PARALYZE_1-100_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_HIT_1_999_U",
+          "rank": 150,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":1,\"value\":1500},{\"type\":5,\"value\":0},{\"type\":7,\"value\":0},{\"type\":4,\"value\":300},{\"type\":6,\"value\":300},{\"type\":3,\"value\":200},{\"type\":12,\"value\":1},{\"type\":9,\"value\":60},{\"type\":8,\"value\":200},{\"type\":10,\"value\":200},{\"type\":250,\"value\":0},{\"type\":251,\"value\":0},{\"type\":252,\"value\":0},{\"type\":253,\"value\":0},{\"type\":254,\"value\":0},{\"type\":412,\"value\":999},{\"type\":403,\"value\":999},{\"type\":409,\"value\":999},{\"type\":404,\"value\":999},{\"type\":416,\"value\":999},{\"type\":405,\"value\":999},{\"type\":417,\"value\":999},{\"type\":406,\"value\":999},{\"type\":418,\"value\":999},{\"type\":407,\"value\":999},{\"type\":419,\"value\":999},{\"type\":408,\"value\":999},{\"type\":420,\"value\":999},{\"type\":410,\"value\":999},{\"type\":421,\"value\":999},{\"type\":413,\"value\":999},{\"type\":442,\"value\":999},{\"type\":446,\"value\":999},{\"type\":11,\"value\":1},{\"type\":158,\"value\":-10},{\"type\":2,\"value\":200}]}",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 13,
+      "y": 2,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 47,
+      "faith": 47,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_DEBUFF_ALL",
+        "wait_e": 0,
+        "search": 2,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 34,
+      "iname": "UN_LW_E_SO_01_TIM_01",
+      "side": 1,
+      "dead": 2,
+      "lv": 99,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 5,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_LW_TIM_S_3_INIT",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_CASTTIME_1_999_D",
+          "rank": 400,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":1,\"value\":3500},{\"type\":5,\"value\":0},{\"type\":7,\"value\":0},{\"type\":4,\"value\":300},{\"type\":6,\"value\":300},{\"type\":3,\"value\":200},{\"type\":12,\"value\":1},{\"type\":9,\"value\":60},{\"type\":8,\"value\":200},{\"type\":10,\"value\":200},{\"type\":250,\"value\":0},{\"type\":251,\"value\":0},{\"type\":252,\"value\":0},{\"type\":253,\"value\":0},{\"type\":254,\"value\":0},{\"type\":412,\"value\":999},{\"type\":2,\"value\":200},{\"type\":403,\"value\":999},{\"type\":409,\"value\":999},{\"type\":404,\"value\":999},{\"type\":416,\"value\":999},{\"type\":405,\"value\":999},{\"type\":417,\"value\":999},{\"type\":406,\"value\":999},{\"type\":418,\"value\":999},{\"type\":407,\"value\":999},{\"type\":419,\"value\":999},{\"type\":408,\"value\":999},{\"type\":420,\"value\":999},{\"type\":410,\"value\":999},{\"type\":421,\"value\":999},{\"type\":413,\"value\":999},{\"type\":442,\"value\":999},{\"type\":446,\"value\":999},{\"type\":11,\"value\":1},{\"type\":156,\"value\":10},{\"type\":154,\"value\":-10}]}",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "END",
+      "x": 16,
+      "y": 1,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 47,
+      "faith": 47,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 2,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 17,
+      "iname": "UN_LW_E_CACT_03_GH",
+      "side": 1,
+      "dead": 2,
+      "lv": 99,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 7,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_BTL_DOOM_1_100_U_PA",
+          "rank": 6,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_INV_CTDOWN_1",
+          "rank": 1,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_PARALYZE_1-100_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_HATE_1-100_D_PA",
+          "rank": 10,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":5,\"value\":0},{\"type\":7,\"value\":0},{\"type\":4,\"value\":300},{\"type\":6,\"value\":300},{\"type\":3,\"value\":300},{\"type\":12,\"value\":1},{\"type\":9,\"value\":33},{\"type\":8,\"value\":300},{\"type\":10,\"value\":300},{\"type\":250,\"value\":0},{\"type\":251,\"value\":0},{\"type\":252,\"value\":0},{\"type\":253,\"value\":0},{\"type\":254,\"value\":0},{\"type\":412,\"value\":999},{\"type\":2,\"value\":300},{\"type\":403,\"value\":999},{\"type\":409,\"value\":999},{\"type\":404,\"value\":999},{\"type\":416,\"value\":999},{\"type\":405,\"value\":999},{\"type\":417,\"value\":999},{\"type\":406,\"value\":999},{\"type\":418,\"value\":999},{\"type\":407,\"value\":999},{\"type\":419,\"value\":999},{\"type\":408,\"value\":999},{\"type\":420,\"value\":999},{\"type\":410,\"value\":999},{\"type\":421,\"value\":99},{\"type\":413,\"value\":999},{\"type\":442,\"value\":999},{\"type\":446,\"value\":999},{\"type\":11,\"value\":1},{\"type\":1,\"value\":9999},{\"type\":158,\"value\":-10},{\"type\":155,\"value\":0},{\"type\":153,\"value\":0}]}",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 0,
+      "y": 2,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 22,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "RECIPE",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 1,
+      "y": 5,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 23,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "MAT",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 2,
+      "y": 3,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 24,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "EXP",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 6,
+      "y": 2,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 25,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "FIRE",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 6,
+      "y": 5,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 26,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "WATER",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 11,
+      "y": 6,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 27,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "SHINE",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 10,
+      "y": 2,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 28,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "ICE",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 3,
+      "y": 5,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 29,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "THUNDER",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 11,
+      "y": 4,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 30,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "WIND",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 16,
+      "y": 7,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 31,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "SOIL",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 14,
+      "y": 4,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 32,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "DARK",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    },
+    {
+      "name": "",
+      "x": 15,
+      "y": 1,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "escape_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 33,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 0,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "VBALL",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "dropExpJp": "",
+      "isNoDropInSkip": false,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "",
+      "groupId": "",
+      "infUnit": false,
+      "wave_id": 0
+    }
+  ],
+  "arena": [],
+  "wcond": {
+    "timing": 0,
+    "expr": "QE_EV_TRES_01",
+    "list": [
+      {
+        "self": {
+          "type": 3,
+          "json": "{\"side\":1,\"tag\":\"END\"}"
+        },
+        "childs": []
+      }
+    ]
+  },
+  "lcond": {
+    "timing": 0,
+    "expr": "",
+    "list": [
+      {
+        "self": {
+          "type": 1,
+          "json": "{\"side\":0,\"tag\":\"\"}"
+        },
+        "childs": []
+      }
+    ]
+  },
+  "gcond": [],
+  "drop_table_list": [
+    {
+      "type": 1,
+      "iname": "CRY",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "RECIPE",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_US_SE_AF_LW_01",
+            "num": 1,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "MAT",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_AF_MAT_6_SSR",
+            "num": 2,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "EXP",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_US_EXP_04",
+            "num": 100,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "FIRE",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JBEX_FIRE",
+            "num": 100,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "WATER",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JBEX_WATER",
+            "num": 100,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "SHINE",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JBEX_SHINE",
+            "num": 100,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "ICE",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JBEX_ICE",
+            "num": 100,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "THUNDER",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JBEX_THUNDER",
+            "num": 100,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "WIND",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JBEX_WIND",
+            "num": 100,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "SOIL",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JBEX_SOIL",
+            "num": 100,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "DARK",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JBEX_DARK",
+            "num": 100,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "VBALL",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_AW_VBALL_UR",
+            "num": 1,
+            "subNum1": 0,
+            "secret": 0
+          },
+          "weight": 10
+        }
+      ]
+    }
+  ],
+  "enemy_group": []
+}
